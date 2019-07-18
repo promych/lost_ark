@@ -1,10 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/ui/cupertino_navbar.dart';
 
 import 'package:provider/provider.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 
-import '../managers/skill_manager.dart';
+import '../managers/app_manager.dart';
 import '../screens/tripod_page.dart';
 import '../ui/skill_tile.dart';
 // import '../data/skill_data.dart';
@@ -12,24 +13,20 @@ import '../ui/skill_tile.dart';
 class SkillsPage extends StatelessWidget {
   static const routeName = '/skills';
 
-  final String className;
+  // final String className;
 
-  const SkillsPage({@required this.className});
+  // const SkillsPage({@required this.className});
 
   @override
   Widget build(BuildContext context) {
-    final skills = Provider.of<SkillManager>(context, listen: false)
-        .getSkillsByClassName(className);
+    final app = Provider.of<AppManager>(context, listen: false);
+    final className = app.getSelectedClass.name;
+    final skills = app.skills.getSkillsByClassName(className);
 
     return CupertinoPageScaffold(
-      navigationBar: CupertinoNavigationBar(
-        backgroundColor: Colors.transparent,
-        actionsForegroundColor: Colors.white,
-        previousPageTitle: 'Classses',
-        middle: Text(
-          className,
-          style: TextStyle(color: Colors.white),
-        ),
+      navigationBar: MyCupertinoNavBar(
+        backTitle: 'Classes',
+        title: className,
         trailing: GestureDetector(
           child: Text('Save'),
           onTap: () {},

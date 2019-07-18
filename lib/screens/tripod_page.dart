@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lost_ark/models/skill.dart';
 import 'package:provider/provider.dart';
 
-import '../managers/skill_manager.dart';
+import '../managers/app_manager.dart';
 import '../ui/skill_tile.dart';
 // import '../data/skill_data.dart';
 
@@ -13,7 +13,8 @@ class TripodPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final skill = Provider.of<SkillManager>(context, listen: false)
+    final skill = Provider.of<AppManager>(context, listen: false)
+        .skills
         .getSkillByName(skillName);
 
     return Scaffold(

@@ -7,6 +7,7 @@ class CharacterClass {
   final String weapon;
   final Map<String, int> stats;
   final IconData icon;
+  final String imagePath;
 
   CharacterClass({
     @required this.name,
@@ -15,7 +16,8 @@ class CharacterClass {
     @required this.weapon,
     @required this.stats,
     @required this.icon,
-  });
+  }) : imagePath =
+            'assets/img/class_${name.replaceAll(' ', '').toLowerCase()}.png';
 
   factory CharacterClass.fromJson(Map<String, dynamic> json) {
     return CharacterClass(
@@ -28,13 +30,3 @@ class CharacterClass {
     );
   }
 }
-
-// class CharacterStat {
-//   final String name;
-//   final int value;
-
-//   CharacterStat({
-//     @required this.name,
-//     @required this.value,
-//   });
-// }

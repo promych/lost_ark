@@ -1,9 +1,7 @@
-import 'package:flutter/foundation.dart';
-
 import '../models/class.dart';
 import '../helpers/lost_ark_icons.dart';
 
-class ClassManager extends ChangeNotifier {
+class ClassManager {
   List<CharacterClass> _classList;
 
   ClassManager.instance()
@@ -16,6 +14,8 @@ class ClassManager extends ChangeNotifier {
         'Hunter',
         'Magician',
       ];
+
+  // Future<List<CharacterClass>> _fetchClassList() async => await _classData.map((item) => CharacterClass.fromJson(item)).toList();
 
   List<CharacterClass> get getAllClasses => _classList;
 
@@ -228,7 +228,7 @@ const List<Map<String, dynamic>> _classData = [
     'archetypeRU': 'В��ин',
     'description': 'Destroyer, destroys his enemies!',
     'descriptionRU':
-        'В руках сок����шителя огромный молот, заряженный энергией молний. Пусть это�� воин кажется непово��отливым, зато одного его удара достаточно, чтобы сровнять противника с землей.',
+        'В руках сок����шителя огромный молот, заряженн��й энергией молний. Пусть это�� воин кажется непово��отливым, зато одного его удара достаточно, чтобы сровнять противника с землей.',
     'weapon': 'Hammer',
     'stats': {
       'control': 2,

@@ -1,9 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/ui/cupertino_navbar.dart';
 
 import 'package:provider/provider.dart';
 
-import '../managers/class_manager.dart';
+import '../managers/app_manager.dart';
 import '../models/class.dart';
 import '../helpers/spider_chart.dart';
 import 'skills_page.dart';
@@ -11,31 +12,23 @@ import 'skills_page.dart';
 class ClassPage extends StatelessWidget {
   static const routeName = '/class';
 
-  final String className;
+  // final String className;
 
-  const ClassPage({@required this.className});
+  // const ClassPage({@required this.className});
 
   @override
   Widget build(BuildContext context) {
     final CharacterClass classData =
-        Provider.of<ClassManager>(context, listen: false)
-            .getClassByName(className);
+        Provider.of<AppManager>(context, listen: false).getSelectedClass;
+    // .classes
+    // .getClassByName(className);
 
     return CupertinoPageScaffold(
-      navigationBar: CupertinoNavigationBar(
-        automaticallyImplyMiddle: false,
-        backgroundColor: Colors.transparent,
-        actionsForegroundColor: Colors.white,
-        previousPageTitle: 'Classes',
+      navigationBar: MyCupertinoNavBar(
+        backTitle: 'Classes',
         trailing: GestureDetector(
           child: Text('Skills'),
-          onTap: () => Navigator.of(context).pushReplacement(
-            MaterialPageRoute(
-              builder: (_) => SkillsPage(
-                className: className,
-              ),
-            ),
-          ),
+          onTap: () => Navigator.of(context).pushReplacementNamed('/skills'),
         ),
       ),
       child: SafeArea(
@@ -46,9 +39,7 @@ class ClassPage extends StatelessWidget {
               child: ConstrainedBox(
                 constraints: BoxConstraints(
                     maxHeight: MediaQuery.of(context).size.height),
-                child: Image.asset(
-                  'assets/img/class_${className.replaceAll(' ', '').toLowerCase()}.png',
-                ),
+                child: Image.asset(classData.imagePath),
               ),
             ),
             SingleChildScrollView(
@@ -58,7 +49,7 @@ class ClassPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      className,
+                      classData.name,
                       style: Theme.of(context).textTheme.display3,
                     ),
                     SizedBox(height: 20.0),

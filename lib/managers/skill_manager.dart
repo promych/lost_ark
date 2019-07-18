@@ -1,8 +1,6 @@
-import 'package:flutter/foundation.dart';
-
 import '../models/skill.dart';
 
-class SkillManager extends ChangeNotifier {
+class SkillManager {
   List<Skill> _skills;
 
   SkillManager.instance()
