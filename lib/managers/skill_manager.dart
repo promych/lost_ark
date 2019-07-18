@@ -1,10 +1,16 @@
+import 'package:flutter/widgets.dart';
+
 import '../models/skill.dart';
 
-class SkillManager {
+class SkillManager extends ChangeNotifier {
   List<Skill> _skills;
 
-  SkillManager.instance()
-      : _skills = _skillsData.map((json) => Skill.fromJson(json)).toList();
+  SkillManager(this._skills);
+
+  Future<void> fetchSkills() async {
+    await Future.delayed(Duration(seconds: 2));
+    _skills = _skillsData.map((json) => Skill.fromJson(json)).toList();
+  }
 
   List<Skill> get getAllSkills => _skills;
 

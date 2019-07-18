@@ -1,9 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/managers/class_manager.dart';
 
-import 'package:lost_ark/managers/app_manager.dart';
 import 'package:provider/provider.dart';
-import '../screens/class_page.dart';
+
+import '../managers/app_manager.dart';
 
 class ClassListTile extends StatelessWidget {
   final String name;
@@ -40,7 +41,7 @@ class ClassListTile extends StatelessWidget {
             ),
           ),
           onTap: () {
-            Provider.of<AppManager>(context).selectClass(name);
+            Provider.of<ClassManager>(context).selectClass(name);
             Navigator.of(context).pushNamed('/class');
           }),
     );

@@ -1,12 +1,15 @@
+import 'package:flutter/widgets.dart';
+
 import '../models/class.dart';
 import '../helpers/lost_ark_icons.dart';
 
-class ClassManager {
+class ClassManager extends ChangeNotifier {
   List<CharacterClass> _classList;
+  CharacterClass _selectedClass;
 
-  ClassManager.instance()
-      : _classList =
-            _classData.map((item) => CharacterClass.fromJson(item)).toList();
+  ClassManager(this._classList);
+  // : _classList =
+  //       _classData.map((item) => CharacterClass.fromJson(item)).toList();
 
   List<String> get getArchetypes => [
         'Warrior',
@@ -15,7 +18,11 @@ class ClassManager {
         'Magician',
       ];
 
-  // Future<List<CharacterClass>> _fetchClassList() async => await _classData.map((item) => CharacterClass.fromJson(item)).toList();
+  Future<void> fetchClassList() async {
+    await Future.delayed(Duration(seconds: 2));
+    _classList =
+        _classData.map((item) => CharacterClass.fromJson(item)).toList();
+  }
 
   List<CharacterClass> get getAllClasses => _classList;
 
@@ -24,6 +31,15 @@ class ClassManager {
 
   CharacterClass getClassByName(String name) =>
       _classList.where((item) => item.name == name).first;
+
+  CharacterClass get getSelectedClass {
+    return _selectedClass ?? _classList.first;
+  }
+
+  selectClass(String name) {
+    _selectedClass = getClassByName(name);
+    notifyListeners();
+  }
 }
 
 const List<Map<String, dynamic>> _classData = [
@@ -209,7 +225,7 @@ const List<Map<String, dynamic>> _classData = [
     'description':
         'The Warlord is a knight with strong armor. Even while soaking damage he has a number of attacks with his lance and shield.',
     'descriptionRU':
-        'Полководец всегда первым врывается в бой. Самых дерзких противников остудит сталь его щита, а беглецов добьет залп пулебарды – копья со встроенной винтовкой.',
+        'Полководец всегда первым врывается в бой. Самых дерзких противников остудит сталь его щита, а беглецов добьет залп пулебарды – к��пья со встроенной винтовкой.',
     'weapon': 'Gunlance',
     'stats': {
       'control': 3,

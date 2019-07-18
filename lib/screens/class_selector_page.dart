@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/managers/class_manager.dart';
 import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
@@ -11,12 +12,13 @@ class ClassSelectorPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final classes =
-        Provider.of<AppManager>(context, listen: false).classes.getAllClasses;
+    final classManager = Provider.of<ClassManager>(context, listen: false);
+    final classes = classManager.getAllClasses;
 
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(
         backTitle: 'Home',
+        title: 'Classes',
         trailing: GestureDetector(
           child: Icon(Icons.list),
           onTap: () =>
@@ -26,21 +28,24 @@ class ClassSelectorPage extends StatelessWidget {
       child: SafeArea(
         child: Column(
           children: [
-            Text(
-              'Classes',
-              style: Theme.of(context).textTheme.display3,
-            ),
+            // Text(
+            //   'Classes',
+            //   style: Theme.of(context).textTheme.display3,
+            // ),
             Expanded(
               child: PageView.builder(
                 itemCount: classes.length,
                 itemBuilder: (_, int index) {
                   return Center(
-                    child: Container(
+                    child: GestureDetector(
                       child: Column(
                         children: [
                           Container(
                             height: MediaQuery.of(context).size.height * 0.7,
-                            child: Image.asset(classes[index].imagePath),
+                            child: Hero(
+                              tag: 'img-${classes[index].name}',
+                              child: Image.asset(classes[index].imagePath),
+                            ),
                           ),
                           Material(
                             type: MaterialType.transparency,
@@ -51,6 +56,10 @@ class ClassSelectorPage extends StatelessWidget {
                           ),
                         ],
                       ),
+                      onTap: () {
+                        classManager.selectClass(classes[index].name);
+                        Navigator.of(context).pushNamed('/class');
+                      },
                     ),
                   );
                 },

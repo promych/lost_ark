@@ -2,6 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/managers/class_manager.dart';
 import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
@@ -13,7 +14,7 @@ class ClassListPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final classes = Provider.of<AppManager>(context, listen: false).classes;
+    final classes = Provider.of<ClassManager>(context, listen: false);
 
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(

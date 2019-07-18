@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/managers/class_manager.dart';
+import 'package:lost_ark/managers/skill_manager.dart';
 import 'package:lost_ark/ui/cupertino_navbar.dart';
 
 import 'package:provider/provider.dart';
@@ -19,9 +21,10 @@ class SkillsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final app = Provider.of<AppManager>(context, listen: false);
-    final className = app.getSelectedClass.name;
-    final skills = app.skills.getSkillsByClassName(className);
+    final className =
+        Provider.of<ClassManager>(context, listen: false).getSelectedClass.name;
+    final skills = Provider.of<SkillManager>(context, listen: false)
+        .getSkillsByClassName(className);
 
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(

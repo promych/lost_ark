@@ -1,24 +1,31 @@
 import 'package:flutter/cupertino.dart';
-import 'package:lost_ark/managers/class_manager.dart';
-import 'package:lost_ark/managers/skill_manager.dart';
-import 'package:lost_ark/models/class.dart';
+
+import '../managers/class_manager.dart';
+import '../managers/skill_manager.dart';
+import '../models/class.dart';
+
+enum Status { Uninitialized, Loading, Loaded, Error }
 
 class AppManager extends ChangeNotifier {
-  ClassManager _classManager;
-  SkillManager _skillManager;
+  // ClassManager _classManager;
+  // SkillManager _skillManager;
 
-  AppManager.instance()
-      : _classManager = ClassManager.instance(),
-        _skillManager = SkillManager.instance();
+  Status _status = Status.Uninitialized;
 
-  ClassManager get classes => _classManager;
-  SkillManager get skills => _skillManager;
+  AppManager.instance();
+  //     : _classManager = ClassManager.instance(),
+  //       _skillManager = SkillManager.instance() {
+  //   print('appload');
+  //   _status = Status.Loading;
+  //   notifyListeners();
+  //   _classManager.fetchClassList();
+  //   _skillManager.fetchSkills();
+  //   _status = Status.Loaded;
+  //   notifyListeners();
+  // }
 
-  CharacterClass _selectedClass;
-  CharacterClass get getSelectedClass =>
-      _selectedClass ?? _classManager.getAllClasses.first;
-  selectClass(String name) {
-    _selectedClass = _classManager.getClassByName(name);
-    notifyListeners();
-  }
+  Status get status => _status;
+  // ClassManager get classes => _classManager;
+  // SkillManager get skills => _skillManager;
+
 }
