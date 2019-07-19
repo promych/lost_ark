@@ -459,6 +459,814 @@ const List<Map<String, dynamic>> _skillsData = [
     ],
   },
   {
+    'name': 'Leap Attack',
+    'class': 'Warlord',
+    'description':
+        'Leap high in the air towards a target location, and inflict [ ] damage to nearby foes upon landing.',
+    'type': 'Point',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/warlord/c01s06.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Damage Increased',
+            'description': 'Increases damage by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Reduces the cooldown by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Superior Mobility',
+            'description': 'Increases the skill range by 2m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Great Earthquake',
+            'description':
+                'You create an earthquake on your landing that slows enemies by 40% for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_15.png',
+          },
+          {
+            'name': 'Electric Zone',
+            'description':
+                '[Lightning] Upon landing you create a lightning zone that remains 5 seconds. Enemies in the area receive damage every second.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+          },
+          {
+            'name': 'Shockwave',
+            'description':
+                'You create a shockwave on your landing, dealing 20% ​​more damage and throwing enemies into the air. PVP: Causes stiffness instead of hard cc.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_77.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Low Shock',
+            'description':
+                'You can relaunch the skill a second time to jump again.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+          },
+          {
+            'name': 'Jump',
+            'description':
+                'You gather your forces before jumping, increasing the range to 18m and the damage done by 30%. The effect areas of Tier 2 talent are increased by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Guardian\'s Lighting',
+    'class': 'Warlord',
+    'description':
+        'Slams your shield down and deals [] damage to nearby enemies. Decreases enemies movement and attack speed by 20% for 4 seconds.',
+    'type': 'Normal',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/warlord/c01s07.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mana Control',
+            'description': '50% chance to not consume MP.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Unquenchable Heat',
+            'description':
+                '50% chance to reduce the cooldown by 8 seconds when the skill hits an enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Lucky Damage',
+            'description':
+                'An additional lightning strikes to inflict 80% of the damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Tenacity',
+            'description':
+                'You become immune to control effects during the launch.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+          {
+            'name': 'Strengthened Blow',
+            'description': 'Increases damage by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Wide Strike',
+            'description': 'Increases the attack radius by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Second Wave',
+            'description':
+                'The skill turns into chain skill that can be repeated immediately. The The second hit’s damage is increased by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Electrocution',
+            'description': 'Increases the duration of electrocution by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_51.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Chain Hook',
+    'class': 'Warlord',
+    'description':
+        'Throws a chain hook to your target and deals [] damage, then pulls your target towards you and deals [] damage.',
+    'type': 'Notmal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/warlord/c01s08.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Decreases skill cooldown by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Mind Enhancement',
+            'description': 'Decrease MP consumption by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Damage Increased',
+            'description': 'Increases damage by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Sharpened Chain Hook',
+            'description': 'Inflicts bleeding on the target for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+          },
+          {
+            'name': 'Shackles',
+            'description': 'Reduces enemy movement speed by 40% for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+          },
+          {
+            'name': 'Offensive Preparation',
+            'description': 'Increases your attack power by 25% for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Drill Master',
+            'description': 'Increases the area of effect by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+          {
+            'name': 'Taunt',
+            'description':
+                'A successful hit taunts a monster that has immunity of the crowd control effects for 2 seconds. Upper grade [seed grade] monsters cannot be taunted again for a certain duration of time.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_33.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Shield Charge',
+    'class': 'Warlord',
+    'description':
+        'The caster raises their shield and charges forward. Each hit causes [ ] damage to foes and knocks them back. Causes stiffness instead of hard cc.',
+    'type': 'Hold 2 sec',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/warlord/c01s09.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Improved Armor',
+            'description':
+                'Gain a 30% damage reduction bonus while you are performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Decreases skill cooldown by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Damage Increased',
+            'description': 'Increases damage by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Drill Master',
+            'description': 'Increases the area of effect by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Barrier',
+            'description':
+                'During the charge, create a barrier that absorbs 15% of your maximum health.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+          },
+          {
+            'name': 'Light Steps',
+            'description': 'Travel speed is increased by 5% during charging.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Unfinished Business',
+            'description':
+                'Thrust a spear after the shield charge, dealing 40% additional damage. The target is lifted into the air.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+          },
+          {
+            'name': 'Destructive Weapon',
+            'description':
+                'Each hit grant a 10% damage bonus for 2 seconds. This bonus stacks up to 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_2.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Charge Stinger',
+    'class': 'Warlord',
+    'description':
+        'You charge your electric energy lance before you quickly shoot forward to hit the enemies. You can change direction slowly while loading the skill. It can also be charged 3 times to inflict more and more damage.',
+    'type': 'Charge',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/warlord/c01s10.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Wound',
+            'description':
+                'Inflicts Bleeding for 3 seconds if the skill deals a critical hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.png',
+          },
+          {
+            'name': 'Weak Spot',
+            'description': 'Increases the damage done to your enemies by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+          },
+          {
+            'name': 'Improved Armor',
+            'description':
+                'Gain a 20% damage reduction bonus while you are performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Improved Penetration',
+            'description': 'Increases the penetration level by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_21.png',
+          },
+          {
+            'name': 'Improved Charging',
+            'description':
+                'Each level of the charging gauge increases the damage dealt by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Toughness',
+            'description':
+                'The caster becomes Invulnerable to crowd control effects while performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Lightning Charge',
+            'description':
+                'The charging level starts at 2, and overcharging causes an electric shock to your target for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_17.png',
+          },
+          {
+            'name': 'Last Charge',
+            'description':
+                'Increases the maximum charging level by 1. At the maximum level, you travel faster, further, and deal 40% increased damage, followed by an artillery hit that also deals 40% increased damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Shout of Hate',
+    'class': 'Warlord',
+    'description':
+        'Inflicts [ ] damage to a maximum of 12 enemies within 8m. This also taunts monsters for 2 seconds.',
+    'type': 'Normal',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/warlord/c01s11.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Decreases skill cooldown by 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Drill Master',
+            'description': 'Increases the area of effect by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Defense Preparation',
+            'description': 'All damage you receive is reduced by  20% for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Keep Provocation',
+            'description': 'The duration of provocation increases by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+          {
+            'name': 'Natural Selection',
+            'description':
+                'Increases the damage dealt on lower grade monsters by 200%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.png',
+          },
+          {
+            'name': 'Protective Shield',
+            'description':
+                'Creates a protective shield for 3 seconds which absorbs up to 30% of the caster’s maximum health worth of damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Morale Boost',
+            'description':
+                'Increases the attack strength of your party and party members in the 24m range by 40% for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.png',
+          },
+          {
+            'name': 'Shout',
+            'description':
+                'Reduces the movement speed and attack power of inflicted enemies by 30% for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_46.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Turbulent Shield',
+    'class': 'Warlord',
+    'description':
+        'Stab the spear that deals [ ] damage, charges fire power on the spear, and pulling the enemy []. Once the caster reaches max charge level, the caster shoots [ ] the enemy and knock the enemy back.',
+    'type': 'Normal',
+    'cooldown': 12,
+    'iconUrl': 'assets/icons/warlord/c01s12.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Response',
+            'description': 'Decreases the skill cooldown by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Swift Movement',
+            'description': 'Increase attack speed by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Destroy Armor',
+            'description': 'Reduces the target’s attack power by 20% for 10s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Improved Strike',
+            'description': 'Increases damage done by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Earthquake',
+            'description':
+                'Reduces attack speed to 40% and movement speed to 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+          },
+          {
+            'name': 'Defense Preparation',
+            'description':
+                'Reduces damage taken by 15% for 10 seconds if the skill hits an enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Second Crash',
+            'description':
+                'The skill can be cast twice, then you make a second hit that deals 100% of the damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Assault',
+            'description':
+                'You jump on 5 meters before hitting the ground, inflicting 50% more damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Counter Spear',
+    'class': 'Warlord',
+    'description':
+        'Raise your shield to defend yourself from any harmful attack in front of you for 2 seconds. Absorbs damage by an amount equal to your maximum health. Successfully defending for 1 second grants a counter attack on the enemy which deals [] damage and knocks them back',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/warlord/c01s13.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Offensive Preparation',
+            'description':
+                'A successful counter hit grants a 15% damage increase for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+          },
+          {
+            'name': 'Improved Armor',
+            'description':
+                'Gain a 30% damage reduction bonus while you are performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Incapacitate',
+            'description':
+                'Increases the Incapacitate effect by 1 in the event of a successful counterattack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Quick Response',
+            'description':
+                'Decreases the skill cooldown by 8 seconds and but reduces the damage dealt by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+          },
+          {
+            'name': 'Improved Strike',
+            'description': 'Increases damage by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Spot Weakness',
+            'description':
+                'Increases the damage dealt to targets with the Invulnerable status by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Bombardment',
+            'description':
+                'A successful counter hit grants an extra artillery hit which deals 50% increased damage on the target.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Lightning Spear',
+            'description':
+                'A successful counter hit grants an extra attack with the spear. The attack deals magical damage instead of physical and knocks the target down. The target is also inflicted with an electric shock for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_17.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Strength of Nellasia',
+    'class': 'Warlord',
+    'description':
+        'Reduces all damage done by you and your party members by 10 to 25% for 6 seconds.',
+    'type': 'Normal',
+    'cooldown': 40,
+    'iconUrl': 'assets/icons/warlord/c01s14.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Charge Speed',
+            'description': 'Increases your movement speed by 15% for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+          },
+          {
+            'name': 'Mind Enhancement',
+            'description': 'Decrease MP consumption by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Increase Effectiveness',
+            'description':
+                'An additional 25% increase in damage reduced by Nelacia’s energy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_24.png',
+          },
+          {
+            'name': 'Cleanse',
+            'description':
+                'Cleanses all party members, removing one harmful effect.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+          },
+          {
+            'name': 'Prolonged Effect',
+            'description': 'Increases the duration of the effect by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Leadership',
+            'description': 'Increases your attack power by 40% for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+          {
+            'name': 'Survivability',
+            'description':
+                'Creates a protective shield on all party members which absorbs damage equal to 20% of their maximum health. The shield lasts for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Spear Shot',
+    'class': 'Warlord',
+    'description':
+        'After a forward thrust, you load its end of energy that attracts enemies before exploding to inflict damage and repel them.',
+    'type': 'Normal',
+    'cooldown': 12,
+    'iconUrl': 'assets/icons/warolord/c01s15.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Controlling Mana',
+            'description': 'Grants a 30% chance to ignore mana consumption.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Swift Movement',
+            'description': 'Increases attack speed by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Tenacity',
+            'description':
+                'You become immune to control effects during the launch.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Strengthened Blow',
+            'description': 'Increases damage by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Detect Weakness',
+            'description':
+                'Increases damage by 40% against enemies immune to control effects.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+          {
+            'name': 'Penetration',
+            'description': 'Increases Penetration Level by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_21.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Exploding Spear',
+            'description':
+                'You charge 4 meters before attacking with your spear, which causes an explosion that deals 40% additional damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Close-Range Explosion',
+            'description':
+                'The skill can be loaded. At second charge, deals 25% additional damage. At third charge, deals 105% additional damage. On the other hand, the first charge deals 20% less damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Burst Cannon',
+    'class': 'Warlord',
+    'description':
+        'Fires your cannon in front of you. When the burst gauge is fully charged, it deals [] damage your target and knocks them down. When not fully charged, it deals [] damage and pushes the target back.',
+    'type': 'Normal',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/warlord/c01s16.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Penetrating Shot',
+            'description': 'Ignore 40% of the physical defense of enemies.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+          },
+          {
+            'name': 'Scatter Shot',
+            'description':
+                'You shoot cone-shaped, increasing damage by 30% against enemies of lower rank than Named. The area of ​​effect is increased by 20% and the enemies are no longer repulsed.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_61.png',
+          },
+          {
+            'name': 'High Explosive',
+            'description':
+                'During your shot, you launch a bomb that moves 2 meters before exploding. The bomb has a Destruction Level 1 effect, and deals 50% additional damage to normal and lower monsters.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Precise Shot',
+            'description':
+                'The success bar becomes smaller, but if successful, the attack deals 40% more damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_72.png',
+          },
+          {
+            'name': 'Fixed Attack',
+            'description':
+                'Becomes a normal skill, which shortens the time before reaching the area of ​​success.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_38.png',
+          },
+          {
+            'name': 'Overcharge',
+            'description':
+                'Becomes a competence with charge. The first charge guarantees the Perfect effect, and the second charge increases the damage by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Spinning Fire',
+            'description':
+                'You make a turn on yourself and shoot 4 times. Each time you hit an enemy, the cooldown is reduced by 1 second, with a maximum of 15 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Concentrated Strike',
+            'description':
+                'Fires your cannon 4 times into the front. Each shots deals 50% increased damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
     'name': 'Double Slash',
     'class': 'Berserker',
     'description':
