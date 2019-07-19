@@ -1,11 +1,11 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/managers/skill_manager.dart';
+import 'package:lost_ark/models/build.dart';
 import 'package:lost_ark/models/skill.dart';
 import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
 import '../ui/skill_tile.dart';
-// import '../data/skill_data.dart';
 
 class TripodPage extends StatelessWidget {
   final String skillName;
@@ -14,11 +14,11 @@ class TripodPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final skill = Provider.of<SkillManager>(context, listen: false)
+    final skill = Provider.of<AppManager>(context, listen: true)
         .getSkillByName(skillName);
 
-    return Scaffold(
-      body: SafeArea(
+    return CupertinoPageScaffold(
+      child: SafeArea(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(10.0),
           child: Column(
@@ -32,19 +32,24 @@ class TripodPage extends StatelessWidget {
               Divider(),
               Text(
                 'Cooldown: ${skill.cooldown}',
-                style: Theme.of(context).textTheme.subhead,
+                style: TextStyle(
+                    fontSize: 20.0,
+                    color: CupertinoTheme.of(context).primaryColor),
               ),
               SizedBox(height: 10.0),
               Text(
                 '${skill.description}',
-                style: Theme.of(context).textTheme.subhead,
+                style: TextStyle(
+                    fontSize: 16.0,
+                    color: CupertinoTheme.of(context).primaryColor),
               ),
               for (var i = 0; i < 3; ++i)
                 _TierRow(
-                  tripod: skill.tripod.elementAt(i),
+                  skillName: skillName,
+                  tier: skill.tripod.elementAt(i),
                 ),
               Center(
-                child: RaisedButton(
+                child: CupertinoButton(
                   child: Text('DONE'),
                   onPressed: () => Navigator.of(context).pop(),
                 ),
@@ -58,9 +63,10 @@ class TripodPage extends StatelessWidget {
 }
 
 class _TierRow extends StatelessWidget {
-  final Tripod tripod;
+  final String skillName;
+  final EnchancementTier tier;
 
-  const _TierRow({@required this.tripod});
+  const _TierRow({@required this.skillName, @required this.tier});
 
   @override
   Widget build(BuildContext context) {
@@ -68,20 +74,48 @@ class _TierRow extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 20.0),
       child: Column(
         children: [
-          Text('Tier ${tripod.tier}'),
-          SizedBox(height: 30.0),
+          Text(
+            'Tier ${tier.tier}',
+            style: TextStyle(
+                fontSize: 20.0, color: CupertinoTheme.of(context).primaryColor),
+          ),
+          SizedBox(height: 20.0),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              for (var enchancement in tripod.enchancements)
+              for (var enchancement in tier.enchancements)
                 Expanded(
                   child: Container(
                     child: Column(
                       children: [
-                        Image.asset(enchancement.iconUrl),
+                        GestureDetector(
+                          child: CircleAvatar(
+                            backgroundColor: Colors.transparent,
+                            radius: 32.0,
+                            child: CircleAvatar(
+                              radius: 32.0,
+                              backgroundColor: CupertinoTheme.of(context)
+                                  .scaffoldBackgroundColor,
+                              child: Image.asset(enchancement.iconUrl),
+                            ),
+                          ),
+                          onTap: () {
+                            Provider.of<AppManager>(context, listen: false)
+                                .addToBuild(
+                              BuildItem(
+                                skillName: skillName,
+                                enchancements: [enchancement.name],
+                              ),
+                            );
+                          },
+                        ),
                         SizedBox(height: 10.0),
                         Text(
                           enchancement.name,
+                          style: TextStyle(
+                              fontSize: 16.0,
+                              color: CupertinoTheme.of(context).primaryColor),
                           textAlign: TextAlign.center,
                         )
                       ],

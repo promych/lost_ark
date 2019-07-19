@@ -1,24 +1,10 @@
-import 'package:flutter/widgets.dart';
-
 import '../models/skill.dart';
 
-class SkillManager extends ChangeNotifier {
-  List<Skill> _skills;
-
-  SkillManager(this._skills);
-
-  Future<void> fetchSkills() async {
-    await Future.delayed(Duration(seconds: 2));
-    _skills = _skillsData.map((json) => Skill.fromJson(json)).toList();
+class SkillRepo {
+  Future<List<Skill>> fetchSkills() async {
+    await Future.delayed(Duration(seconds: 1));
+    return _skillsData.map((json) => Skill.fromJson(json)).toList();
   }
-
-  List<Skill> get getAllSkills => _skills;
-
-  List<Skill> getSkillsByClassName(String name) =>
-      _skills.where((item) => item.className == name).toList();
-
-  Skill getSkillByName(String name) =>
-      _skills.where((item) => item.name == name).first;
 }
 
 const List<Map<String, dynamic>> _skillsData = [
@@ -1124,7 +1110,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'After a forward thrust, you load its end of energy that attracts enemies before exploding to inflict damage and repel them.',
     'type': 'Normal',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/warolord/c01s15.png',
+    'iconUrl': 'assets/icons/warlord/c01s15.png',
     'tripod': [
       {
         'tier': 1,
@@ -1481,6 +1467,1091 @@ const List<Map<String, dynamic>> _skillsData = [
             'description':
                 'It rotates at the time of the rise, attacking the area of ​​360 degrees, and changes to the attack that takes a snap while it falls down. Damage to enemies increases by 75%.',
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Finishing Strike',
+    'class': 'Berserker',
+    'description': 'Deals huge damage with his sword.',
+    'type': 'Normal',
+    'cooldown': 18,
+    'iconUrl': 'assets/icons/berserker/c02s03.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Strength',
+            'description': 'During casting, gain immunity to CC.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+          },
+          {
+            'name': 'Internal Bleeding',
+            'description': 'Applies a 5s bleed on hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.png',
+          },
+          {
+            'name': 'Enhanced Blow',
+            'description':
+                'Increases attack time by 0.5s but increases your damage done by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Finish Him',
+            'description':
+                'Increases damage done to enemies with health by less than 50% by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+          },
+          {
+            'name': 'Muscle Cramps',
+            'description': 'The enemy\'s fallen state is increased by 1s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+          {
+            'name': 'Internal Bleeding',
+            'description': 'Increases damage done to target by 20% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Shockwave',
+            'description':
+                'After the attack, the shock wave will rise and give an additional 20% damage twice. At this time, if the target is abnormal, damage caused by shock waves increases to 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+          {
+            'name': 'Confirm Kill',
+            'description':
+                'Combo attack is changed. The second attack deals 150% damage to the enemy, but the cooldown increases by 6 seconds. Also, the delay time is shortened so that the next action can be continued more quickly after the second attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Shoulder Charge',
+    'class': 'Berserker',
+    'description': 'Charge forward, inflicting damage to enemies on the way.',
+    'type': 'Normal',
+    'cooldown': 14,
+    'iconUrl': 'assets/icons/berserker/c02s04.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Shield effect',
+            'description':
+                'Summons the power when casting a skill, creating a shield that absorbs up to 15% of maximum health for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_75.png',
+          },
+          {
+            'name': 'Burning Rage',
+            'description':
+                ' When casting a skill, it is surrounded by fire, attacking nearby enemies with a 10% damage per second for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+          },
+          {
+            'name': 'Excellent Mobility',
+            'description': 'Dash distance increases by 2m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Rush',
+            'description':
+                'Changed to a chain skill that can be used continuously up to 2 times, but the cooldown time increases by 10 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_38.png',
+          },
+          {
+            'name': 'Hit',
+            'description':
+                'The final attack is added, dealing 100 % damage and knockdown.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+          },
+          {
+            'name': 'Scraping',
+            'description':
+                'Changes to an attack that travels fast forward and cuts enemies on the path.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Earthquake',
+            'description':
+                'Element changed to Earth, roll the foot after a run,  it gives 30% damage in the radius of 5m radius, and makes the earthquake for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.png',
+          },
+          {
+            'name': 'Anger Explosion',
+            'description':
+                'Element changed to Fire, causing explosion with shout after rushing, causing 100% damage within 5m radius and float in the air.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Whirlwind',
+    'class': 'Berserker',
+    'description': 'Spin with your sword to deals damage over 4 seconds.',
+    'type': 'Hold 4 sec',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/berserker/c02s05.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Lightfoot',
+            'description':
+                'Increases movement speed by 10% while using the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+          },
+          {
+            'name': 'Sustainability',
+            'description': 'Holding duration increases to a maximum of 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_42.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description':
+                'The cooldown time is reduced by 12 seconds, but the holding hold time is reduced to a maximum of 2 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Forward Cut',
+            'description':
+                'When casting a skill, move 4m forward and add 20% damage. Reduces cooldown for reuse or reduction in loss of capacity due to skill cancellation does not apply.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+          },
+          {
+            'name': 'Chain Wheel',
+            'description':
+                'As you continually attack an enemy, your damage will increase by 6% (per strike), up to 60% total.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+          },
+          {
+            'name': 'Cleft Blade',
+            'description':
+                'An additional attack range equivalent to 40 % of the attack range is created outside of Wheelwind. The range increases damage by 40 %.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Vacuum Cut',
+            'description':
+                'Attack range is increased by 20%, attack rate is doubled, but damage is reduced by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+          {
+            'name': 'Hurricane',
+            'description':
+                'A whirlwind is created when the skill is released in the perfect zone. The whirlwind inflicts 40% damage if it strikes an enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Power Break',
+    'class': 'Berserker',
+    'description':
+        'Concentrate energy into the sword to deal damage and knockback enemies.',
+    'type': 'Normal',
+    'cooldown': 18,
+    'iconUrl': 'assets/icons/berserker/c02s06.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Critical Hit',
+            'description': 'Increases Critical Hit Rate by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+          {
+            'name': 'Sleek Motion',
+            'description': 'Attack speed increased by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Mental Fortification',
+            'description': 'Mana cost reduced by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Ranged Blow',
+            'description': 'Attack range increased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Enhanced Strike',
+            'description': 'Damage to enemies increased by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Defenseless Target',
+            'description': 'Increases damage done to disabled targets by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Power Accumulation',
+            'description':
+                'Skill Type is changed to Charge Type, 100% for first level charge and 250% for overcharge, but the cooldown time increases by 18s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.png',
+          },
+          {
+            'name': 'Swirl',
+            'description':
+                'Use centrifugal force to attack enemies in 360 degrees. Increases damage done by 50%',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Tempest Slash',
+    'class': 'Berserker',
+    'description':
+        'Charge forward and swing your sword to deal damage and lift your enemies into the air, and deal additional 3 hit.',
+    'type': 'Combo',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/berserker/c02s07.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Concentration',
+            'description': 'Anger gain is increased by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+          },
+          {
+            'name': 'Sleek Motion',
+            'description': 'Attack speed increased by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown time decreases by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Quick Hit',
+            'description': 'Increases Critical Hit Rate by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Enhanced Strike',
+            'description': 'Damage to enemies is increased by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Heavy Strike',
+            'description': 'Increased damage by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Stir',
+            'description':
+                '1 The rider disappears and does not move forward anymore. After that, the damage caused by the change of air rotation attack to 3 turns increases by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+          },
+          {
+            'name': 'Storm Cut',
+            'description':
+                'The attack range is increased by 20%, and the last attack is changed to spinning so that enemies in the rear can attack. Damage to enemies increases by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Mountain Crash',
+    'class': 'Berserker',
+    'description':
+        'Powerful stomp, and decrease enemy movement speed by 60% for 2s.',
+    'type': 'Normal',
+    'cooldown': 12,
+    'iconUrl': 'assets/icons/berserker/c02s08.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown time decreases by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Concentrated',
+            'description': 'Increases rage acquisition by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+          },
+          {
+            'name': 'Reinforce',
+            'description': 'The duration of the earthquake increases by 1s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Enhanced Strike',
+            'description': 'Damage to enemies is increased by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Excellent Mobility',
+            'description': 'Attack hit rate increases by 25% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.png',
+          },
+          {
+            'name': 'Slowdown Effect',
+            'description':
+                'Decreases the attack speed of the target by 20% and the movement speed by 40% for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Seismic Wave',
+            'description':
+                'Seismic waves are generated, which extend to 8m in succession. Additional strikes have 20% increased critical strike chance, and deal 80% more damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+          {
+            'name': 'Land Conflict',
+            'description':
+                'When an attack occurs, an earthquake pulling the enemy centered on the attack range, maintains the area for 6 seconds, and creates an area that deals damage every second.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Diving Slash',
+    'class': 'Berserker',
+    'description': 'Jump and crush the enemies with his sword.',
+    'type': 'Point',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/berserker/c02s09.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Excellent Mobility',
+            'description': 'Travel distance increased by 2m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+          {
+            'name': 'Concentration',
+            'description': 'Anger gain increased by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown time decreases by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Fast Movement',
+            'description': 'Increases movement speed by 30% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+          },
+          {
+            'name': 'Great Sword Again',
+            'description':
+                'No longer knocks downs enemies, but pulls and collects them in front of you. Additionally, increases attack speed by 20% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+          },
+          {
+            'name': 'Muscle Training',
+            'description': 'Increases knockdown duration by 1s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Power Slash',
+            'description':
+                'Preparation (Wind Up) time is added, but damage done is increased by 200%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+          {
+            'name': 'Sword Fragment',
+            'description':
+                'Detection will occur when hit, increasing the Incapacitate to [medium] and causing the enemy to have a critical bleed for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Hell Blade',
+    'class': 'Berserker',
+    'description':
+        'Slot your sword into the ground, enabling you to hold for up to 2s. In addition. By successfully perfect zone, deal additional damage and lift enemies into the air.',
+    'type': 'Hold 2.5 sec',
+    'cooldown': 36,
+    'iconUrl': 'assets/icons/berserker/c02s10.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Training Performance',
+            'description': 'Attack range increased by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Jump',
+            'description': 'Leap to the desired position up to 8m and attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+          {
+            'name': 'Absorption',
+            'description':
+                'The moment an attack is launched, it pulls the enemy within 5m into range.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_71.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Fusion',
+            'description':
+                'As you continue to hit a hit enemy, the damage done by your Hellblade increases by up to 10%, up to 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+          },
+          {
+            'name': 'Lava Eruption',
+            'description':
+                'A lava zone with a total damage of 50% of the lava flow is created during 6 seconds after the final attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_85.png',
+          },
+          {
+            'name': 'Imortal Blow',
+            'description':
+                'If you have less than 50% of your health, your damage will increase by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Flip the Land',
+            'description':
+                '[Earth] changed to a property, and then, after the final attack, cut the knife deeper and attack again with 40 % of the damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.png',
+          },
+          {
+            'name': 'Blood Ejection',
+            'description':
+                'It is changed to [fire], and it executes the finish attack immediately.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Chain Sword',
+    'class': 'Berserker',
+    'description':
+        'Deal a diagonal sword strike that sends the enemies in the air.',
+    'type': 'Normal',
+    'cooldown': 15,
+    'iconUrl': 'assets/icons/berserker/c02s11.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Hit',
+            'description': 'Critical Hit rate increased by 15% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+          {
+            'name': 'Exceptional Maneuverability',
+            'description': 'Attack with 2.5 meters forward.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+          {
+            'name': 'Sleek Motion',
+            'description': 'Preparation time is greatly reduced. ',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Annihilate',
+            'description':
+                'After the first attack, it strikes an additional court, causing 200% of damage and then knockdown to the enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+          },
+          {
+            'name': 'Geomorphic',
+            'description': 'Applies a 5s bleed on hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+          },
+          {
+            'name': 'Rapid Preparation',
+            'description': 'Attack speed increases 25% for 3 seconds when hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description':
+                'Reduces the cooldown by 7s, but reduces damage done by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_56.png',
+          },
+          {
+            'name': 'Enhanced Blow',
+            'description':
+                'Increases attack radius by 20%. Increases damage to enemies by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Wind Blade',
+    'class': 'Berserker',
+    'description': 'Swing your sword around while moving to deal damage.',
+    'type': 'Normal',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/berserker/c02s12.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Swift Movement',
+            'description': 'Increases movement speed by 15% for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+          },
+          {
+            'name': 'Internal Bleeding',
+            'description': 'Applies 5s of bleeding.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown time reduced by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Enhanced Strike',
+            'description': 'Damage done increased by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Quick Hit',
+            'description': 'Critical hit rate increased by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Concentration',
+            'description': 'Anger gain increased by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_37.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Squall',
+            'description':
+                'Modifies the attack style. Attack three times with forward momentum. Total damage increases by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Windswift',
+            'description':
+                'Swing forward with more forward momentum. Total damage increases by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Maelstorm',
+    'class': 'Berserker',
+    'description':
+        'SStrongly strike downwards with your sword to deal damage, and pull the sword out of the ground to damage and pull the enemy towards you.',
+    'type': 'Combo',
+    'cooldown': 15,
+    'iconUrl': 'assets/icons/berserker/c02s13.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Sleek Motion',
+            'description': 'Increases attack speed by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Mental Fortification',
+            'description': 'Mana Consumption reduced by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Concentration',
+            'description': 'Anger gain increased by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Strength',
+            'description': 'Become immune to cc during skill use.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+          {
+            'name': 'Enhanced Strike',
+            'description': 'Damage done increased by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Quick Hit',
+            'description':
+                '2 Critical hit chance increases by 25% for 4 seconds when hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Flame Swirl',
+            'description':
+                'A delayed explosion occurs after the second strike, causing 40% additional damage and floating the target.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+          {
+            'name': 'Depression',
+            'description':
+                'Increases attack range by 20% and increases skill damage by 30%. Stiffen time of the second strike increased by 1s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Strike Wave',
+    'class': 'Berserker',
+    'description':
+        'Attack can be charged on 2 levels that crack the ground over a long distance, inflicting damage to the affected enemies.',
+    'type': 'Hold',
+    'cooldown': 36,
+    'iconUrl': 'assets/icons/berserker/c02s14.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Wave',
+            'description':
+                'Increases the damage done to enemies by 10% during each charge phase.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+          },
+          {
+            'name': 'Rapid Accumulation',
+            'description': 'Charge time is reduced by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Cerberus',
+            'description': 'If over-charge, break into three parts and attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Limit breakthrough',
+            'description':
+                'Increases the charge phase by one step, reducing the time it takes to charge by 0.1 seconds, and increasing the damage done by the overcharge to the enemy by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+          },
+          {
+            'name': 'Blasting',
+            'description':
+                'If over-charge occurs, it explodes at the end of the attack, dealing an additional 50% of damage to the enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Blaze Wave',
+            'description':
+                '[Fire] The properties change to an additional 60 % of basic damage to the enemy in the first stage of charge due to the flame explosion from the cracks in the ground.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+          },
+          {
+            'name': 'Flip the Land',
+            'description':
+                'Changed to [Earth] type and black to move forward slowly, turning the ground over, can attack up to four times, but damage per attack is reduced by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Red Dust',
+    'class': 'Berserker',
+    'description': 'Increases damage taken by you for 6 seconds by 12 to 30%.',
+    'type': 'Normal',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/berserker/c02s15.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Reduces cooldown time by 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Sleek Motion',
+            'description': 'Attack speed increased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Mental Fortification',
+            'description': 'Mana Consumption reduced by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Quick Hit',
+            'description': 'On hit, critical hit rate increased by 20% for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Cut Enhancement',
+            'description': 'The skill is given a level 2 cut.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_20.png',
+          },
+          {
+            'name': 'Blood Stasis',
+            'description':
+                'Increases the struck time of a hit enemy by 0.5 seconds, and makes it bleed for 5 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Red Fly',
+            'description':
+                'When you raise the bell, a red squadron flies over the ground. Damage increases by 125% and attack distance by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+          {
+            'name': 'Damage Boost',
+            'description':
+                'Attack damage increases by 30% for 6 seconds for target and party members.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_2.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Blade Storm',
+    'class': 'Berserker',
+    'description':
+        'Jump and create a black storm while falling. Throw the enemies in the air.',
+    'type': 'Normal',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/berserker/c02s16.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Sleek Motion',
+            'description': 'Attack speed increased by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown time reduces by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Quick Hit',
+            'description': 'Critical hit rate increased by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Backbreak',
+            'description':
+                'After the attack, an explosion occurs in the area causing an additional 20% damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+          },
+          {
+            'name': 'Weak Spot Capture',
+            'description':
+                'Increases the damage done to the immune enemy by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+          {
+            'name': 'Strength',
+            'description': 'Become immune to cc during skill use.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Fire Storm',
+            'description':
+                'Changed to [Fire] property, and if hit, it makes 6 seconds image state. If your health is below 50%, your damage will increase 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+          },
+          {
+            'name': 'Seismic Wave',
+            'description':
+                'Instead of a float effect, the attack damage is increased by 30% and causes unsteady ground beneath the enemy for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Aurora Blade',
+    'class': 'Berserker',
+    'description':
+        'Slash into the air, causing a wave of energy which does a ranged attack.',
+    'type': 'Normal',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/berserker/c02s17.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Sleek Motion',
+            'description': 'Increases attack speed by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown time reduces by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Ranged Blow',
+            'description': 'Skill use distance increases by 2m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Strengthen Cutting',
+            'description': 'Increases cut level to 2.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_20.png',
+          },
+          {
+            'name': 'Cadaver',
+            'description': 'Decreases enemy attack speed by 15% for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+          },
+          {
+            'name': 'Destruction',
+            'description': 'Ignores 40% of the magical armor of enemies hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Space Cut',
+            'description':
+                'Aurora blade is modified to attack 3 times at the target position, increasing damage done by 75%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+          },
+          {
+            'name': 'Extinction',
+            'description':
+                'Skill is modified to a combo skill. The attack range is reduced, but the critical hit rate is increase by 30% and inflicts an additional 50% of the base attack damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
           },
         ]
       }

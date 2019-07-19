@@ -16,12 +16,12 @@ class MyCupertinoNavBar extends StatelessWidget
     return CupertinoNavigationBar(
       automaticallyImplyMiddle: false,
       backgroundColor: _backgroundColor,
-      actionsForegroundColor: Colors.white,
+      actionsForegroundColor: CupertinoTheme.of(context).primaryColor,
       previousPageTitle: backTitle,
       middle: title != null
           ? Text(
               title,
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
             )
           : null,
       trailing: trailing ?? null,

@@ -1,44 +1,10 @@
-import 'package:flutter/widgets.dart';
-
 import '../models/class.dart';
 import '../helpers/lost_ark_icons.dart';
 
-class ClassManager extends ChangeNotifier {
-  List<CharacterClass> _classList;
-  CharacterClass _selectedClass;
-
-  ClassManager(this._classList);
-  // : _classList =
-  //       _classData.map((item) => CharacterClass.fromJson(item)).toList();
-
-  List<String> get getArchetypes => [
-        'Warrior',
-        'Fighter',
-        'Hunter',
-        'Magician',
-      ];
-
-  Future<void> fetchClassList() async {
-    await Future.delayed(Duration(seconds: 2));
-    _classList =
-        _classData.map((item) => CharacterClass.fromJson(item)).toList();
-  }
-
-  List<CharacterClass> get getAllClasses => _classList;
-
-  List<CharacterClass> getClassesByArchetype(String archetype) =>
-      _classList.where((item) => item.archetype == archetype).toList();
-
-  CharacterClass getClassByName(String name) =>
-      _classList.where((item) => item.name == name).first;
-
-  CharacterClass get getSelectedClass {
-    return _selectedClass ?? _classList.first;
-  }
-
-  selectClass(String name) {
-    _selectedClass = getClassByName(name);
-    notifyListeners();
+class ClassRepo {
+  Future<List<CharacterClass>> fetchClassList() async {
+    await Future.delayed(Duration(seconds: 1));
+    return _classData.map((item) => CharacterClass.fromJson(item)).toList();
   }
 }
 
@@ -239,7 +205,7 @@ const List<Map<String, dynamic>> _classData = [
   },
   {
     'name': 'Destroyer',
-    'nameRU': 'Сокрушитель',
+    'nameRU': 'Сокрушит����ль',
     'archetype': 'Warrior',
     'archetypeRU': 'В��ин',
     'description': 'Destroyer, destroys his enemies!',

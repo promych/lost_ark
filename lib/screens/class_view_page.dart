@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/managers/class_manager.dart';
+import 'package:lost_ark/managers/app_manager.dart';
 import 'package:lost_ark/ui/cupertino_navbar.dart';
 
 import 'package:provider/provider.dart';
@@ -8,32 +8,22 @@ import 'package:provider/provider.dart';
 import '../managers/app_manager.dart';
 import '../models/class.dart';
 import '../helpers/spider_chart.dart';
-// import 'skills_page.dart';
 
 class ClassPage extends StatelessWidget {
   static const routeName = '/class';
 
-  // final String className;
-
-  // const ClassPage({@required this.className});
-
   @override
   Widget build(BuildContext context) {
     final CharacterClass classData =
-        Provider.of<ClassManager>(context, listen: false).getSelectedClass;
-    // .classes
-    // .getClassByName(className);
+        Provider.of<AppManager>(context, listen: false).getSelectedClass;
 
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(
         backTitle: 'Classes',
         trailing: GestureDetector(
-          child: Material(
-            type: MaterialType.transparency,
-            child: Text(
-              'Skills',
-              style: Theme.of(context).textTheme.subhead,
-            ),
+          child: Text(
+            'Skills',
+            style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
           ),
           onTap: () => Navigator.of(context).pushReplacementNamed('/skills'),
         ),
@@ -61,12 +51,16 @@ class ClassPage extends StatelessWidget {
                   children: [
                     Text(
                       classData.name,
-                      style: Theme.of(context).textTheme.display3,
+                      style: TextStyle(
+                          fontSize: 40.0,
+                          color: CupertinoTheme.of(context).primaryColor),
                     ),
                     SizedBox(height: 20.0),
                     Text(
                       'Weapon: ${classData.weapon}',
-                      style: Theme.of(context).textTheme.title,
+                      style: TextStyle(
+                          fontSize: 24.0,
+                          color: CupertinoTheme.of(context).primaryColor),
                     ),
                     SizedBox(height: 20.0),
                     _StatsSpider(
@@ -79,7 +73,9 @@ class ClassPage extends StatelessWidget {
                     SizedBox(height: 20.0),
                     Text(
                       classData.description,
-                      style: Theme.of(context).textTheme.subhead,
+                      style: TextStyle(
+                          fontSize: 20.0,
+                          color: CupertinoTheme.of(context).primaryColor),
                     ),
                     SizedBox(height: 20.0),
                     Center(

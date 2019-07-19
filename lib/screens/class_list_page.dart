@@ -2,7 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/managers/class_manager.dart';
+import 'package:lost_ark/managers/app_manager.dart';
 import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
@@ -14,7 +14,7 @@ class ClassListPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final classes = Provider.of<ClassManager>(context, listen: false);
+    final classes = Provider.of<AppManager>(context, listen: false);
 
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(
@@ -48,14 +48,17 @@ class ClassListPage extends StatelessWidget {
               SliverPersistentHeader(
                 pinned: false,
                 delegate: _SliverAppBarDelegate(
-                  minHeight: 40.0,
+                  minHeight: 50.0,
                   maxHeight: 80.0,
                   child: Container(
                     alignment: Alignment.bottomLeft,
                     padding: const EdgeInsets.only(left: 10.0),
                     child: Text(
                       archetype,
-                      style: Theme.of(context).textTheme.display2,
+                      style: TextStyle(
+                        color: CupertinoTheme.of(context).primaryColor,
+                        fontSize: 40.0,
+                      ),
                     ),
                   ),
                 ),

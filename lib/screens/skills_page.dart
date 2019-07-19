@@ -1,29 +1,21 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/managers/class_manager.dart';
-import 'package:lost_ark/managers/skill_manager.dart';
 import 'package:lost_ark/ui/cupertino_navbar.dart';
 
 import 'package:provider/provider.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 
 import '../managers/app_manager.dart';
-import '../screens/tripod_page.dart';
 import '../ui/skill_tile.dart';
-// import '../data/skill_data.dart';
 
 class SkillsPage extends StatelessWidget {
   static const routeName = '/skills';
 
-  // final String className;
-
-  // const SkillsPage({@required this.className});
-
   @override
   Widget build(BuildContext context) {
     final className =
-        Provider.of<ClassManager>(context, listen: false).getSelectedClass.name;
-    final skills = Provider.of<SkillManager>(context, listen: false)
+        Provider.of<AppManager>(context, listen: false).getSelectedClass.name;
+    final skills = Provider.of<AppManager>(context, listen: false)
         .getSkillsByClassName(className);
 
     return CupertinoPageScaffold(
@@ -31,12 +23,16 @@ class SkillsPage extends StatelessWidget {
         backTitle: 'Classes',
         title: className,
         trailing: GestureDetector(
-          child: Text('Save'),
+          child: Text(
+            'Save',
+            style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
+          ),
           onTap: () {},
         ),
       ),
-      child: Scaffold(
-        body: SlidingUpPanel(
+      child: CupertinoPageScaffold(
+        child: SlidingUpPanel(
+          minHeight: 40.0,
           body: ListView.separated(
             itemCount: skills.length,
             itemBuilder: (_, int index) {
@@ -45,11 +41,11 @@ class SkillsPage extends StatelessWidget {
                 name: skill.name,
                 type: skill.type,
                 iconUrl: skill.iconUrl,
-                onTap: () => Navigator.of(context).push(CupertinoPageRoute(
-                    builder: (_) => TripodPage(skillName: skill.name))),
               );
             },
-            separatorBuilder: (_, int index) => Divider(),
+            separatorBuilder: (_, int index) => Divider(
+              color: CupertinoTheme.of(context).primaryContrastingColor,
+            ),
           ),
           panel: Container(
             height: 400.0,

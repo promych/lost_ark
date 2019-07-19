@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+@immutable
 class CharacterClass {
   final String name;
   final String archetype;

@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 
+@immutable
 class Skill {
   final String name;
   final String className;
@@ -8,7 +9,7 @@ class Skill {
   final int cooldown;
   final int unlockLevel;
   final String iconUrl;
-  final List<Tripod> tripod;
+  final List<EnchancementTier> tripod;
 
   Skill({
     @required this.name,
@@ -30,25 +31,26 @@ class Skill {
       cooldown: json['cooldown'],
       unlockLevel: json['unlockLevel'] ?? 1,
       iconUrl: json['iconUrl'],
-      tripod: List<Tripod>.from(
-          json['tripod'].map((item) => Tripod.fromJson(item))),
+      tripod: List<EnchancementTier>.from(
+          json['tripod'].map((item) => EnchancementTier.fromJson(item))),
     );
   }
 }
 
-class Tripod {
+@immutable
+class EnchancementTier {
   final int tier;
   final int points;
   final List<SkillEnchancement> enchancements;
 
-  Tripod({
+  EnchancementTier({
     @required this.tier,
     @required this.points,
     @required this.enchancements,
   });
 
-  factory Tripod.fromJson(Map<String, dynamic> json) {
-    return Tripod(
+  factory EnchancementTier.fromJson(Map<String, dynamic> json) {
+    return EnchancementTier(
       tier: json['tier'],
       points: json['points'],
       enchancements: List<SkillEnchancement>.from(
@@ -57,6 +59,7 @@ class Tripod {
   }
 }
 
+@immutable
 class SkillEnchancement {
   final String name;
   final String description;
