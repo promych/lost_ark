@@ -6,10 +6,9 @@ class Build {
   Build() : items = [];
 }
 
-@immutable
 class BuildItem {
   final String skillName;
   final List<String> enchancements;
 
-  const BuildItem({@required this.skillName, @required this.enchancements});
+  BuildItem({@required this.skillName, @required this.enchancements});
 }

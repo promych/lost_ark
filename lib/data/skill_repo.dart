@@ -2783,6 +2783,1050 @@ const List<Map<String, dynamic>> _skillsData = [
     ],
   },
   {
+    'name': 'Power Shoulder',
+    'class': 'Destroyer',
+    'description':
+        'Charge 5m forward, dealing dealing damage to foes. An additional combo attack deals damage with an upward strike.',
+    'type': 'Combo',
+    'cooldown': 12,
+    'iconUrl': 'assets/icons/destroyer/c00s03.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Iron Skin',
+            'description':
+                'Gain a 30% damage reduction bonus while you are performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Victorious Contract',
+            'description':
+                'The second (Hammer Up) attack deals 20% additional damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+          },
+          {
+            'name': 'Critical Strength',
+            'description':
+                'Attack speed is reduced by 15%, but damage done by enemies increases by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Mission Completed',
+            'description': 'Increases the skill range by 3m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.png',
+          },
+          {
+            'name': 'Antigravity',
+            'description':
+                'You gain a shield that absorbs 15% of your maximum life during the launch.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+          },
+          {
+            'name': 'Drillmaster',
+            'description': 'Increases the area of effect by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Heavy Hammer',
+            'description':
+                'You slam the hammer instead striking upwards, dealing 50% increased damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_22.png',
+          },
+          {
+            'name': 'Expression of Anger',
+            'description':
+                'The last move becomes a 360 ° strike with the hammer that stuns enemies for 4 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_9.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Gravity Force',
+    'class': 'Destroyer',
+    'description':
+        'Swings the hammer in front of you, dealing damage. The hammer creates a gravity energy beam in front you. Enemies are pulled towards you.',
+    'type': 'Chain',
+    'cooldown': 14,
+    'iconUrl': 'assets/icons/destroyer/c00s04.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Improved Recharging',
+            'description':
+                'Each pulled enemy reduces the cooldown by 0.5 seconds up to a maximum total of 4 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Iron Skin',
+            'description':
+                'Gain a 30% damage reduction bonus while you are performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Critical Strength',
+            'description': 'Increases damage done by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Swift Movement',
+            'description': 'Increases attack speed by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.png',
+          },
+          {
+            'name': 'Focusing Attack',
+            'description': 'Increases damage done by 30% on a single target.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_28.png',
+          },
+          {
+            'name': 'Lucky Core',
+            'description':
+                'When you hit the first strike, you gain 1 additional core with a 30% chance.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Effluence of Instinct',
+            'description':
+                'Creates a larger gravity energy beam. The charging time of the skill is increased by 0.4 seconds but the damage dealt is increased by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.png',
+          },
+          {
+            'name': 'Wave of Gravity',
+            'description':
+                'Quickly releases the gravity energy but reduces the damage dealt by 50% and the area of effect by 20%. However, the skill can be used a second time within 3 seconds of the first attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Running Crash',
+    'class': 'Destroyer',
+    'description':
+        'While holding down the hotkey, you tackle enemies in front of you, and damage up to 7 times. Upon releasing the key or the gauge reaching its maximum, release an explosion that deals damage to foes.',
+    'type': 'Hold',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/destroyer/c00s05.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Lucky Core',
+            'description':
+                'Successful hits grant a 50% chance to gain an extra core.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+          },
+          {
+            'name': 'Improved Gravity',
+            'description': 'Reduces mana cost by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Quick Response',
+            'description': 'Decreases the skill cooldown by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Antigravity',
+            'description':
+                'Creates a gravity energy shield on the caster which absorbs damage equal to 15% of the caster’s maximum health.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+          },
+          {
+            'name': 'Careful Planning',
+            'description':
+                'The explosion no longer repels the enemies but stuns them for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+          },
+          {
+            'name': 'Focused Target',
+            'description':
+                'Gravity Energy Blast Attack damage is increased by 20% for 6 seconds when a target deals damage to you and your party members.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Reckless Movement',
+            'description':
+                'Rushes up to 8m towards the target location, knocking enemies down.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.png',
+          },
+          {
+            'name': 'Improved Rush',
+            'description':
+                'The gravity energy of your hammer charges more powerfully, increasing the attack radius by 50% and the damage by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Jumping Smash',
+    'class': 'Destroyer',
+    'description':
+        'Leap high in the air towards a target location up to 10 m away and inflict damage to nearby foes upon landing.',
+    'type': 'Point',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/destroyer/c00s06.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Flame of Darkness',
+            'description':
+                '[Shadow] Increases the critical strike chance by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_19.png',
+          },
+          {
+            'name': 'Hammer of Earth',
+            'description': '[Earth] Increases damage by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.png',
+          },
+          {
+            'name': 'Superior Transition',
+            'description': 'Increases the movement distance by 2m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Time Distortion',
+            'description':
+                'Because of the gravity, creates a temporal distortion. The attack is slower but deals 25% additional damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+          },
+          {
+            'name': 'Grotesque Hammer',
+            'description':
+                'Increases the area of ​​effect by 20%. If Annihilation (Tier 3) is used, increase the range in front of and behind you by 20%, and reach to your sides by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description':
+                'If you hit a Hammer attack last hit, you gain a 50% chance to gain 1 additional core.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Gravity Reversal',
+            'description':
+                'Your hammer strike deals 30% more damage and creates an inverted gravity zone 5 meters wide. It deals 30% additional damage and casts enemies into the air.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+          },
+          {
+            'name': 'Annihilation',
+            'description':
+                'Changes to [Normal] skill, rotates in the air while jumping, attacks 100% total damage',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Power Strike',
+    'class': 'Destroyer',
+    'description': 'Raises your hammer and deal three brutal strikes.',
+    'type': 'Normal',
+    'cooldown': 14,
+    'iconUrl': 'assets/icons/destroyer/c00s07.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Reckless Attack',
+            'description':
+                'Increases damage received by 20% while performing the skill but the damage of each strike is increased by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+          },
+          {
+            'name': 'Unbearable Strength',
+            'description':
+                'Ignores 30% of physical armor on any target with the Invulnerable status.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+          },
+          {
+            'name': 'Quick Response',
+            'description': 'Decreases the skill cooldown by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Superhuman Strength',
+            'description':
+                'You can use other skills or cancel the skill while performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+          },
+          {
+            'name': 'Improved Hammer',
+            'description':
+                'Each hit increases damage dealt by 15% up to maximum total of 90%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+          },
+          {
+            'name': 'Drillmaster',
+            'description': 'Increases the area of effect by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Endless attack',
+            'description':
+                'Unleash 5 devastating hammer strikes, which, after the first swing, deal an additional 25% damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Coordinated Attack',
+            'description':
+                'The last hit damages foes for 80% increased damage,  and knockdown the enemies.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Neutralizer',
+    'class': 'Destroyer',
+    'description':
+        'Saturates the hammer with gravity energy for a massive strike. It inflicts [ ] damage, and creates an unpredictable shock wave within 4m of the target location. You can use the skill two more times. The second hit inflicts [ ] damage, and the third hit inflicts [ ] damage.',
+    'type': 'Combo',
+    'cooldown': 36,
+    'iconUrl': 'assets/icons/destroyer/c00s08.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Dark Energy',
+            'description':
+                '[Shadow] You ignore 30% of the physical defense of enemies.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_19.png',
+          },
+          {
+            'name': 'Earth Energy',
+            'description':
+                '[Earth] Reduces enemy movement speed by 30% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.png',
+          },
+          {
+            'name': 'Strong Impact',
+            'description':
+                'The enemies hit by the shock waves are thrown into the air. Enemies immune to control effects receive 20% additional damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Wide Strike',
+            'description': 'Increases shock wave radius by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Unstable Earth',
+            'description':
+                'You only hit once but the shock waves propagate three times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_78.png',
+          },
+          {
+            'name': 'Amplified Gravity',
+            'description':
+                'With each hit, the shock wave damage increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Explosive Gravity',
+            'description': 'Creates three shockwaves per each hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Gravity Control',
+            'description':
+                'You create a series of three shockwaves around your hammer, inflicting 50% more damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Endure Pain',
+    'class': 'Destroyer',
+    'description':
+        'When using a skill, you will have 15 to 40% reduction in damage that you are immune to for more than 5 seconds.',
+    'type': 'Normal',
+    'cooldown': 40,
+    'iconUrl': 'assets/icons/destroyer/c00s09.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Drillmaster',
+            'description': 'Increases the area of effect by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Improved Gravity',
+            'description': 'Reduces mana cost by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Expulsion',
+            'description':
+                'Successful hits push enemies back further. The inflicted enemies remain in the stiffness status longer.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Antigravity',
+            'description':
+                'Gain a gravitational shield of 30% of your maximum health for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+          },
+          {
+            'name': 'Terror of Battlefield',
+            'description':
+                'Decreases the enemy attack speed by 20% and the movement speed by 40% for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+          },
+          {
+            'name': 'Trace of Pain',
+            'description': 'Reduces the target attack power by 60% for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Healthy Mentality',
+            'description':
+                'Increases the duration of the buff from the skill by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_51.png',
+          },
+          {
+            'name': 'Hidden Pain',
+            'description':
+                'Reduces damage taken by enemies when casting a skill by 90%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_24.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Earth Eater',
+    'class': 'Destroyer',
+    'description':
+        'Slams the ground behind you. Then swings the hammer to the front up to three times. The first swing inflicts [ ] damage, the second [ ], and the third [ ]. After the third swing, you strike the ground.',
+    'type': 'Normal',
+    'cooldown': 1,
+    'iconUrl': 'assets/icons/destroyer/c00s10.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Intensified Blow',
+            'description': 'Increases hammer damage by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+          },
+          {
+            'name': 'Crimson Shrapnel',
+            'description': 'Increases damage done by stone shards by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+          },
+          {
+            'name': 'Absolute Power',
+            'description':
+                'Ignore 10% of the physical defense of enemies by consumed kernel of gravity.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Tenacity',
+            'description':
+                'You are immune to control effects during the launch.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+          {
+            'name': 'Practiced Outcome',
+            'description': 'Increases the area of effect by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Earth Shock',
+            'description':
+                'You hit the ground with your hammer, which creates an earthquake 7 meters ahead of you. It deals 15% more damage and defeats enemies for 2 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Earth\'s Wrath',
+            'description':
+                'Your hammer becomes a huge hammer surrounded by rocks, increasing its damage by 150%. The damage of stone chips is also increased by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+          },
+          {
+            'name': 'Geostorm',
+            'description':
+                'Competence becomes a [Hold] skill. The final blow is replaced by several hammer strokes. Damage is increased by 30% but area damage is removed.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Full Swing',
+    'class': 'Destroyer',
+    'description':
+        'Swings the hammer 3 times like whirlwind. The first and second swings inflict [] damage. The last swing inflicts [ ] damage. This skill can be charged. The fully charged attack inflicts [ ] damage in total swings.',
+    'type': 'Normal',
+    'cooldown': 22,
+    'iconUrl': 'assets/icons/destroyer/c00s11.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Iron Heart',
+            'description':
+                'Gain a 30% damage reduction bonus while you are performing the skill and a 50% damage reduction while you are charging the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Swift Movement',
+            'description': 'Increases attack speed by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Quick Response',
+            'description': 'Decreases the skill cooldown by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Toughness',
+            'description':
+                'The caster becomes Invulnerable to crowd control effects while performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+          {
+            'name': 'Absolute Power',
+            'description': 'Each core increases damage dealt by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+          },
+          {
+            'name': 'Terrifying Hammer',
+            'description':
+                'Each successful hit increases damage dealt by 10% up to  a maximum of 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Bestial Eyes',
+            'description':
+                'Reduces the charging time by 50% and increases the maximum level of the charge gauge. Overcharging increases damage dealt by 125%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Enraged Attack',
+            'description':
+                'Removes the ability to charge and instead performs stationary swings. The area of effect increases over the duration of the skill and damage dealt is increased by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Earth Smasher',
+    'class': 'Destroyer',
+    'description':
+        'Smashes the hammer to the ground,inflicting [ ] damage. It creates a rock on the landing location. You destroy the rock and particles from the rock scatter in a fan-shaped angle, dealing [ ] damage. Successful hits by the particles stun enemies for 3 seconds.',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/destroyer/c00s12.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Critical Strength',
+            'description':
+                'Reduces attack speed by 10% but increases damage dealt by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+          },
+          {
+            'name': 'Iron Skin',
+            'description':
+                'Gain a 30% damage reduction bonus while you are performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Absolute Strength',
+            'description':
+                'Increases the damage done by your opponent by 1% to 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Wide Strike',
+            'description': 'Increases the attack radius by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Superhuman Ability',
+            'description':
+                'Using the force of gravity, you can use another skill to undo it.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+          },
+          {
+            'name': 'Basic Training',
+            'description':
+                'Enemies hit by rock fragments are stunned for 2 more seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Explosive Smash',
+            'description':
+                'You make two rotations before sending your hammer to the rocks, which completely destroys them and makes the fragments fly 360 degrees. Increases the damage dealt by the shards by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_30.png',
+          },
+          {
+            'name': 'Strange Movement',
+            'description':
+                'You can change the direction of the skill. You then lift the hammer above your head and jump up to a distance of 6 meters.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_27.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'One Man Army',
+    'class': 'Destroyer',
+    'description':
+        'Swing the hammer left and right. Each hit inflicts [ ] damage. Continual swings increase over the time and the last hit deals [ ] damage.',
+    'type': 'Hold',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/destroyer/c00s13.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Ready',
+            'description': 'Decreases the skill cooldown by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Swift Movement',
+            'description': 'Increases attack speed by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Improved Gravity',
+            'description': 'Reduces mana cost by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Well-maintained Hammer',
+            'description':
+                'The damage of the first and second hits are increased by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Spot Weakness',
+            'description':
+                'Increases the damage dealt to targets with the Invulnerable status by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+          {
+            'name': 'Red Hammer',
+            'description':
+                'Each hit increases damage dealt by 10% up to a maximum total of 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Critical Hammer',
+            'description':
+                'You cannot change direction while performing the skill, but instead rapidly swing 5 time in front of you for 250% increased damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Superior Blow',
+            'description':
+                'Swings the hammer in a 360 degree arc for a maximum of 4.5 seconds. The swing deals 40% increased damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Perfect Swing',
+    'class': 'Destroyer',
+    'description':
+        'Moves forward and tackles an enemy for [ ] damage, then hefts the hammer with two hands and smashes them for [ ]. You can charge the skill for 2 seconds. When fully charged, the skill moves 2m farther and the hammer strike deals [ ] damage.',
+    'type': 'Charge',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/destroyer/c00s14.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Capture Weakness',
+            'description': 'Increases the damage done to your enemies by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+          },
+          {
+            'name': 'Final Blow',
+            'description':
+                'When you hit a skill with an HP of 50% or less, your damage increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+          },
+          {
+            'name': 'Toughness',
+            'description':
+                'The caster becomes Invulnerable to crowd control effects while charging the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Concussion',
+            'description': 'Increases the incapacitate level by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+          },
+          {
+            'name': 'Sharpened Hammer',
+            'description':
+                'Successful hits with the hammer deal 40% more damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_63.png',
+          },
+          {
+            'name': 'Unnecessary Waiting',
+            'description': 'Reduces the time for charging the skill by 1s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Massacre',
+            'description':
+                'Immediately swings the hammer without charging it, creating a soundwave which damages the foe for 30% of the skill damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+          {
+            'name': 'Intemperate',
+            'description':
+                'Reduces the charging time by 50% and increases the maximum level of the charge gauge. Overcharging increases damage dealt by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Gravity Compression',
+    'class': 'Destroyer',
+    'description':
+        'Thrusts the hilt of the hammer into the ground, creating a black hole that deals [ ] damage. You can infuse gravity energy into the black hole for 2 seconds, which then spreads in all directions, dealing [ ] damage. Releasing the hotkey explodes the black hole for [ ]. A completed infusion creates a larger black hole that deals [ ] damage.',
+    'type': 'Hold',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/destroyer/c00s15.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Hard Heart',
+            'description':
+                'Reduces damage taken by 30% during casting and by 50% while loading the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Reasonable Choice',
+            'description':
+                'Increases attack speed by 25% but increases the skill cooldown by 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Unbearable Strength',
+            'description':
+                'Unleashing 3 cores ignores 30% of all armor on any target.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Wide Strike',
+            'description': 'Increases the area of effect by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Strong Finish',
+            'description':
+                'The damage of the black hole’s explosion is increased by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Absolute Power',
+            'description': 'Each core increases damage dealt by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Target Location',
+            'description':
+                'You target the location to create a magnetic field up to 10m from the current location. You can hold for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.png',
+          },
+          {
+            'name': 'Improved Magnetic Field',
+            'description': 'Increases damage of the black hole by 150%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_1.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Seismic Hammer',
+    'class': 'Destroyer',
+    'description':
+        'Hold the hammer upside down, then leap in the air and smashing the ground for [ ]. After the impact, the skill creates a 5m cone-shaped wall which deals [ ] damage.',
+    'type': 'Normal',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/destroyer/c00s16.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Reduces the cooldown by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Toughness',
+            'description':
+                'The caster becomes Invulnerable to crowd control effects while performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+          },
+          {
+            'name': 'Absolute Force',
+            'description':
+                'Increases the damage done by your opponent by 1% to 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Unbearable Strength',
+            'description':
+                'Reduces all enemy armor by 60% for 4 seconds when attacking.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+          },
+          {
+            'name': 'Concussion',
+            'description':
+                'Increases the level of the Incapacitate effect by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+          },
+          {
+            'name': 'Sharp Wall',
+            'description':
+                'Increases damage done to wall-targeted enemies by 60%. In addition, we adjusted it to hit the wall more easily than usual.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Power Hungry',
+            'description':
+                'The attack distance is reduced by 30%, but a circular shock wave extends to create a round wall, which increases wall damage by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+          {
+            'name': 'Improved Spot Weakness',
+            'description':
+                'Hit the hammer in place without jumping. It extends 2m further forward, creating walls that are larger in size and thickness, and increases wall damage by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
     'name': 'Heaven Cleaving Kick',
     'class': 'Battle Master',
     'description':
@@ -3000,6 +4044,1118 @@ const List<Map<String, dynamic>> _skillsData = [
             'description':
                 'The violent fists are changed to 5 manual attacks. Skill damage increased by 50%.',
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Pummel',
+    'class': 'Battle Master',
+    'description':
+        'Attack with a volley of 9 rounds that deal damage to enemies, the last move is more powerful.',
+    'type': 'Normal',
+    'cooldown': 14,
+    'iconUrl': 'assets/icons/battlemaster/c03s03.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Holy Attack',
+            'description': '[Holy] Increases attack speed by 20% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_18.png',
+          },
+          {
+            'name': 'Dark Attack',
+            'description':
+                'Changed: Changed to [Cancer] property, increasing the critical hit rate by 15%. A target that is hit by an attack will be in a dark state for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_19.png',
+          },
+          {
+            'name': 'Wide Blow',
+            'description': 'Attack Range increases by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Master of Strike',
+            'description':
+                'Becomes a skill that can be channeled for 2.5 to inflict a myriad of blows on enemies. The damage is increased by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+          },
+          {
+            'name': 'Quick Blow',
+            'description':
+                'You hit the enemies with 4 powerful shots instead of 9, and the last shot projects them. Increases damage by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+          },
+          {
+            'name': 'Weak Catch',
+            'description': 'Increases the damage done to your enemies by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Quietens',
+            'description':
+                'The last move is transformed into uppercut, increasing the critical chance by 30% and the damage dealt to the enemy by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+          },
+          {
+            'name': 'Unbelievable',
+            'description':
+                'While using the skill, the character is immune to attacks and ignores 40% of the enemy\'s physical defense.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Crescent Kick',
+    'class': 'Battle Master',
+    'description':
+        'You charge to the enemies by kicking. Then you launch a series of kicks that hit enemies 4 times.',
+    'type': 'Combo',
+    'cooldown': 18,
+    'iconUrl': 'assets/icons/battlemaster/c03s04.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Termal Fiber Angle',
+            'description':
+                '[Fire] If you start the sequence of 4 kicks, inflict a burn for 5 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+          },
+          {
+            'name': 'Violent Flash',
+            'description':
+                '[Lightning] You can move during the chaining. In addition, the first shot repels enemies further and they suffer lightning damage for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+          },
+          {
+            'name': 'Incandescent Angle',
+            'description': 'Increases the gain of the Identity Meter by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Movement Distance',
+            'description':
+                'The movement distance of the first shot is increased by 3 meters. Cooldown is reduced by 3 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.png',
+          },
+          {
+            'name': 'Diagonal Angle',
+            'description':
+                'Increases the range by 30% and the number of kicks in the chain by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Single Blow',
+            'description': 'Increases damage by 50% against single targets.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_28.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Colorful Footstep',
+            'description':
+                'Competence becomes a channeled skill. You can not move and you are not kicking anymore. Instead, you make a series of quick kicks for 2 seconds just after charging.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+          },
+          {
+            'name': 'Full Moon Angle',
+            'description':
+                'The preparation for the final blow is getting longer. Damage to enemies increased by 250%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Ground Pound',
+    'class': 'Battle Master',
+    'description':
+        'You jump to create an earthquake that deals damage to enemies every second for 5 seconds.',
+    'type': 'Normal',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/battlemaster/c03s05.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Vibration Strengthening',
+            'description': 'First hit, it knockdown the enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_77.png',
+          },
+          {
+            'name': 'Strong Attack',
+            'description':
+                'Damage dealt to enemies who are knockdown is increased by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_29.png',
+          },
+          {
+            'name': 'Echo of the Earth',
+            'description': 'Earthquake duration increased by 1s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Heavy Steel',
+            'description':
+                'Increases damage by 40% against normal or lower enemies.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.png',
+          },
+          {
+            'name': 'Identified Weakness',
+            'description':
+                'Increases damage by 40% against enemies immune to control effects.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+          {
+            'name': 'Firmness',
+            'description':
+                'The jump animation is removed, now the earth is punched by the character, which reduces the cast time.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Crustal Change',
+            'description':
+                'The number of earthquakes is reduced to 3. Last earthquake causes a larger explosion, knockdown. Damage increased by 300%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_22.png',
+          },
+          {
+            'name': 'Great Earthquake',
+            'description':
+                'The attack range of the earthquake is increased by 30%. The time between earthquakes is reduced and the number of earthquakes is doubled.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Dragon Spiral Kick',
+    'class': 'Battle Master',
+    'description':
+        'Charge to an enemy and attack You charge to enemies by attacking them on your way, dealing damage 5 times. Each shot throws enemies into the air and you can change direction between each.by dealing damage up to 5 times. If the enemy is hit in the air extra damage is applied.',
+    'type': 'Combo',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/battlemaster/c03s06.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Attack Speed',
+            'description': 'Increases attack speed and attack range by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Wide Blow',
+            'description': 'Attack Range increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Critical Hit',
+            'description': 'Increases Critical Hit Rate by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+          },
+          {
+            'name': 'Damage Increased',
+            'description': 'Damage increased by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'AP buff',
+            'description':
+                'Increases attack power by 25% for 3 seconds when hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Fallen Leaves',
+            'description':
+                'Slide forward, and allow you to knockdown enemies by pressing the skill key again. You can use the windmill during sliding.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+          },
+          {
+            'name': 'Order Ascension Angle',
+            'description':
+                '[Water] Increases damage by 50% and casts enemies into the air.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_9.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Whisper of the Wind',
+    'class': 'Battle Master',
+    'description':
+        'Within the range of yourself and 24m, the party’s powers of wind increase the movement speed and attack speed by 11 to 16% and 5.5 to 8% for 6 sec.',
+    'type': 'Normal',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/battlemaster/c03s07.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Blessing of the Wind',
+            'description':
+                'Your attack speed increases by 8% for 6 seconds when casting a skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Breeze',
+            'description':
+                'Your skill damage will be reduced by 25% for 6 seconds. The effect is lost when hit once.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Oath of Wind',
+            'description':
+                'Your critical strike rate increases by 10% for 6 seconds when casting a skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_49.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Reduction Damage',
+            'description': '30% reduction in damage to party members for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+          },
+          {
+            'name': 'Quicker',
+            'description': 'Cooldown reduced by 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+          },
+          {
+            'name': 'Whisper of the Wind',
+            'description':
+                'The blessing of the wind, the blessing of the wind, and the effect of the wind swear increase by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Ready to Attack',
+            'description': 'Your attack power increases by 40% for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+          },
+          {
+            'name': 'Super-strong',
+            'description':
+                'Causes powerful damage, also repelling enemies. The damage dealt to the enemies will result in the filling of the identity meter. PVP: Reduced damaged done by 46.0%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_16.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Electric Wind Kick',
+    'class': 'Battle Master',
+    'description':
+        'You jump on 16 meters to give an aerial kick. Enemies are struck up to 11 times and are severely repulsed. The movement of the skill is directed by the player\'s cursor.',
+    'type': 'Normal',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/battlemaster/c03s08.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Critical Hit',
+            'description': '[Lightning] Increases Critical Hit Rate by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+          },
+          {
+            'name': 'Hydropower',
+            'description':
+                'Reduces enemy attack speed by 20% and movement speed by 40% for 4 seconds when attacking.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+          },
+          {
+            'name': 'Burns',
+            'description':
+                '[Fire] The enemy burns for 5 seconds when hit by the attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Wide Blow',
+            'description': 'Increases attack range by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown time decreases by 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+          },
+          {
+            'name': 'Agile Judgment',
+            'description': 'Attack speed increased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Wrath of Ange',
+            'description':
+                'Changes the skill in a rotating kick of 4 turns diagonally, with a final hit on the ground. Dealing 30% more damage to enemies.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+          {
+            'name': 'Extreme Water Lily',
+            'description':
+                'Increases the spinning kick time by 1 second, facilitates redirection, and increases the total damage done by enemies by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Phoenix Dive',
+    'class': 'Battle Master',
+    'description':
+        'You jump very high in the air, before falling heavily on the ground at a maximum distance of 5 meters. You deal damage as you approach the ground and then do more damage at the end of your fall.',
+    'type': 'Point',
+    'cooldown': 18,
+    'iconUrl': 'assets/icons/battlemaster/c03s09.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Wide Blow',
+            'description': 'Attack Range increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Light Target',
+            'description':
+                'Targets that are stunned by this skill take 20% more damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_29.png',
+          },
+          {
+            'name': 'Burns',
+            'description':
+                'The enemy burns for 5 seconds when hit by the attack',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Fierce Attack',
+            'description':
+                'When you fall back and hit the ground, an explosion occurs, causing 25% more damage to enemies.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Weak Point',
+            'description':
+                'Increases damage dealt to enemies immune to controls by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+          {
+            'name': 'Frozen',
+            'description': 'When attacking, the enemy is frozen for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Unstoppable Surprise',
+            'description':
+                'You can start the skill a second time by pressing the skill key again. Cooldown increased by 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+          },
+          {
+            'name': 'Attack Speed',
+            'description':
+                'Attack speed increased by 20%. Movement distance increased by 5 m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_6.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Roar of Valor',
+    'class': 'Battle Master',
+    'description':
+        'Shoots a momentary spell to inflict damage and expels nearby enemies. Reduces critical strike resistance by 20% for 6s.',
+    'type': 'Normal',
+    'cooldown': 25,
+    'iconUrl': 'assets/icons/battlemaster/c03s10.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mind Enhancement',
+            'description': 'Decrease MP consumption by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Wide Blow',
+            'description': 'Attack Range increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Concentration',
+            'description':
+                'Increases the gain of the identity gauge by 25% by attacking.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Rapid Preparation',
+            'description': 'Cooldown reduced by 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+          },
+          {
+            'name': 'Mobility Weakness',
+            'description':
+                'Reduces enemy movement speed by 60% for 4 seconds when attacking.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+          },
+          {
+            'name': 'Afterimage of the King',
+            'description':
+                'Increases the duration of the Roar of Valor effect by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Deadly Wave',
+            'description':
+                'When attacking, the enemy’s critical resistance decreases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.png',
+          },
+          {
+            'name': 'Impact Enhanced',
+            'description':
+                'The skill casting method is changed to charge, and the damage done to the enemy by charge is increased by 250%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Room Fire',
+    'class': 'Battle Master',
+    'description':
+        'You kick that deals damage and sends enemies through the air. The player jumps quickly and then hitting twice more, inflicting additional damage on projected enemies. The direction can be changed between strikes.',
+    'type': 'Combo',
+    'cooldown': 25,
+    'iconUrl': 'assets/icons/battlemaster/c03s11.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Concentration',
+            'description':
+                'Increases the gain of the identity gauge by 25% by attacking.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+          },
+          {
+            'name': 'Weak Point',
+            'description':
+                'Increases the damage dealt to enemies immune to controls by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+          },
+          {
+            'name': 'Sharp Footwork',
+            'description':
+                'Hit the enemy without falling on it, reducing the time of the animation of the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Attack Range',
+            'description': 'Increases attack range and attack speed by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Shadows of Darkness',
+            'description':
+                'Changed: Changed to [Cancer] property and increases the critical hit rate by 30%. The target hit in the last kick attack will be in darkness for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.png',
+          },
+          {
+            'name': 'Intense Lightning',
+            'description':
+                '[Lightning] Enemies hit by the last attack have a 50% chance of being electrified for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Exceptiona',
+            'description':
+                'Reduces stance, pulls the toes, jumps forward, and blows one of the extreme bounces, giving 150% more damage to enemies and knocking them around. While collecting flags at the end of your foot, damage done by your attack increases by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+          },
+          {
+            'name': 'Exaggerated Ability',
+            'description':
+                'The movement of the kicker becomes concise, and the damage given to the attacking enemy increases by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Internal Combustion',
+    'class': 'Battle Master',
+    'description':
+        'The wind is around the player and instantly deals damage to nearby enemies. The wind holds for 20 seconds and deals damage to nearby enemies every 0.5 seconds while repelling them.',
+    'type': 'Normal',
+    'cooldown': 36,
+    'iconUrl': 'assets/icons/battlemaster/c03s12.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Burning Armor',
+            'description':
+                'The damage received at the launch of the skill is reduced by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Lightfoot',
+            'description':
+                'Increases movement speed by 30% for 3s while launching the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+          },
+          {
+            'name': 'Deadly Acting',
+            'description':
+                'Increases the gain of the Identity Meter by 50% by attacking.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Road of Commitment',
+            'description': 'The duration increases by 8s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+          {
+            'name': 'Technology Loss',
+            'description':
+                'Reduces the cooldown by 15s, but also decreases the duration by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+          },
+          {
+            'name': 'Fierce Battle',
+            'description':
+                'Increases damage by 5% for 2s, cumulative up to 10 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Attack Range',
+            'description':
+                'Increases attack range by 20%. Increases critical damage by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+          {
+            'name': 'Explosion in the Air',
+            'description':
+                'When a gust of wind blows, it causes an explosion, inflicting 50% of basic skill damage and detonating the enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Art: Spiral Blast',
+    'class': 'Battle Master',
+    'description':
+        'Cost 1 globe of identity. Performs a powerful, smashing attack that deals damage to enemies.',
+    'type': 'Normal',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/battlemaster/c03s13.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Weak Point',
+            'description':
+                'Increases the damage dealt to enemies immune to controls by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+          },
+          {
+            'name': 'Attack Range',
+            'description': 'Attack range increased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Absorption Blow',
+            'description':
+                'During the preparation of this attack, the player is immune to dizziness. A model is created that represents the negative and positive forces on the ground, the surrounding enemies are pulled into the attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_71.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Attack Speed',
+            'description': 'Attack speed increased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.png',
+          },
+          {
+            'name': 'Сollection',
+            'description': '30% chance of acquire 1 globe of identity.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.png',
+          },
+          {
+            'name': 'Dead Set',
+            'description':
+                'Increases attack power by 30% for 4 seconds when attacking.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Bastion of Destruction',
+            'description': 'Increases damage by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+          {
+            'name': 'Meditation Strike',
+            'description':
+                'The skill no longer repels the enemy but stuns them for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Art: Dragon Ascend',
+    'class': 'Battle Master',
+    'description':
+        'Cost 2 globe of identity. Summons a circle of flames that deals damage by gathering enemies and then releases spiraling Dragon\'s energy upwards to hit enemies 5 times.',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/battlemaster/c03s14.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Attack Range',
+            'description': 'Attack Range increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_71.png',
+          },
+          {
+            'name': 'Сollection',
+            'description': '40% chance of acquire 1 globe of identity.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+          },
+          {
+            'name': 'Strength',
+            'description':
+                'After your jump, you are becomes immune to attacks.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Concentrated Hit',
+            'description': 'Increases damage by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Ascension of the Black Dragon',
+            'description': 'Increases critical damage by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.png',
+          },
+          {
+            'name': 'Finishing Attack',
+            'description': 'Deals 80% more damage to enemies with <30% health.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Eye of the Storm',
+            'description':
+                'Now, the skill allows enemies to pulled up to 2.5 seconds. The skill begins when the skill key is released or the 2.5 seconds elapse. Increased damage to immune enemies by 50% against the pull effect.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_33.png',
+          },
+          {
+            'name': 'Finishing Blow',
+            'description':
+                'The last attack will have a 100% chance of being a critical hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Art: Launching Punch',
+    'class': 'Battle Master',
+    'description':
+        'Cost 1 globe of identity. Unleashes an aura of electricity that deals 3 damage to enemies. Enemies become stunned for 2s, and receive 20% more [Cold] damage while stunning.',
+    'type': 'Normal',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/battlemaster/c03s15.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Critical Hit',
+            'description': 'Increase critical hit rate by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+          {
+            'name': 'Сollection',
+            'description': 'The attack lasts 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+          },
+          {
+            'name': 'Attack Speed',
+            'description': 'Increases attack speed by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Lightning',
+            'description':
+                'The electric current goes in line and extends over 9 meters.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_87.png',
+          },
+          {
+            'name': 'Firm Will',
+            'description': 'Increases damage by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Bend',
+            'description': 'You charge 4 meters during the attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Electric Shock',
+            'description':
+                'After the attack, a cloud of electric current remains for 5 seconds. It deals damage to enemies.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+          {
+            'name': 'Dangerous Deal',
+            'description':
+                'You consume 1 additional elemental bubble and the stunning effect is removed. However, the skill becomes a combo and its damage increases by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Art: Tornado',
+    'class': 'Battle Master',
+    'description':
+        'Cost 2 globe of identity. The player rises in the air and turns quickly to create a tornado. Each enemy caught in the whirlwind suffers damage with each hit. The skill can be held for 4 seconds while continuing to attract enemies. The movement of the skill is directed by the player\'s cursor.',
+    'type': 'Hold 4 sec',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/battlemaster/c03s16.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Earth Storm',
+            'description':
+                '[Earth] Enemies are no longer attracted, but the damage increases by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.png',
+          },
+          {
+            'name': 'Cold Storm',
+            'description':
+                '[Cold] Enemies hit 5 times are frozen for 2 seconds. PVP: Will not cause stiffness.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+          },
+          {
+            'name': 'Lightning Storm',
+            'description':
+                '[Lighting] Each hit in the tornado has a 30% chance to increase critical damage by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Growing Attack',
+            'description':
+                'On each turn, the damage of the tornado increases by 5%, with a maximum of 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+          },
+          {
+            'name': 'Wide Attack',
+            'description': 'Increases the range by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Add Rotation',
+            'description':
+                'Increases movement speed by 13% while casting and increases its duration by 1s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Summon Storm',
+            'description':
+                'Instead of turning you into a tornado, you summon one that blows slowly in all directions, and attracts the surrounding enemies. It remains 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_85.png',
+          },
+          {
+            'name': 'Raging Storm',
+            'description':
+                'When the swirl ends, it dispels forcefully and deals 60% of the basic skill damage to the enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Art: Exploding Quake',
+    'class': 'Battle Master',
+    'description':
+        'Cost 2 globe of identity. Make a powerful punch that causes 3 ground explosions in its wake. Explosions advance forward and repel enemies on their way, causing damage',
+    'type': 'Normal',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/battlemaster/c03s17.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Weak Point',
+            'description':
+                'Increases damage dealt to enemies immune to controls by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+          },
+          {
+            'name': 'The Last Blast',
+            'description':
+                'The damage caused by the third explosion is increased by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+          },
+          {
+            'name': 'Rough Explosion',
+            'description':
+                'Increases the attack power by 3% for 5 seconds for the number of enemies hit. It can be stacked up to 10 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Сollection',
+            'description': '75% chance of acquire 1 globe of identity.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.png',
+          },
+          {
+            'name': 'Frost Explosion',
+            'description': 'Enemies are frozen for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+          },
+          {
+            'name': 'Flame Explosion',
+            'description':
+                '[Fire] Inflicts a burn for 5 seconds, which can accumulate up to 6 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Endless Destruction',
+            'description':
+                'The blast spreads in three directions. Damage increased by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Big Explosion',
+            'description':
+                'After the third explosion, the player jumps once more, causing a massive explosion. Damage increased by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
           },
         ]
       }

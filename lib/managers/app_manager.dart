@@ -55,7 +55,7 @@ class AppManager extends ChangeNotifier {
       _classList.where((item) => item.archetype == archetype).toList();
 
   CharacterClass getClassByName(String name) =>
-      _classList.where((item) => item.name == name).first;
+      _classList.singleWhere((item) => item.name == name);
 
   CharacterClass get getSelectedClass {
     return _selectedClass ?? _classList.first;
@@ -74,21 +74,58 @@ class AppManager extends ChangeNotifier {
       _skillList.where((item) => item.className == name).toList();
 
   Skill getSkillByName(String name) =>
-      _skillList.where((item) => item.name == name).first;
+      _skillList.singleWhere((item) => item.name == name);
 
   //Build
 
   Build get getCurrentBuild => _build;
 
-  addToBuild(BuildItem newItem) {
-    print(newItem.enchancements.toString());
-    final index = _build.items.indexWhere((item) {
-      return item.skillName == newItem.skillName;
-    });
-    index == -1
-        ? _build.items.add(newItem)
-        : _build.items.replaceRange(index, index + 1, [newItem]);
-    print(index);
-    print(_build.items.length);
+  addToBuild(String skillName, int tier, String enchancementName) {
+    final tierNum = tier - 1;
+    final index =
+        _build.items.indexWhere((item) => item.skillName == skillName);
+
+    if (index != -1) {
+      final currentEnchancementList = _build.items[index].enchancements;
+      final newEnchancement =
+          enchancementName == _build.items[index].enchancements[tierNum]
+              ? ['']
+              : [enchancementName];
+      final newEnchancementList = currentEnchancementList
+        ..replaceRange(tierNum, tierNum + 1, newEnchancement);
+
+      _build.items.replaceRange(
+        index,
+        index + 1,
+        [
+          BuildItem(
+            skillName: skillName,
+            enchancements: newEnchancementList,
+          )
+        ],
+      );
+    } else {
+      _build.items.add(
+        BuildItem(
+          skillName: skillName,
+          enchancements: List.generate(
+              3, (index) => index == tierNum ? enchancementName : ''),
+        ),
+      );
+    }
+    notifyListeners();
+
+    print(_build.items.first.enchancements.toString());
+  }
+
+  String getSelectedEnchancementAtTier(String skillName, int tierNum) {
+    if (_build.items.isEmpty) return '';
+    if (_build.items.indexWhere((item) => item.skillName == skillName) != -1) {
+      return _build.items
+          .singleWhere((item) => item.skillName == skillName)
+          .enchancements[tierNum];
+    } else {
+      return '';
+    }
   }
 }

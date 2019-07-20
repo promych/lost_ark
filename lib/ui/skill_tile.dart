@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/managers/app_manager.dart';
 import 'package:lost_ark/screens/tripod_page.dart';
+import 'package:provider/provider.dart';
 
 class SkillTile extends StatelessWidget {
   final String name;
@@ -15,6 +17,8 @@ class SkillTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final app = Provider.of<AppManager>(context, listen: false);
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 10.0),
       child: GestureDetector(
@@ -45,9 +49,24 @@ class SkillTile extends StatelessWidget {
               ),
               Row(
                 children: [
-                  Icon(Icons.looks_one),
-                  Icon(Icons.looks_two),
-                  Icon(Icons.looks_3),
+                  Icon(
+                    Icons.looks_one,
+                    color: app.getSelectedEnchancementAtTier(name, 0) != ''
+                        ? CupertinoColors.activeBlue
+                        : CupertinoTheme.of(context).primaryColor,
+                  ),
+                  Icon(
+                    Icons.looks_two,
+                    color: app.getSelectedEnchancementAtTier(name, 1) != ''
+                        ? CupertinoColors.activeGreen
+                        : CupertinoTheme.of(context).primaryColor,
+                  ),
+                  Icon(
+                    Icons.looks_3,
+                    color: app.getSelectedEnchancementAtTier(name, 2) != ''
+                        ? CupertinoColors.activeOrange
+                        : CupertinoTheme.of(context).primaryColor,
+                  ),
                 ],
               )
             ],

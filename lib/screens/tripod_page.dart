@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/models/build.dart';
 import 'package:lost_ark/models/skill.dart';
 import 'package:provider/provider.dart';
 
@@ -14,8 +13,9 @@ class TripodPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final skill = Provider.of<AppManager>(context, listen: true)
-        .getSkillByName(skillName);
+    final app = Provider.of<AppManager>(context, listen: true);
+    final skill = app.getSkillByName(skillName);
+    // final build = app.getCurrentBuild;
 
     return CupertinoPageScaffold(
       child: SafeArea(
@@ -47,6 +47,8 @@ class TripodPage extends StatelessWidget {
                 _TierRow(
                   skillName: skillName,
                   tier: skill.tripod.elementAt(i),
+                  selectedEnchancement:
+                      app.getSelectedEnchancementAtTier(skillName, i),
                 ),
               Center(
                 child: CupertinoButton(
@@ -65,8 +67,13 @@ class TripodPage extends StatelessWidget {
 class _TierRow extends StatelessWidget {
   final String skillName;
   final EnchancementTier tier;
+  final String selectedEnchancement;
 
-  const _TierRow({@required this.skillName, @required this.tier});
+  const _TierRow({
+    @required this.skillName,
+    @required this.tier,
+    this.selectedEnchancement,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -84,15 +91,18 @@ class _TierRow extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              for (var enchancement in tier.enchancements)
+              for (final enchancement in tier.enchancements)
                 Expanded(
                   child: Container(
                     child: Column(
                       children: [
                         GestureDetector(
                           child: CircleAvatar(
-                            backgroundColor: Colors.transparent,
-                            radius: 32.0,
+                            backgroundColor:
+                                selectedEnchancement == enchancement.name
+                                    ? Colors.white
+                                    : Colors.transparent,
+                            radius: 33.0,
                             child: CircleAvatar(
                               radius: 32.0,
                               backgroundColor: CupertinoTheme.of(context)
@@ -103,11 +113,7 @@ class _TierRow extends StatelessWidget {
                           onTap: () {
                             Provider.of<AppManager>(context, listen: false)
                                 .addToBuild(
-                              BuildItem(
-                                skillName: skillName,
-                                enchancements: [enchancement.name],
-                              ),
-                            );
+                                    skillName, tier.tier, enchancement.name);
                           },
                         ),
                         SizedBox(height: 10.0),
