@@ -48,7 +48,7 @@ class TripodPage extends StatelessWidget {
                   skillName: skillName,
                   tier: skill.tripod.elementAt(i),
                   selectedEnchancement:
-                      app.getSelectedEnchancementAtTier(skillName, i),
+                      app.getSelectedEnchancementNameAtTier(skillName, i),
                 ),
               Center(
                 child: CupertinoButton(
@@ -77,6 +77,18 @@ class _TierRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final app = Provider.of<AppManager>(context, listen: false);
+    final selectColor = () {
+      switch (tier.tier) {
+        case 1:
+          return CupertinoColors.activeBlue;
+        case 2:
+          return CupertinoColors.activeGreen;
+        case 3:
+          return CupertinoColors.activeOrange;
+      }
+      return Colors.transparent;
+    };
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 20.0),
       child: Column(
@@ -100,7 +112,7 @@ class _TierRow extends StatelessWidget {
                           child: CircleAvatar(
                             backgroundColor:
                                 selectedEnchancement == enchancement.name
-                                    ? Colors.white
+                                    ? selectColor()
                                     : Colors.transparent,
                             radius: 33.0,
                             child: CircleAvatar(
@@ -111,9 +123,11 @@ class _TierRow extends StatelessWidget {
                             ),
                           ),
                           onTap: () {
-                            Provider.of<AppManager>(context, listen: false)
-                                .addToBuild(
-                                    skillName, tier.tier, enchancement.name);
+                            app.addToBuild(
+                              skillName,
+                              tier.tier,
+                              enchancement.name,
+                            );
                           },
                         ),
                         SizedBox(height: 10.0),
@@ -130,6 +144,10 @@ class _TierRow extends StatelessWidget {
                 )
             ],
           ),
+          // Text(
+          //   app.getSelectedEnchancementDescription(skillName, tier.tier),
+          //   style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
+          // )
         ],
       ),
     );

@@ -51,19 +51,19 @@ class SkillTile extends StatelessWidget {
                 children: [
                   Icon(
                     Icons.looks_one,
-                    color: app.getSelectedEnchancementAtTier(name, 0) != ''
+                    color: app.getSelectedEnchancementNameAtTier(name, 0) != ''
                         ? CupertinoColors.activeBlue
                         : CupertinoTheme.of(context).primaryColor,
                   ),
                   Icon(
                     Icons.looks_two,
-                    color: app.getSelectedEnchancementAtTier(name, 1) != ''
+                    color: app.getSelectedEnchancementNameAtTier(name, 1) != ''
                         ? CupertinoColors.activeGreen
                         : CupertinoTheme.of(context).primaryColor,
                   ),
                   Icon(
                     Icons.looks_3,
-                    color: app.getSelectedEnchancementAtTier(name, 2) != ''
+                    color: app.getSelectedEnchancementNameAtTier(name, 2) != ''
                         ? CupertinoColors.activeOrange
                         : CupertinoTheme.of(context).primaryColor,
                   ),

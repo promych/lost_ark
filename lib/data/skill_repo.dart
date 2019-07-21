@@ -7,6 +7,7 @@ class SkillRepo {
   }
 }
 
+// ids generate when serialized
 const List<Map<String, dynamic>> _skillsData = [
   {
     'name': 'Sharp Spear',
@@ -5380,6 +5381,1107 @@ const List<Map<String, dynamic>> _skillsData = [
     ],
   },
   {
+    'name': 'Dragon\'s Descent',
+    'class': 'Infighter',
+    'description':
+        'Cost 30 Ki, Regen 20 Shock. Jump to mouse location, dealing 300 damage and knock enemies over.',
+    'type': 'Point',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/infighter/c04s03.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Excellent Mobility',
+            'description': 'Travel distance increased by 2 meters.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+          {
+            'name': 'Abdominal Respiration',
+            'description': 'Ki gauge consumption reduced by 5.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+          },
+          {
+            'name': 'Momentary Burst',
+            'description':
+                'Increases Ki gauge consumption by 10 but increases damage by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Wide Blow',
+            'description': 'Increases AoE by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Incarnation',
+            'description':
+                'After landing, you cover yourself in a fire aura for 6s, dealing continuous damage to nearby enemies.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+          },
+          {
+            'name': 'Strength',
+            'description': 'Immune to one attack while cast.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Destruction',
+            'description': 'Increases damage to single targets by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_28.png',
+          },
+          {
+            'name': 'Black Dragon\'s Fall',
+            'description': 'Increases damage by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_19.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Instant Strike',
+    'class': 'Infighter',
+    'description':
+        'Cost 30 Ki, Regen 15 Shock. Instantly strike for 137 damage and stun target for 3 sec.',
+    'type': 'Normal',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/infighter/c04s04.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Wide Blow',
+            'description': 'Attack Range increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Abdominal Respiration',
+            'description': 'Ki gauge consumption reduced by 5.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+          },
+          {
+            'name': 'Concentration',
+            'description': 'Shock gauge generation increased by 10.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Dangerous Contract',
+            'description':
+                'Decreases cooldown by 6s but reduces Stun duration by 1s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+          },
+          {
+            'name': 'Accuracy',
+            'description': 'Increases the Stun duration by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.png',
+          },
+          {
+            'name': 'Adverse Effect',
+            'description':
+                'The stun effect disappears and the damage done to the enemy is 300% increased.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Tracking Instinct',
+            'description': 'Move and attack to the mouse position in 4m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.png',
+          },
+          {
+            'name': 'Last Stand',
+            'description': 'Increase attack AoE by 350 degrees.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Earth Tremor',
+    'class': 'Infighter',
+    'description':
+        'Cost 30 Ki, Regen 20 Shock. Shake the ground with your feet, dealing 256 damage to the nearby enemies and knock over',
+    'type': 'Normal',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/infighter/c04s05.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Force of the Earth',
+            'description':
+                'Change element to Earth and removes super armor on successful hit from the enemies, an earthquake occurs at the bottom, reducing the enemy\'s move speed by 30% for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.png',
+          },
+          {
+            'name': 'Indomitable Strength',
+            'description':
+                'Change element to Fire, applies Burn effect for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+          },
+          {
+            'name': 'Shock Release',
+            'description': 'Increase the duration of the knock up in 2 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Breakthrough',
+            'description': 'Creates a wave for 7m in the direction of cursor.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+          },
+          {
+            'name': 'Surprise Attack',
+            'description':
+                'Strike very hard in one hit, damage to enemy is increased by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+          },
+          {
+            'name': 'Strong Case',
+            'description':
+                'Changes to combo skill, the damage to the enemy increases by 40% by pressing on the left foot 2 times fast and then strong on the right foot.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_38.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Empowered Earthquake',
+            'description':
+                'After a short delay another hit occurs at the the same place, the total damage increases by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+          },
+          {
+            'name': 'Giant’s Advance',
+            'description': 'Attack range increased by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Fury Strike',
+    'class': 'Infighter',
+    'description':
+        'Cost 15 Ki, Regen 20 Shock. Hold a button to deal 24 damage witch each hit and then move forward for 2 m with a kick to deal 142 damage.',
+    'type': 'Hold 1 sec',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/infighter/c04s06.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Crackshot',
+            'description': 'Increases damage of the last attack by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_18.png',
+          },
+          {
+            'name': 'Righteous Plunder',
+            'description':
+                'As you jab, there’s a 50% chance to apply Bleed for 5s, this can stack up to 3 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.png',
+          },
+          {
+            'name': 'Excellent Mobility',
+            'description': 'Travel distance increased by 2m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Formidable Will',
+            'description':
+                'The duration of a quick punch increases by up to 0.3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_42.png',
+          },
+          {
+            'name': 'Red Explosion',
+            'description':
+                'Increases damage by 100% against CC immune enemies.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+          {
+            'name': 'Single Blow',
+            'description':
+                'Increases fast jabs damage to single targets by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_28.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Widespread',
+            'description':
+                'The fast jabs turn into two spurts of furious flurries and the damage increases by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+          },
+          {
+            'name': 'Reverse Rotation Blow',
+            'description':
+                'After the final hit, adds one more attack in front.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Push Through',
+    'class': 'Infighter',
+    'description':
+        'Cost 25 Ki, Regen 20 Shock. Makes stream of punches in a cursor direction, each hit do 65 damage, applies buff with each successfull hit on 1s which decreases incoming damage for 5%, stacks up to 10 stacks, direction can be changed while holding the skill.',
+    'type': 'Hold 1 sec',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/infighter/c04s07.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Critical Hit',
+            'description': 'Increases critical hit rate by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+          {
+            'name': 'Solid Armor',
+            'description':
+                'Incoming damage received reduced by 20% during cast.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Quick Charge',
+            'description':
+                'Every time this attack successfully lands, generates 1 additional Shock.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Anger',
+            'description':
+                'If your health falls under 50%, increases damage dealt by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+          },
+          {
+            'name': 'Momentary Burst',
+            'description':
+                'Increases Power gauge consumption by 5 but increases damage by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Piercing Strike',
+            'description': 'Attack ignores 40 % of enemy’s physical defense.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Threshold of Death',
+            'description':
+                'Adds the perfect zone, when the perfect zone is successfull strike with additional hit to do 6 times more damage then ordinary punches.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_72.png',
+          },
+          {
+            'name': 'Forward Advance',
+            'description':
+                'Increases attack speed by 20% and total charge time by 50% (2s).',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_6.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Triplex Punch',
+    'class': 'Infighter',
+    'description':
+        'Cost 25 Ki, Regen 30 Shock. Perform 3 attacks dealing 73, 88, 132 damage and character is moved forward before the last hit.',
+    'type': 'Combo',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/infighter/c04s08.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Enhanced Blow',
+            'description':
+                'Transforms the last attack into a strong smash which knocks down enemies.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_39.png',
+          },
+          {
+            'name': 'Wave',
+            'description':
+                'The final strike fires a burst of energy 7 meter outwards.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_87.png',
+          },
+          {
+            'name': 'Full Power',
+            'description':
+                'The last blow releases energy from the swinging arm and Increases damage by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Concentration',
+            'description': 'Shock gauge generation increased by 10.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_37.png',
+          },
+          {
+            'name': 'Wide Blow',
+            'description': 'Increases attack range by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Reduces the cooldown time by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Reinforcement',
+            'description':
+                'Increases movement distance by 1 meter, attack speed by 20%, and damage by 150% when attacking CC immune enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.png',
+          },
+          {
+            'name': 'Enhanced Fist',
+            'description':
+                'Grants immunity to hit-effects while casting and increases the damage by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_23.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Chains Of Resonsnce',
+    'class': 'Infighter',
+    'description':
+        'Cost 20 Ki, Regen 10 Shock. Fire a shock wave to the front causing 94 damage and pull enemies dealing 120 damage.',
+    'type': 'Normal',
+    'cooldown': 15,
+    'iconUrl': 'assets/icons/infighter/c04s09.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Concentration',
+            'description': 'Increases Shock gauge generation by 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+          },
+          {
+            'name': 'Quick Hand',
+            'description': 'Attack speed increases by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Enhanced Blow',
+            'description':
+                'Decreases Shock gauge generation by 10 but increases damage by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Vigilance',
+            'description':
+                'Increases attack power by 5% for 3s. Can be stacked up to 10 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+          },
+          {
+            'name': 'Piercing Strike',
+            'description': 'Attack ignores 40% of enemy’s physical defense.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Oscillating Resonance',
+            'description':
+                'Chains project into a circular shape and pulls enemies towards the center.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.png',
+          },
+          {
+            'name': 'Empowered Resonance',
+            'description': 'Launches three chains that pull the enemy to you.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Judgement',
+    'class': 'Infighter',
+    'description':
+        'Jump into the air and hit down, causing 148 damage and 29 more damage to fallen enemies.',
+    'type': 'Combo',
+    'cooldown': 6,
+    'iconUrl': 'assets/icons/infighter/c04s10.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Abdominal Respiration',
+            'description': 'Increases Critical Hit Rate by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Increases energy gain by 10.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+          },
+          {
+            'name': 'Sleek Motion',
+            'description':
+                'Damage to target and party members increases by 10% for 8s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Strength',
+            'description': 'Damage to knockdown enemies increases by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+          },
+          {
+            'name': 'Ignorant Blow',
+            'description':
+                'Can be cast a second time dealing 100% additional damage however increases cooldown by 8s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+          },
+          {
+            'name': 'Neurology',
+            'description':
+                'Increase the total damage by 20% but the additional damage to fallen enemyes can\'t be applied.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_77.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'True Judgment',
+            'description':
+                'Changes the attack into two smaller attacks and increases total damage by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+          },
+          {
+            'name': 'Talon of the Falcon',
+            'description':
+                'Increases damage inflicted by 40%  and shock consumption decreases by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Swallow',
+    'class': 'Infighter',
+    'description':
+        'Release the shock wave in the cursor direction to cause 225 damage.',
+    'type': 'Normal',
+    'cooldown': 8,
+    'iconUrl': 'assets/icons/infighter/c04s11.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'On a critical hit, 50% chance to reset the CD.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Single Blow',
+            'description': 'Increases damage to single targets by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_28.png',
+          },
+          {
+            'name': 'Concentration',
+            'description':
+                'When a fist hit is hit, 50% chance to cause the enemy to bleed for 3 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Identified Weakness',
+            'description':
+                'Striking a fist results in a trajectory that is 30% longer than the basics, and increases the damage to the enemy by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_88.png',
+          },
+          {
+            'name': 'Lucky Blow',
+            'description':
+                'Immediately move 3 m forward rapidly in a forward direction, increasing the damage done to the enemy by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.png',
+          },
+          {
+            'name': 'Finishing Strike',
+            'description': 'You can have 2 stacks of a skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_83.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Reinforced Blow',
+            'description':
+                'Huge fist appear attacking the enemy with a thrust increasing skill damage by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+          },
+          {
+            'name': 'Heavy Swing',
+            'description':
+                'Increases the attack wind-up for a heavier hit, increases total damage by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Death Sentence',
+    'class': 'Infighter',
+    'description':
+        'Release all Shock energy dealing 442 damages and blow away enemies, damage depends on the reduction of Shock energy, at 0 - 25% energy damage increases by 15%, at 26 - 50 % energy damage increases by 30 %, at 51 - 75% energy damage increases by 45 % and at 76 - 100% energy damage increases by 60%.',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/infighter/c04s12.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Wide Blow',
+            'description': 'Attack Range increases by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Eye of the Heart',
+            'description':
+                'Increases attack speed by 15% but also increases cooldown by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Strength',
+            'description': 'Become immune to CC during skill casting.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+          {
+            'name': 'Single Blow',
+            'description': 'Increases damage to single targets by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_28.png',
+          },
+          {
+            'name': 'Finishing Strike',
+            'description':
+                'Increases damage by 50% to enemies below 50% of max HP.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Shock',
+            'description':
+                'Increases bonus damage by 20%, 40%, 60%, and 120% depending on the amount of impact gauges you have.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+          },
+          {
+            'name': 'Mind Relaxation',
+            'description': 'Consumes 50% of Shock gauge instead of all.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_37.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Decisive Attack',
+    'class': 'Infighter',
+    'description':
+        'Gather the flags in the gontlette, and damage 113 by a powerful energy strike. It can be charged for continuous input of skill buttons. If it is overfilled, it can cause 168 damages and 393 damages due to secondary wave attacks.',
+    'type': 'Charge',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/infighter/c04s13.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Suddenly Strike',
+            'description': 'Critical hit rate increases by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+          {
+            'name': 'Concentration',
+            'description': 'Shock gauge consumption reduced by 10.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Muscle Burst',
+            'description': 'Second wave hit knocks enemy down.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_77.png',
+          },
+          {
+            'name': 'Ligament Burst',
+            'description': 'Second wave hit damage is increased by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Focus Target',
+            'description':
+                'When a fist or a second wave attack is hit, the target will lose 20% of his or her damage to the party member for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Mastery',
+            'description':
+                'Increases Shock gauge consumption by 10 but no longer needs to be charged.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+          },
+          {
+            'name': 'Supersonic Shockwave',
+            'description':
+                'Increases Strength gauge generation by 15 and increases damage by 80% against enemies whose HP is below 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Reincarnation',
+    'class': 'Infighter',
+    'description':
+        'It hits the ground strongly, causing earthquakes to inflict and blow a wide range of damage on enemies for a total of four times, 108, 146, 182, 290.',
+    'type': 'Normal',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/infighter/c04s14.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Old Hand',
+            'description':
+                'The damage done while using the skill is reduced by 20%, the number of strikes hit on the ground increases, and the damage done to the enemy is increased by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_39.png',
+          },
+          {
+            'name': 'Arousal',
+            'description': 'Strike fast 2 times and make final attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Wide Blow',
+            'description':
+                'The damage to the enemy is increased by 20% by rapidly charging the floor several times and taking the last blow. As you hit, the range of attacks increases slightly and restores two shocks of energy for each attack hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_40.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Armor Destruction',
+            'description':
+                'Every time you hit the ground except for the last blow, the energy is released and then washed back into the character, pulling the enemies together.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_71.png',
+          },
+          {
+            'name': 'Strength',
+            'description': 'Become immune to cc during skill casting.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+          {
+            'name': 'Unbalanced',
+            'description':
+                '[Fire] If an attack is hit, it is damaged by burn. It can be supersioned up to 5 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Mega Explosion',
+            'description':
+                'The last attack has a slight delay (adds a jumping animation) and the damage of it is increased by 150%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+          },
+          {
+            'name': 'Vital Impact',
+            'description':
+                'Each time you cut, the damage to the enemy increases by 10% as the pointed posts rise from the ground.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_85.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'True Art: Rising Dragon',
+    'class': 'Infighter',
+    'description':
+        'Launch yourself into the air with first attack, causing 53 damage and proceed with downward strike in the cursor position dealing 210 damage on landing, first hit also launches enemies into the air.',
+    'type': 'Combo',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/infighter/c04s15.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Technical Finesse',
+            'description':
+                'Adds an uppercut in the beginning of the attack, increasing total damage by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_40.png',
+          },
+          {
+            'name': 'Lightning Fist',
+            'description':
+                'The first attack has a 50% chance to inflict Shock on the enemy for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+          },
+          {
+            'name': 'Fist of Destruction',
+            'description':
+                'First hit gathers enemies up before floating them into the air.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_71.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Identified Weakness',
+            'description': 'Increases damage done to CC immune enemies by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+          {
+            'name': 'Angry Strike',
+            'description':
+                'While your HP is 50% or lower, the critical damage of this skill increases by 150%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Midair Bombing',
+            'description':
+                'The upper cut pierces 60% of enemy’s physical defense.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_21.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Dragon\'s Rage',
+            'description':
+                'Increases attack radius by 30% and decreases incoming damage by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+          {
+            'name': 'Explosive Strike',
+            'description':
+                'The downward strike will always be a critical hit and the critical damage is increased by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Crush',
+    'class': 'Infighter',
+    'description':
+        'Staring forward, she instantly slips 3 meters in front of her arms for one second, causes 150 damages, and then throws a punch to 350 damages. Damage depends on the reduction of impact energy. Impact energy increases 15% to 25%, increases 30% to 26% to 50%, increases 45% to 51% to 75%, and increases to 76% to 100%, increases damage to 60%.',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/infighter/c04s16.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Violent Fist',
+            'description':
+                'The attack when moving forward is turned to a multi-hit. The attack becomes an explosion and inflicts burning damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+          },
+          {
+            'name': 'Rational Move',
+            'description':
+                'Movement distance is reduced by 3 meters but damage is increased by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Unexpected Move',
+            'description':
+                'It will become possible to take over and take up to 2 stages. Depending on the level of charge, the distance to hit the fist increases by 1 meter.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_39.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Overflowing Force',
+            'description':
+                'Increases damage from Shock gauge consumption by 20%, 40%, 60% and 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Shock Control',
+            'description': 'Damage increased by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+          },
+          {
+            'name': 'Patience',
+            'description': 'Reduces incoming damage by 50% whille using skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Surprise Attack',
+            'description':
+                'Increases attack speed by 30% and Power gauge generated by 30.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_37.png',
+          },
+          {
+            'name': 'Strength',
+            'description': 'Become immune to CC during skill casting.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_23.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Supernova Explosion',
+    'class': 'Infighter',
+    'description':
+        'Create a ball of energy dealing 66 damage, pull enemies to the ball dealing 66 damage and blow it up with a powerful finishing blow to cause 556 damage.',
+    'type': 'Normal',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/infighter/c04s17.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Sleek Motion',
+            'description': 'Attack speed increases by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Justice Plunder',
+            'description':
+                'Reduces Shock gauge consumption by 30 but increases cooldown by 12s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Piercing Strike',
+            'description': 'Attack ignores 30% of enemy’s defense.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+          },
+          {
+            'name': 'Angry Explosion',
+            'description':
+                'The attack that pulls enemies is removed and the explosion happens instantly instead.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+          },
+          {
+            'name': 'Wide Blow',
+            'description': 'Attack Range increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Pride of Fighters',
+            'description':
+                'Make 4 additional punches to increase damage by 20% and scope of explosion by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+          {
+            'name': 'Unyielding Blow',
+            'description': 'Increases damage by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
     'name': 'Force Bullet',
     'class': 'Soul Master',
     'description': 'Fires three condensed energy blasts in succession.',
@@ -7131,72 +8233,73 @@ const List<Map<String, dynamic>> _skillsData = [
       }
     ],
   },
-  {
-    'name': '',
-    'class': '',
-    'description': '',
-    'type': '',
-    'cooldown': 1,
-    'iconUrl': 'assets/icons/',
-    'tripod': [
-      {
-        'tier': 1,
-        'points': 4,
-        'skills': [
-          {
-            'name': '',
-            'description': '',
-            'iconUrl': 'assets/icons/tripod/',
-          },
-          {
-            'name': '',
-            'description': '',
-            'iconUrl': 'assets/icons/tripod/',
-          },
-          {
-            'name': '',
-            'description': '',
-            'iconUrl': 'assets/icons/tripod/',
-          },
-        ]
-      },
-      {
-        'tier': 2,
-        'points': 20,
-        'skills': [
-          {
-            'name': '',
-            'description': '',
-            'iconUrl': 'assets/icons/tripod/',
-          },
-          {
-            'name': '',
-            'description': '',
-            'iconUrl': 'assets/icons/tripod/',
-          },
-          {
-            'name': '',
-            'description': '',
-            'iconUrl': 'assets/icons/tripod/',
-          },
-        ]
-      },
-      {
-        'tier': 3,
-        'points': 48,
-        'skills': [
-          {
-            'name': '',
-            'description': '',
-            'iconUrl': 'assets/icons/tripod/',
-          },
-          {
-            'name': '',
-            'description': '',
-            'iconUrl': 'assets/icons/tripod/',
-          },
-        ]
-      }
-    ],
-  },
 ];
+
+const _emptySkill = {
+  'name': '',
+  'class': '',
+  'description': '',
+  'type': '',
+  'cooldown': 1,
+  'iconUrl': 'assets/icons/',
+  'tripod': [
+    {
+      'tier': 1,
+      'points': 4,
+      'skills': [
+        {
+          'name': '',
+          'description': '',
+          'iconUrl': 'assets/icons/tripod/',
+        },
+        {
+          'name': '',
+          'description': '',
+          'iconUrl': 'assets/icons/tripod/',
+        },
+        {
+          'name': '',
+          'description': '',
+          'iconUrl': 'assets/icons/tripod/',
+        },
+      ]
+    },
+    {
+      'tier': 2,
+      'points': 20,
+      'skills': [
+        {
+          'name': '',
+          'description': '',
+          'iconUrl': 'assets/icons/tripod/',
+        },
+        {
+          'name': '',
+          'description': '',
+          'iconUrl': 'assets/icons/tripod/',
+        },
+        {
+          'name': '',
+          'description': '',
+          'iconUrl': 'assets/icons/tripod/',
+        },
+      ]
+    },
+    {
+      'tier': 3,
+      'points': 48,
+      'skills': [
+        {
+          'name': '',
+          'description': '',
+          'iconUrl': 'assets/icons/tripod/',
+        },
+        {
+          'name': '',
+          'description': '',
+          'iconUrl': 'assets/icons/tripod/',
+        },
+      ]
+    }
+  ],
+};

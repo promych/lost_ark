@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 
 @immutable
 class Skill {
+  final String id;
   final String name;
   final String className;
   final String description;
@@ -12,6 +13,7 @@ class Skill {
   final List<EnchancementTier> tripod;
 
   Skill({
+    @required this.id,
     @required this.name,
     @required this.className,
     @required this.description,
@@ -23,16 +25,21 @@ class Skill {
   });
 
   factory Skill.fromJson(Map<String, dynamic> json) {
+    final icon = json['iconUrl'].toString();
+    final id =
+        icon.substring(icon.lastIndexOf('/') + 1, icon.lastIndexOf('.png'));
+
     return Skill(
+      id: id,
       name: json['name'],
       className: json['class'],
       description: json['description'],
       type: json['type'],
       cooldown: json['cooldown'],
       unlockLevel: json['unlockLevel'] ?? 1,
-      iconUrl: json['iconUrl'],
+      iconUrl: icon,
       tripod: List<EnchancementTier>.from(
-          json['tripod'].map((item) => EnchancementTier.fromJson(item))),
+          json['tripod'].map((item) => EnchancementTier.fromJson(item, id))),
     );
   }
 }
@@ -49,33 +56,40 @@ class EnchancementTier {
     @required this.enchancements,
   });
 
-  factory EnchancementTier.fromJson(Map<String, dynamic> json) {
+  factory EnchancementTier.fromJson(Map<String, dynamic> json, String skillId) {
     return EnchancementTier(
       tier: json['tier'],
       points: json['points'],
-      enchancements: List<SkillEnchancement>.from(
-          json['skills'].map((item) => SkillEnchancement.fromJson(item))),
+      enchancements: List<SkillEnchancement>.from(json['skills']
+          .map((item) => SkillEnchancement.fromJson(item, skillId))),
     );
   }
 }
 
 @immutable
 class SkillEnchancement {
+  final String id;
   final String name;
   final String description;
   final String iconUrl;
 
   SkillEnchancement({
+    @required this.id,
     @required this.name,
     @required this.description,
     @required this.iconUrl,
   });
 
-  factory SkillEnchancement.fromJson(Map<String, dynamic> json) {
+  factory SkillEnchancement.fromJson(
+      Map<String, dynamic> json, String skillId) {
+    final icon = json['iconUrl'].toString();
+    final id = icon.substring(icon.indexOf('Tier_') + 5, icon.lastIndexOf('.'));
+
     return SkillEnchancement(
+      id: skillId + id,
       name: json['name'],
       description: json['description'],
-      iconUrl: json['iconUrl'],
+      iconUrl: icon,
     );
   }
 }

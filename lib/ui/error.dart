@@ -13,7 +13,10 @@ class ErrorView extends StatelessWidget {
       theme: appTheme,
       home: CupertinoPageScaffold(
         child: Center(
-          child: Text(message),
+          child: Text(
+            message,
+            style: TextStyle(color: CupertinoColors.destructiveRed),
+          ),
         ),
       ),
     );

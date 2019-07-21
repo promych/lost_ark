@@ -38,7 +38,7 @@ class AppManager extends ChangeNotifier {
       _status = AppStatus.Loaded;
       notifyListeners();
     } catch (error) {
-      _errorMessage = error;
+      _errorMessage = error.message;
       _status = AppStatus.Error;
       notifyListeners();
     }
@@ -115,10 +115,12 @@ class AppManager extends ChangeNotifier {
     }
     notifyListeners();
 
-    print(_build.items.first.enchancements.toString());
+    print(_skillList.singleWhere((item) => item.name == skillName).id);
+    // print(_build.items.first.enchancements.toString());
+    // print(getSelectedEnchancementDescription(skillName, tierNum));
   }
 
-  String getSelectedEnchancementAtTier(String skillName, int tierNum) {
+  String getSelectedEnchancementNameAtTier(String skillName, int tierNum) {
     if (_build.items.isEmpty) return '';
     if (_build.items.indexWhere((item) => item.skillName == skillName) != -1) {
       return _build.items
@@ -127,5 +129,18 @@ class AppManager extends ChangeNotifier {
     } else {
       return '';
     }
+  }
+
+  String getSelectedEnchancementDescription(String skillName, int tierNum) {
+    if (_build.items.isEmpty) return '';
+    final selected = getSelectedEnchancementNameAtTier(skillName, tierNum);
+    if (selected == '') return '';
+    return _skillList
+        .singleWhere((item) => item.name == skillName)
+        .tripod
+        .singleWhere((item) => item.tier == tierNum)
+        .enchancements
+        .singleWhere((item) => item.name == selected)
+        .description;
   }
 }
