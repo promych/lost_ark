@@ -6704,6 +6704,1043 @@ const List<Map<String, dynamic>> _skillsData = [
     ],
   },
   {
+    'name': 'Spin Kick',
+    'class': 'Soul Master',
+    'description':
+        'Step forward then performs a low kick that knocks the target down deals (82) damage. Then, tackle them, knocking them backwards inflict (124) damage.',
+    'type': 'Normal',
+    'cooldown': 12,
+    'iconUrl': 'assets/icons/soulmaster/c05s03.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Push',
+            'description':
+                'The enemy\'s distance is increased when the enemy hits.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+          },
+          {
+            'name': 'Improved Speed',
+            'description':
+                'Increases attack speed by 15% but the mana cost is increased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_80.png',
+          },
+          {
+            'name': 'Improved Mobility',
+            'description': 'Increases the movement distance by 1m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Strengthens',
+            'description':
+                'During your last hit, you and your party members within a 24m radius increase attack strength by 15% for 10s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_65.png',
+          },
+          {
+            'name': 'Vulnerable Target',
+            'description':
+                'Deals 30% more damage to any target with the vulnerable status.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+          },
+          {
+            'name': 'Changed Circumstance',
+            'description':
+                'Deals 50% more damage on any target with the incapacitate status.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Strong Shoulder',
+            'description':
+                'Instead of kicking, rush 2m forward and tackle the enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+          },
+          {
+            'name': 'Aggressive Attack',
+            'description':
+                'All the hits stiffen the enemy and reduce travel distance on the second hit. After 2 hit, hit the opposite side of the body more strongly, striking an enemy for 3 seconds when attacking, increases the damage done to enemies by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Implosion',
+    'class': 'Soul Master',
+    'description':
+        'Jump 3m forward and strike the enemy three times. Infuse the ground with energy, pulling the target toward the caster. Afterwards, launch the enemy into the air. The caster can hold the skill during the infusion for 1 second.',
+    'type': 'Hold',
+    'cooldown': 14,
+    'iconUrl': 'assets/icons/soulmaster/c05s04.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Defensive Preparation',
+            'description': 'Takes 20% less damage while performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Improved Recharging',
+            'description':
+                'For each enemy inflicted by the last hit, reduces the skill cooldown by 0.5 seconds up to a maximum total of 4 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Superior Control',
+            'description':
+                'For each enemy inflicted by the last hit, recharges the force by 30 up to a maximum total of 150.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Strength',
+            'description':
+                'The caster becomes Invulnerable to crowd control effects while performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+          {
+            'name': 'Dexterous',
+            'description': 'The infusion increases attack speed by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+          },
+          {
+            'name': 'Changed Circumstance',
+            'description':
+                'Deals 50% more damage to any target with the incapacitate status.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Brave Ember',
+            'description':
+                'Burn the enemy when pulling them toward you. If the enemy has 3 stacks of the burning debuff, they suffer serious burn damage. Following the infusion, detonate the energy, delaing 50% increased damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+          },
+          {
+            'name': 'Unforgiven Chill',
+            'description': 'The pulling freezes the enemy for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_14.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Energy Strike',
+    'class': 'Soul Master',
+    'description':
+        'Fires eight successive energy attacks from your fingertip while backstepping 2m. The skill deals 30% more to airborne enemies.',
+    'type': 'Normal',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/soulmaster/c05s05.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Response',
+            'description': 'Decreases the skill cooldown by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Drillmaster',
+            'description': 'Increases the area of effect by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Quick Response',
+            'description': 'Increases attack speed by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Reduced Mobility',
+            'description':
+                'Successful hits reduce the enemy’s movement speed by 30% for 8s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+          },
+          {
+            'name': 'Heat',
+            'description': 'Successful hits burn the enemy for 7s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+          },
+          {
+            'name': 'Vulnerable Strike',
+            'description': 'Deals 50% more damage to any target in the air.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Strong Will',
+            'description': 'Fire a single attack instead of eight.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.png',
+          },
+          {
+            'name': 'Rapid Strike',
+            'description':
+                'Rapidly fire your attacks, dealing 50% increased damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Thunderbolt Strike',
+    'class': 'Soul Master',
+    'description':
+        'Stretches forth both hands and unleashes a blast of energy, dealing [ ] damage. The skill knocks airborne enemies backwards.',
+    'type': 'Normal',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/soulmaster/c05s06.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Justice Strike',
+            'description':
+                'Increases the attack strength by 4% for 3 sec. It can be stacked up to 5 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+          },
+          {
+            'name': 'Improved Endurance',
+            'description': 'Reduces force consumption by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+          },
+          {
+            'name': 'Improved Penetration',
+            'description': 'Adds penetration level by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Drillmaster',
+            'description': 'Increases the area of effect by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Icy Fist',
+            'description':
+                'Increases the skill cooldown by 6 seconds. The last hit freezes the enemy for 2 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+          },
+          {
+            'name': 'Heat',
+            'description':
+                'The last hit knocks the enemy down and burns them for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Raging Wave',
+            'description':
+                'Changes the skill into a multi-strike attack, dealing 20% increased damage under the faster skill animation.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.png',
+          },
+          {
+            'name': 'Cruel Grip',
+            'description':
+                'Increases the damage dealt by 150% to enemies in melee range.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Palm of Ru Lai',
+    'class': 'Soul Master',
+    'description':
+        'Summons the Palm of Ru Lai to the target location. Knockdowned enemies and airborne enemies take 30% increased damage.',
+    'type': 'Point',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/soulmaster/c05s07.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Improved Strike',
+            'description':
+                'Increases damage dealt by 30%, but increases force cost by 20%',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_80.png',
+          },
+          {
+            'name': 'Quick Response',
+            'description': 'Decreases the skill cooldown by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Insight',
+            'description': 'Increases the skill range by 3m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Cold Attack',
+            'description': 'Freeze the enemy for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+          },
+          {
+            'name': 'Tough Training',
+            'description':
+                'Faster attack, stiffen enemies without knocking them down.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+          },
+          {
+            'name': 'Heat',
+            'description': 'Successful hits burn the enemy for 7s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Greatest Revenge',
+            'description':
+                'Removes the Destruction property of the skill. Summons 4 small palms, dealing 120% increased total skill damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Ignorant Palm',
+            'description':
+                'It changes to tap skill. When using the skill, the palm moves forward 9m and affects the enemy.  Ignores 50% of all enemy armor when attacking.  Increases the attack distance by 3m when acquiring a ranged buff.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_81.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Dashing Strike',
+    'class': 'Soul Master',
+    'description':
+        'Dashes to the target location and deals (53) damage to the enemy. Airborne enemies are knocked airborne again. The skill can be used two additional times. Each time the caster uses the skill, the skill cooldown increases by 4 seconds, and force cost increases double.',
+    'type': 'Chain',
+    'cooldown': 8,
+    'iconUrl': 'assets/icons/soulmaster/c05s08.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Unstoppable Passion',
+            'description': 'The next turn available time increases by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+          },
+          {
+            'name': 'Ready-to-Ready',
+            'description':
+                'The cooldown time is reduced by the number of turnovers. Reduces the cooldown time by 1 second when used. Reduces cooldown time by 2 seconds when using twice in a row. Reduces cooldown time by 4 seconds when using 3 consecutive times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Superior Mobility',
+            'description': 'Increases the movement distance by 2m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Swift Step',
+            'description':
+                'Successful hits grant a 10% movement speed bonus for 3 seconds. The bonus can be stacked up to 3 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.png',
+          },
+          {
+            'name': 'Prompt Defense',
+            'description':
+                'When using a skill, the damage you receive for 3 seconds is reduced by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+          },
+          {
+            'name': 'Cheers of Victory',
+            'description':
+                'Performing the skill grants a buff that increases attack power by 10%. The buff can be stacked 3 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Unstable Space-time',
+            'description':
+                'Increases the damage dealt by 50%. Each additional use of the skill deals double damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+          {
+            'name': 'Fierce Movement',
+            'description':
+                'Reduces the force cost by 50% and each additional use of the skill reduces the force cost by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_35.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Force Strike',
+    'class': 'Soul Master',
+    'description':
+        'Lashes forward, sending a burst of energy outward. The caster recoils 3m backwards.',
+    'type': 'Normal',
+    'cooldown': 18,
+    'iconUrl': 'assets/icons/soulmaster/c05s09.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Response',
+            'description': 'Decreases the skill cooldown by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Improved Endurance',
+            'description': 'Reduces force consumption by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+          },
+          {
+            'name': 'Dramatic Blow',
+            'description': 'Increases the incapacitate level to [Medium].',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Heat',
+            'description':
+                'The last hit knocks the enemy down, and burns them for 7s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+          },
+          {
+            'name': 'Instant Evasion',
+            'description': 'The caster recoils 3m backwards.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+          },
+          {
+            'name': 'Aggressive Attack',
+            'description':
+                'Take 20% more damage while performing the skill but deal 50% additional damage to any target with the Invulnerable status.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Exceptional Movement',
+            'description':
+                'After the backstep, fire an energy burst forward and evade when the skill is used again.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.png',
+          },
+          {
+            'name': 'Space Adsorption',
+            'description':
+                'After collecting the energy, the energy sphere is blown forward.  The spheres are advanced by about 9m and are destroyed. Summons a black hole that attracts nearby enemies, increasing damage by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Tempest Ray',
+    'class': 'Soul Master',
+    'description':
+        'If you fire your fingers toward the front and then release your palm again, a thicker, more powerful weapon will be fired and you will have (340) damage.',
+    'type': 'Normal',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/soulmaster/c05s10.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Recharge',
+            'description':
+                'Reduces the cooldown per hit by 0.5 seconds for a maximum of 5 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Instinctive Movement',
+            'description':
+                'If you fire your toward the front and then release again, stronger weapon will be fired, giving 391 damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+          },
+          {
+            'name': 'Song of Time',
+            'description':
+                'Launches flashing light energy. Which stuns for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_44.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Harsh Training',
+            'description':
+                'Preparatory time is accelerated and released more quickly.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+          },
+          {
+            'name': 'Delete target',
+            'description':
+                'Attack width is reduced by 50%. The damage done to the enemy by charge is increased by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+          },
+          {
+            'name': 'Energy Explosion',
+            'description':
+                'Emits enormous energy with a 30% increase in attack width.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_62.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Exit Status',
+            'description':
+                'An additional explosion occurs immediately after the attack, and the damage it inflicts on the enemy increases by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+          },
+          {
+            'name': 'Explosive Attack',
+            'description':
+                'Increases the attack range by 4m and increases the damage done by the attacker by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Lighting Force',
+    'class': 'Soul Master',
+    'description':
+        'Slams the ground twice, then slams the ground again. Airborne enemies immediately fall when struck by the first and second hits, dealing 50% increased damage.',
+    'type': 'Normal',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/soulmaster/c05s11.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Improved Endurance',
+            'description': 'Reduces force consumption by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+          },
+          {
+            'name': 'Secret Attack',
+            'description':
+                'Increases damage by 20% when attacking an enemy with health below 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_32.png',
+          },
+          {
+            'name': 'Fine Hitting',
+            'description':
+                'A successful last hit on a knockdowned enemy lifts them into the air.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_77.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Defenseless Target',
+            'description': '100% additional damage to airborne enemies.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+          },
+          {
+            'name': 'Spot Weakness',
+            'description':
+                'Increases the damage dealt to targets with the Invulnerable status by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+          {
+            'name': 'Concussion',
+            'description': 'The Incapacitate stage 1 increases.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Six Sense',
+            'description':
+                'Increases attack speed by 20% and pulls the enemy toward the caster and Last Hit Damage increased by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.png',
+          },
+          {
+            'name': 'Slowed Movement',
+            'description':
+                'Attack range is increased by 20% and the other 3 on hit for 5 seconds enemy movement speed by 60% reduce.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Force Wave',
+    'class': 'Soul Master',
+    'description':
+        'Instantly stretches your palms and launches powerful pore-guns. The pore shot spreads at a slow pace and stuns the enemy with (216) damage.',
+    'type': 'Normal',
+    'cooldown': 15,
+    'iconUrl': 'assets/icons/soulmaster/c05s12.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Response',
+            'description': 'Decreases the skill cooldown by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Improved Endurance',
+            'description': 'Reduces force consumption by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+          },
+          {
+            'name': 'Improved Speed',
+            'description':
+                'Increases attack speed by 20% but the mana cost is increased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Growing Wave',
+            'description':
+                'Damage increases up to 60% when the force wave travels farther.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.png',
+          },
+          {
+            'name': 'Reduced Mobility',
+            'description':
+                'Successful hits reduce the enemy’s movement speed by 30% for 8s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+          },
+          {
+            'name': 'Raging Wave',
+            'description': 'Increases damage dealt by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Space Expansion',
+            'description':
+                'Releases the force wave three times but deals 30% less damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Space Contraction',
+            'description':
+                'The speed of the wave is increased by 50% and enemies are stiffened instead of knocked back. Additional skill use creates a strong wind that deals 100% increased damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Force Barrier',
+    'class': 'Soul Master',
+    'description':
+        'Creates a force barrier around itself and makes the surrounding enemies slow. The force barrier deals damage and reduces enemies’ attack and movement speed by 10% for 0.5 seconds per stack of the debuff. The debuff can stack up to four times. The caster can maintain the barrier for 3 seconds by holding the skill.',
+    'type': 'Hold',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/soulmaster/c05s13.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Defensive Preparation',
+            'description': 'Takes 30% less damage while performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Quick Response',
+            'description': 'Decreases the skill cooldown by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Improved Endurance',
+            'description': 'Reduces force consumption by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Toughness',
+            'description':
+                'The caster becomes Invulnerable to crowd control effects while performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+          {
+            'name': 'Spot Weakness',
+            'description':
+                'Increases the damage dealt to targets with the Invulnerable status by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+          {
+            'name': 'Overheated Force',
+            'description':
+                'Increase the force cost by 20% but deals 10% more damage per hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_80.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Desperate Attack',
+            'description':
+                'Holding the barrier for the full duration knocks enemies back and deals 40% more damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+          },
+          {
+            'name': 'Incisive Decision',
+            'description':
+                'Holding the barrier for the full duration pulls enemies towards the caster, and deals 40% more damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Spiral Strikes',
+    'class': 'Soul Master',
+    'description':
+        'Throws a jab in front of the caster, performs a spiral kick, and then fires a burst of force energy.',
+    'type': 'Normal',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/soulmaster/c05s14.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Attack Enhance',
+            'description':
+                'Increases your armor consumption by 20% and increases your damage by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_80.png',
+          },
+          {
+            'name': 'Stealing',
+            'description':
+                'When attacking, the target\'s movement speed is reduced by 5% for 5 seconds, its movement speed is increased by 5%, and can be stacked up to 5 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.png',
+          },
+          {
+            'name': 'Wide Blow',
+            'description': 'Increases attack range by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Sure Strike',
+            'description':
+                'Throw a roundhouse kick that lifts enemies into the air.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+          },
+          {
+            'name': 'No Regrets Attack',
+            'description':
+                'Move forward 5 meters and deal 3 hits for 20% increased damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+          },
+          {
+            'name': 'Sober Movement',
+            'description':
+                'The last hit after 2 more times, with a palm attack, and the enemies give a total damage increase of 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Transitional Burn',
+            'description':
+                'Change skill damage to fire. Target will burn for 7 seconds then spread it to nearby enemies. Target then will burn for additional 10 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+          },
+          {
+            'name': 'Afterimage Attack',
+            'description':
+                'A shadow of yourself will deal additional hits increasing damage by 100%. Increase cooldown by 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Inferno Beam',
+    'class': 'Soul Master',
+    'description':
+        'Strike with a combination of kicks and punches. Can change direction during skill animation.',
+    'type': 'Hold',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/soulmaster/c05s15.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Improved Endurance',
+            'description': 'Reduces force consumption by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+          },
+          {
+            'name': 'Concussion',
+            'description': 'The skill’s disabling phase increases to [Up].',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+          },
+          {
+            'name': 'Spot Weakness',
+            'description':
+                'Increases the damage dealt to targets with the Invulnerable status by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Ranged Target',
+            'description': 'Increases the skill range by 5m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_52.png',
+          },
+          {
+            'name': 'Changed Circumstance',
+            'description':
+                'Deals 50% more damage to any target with the Incapacitate status.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+          },
+          {
+            'name': 'Toughness',
+            'description':
+                'The caster becomes Invulnerable to crowd control effects while performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Bold Movement',
+            'description':
+                'Skips the skill preparation animation but prevents the caster from changing the attack direction. Increases attack speed by 30% and ignores 50% of the enemies’ armor.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.png',
+          },
+          {
+            'name': 'Rapid Fire',
+            'description':
+                'Increases the damage dealt by 80% during the last second of the cast.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Force Unleashed',
+    'class': 'Soul Master',
+    'description':
+        'You and your party within 24m will lose 12 to 25% damage for 6 seconds.',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/soulmaster/c05s16.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Dexterous',
+            'description': 'Increases attack speed by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Quick Response',
+            'description': 'Decreases the skill cooldown by 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Fortified Strong',
+            'description':
+                'You and your party members within a 24m radius increase attack strength by 15% for 16s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_65.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Tripod of Cleansing',
+            'description':
+                'Unlocks one of the harmful effects of yourself and party members within the 24m range.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+          },
+          {
+            'name': 'Enhanced Wave',
+            'description': 'All party members take 50% less damage for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_24.png',
+          },
+          {
+            'name': 'Toughness',
+            'description':
+                'The caster becomes Invulnerable to crowd control effects while performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Ready to Attack',
+            'description': 'Your attack power increases by 40% for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+          },
+          {
+            'name': 'Shout',
+            'description': 'Performs a strong attack to the enemies within 4m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
     'name': 'Degeneration',
     'class': 'Lance Master',
     'description': 'Swinging a spear twice',
