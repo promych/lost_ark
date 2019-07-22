@@ -2,7 +2,7 @@ import '../models/skill.dart';
 
 class SkillRepo {
   Future<List<Skill>> fetchSkills() async {
-    await Future.delayed(Duration(seconds: 1));
+    // await Future.delayed(Duration(seconds: 1));
     return _skillsData.map((json) => Skill.fromJson(json)).toList();
   }
 }

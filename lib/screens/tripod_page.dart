@@ -134,10 +134,13 @@ class _TierRow extends StatelessWidget {
                 )
             ],
           ),
-          // Text(
-          //   app.getSelectedEnchancementDescription(skillName, tier.tier),
-          //   style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
-          // )
+          if (selectedEnchancementId != '')
+            Text(
+              tier.enchancements
+                  .singleWhere((item) => item.id == selectedEnchancementId)
+                  .description,
+              style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
+            )
         ],
       ),
     );
