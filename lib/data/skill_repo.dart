@@ -13411,6 +13411,1033 @@ const List<Map<String, dynamic>> _skillsData = [
     ],
   },
   {
+    'name': 'Burning Gallop',
+    'class': 'Summoner',
+    'description':
+        'Relentless fire horse run over to deal (137) damage and airborne enemies.',
+    'type': 'Normal',
+    'cooldown': 8,
+    'iconUrl': 'assets/icons/summoner/c10s03.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Burning Run',
+            'description':
+                'Changed to [Fire] property, and deals damage to hit enemy for 3 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+          },
+          {
+            'name': 'Storm Run',
+            'description':
+                'Changed to [Brain], increases the critical hit rate by 15% , and makes it a 5 % chance to light up for 30 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+          },
+          {
+            'name': 'Frozen Streak',
+            'description':
+                'It is changed to the [Number] property and no longer blows the enemy, but when hit it freezes for 3 seconds to reduce the movement speed by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Collapse Spree',
+            'description':
+                'Destroy the magic power on the ground and damage it every second for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+          },
+          {
+            'name': 'Fast Witch',
+            'description':
+                'Increases the horse\'s movement speed by 30% and ignores the enemy magic defense by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_3.png',
+          },
+          {
+            'name': 'Weak Point',
+            'description':
+                'Increase the critical damage by 100% toward an enemy with hit recovery immune.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Ascension',
+            'description':
+                'Five horses rush in order to deal damage on each hit, but the cooldown increases by 16s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Demolisher',
+            'description':
+                'It changes to non-canal, but the distance the winged horse runs away increases the damage done by the enemy by up to 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Fauru',
+    'class': 'Summoner',
+    'description':
+        'Throw firebomb at cursor point to deal (111) [Fire] damage and summon fire spirit Fauru. Fauru attacks nearby enemy for 15s and deals (104) [Fire] damage.',
+    'type': 'Point',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/summoner/c10s04.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Twilight Burning',
+            'description':
+                'Summoner\'s summon damage is increased by 30% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.png',
+          },
+          {
+            'name': 'Mana Cycle',
+            'description':
+                'When Piru is recalled, it recovers by 30% of max mana.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_79.png',
+          },
+          {
+            'name': 'Wide Explosion',
+            'description':
+                'When Pauer is summoned, the skill\'s cooldown decreases by 30% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Attack Enhancement',
+            'description': 'Increase Fauru’s damage by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+          },
+          {
+            'name': 'Flaming Fire',
+            'description':
+                'Pauru burns every attack for 5 seconds, and when it is 5 stacked, it explodes and causes big damage to the surroundings.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+          },
+          {
+            'name': 'Summon Maintenance',
+            'description': 'Increase Fauru’s summon duration by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Blue Flame Fauru',
+            'description':
+                'Increase Fauru’s attack and movement speed and vision rage by 20% each, decrease attack interval time, can activate fire breath in a cone shape with 100% damage that blows away enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_59.png',
+          },
+          {
+            'name': 'Pair of Flames',
+            'description':
+                'Paurus is changed to the command abilities, and after self-destruction, causing great damage to the surroundings.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Released Will',
+    'class': 'Summoner',
+    'description': 'Release gale to push enemies away and cause (224) damage.',
+    'type': 'Normal',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/summoner/c10s05.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Excellent Maneuver',
+            'description':
+                'Increase skill’s travel distance by 2m. If cyclone tripod is learned, only increase by 1m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+          {
+            'name': 'Mana Control',
+            'description': '50% chance to not consume MP.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Energy Control',
+            'description':
+                'At successful hit, increase ancient spirit gauge gain by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Ranged Blast',
+            'description': 'Increase skill range by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_52.png',
+          },
+          {
+            'name': 'Freezing Cold',
+            'description':
+                'It is changed to [Number] property, and when attack hit, freeze for 4 seconds to reduce movement speed by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+          },
+          {
+            'name': 'Sandy Wind',
+            'description': 'Blows the blast and gives 224 damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_60.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Cyclon Rush',
+            'description':
+                'Skill motion changes into a spin to attack all enemy around.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Mana Amplification',
+            'description':
+                'Increase the MP consumption by 50% and the damage by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_1.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Maririn',
+    'class': 'Summoner',
+    'description':
+        'Summon coral spirit Maririn. Maririn attacks nearby enemy for 20s and deals (124) damage.',
+    'type': 'Normal',
+    'cooldown': 45,
+    'iconUrl': 'assets/icons/summoner/c10s06.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Attack Enhancement',
+            'description': 'Increase Maririn’s damage by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+          },
+          {
+            'name': 'Iron Skin',
+            'description': 'Maririn gets 30% damage reduction.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Ether of Power',
+            'description':
+                'At the death of Marilyn, a power ether is created at the death location.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Taunt Command',
+            'description':
+                'Grant taunt skill. Can be activated to immediately taunt all enemy except players for 2s. Seed or higher class mob can’t be taunted for certain period.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_73.png',
+          },
+          {
+            'name': 'Charge Command',
+            'description':
+                'Grant charge skill. Can be activated to charge toward an enemy to stun for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.png',
+          },
+          {
+            'name': 'Neutralization Command',
+            'description':
+                'When you summon Marilyn, it is changed to the disabling command skill.  Immediately after using the changed skill, Marilyn uses the neutralization skill toward the enemy, and the Incapacitatepoint [middle] is given.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Communion',
+            'description': 'Increase Maririn’s duration by 10s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_51.png',
+          },
+          {
+            'name': 'Coral Spirit',
+            'description': 'Increase Maririn’s HP by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_59.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Winged Spirit',
+    'class': 'Summoner',
+    'description':
+        'Summon hawk figured wind spirit at cursor point. Can last maximum of 4s to deal (716) damage at maximum.',
+    'type': 'Hold 4 sec',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/summoner/c10s07.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Feeding on Prey',
+            'description':
+                'Increase the damage by 30% toward a mob with Named class or below.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.png',
+          },
+          {
+            'name': 'Fortified Robe',
+            'description': '30% damage reduction while holding.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Mana Regeneration',
+            'description': '50% increased MP regeneration while holding.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_79.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Thunder Spirit',
+            'description': 'Increase critical hit rate by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Earth Spirit',
+            'description': '10% chance to petrify an enemy for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+          },
+          {
+            'name': 'Result of Training',
+            'description': 'Increase the skill range by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Typhoon',
+            'description':
+                'Increase the damage by 30% and critical damage by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.png',
+          },
+          {
+            'name': 'Communion',
+            'description':
+                'Decrease hit interval by 33%. Increase in ancient spirit gauge gain as it hits more..',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Electricity Release',
+    'class': 'Summoner',
+    'description':
+        'Throw condensed electric ball to deal (56) damage and create electric field for 1s that deals (131) damage.',
+    'type': 'Normal',
+    'cooldown': 12,
+    'iconUrl': 'assets/icons/summoner/c10s08.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Chain Launch',
+            'description':
+                'Change into a chain skill. Increase the MP cost by 50% and activating a chain skill increase CD by 12s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_38.png',
+          },
+          {
+            'name': 'Rapid Casting',
+            'description': 'Increase the casting motion speed by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Haste Launch',
+            'description': 'Increase the projectile travel speed by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Electricity Enhancement',
+            'description':
+                'Increased in duration of stiffness and critical hit rate by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Feeding on Prey',
+            'description':
+                'Increase the damage by 30% toward a mob with Minion or Normal class.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.png',
+          },
+          {
+            'name': 'Weak Point',
+            'description':
+                'Increase the damage by 40% toward an enemy with hit recovery immune.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Supercurrent Area',
+            'description':
+                'At the arrival point, create an electrical field for 3.5s that causes damage for every 0.5s and pulls enemies toward a center.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+          {
+            'name': 'High Voltage',
+            'description': 'Electrify an enemy for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Sticky Moss Swamp',
+    'class': 'Summoner',
+    'description':
+        'Summons a sticky moss swamp in the mouse position, giving 25 property damage per second to moss swarms, reducing movement speed by 60% for 2 seconds.',
+    'type': 'Point',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/summoner/c10s09.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mind Enhancement',
+            'description': 'Decrease MP consumption by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Rapid Preparation',
+            'description': 'Cooldown reduced by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Battle Preparation',
+            'description':
+                'When a skill is activated, its attack power increases by 20% for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Increased Diffusion',
+            'description': 'Speed up the spreading of the swamp.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.png',
+          },
+          {
+            'name': 'Poisonous Swamp',
+            'description': 'Increase the damage by 200%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+          },
+          {
+            'name': 'Sticky Swamp',
+            'description': 'Increase the slow effect by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Queen of Swamp',
+            'description': 'Increase the size of the swamp by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+          {
+            'name': 'Acidic Swamp',
+            'description':
+                'Reduces 60% of all enemies attacked by moss swamp for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_46.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Elssed',
+    'class': 'Summoner',
+    'description':
+        'Summon 2 Elseed, lily flower spirit. Elseed attacks nearby enemy for 10s and deals (35) damage.',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/summoner/c10s10.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mind Enhancement',
+            'description': 'Decrease MP consumption by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Mana Amplification',
+            'description':
+                'Increases mana consumption by 50%, but increases your attack power by 30% for 4 seconds when you activate a skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+          },
+          {
+            'name': 'Summon Maintenance',
+            'description': 'Increase summon duration by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Poisonous Seed',
+            'description':
+                'Hit applies poison to an enemy for 5s and stacks up to 20 stacks.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+          },
+          {
+            'name': 'Ice Seed',
+            'description':
+                'Hit applies slow which decrease movement speed by 40% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+          },
+          {
+            'name': 'Trace Seed',
+            'description': 'Changes to the seed to track the enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Pack Summon',
+            'description': 'Summons 3 Elseeds',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Elite Summon',
+            'description':
+                'Summons only one elite version which has greater damage, 40% increased attack range, and can cause stiffness on good hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_59.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Earth Shatter',
+    'class': 'Summoner',
+    'description':
+        'Create strong earthquake at cursor point to deal (380) damage and airborne.',
+    'type': 'Point',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/summoner/c10s11.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Flame Shatter',
+            'description': 'Increase the damage by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+          },
+          {
+            'name': 'Glacial Collapse',
+            'description':
+                'Changed to [Number] property and freezes the enemy hit for the Earth Collapse for 3 seconds, no longer causing any damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+          },
+          {
+            'name': 'Big Crack',
+            'description': 'The Incapacitate stage 1 increases.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Aftershocks',
+            'description':
+                'After the earth collapse, it creates a crack zone for 3 seconds to damage the location every second.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+          },
+          {
+            'name': 'Tremble',
+            'description': 'Additional hits of 4 times during casting.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+          },
+          {
+            'name': 'Tenacity',
+            'description': 'Grant hit recovery immune during casting.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Great Rift',
+            'description':
+                'Increase MP consumption by 50% and ignore magic defense of enemy by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_3.png',
+          },
+          {
+            'name': 'Earthquake',
+            'description':
+                'Increases attack range by 50% and increases destruction level by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Spirit of Water',
+    'class': 'Summoner',
+    'description': 'Summon water spirit for 2s and deal (374) [Water] damage.',
+    'type': 'Normal',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/summoner/c10s12.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Rapid Casting',
+            'description': 'Increase casting motion speed by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Fortified Robe',
+            'description':
+                'Grant damage reduction of 30% while the spirit is up.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Mana Regeneration',
+            'description':
+                'Increase MP regeneration rate by 200% while the spirit is up.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_79.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Mud Spirit',
+            'description': 'Apply slow effect for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+          },
+          {
+            'name': 'Water Spray Spirit',
+            'description':
+                'Last hit deals greater damage and blows enemy away.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+          },
+          {
+            'name': 'Weak Point',
+            'description': 'Increases the damage done to your enemies by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Wisdom of Spirit',
+            'description':
+                'Increase summon duration by 1s and gradually increase the damage up to 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+          },
+          {
+            'name': 'Water Cannon',
+            'description':
+                'Decrease skill angle by 50% but increase the attack distance by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Electric Storm',
+    'class': 'Summoner',
+    'description':
+        'After channeling mana for 2s, create electric storm for 5s to deal (656) damage.',
+    'type': 'Cast 2 sec',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/summoner/c10s13.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mana Control',
+            'description': '50% chance to not consume MP.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Rapid Casting',
+            'description': 'Increase casting speed by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Fortified Robe',
+            'description': '30% damage reduction while casting.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Vital Strike',
+            'description':
+                'Increase MP consumption by 25% and critical hit rate by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Result of Training',
+            'description': 'Increase the size of the storm by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Long-lasting',
+            'description':
+                'Increase MP consumption by 75% and summon duration by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Crimson Storm',
+            'description':
+                'Decrease hit interval by 33%. Increase in ancient spirit gauge gain as it hits more.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+          {
+            'name': 'Homing Storm',
+            'description':
+                'Increase in ancient spirit gauge gain by 50% and grant homing ability that slowly travels toward an enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_81.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Shurudy',
+    'class': 'Summoner',
+    'description':
+        'Summon small light spirit Shurudy. Shurudy travels along with character for 20s to deal (77) damage.',
+    'type': 'Normal',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/summoner/c10s14.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Ignore Collision',
+            'description':
+                'Increases your movement speed by 10% during Shurudy summoning, ignoring conflicts with normal monsters.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_48.png',
+          },
+          {
+            'name': 'High Speed Projectile',
+            'description': 'Increase attack projectile speed by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+          },
+          {
+            'name': 'Growth of Light',
+            'description': 'After 10s Shurudy’s attack gets 50% increase.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Smarty Shurudy',
+            'description':
+                'Increase vision and attack range by 20% and decrease the hit interval.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+          },
+          {
+            'name': 'Buffed Shurudy',
+            'description': 'Increase skill attack by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+          },
+          {
+            'name': 'Vanity Shurudy',
+            'description': 'Increase summon duration 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Exhilarating light',
+            'description':
+                'When Shredi’s attack hit, it deals damage every second for 7 seconds, explodes on 3 stacks, causes big damage, and stuns for 2 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.png',
+          },
+          {
+            'name': 'Mana Regeneration',
+            'description':
+                'Increases the basic recovery rate of mana and party mana by 40% during Summoning.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_79.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Ancient Spear',
+    'class': 'Summoner',
+    'description':
+        'After channeling mana for 2.5 s, summon an ancient spear at the cursor point to deal (1036) damage and knock down targets got direct hit and deal.',
+    'type': 'Cast 2.5 sec',
+    'cooldown': 36,
+    'iconUrl': 'assets/icons/summoner/c10s15.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Ancient Judgment',
+            'description':
+                'An Ancient Spear is stuck on the floor and the ground explodes, causing additional damage and turning it over.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_78.png',
+          },
+          {
+            'name': 'Rapid Casting',
+            'description': 'Increase casting speed by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Ancient Flow',
+            'description':
+                'Skill distance reduced by 2m, but damage to enemies increases by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_53.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Blazing Spear',
+            'description': 'Spear applies burn effect for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+          },
+          {
+            'name': 'Glacial Spear',
+            'description':
+                'Direct hit by spear freezes an enemy for 4 seconds and reduces the movement speed by 50% for 4 seconds at outer range.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+          },
+          {
+            'name': 'Earth Spear',
+            'description': 'Increases Incapacitate level by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_15.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Condensed Power',
+            'description':
+                'When an Ancient Spear is stuck, it gives off the intense aura and lasts 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+          {
+            'name': 'Ancient Power',
+            'description':
+                'The damage done to the enemy is reduced by 20%, but the drops two more Ancient Spear.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Rayne\'s Protection',
+    'class': 'Summoner',
+    'description':
+        'Receives Rayne’s favor and creates a shield that absorbs damage from 11 to 20% of life for 5 seconds.',
+    'type': 'Normal',
+    'cooldown': 40,
+    'iconUrl': 'assets/icons/summoner/c10s16.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Wind of Protection',
+            'description': 'Push enemies away at cast.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+          },
+          {
+            'name': 'Focused Energy',
+            'description':
+                'When you activate a skill, you gain a 30% chance of receiving 1 elemental bead.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+          },
+          {
+            'name': 'Light Footfall',
+            'description':
+                'Movement speed is increased by 20% while shielding effect is maintained.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Barrier Enhancement',
+            'description': 'Increase the shield amount by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+          },
+          {
+            'name': 'Barrier Maintenance',
+            'description': 'Shield duration increased by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+          {
+            'name': 'Clean',
+            'description':
+                'When you activate a skill, you remove 1 harmful effect that affects you and your party members within the 24m radius.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_65.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Resonance',
+            'description':
+                'Shield breaks with explosion that causes stun for 4s to nearby enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.png',
+          },
+          {
+            'name': 'Accelerating Shield',
+            'description': '30% CDR while shield is up.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_56.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
     'name': 'Call of Destiny',
     'class': 'Arcana',
     'description':
@@ -13628,6 +14655,1027 @@ const List<Map<String, dynamic>> _skillsData = [
             'description':
                 'Changed to [Cancer] property, which increases 40% critical chanse and 50% of critical damage received from you for 5s.',
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Mysterious Rush',
+    'class': 'Arcana',
+    'description':
+        'When using it for the first time, you move 4m to your left. Using a second time, you move 8m on your right and finally 4m on your left if it is used a third time. With each move, you send cards to the opponent, dealing damage.',
+    'type': 'Combo',
+    'cooldown': 14,
+    'iconUrl': 'assets/icons/arcana/c11s03.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mental Fortification',
+            'description': 'Mana consumption reduced by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Penetration Enhance',
+            'description': 'Increases penetration rate by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+          },
+          {
+            'name': 'Quickdraw',
+            'description': '5% chance to draw a Tarot card each hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_66.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Escape Master',
+            'description': 'Increases evasion rate by 30% during cast.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+          },
+          {
+            'name': 'Rush Concentration',
+            'description': 'As combo progresses, increases damage by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+          },
+          {
+            'name': 'Mobility Weakness',
+            'description':
+                'Reduces enemy movement speeds hit by mysterious rushes by 50% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Mysterious Retreat',
+            'description':
+                'It changes to stack skill, and can be used two times consecutively.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_83.png',
+          },
+          {
+            'name': 'Continuous Attack',
+            'description':
+                'Changes the attack to a four hit attack. The last attack pushes the enemy away. When used as a reinforcing through- 2 and # 3 respectively, the second attack one through-attack level is applied.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Evoke',
+    'class': 'Arcana',
+    'description':
+        'Places a spell in a specified area that explodes, dealing damage, when the skill is used again.',
+    'type': 'Chain',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/arcana/c11s04.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Mental Fortification',
+            'description': 'Mana consumption reduced by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Quickdraw',
+            'description': '10% chance to draw a Tarot card each hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_66.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Link Magic',
+            'description': 'Damage to enemies increases by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+          },
+          {
+            'name': 'Mana Poisoning',
+            'description':
+                'Damage reduced by 30% and no longer knocks up. Reduces movement speed by 40% and deals 15% continuous poison damage each second for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+          },
+          {
+            'name': 'Sharp Strike',
+            'description': 'Critical hit rate increases by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Split Magic',
+            'description':
+                'You can cast the skill twice within 3s. It will automatically detonate after 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Nested Circle',
+            'description':
+                'The number of attacks increases by 3, but the damage and attack range of the second attack is 50%, the third attack is damaged, and the attack range is reduced by 75%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Quadra Accelerate',
+    'class': 'Arcana',
+    'description':
+        'Throws 4 straight-line cards, inflicting damage in the specified direction. Movement speed is increased during casting.',
+    'type': 'Normal',
+    'cooldown': 8,
+    'iconUrl': 'assets/icons/arcana/c11s05.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Penetration Enhance',
+            'description': 'Increases penetration rate by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+          },
+          {
+            'name': 'Sleek Motion',
+            'description': 'Attack speed increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Sharp Strike',
+            'description':
+                'Attack hit increases the critical hit rate of the target’s self and party members by 15% for 8s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Swift Movement',
+            'description': 'Increases movement speed by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.png',
+          },
+          {
+            'name': 'Ignore Collision',
+            'description': 'No unit collision during the cast.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+          },
+          {
+            'name': 'Increase Card',
+            'description':
+                '5% chance to deal 20% additional damage and instantly apply 4 stacked cards.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_67.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Hexagon Enhancement',
+            'description':
+                'Increases skill duration by 1s and cards fired from 4 to 6.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Accelerate Concentration',
+            'description': 'Increases damage by 30% to 90% per hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Scratch Dealers',
+    'class': 'Arcana',
+    'description':
+        'You move 6m in a given direction and inflict damage. If the skill is used again, you knockdown enemy. Can stack 2 times the Floating Cards effect.',
+    'type': 'Combo',
+    'cooldown': 10,
+    'iconUrl': 'assets/icons/arcana/c11s06.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Excellent Mobility',
+            'description': 'Travel distance increased by 2m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+          {
+            'name': 'Barely Exposed',
+            'description':
+                'Increases the critical hit rate of your target and party members by 15% for 10s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+          {
+            'name': 'Muscle Spasm',
+            'description': 'Increases fall down condition by 0.5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Sharp Blow',
+            'description': 'Critical damage increases by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'First Scratch',
+            'description':
+                'Increases the damage done to non-overlapping enemies by 40% in the First Scratch Stack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+          },
+          {
+            'name': 'Identified Weakness',
+            'description': 'Increases damage done to immune enemies by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Squall',
+            'description':
+                'Combo increases by 3 attack that inflicts a hit on a second hit in the air is added, and the last attack increases the damage done by the enemy in the air by 50% and overlaps the stack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Safety Device',
+            'description':
+                'Increases the combo by 3 and uses the last combo to move 7m backward for 3 sec, increasing attack rate by 10% and moving speed by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_26.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Spiral Edge',
+    'class': 'Arcana',
+    'description':
+        'Charge on 7m and throw cards around you. The skill can be used 2 times in a row. Each time you use the skill, you inflict the floating cards effect.',
+    'type': 'Chain',
+    'cooldown': 14,
+    'iconUrl': 'assets/icons/arcana/c11s07.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mental Fortification',
+            'description': 'Mana consumption reduced by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown time decreases by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Excellent Mobility',
+            'description': 'Travel distance increased by 1.4m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Stronger',
+            'description': 'Spiral Edge during use, is immune to attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+          {
+            'name': 'Ruthless Shot',
+            'description':
+                'Reduces damage by 40% but adds an extra attack around the caster on destination.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+          },
+          {
+            'name': 'Sharp Blow',
+            'description':
+                'Increases critical strike damage taken by you for 3s by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Card Amplification',
+            'description':
+                'Deals an additional attack on arrival to enemies within 4 meters of player.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Light Step',
+            'description':
+                'After using the skill, movement speed increased by 40% and no collision for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_48.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Flower Dance',
+    'class': 'Arcana',
+    'description':
+        'You move 11m in a given direction while throwing cards around you, dealing damage to enemies. By using the skill a second time, you return to your starting position. The floating cards effect can be applied 4 times.',
+    'type': 'Combo',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/arcana/c11s08.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Critical Hit Rate',
+            'description':
+                'Blight Critical Hit Rate increases by 5%, up to 50%, depending on skill duration.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+          {
+            'name': 'Damage Increased',
+            'description': 'Damage increased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.png',
+          },
+          {
+            'name': 'Light Step',
+            'description':
+                'Using teleportation when 3 a second movement speed by 20% increases.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Wide Attack',
+            'description': 'Radius increases by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Exhilarating Dance',
+            'description': 'Causing a 30% chance to light up for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+          },
+          {
+            'name': 'Blooming Flower',
+            'description': 'Critical damage increases by 75%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Aggressive Visibility',
+            'description':
+                'Reduces number of attacks by 4, increases damage by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.png',
+          },
+          {
+            'name': 'Fatal Visibility',
+            'description':
+                '100% damage explosion at destination when teleporting back.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Checkmate',
+    'class': 'Arcana',
+    'description':
+        'Quickly launch a card in the direction of the mouse, inflicting damage.',
+    'type': 'Hold',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/arcana/c11s09.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Piercing Strike',
+            'description':
+                'Each time you hit a Strike Strike card, the damage it inflicts on the enemy increases by 5%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_58.png',
+          },
+          {
+            'name': 'Sharp Strike',
+            'description': 'Increases critical hit rate by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+          {
+            'name': 'Card Increase',
+            'description':
+                'Increases maximum number of card stacks from 3 to 4.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_67.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Thundermate',
+            'description':
+                'Causing the card to blow up faster , increasing the attack frequency by 30%, and causing it to light up for 3 seconds with a 30% chance.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+          },
+          {
+            'name': 'Concentrated Darkness',
+            'description':
+                'Increases the damage done by the Checkmate by 10%, up to 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.png',
+          },
+          {
+            'name': 'Identified Weakness',
+            'description':
+                'Increase the Incapacitate level by 1 andIncreases damage done to immune enemies by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Wave of Cards',
+            'description': 'Fans out attacks in a four-directional cone fan.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Deadline',
+            'description':
+                'When holding the skill for longer than 0.5s you throw explosive cards after letting go that inflicts 600% damage. Knocks targets down.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Stream of Edge',
+    'class': 'Arcana',
+    'description':
+        'Open two portals, releasing a deluge of cards: All enemies located between these portals inflict damage.',
+    'type': 'Point',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/arcana/c11s10.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Card Increase',
+            'description':
+                'Increases Floating Cards stacks from one cast from 2 to 3.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_67.png',
+          },
+          {
+            'name': 'Movement Speed',
+            'description': 'Your movement speed increases by 20% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+          },
+          {
+            'name': 'Edge Night',
+            'description': 'Final strike explodes, causing additional damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_78.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Deathwheel',
+            'description':
+                'Stream of Edge rotates and deals 25% more damage to enemies.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_81.png',
+          },
+          {
+            'name': 'Thunder Stream',
+            'description':
+                'Electric shock state for 3 seconds when hit 4 times in a short time.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+          },
+          {
+            'name': 'Darkness Edge',
+            'description':
+                'Changed to [Arm] attribute, and each time it hits, the arkana’s critical hit rate increases by 3% for 3s, up to 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Stream Wave',
+            'description':
+                'No longer fixates the skill in place. Skill slowly travels forward and increases damage by 150%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.png',
+          },
+          {
+            'name': 'Perfect Stream',
+            'description':
+                'is changed into a triangle form by summoning another text of the stream\'s edge.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Infinity Rain',
+    'class': 'Arcana',
+    'description':
+        'Deals damage by throwing cards at the target location. They increase damage each time the skill is used.',
+    'type': 'Combo',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/arcana/c11s11.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Card Increase',
+            'description':
+                'Increases maximum number of card stacks from 1 to 2.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_67.png',
+          },
+          {
+            'name': 'Sharp Strike',
+            'description': 'Increases critical hit rate by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Master of Evasion',
+            'description': 'Encreases evasion rate by 30% while using skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+          },
+          {
+            'name': 'Uniform Attack',
+            'description':
+                'No longer incrementally increases the damage of each attack. Increases total damage by 75%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+          },
+          {
+            'name': 'Defenseless Targets',
+            'description':
+                'Increases damage done to a knocked down targets by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Last Infinite',
+            'description':
+                'Increased damage by 60%. Fallen enemies struck will remain fallen.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_9.png',
+          },
+          {
+            'name': 'Infinite Maneuver',
+            'description':
+                'Reduces number of hits to 1 and increases damage by 200%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Celestial Rain',
+    'class': 'Arcana',
+    'description':
+        'The card explodes at the target location inflicting damage. Inflicts additional damage to knock-up enemies by bringing them back to the ground. When the stack effect is activated, it gives an additional effect.',
+    'type': 'Point',
+    'cooldown': 9,
+    'iconUrl': 'assets/icons/arcana/c11s12.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Sleek Motion',
+            'description': 'Attack speed increases by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Sharp Strike',
+            'description': 'Increases critical hit rate by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': '50% chance to reset cooldown on cast.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Destroyer Card',
+            'description': 'Critical damage increased by 10% to 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_5.png',
+          },
+          {
+            'name': 'Sharp Card',
+            'description':
+                'In addition to the existing Stack effect, if you have 4 stacks, damage done to you for 4 seconds increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_68.png',
+          },
+          {
+            'name': 'Strengthened Strike',
+            'description': 'Damage dealt increased by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Heavy Rain',
+            'description':
+                'Adds another hit with 100% additional damage. This hit deals 50% further damage if the enemies it hits are knocked down.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Detect Weakness',
+            'description':
+                'Damage increases by 25% to 100% per Floating Cards stack against a target immune to hit-effects. Increases cooldown by 8s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_33.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Four Cards',
+    'class': 'Arcana',
+    'description':
+        'Quickly launch 4 cards, dealing вamage in the specified direction. When the deck is triggered, add an additional effect.',
+    'type': 'Normal',
+    'cooldown': 12,
+    'iconUrl': 'assets/icons/arcana/c11s13.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': '44% chance to reset cooldown on cast.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Mental Fortification',
+            'description': 'Mana consumption reduced by 44%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Penetration Enhance',
+            'description': 'Increases penetration rate by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Four Stack',
+            'description':
+                'Damage dealt by player is increased by 44% for 4s every time the skill is cast 4 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+          },
+          {
+            'name': 'Strength',
+            'description': 'Become immune to cc during skill use.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+          {
+            'name': 'Card Enhancement',
+            'description': 'Damage dealt increased by 44%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Delayed Shock',
+            'description':
+                'Reduces damage to 44% and places a debuff on the target. 4s later, it deals 444% more damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+          },
+          {
+            'name': 'Continuous Attack',
+            'description':
+                'Skill becomes a combo, allowing a 2nd hit by holding down the key.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Serendipity',
+    'class': 'Arcana',
+    'description':
+        'You surround yourself with cards, dealing damage to nearby enemies, and project them in the direction of the mouse.',
+    'type': 'Normal',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/arcana/c11s14.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Piercing Strike',
+            'description': '50% chance to ignore 50% of enemy’s magic defense.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_3.png',
+          },
+          {
+            'name': 'Quickdraw',
+            'description': '0% chance that a skill does not consume stacks.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_66.png',
+          },
+          {
+            'name': 'Mental Fortification',
+            'description': '50% chance to not consume MP.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Accidental Blow',
+            'description':
+                'Has a 20% chance to increase the critical damage by 200% per Floating Cards stack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_68.png',
+          },
+          {
+            'name': 'Accidental Bang',
+            'description':
+                'ncreases the attack speed by 30% and stuns for 3 seconds with a 20% chance per stack stacking,. No longer knocks down.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.png',
+          },
+          {
+            'name': 'Strengthened Strike',
+            'description':
+                'Increases damage done by Serendipity to enemies by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Continuous Attack',
+            'description':
+                'Skill is changed to combo damage to the enemy is increased by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Designed Luck',
+            'description':
+                'Increases the odds of other Tripod talents within this skill activating by 20%. Talents that rely on number of Floating Cards detonated will default to 20% chance.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_36.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Dark Resurection',
+    'class': 'Arcana',
+    'description':
+        'Throw a card at the indicated location and summon a demon that deals damage for 3s. When the deck effect is triggered, add an effect. PVP: Cause stiffness to a target who is casting skill.',
+    'type': 'Point',
+    'cooldown': 36,
+    'iconUrl': 'assets/icons/arcana/c11s15.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Sleek Motion',
+            'description': 'Attack speed increases by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Piercing Strike',
+            'description': 'Ignores 30% of enemy’s magic defense.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_3.png',
+          },
+          {
+            'name': 'Mental Fortification',
+            'description': 'Mana Consumption reduced by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Quickdraw',
+            'description': '15% chance to draw a Tarot card on last hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_66.png',
+          },
+          {
+            'name': 'Fatal Card',
+            'description':
+                'Increases critical chance by 10% to 60% depending on Floating Cards.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Intense Card',
+            'description':
+                'Increases damage by 10% to 40% depending on Floating Cards.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Fear of Death',
+            'description':
+                'Causes enemies hit by the last attack to be poisoned for 3s and reduces casting animation time for this skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.png',
+          },
+          {
+            'name': 'Anger Strike',
+            'description':
+                'Critical damage from Skill and Stack effects is increased by 50%, and the last attack strikes the ground, knocking the hit enemies into the middle, causing 30% more damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Secret Garden',
+    'class': 'Arcana',
+    'description':
+        'Instantly deals damage to nearby enemies and deals additional damage to enemies by adding a stack of Floating Card. When the stack effect is on, add an effect.',
+    'type': 'Normal',
+    'cooldown': 8,
+    'iconUrl': 'assets/icons/arcana/c11s16.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown time is reduced by 4.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Mental Fortification',
+            'description': 'Mana consumption reduced by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Sharp Strike',
+            'description': 'Increases critical hit rate by 15%',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Perfect Secret',
+            'description':
+                '40% additional damage to enemies with 4 card stacks.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_68.png',
+          },
+          {
+            'name': 'Down Attack',
+            'description':
+                'Floating Cards bonus damage reduced by 30%, however knocks down enemies if they have Floating Cards stacks.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+          },
+          {
+            'name': 'Darkness Garden',
+            'description': 'Increases critical damage by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_49.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Secret Chance',
+            'description': 'Increases Floating Cards detonation damage by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+          },
+          {
+            'name': 'Trained Performance',
+            'description': 'Attack range increased by 2 meters.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
           },
         ]
       }
