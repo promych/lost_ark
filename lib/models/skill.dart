@@ -83,7 +83,7 @@ class SkillEnchancement {
   factory SkillEnchancement.fromJson(
       Map<String, dynamic> json, String skillId) {
     final icon = json['iconUrl'].toString();
-    final id = icon.substring(icon.indexOf('Tier_') + 5, icon.lastIndexOf('.'));
+    final id = icon.substring(icon.indexOf('Tier_') + 4, icon.lastIndexOf('.'));
 
     return SkillEnchancement(
       id: skillId + id,

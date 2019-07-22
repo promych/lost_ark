@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:lost_ark/data/class_repo.dart';
 import 'package:lost_ark/data/skill_repo.dart';
-import 'package:lost_ark/models/build.dart';
 import 'package:lost_ark/models/skill.dart';
 
 import '../models/class.dart';

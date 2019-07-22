@@ -7,8 +7,8 @@ class Build {
 }
 
 class BuildItem {
-  final String skillName;
+  final String skillId;
   final List<String> enchancements;
 
-  BuildItem({@required this.skillName, @required this.enchancements});
+  BuildItem({@required this.skillId, @required this.enchancements});
 }

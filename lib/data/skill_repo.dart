@@ -8,6 +8,7 @@ class SkillRepo {
 }
 
 // ids generate when serialized
+// 'c01s13' skill, 'c07s02_1_13' ench
 const List<Map<String, dynamic>> _skillsData = [
   {
     'name': 'Sharp Spear',

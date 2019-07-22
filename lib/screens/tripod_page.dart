@@ -14,9 +14,8 @@ class TripodPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final app = Provider.of<AppManager>(context, listen: false);
-    final skill = app.getSkillById(id);
-    final build = Provider.of<BuildManager>(context, listen: true);
+    final skill =
+        Provider.of<AppManager>(context, listen: false).getSkillById(id);
 
     return CupertinoPageScaffold(
       child: SafeArea(
@@ -42,10 +41,8 @@ class TripodPage extends StatelessWidget {
               ),
               for (var i = 0; i < 3; ++i)
                 _TierRow(
-                  skillName: skill.name,
+                  skillId: skill.id,
                   tier: skill.tripod.elementAt(i),
-                  selectedEnchancement:
-                      build.getSelectedEnchancementNameAtTier(skill.name, i),
                 ),
               Center(
                 child: CupertinoButton(
@@ -62,29 +59,32 @@ class TripodPage extends StatelessWidget {
 }
 
 class _TierRow extends StatelessWidget {
-  final String skillName;
+  final String skillId;
   final EnchancementTier tier;
-  final String selectedEnchancement;
 
   const _TierRow({
-    @required this.skillName,
+    @required this.skillId,
     @required this.tier,
-    this.selectedEnchancement,
   });
+
+  Color _selectColor(int index) {
+    switch (index) {
+      case 1:
+        return CupertinoColors.activeBlue;
+      case 2:
+        return CupertinoColors.activeGreen;
+      case 3:
+        return CupertinoColors.activeOrange;
+    }
+    return Colors.transparent;
+  }
 
   @override
   Widget build(BuildContext context) {
-    final selectColor = () {
-      switch (tier.tier) {
-        case 1:
-          return CupertinoColors.activeBlue;
-        case 2:
-          return CupertinoColors.activeGreen;
-        case 3:
-          return CupertinoColors.activeOrange;
-      }
-      return Colors.transparent;
-    };
+    final build = Provider.of<BuildManager>(context, listen: true);
+    final selectedEnchancementId =
+        build.getSelectedEnchancementId(skillId, tier.tier);
+
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 20.0),
       child: Column(
@@ -107,8 +107,8 @@ class _TierRow extends StatelessWidget {
                         GestureDetector(
                           child: CircleAvatar(
                             backgroundColor:
-                                selectedEnchancement == enchancement.name
-                                    ? selectColor()
+                                selectedEnchancementId == enchancement.id
+                                    ? _selectColor(tier.tier)
                                     : Colors.transparent,
                             radius: 33.0,
                             child: CircleAvatar(
@@ -118,11 +118,7 @@ class _TierRow extends StatelessWidget {
                               child: Image.asset(enchancement.iconUrl),
                             ),
                           ),
-                          onTap: () {
-                            Provider.of<BuildManager>(context, listen: false)
-                                .addToBuild(
-                                    skillName, tier.tier, enchancement.name);
-                          },
+                          onTap: () => build.addToBuild(enchancement.id),
                         ),
                         SizedBox(height: 10.0),
                         Text(

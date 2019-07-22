@@ -58,25 +58,19 @@ class SkillTile extends StatelessWidget {
                 children: [
                   Icon(
                     Icons.looks_one,
-                    color: build.getSelectedEnchancementNameAtTier(
-                                skill.name, 0) !=
-                            ''
+                    color: build.getSelectedEnchancementId(skill.name, 0) != ''
                         ? CupertinoColors.activeBlue
                         : CupertinoTheme.of(context).primaryColor,
                   ),
                   Icon(
                     Icons.looks_two,
-                    color: build.getSelectedEnchancementNameAtTier(
-                                skill.name, 1) !=
-                            ''
+                    color: build.getSelectedEnchancementId(skill.name, 1) != ''
                         ? CupertinoColors.activeGreen
                         : CupertinoTheme.of(context).primaryColor,
                   ),
                   Icon(
                     Icons.looks_3,
-                    color: build.getSelectedEnchancementNameAtTier(
-                                skill.name, 2) !=
-                            ''
+                    color: build.getSelectedEnchancementId(skill.name, 2) != ''
                         ? CupertinoColors.activeOrange
                         : CupertinoTheme.of(context).primaryColor,
                   ),
