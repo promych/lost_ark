@@ -15,7 +15,7 @@ class AppManager extends ChangeNotifier {
   List<Skill> _skillList;
   CharacterClass _selectedClass;
   String _errorMessage = '';
-  Build _build = Build();
+  // Build _build = Build();
 
   AppStatus _status = AppStatus.Uninitialized;
 
@@ -78,69 +78,66 @@ class AppManager extends ChangeNotifier {
 
   //Build
 
-  Build get getCurrentBuild => _build;
+  // Build get getCurrentBuild => _build;
 
-  addToBuild(String skillName, int tier, String enchancementName) {
-    final tierNum = tier - 1;
-    final index =
-        _build.items.indexWhere((item) => item.skillName == skillName);
+  // addToBuild(String skillName, int tier, String enchancementName) {
+  //   final tierNum = tier - 1;
+  //   final index =
+  //       _build.items.indexWhere((item) => item.skillName == skillName);
 
-    if (index != -1) {
-      final currentEnchancementList = _build.items[index].enchancements;
-      final newEnchancement =
-          enchancementName == _build.items[index].enchancements[tierNum]
-              ? ['']
-              : [enchancementName];
-      final newEnchancementList = currentEnchancementList
-        ..replaceRange(tierNum, tierNum + 1, newEnchancement);
+  //   if (index != -1) {
+  //     final currentEnchancementList = _build.items[index].enchancements;
+  //     final newEnchancement =
+  //         enchancementName == _build.items[index].enchancements[tierNum]
+  //             ? ['']
+  //             : [enchancementName];
+  //     final newEnchancementList = currentEnchancementList
+  //       ..replaceRange(tierNum, tierNum + 1, newEnchancement);
 
-      _build.items.replaceRange(
-        index,
-        index + 1,
-        [
-          BuildItem(
-            skillName: skillName,
-            enchancements: newEnchancementList,
-          )
-        ],
-      );
-    } else {
-      _build.items.add(
-        BuildItem(
-          skillName: skillName,
-          enchancements: List.generate(
-              3, (index) => index == tierNum ? enchancementName : ''),
-        ),
-      );
-    }
-    notifyListeners();
+  //     _build.items.replaceRange(
+  //       index,
+  //       index + 1,
+  //       [
+  //         BuildItem(
+  //           skillName: skillName,
+  //           enchancements: newEnchancementList,
+  //         )
+  //       ],
+  //     );
+  //   } else {
+  //     _build.items.add(
+  //       BuildItem(
+  //         skillName: skillName,
+  //         enchancements: List.generate(
+  //             3, (index) => index == tierNum ? enchancementName : ''),
+  //       ),
+  //     );
+  //   }
+  //   notifyListeners();
 
-    print(_skillList.singleWhere((item) => item.name == skillName).id);
-    // print(_build.items.first.enchancements.toString());
-    // print(getSelectedEnchancementDescription(skillName, tierNum));
-  }
+  // }
 
-  String getSelectedEnchancementNameAtTier(String skillName, int tierNum) {
-    if (_build.items.isEmpty) return '';
-    if (_build.items.indexWhere((item) => item.skillName == skillName) != -1) {
-      return _build.items
-          .singleWhere((item) => item.skillName == skillName)
-          .enchancements[tierNum];
-    } else {
-      return '';
-    }
-  }
+  // String getSelectedEnchancementNameAtTier(String skillName, int tierNum) {
+  //   if (_build.items.isEmpty) return '';
+  //   if (_build.items.indexWhere((item) => item.skillName == skillName) != -1) {
+  //     return _build.items
+  //         .singleWhere((item) => item.skillName == skillName)
+  //         .enchancements[tierNum];
+  //   } else {
+  //     return '';
+  //   }
+  // }
 
-  String getSelectedEnchancementDescription(String skillName, int tierNum) {
-    if (_build.items.isEmpty) return '';
-    final selected = getSelectedEnchancementNameAtTier(skillName, tierNum);
-    if (selected == '') return '';
-    return _skillList
-        .singleWhere((item) => item.name == skillName)
-        .tripod
-        .singleWhere((item) => item.tier == tierNum)
-        .enchancements
-        .singleWhere((item) => item.name == selected)
-        .description;
-  }
+  // String getSelectedEnchancementDescription(String skillName, int tierNum) {
+  //   if (_build.items.isEmpty) return '';
+  //   final selected = getSelectedEnchancementNameAtTier(skillName, tierNum);
+  //   if (selected == '') return '';
+  //   return _skillList
+  //       .singleWhere((item) => item.name == skillName)
+  //       .tripod
+  //       .singleWhere((item) => item.tier == tierNum)
+  //       .enchancements
+  //       .singleWhere((item) => item.name == selected)
+  //       .description;
+  // }
 }

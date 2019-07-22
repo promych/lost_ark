@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show DeviceOrientation, SystemChrome;
 import 'package:lost_ark/helpers/theme.dart';
+import 'package:lost_ark/managers/build_manager.dart';
 
 import 'package:provider/provider.dart';
 
@@ -27,8 +28,15 @@ void main() {
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      builder: (_) => AppManager.instance(),
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(
+          builder: (_) => AppManager.instance(),
+        ),
+        ChangeNotifierProvider(
+          builder: (_) => BuildManager(),
+        ),
+      ],
       child: Consumer<AppManager>(
         builder: (BuildContext context, AppManager app, Widget child) {
           switch (app.status) {

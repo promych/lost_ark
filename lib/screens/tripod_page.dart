@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/managers/build_manager.dart';
 import 'package:lost_ark/models/skill.dart';
 import 'package:provider/provider.dart';
 
@@ -13,9 +14,9 @@ class TripodPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final app = Provider.of<AppManager>(context, listen: true);
+    final app = Provider.of<AppManager>(context, listen: false);
     final skill = app.getSkillByName(skillName);
-    // final build = app.getCurrentBuild;
+    final build = Provider.of<BuildManager>(context, listen: true);
 
     return CupertinoPageScaffold(
       child: SafeArea(
@@ -48,7 +49,7 @@ class TripodPage extends StatelessWidget {
                   skillName: skillName,
                   tier: skill.tripod.elementAt(i),
                   selectedEnchancement:
-                      app.getSelectedEnchancementNameAtTier(skillName, i),
+                      build.getSelectedEnchancementNameAtTier(skillName, i),
                 ),
               Center(
                 child: CupertinoButton(
@@ -77,7 +78,6 @@ class _TierRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final app = Provider.of<AppManager>(context, listen: false);
     final selectColor = () {
       switch (tier.tier) {
         case 1:
@@ -123,11 +123,9 @@ class _TierRow extends StatelessWidget {
                             ),
                           ),
                           onTap: () {
-                            app.addToBuild(
-                              skillName,
-                              tier.tier,
-                              enchancement.name,
-                            );
+                            Provider.of<BuildManager>(context, listen: false)
+                                .addToBuild(
+                                    skillName, tier.tier, enchancement.name);
                           },
                         ),
                         SizedBox(height: 10.0),
