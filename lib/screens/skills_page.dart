@@ -13,10 +13,9 @@ class SkillsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final className =
-        Provider.of<AppManager>(context, listen: false).getSelectedClass.name;
-    final skills = Provider.of<AppManager>(context, listen: false)
-        .getSkillsByClassName(className);
+    final app = Provider.of<AppManager>(context, listen: false);
+    final className = app.getSelectedClass.name;
+    final skills = app.getSkillsByClassName(className);
 
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(
@@ -35,14 +34,7 @@ class SkillsPage extends StatelessWidget {
           minHeight: 40.0,
           body: ListView.separated(
             itemCount: skills.length,
-            itemBuilder: (_, int index) {
-              final skill = skills[index];
-              return SkillTile(
-                name: skill.name,
-                type: skill.type,
-                iconUrl: skill.iconUrl,
-              );
-            },
+            itemBuilder: (_, int index) => SkillTile(id: skills[index].id),
             separatorBuilder: (_, int index) => Divider(
               color: CupertinoTheme.of(context).primaryContrastingColor,
             ),

@@ -8,14 +8,14 @@ import '../managers/app_manager.dart';
 import '../ui/skill_tile.dart';
 
 class TripodPage extends StatelessWidget {
-  final String skillName;
+  final String id;
 
-  const TripodPage({@required this.skillName});
+  const TripodPage({@required this.id});
 
   @override
   Widget build(BuildContext context) {
     final app = Provider.of<AppManager>(context, listen: false);
-    final skill = app.getSkillByName(skillName);
+    final skill = app.getSkillById(id);
     final build = Provider.of<BuildManager>(context, listen: true);
 
     return CupertinoPageScaffold(
@@ -25,11 +25,7 @@ class TripodPage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SkillTile(
-                name: skill.name,
-                type: skill.type,
-                iconUrl: skill.iconUrl,
-              ),
+              SkillTile(id: id),
               Divider(),
               Text(
                 'Cooldown: ${skill.cooldown}',
@@ -46,10 +42,10 @@ class TripodPage extends StatelessWidget {
               ),
               for (var i = 0; i < 3; ++i)
                 _TierRow(
-                  skillName: skillName,
+                  skillName: skill.name,
                   tier: skill.tripod.elementAt(i),
                   selectedEnchancement:
-                      build.getSelectedEnchancementNameAtTier(skillName, i),
+                      build.getSelectedEnchancementNameAtTier(skill.name, i),
                 ),
               Center(
                 child: CupertinoButton(

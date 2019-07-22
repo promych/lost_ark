@@ -73,8 +73,10 @@ class AppManager extends ChangeNotifier {
   List<Skill> getSkillsByClassName(String name) =>
       _skillList.where((item) => item.className == name).toList();
 
-  Skill getSkillByName(String name) =>
-      _skillList.singleWhere((item) => item.name == name);
+  // Skill getSkillByName(String name) =>
+  //     _skillList.singleWhere((item) => item.name == name);
+  Skill getSkillById(String id) =>
+      _skillList.singleWhere((item) => item.id == id);
 
   //Build
 
