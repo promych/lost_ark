@@ -21,7 +21,7 @@ class BuildManager with ChangeNotifier {
         ..replaceRange(
             tierNum - 1, newEnchancement.length + tierNum - 1, newEnchancement);
 
-      print(newEnchancement.length);
+      // print(newEnchancement.length);
 
       _build.items.replaceRange(
         index,
@@ -44,7 +44,7 @@ class BuildManager with ChangeNotifier {
     }
     notifyListeners();
 
-    print(_build.items.first.enchancements.toString());
+    // print(_build.items.first.enchancements.toString());
   }
 
   String getSelectedEnchancementId(String skillId, int tierNum) {

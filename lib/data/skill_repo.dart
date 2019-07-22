@@ -8179,6 +8179,1234 @@ const List<Map<String, dynamic>> _skillsData = [
     ],
   },
   {
+    'name': 'Summer Salt Shot',
+    'class': 'Devil Hunter',
+    'description': 'Take a leap forward and fires a handgun.',
+    'type': 'Normal',
+    'cooldown': 9,
+    'iconUrl': 'assets/icons/devilhunter/c06s03.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mental Fortification',
+            'description': 'Mana cost reduced by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Burn',
+            'description':
+                'Normal and weak monsters have a 50% chance of getting the Burn effect.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.png',
+          },
+          {
+            'name': 'Ignored Collision',
+            'description': 'You can cross the bosses when you fly.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_12.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Attack Speed',
+            'description': 'Increases attack speed by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+          },
+          {
+            'name': 'Quick Shoot',
+            'description': 'Critical hit rate increases by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Evasion Master',
+            'description': 'Increases evasion rate by 30% during cast.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Double Jump',
+            'description': '',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+          {
+            'name': 'Super Armor',
+            'description':
+                'You become immune to control effects. Cooldown decreases by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_23.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Equalibrium',
+    'class': 'Devil Hunter',
+    'description': 'Shoot all around you, inflicting damage to nearby enemies.',
+    'type': 'Normal',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/devilhunter/c06s04.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Fast Fire',
+            'description': 'Attack speed increases by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Under-exposed',
+            'description':
+                'A critical strike on target and party members increases by 15% for 12s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_49.png',
+          },
+          {
+            'name': 'Master of evasion',
+            'description': 'Increases evasion rate by 20% while using Skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_26.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Picture Effect',
+            'description':
+                'Makes the enemy hit for 5 seconds. Up to three times can be superimposed.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+          },
+          {
+            'name': 'Critical Hit',
+            'description': 'Increases Critical Hit Rate by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Range',
+            'description': 'Skill range increased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Thinning Fire',
+            'description':
+                'Reduces the area of effect to a cone in front of you. Increases the duration of the attack. Damage inflicted increases by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.png',
+          },
+          {
+            'name': 'Sweep',
+            'description':
+                'Attack 360 degrees range. Critical damage increases by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Agile Shooting',
+    'class': 'Devil Hunter',
+    'description':
+        'Move while shooting at 360 °, inflicting damage to nearby enemies.',
+    'type': 'Combo',
+    'cooldown': 1,
+    'iconUrl': 'assets/icons/devilhunter/c06s05.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mana Control',
+            'description': '50% chance to not consume MP.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Attack Speed',
+            'description': 'Increases attack speed by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Critical Hit',
+            'description': 'Increases Critical Hit Rate by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Close Shot',
+            'description':
+                'Decrease attack range by 20%. Damage increased by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Master of Evasion',
+            'description': 'Increases evasion rate by 35% while using Skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+          },
+          {
+            'name': 'Movement Distance',
+            'description': 'Movement distance increases by 1m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Number of Attacks',
+            'description': 'The number of attacks increased by 3.',
+            'iconUrl': 'assets/icons/tripod/',
+          },
+          {
+            'name': 'Number of Attacks',
+            'description': 'The number of hits increased by 2.',
+            'iconUrl': 'assets/icons/tripod/',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Despair',
+    'class': 'Devil Hunter',
+    'description':
+        'Attack all around you, then leap into the air leaving behind multiple grenades (By successfully perfect zone).',
+    'type': 'Hold 2.5 sec',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/devilhunter/c06s06.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Hand',
+            'description': 'Increases attack speed by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Strength',
+            'description':
+                'You are immune to control effects during the attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+          },
+          {
+            'name': 'Critical Damage',
+            'description': 'Critical damage increases by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Flame Bomb',
+            'description':
+                'Attack attribute is changed to [Fire], and the damage given to the enemy by the bomb is increased by 30%, and it is burned for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+          },
+          {
+            'name': 'Ice Bomb',
+            'description':
+                'The Attack Attribute is changed to the [water] and the enemy is no longer down by the bomb, but is frozen for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+          },
+          {
+            'name': 'Continuous Launch',
+            'description': 'Launch bombs 2 times in a row.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Destructive Penetration',
+            'description':
+                'Move quickly to 6m distance instantly cast the skill, then move back 8m. Reduces cooldown and mana reduction due to skill cancellation.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.png',
+          },
+          {
+            'name': 'Infinite annihilation',
+            'description':
+                'The number of attacks before bouncing is increased by 3. Increases Critical Hit Rate by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Quickshot',
+    'class': 'Devil Hunter',
+    'description':
+        'Shoot 2 bullets in the direction indicated. You can use this skill 2 times in a row.',
+    'type': 'Combo',
+    'cooldown': 8,
+    'iconUrl': 'assets/icons/devilhunter/c06s07.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Attack Speed',
+            'description': 'The duration of the burst increases.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Push',
+            'description': 'The duration of the burst increases.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+          },
+          {
+            'name': 'Infinite Passion',
+            'description':
+                'The next time you use the skill, the duration of the animation increases by 1s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_55.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Lightfoot',
+            'description': 'Increases your movement speed by 40% for 1s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.png',
+          },
+          {
+            'name': 'Starting Shot',
+            'description':
+                'The damage done to the enemy by the first chain attack hits 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Damage Increased',
+            'description': 'Damage increases by 40% every hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Shotgun',
+            'description': 'Critical hit rate increases by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_4.png',
+          },
+          {
+            'name': 'Triple Shot',
+            'description': 'The number of chains increases by 3.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'AT02 Ruthenium',
+    'class': 'Devil Hunter',
+    'description':
+        'Launch a grenade at the targeted location that deals damage in a small area.',
+    'type': 'Point',
+    'cooldown': 6,
+    'iconUrl': 'assets/icons/devilhunter/c06s08.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Range',
+            'description': 'Increase the skill range by 2m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+          },
+          {
+            'name': 'Explosion Range',
+            'description': 'Explosion range increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Sudden Exposure',
+            'description':
+                'When a target is attacked, the critical hit rate of the target and party members increases by 15% for 8s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_49.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Damage Increased',
+            'description': 'Damage increased by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Stolen Grenade',
+            'description':
+                'Damage to enemies is reduced by 50%. Cooldown increased by 6s. Launch enemy into the air.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+          },
+          {
+            'name': 'Freezing Grenade',
+            'description':
+                'Damage to enemies is reduced by 75%. Cooldown increased by 12s. Freeze the enemy for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Fireworks',
+            'description':
+                'Throw three grenades at a time. Damage decreased by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Internal Ignition',
+            'description': 'The attack deals Burn to the enemy for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Cruel Tracker',
+    'class': 'Devil Hunter',
+    'description':
+        'Shoot a burst of cone-shaped bullets, then a powerful shot in front of you. You deal extra damage if you attack the enemy in the back.',
+    'type': 'Normal',
+    'cooldown': 18,
+    'iconUrl': 'assets/icons/devilhunter/c06s09.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Mental Fortification',
+            'description': 'Mana cost reduced by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Push',
+            'description': 'The last shot travels a longer distance.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Critical Hit',
+            'description': 'Increases Critical Hit Rate by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Improved Shot',
+            'description': 'Attack count increases by 3 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+          {
+            'name': 'Wide Shot',
+            'description': 'Increases the attack angle by 40% when you fire.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Quick Gun',
+            'description':
+                'The last shot becomes very fast. You can use the last attack once more.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+          },
+          {
+            'name': 'Explosive Bullet',
+            'description':
+                'The last attack has been changed to an explosive form. Explodes when hit and gives 100% more damage to nearby enemies.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Precursor of the End',
+    'class': 'Devil Hunter',
+    'description': 'Shoot cone-shaped twice with your rifle.',
+    'type': 'Combo',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/devilhunter/c06s10.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Damage Increased',
+            'description':
+                'Increases the damage done to nearby enemies by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_70.png',
+          },
+          {
+            'name': 'Attack Angle',
+            'description': 'Attack angle increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Stun',
+            'description': 'Stun enemies 2 times for 2 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_44.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Enhanced Shot',
+            'description': 'Damage to enemies increases by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Penetration',
+            'description': '2 or 3 strokes increases pierce level by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_21.png',
+          },
+          {
+            'name': 'Quick-ready',
+            'description': 'Reduces the cooldown time by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Consequences of the Disaster',
+            'description':
+                'Increases the number of shots by 3. Mana cost reduced by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+          },
+          {
+            'name': 'Desperation',
+            'description': 'Increases the damage done to your opponent by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Judgement Time',
+    'class': 'Devil Hunter',
+    'description':
+        'Shoot cone-shaped projectiles over a long distance that explode on impact, inflicting damage to nearby enemies.',
+    'type': 'Normal',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/devilhunter/c06s11.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Enhanced Shoot',
+            'description': 'Damage to enemies increases by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+          },
+          {
+            'name': 'Push',
+            'description': 'Strike time increases when hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Master of Evasion',
+            'description': 'Increases evasion rate by 30% while using Skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+          },
+          {
+            'name': 'Improved Explosion',
+            'description':
+                'Increases the damage of fragments from the explosion by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Wide Explosion',
+            'description':
+                'The bullet fragments spreading distance increased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Sentence of Imprisonment',
+            'description':
+                'Concentrate energy into a single ball that deals 600% of the damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+          {
+            'name': 'Evidence Destruction',
+            'description':
+                'Increases the range of explosion of the bullet attack by 40%, and increases the damage done to the enemies below the seed by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_61.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Shotgun Speaker',
+    'class': 'Devil Hunter',
+    'description':
+        'Shoot cone-shaped three times with your rifle, each shot repelling the enemy.',
+    'type': 'Normal',
+    'cooldown': 36,
+    'iconUrl': 'assets/icons/devilhunter/c06s12.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Close Shot',
+            'description':
+                'Increases the damage done to nearby enemies by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_70.png',
+          },
+          {
+            'name': 'Mana Control',
+            'description': '50% chance to not consume MP.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Combo',
+            'description': 'The skill becomes usable 3 times in a row.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_38.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Enhanced Shot',
+            'description': 'Damage to enemies increases by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Master of Evasion',
+            'description': 'Increases evasion rate by 30% while using Skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+          },
+          {
+            'name': 'Quick-ready',
+            'description': 'Cooldown reduced by 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Extended Fire',
+            'description':
+                'After a series of three shots, you carry a powerful shotgun shot. Knockdown enemies. Move back 4m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+          {
+            'name': 'Damage Increased',
+            'description': 'Increases the damage done to your opponent by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Master of Shotguns',
+    'class': 'Devil Hunter',
+    'description':
+        'Fire three quick shots with your rifle, followed by a final shot that deals more damage.',
+    'type': 'Hold 1.5 sec',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/devilhunter/c06s13.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Quick Hand',
+            'description': 'Attack speed increases by 20% while holding.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Damage Increased',
+            'description':
+                'Increases the damage done to nearby enemies by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_70.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Weak Shoot',
+            'description': 'Increases the damage done to your enemies by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+          {
+            'name': 'Full Range',
+            'description': 'All ranges apply to near damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description':
+                'Each time an opponent dies, the cooldown time is reset by a 15% chance.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Will of the Ruler',
+            'description':
+                'The last attack delete. Hold time increases by 1.6s. Damage is increased by 40% during a holding.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.png',
+          },
+          {
+            'name': 'Ruler',
+            'description':
+                'Attack distance is reduced by 20%, but a Perfect Zone is added, and when a Perfect Zone succeeds, a powerful spear attack will increase the damage of the last attack by 200%. If the perfect zone fails, the last attack is activated.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Last Supper',
+    'class': 'Devil Hunter',
+    'description':
+        'Shoot a powerful explosive ball that throws enemies into the air.',
+    'type': 'Normal',
+    'cooldown': 36,
+    'iconUrl': 'assets/icons/devilhunter/c06s14.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Fireball',
+            'description':
+                'The attack property is changed to the [Fire], and the enemy is attacked for 3 seconds, causing damage every second.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+          },
+          {
+            'name': 'Chill',
+            'description':
+                'Attack attribute is changed to [water], and the enemy that is hit is frosted for 5 seconds to reduce the movement speed by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Hot',
+            'description':
+                'Hot heat is created on the ground, causing damage to enemies within a range every second. When a cold shot is applied, the hot heat is also changed to the [water].',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_85.png',
+          },
+          {
+            'name': 'Strong Explosion',
+            'description':
+                'The powerful explosion pressure causes the enemy to float higher and the downtime to increase.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+          },
+          {
+            'name': 'Execution',
+            'description':
+                'Prepare to fire, move 4m to the front, attack the enemy, and fire a special shot, giving damage to the enemy is increasing damage by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_86.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Double Shot',
+            'description':
+                'Shoots with a shotgun in each hand simultaneously, causing 2 explosions.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Barrage',
+            'description':
+                'The enemy shoots three times.  Destruction attacks apply to the last attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Spiral Flame',
+    'class': 'Devil Hunter',
+    'description':
+        'Shoot a powerful fireball over a long distance that throws enemies into the air.',
+    'type': 'Normal',
+    'cooldown': 36,
+    'iconUrl': 'assets/icons/devilhunter/c06s15.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Chill',
+            'description':
+                'Instead of the flames on the ground, it creates a cold that reduces enemy movement speed by 50% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_31.png',
+          },
+          {
+            'name': 'Furious Flame',
+            'description':
+                'He no longer hits the enemy in the air, but he ignites it for 3 seconds. The object to be caught by the ignited state is stiffened with the damage that explodes at the end of the ignited state.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_78.png',
+          },
+          {
+            'name': 'Quick Aim',
+            'description': 'Aiming time is 50% faster.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Growth Bullet',
+            'description':
+                'Damage to enemies increases by up to 50%, depending on distance.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+          },
+          {
+            'name': 'Fast Bullet',
+            'description':
+                'The speed of the warhead increases by 30%, and it becomes possible to slowly turn while aiming.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_82.png',
+          },
+          {
+            'name': 'Finishing Fire',
+            'description':
+                'Increases critical strike chance by 60% for enemies with health below 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Strengthening the Total',
+            'description':
+                'Tornadoes around the warhead, attracting enemies, increasing the width of the fire by 20%, and increasing the damage done by the fire to the enemy by 200%. If you use cold shot, the enemy movement speed reduction effect increases to 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_81.png',
+          },
+          {
+            'name': 'Humpback',
+            'description':
+                'A warhead is changed to a non-canal, a warhead increases damage to an enemy by 30%, and a hurricane is generated instead of a fire when it hits an enemy. If frostbite is applied, frost is applied for 5 seconds instead of fire damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Catastrophe',
+    'class': 'Devil Hunter',
+    'description':
+        'Launch a grenade at the targeted location and then detonate it, inflicting damage in a large rectangular area and throwing enemies into the air.',
+    'type': 'Hold 2.5 sec',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/devilhunter/c06s16.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Strength',
+            'description': 'You are immune to control effects during casting.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+          },
+          {
+            'name': 'Remote Aim',
+            'description': 'Increases the area of explosion 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+          },
+          {
+            'name': 'Quick Aim',
+            'description': 'Area selection time is reduced by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Finishing Fire',
+            'description':
+                'Enemies with <40% health suffer additional damage equal to 50% of their physical defense.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+          },
+          {
+            'name': 'Unprotected Target',
+            'description':
+                'Increases explosion damage by 40% for enemies that are stranded.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+          },
+          {
+            'name': 'Concussion',
+            'description': 'The neutralization phase increases to [Lunge].',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Carpet Bombing',
+            'description':
+                '2  grenades are thrown in succession, causing damage over a greater distance. Increased the damage of additional explosions by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Eternal Disaster',
+            'description':
+                'Shrapnels are created and planted in the ground, exploding every second and inflicting damage. Increased the damage of debris explosion by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Triple Exploit',
+    'class': 'Devil Hunter',
+    'description':
+        'Shoot an explosive bullet at the targeted location. You can use this skill 3 times in a row.',
+    'type': 'Chain',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/devilhunter/c06s17.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Vision',
+            'description': 'Scope of the skill increased by 3m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+          },
+          {
+            'name': 'Finishing Attack',
+            'description': 'Deals 25% more damage to enemies with <40% health.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_32.png',
+          },
+          {
+            'name': 'Constant Passion',
+            'description':
+                'Increase the amount of time you can re-cast the 1s skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_55.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Attack Speed',
+            'description': 'Increases attack speed by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.png',
+          },
+          {
+            'name': 'Attack Range',
+            'description': 'Attack Range increased by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Flaming Bullet',
+            'description': 'Inflicts Burn for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Quadruple Explosion',
+            'description':
+                'Increases the number of Chain Skill activations by 4 and increases the critical hit rate by 100% for enemies with health below 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+          },
+          {
+            'name': 'Super Explosion',
+            'description':
+                'Increases target’s damage by 50%, but stuns the enemy for 3 seconds when attacking the last chain.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Aim Shot',
+    'class': 'Devil Hunter',
+    'description':
+        'Turn and then shoot 4 balls in the direction of your cursor. The first 3 reduce the speed of movement of the enemy by 80% for 2 sec and the last inflicts significant damage.',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/devilhunter/c06s18.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Fast Bullet',
+            'description': 'Bullet Flight Speed ​​Increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+          },
+          {
+            'name': 'Quick Aim',
+            'description': 'Aiming time is shortened by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Last Shot',
+            'description': 'The last one is a critical hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Damage Increased',
+            'description': 'Damage increased by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Large Bullet',
+            'description': 'Increases the size of the bullets by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_62.png',
+          },
+          {
+            'name': 'Stun',
+            'description': 'Stuns the enemies for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Fast Fire',
+            'description': 'Firing speed is 40% faster after aiming.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Hexa Shot',
+            'description': 'Shoot 2 more balls after aiming.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Perfect Shot',
+    'class': 'Devil Hunter',
+    'description':
+        'Shoots a large caliber bullet at a very high speed, it inflicts significant damage.',
+    'type': 'Hold',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/devilhunter/c06s19.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mental Fortification',
+            'description': 'Mana cost reduced by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Stable Posture',
+            'description': 'Immune to rigidity during holding and casting.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+          },
+          {
+            'name': 'Penetration',
+            'description':
+                'If the skill is launched Perfect Zone, gives a Pierce Level 1 effect to the attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Improved Shot',
+            'description': 'Perfect Zone Attack Increases damage done by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Muscle Cramps',
+            'description':
+                'If the attack is launched Perfect Zone, the enemies remain reversed 1 s more and the neutralization is increased by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+          },
+          {
+            'name': 'Bleeding',
+            'description':
+                'If the attack is launched  Perfect Zone, it inflicts a Bleeding for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Perfect Aim',
+            'description':
+                'The skill loads for 1 s, and at the end of the load has the same effect as a perfect shot.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Sniper',
+            'description':
+                'The Perfect Zone is shrinking. Perfect shot is inevitably a critical hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_72.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
     'name': 'Enhanced Bullet',
     'class': 'Blaster',
     'description': 'Fires the enhanced bullet.',
@@ -8388,6 +9616,1027 @@ const List<Map<String, dynamic>> _skillsData = [
             'description':
                 'The skill has 50% decreased the area of effect but the skill range is increased by 50%. Also, it ignores the enemy’s armor by 60%.',
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Buckshot',
+    'class': 'Blaster',
+    'description':
+        'Buckshot spreads in a fan shape, deals [183] damage, pushing the enemy backwards.',
+    'type': 'Normal',
+    'cooldown': 8,
+    'iconUrl': 'assets/icons/blaster/c07s03.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Improved Penetration',
+            'description': 'Increases the penetration level by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+          },
+          {
+            'name': 'Pushing Back',
+            'description':
+                'Successful hits stiffen the enemy longer and push the enemy back farther.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+          },
+          {
+            'name': 'Spot Weakness',
+            'description':
+                'Increases damage done any target with the Invulnerable status by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Critical Strike',
+            'description': 'Increases a critical hit chance by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Penetrated Will',
+            'description':
+                'Successful hits ignore the enemy’s physical armor by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+          },
+          {
+            'name': 'Long Ranged Buckshot',
+            'description': 'Increases the skill range by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Elimination Buckshot',
+            'description':
+                'The skill has 40% decreased the area of effect but shots buckshot twice with increased attack speed. The maximum damage is increased by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Ignition',
+            'description': 'Successful hits burn the enemy for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Howitzer',
+    'class': 'Blaster',
+    'description': 'Shoots a shell to the target location and lifts the enemy.',
+    'type': 'Point',
+    'cooldown': 12,
+    'iconUrl': 'assets/icons/blaster/c07s04.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Armor Destroyed',
+            'description': 'Reduces all armor of a hit enemy by 20% for 10s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.png',
+          },
+          {
+            'name': 'Quick Response',
+            'description': 'Increases attack speed by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Controlling Mana',
+            'description': 'Grants a 50% chance to ignore mana consumption.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Vulnerable Target',
+            'description':
+                'Damage is increased by 30% when used against a target under crowd control effects [airborne and knock down].',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+          },
+          {
+            'name': 'Final Blow',
+            'description':
+                'Increases a 50% critical hit chance when the caster deals enemies that have less than 50% health.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+          },
+          {
+            'name': 'Concentrated Shelling',
+            'description':
+                'The enemy near center of the explosion takes 30% more damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Flash Shell',
+            'description':
+                'Increases the area of effect by 20% and damage dealt by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+          {
+            'name': 'Fireworks',
+            'description': 'Bombards random places with increased damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Multiple Rocket Luncher',
+    'class': 'Blaster',
+    'description':
+        'Shoots a missile to the random direction five times. The skill deals up to [172].',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/blaster/c07s05.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Fire Rocket',
+            'description':
+                '[Fire] Inflicts a burn for 5 seconds, cumulative 3 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+          },
+          {
+            'name': 'Ice Rocket',
+            'description':
+                '[Ice] Reduces the movement speed of enemies by 20% for 5 seconds. Cumulative 3 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+          },
+          {
+            'name': 'Giant Rocket',
+            'description': 'Increases rocket size by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_62.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Back Step',
+            'description':
+                'You move back 0.8 meters at each shot, and the damage increases with the distance of enemies, with a maximum of 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+          },
+          {
+            'name': 'Stun Effect',
+            'description': 'The first shot stuns enemies for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.png',
+          },
+          {
+            'name': 'Rapid Fire',
+            'description':
+                'Launches the rockets 7 times with faster attack speed.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_54.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Enhanced Rocket Launcher',
+            'description':
+                'Increases the area of effect by 20% and the damage dealt by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.png',
+          },
+          {
+            'name': 'Access Denied',
+            'description':
+                'You shoot two rockets at each shot, but the damage is reduced by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Napalm Bomb',
+    'class': 'Blaster',
+    'description':
+        'Explodes the napalm bomb which deals [240] damage and lifts the enemy to the air. The explosion creates burning field that remains for 5 seconds, and deals [32] damage per second.',
+    'type': 'Normal',
+    'cooldown': 18,
+    'iconUrl': 'assets/icons/blaster/c07s06.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Improved Destruction',
+            'description':
+                'Increases the destruction level on the explosion by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_22.png',
+          },
+          {
+            'name': 'Wide Explosion',
+            'description':
+                'Increases the area of effect of the explosion by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Focus Target',
+            'description':
+                'An enemy hit by an explosion gets 20% more damage for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Nut Cracker',
+            'description':
+                'Increases a critical hit chance of the explosion by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Hot Open',
+            'description':
+                'Damage done to enemies in the inflamed area is increased by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+          },
+          {
+            'name': 'Flash Explosion',
+            'description':
+                'Stun enemies that have been affected for 4 seconds without launching them into the air anymore.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Chain Explosion',
+            'description':
+                'You quickly launch a second bomb before moving back. The second bomb generates flame dust for 2 seconds inside the inflamed area. Then the area explodes, increasing the damage done.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+          {
+            'name': 'Inferno',
+            'description': 'The burning field remains for 3s longer.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Flamethrower',
+    'class': 'Blaster',
+    'description':
+        'Shoot the flamethrower to one direction and the caster can freely move. The flamethrower lasts for 4 seconds and deals up to [683] damage.',
+    'type': 'Hold 4 sec',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/blaster/c07s07.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Nut Cracker',
+            'description': 'Increases a critical hit chance by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Reduces the cooldown by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Controlling Firepower',
+            'description':
+                'Successful hits absorb 100% more firepower resources.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Ignoring Collision',
+            'description':
+                'The caster ignores collision with normal monsters while performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_12.png',
+          },
+          {
+            'name': 'Long Ranged Flame',
+            'description': 'Increases the skill range by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Shield',
+            'description':
+                'Creates a shield that absorbs up to 10% of your health.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Blue Flame',
+            'description':
+                'The skill is only held for 2 seconds and its damage increases by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.png',
+          },
+          {
+            'name': 'Fire',
+            'description':
+                'Increases the flamethrower\'s radius, and inflicts a burn on enemies for 10 seconds, cumulative 5 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Brandish',
+    'class': 'Blaster',
+    'description':
+        'Brandish the launcher, deals [184] damage, and stunning the enemy for 2 seconds.',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/blaster/c07s08.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Empowered Will',
+            'description': 'Reduces mana consumption by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Stable Post',
+            'description': 'Immune to stiffness while using the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+          },
+          {
+            'name': 'Swift Attack',
+            'description': 'Increases attack speed by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Improved Strike',
+            'description': 'Increases damage done by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Maintaining Stun',
+            'description': 'Increases the duration of stun effect by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.png',
+          },
+          {
+            'name': 'Mana Regeneration',
+            'description':
+                'Each inflicted enemy regenerate 25% mana up to 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_79.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Rush',
+            'description': 'Rushes 6m and attack the enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.png',
+          },
+          {
+            'name': 'Spin Attack',
+            'description': 'Swing the launcher 360 degree.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Air Strike',
+    'class': 'Blaster',
+    'description':
+        'Launches rockets to the air and the rockets fall random location near the target area. The rockets deals up to [366] damage and lifts the enemy.',
+    'type': 'Point',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/blaster/c07s09.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Preparation for Firing',
+            'description':
+                'Attack enemies before launch to throw them in the air.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+          },
+          {
+            'name': 'Quick Launch',
+            'description': 'Increases attack speed by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Concussion',
+            'description': 'The neutralization phase increases by one.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Flame Strike',
+            'description':
+                '[Fire] Successful hits burn the enemy for 6 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+          },
+          {
+            'name': 'Ice Strike',
+            'description':
+                '[Ice] Reduces the movement speed of enemies by 20% for 5 seconds, cumulative 3 times.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+          },
+          {
+            'name': 'Lightning Strike',
+            'description':
+                '[Lightning] Increases critical strike chance by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'No Mercy',
+            'description':
+                'Launches the rocket 3 more times and damage done is increased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Nuclear Bomb',
+            'description':
+                'Drops a very large and powerful single shell. The range of damage and explosion given to enemies is greatly increased, and harmful effects from flame bombardment and cold bombing are applied as maximum overlapping effects. In addition, 60% increase in damage to enemies that are immune to the attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Jump and Fire',
+    'class': 'Blaster',
+    'description':
+        'Jumps up in the air and fires the launcher below the caster. It deals [233] damage and knock the enemy back.',
+    'type': 'Normal',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/blaster/c07s10.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Jump',
+            'description': 'Increases attack speed by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Controlling Mana',
+            'description': 'Grants a 50% chance to ignore mana consumption.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Cramp',
+            'description':
+                'Increases the duration of knock back status by 0.5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Extensive Explosion',
+            'description': 'Increases the area of effect by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Improved Shelling',
+            'description': 'Increases damage done by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Identified Weakness',
+            'description':
+                'Increases damage by 40% against enemies immune to control effects.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Triple Fire',
+            'description':
+                'Fires the launcher three times and damage done is increased by 100%. Last hit knocks the enemy back.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Rocket Jump',
+            'description': 'Leap through the air to the target location.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Summonong Turret',
+    'class': 'Blaster',
+    'description': 'Summons an auto turret. The turret deals [108] damage.',
+    'type': 'Normal',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/blaster/c07s11.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Fast Recharge',
+            'description': 'Reduces the turret stack timer by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Extra Battery',
+            'description': 'Increases the duration of the turret by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+          },
+          {
+            'name': 'Armor Destroy',
+            'description':
+                'Reduces all enemy armor that hit a turret attack by 20% for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Improved Turret',
+            'description': 'Increases damage done by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Long Ranged Turret',
+            'description': 'Increases the skill range by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_52.png',
+          },
+          {
+            'name': 'Quick Install',
+            'description':
+                'Immune to stiffness during turret installation, turret installation speed increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Big Pack',
+            'description': 'Increases the turret stack to 3.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_36.png',
+          },
+          {
+            'name': 'Laser Turret',
+            'description':
+                'Turret shoots the laser and damage done is increased by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_18.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Plasma Storm',
+    'class': 'Blaster',
+    'description':
+        'Creates the plasma storm that slowly follows the enemy. The storm deals [43] damage per 0.5 seconds.',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/blaster/c07s12.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Rage',
+            'description':
+                'Your attack power increases by 20% for 3s after casting.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+          },
+          {
+            'name': 'Solid Armor',
+            'description': 'Reduces damage taken by 40% during launch.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+          },
+          {
+            'name': 'Stun',
+            'description':
+                'Successful hits have a 10% chance to stun the enemy for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_44.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Fast Travel',
+            'description': 'Increases the speed of the plasma storm by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+          },
+          {
+            'name': 'Improved Continuity',
+            'description': 'Increases the skill duration by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+          {
+            'name': 'Massive Plasma',
+            'description': 'Increases the area of effect by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Growing Plasma',
+            'description':
+                'The enemy takes 10% more damage every 0.5s in the storm.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+          },
+          {
+            'name': 'Ice Storm',
+            'description': '[Ice] Reduces the enemy’s movement speed by 70%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_14.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Gravity Explosion',
+    'class': 'Blaster',
+    'description':
+        'Creates the gravity field that pulls the enemy and explodes it. The explosion knocks the enemy backwards.',
+    'type': 'Hold',
+    'cooldown': 36,
+    'iconUrl': 'assets/icons/blaster/c07s13.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Free Launch',
+            'description': 'The area of ​​success is enlarged (launch bar).',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_72.png',
+          },
+          {
+            'name': 'Mass Attack',
+            'description': 'Takes 30% less damage while performing the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+          },
+          {
+            'name': 'Stun Effect',
+            'description':
+                'The enemies are no longer thrown but stun for 4 seconds during the explosion. Increases the level of the Incapacitate effect by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_30.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Solid Armor',
+            'description':
+                'Creates a shield that absorbs 15% of your maximum health during launch.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+          },
+          {
+            'name': 'Stabilization',
+            'description': 'You can turn slowly during casting.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_27.png',
+          },
+          {
+            'name': 'Swift Movement',
+            'description': 'Pulls the enemy 20% faster.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Sweep',
+            'description':
+                'The gravity field now extends over a 14-meter line, it draws enemies to its center before exploding. Increases the launch time by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_81.png',
+          },
+          {
+            'name': 'Planetary Gravity',
+            'description':
+                'The range of attraction increases by 50% but decreases slowly. Explosion deals 50% more damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Blast',
+    'class': 'Blaster',
+    'description': 'Blasts the enemy and deals [155] damage.',
+    'type': 'Normal',
+    'cooldown': 8,
+    'iconUrl': 'assets/icons/blaster/c07s14.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Changing Coordinate',
+            'description': 'Attack location changes to 2m front of the caster.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_53.png',
+          },
+          {
+            'name': 'Controlling Firepower',
+            'description':
+                'Successful hits absorb 100% more firepower resources.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+          },
+          {
+            'name': 'Increases Area',
+            'description': 'Increases the area of effect by 10%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Quick Response',
+            'description': 'Decreases the skill cooldown by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+          },
+          {
+            'name': 'Improved Shelling',
+            'description': 'Increases damage done by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Sharp Strike',
+            'description': 'Increases critical damage by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Dancing Boom',
+            'description':
+                'The explosion causes another two small explosions right next to it. Additional explosions are reduced damage and the area of effect by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Concentrate Fire',
+            'description':
+                'The skill changes to the first level of charging skill. Successful charging increases damage dealt by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Missile Strike',
+    'class': 'Blaster',
+    'description':
+        'Installs a guiding device to the target location. After 5 seconds, the missile hits the device and deals [576] damage. The missile also lifts the enemy to the air.',
+    'type': 'Normal',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/blaster/c07s15.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Long Ranged Installment',
+            'description': 'The skill range is increased by 2m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+          },
+          {
+            'name': 'Improved Guiding Missile',
+            'description': 'The missile strikes the target location in 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Slow Effect',
+            'description':
+                'The guiding device reduces the enemy’s movement speed by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Nut Cracker',
+            'description': 'Increases a critical hit chance by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Natural Selection',
+            'description':
+                'Increases the damage dealt on lower grade and normal grade monsters by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.png',
+          },
+          {
+            'name': 'Spot Weakness',
+            'description':
+                'Increases damage done any target with the Invulnerable status by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'EMP',
+            'description':
+                'Do not throw enemies into the air but stuns them for 5 seconds. Increases the incapacitate level by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.png',
+          },
+          {
+            'name': 'Atomic Bomb',
+            'description':
+                'The missile creates a radiation field that lasts for 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Energy Field',
+    'class': 'Blaster',
+    'description':
+        'Creates a shield that absorbs damage from 15 to 40% of maximum health for 4 seconds.',
+    'type': 'Normal',
+    'cooldown': 40,
+    'iconUrl': 'assets/icons/blaster/c07s16.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Concentrate Fire',
+            'description':
+                'The firepower gauge is increased by 50% when the caster has less than 30% health.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+          },
+          {
+            'name': 'Energy Unleashed',
+            'description':
+                'The caster unleashes energy when the skill is activated.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.png',
+          },
+          {
+            'name': 'Improved Will',
+            'description': 'No longer requires mana to activate the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Improved Shield',
+            'description': 'Double the effect of the shield.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+          },
+          {
+            'name': 'Overflow Energy',
+            'description': 'Increases the duration of the skill for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+          {
+            'name': 'Quick Response',
+            'description': 'Cooldown reduced by 8s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Thick Shield',
+            'description':
+                'The caster becomes Invulnerable to crowd control effects while the shield is up.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_25.png',
+          },
+          {
+            'name': 'Sharing Energy',
+            'description':
+                'Shields are applied to nearby party members, but the shielding level is reduced by half.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.png',
           },
         ]
       }
@@ -9273,71 +11522,71 @@ const List<Map<String, dynamic>> _skillsData = [
   },
 ];
 
-const _emptySkill = {
-  'name': '',
-  'class': '',
-  'description': '',
-  'type': '',
-  'cooldown': 1,
-  'iconUrl': 'assets/icons/',
-  'tripod': [
-    {
-      'tier': 1,
-      'points': 4,
-      'skills': [
-        {
-          'name': '',
-          'description': '',
-          'iconUrl': 'assets/icons/tripod/',
-        },
-        {
-          'name': '',
-          'description': '',
-          'iconUrl': 'assets/icons/tripod/',
-        },
-        {
-          'name': '',
-          'description': '',
-          'iconUrl': 'assets/icons/tripod/',
-        },
-      ]
-    },
-    {
-      'tier': 2,
-      'points': 20,
-      'skills': [
-        {
-          'name': '',
-          'description': '',
-          'iconUrl': 'assets/icons/tripod/',
-        },
-        {
-          'name': '',
-          'description': '',
-          'iconUrl': 'assets/icons/tripod/',
-        },
-        {
-          'name': '',
-          'description': '',
-          'iconUrl': 'assets/icons/tripod/',
-        },
-      ]
-    },
-    {
-      'tier': 3,
-      'points': 48,
-      'skills': [
-        {
-          'name': '',
-          'description': '',
-          'iconUrl': 'assets/icons/tripod/',
-        },
-        {
-          'name': '',
-          'description': '',
-          'iconUrl': 'assets/icons/tripod/',
-        },
-      ]
-    }
-  ],
-};
+// {
+//   'name': '',
+//   'class': '',
+//   'description': '',
+//   'type': 'Normal',
+//   'cooldown': 1,
+//   'iconUrl': 'assets/icons/',
+//   'tripod': [
+//     {
+//       'tier': 1,
+//       'points': 4,
+//       'skills': [
+//         {
+//           'name': '',
+//           'description': '',
+//           'iconUrl': 'assets/icons/tripod/',
+//         },
+//         {
+//           'name': '',
+//           'description': '',
+//           'iconUrl': 'assets/icons/tripod/',
+//         },
+//         {
+//           'name': '',
+//           'description': '',
+//           'iconUrl': 'assets/icons/tripod/',
+//         },
+//       ]
+//     },
+//     {
+//       'tier': 2,
+//       'points': 20,
+//       'skills': [
+//         {
+//           'name': '',
+//           'description': '',
+//           'iconUrl': 'assets/icons/tripod/',
+//         },
+//         {
+//           'name': '',
+//           'description': '',
+//           'iconUrl': 'assets/icons/tripod/',
+//         },
+//         {
+//           'name': '',
+//           'description': '',
+//           'iconUrl': 'assets/icons/tripod/',
+//         },
+//       ]
+//     },
+//     {
+//       'tier': 3,
+//       'points': 48,
+//       'skills': [
+//         {
+//           'name': '',
+//           'description': '',
+//           'iconUrl': 'assets/icons/tripod/',
+//         },
+//         {
+//           'name': '',
+//           'description': '',
+//           'iconUrl': 'assets/icons/tripod/',
+//         },
+//       ]
+//     }
+//   ],
+// }
