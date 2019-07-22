@@ -10865,6 +10865,1105 @@ const List<Map<String, dynamic>> _skillsData = [
     ],
   },
   {
+    'name': 'Sharp Shooter',
+    'class': 'Hawk Eye',
+    'description':
+        'You\'re bending your bow to shoot 10 arrows at once that deal damage to enemies in the area. Each enemy can only receive 3 arrows maximum.',
+    'type': 'Normal',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/hawkeye/c08s03.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Hit',
+            'description': 'Increases Critical Hit Rate by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+          {
+            'name': 'Damage Boost',
+            'description':
+                'Attack damage increases by 10% for 16 seconds for target and party members.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+          },
+          {
+            'name': 'Mind Enhancement',
+            'description': 'Decrease MP usage by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Merciless Fire',
+            'description': 'Increases the number of arrows from 10 to 15.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_54.png',
+          },
+          {
+            'name': 'Painful Shooting',
+            'description': 'Inflicts bleeding, damagштп every second for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+          },
+          {
+            'name': 'Weak Point',
+            'description': 'Increase the damage by 40% toward an enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Concentrated Shot',
+            'description':
+                'Up to 5 arrows stuck to the same target. Critical damage is increased by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+          {
+            'name': 'Definite Fire',
+            'description':
+                'Two arrows hit to all enemies within range. If Merciless Fire is learned, all enemies in range are hit by 3 arrows.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Slash Step',
+    'class': 'Hawk Eye',
+    'description': 'Moves forward 8m and inflicts damage.',
+    'type': 'Normal',
+    'cooldown': 10,
+    'iconUrl': 'assets/icons/hawkeye/c08s04.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Ghost Steps',
+            'description':
+                'Ignore collision with normal monsters while using the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_12.png',
+          },
+          {
+            'name': 'Excellent Maneuver',
+            'description': 'Increase skill’s travel distance by 2m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Push',
+            'description':
+                'Increases the attack range by 10% and increases the distance between the struck enemy\'s striking time and the hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_60.png',
+          },
+          {
+            'name': 'Silver Master',
+            'description':
+                'When the skill is hit, the Hawk Gauge is restored to 35.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.png',
+          },
+          {
+            'name': 'Mark Of Death',
+            'description':
+                'Inflicts Mark of death to an enemy hit on a move. The Mark of death can be applied up to 3 times. Increasing the damage received by the enemy from 5% to 20% depending on the number of effects.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_76.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Survival',
+            'description':
+                'Become super armor while using the skill. Increases evasion rate by 50% while casting the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_26.png',
+          },
+          {
+            'name': 'Strengthening',
+            'description':
+                'Increases damage by 100% and applies bleed, dealing damage every second for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Persistent Tracking',
+    'class': 'Hawk Eye',
+    'description':
+        'You jump in the air and kick, inflict damage on the enemies below and knock them over, then jump forward 8 meters away.',
+    'type': 'Normal',
+    'cooldown': 14,
+    'iconUrl': 'assets/icons/hawkeye/c08s05.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Hand',
+            'description': 'Increases attack speed by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Excellent Maneuver',
+            'description': 'Increase skill’s travel distance by 3m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Light Footsteps',
+            'description': 'Increases movement speed by 30% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+          },
+          {
+            'name': 'Evasion Master',
+            'description': 'Increases evasion rate by 35% during cast.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+          },
+          {
+            'name': 'Weak Point',
+            'description':
+                'Increase the damage by 40% toward an enemy with hit recovery immune.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Neat Herb',
+            'description':
+                'Increases knockdown time by 50% and increases damage by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+          },
+          {
+            'name': 'Finishing Blow',
+            'description':
+                'After landing, attack a second time. The point of neutralization(staggering time) increases by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_17.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Claymore',
+    'class': 'Hawk Eye',
+    'description':
+        'You place a mine in front of you that activates to inflict damage in front of it, and pushes enemy.',
+    'type': 'Normal',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/hawkeye/c08s06.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Hand',
+            'description': 'Increases attack speed by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Weapon Destruction',
+            'description':
+                'Decreases the attack strength of an enemy by 20% for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.png',
+          },
+          {
+            'name': 'Push',
+            'description': 'Increases the distance by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Strength',
+            'description': 'Become immune to cc during skill casting.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+          {
+            'name': 'Thunderstorm',
+            'description':
+                'Attack attribute is changed to [Lighting]. Increases the chance of critical hits by 15%, making it in a state of electric shock for 3 seconds. Enemies are no longer pushes.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+          },
+          {
+            'name': 'Lightning',
+            'description':
+                'Attack attribute is changed to [Fire]. Increases damage by 30% and burns the enemy, inflicting damage every second for 3 seconds. But increases the mana cost by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Storm Surge',
+            'description':
+                'The direction of the explosion changes to a sector. Incread skill cooldown by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+          {
+            'name': 'Concentrated Storm',
+            'description':
+                'Decreases the range by 30%, but explodes 3 times with 0.5s intervals. Damage to enemies increases by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Charged Chot',
+    'class': 'Hawk Eye',
+    'description':
+        'Charges a shot, can be charged up to three times to inflict maximum damage. PVP: Reduced damage done by 8.3%.',
+    'type': 'Charge',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/hawkeye/c08s07.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Aim',
+            'description':
+                'Increases the redirection speed during charge by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_27.png',
+          },
+          {
+            'name': 'Сamouflage',
+            'description': 'You become invisible. Cooldown increased by 9s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Double shot',
+            'description':
+                'Shots 2 arrows at the same time, causing 50% more damage to the enemy.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_54.png',
+          },
+          {
+            'name': 'Overpain',
+            'description':
+                'Immediately upon reaching Over Charge, inflict additional damage on the enemy in the immediate vicinity and knock it over.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.png',
+          },
+          {
+            'name': 'Quick Hand',
+            'description': 'Charge time is reduced by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Instant Arrow',
+            'description':
+                'The higher the charge phase, the more the range is increased. Explosion occurs when the target point is reached. No longer increase damage by the charging.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.png',
+          },
+          {
+            'name': 'Concentration',
+            'description':
+                'The charge phase is added once, and when overcharged, an unconditional critical hit occurs.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Quick Fire',
+    'class': 'Hawk Eye',
+    'description':
+        'You hold your bow horizontally and shoot several arrows simultaneously, which inflict damage.',
+    'type': 'Normal',
+    'cooldown': 6,
+    'iconUrl': 'assets/icons/hawkeye/c08s08.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Heavy Steel',
+            'description':
+                'Increases the damage inflicted on weakened enemies by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_61.png',
+          },
+          {
+            'name': 'Mind Enhancement',
+            'description': 'Decrease MP consumption by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Lightfoot',
+            'description': 'Increases movement speed by 20% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Achievement Of Training',
+            'description': 'Increase attack distance by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Cold Arrow',
+            'description':
+                'Attack attributes are changed to [Frost]. Increases damage by 15% and reduces enemy movement speed by 50% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+          },
+          {
+            'name': 'Shock Fire',
+            'description':
+                'Stuns the target for 3 seconds if a hit is critical.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Covert Movement',
+            'description':
+                'After using the skill, you become invisible but the cooldown increases by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_74.png',
+          },
+          {
+            'name': 'Close Shot',
+            'description':
+                'The attack angle is reduced by 30% and increases damage by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'DM-42',
+    'class': 'Hawk Eye',
+    'description':
+        'You place a mine that explodes after 12 seconds, or if an enemy triggers it. Inflicts damage and knocks down enemies.',
+    'type': 'Chain',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/hawkeye/c08s09.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mind Enhancement',
+            'description': 'Decrease MP consumption by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Heavy Steel',
+            'description':
+                'Increases the damage dealt to normal monsters and below by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_61.png',
+          },
+          {
+            'name': 'Strengthen Destruction',
+            'description': 'Increases the destruction level by 1.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_22.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Remote Installation',
+            'description': 'Increases the deployment distance by 4 meters.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_52.png',
+          },
+          {
+            'name': 'Shock Mines',
+            'description':
+                'Do not knockdown the enemy anymore, but stuns them for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.png',
+          },
+          {
+            'name': 'Explosion Spread',
+            'description': 'Increase explosion range by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Fire Mines',
+            'description':
+                'Reduces the damage of the explosion by 20% but creates a flame zone that deals 45% of the damage every second for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+          },
+          {
+            'name': 'Distributed Installation',
+            'description':
+                'Can install 2 mines within 5s, but increases the cooldown by 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Arrow Shower',
+    'class': 'Hawk Eye',
+    'description':
+        'You shoot several arrows in the air, which fall back to the targeted location. They deal damage for 2 seconds.',
+    'type': 'Point',
+    'cooldown': 18,
+    'iconUrl': 'assets/icons/hawkeye/c08s10.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Hand',
+            'description': 'Increases attack speed by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Mind Enhancement',
+            'description': 'Decrease MP consumption by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Evasion Master',
+            'description': 'Increases evasion rate by 35% during cast.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_26.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Enhancement Sustain',
+            'description':
+                'Reduces damage by 20% per hit but increases the duration by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+          },
+          {
+            'name': 'Flame Baptism',
+            'description':
+                'The attack property is changed to [Fire]. Fire arrows fall and burn enemies, inflicting damage every second for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+          },
+          {
+            'name': 'Electric Baptism',
+            'description':
+                'Attack attribute is changed to [Lighting]. Shoots a bolt of lightning. 30% chance to stun for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Piercing Arrow',
+            'description':
+                'The arrows fall faster. Critical hit rate increases by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_4.png',
+          },
+          {
+            'name': 'Sustained Rain',
+            'description': 'Increase damage to enemies by 20% per second.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Evasive Shot',
+    'class': 'Hawk Eye',
+    'description':
+        'You jump backwards and shoot in front of you, inflicting damage.',
+    'type': 'Normal',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/hawkeye/c08s11.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Hand',
+            'description': 'Increases attack speed by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Excellent Maneuver',
+            'description': 'Move backward by 2m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Light Footsteps',
+            'description': 'Increases movement speed by 30% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+          },
+          {
+            'name': 'Evasion Master',
+            'description': 'Increases evasion rate by 40% during cast.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+          },
+          {
+            'name': 'Heavy Arrow',
+            'description':
+                'The distance to push enemies is increased by 3m. Increases damage by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Conversion Strike',
+            'description':
+                'Knockdown enemy. Increases critical hit rate by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_9.png',
+          },
+          {
+            'name': 'Strategic Retreat',
+            'description':
+                'After landing, you can use a new arrow in the direction and retreat an additional 2 meters.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Quick Cut',
+    'class': 'Hawk Eye',
+    'description':
+        'You give a quick stab in front of you, inflicting damage and applying the Mark of Death effect. The Death Mark effect can be applied up to 3 times, increasing the damage received by the enemy from 5% to 20% depending on the number of effects.',
+    'type': 'Normal',
+    'cooldown': 12,
+    'iconUrl': 'assets/icons/hawkeye/c08s12.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mind Enhancement',
+            'description': 'Decrease MP usage by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Silver Master',
+            'description': 'Skill hits to restore identity 35.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+          },
+          {
+            'name': 'Quick Hit',
+            'description': 'Increases Critical Hit Rate by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Mark Of Death',
+            'description':
+                'The Mark of death can be applied up to 2 times. The mark of death can be stacked up to 3 times. Increasing the damage from 5% to 20% depending on the number of effects.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_76.png',
+          },
+          {
+            'name': 'Unjust Strike',
+            'description':
+                'Increase the damage bonus to 100% while enemy health is above 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Painful Strike',
+            'description':
+                'Inflicts bleeding, inflicting damage every second for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Double Cut',
+            'description':
+                'Give a second hit, which increases the damage by 100%. A 20% chance inflict an additional 400% damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+          {
+            'name': 'Covert Movement',
+            'description':
+                'After using the skill, you become invisible and increase movement speed by 50% for 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_74.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Smoke Arrow',
+    'class': 'Hawk Eye',
+    'description':
+        'You shoot an arrow at the target location that deals damage and creates a smoke zone for 6 seconds, the speed of movement and the vision field of the enemies are reduced in the smoke.',
+    'type': 'Point',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/hawkeye/c08s13.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mind Enhancement',
+            'description': 'Decrease MP usage by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Ranged Shooting',
+            'description': 'Increases the range of 3m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Sticky Smoke',
+            'description':
+                'Reduction movement speed lasts for 3 seconds even when moving out of the smoke zone.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+          },
+          {
+            'name': 'Dark Smoke',
+            'description':
+                'Reduces the vision field of enemies for 3 seconds even if they come out of the smoke zone.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+          },
+          {
+            'name': 'Poison Smoke',
+            'description':
+                'Inflicts damage every second to enemies in the smoke.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Spreading Smoke',
+            'description':
+                'Increases smoke zone by 30% and the smoke duration increases by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+          {
+            'name': 'Invisible Threat',
+            'description':
+                'Increases the damage done to enemies in the Smoke Zone by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Shadow Arrow',
+    'class': 'Hawk Eye',
+    'description':
+        'You quickly shoot an arrow that deals damage and applies the Dark Curse effect, reducing the speed of movement and the field of view of the enemy. If the Dark Curse effect is applied 3 times, the enemy is stunned for 5 seconds. Reduced target movespeed up to 50% while using normal attack after the skill animation.',
+    'type': 'Normal',
+    'cooldown': 1,
+    'iconUrl': 'assets/icons/hawkeye/c08s14.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Fast Charge',
+            'description': 'Reduces the cooldown of each charge by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'High Speed Arrow',
+            'description': 'Increases the speed of the arrows by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Mind Enhancement',
+            'description': 'Decrease MP usage by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Overcharge',
+            'description':
+                'The maximum charges of shadow arrows increases from 3 to 4.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_83.png',
+          },
+          {
+            'name': 'Curse',
+            'description':
+                'Increases the duration of the Dark Curse effect from 4s to 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+          },
+          {
+            'name': 'Shadows of Abyss',
+            'description': 'Increases shadow curse effect by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Shadow Tracking',
+            'description':
+                'Shadow arrows track the closest enemy on the path. No longer pierce the enemy and increase the cooldown by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_84.png',
+          },
+          {
+            'name': 'Ruthless Shadow',
+            'description': 'Shoot 3 arrows together in a fan-shaped form.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Blade Storm',
+    'class': 'Hawk Eye',
+    'description': 'Spins rapidly and throw blade, causing damage 9 times.',
+    'type': 'Normal',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/hawkeye/c08s15.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Ranged Blow',
+            'description': 'Attack range increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Quick Hand',
+            'description': 'Increases the attack speed by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Silver Master',
+            'description':
+                'Each time skill hit 3 times to restore identity 12.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Poison Blade',
+            'description':
+                'Shoots the poison blade at the last attack and makes the hit enemy poisoned for 5s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+          },
+          {
+            'name': 'Lightning Blade',
+            'description':
+                'The last attack blows additional lightning blade rotating in the direction of increasing the attack surface of a certain angle, and the critical chance of attacks increases by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_49.png',
+          },
+          {
+            'name': 'Mark Of Death',
+            'description':
+                'Inflicts mark of death to an enemy hit in the last attack. The Mark of death can be applied up to 3 times. Increasing the damage received by the enemy from 5% to 20% depending on the number of effects.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_76.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Blade Dance',
+            'description':
+                'The rotational attack becomes longer, and movement during the rotation becomes possible. Also, the number of attacks from the last attack increases by one.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+          {
+            'name': 'Shadow Dance',
+            'description':
+                'It is possible to move after 2 rotations. At the point where the skill is used, the clone continues to attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Electric Nova',
+    'class': 'Hawk Eye',
+    'description':
+        'After aiming inflict damage to the first enemy hit, to nearby enemies and behind the target. The arrow has a 60% chance to stun the first enemy hit for 3 seconds, 40% for nearby enemies, and 20% for enemies behind the target.',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/hawkeye/c08s16.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Hand',
+            'description': 'Increases attack speed by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Mind Enhancement',
+            'description': 'Decrease MP usage by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Ranged Shooting',
+            'description': 'Increases the range of 3m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Current Zone',
+            'description':
+                'The chances of stunning the first enemy are increased from 60% to 100%, for enemies close to 40% to 70% and for enemies behind from 20% to 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.png',
+          },
+          {
+            'name': 'Overload',
+            'description':
+                'Increases damage by 20% for the first enemy hit, 40% for nearby enemies, and 70% for enemies behind.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+          },
+          {
+            'name': 'Electric Shock',
+            'description':
+                'No longer inflicts stunning but gains 100% chance to inflict electrocution for 3 seconds and increases damage by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Lightning Rod',
+            'description':
+                'Send the lightning rod in the targeted location for 2 seconds, it deals a second attack, increasing the damage by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+          {
+            'name': 'Electric Storm',
+            'description':
+                'Increases the size of the skill by 50% and increases the current range by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Snipe',
+    'class': 'Hawk Eye',
+    'description':
+        'When holding, it is aimed, deals heavy damage to the perfect zone, and less damage if it fails. PVP: Reduced damage done by 8.3%.',
+    'type': 'Hold 3 sec',
+    'cooldown': 36,
+    'iconUrl': 'assets/icons/hawkeye/c08s17.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 6s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Quick Hand',
+            'description': 'Increases attack speed by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Insight',
+            'description': 'Increase the skill range by 3m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Perfection',
+            'description':
+                'Increases damage by 40% when the arrow is released at the perfect zone.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_72.png',
+          },
+          {
+            'name': 'Strength',
+            'description': 'Become super armor during the cast a skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+          {
+            'name': 'Weak Point',
+            'description':
+                'Increase the damage by 30% toward an enemy with hit recovery immune and 80% for perfect zone.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Ghillie Suit',
+            'description':
+                'You become invisible during the cast a skill, but increases the cooldown by 18s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_74.png',
+          },
+          {
+            'name': 'Easy Prey',
+            'description':
+                'When the size of the Perfect Zone increases, and the Perfect Zone succeeds, the critical hit rate increases by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
     'name': 'Soundstrike',
     'class': 'Bard',
     'description':
@@ -11074,6 +12173,1020 @@ const List<Map<String, dynamic>> _skillsData = [
             'description':
                 'With the last wave hit enemies are falling into sleep for 2s.',
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Holy Sound',
+    'class': 'Bard',
+    'description': 'Ray of light channeled while you are standing still.',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/bard/c09s03.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Sound Concentration',
+            'description': 'Each tick increases damage by 5% up to 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_58.png',
+          },
+          {
+            'name': 'Subjugation',
+            'description':
+                'Turns the ray of light into a cone and increase damage taken by enemies at max range by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.png',
+          },
+          {
+            'name': 'Mana Healing',
+            'description':
+                'Recovers a party member mana hit by a sound holy by 1%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_79.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Strengthen Sustainability',
+            'description':
+                'Skill duration increased by 1.5s (means more ticks of damage) and cooldown increased by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_42.png',
+          },
+          {
+            'name': 'Sound Barrier',
+            'description':
+                'A shield is created for 15% of your maximum hp during the channeling.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+          },
+          {
+            'name': 'Mobility Weakness',
+            'description':
+                'Reduces the movement speed of enemies by 60% for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Increase Melody',
+            'description': 'Serenade gauge charges from the skill 200% faster.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_64.png',
+          },
+          {
+            'name': 'Concentrated Saturation',
+            'description':
+                'Duration reduced by 50% and damage increases by 300%, you can’t redirect the spell.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Harp of Rhythm',
+    'class': 'Bard',
+    'description':
+        'Puts harp on the ground near you that shoots notes at enemy every 2 seconds within 14m with automatic targeted projectiles for 10 seconds.',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/bard/c09s04.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Skill duration increased by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+          },
+          {
+            'name': 'Nimble Cast',
+            'description': 'Skill cast time decreased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Mana Control',
+            'description': '50% chance to not consume MP.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Sleek Speaker',
+            'description': 'Harp attack rate increases by 60%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.png',
+          },
+          {
+            'name': 'Blasting',
+            'description':
+                'Adds AoE damage to projectiles but reduces skill range to 6m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+          },
+          {
+            'name': 'Increase Melody',
+            'description':
+                'Serenade gauge charges additional 1% with every hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_64.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Note Brand',
+            'description':
+                'Decreases the damage dealt by the harp by 80% , for 1 second enemies struck by the harp takes 15% increased damage from you and your party.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.png',
+          },
+          {
+            'name': 'Giant Harp',
+            'description':
+                'The size of the harp increases by 20% and it’s damage is increased by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Bunch of Notes',
+    'class': 'Bard',
+    'description':
+        'Ball with no collision flies one direction and slows enemies for 4 s for 40%.',
+    'type': 'Normal',
+    'cooldown': 12,
+    'iconUrl': 'assets/icons/bard/c09s05.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Strong Notes',
+            'description':
+                'Every time you hit a party or a group of notes, your damage is reduced by 10% by up to 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_65.png',
+          },
+          {
+            'name': 'Turning Tables',
+            'description':
+                'Cooldown increased by 5 seconds but can be used twice in a row.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_38.png',
+          },
+          {
+            'name': 'Musical Note Collapse',
+            'description':
+                'Explodes at the end of the spell doing 200% damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_78.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Frozen Notes',
+            'description':
+                'Changes to [Ice] property, the slow turns into freeze and the movement speed is reduced by 80%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+          },
+          {
+            'name': 'Sacred Notes',
+            'description':
+                'Changes to [Holy] property, for 1 second, enemy hit by the bunch of notes takes 15% increased damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_18.png',
+          },
+          {
+            'name': 'Note Tsunami',
+            'description': 'Damage increase by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Merciless Release',
+            'description':
+                'Shoots 5  bunch of notes in an arc and is twice (100%) as fast, and the damage is increased by 200%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+          {
+            'name': 'Stigma of Melody',
+            'description':
+                'Falls from the sky and leaves it on the ground as a DoT and the casting range is increased by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Conviction Core',
+    'class': 'Bard',
+    'description':
+        'For 10 s you are surrounded with 3 notes exploding when enemy is near you (one by one with cooldown ~ 1 s).',
+    'type': 'Normal',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/bard/c09s06.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Strengthen Intelligence',
+            'description':
+                'Skill duration increased by 3s (means more strikes).',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Enhanced Core',
+            'description': 'Skill damage increased by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Cold Core',
+            'description': 'Enemies movement slowed by 60% for 2s while hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+          },
+          {
+            'name': 'Collective Core',
+            'description':
+                'After enemy being hit by 1 of the notes damage increased by 50% for every other hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+          },
+          {
+            'name': 'Derived Effect',
+            'description':
+                'Mana regeneration increases by 30% if the cores are still on the user.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Core Explosion',
+            'description':
+                'Number of cores reduced by 2, but when the core hits it explodes further and the damage is increased by 300%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+          {
+            'name': 'Core Increase',
+            'description': 'Number of notes increased by 2.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Winds of Music',
+    'class': 'Bard',
+    'description': 'AoE winds near you pushes enemies back.',
+    'type': 'Normal',
+    'cooldown': 18,
+    'iconUrl': 'assets/icons/bard/c09s07.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mana Control',
+            'description': '50% chance to not consume MP.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Nimble Cast',
+            'description': 'Skill cast time decreased by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Increase Melody',
+            'description': 'Serenade gauge charges from the skill 150% faster.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_64.png',
+          },
+          {
+            'name': 'Enhanced Casting',
+            'description': 'Skill damage increased by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+          },
+          {
+            'name': 'Damage Reduction',
+            'description':
+                'Reduces damage to you by 40% while casting the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_24.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'High Speed Cast',
+            'description':
+                'Reduces the number of attacks by 1, increases the cooldown by 6 seconds, but changes the skill so you can cast it twice. Increases damage by 40% and damage done to the enemy increases by 200% of the first verdict.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+          },
+          {
+            'name': 'Wish for Protection',
+            'description':
+                'You and party members touched by wind got shield buff 25% max hp for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_75.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Stigma',
+    'class': 'Bard',
+    'description':
+        'You are casting void zone on the ground that ticks 5 times (once per second) and staggers enemies, every next tick damages 12.5% harder.',
+    'type': 'Cast 5 sec',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/bard/c09s08.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Wide Attack',
+            'description': 'Area of effect increases by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+          },
+          {
+            'name': 'Slick Casting',
+            'description': 'Casting speed increased by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Strengthen Sustainability',
+            'description': 'Stigma duration is increased by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Ice Stigma',
+            'description':
+                'Changes to [Ice] property, the movement speed is reduced by 50% for 3 seconds and freezes enemies for 4 seconds if hit 3 times in a row.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+          },
+          {
+            'name': 'Sacred Stigma',
+            'description':
+                'Changes to [Holy] property, for 1 second, enemy hit by stigma takes 15% increased damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_18.png',
+          },
+          {
+            'name': 'Storm stigma',
+            'description':
+                'Changes into a sphere that slowly moves toward the enemy, and every second a wave damages the enemy. PVP: No longer cause stiffness.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_81.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Stigma of Pain',
+            'description': 'Damage increases from 12.5% to 40% upon time.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+          },
+          {
+            'name': 'Melody Increase',
+            'description': 'Increases the on-hit serenade gauge rate by 200%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_64.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Rhythm Backshot',
+    'class': 'Bard',
+    'description':
+        'You are pulling harp strings backwards and knock down enemies in a cone direction.',
+    'type': 'Normal',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/bard/c09s09.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Increase Melody',
+            'description': 'Serenade gauge charges from the skill 30% faster.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_64.png',
+          },
+          {
+            'name': 'Mana Control',
+            'description': '50% chance to not consume MP.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Strengthen Destruction',
+            'description': 'Enemy falls at 2x times increased distance.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Achievement of Training',
+            'description': 'Skill range increased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Strength',
+            'description': 'Become super armor during the cast a skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+          {
+            'name': 'Strong Shot',
+            'description':
+                'Skill damage increased by 25%, knockdown time increased by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Nimble Cast',
+            'description':
+                'Skill cast time decreased by 20%, critical chance increased by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_6.png',
+          },
+          {
+            'name': 'Shooting Concentration',
+            'description':
+                'Skill cast time increased by 0.5s, skill damage increased by 100% and Incapacitate increases by [Medium].',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Overtorture of Storm',
+    'class': 'Bard',
+    'description': 'AoE lightning around you stuns enemies for 2 seconds.',
+    'type': 'Normal',
+    'cooldown': 16,
+    'iconUrl': 'assets/icons/bard/c09s10.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mana Control',
+            'description':
+                'Recovers up to 75% of the mana cost by 15% per enemy hit.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Capture Weakness',
+            'description': 'Skill damage on boss monsters increased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Wide Blow',
+            'description': 'Attack Range increases by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Increase Melody',
+            'description': 'Serenade gauge charges from the skill 150% faster.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_64.png',
+          },
+          {
+            'name': 'Lightning Strengthening',
+            'description': 'Skill damage increased by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Powerful Overture',
+            'description':
+                'Stunning duration decreased by 1 second, but leaves an electric zone that damages in an area for 2 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+          },
+          {
+            'name': 'Lightning Concentration',
+            'description':
+                'No longer casts around you but in front of you in a range of 11m, increasing the damage by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_17.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Sound Vibrations',
+    'class': 'Bard',
+    'description':
+        'You are slowly casting AoE spell that deals initial damage that knocks down enemies with void zone dealing damage 4 times with stagger effect.',
+    'type': 'Point',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/bard/c09s11.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Slick Casting',
+            'description':
+                'Casting speed is increased by 0.3 seconds, and the speed of the waves are increased by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+          {
+            'name': 'Guard Vibration',
+            'description':
+                'When sound vibrations hit an enemy, a shield is created for 3 seconds, and the number of hit enemies increases the shield by 5% to a total of 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_75.png',
+          },
+          {
+            'name': 'Super Armor',
+            'description': 'While casting, obtain a super armor.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Ice Vibrations',
+            'description':
+                'Changes to [Ice] property, upon cast, the enemies are pulled in the center and slows the movement speed by 40% for 4 seconds, if hit 5 times freezes for 3 seconds.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+          },
+          {
+            'name': 'Sacred Vibrations',
+            'description': 'ATK increases by 40% for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_18.png',
+          },
+          {
+            'name': 'Chain Vibration',
+            'description':
+                'The waves are removed but the note rises again into the air to attack again.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_81.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Wide Attack',
+            'description': 'AoE size increases by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+          },
+          {
+            'name': 'Spread Vibrations',
+            'description':
+                'When the note explodes, launches 4 other notes in an X shape that travels 10m and cause 40% damage.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Prelude to Death',
+    'class': 'Bard',
+    'description':
+        'You are standing still while channeling harp play that deals damage 2 times in AoE zone around you and with each tick applies debuff that slows enemies down by 20% and decreases their attack by 30% for 2 seconds. When debuff is over it deals additional damage.',
+    'type': 'Normal',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/bard/c09s12.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Increase Melody',
+            'description': 'Serenade gauge charges from the skill 30% faster.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_64.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Mana Control',
+            'description': '50% chance to not consume MP.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Amplification of Death',
+            'description': 'Last tick of damage increased by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+          },
+          {
+            'name': 'Deadly Death',
+            'description':
+                'Debuff additionally gets 10% more slow reduction and 10% decrease in attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+          },
+          {
+            'name': 'Endless Play',
+            'description': 'Additional wave while casting the spell.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Aria of Death',
+            'description':
+                'When a damage is increased by 30% and a target hit in the prelude to death dies in 5 seconds, the damage is done to the enemy within 3m.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+          },
+          {
+            'name': 'Cry of Pain',
+            'description':
+                'Skill range increased by 25% and when debuff is over target falls asleep for 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Light Note',
+    'class': 'Bard',
+    'description':
+        'You are standing still while channeling harp play with AoE zone around mouse cursor. It ticks 3 times every time staggering enemies.',
+    'type': 'Point',
+    'cooldown': 24,
+    'iconUrl': 'assets/icons/bard/c09s13.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Mana Control',
+            'description': '50% chance to not consume MP.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Nimble Cast',
+            'description': 'Skill cast time is reduced by 15%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Strength',
+            'description': 'Become super armor during the cast a skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+          },
+          {
+            'name': 'Musical note stigma',
+            'description':
+                'Enemies hit by Song of Light receives a debuff that increases you and your party’s damage by 15% for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_76.png',
+          },
+          {
+            'name': 'Strengthen Sustain',
+            'description': 'Additional tick of damage while harp play.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Concentration of Light',
+            'description': 'Skill damage increased by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+          },
+          {
+            'name': 'Protection of Light',
+            'description':
+                'Reduces damage to enemies by 50%, reduces damage done by 50% of light damage, 75% damage for 3 seconds, and absorbs 10% of maximum life.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'March of Notes',
+    'class': 'Bard',
+    'description':
+        'You are channeling skill for 5 seconds, every second producing a ball that follows nearest enemy exploding with a touch and applying slow movement debuff for 50% for 2 seconds.',
+    'type': 'Hold',
+    'cooldown': 20,
+    'iconUrl': 'assets/icons/bard/c09s14.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Cooldown reduced by 3s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Mana Control',
+            'description': '50% chance to not consume MP.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Light March',
+            'description':
+                'Increases your movement speed by 15% when channeling the skill.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Achievement of Training',
+            'description': 'Skill range increases by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+          {
+            'name': 'Strengthen the March',
+            'description': 'Critical hit rate increases by 30%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+          },
+          {
+            'name': 'Decrease in Mobility',
+            'description':
+                'Enemies hit by the balls slowed additional 30% for 2s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Threatening March',
+            'description': 'Damage to enemies increases by 200%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_1.png',
+          },
+          {
+            'name': 'March of the Melody',
+            'description': 'Serenade gauge charges from the skill 200% faster.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_37.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Top Performance',
+    'class': 'Bard',
+    'description':
+        'Increases attack speed by 4 to 8% and mana regeneration rate by 12 to 40% for 8 sec.',
+    'type': 'Normal',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/bard/c09s15.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Quick Preparation',
+            'description': 'Reduces the cooldown time by 4s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+          },
+          {
+            'name': 'Nimble Cast',
+            'description': 'Skill cast time decreased by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+          },
+          {
+            'name': 'Mana Control',
+            'description': '50% chance to not consume MP.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Strong Performance',
+            'description': 'Attack speed increases by an additional 8%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_65.png',
+          },
+          {
+            'name': 'Performance of Valor',
+            'description': 'Reduces the enemy’s attack power by 30% for 8s.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+          },
+          {
+            'name': 'Achievement of Training',
+            'description': 'Skill range increased by 25%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Violent Performance',
+            'description':
+                'In addition to the existing effects, it increases the damage of the party and the party by 40%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_4.png',
+          },
+          {
+            'name': 'Play for Me',
+            'description':
+                'Damage increases by 200% and the existing buffs are increased by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_24.png',
+          },
+        ]
+      }
+    ],
+  },
+  {
+    'name': 'Guardian Performance',
+    'class': 'Bard',
+    'description':
+        'Play a harp to reduce damage to yourself and party members within the 24m range by 20 to 30% for 8 seconds.',
+    'type': 'Normal',
+    'cooldown': 30,
+    'iconUrl': 'assets/icons/bard/c09s16.png',
+    'tripod': [
+      {
+        'tier': 1,
+        'points': 4,
+        'skills': [
+          {
+            'name': 'Robust',
+            'description':
+                'Modification: Suh is playing a role in immune to the attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+          },
+          {
+            'name': 'Mana Control',
+            'description': 'Mana consumption decreases by 100%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+          },
+          {
+            'name': 'Nimble Cast',
+            'description': 'Skill cast time decreased by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+          },
+        ]
+      },
+      {
+        'tier': 2,
+        'points': 20,
+        'skills': [
+          {
+            'name': 'Unfinished Guardian',
+            'description':
+                'Shields additional shields for 8 seconds for 15% of the target’s maximum health.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+          },
+          {
+            'name': 'Strong Guard',
+            'description': 'Increases the damage taken by 20%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+          },
+          {
+            'name': 'Retribution of Defense',
+            'description':
+                'When Guardian Performance ends it explodes and inflicts AoE damage in 4m radius.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.png',
+          },
+        ]
+      },
+      {
+        'tier': 3,
+        'points': 48,
+        'skills': [
+          {
+            'name': 'Sleek Guardian',
+            'description':
+                'Reduces the cooldown time by 50%, and reduces all retention times by 50%.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_56.png',
+          },
+          {
+            'name': 'Wish for Protection',
+            'description': 'The state is blocked by one attack.',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_26.png',
           },
         ]
       }
@@ -11589,4 +13702,4 @@ const List<Map<String, dynamic>> _skillsData = [
 //       ]
 //     }
 //   ],
-// }
+// },
