@@ -3,7 +3,7 @@ import '../helpers/lost_ark_icons.dart';
 
 class ClassRepo {
   Future<List<CharacterClass>> fetchClassList() async {
-    await Future.delayed(Duration(seconds: 1));
+    // await Future.delayed(Duration(seconds: 1));
     return _classData.map((item) => CharacterClass.fromJson(item)).toList();
   }
 }

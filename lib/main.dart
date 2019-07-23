@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show DeviceOrientation, SystemChrome;
+import 'package:flutter/services.dart'
+    show DeviceOrientation, SystemChrome, SystemUiOverlayStyle;
 import 'package:lost_ark/helpers/theme.dart';
 import 'package:lost_ark/managers/build_manager.dart';
 
@@ -17,6 +18,7 @@ import 'ui/error.dart';
 import 'ui/loading.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,

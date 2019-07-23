@@ -15,7 +15,7 @@ class ClassPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final CharacterClass classData =
-        Provider.of<AppManager>(context, listen: false).getSelectedClass;
+        Provider.of<AppManager>(context, listen: false).selectedClass;
 
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(

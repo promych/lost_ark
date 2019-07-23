@@ -14,8 +14,7 @@ class TripodPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final skill =
-        Provider.of<AppManager>(context, listen: false).getSkillById(id);
+    final skill = Provider.of<AppManager>(context, listen: false).skillById(id);
 
     return CupertinoPageScaffold(
       child: SafeArea(

@@ -14,7 +14,7 @@ class SkillTile extends StatelessWidget {
   Widget build(BuildContext context) {
     final build = Provider.of<BuildManager>(context, listen: true);
     final app = Provider.of<AppManager>(context, listen: false);
-    final skill = app.getSkillById(id);
+    final skill = app.skillById(id);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 10.0),

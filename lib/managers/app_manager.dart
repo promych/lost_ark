@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:lost_ark/data/class_repo.dart';
+import 'package:lost_ark/data/reddit_client.dart';
 import 'package:lost_ark/data/skill_repo.dart';
+import 'package:lost_ark/models/reddit_post.dart';
 import 'package:lost_ark/models/skill.dart';
 
 import '../models/class.dart';
@@ -8,17 +10,22 @@ import '../models/class.dart';
 enum AppStatus { Uninitialized, Loading, Loaded, Error }
 
 class AppManager extends ChangeNotifier {
+  RedditClient _redditClient;
   ClassRepo _classRepo;
   SkillRepo _skillRepo;
+
+  List<RedditPost> _redditPosts;
   List<CharacterClass> _classList;
   List<Skill> _skillList;
+
   CharacterClass _selectedClass;
   String _errorMessage = '';
 
   AppStatus _status = AppStatus.Uninitialized;
 
   AppManager.instance()
-      : _classRepo = ClassRepo(),
+      : _redditClient = RedditClient(),
+        _classRepo = ClassRepo(),
         _skillRepo = SkillRepo() {
     loadApp();
   }
@@ -31,6 +38,7 @@ class AppManager extends ChangeNotifier {
       print('loading');
       _status = AppStatus.Loading;
       notifyListeners();
+      _redditPosts = _redditPosts ?? await _redditClient.fetchNewPosts();
       _classList = _classList ?? await _classRepo.fetchClassList();
       _skillList = _skillList ?? await _skillRepo.fetchSkills();
       print('loaded');
@@ -43,35 +51,37 @@ class AppManager extends ChangeNotifier {
     }
   }
 
-  //Classes
+  // Reddit posts
+  List<RedditPost> get newRedditPosts => _redditPosts;
 
-  List<String> get getArchetypes =>
+  // Classes
+
+  List<String> get classArchetypes =>
       ['Warrior', 'Fighter', 'Hunter', 'Magician'];
 
-  List<CharacterClass> get getAllClasses => _classList;
+  List<CharacterClass> get allClasses => _classList;
 
-  List<CharacterClass> getClassesByArchetype(String archetype) =>
+  List<CharacterClass> classesByArchetype(String archetype) =>
       _classList.where((item) => item.archetype == archetype).toList();
 
-  CharacterClass getClassByName(String name) =>
+  CharacterClass classByName(String name) =>
       _classList.singleWhere((item) => item.name == name);
 
-  CharacterClass get getSelectedClass {
+  CharacterClass get selectedClass {
     return _selectedClass ?? _classList.first;
   }
 
   selectClass(String name) {
-    _selectedClass = getClassByName(name);
+    _selectedClass = classByName(name);
     notifyListeners();
   }
 
-  //Skills
+  // Skills
 
-  List<Skill> get getAllSkills => _skillList;
+  List<Skill> get allSkills => _skillList;
 
-  List<Skill> getSkillsByClassName(String name) =>
+  List<Skill> skillsByClassName(String name) =>
       _skillList.where((item) => item.className == name).toList();
 
-  Skill getSkillById(String id) =>
-      _skillList.singleWhere((item) => item.id == id);
+  Skill skillById(String id) => _skillList.singleWhere((item) => item.id == id);
 }

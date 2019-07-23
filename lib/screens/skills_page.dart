@@ -14,8 +14,8 @@ class SkillsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final app = Provider.of<AppManager>(context, listen: false);
-    final className = app.getSelectedClass.name;
-    final skills = app.getSkillsByClassName(className);
+    final className = app.selectedClass.name;
+    final skills = app.skillsByClassName(className);
 
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(

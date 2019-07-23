@@ -36,8 +36,8 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
 
   @override
   Widget build(BuildContext context) {
-    final classManager = Provider.of<AppManager>(context, listen: false);
-    final classes = classManager.getAllClasses;
+    final app = Provider.of<AppManager>(context, listen: false);
+    final classes = app.allClasses;
 
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(
@@ -83,7 +83,7 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
                       ),
                     ),
                     onTap: () {
-                      classManager.selectClass(classes[index].name);
+                      app.selectClass(classes[index].name);
                       Navigator.of(context).pushNamed('/class');
                     },
                   );
@@ -91,7 +91,7 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
               ),
             ),
             DotsIndicator(
-              dotsCount: 12,
+              dotsCount: classes.length,
               position: _controller.hasClients ? _currentPage : 0,
             )
           ],

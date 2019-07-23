@@ -14,7 +14,7 @@ class ClassListPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final classes = Provider.of<AppManager>(context, listen: false);
+    final app = Provider.of<AppManager>(context, listen: false);
 
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(
@@ -44,7 +44,7 @@ class ClassListPage extends StatelessWidget {
             //     ),
             //   ),
             // ),
-            for (var archetype in classes.getArchetypes) ...[
+            for (var archetype in app.classArchetypes) ...[
               SliverPersistentHeader(
                 pinned: false,
                 delegate: _SliverAppBarDelegate(
@@ -66,7 +66,7 @@ class ClassListPage extends StatelessWidget {
               SliverList(
                 delegate: SliverChildListDelegate(
                   [
-                    for (var item in classes.getClassesByArchetype(archetype))
+                    for (var item in app.classesByArchetype(archetype))
                       ClassListTile(
                         name: item.name,
                         icon: item.icon,
