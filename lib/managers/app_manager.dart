@@ -33,6 +33,7 @@ class AppManager extends ChangeNotifier {
       notifyListeners();
       _classList = _classList ?? await _classRepo.fetchClassList();
       _skillList = _skillList ?? await _skillRepo.fetchSkills();
+      print('loaded');
       _status = AppStatus.Loaded;
       notifyListeners();
     } catch (error) {

@@ -8379,12 +8379,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Number of Attacks',
             'description': 'The number of attacks increased by 3.',
-            'iconUrl': 'assets/icons/tripod/',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
           },
           {
             'name': 'Number of Attacks',
             'description': 'The number of hits increased by 2.',
-            'iconUrl': 'assets/icons/tripod/',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
           },
         ]
       }
