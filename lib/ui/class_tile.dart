@@ -5,11 +5,11 @@ import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
 
-class ClassListTile extends StatelessWidget {
+class ClassTile extends StatelessWidget {
   final String name;
   final IconData icon;
 
-  const ClassListTile({
+  const ClassTile({
     @required this.name,
     @required this.icon,
   });

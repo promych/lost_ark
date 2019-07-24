@@ -6,7 +6,7 @@ import 'package:lost_ark/managers/app_manager.dart';
 import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
-import '../ui/class_list_tile.dart';
+import '../ui/class_tile.dart';
 import '../ui/cupertino_navbar.dart';
 
 class ClassListPage extends StatelessWidget {
@@ -67,7 +67,7 @@ class ClassListPage extends StatelessWidget {
                 delegate: SliverChildListDelegate(
                   [
                     for (var item in app.classesByArchetype(archetype))
-                      ClassListTile(
+                      ClassTile(
                         name: item.name,
                         icon: item.icon,
                       ),

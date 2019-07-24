@@ -1,13 +1,14 @@
 import 'package:flutter/foundation.dart';
+import 'package:intl/intl.dart';
 
 class RedditPost {
   final String id;
   final String title;
-  final DateTime created;
+  final String created;
   final String author;
   final int score;
   final int numComments;
-  final String postHint;
+  final String hint;
   final String permalink;
   final String url;
 
@@ -18,20 +19,38 @@ class RedditPost {
     @required this.author,
     @required this.score,
     @required this.numComments,
-    @required this.postHint,
+    @required this.hint,
     @required this.permalink,
     @required this.url,
   });
 
   factory RedditPost.fromJson(Map<String, dynamic> json) {
+    String _toHours(int howMany) => Intl.plural(howMany,
+        one: '$howMany hour ago', other: '$howMany hours ago');
+    String _toDays(int howMany) => Intl.plural(howMany,
+        one: '$howMany day ago', other: '$howMany days ago');
+
+    String _createdAgo(int timestamp) {
+      final dateCreated = DateTime.fromMillisecondsSinceEpoch(timestamp * 1000);
+      final diff = DateTime.now().difference(dateCreated);
+
+      if (diff.inMinutes < 60) {
+        return '${diff.inMinutes} ago';
+      } else if (diff.inHours < 24) {
+        return _toHours(diff.inHours);
+      } else {
+        return _toDays(diff.inDays);
+      }
+    }
+
     return RedditPost(
       id: json['id'],
       title: json['title'],
-      created: DateTime.fromMillisecondsSinceEpoch(json['created'].toInt()),
+      created: _createdAgo(json['created_utc'].toInt()),
       author: json['author'],
       score: json['score'],
       numComments: json['num_comments'],
-      postHint: json['post_hint'],
+      hint: json['link_flair_text'] ?? 'self',
       permalink: 'https://www.reddit.com' + json['permalink'],
       url: json['url'],
     );
