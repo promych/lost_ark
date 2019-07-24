@@ -8,21 +8,22 @@ class RedditPost {
   final String author;
   final int score;
   final int numComments;
-  final String hint;
+  final String flair;
   final String permalink;
   final String url;
+  final String thumbnail;
 
-  const RedditPost({
-    @required this.id,
-    @required this.title,
-    @required this.created,
-    @required this.author,
-    @required this.score,
-    @required this.numComments,
-    @required this.hint,
-    @required this.permalink,
-    @required this.url,
-  });
+  const RedditPost(
+      {@required this.id,
+      @required this.title,
+      @required this.created,
+      @required this.author,
+      @required this.score,
+      @required this.numComments,
+      @required this.flair,
+      @required this.permalink,
+      @required this.url,
+      @required this.thumbnail});
 
   factory RedditPost.fromJson(Map<String, dynamic> json) {
     String _toHours(int howMany) => Intl.plural(howMany,
@@ -50,9 +51,10 @@ class RedditPost {
       author: json['author'],
       score: json['score'],
       numComments: json['num_comments'],
-      hint: json['link_flair_text'] ?? 'self',
+      flair: json['link_flair_text'] ?? '',
       permalink: 'https://www.reddit.com' + json['permalink'],
       url: json['url'],
+      thumbnail: json['thumbnail'],
     );
   }
 }

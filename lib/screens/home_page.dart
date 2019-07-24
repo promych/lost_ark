@@ -11,20 +11,24 @@ class HomePage extends StatelessWidget {
     return CupertinoPageScaffold(
       child: DefaultTextStyle(
         style: Styles.defaultText,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Expanded(
-              child: CupertinoButton(
-                child: Text('GO'),
-                onPressed: () =>
-                    Navigator.of(context).pushNamed('/class-selector'),
+        child: SafeArea(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Expanded(
+                flex: 2,
+                child: CupertinoButton(
+                  child: Text('GO'),
+                  onPressed: () =>
+                      Navigator.of(context).pushNamed('/class-selector'),
+                ),
               ),
-            ),
-            Expanded(
-              child: RedditPosts(),
-            )
-          ],
+              Expanded(
+                flex: 3,
+                child: RedditPosts(),
+              )
+            ],
+          ),
         ),
       ),
     );

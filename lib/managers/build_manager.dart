@@ -21,19 +21,18 @@ class BuildManager with ChangeNotifier {
         ..replaceRange(
             tierNum - 1, newEnchancement.length + tierNum - 1, newEnchancement);
 
-      // print(newEnchancement.length);
-
-      _build.items.replaceRange(
-        index,
-        index + 1,
-        [
-          BuildItem(
-            skillId: skillId,
-            enchancements: newEnchancementList,
-          )
-        ],
-      );
+      // print(newEnchancementList.toString());
+      if (newEnchancementList.join() == '') {
+        _build.items.removeAt(index);
+      } else {
+        _build.items.replaceRange(
+          index,
+          index + 1,
+          [BuildItem(skillId: skillId, enchancements: newEnchancementList)],
+        );
+      }
     } else {
+      if (tierNum != 1) return;
       _build.items.add(
         BuildItem(
           skillId: skillId,

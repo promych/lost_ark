@@ -12,10 +12,11 @@ class RedditPosts extends StatelessWidget {
         Provider.of<AppManager>(context, listen: false).newRedditPosts;
 
     return ListView.separated(
+      padding: const EdgeInsets.symmetric(horizontal: 10.0),
       itemCount: posts.length,
       itemBuilder: (_, int index) => RedditPostTile(post: posts[index]),
       separatorBuilder: (_, int index) => Divider(
-        color: CupertinoTheme.of(context).primaryContrastingColor,
+        color: CupertinoTheme.of(context).primaryColor,
       ),
     );
   }
