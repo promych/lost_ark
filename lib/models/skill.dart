@@ -47,19 +47,16 @@ class Skill {
 @immutable
 class EnchancementTier {
   final int tier;
-  final int points;
   final List<SkillEnchancement> enchancements;
 
   EnchancementTier({
     @required this.tier,
-    @required this.points,
     @required this.enchancements,
   });
 
   factory EnchancementTier.fromJson(Map<String, dynamic> json, String skillId) {
     return EnchancementTier(
       tier: json['tier'],
-      points: json['points'],
       enchancements: List<SkillEnchancement>.from(json['skills']
           .map((item) => SkillEnchancement.fromJson(item, skillId))),
     );

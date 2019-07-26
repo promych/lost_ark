@@ -1,6 +1,7 @@
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/managers/locale_manager.dart';
 import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
@@ -42,7 +43,8 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(
         backTitle: 'Home',
-        title: 'Classes',
+        title: LocaleManager.of(context).translate('classes'), //'Classes',
+        // title: Provider.of<AppLocalizations>(context).translate('classes'),
         trailing: GestureDetector(
           child: Icon(Icons.list),
           onTap: () =>
@@ -51,16 +53,18 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
       ),
       child: SafeArea(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Expanded(
+            Container(
+              height: MediaQuery.of(context).size.height * 0.7,
               child: PageView.builder(
                 controller: _controller,
                 itemCount: classes.length,
                 itemBuilder: (_, int index) {
                   return GestureDetector(
                     child: Card(
-                      margin: const EdgeInsets.symmetric(
-                          horizontal: 20.0, vertical: 100.0),
+                      // margin: const EdgeInsets.symmetric(
+                      //     horizontal: 20.0, vertical: 100.0),
                       color: CupertinoTheme.of(context).primaryContrastingColor,
                       child: Stack(
                         alignment: Alignment.center,
@@ -90,6 +94,7 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
                 },
               ),
             ),
+            SizedBox(height: 10.0),
             DotsIndicator(
               dotsCount: classes.length,
               position: _controller.hasClients ? _currentPage : 0,

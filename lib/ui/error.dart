@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:lost_ark/helpers/theme.dart';
 
 class ErrorView extends StatelessWidget {
   final String message;
@@ -8,15 +7,11 @@ class ErrorView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CupertinoApp(
-      debugShowCheckedModeBanner: false,
-      theme: appTheme,
-      home: CupertinoPageScaffold(
-        child: Center(
-          child: Text(
-            message,
-            style: TextStyle(color: CupertinoColors.destructiveRed),
-          ),
+    return CupertinoPageScaffold(
+      child: Center(
+        child: Text(
+          message,
+          style: TextStyle(color: CupertinoColors.destructiveRed),
         ),
       ),
     );

@@ -19,7 +19,7 @@ class ClassListPage extends StatelessWidget {
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(
         backTitle: 'Home',
-        title: 'Classes',
+        title: 'Classes', //AppLocalizations.of(context).translate('classes'),
         trailing: GestureDetector(
           child: Icon(Icons.view_carousel),
           onTap: () =>

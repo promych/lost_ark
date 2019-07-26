@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:lost_ark/helpers/theme.dart';
 
-import 'package:lost_ark/ui/reddit_posts.dart';
+import 'package:lost_ark/helpers/theme.dart';
+import 'package:lost_ark/managers/locale_manager.dart';
+import 'package:provider/provider.dart';
 
 class HomePage extends StatelessWidget {
   static const routeName = '/';
@@ -14,18 +15,39 @@ class HomePage extends StatelessWidget {
         child: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
+            children: [
               Expanded(
                 flex: 2,
-                child: CupertinoButton(
-                  child: Text('GO'),
-                  onPressed: () =>
-                      Navigator.of(context).pushNamed('/class-selector'),
+                child: Column(
+                  children: [
+                    CupertinoButton(
+                      child:
+                          Text(LocaleManager.of(context).translate('classes')),
+                      onPressed: () =>
+                          Navigator.of(context).pushNamed('/class-selector'),
+                    ),
+                    CupertinoButton(
+                      child: Text('change to RU'),
+                      onPressed: () =>
+                          Provider.of<LocaleManager>(context, listen: false)
+                              .changeLocale(Locale('ru', 'RU')),
+                    ),
+                    CupertinoButton(
+                      child: Text('change to EN'),
+                      onPressed: () =>
+                          Provider.of<LocaleManager>(context, listen: false)
+                              .changeLocale(Locale('en', 'US')),
+                    ),
+                    Text(
+                        'Man.of() ${LocaleManager.of(context).locale.countryCode}'),
+                    Text(
+                        'Loc.localeOf() ${Localizations.localeOf(context).countryCode}'),
+                  ],
                 ),
               ),
               Expanded(
                 flex: 3,
-                child: RedditPosts(),
+                child: Placeholder(), //RedditPosts(),
               )
             ],
           ),

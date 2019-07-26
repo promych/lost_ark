@@ -22,10 +22,13 @@ class RedditPostTile extends StatelessWidget {
               child: Container(
                 width: MediaQuery.of(context).size.width / 5,
                 child: (post.thumbnail != 'self')
-                    ? Image.network(
-                        post.thumbnail,
-                        fit: BoxFit.cover,
-                      )
+                    // ? CachedNetworkImage(
+                    //     imageUrl: post.thumbnail,
+                    //     fit: BoxFit.cover,
+                    //     placeholder: (context, _) =>
+                    //         Center(child: Icon(LostArk.logo)),
+                    //   )
+                    ? Image.network(post.thumbnail, fit: BoxFit.cover)
                     : Container(
                         child: Center(
                           child: Icon(Icons.comment),

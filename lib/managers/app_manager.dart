@@ -23,10 +23,11 @@ class AppManager extends ChangeNotifier {
 
   AppStatus _status = AppStatus.Uninitialized;
 
-  AppManager.instance()
+  AppManager.instance({String lang = ''})
       : _redditClient = RedditClient(),
         _classRepo = ClassRepo(),
         _skillRepo = SkillRepo() {
+    print(lang);
     loadApp();
   }
 
@@ -38,6 +39,7 @@ class AppManager extends ChangeNotifier {
       print('loading');
       _status = AppStatus.Loading;
       notifyListeners();
+      await Future.delayed(Duration(seconds: 1));
       _redditPosts = _redditPosts ?? await _redditClient.fetchNewPosts();
       _classList = _classList ?? await _classRepo.fetchClassList();
       _skillList = _skillList ?? await _skillRepo.fetchSkills();

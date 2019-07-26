@@ -20,7 +20,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Advance',
@@ -42,7 +41,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Wound',
@@ -64,7 +62,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Endless Spear',
@@ -91,7 +88,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Advance',
@@ -113,7 +109,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Strengthened Blow',
@@ -136,7 +131,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Earth Spikes',
@@ -165,7 +159,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Solid Armor',
@@ -187,7 +180,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Destraction',
@@ -208,7 +200,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Additional Attack',
@@ -237,7 +228,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Armor Desctruction',
@@ -260,7 +250,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Shield Enchanced',
@@ -283,7 +272,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Extra Hit',
@@ -312,7 +300,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Armor Destruction',
@@ -335,7 +322,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Attack Preparation',
@@ -359,7 +345,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Strike',
@@ -386,7 +371,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -409,7 +393,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Damage Increased',
@@ -430,7 +413,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Burn',
@@ -457,7 +439,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Damage Increased',
@@ -478,7 +459,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Great Earthquake',
@@ -502,7 +482,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Low Shock',
@@ -531,7 +510,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mana Control',
@@ -554,7 +532,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Tenacity',
@@ -576,7 +553,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Second Wave',
@@ -604,7 +580,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -625,7 +600,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Sharpened Chain Hook',
@@ -646,7 +620,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Drill Master',
@@ -674,7 +647,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Improved Armor',
@@ -696,7 +668,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Drill Master',
@@ -718,7 +689,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Unfinished Business',
@@ -747,7 +717,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Wound',
@@ -770,7 +739,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Improved Penetration',
@@ -793,7 +761,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Lightning Charge',
@@ -822,7 +789,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -843,7 +809,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Keep Provocation',
@@ -866,7 +831,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Morale Boost',
@@ -895,7 +859,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Response',
@@ -916,7 +879,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Improved Strike',
@@ -939,7 +901,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Second Crash',
@@ -968,7 +929,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Offensive Preparation',
@@ -992,7 +952,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Quick Response',
@@ -1015,7 +974,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Bombardment',
@@ -1044,7 +1002,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Charge Speed',
@@ -1065,7 +1022,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Increase Effectiveness',
@@ -1088,7 +1044,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Leadership',
@@ -1116,7 +1071,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Controlling Mana',
@@ -1138,7 +1092,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Strengthened Blow',
@@ -1160,7 +1113,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Exploding Spear',
@@ -1189,7 +1141,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Penetrating Shot',
@@ -1212,7 +1163,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Precise Shot',
@@ -1236,7 +1186,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Spinning Fire',
@@ -1265,7 +1214,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Enhanced Blow',
@@ -1288,7 +1236,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Ranged Blow',
@@ -1310,7 +1257,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Hasher',
@@ -1339,7 +1285,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Sleek Motion',
@@ -1361,7 +1306,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Concentration',
@@ -1382,7 +1326,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Cutting',
@@ -1411,7 +1354,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Muscle Cramps',
@@ -1433,7 +1375,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Identified Weakness',
@@ -1456,7 +1397,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Flame Rush',
@@ -1484,7 +1424,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Strength',
@@ -1506,7 +1445,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Finish Him',
@@ -1528,7 +1466,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Shockwave',
@@ -1556,7 +1493,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Shield effect',
@@ -1579,7 +1515,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Rush',
@@ -1603,7 +1538,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Earthquake',
@@ -1631,7 +1565,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Lightfoot',
@@ -1654,7 +1587,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Forward Cut',
@@ -1678,7 +1610,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Vacuum Cut',
@@ -1707,7 +1638,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Critical Hit',
@@ -1728,7 +1658,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Ranged Blow',
@@ -1749,7 +1678,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Power Accumulation',
@@ -1778,7 +1706,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Concentration',
@@ -1799,7 +1726,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Quick Hit',
@@ -1820,7 +1746,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Stir',
@@ -1849,7 +1774,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -1870,7 +1794,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Enhanced Strike',
@@ -1892,7 +1815,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Seismic Wave',
@@ -1920,7 +1842,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Excellent Mobility',
@@ -1941,7 +1862,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Fast Movement',
@@ -1963,7 +1883,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Power Slash',
@@ -1992,7 +1911,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Training Performance',
@@ -2014,7 +1932,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Fusion',
@@ -2038,7 +1955,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Flip the Land',
@@ -2067,7 +1983,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Hit',
@@ -2088,7 +2003,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Annihilate',
@@ -2110,7 +2024,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -2138,7 +2051,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Swift Movement',
@@ -2159,7 +2071,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Enhanced Strike',
@@ -2180,7 +2091,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Squall',
@@ -2209,7 +2119,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Sleek Motion',
@@ -2230,7 +2139,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Strength',
@@ -2252,7 +2160,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Flame Swirl',
@@ -2281,7 +2188,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Wave',
@@ -2303,7 +2209,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Cerberus',
@@ -2326,7 +2231,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Blaze Wave',
@@ -2354,7 +2258,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -2375,7 +2278,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Quick Hit',
@@ -2397,7 +2299,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Red Fly',
@@ -2426,7 +2327,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Sleek Motion',
@@ -2447,7 +2347,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Backbreak',
@@ -2470,7 +2369,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Fire Storm',
@@ -2499,7 +2397,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Sleek Motion',
@@ -2520,7 +2417,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Strengthen Cutting',
@@ -2541,7 +2437,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Space Cut',
@@ -2570,7 +2465,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Hit',
@@ -2592,7 +2486,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Crush',
@@ -2616,7 +2509,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Wide Hit',
@@ -2644,7 +2536,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Improved Recharging',
@@ -2667,7 +2558,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Solid Soul',
@@ -2691,7 +2581,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Wisdom of Energy',
@@ -2720,7 +2609,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Toughness',
@@ -2743,7 +2631,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Solid Body',
@@ -2766,7 +2653,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Shining Strike',
@@ -2795,7 +2681,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Iron Skin',
@@ -2819,7 +2704,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Mission Completed',
@@ -2841,7 +2725,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Heavy Hammer',
@@ -2870,7 +2753,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Improved Recharging',
@@ -2893,7 +2775,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Swift Movement',
@@ -2915,7 +2796,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Effluence of Instinct',
@@ -2944,7 +2824,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Lucky Core',
@@ -2966,7 +2845,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Antigravity',
@@ -2990,7 +2868,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Reckless Movement',
@@ -3019,7 +2896,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Flame of Darkness',
@@ -3041,7 +2917,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Time Distortion',
@@ -3065,7 +2940,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Gravity Reversal',
@@ -3093,7 +2967,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Reckless Attack',
@@ -3116,7 +2989,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Superhuman Strength',
@@ -3139,7 +3011,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Endless attack',
@@ -3168,7 +3039,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Dark Energy',
@@ -3192,7 +3062,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Wide Strike',
@@ -3215,7 +3084,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Explosive Gravity',
@@ -3243,7 +3111,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Drillmaster',
@@ -3265,7 +3132,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Antigravity',
@@ -3288,7 +3154,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Healthy Mentality',
@@ -3317,7 +3182,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Intensified Blow',
@@ -3339,7 +3203,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Tenacity',
@@ -3362,7 +3225,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Earth\'s Wrath',
@@ -3391,7 +3253,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Iron Heart',
@@ -3413,7 +3274,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Toughness',
@@ -3436,7 +3296,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Bestial Eyes',
@@ -3465,7 +3324,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Critical Strength',
@@ -3489,7 +3347,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Wide Strike',
@@ -3512,7 +3369,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Explosive Smash',
@@ -3541,7 +3397,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Ready',
@@ -3562,7 +3417,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Well-maintained Hammer',
@@ -3586,7 +3440,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Critical Hammer',
@@ -3615,7 +3468,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Capture Weakness',
@@ -3638,7 +3490,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Concussion',
@@ -3660,7 +3511,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Massacre',
@@ -3689,7 +3539,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Hard Heart',
@@ -3713,7 +3562,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Wide Strike',
@@ -3735,7 +3583,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Target Location',
@@ -3763,7 +3610,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -3786,7 +3632,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Unbearable Strength',
@@ -3810,7 +3655,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Power Hungry',
@@ -3839,7 +3683,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Movement Distance',
@@ -3861,7 +3704,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Ice Strike',
@@ -3884,7 +3726,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Crushing Blade',
@@ -3912,7 +3753,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Movement Distance',
@@ -3936,7 +3776,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Lightning Strike',
@@ -3959,7 +3798,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Lightning',
@@ -3987,7 +3825,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Dark Attack',
@@ -4010,7 +3847,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Damage Reduction',
@@ -4033,7 +3869,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Thunder',
@@ -4062,7 +3897,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Holy Attack',
@@ -4084,7 +3918,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Master of Strike',
@@ -4107,7 +3940,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Quietens',
@@ -4136,7 +3968,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Termal Fiber Angle',
@@ -4159,7 +3990,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Movement Distance',
@@ -4182,7 +4012,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Colorful Footstep',
@@ -4211,7 +4040,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Vibration Strengthening',
@@ -4233,7 +4061,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Heavy Steel',
@@ -4257,7 +4084,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Crustal Change',
@@ -4286,7 +4112,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Attack Speed',
@@ -4307,7 +4132,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -4329,7 +4153,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Fallen Leaves',
@@ -4358,7 +4181,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Blessing of the Wind',
@@ -4382,7 +4204,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Reduction Damage',
@@ -4404,7 +4225,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Ready to Attack',
@@ -4432,7 +4252,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Critical Hit',
@@ -4455,7 +4274,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Wide Blow',
@@ -4476,7 +4294,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Wrath of Ange',
@@ -4505,7 +4322,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Wide Blow',
@@ -4528,7 +4344,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Fierce Attack',
@@ -4551,7 +4366,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Unstoppable Surprise',
@@ -4580,7 +4394,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mind Enhancement',
@@ -4602,7 +4415,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Rapid Preparation',
@@ -4625,7 +4437,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Deadly Wave',
@@ -4654,7 +4465,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Concentration',
@@ -4678,7 +4488,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Attack Range',
@@ -4701,7 +4510,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Exceptiona',
@@ -4730,7 +4538,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Burning Armor',
@@ -4754,7 +4561,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Road of Commitment',
@@ -4777,7 +4583,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Attack Range',
@@ -4806,7 +4611,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Weak Point',
@@ -4829,7 +4633,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Attack Speed',
@@ -4851,7 +4654,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Bastion of Destruction',
@@ -4879,7 +4681,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Attack Range',
@@ -4901,7 +4702,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Concentrated Hit',
@@ -4922,7 +4722,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Eye of the Storm',
@@ -4951,7 +4750,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Critical Hit',
@@ -4972,7 +4770,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Lightning',
@@ -4994,7 +4791,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Electric Shock',
@@ -5023,7 +4819,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Earth Storm',
@@ -5047,7 +4842,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Growing Attack',
@@ -5070,7 +4864,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Summon Storm',
@@ -5099,7 +4892,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Weak Point',
@@ -5123,7 +4915,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Сollection',
@@ -5145,7 +4936,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Endless Destruction',
@@ -5174,7 +4964,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Focus',
@@ -5196,7 +4985,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Ruthless Advance',
@@ -5220,7 +5008,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Ruthless Advance',
@@ -5247,7 +5034,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Internal Bleeding',
@@ -5269,7 +5055,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Trifoliate',
@@ -5291,7 +5076,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'One Punch Blow',
@@ -5320,7 +5104,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Wide Blow',
@@ -5342,7 +5125,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Dig',
@@ -5363,7 +5145,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Coarse Division',
@@ -5392,7 +5173,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Excellent Mobility',
@@ -5414,7 +5194,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Wide Blow',
@@ -5436,7 +5215,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Destruction',
@@ -5463,7 +5241,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Wide Blow',
@@ -5484,7 +5261,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Dangerous Contract',
@@ -5507,7 +5283,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Tracking Instinct',
@@ -5534,7 +5309,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Force of the Earth',
@@ -5557,7 +5331,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Breakthrough',
@@ -5580,7 +5353,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Empowered Earthquake',
@@ -5608,7 +5380,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Crackshot',
@@ -5630,7 +5401,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Formidable Will',
@@ -5654,7 +5424,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Widespread',
@@ -5683,7 +5452,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Critical Hit',
@@ -5706,7 +5474,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Anger',
@@ -5729,7 +5496,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Threshold of Death',
@@ -5758,7 +5524,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Enhanced Blow',
@@ -5782,7 +5547,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Concentration',
@@ -5803,7 +5567,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Reinforcement',
@@ -5832,7 +5595,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -5853,7 +5615,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Enhanced Blow',
@@ -5876,7 +5637,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Oscillating Resonance',
@@ -5904,7 +5664,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Abdominal Respiration',
@@ -5926,7 +5685,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Strength',
@@ -5949,7 +5707,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'True Judgment',
@@ -5978,7 +5735,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -6000,7 +5756,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Identified Weakness',
@@ -6023,7 +5778,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Reinforced Blow',
@@ -6052,7 +5806,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -6074,7 +5827,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Strength',
@@ -6096,7 +5848,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Shock',
@@ -6124,7 +5875,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -6145,7 +5895,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Muscle Burst',
@@ -6167,7 +5916,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Mastery',
@@ -6196,7 +5944,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Old Hand',
@@ -6219,7 +5966,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Armor Destruction',
@@ -6242,7 +5988,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Mega Explosion',
@@ -6271,7 +6016,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Technical Finesse',
@@ -6295,7 +6039,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Identified Weakness',
@@ -6318,7 +6061,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Dragon\'s Rage',
@@ -6347,7 +6089,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Violent Fist',
@@ -6371,7 +6112,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Overflowing Force',
@@ -6393,7 +6133,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Surprise Attack',
@@ -6421,7 +6160,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Sleek Motion',
@@ -6443,7 +6181,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Piercing Strike',
@@ -6465,7 +6202,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Pride of Fighters',
@@ -6492,7 +6228,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Penetrative Force',
@@ -6515,7 +6250,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Penetrating Pain',
@@ -6539,7 +6273,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Trance',
@@ -6568,7 +6301,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Improved Endurance',
@@ -6589,7 +6321,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Strengthens',
@@ -6612,7 +6343,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Force Master',
@@ -6640,7 +6370,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Improved Recharging',
@@ -6663,7 +6392,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Successful Transition',
@@ -6686,7 +6414,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Trusted Strike',
@@ -6715,7 +6442,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Push',
@@ -6738,7 +6464,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Strengthens',
@@ -6762,7 +6487,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Strong Shoulder',
@@ -6791,7 +6515,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Defensive Preparation',
@@ -6814,7 +6537,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Strength',
@@ -6837,7 +6559,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Brave Ember',
@@ -6865,7 +6586,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Response',
@@ -6886,7 +6606,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Reduced Mobility',
@@ -6908,7 +6627,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Strong Will',
@@ -6936,7 +6654,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Justice Strike',
@@ -6958,7 +6675,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Drillmaster',
@@ -6981,7 +6697,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Raging Wave',
@@ -7010,7 +6725,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Improved Strike',
@@ -7032,7 +6746,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Cold Attack',
@@ -7054,7 +6767,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Greatest Revenge',
@@ -7083,7 +6795,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Unstoppable Passion',
@@ -7105,7 +6816,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Swift Step',
@@ -7129,7 +6839,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Unstable Space-time',
@@ -7158,7 +6867,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Response',
@@ -7179,7 +6887,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Heat',
@@ -7202,7 +6909,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Exceptional Movement',
@@ -7231,7 +6937,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Recharge',
@@ -7255,7 +6960,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Harsh Training',
@@ -7279,7 +6983,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Exit Status',
@@ -7308,7 +7011,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Improved Endurance',
@@ -7331,7 +7033,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Defenseless Target',
@@ -7353,7 +7054,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Six Sense',
@@ -7382,7 +7082,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Response',
@@ -7404,7 +7103,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Growing Wave',
@@ -7427,7 +7125,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Space Expansion',
@@ -7456,7 +7153,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Defensive Preparation',
@@ -7477,7 +7173,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Toughness',
@@ -7501,7 +7196,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Desperate Attack',
@@ -7530,7 +7224,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Attack Enhance',
@@ -7553,7 +7246,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Sure Strike',
@@ -7577,7 +7269,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Transitional Burn',
@@ -7606,7 +7297,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Improved Endurance',
@@ -7628,7 +7318,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Ranged Target',
@@ -7651,7 +7340,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Bold Movement',
@@ -7680,7 +7368,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Dexterous',
@@ -7702,7 +7389,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Tripod of Cleansing',
@@ -7725,7 +7411,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Ready to Attack',
@@ -7751,7 +7436,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Flame Cutting',
@@ -7773,7 +7457,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Airbound',
@@ -7796,7 +7479,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Space Cutter',
@@ -7825,7 +7507,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mana Control',
@@ -7846,7 +7527,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Specialization',
@@ -7869,7 +7549,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Face Me',
@@ -7898,7 +7577,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Hand',
@@ -7920,7 +7598,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Flame',
@@ -7943,7 +7620,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Spin',
@@ -7972,7 +7648,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Range',
@@ -7994,7 +7669,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Swift Movement',
@@ -8017,7 +7691,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Swirl',
@@ -8045,7 +7718,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Movement Distance',
@@ -8067,7 +7739,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Range',
@@ -8089,7 +7760,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Air Strike',
@@ -8118,7 +7788,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Range',
@@ -8139,7 +7808,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Continuous Use',
@@ -8160,7 +7828,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Supercharge Zone',
@@ -8188,7 +7855,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mental Fortification',
@@ -8210,7 +7876,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Attack Speed',
@@ -8231,7 +7896,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Double Jump',
@@ -8258,7 +7922,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Fast Fire',
@@ -8280,7 +7943,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Picture Effect',
@@ -8302,7 +7964,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Thinning Fire',
@@ -8331,7 +7992,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mana Control',
@@ -8352,7 +8012,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Close Shot',
@@ -8374,7 +8033,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Number of Attacks',
@@ -8401,7 +8059,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Hand',
@@ -8423,7 +8080,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Flame Bomb',
@@ -8446,7 +8102,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Destructive Penetration',
@@ -8475,7 +8130,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Attack Speed',
@@ -8497,7 +8151,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Lightfoot',
@@ -8519,7 +8172,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Shotgun',
@@ -8546,7 +8198,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Range',
@@ -8568,7 +8219,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Damage Increased',
@@ -8591,7 +8241,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Fireworks',
@@ -8619,7 +8268,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -8640,7 +8288,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Critical Hit',
@@ -8661,7 +8308,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Quick Gun',
@@ -8689,7 +8335,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Damage Increased',
@@ -8711,7 +8356,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Enhanced Shot',
@@ -8732,7 +8376,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Consequences of the Disaster',
@@ -8760,7 +8403,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -8781,7 +8423,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Master of Evasion',
@@ -8804,7 +8445,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Sentence of Imprisonment',
@@ -8833,7 +8473,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Close Shot',
@@ -8855,7 +8494,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Enhanced Shot',
@@ -8876,7 +8514,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Extended Fire',
@@ -8904,7 +8541,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -8926,7 +8562,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Weak Shoot',
@@ -8948,7 +8583,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Will of the Ruler',
@@ -8977,7 +8611,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -9000,7 +8633,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Hot',
@@ -9024,7 +8656,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Double Shot',
@@ -9053,7 +8684,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Chill',
@@ -9076,7 +8706,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Growth Bullet',
@@ -9100,7 +8729,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Strengthening the Total',
@@ -9129,7 +8757,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Strength',
@@ -9150,7 +8777,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Finishing Fire',
@@ -9173,7 +8799,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Carpet Bombing',
@@ -9202,7 +8827,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Vision',
@@ -9224,7 +8848,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Attack Speed',
@@ -9245,7 +8868,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Quadruple Explosion',
@@ -9274,7 +8896,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Fast Bullet',
@@ -9295,7 +8916,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Damage Increased',
@@ -9316,7 +8936,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Fast Fire',
@@ -9343,7 +8962,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mental Fortification',
@@ -9365,7 +8983,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Improved Shot',
@@ -9388,7 +9005,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Perfect Aim',
@@ -9416,7 +9032,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Armor Destroyed',
@@ -9437,7 +9052,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Bullet Strengthening',
@@ -9459,7 +9073,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Penetration Shell',
@@ -9486,7 +9099,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Skill Range',
@@ -9508,7 +9120,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Icy Shell',
@@ -9530,7 +9141,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Chain Explosion',
@@ -9559,7 +9169,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Improved Shot',
@@ -9581,7 +9190,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Growing Bullet',
@@ -9603,7 +9211,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Will of Destroyer',
@@ -9632,7 +9239,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Improved Penetration',
@@ -9655,7 +9261,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Critical Strike',
@@ -9677,7 +9282,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Elimination Buckshot',
@@ -9704,7 +9308,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Armor Destroyed',
@@ -9725,7 +9328,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Vulnerable Target',
@@ -9749,7 +9351,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Flash Shell',
@@ -9777,7 +9378,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Fire Rocket',
@@ -9800,7 +9400,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Back Step',
@@ -9823,7 +9422,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Enhanced Rocket Launcher',
@@ -9852,7 +9450,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Improved Destruction',
@@ -9876,7 +9473,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Nut Cracker',
@@ -9900,7 +9496,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Chain Explosion',
@@ -9928,7 +9523,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Nut Cracker',
@@ -9950,7 +9544,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Ignoring Collision',
@@ -9973,7 +9566,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Blue Flame',
@@ -10002,7 +9594,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Empowered Will',
@@ -10023,7 +9614,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Improved Strike',
@@ -10045,7 +9635,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Rush',
@@ -10072,7 +9661,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Preparation for Firing',
@@ -10094,7 +9682,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Flame Strike',
@@ -10118,7 +9705,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'No Mercy',
@@ -10147,7 +9733,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Jump',
@@ -10169,7 +9754,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Extensive Explosion',
@@ -10191,7 +9775,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Triple Fire',
@@ -10218,7 +9801,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Fast Recharge',
@@ -10240,7 +9822,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Improved Turret',
@@ -10262,7 +9843,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Big Pack',
@@ -10290,7 +9870,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Rage',
@@ -10313,7 +9892,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Fast Travel',
@@ -10334,7 +9912,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Growing Plasma',
@@ -10362,7 +9939,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Free Launch',
@@ -10384,7 +9960,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Solid Armor',
@@ -10406,7 +9981,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Sweep',
@@ -10434,7 +10008,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Changing Coordinate',
@@ -10456,7 +10029,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Quick Response',
@@ -10477,7 +10049,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Dancing Boom',
@@ -10506,7 +10077,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Long Ranged Installment',
@@ -10528,7 +10098,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Nut Cracker',
@@ -10551,7 +10120,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'EMP',
@@ -10580,7 +10148,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Concentrate Fire',
@@ -10603,7 +10170,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Improved Shield',
@@ -10624,7 +10190,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Thick Shield',
@@ -10652,7 +10217,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Damage Boost',
@@ -10675,7 +10239,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Double Shot',
@@ -10697,7 +10260,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Power shot',
@@ -10725,7 +10287,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Horsepower Control',
@@ -10747,7 +10308,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Heavy Bomb',
@@ -10771,7 +10331,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Light Arrow',
@@ -10800,7 +10359,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Reinforced Arrow',
@@ -10823,7 +10381,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Slow Bullet',
@@ -10846,7 +10403,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Tidal Wave',
@@ -10875,7 +10431,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Hit',
@@ -10897,7 +10452,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Merciless Fire',
@@ -10918,7 +10472,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Concentrated Shot',
@@ -10946,7 +10499,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -10968,7 +10520,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Push',
@@ -10992,7 +10543,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Survival',
@@ -11021,7 +10571,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Hand',
@@ -11042,7 +10591,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Light Footsteps',
@@ -11064,7 +10612,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Neat Herb',
@@ -11093,7 +10640,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Hand',
@@ -11115,7 +10661,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Strength',
@@ -11138,7 +10683,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Storm Surge',
@@ -11167,7 +10711,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Aim',
@@ -11189,7 +10732,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Double shot',
@@ -11212,7 +10754,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Instant Arrow',
@@ -11241,7 +10782,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Heavy Steel',
@@ -11263,7 +10803,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Achievement Of Training',
@@ -11286,7 +10825,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Covert Movement',
@@ -11315,7 +10853,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mind Enhancement',
@@ -11337,7 +10874,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Remote Installation',
@@ -11359,7 +10895,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Fire Mines',
@@ -11388,7 +10923,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Hand',
@@ -11409,7 +10943,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Enhancement Sustain',
@@ -11433,7 +10966,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Piercing Arrow',
@@ -11461,7 +10993,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Hand',
@@ -11482,7 +11013,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Light Footsteps',
@@ -11504,7 +11034,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Conversion Strike',
@@ -11533,7 +11062,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mind Enhancement',
@@ -11554,7 +11082,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Mark Of Death',
@@ -11578,7 +11105,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Double Cut',
@@ -11607,7 +11133,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mind Enhancement',
@@ -11628,7 +11153,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Sticky Smoke',
@@ -11652,7 +11176,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Spreading Smoke',
@@ -11681,7 +11204,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Fast Charge',
@@ -11702,7 +11224,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Overcharge',
@@ -11725,7 +11246,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Shadow Tracking',
@@ -11752,7 +11272,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Ranged Blow',
@@ -11774,7 +11293,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Poison Blade',
@@ -11798,7 +11316,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Blade Dance',
@@ -11827,7 +11344,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Hand',
@@ -11848,7 +11364,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Current Zone',
@@ -11872,7 +11387,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Lightning Rod',
@@ -11901,7 +11415,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -11922,7 +11435,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Perfection',
@@ -11945,7 +11457,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Ghillie Suit',
@@ -11974,7 +11485,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -11995,7 +11505,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Sacred Shock',
@@ -12018,7 +11527,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Speaker',
@@ -12046,7 +11554,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Nimble Cast',
@@ -12067,7 +11574,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Dragon Rigid',
@@ -12090,7 +11596,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Live Chord',
@@ -12118,7 +11623,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Slick Casting',
@@ -12139,7 +11643,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Mana Control',
@@ -12161,7 +11664,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Burning Wave',
@@ -12188,7 +11690,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Sound Concentration',
@@ -12211,7 +11712,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Strengthen Sustainability',
@@ -12235,7 +11735,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Increase Melody',
@@ -12263,7 +11762,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -12284,7 +11782,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Sleek Speaker',
@@ -12307,7 +11804,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Note Brand',
@@ -12336,7 +11832,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Strong Notes',
@@ -12360,7 +11855,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Frozen Notes',
@@ -12383,7 +11877,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Merciless Release',
@@ -12412,7 +11905,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Strengthen Intelligence',
@@ -12434,7 +11926,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Cold Core',
@@ -12457,7 +11948,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Core Explosion',
@@ -12484,7 +11974,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mana Control',
@@ -12505,7 +11994,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Increase Melody',
@@ -12527,7 +12015,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'High Speed Cast',
@@ -12556,7 +12043,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Wide Attack',
@@ -12577,7 +12063,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Ice Stigma',
@@ -12601,7 +12086,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Stigma of Pain',
@@ -12628,7 +12112,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Increase Melody',
@@ -12649,7 +12132,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Achievement of Training',
@@ -12671,7 +12153,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Nimble Cast',
@@ -12699,7 +12180,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mana Control',
@@ -12721,7 +12201,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Wide Blow',
@@ -12742,7 +12221,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Powerful Overture',
@@ -12771,7 +12249,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Slick Casting',
@@ -12794,7 +12271,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Ice Vibrations',
@@ -12817,7 +12293,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Wide Attack',
@@ -12845,7 +12320,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Increase Melody',
@@ -12866,7 +12340,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Amplification of Death',
@@ -12888,7 +12361,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Aria of Death',
@@ -12917,7 +12389,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mana Control',
@@ -12938,7 +12409,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Strength',
@@ -12960,7 +12430,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Concentration of Light',
@@ -12988,7 +12457,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -13010,7 +12478,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Achievement of Training',
@@ -13032,7 +12499,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Threatening March',
@@ -13059,7 +12525,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -13080,7 +12545,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Strong Performance',
@@ -13101,7 +12565,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Violent Performance',
@@ -13130,7 +12593,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Robust',
@@ -13152,7 +12614,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Unfinished Guardian',
@@ -13175,7 +12636,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Sleek Guardian',
@@ -13203,7 +12663,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mind Enhancement',
@@ -13224,7 +12683,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Flame Crystal',
@@ -13246,7 +12704,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Chain Explosion',
@@ -13275,7 +12732,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Insight',
@@ -13297,7 +12753,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Vital Point Explosion',
@@ -13319,7 +12774,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Mega Explosion',
@@ -13348,7 +12802,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mind Enhancement',
@@ -13370,7 +12823,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Fire Bird',
@@ -13392,7 +12844,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Flock of Birds',
@@ -13421,7 +12872,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Burning Run',
@@ -13445,7 +12895,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Collapse Spree',
@@ -13469,7 +12918,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Ascension',
@@ -13498,7 +12946,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Twilight Burning',
@@ -13522,7 +12969,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Attack Enhancement',
@@ -13544,7 +12990,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Blue Flame Fauru',
@@ -13572,7 +13017,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Excellent Maneuver',
@@ -13595,7 +13039,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Ranged Blast',
@@ -13617,7 +13060,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Cyclon Rush',
@@ -13646,7 +13088,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Attack Enhancement',
@@ -13668,7 +13109,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Taunt Command',
@@ -13692,7 +13132,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Communion',
@@ -13719,7 +13158,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Feeding on Prey',
@@ -13741,7 +13179,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Thunder Spirit',
@@ -13762,7 +13199,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Typhoon',
@@ -13791,7 +13227,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Chain Launch',
@@ -13813,7 +13248,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Electricity Enhancement',
@@ -13837,7 +13271,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Supercurrent Area',
@@ -13865,7 +13298,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mind Enhancement',
@@ -13887,7 +13319,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Increased Diffusion',
@@ -13908,7 +13339,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Queen of Swamp',
@@ -13936,7 +13366,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mind Enhancement',
@@ -13958,7 +13387,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Poisonous Seed',
@@ -13981,7 +13409,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Pack Summon',
@@ -14009,7 +13436,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Flame Shatter',
@@ -14031,7 +13457,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Aftershocks',
@@ -14053,7 +13478,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Great Rift',
@@ -14081,7 +13505,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Rapid Casting',
@@ -14104,7 +13527,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Mud Spirit',
@@ -14126,7 +13548,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Wisdom of Spirit',
@@ -14155,7 +13576,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mana Control',
@@ -14176,7 +13596,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Vital Strike',
@@ -14199,7 +13618,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Crimson Storm',
@@ -14228,7 +13646,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Ignore Collision',
@@ -14250,7 +13667,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Smarty Shurudy',
@@ -14272,7 +13688,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Exhilarating light',
@@ -14301,7 +13716,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Ancient Judgment',
@@ -14324,7 +13738,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Blazing Spear',
@@ -14346,7 +13759,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Condensed Power',
@@ -14375,7 +13787,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Wind of Protection',
@@ -14398,7 +13809,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Barrier Enhancement',
@@ -14420,7 +13830,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Resonance',
@@ -14448,7 +13857,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mental Fortification',
@@ -14469,7 +13877,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Increase Card',
@@ -14491,7 +13898,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Continuous Attack',
@@ -14520,7 +13926,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Shuffle',
@@ -14543,7 +13948,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Infinite Stroke',
@@ -14567,7 +13971,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Predicted Death',
@@ -14596,7 +13999,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Release',
@@ -14619,7 +14021,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Exposed Target',
@@ -14642,7 +14043,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Continuous Attack',
@@ -14671,7 +14071,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mental Fortification',
@@ -14692,7 +14091,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Escape Master',
@@ -14714,7 +14112,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Mysterious Retreat',
@@ -14743,7 +14140,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -14764,7 +14160,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Link Magic',
@@ -14786,7 +14181,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Split Magic',
@@ -14815,7 +14209,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Penetration Enhance',
@@ -14837,7 +14230,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Swift Movement',
@@ -14859,7 +14251,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Hexagon Enhancement',
@@ -14887,7 +14278,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Excellent Mobility',
@@ -14909,7 +14299,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Sharp Blow',
@@ -14931,7 +14320,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Squall',
@@ -14960,7 +14348,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Mental Fortification',
@@ -14981,7 +14368,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Stronger',
@@ -15004,7 +14390,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Card Amplification',
@@ -15033,7 +14418,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Critical Hit Rate',
@@ -15056,7 +14440,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Wide Attack',
@@ -15077,7 +14460,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Aggressive Visibility',
@@ -15106,7 +14488,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Piercing Strike',
@@ -15129,7 +14510,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Thundermate',
@@ -15153,7 +14533,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Wave of Cards',
@@ -15181,7 +14560,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Card Increase',
@@ -15203,7 +14581,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Deathwheel',
@@ -15227,7 +14604,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Stream Wave',
@@ -15256,7 +14632,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -15278,7 +14653,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Master of Evasion',
@@ -15301,7 +14675,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Last Infinite',
@@ -15330,7 +14703,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Sleek Motion',
@@ -15351,7 +14723,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Destroyer Card',
@@ -15373,7 +14744,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Heavy Rain',
@@ -15402,7 +14772,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -15423,7 +14792,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Four Stack',
@@ -15445,7 +14813,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Delayed Shock',
@@ -15474,7 +14841,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Piercing Strike',
@@ -15495,7 +14861,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Accidental Blow',
@@ -15519,7 +14884,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Continuous Attack',
@@ -15548,7 +14912,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Sleek Motion',
@@ -15569,7 +14932,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Quickdraw',
@@ -15592,7 +14954,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Fear of Death',
@@ -15621,7 +14982,6 @@ const List<Map<String, dynamic>> _skillsData = [
     'tripod': [
       {
         'tier': 1,
-        'points': 4,
         'skills': [
           {
             'name': 'Quick Preparation',
@@ -15642,7 +15002,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 2,
-        'points': 20,
         'skills': [
           {
             'name': 'Perfect Secret',
@@ -15665,7 +15024,6 @@ const List<Map<String, dynamic>> _skillsData = [
       },
       {
         'tier': 3,
-        'points': 48,
         'skills': [
           {
             'name': 'Secret Chance',
@@ -15693,7 +15051,7 @@ const List<Map<String, dynamic>> _skillsData = [
 //   'tripod': [
 //     {
 //       'tier': 1,
-//       'points': 4,
+//
 //       'skills': [
 //         {
 //           'name': '',
@@ -15714,7 +15072,7 @@ const List<Map<String, dynamic>> _skillsData = [
 //     },
 //     {
 //       'tier': 2,
-//       'points': 20,
+//
 //       'skills': [
 //         {
 //           'name': '',
@@ -15735,7 +15093,7 @@ const List<Map<String, dynamic>> _skillsData = [
 //     },
 //     {
 //       'tier': 3,
-//       'points': 48,
+//
 //       'skills': [
 //         {
 //           'name': '',
