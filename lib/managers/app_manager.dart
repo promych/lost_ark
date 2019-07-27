@@ -27,7 +27,7 @@ class AppManager extends ChangeNotifier {
       : _redditClient = RedditClient(),
         _classRepo = ClassRepo(),
         _skillRepo = SkillRepo() {
-    print(lang);
+    print('appMan init with $lang');
     loadApp();
   }
 

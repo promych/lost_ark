@@ -44,55 +44,77 @@ class App extends StatelessWidget {
           builder: (_) => BuildManager(),
         ),
       ],
-      child: Consumer<AppManager>(
-          builder: (BuildContext context, AppManager app, Widget child) {
-        return CupertinoApp(
-          debugShowCheckedModeBanner: false,
-          theme: appTheme,
-          supportedLocales: [
-            const Locale('en', 'US'),
-            const Locale('ru', 'RU'),
-          ],
-          localizationsDelegates: [
-            AppLocalizationsDelegate(
-              locale:
-                  Provider.of<LocaleManager>(context, listen: false).locale ??
-                      Locale('en', 'US'),
-            ),
-            GlobalMaterialLocalizations.delegate,
-            GlobalWidgetsLocalizations.delegate,
-            GlobalCupertinoLocalizations.delegate,
-          ],
-          // localeResolutionCallback: (locale, supportedLocales) {
-          // return supportedLocales.singleWhere(
-          //     (item) =>
-          //         item.languageCode == locale.languageCode &&
-          //         item.countryCode == locale.countryCode,
-          //     orElse: () => supportedLocales.first);
-          // },
-          locale: Provider.of<LocaleManager>(context, listen: false).locale,
-          initialRoute: '/',
-          routes: {
-            HomePage.routeName: (_) {
-              print('change state');
-              switch (app.status) {
-                case AppStatus.Loaded:
-                  return HomePage();
-                case AppStatus.Error:
-                  return ErrorView(message: app.errorMessage);
-                case AppStatus.Uninitialized:
-                case AppStatus.Loading:
-                default:
-                  return Loading();
-              }
+      child: Consumer2<LocaleManager, AppManager>(
+        builder:
+            (BuildContext context, LocaleManager lang, AppManager app, child) {
+          return CupertinoApp(
+            debugShowCheckedModeBanner: false,
+            theme: appTheme,
+            supportedLocales: [
+              const Locale('en', 'US'),
+              const Locale('ru', 'RU'),
+            ],
+            localizationsDelegates: [
+              AppLocalizationsDelegate(
+                locale:
+                    // Provider.of<LocaleManager>(context, listen: false).locale ??
+                    lang.locale ?? Locale('en', 'US'),
+              ),
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+            ],
+            // localeResolutionCallback: (locale, supportedLocales) {
+            // return supportedLocales.singleWhere(
+            //     (item) =>
+            //         item.languageCode == locale.languageCode &&
+            //         item.countryCode == locale.countryCode,
+            //     orElse: () => supportedLocales.first);
+            // },
+            // locale: Provider.of<LocaleManager>(context, listen: false).locale,
+            locale: lang.locale,
+            routes: {
+              // HomePage.routeName: (_) => HomePage(),
+              ClassSelectorPage.routeName: (_) => ClassSelectorPage(),
+              ClassListPage.routeName: (_) => ClassListPage(),
+              ClassPage.routeName: (_) => ClassPage(),
+              SkillsPage.routeName: (_) => SkillsPage(),
             },
-            ClassSelectorPage.routeName: (_) => ClassSelectorPage(),
-            ClassListPage.routeName: (_) => ClassListPage(),
-            ClassPage.routeName: (_) => ClassPage(),
-            SkillsPage.routeName: (_) => SkillsPage(),
-          },
-        );
-      }),
+            home: _landing(app),
+          );
+        },
+      ),
     );
   }
+
+  Widget _landing(app) {
+    switch (app.status) {
+      case AppStatus.Uninitialized:
+      case AppStatus.Loading:
+        return Loading();
+      case AppStatus.Loaded:
+        return HomePage();
+      case AppStatus.Error:
+        return ErrorView(message: app.errorMessage);
+    }
+    return Loading();
+  }
 }
+
+// class Landing extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     final app = Provider.of<AppManager>(context);
+//     print('change state from ${app.status}');
+//     switch (app.status) {
+//       case AppStatus.Uninitialized:
+//       case AppStatus.Loading:
+//         return Loading();
+//       case AppStatus.Loaded:
+//         return HomePage();
+//       case AppStatus.Error:
+//         return ErrorView(message: app.errorMessage);
+//     }
+//     return Loading();
+//   }
+// }
