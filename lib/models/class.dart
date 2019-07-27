@@ -17,17 +17,20 @@ class CharacterClass {
     @required this.weapon,
     @required this.stats,
     @required this.icon,
-  }) : imagePath =
-            'assets/img/class_${name.replaceAll(' ', '').toLowerCase()}.png';
+    @required this.imagePath,
+  });
 
-  factory CharacterClass.fromJson(Map<String, dynamic> json) {
+  factory CharacterClass.fromJson(Map<String, dynamic> json,
+      {String lang = 'en'}) {
     return CharacterClass(
-      name: json['name'],
-      archetype: json['archetype'],
-      description: json['description'],
+      name: json['name'][lang],
+      archetype: json['archetype'][lang],
+      description: json['description'][lang],
       weapon: json['weapon'],
       stats: json['stats'],
       icon: json['icon'],
+      imagePath:
+          'assets/img/class_${json['name']['en'].replaceAll(' ', '').toLowerCase()}.png',
     );
   }
 }

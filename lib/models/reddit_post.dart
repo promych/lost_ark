@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:intl/intl.dart';
 
+@immutable
 class RedditPost {
   final String id;
   final String title;

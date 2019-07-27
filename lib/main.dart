@@ -12,7 +12,6 @@ import 'package:lost_ark/managers/app_manager.dart';
 
 import 'managers/locale_manager.dart';
 import 'screens/home_page.dart';
-import 'screens/skills_page.dart';
 import 'ui/error.dart';
 import 'ui/loading.dart';
 

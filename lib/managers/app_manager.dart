@@ -36,16 +36,21 @@ class AppManager extends ChangeNotifier {
   Locale get locale => _locale;
   String get errorMessage => _errorMessage;
 
-  Future<void> _loadApp() async {
+  Future<void> _loadApp([bool withNewLocale = false]) async {
     try {
       print('loading');
       _status = AppStatus.Loading;
       notifyListeners();
+
       await Future.delayed(Duration(seconds: 1));
+
       _locale = _locale ?? await _fetchLocale();
       _redditPosts = _redditPosts ?? await _redditClient.fetchNewPosts();
-      _classList = _classList ?? await _classRepo.fetchClassList();
+      _classList = (_classList == null || withNewLocale)
+          ? await _classRepo.fetchClassList(lang: _locale.languageCode)
+          : _classList;
       _skillList = _skillList ?? await _skillRepo.fetchSkills();
+
       print('loaded');
       _status = AppStatus.Loaded;
       notifyListeners();
@@ -68,11 +73,12 @@ class AppManager extends ChangeNotifier {
   }
 
   changeLocale(Locale newLocale) async {
+    if (_locale == newLocale) return;
     await SharedPreferences.getInstance()
       ..setString('languageCode', newLocale.languageCode)
       ..setString('countryCode', newLocale.countryCode);
     _locale = newLocale;
-    _loadApp();
+    _loadApp(true);
     notifyListeners();
   }
 
