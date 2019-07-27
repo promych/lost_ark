@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 import 'package:lost_ark/helpers/theme.dart';
+import 'package:lost_ark/managers/app_manager.dart';
 import 'package:lost_ark/managers/locale_manager.dart';
 import 'package:provider/provider.dart';
 
@@ -29,13 +30,13 @@ class HomePage extends StatelessWidget {
                     CupertinoButton(
                       child: Text('change to RU'),
                       onPressed: () =>
-                          Provider.of<LocaleManager>(context, listen: false)
+                          Provider.of<AppManager>(context, listen: false)
                               .changeLocale(Locale('ru', 'RU')),
                     ),
                     CupertinoButton(
                       child: Text('change to EN'),
                       onPressed: () =>
-                          Provider.of<LocaleManager>(context, listen: false)
+                          Provider.of<AppManager>(context, listen: false)
                               .changeLocale(Locale('en', 'US')),
                     ),
                     Text(

@@ -35,18 +35,14 @@ class App extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(
-          builder: (_) => LocaleManager(Locale('en', 'US')),
+          builder: (_) => AppManager(),
         ),
-        ChangeNotifierProxyProvider<LocaleManager, AppManager>(
-            builder: (context, loc, _) =>
-                AppManager.instance(lang: loc.locale.countryCode)),
         ChangeNotifierProvider(
           builder: (_) => BuildManager(),
         ),
       ],
-      child: Consumer2<LocaleManager, AppManager>(
-        builder:
-            (BuildContext context, LocaleManager lang, AppManager app, child) {
+      child: Consumer<AppManager>(
+        builder: (context, AppManager app, _) {
           return CupertinoApp(
             debugShowCheckedModeBanner: false,
             theme: appTheme,
@@ -55,26 +51,13 @@ class App extends StatelessWidget {
               const Locale('ru', 'RU'),
             ],
             localizationsDelegates: [
-              AppLocalizationsDelegate(
-                locale:
-                    // Provider.of<LocaleManager>(context, listen: false).locale ??
-                    lang.locale ?? Locale('en', 'US'),
-              ),
+              AppLocalizationsDelegate(),
               GlobalMaterialLocalizations.delegate,
               GlobalWidgetsLocalizations.delegate,
               GlobalCupertinoLocalizations.delegate,
             ],
-            // localeResolutionCallback: (locale, supportedLocales) {
-            // return supportedLocales.singleWhere(
-            //     (item) =>
-            //         item.languageCode == locale.languageCode &&
-            //         item.countryCode == locale.countryCode,
-            //     orElse: () => supportedLocales.first);
-            // },
-            // locale: Provider.of<LocaleManager>(context, listen: false).locale,
-            locale: lang.locale,
+            locale: app.locale,
             routes: {
-              // HomePage.routeName: (_) => HomePage(),
               ClassSelectorPage.routeName: (_) => ClassSelectorPage(),
               ClassListPage.routeName: (_) => ClassListPage(),
               ClassPage.routeName: (_) => ClassPage(),
@@ -100,21 +83,3 @@ class App extends StatelessWidget {
     return Loading();
   }
 }
-
-// class Landing extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     final app = Provider.of<AppManager>(context);
-//     print('change state from ${app.status}');
-//     switch (app.status) {
-//       case AppStatus.Uninitialized:
-//       case AppStatus.Loading:
-//         return Loading();
-//       case AppStatus.Loaded:
-//         return HomePage();
-//       case AppStatus.Error:
-//         return ErrorView(message: app.errorMessage);
-//     }
-//     return Loading();
-//   }
-// }

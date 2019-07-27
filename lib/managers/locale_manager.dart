@@ -4,16 +4,10 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 
-class LocaleManager extends ChangeNotifier {
+class LocaleManager {
   Locale locale;
 
   LocaleManager(this.locale);
-
-  changeLocale(Locale newLocale) {
-    locale = newLocale;
-    notifyListeners();
-    print(locale);
-  }
 
   static LocaleManager of(BuildContext context) =>
       Localizations.of<LocaleManager>(context, LocaleManager);
@@ -78,9 +72,7 @@ class LocaleManager extends ChangeNotifier {
 }
 
 class AppLocalizationsDelegate extends LocalizationsDelegate<LocaleManager> {
-  final Locale locale;
-
-  AppLocalizationsDelegate({@required this.locale});
+  const AppLocalizationsDelegate();
 
   @override
   bool isSupported(Locale locale) =>
