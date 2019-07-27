@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lost_ark/models/reddit_post.dart';
-import 'package:lost_ark/screens/reddit_webview.dart';
+import 'reddit_webview.dart';
 
 class RedditPostTile extends StatelessWidget {
   final RedditPost post;

@@ -43,8 +43,7 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(
         backTitle: 'Home',
-        title: LocaleManager.of(context).translate('classes'), //'Classes',
-        // title: Provider.of<AppLocalizations>(context).translate('classes'),
+        title: LocaleManager.of(context).translate('classes'),
         trailing: GestureDetector(
           child: Icon(Icons.list),
           onTap: () =>

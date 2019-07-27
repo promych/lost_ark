@@ -8,14 +8,11 @@ import 'package:lost_ark/managers/build_manager.dart';
 
 import 'package:provider/provider.dart';
 
-import 'package:lost_ark/screens/skills_page.dart';
 import 'package:lost_ark/managers/app_manager.dart';
-import 'package:lost_ark/screens/class_view_page.dart';
-import 'package:lost_ark/screens/class_selector_page.dart';
 
 import 'managers/locale_manager.dart';
-import 'screens/class_list_page.dart';
 import 'screens/home_page.dart';
+import 'screens/skills_page.dart';
 import 'ui/error.dart';
 import 'ui/loading.dart';
 
@@ -57,12 +54,12 @@ class App extends StatelessWidget {
               GlobalCupertinoLocalizations.delegate,
             ],
             locale: app.locale,
-            routes: {
-              ClassSelectorPage.routeName: (_) => ClassSelectorPage(),
-              ClassListPage.routeName: (_) => ClassListPage(),
-              ClassPage.routeName: (_) => ClassPage(),
-              SkillsPage.routeName: (_) => SkillsPage(),
-            },
+            // routes: {
+            // ClassSelectorPage.routeName: (_) => ClassSelectorPage(),
+            // ClassListPage.routeName: (_) => ClassListPage(),
+            // ClassPage.routeName: (_) => ClassPage(),
+            //   SkillsPage.routeName: (_) => SkillsPage(),
+            // },
             home: _landing(app),
           );
         },
