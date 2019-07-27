@@ -3,6 +3,7 @@ import 'dart:math' as math;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lost_ark/managers/app_manager.dart';
+import 'package:lost_ark/managers/locale_manager.dart';
 import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
@@ -19,7 +20,7 @@ class ClassListPage extends StatelessWidget {
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(
         backTitle: 'Home',
-        title: 'Classes', //AppLocalizations.of(context).translate('classes'),
+        title: LocaleManager.of(context).translate('classes'),
         trailing: GestureDetector(
           child: Icon(Icons.view_carousel),
           onTap: () =>

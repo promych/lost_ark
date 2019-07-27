@@ -1,9 +1,8 @@
 import '../models/skill.dart';
 
 class SkillRepo {
-  Future<List<Skill>> fetchSkills() async {
-    // await Future.delayed(Duration(seconds: 1));
-    return _skillsData.map((json) => Skill.fromJson(json)).toList();
+  Future<List<Skill>> fetchSkills({String lang = 'en'}) async {
+    return _skillsData.map((json) => Skill.fromJson(json, lang: lang)).toList();
   }
 }
 
@@ -12,7 +11,10 @@ class SkillRepo {
 const List<Map<String, dynamic>> _skillsData = [
   {
     'name': 'Sharp Spear',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description': 'You stab enemies in front of you with your spear',
     'type': 'Normal',
     'cooldown': 1,
@@ -79,7 +81,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Rising Spear',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'You pierce the ground in front of you with your spear to inflict damage, then remove it, inflicting damage on a line in front of you and knocking down enemies.',
     'type': 'Normal',
@@ -150,7 +155,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Fire Bullet',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'You shoot with your spear to deal damage to nearby enemies and repel them.',
     'type': 'Normal',
@@ -219,7 +227,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Shield Slam',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'You jump to inflict a large blow on your shield that deals damage to enemies, then you can make a second shield hit by pressing the shortcut again.',
     'type': 'Combo',
@@ -291,7 +302,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Bash',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'Strikes an enemy with your shield and stuns it for 3 seconds.',
     'type': 'Normal',
@@ -362,7 +376,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Dash Upper Fire',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'Rushes to a foe and lifts the target, dealing damage, then follows with a combo attack, firing a cannon that deals [] damage. Inflicts an additional [] damage to targets in the air.',
     'type': 'Combo',
@@ -430,7 +447,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Leap Attack',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'Leap high in the air towards a target location, and inflict [ ] damage to nearby foes upon landing.',
     'type': 'Point',
@@ -501,7 +521,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Guardian\'s Lighting',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'Slams your shield down and deals [] damage to nearby enemies. Decreases enemies movement and attack speed by 20% for 4 seconds.',
     'type': 'Normal',
@@ -571,7 +594,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Chain Hook',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'Throws a chain hook to your target and deals [] damage, then pulls your target towards you and deals [] damage.',
     'type': 'Notmal',
@@ -638,7 +664,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Shield Charge',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'The caster raises their shield and charges forward. Each hit causes [ ] damage to foes and knocks them back. Causes stiffness instead of hard cc.',
     'type': 'Hold 2 sec',
@@ -708,7 +737,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Charge Stinger',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'You charge your electric energy lance before you quickly shoot forward to hit the enemies. You can change direction slowly while loading the skill. It can also be charged 3 times to inflict more and more damage.',
     'type': 'Charge',
@@ -780,7 +812,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Shout of Hate',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'Inflicts [ ] damage to a maximum of 12 enemies within 8m. This also taunts monsters for 2 seconds.',
     'type': 'Normal',
@@ -850,7 +885,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Turbulent Shield',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'Stab the spear that deals [ ] damage, charges fire power on the spear, and pulling the enemy []. Once the caster reaches max charge level, the caster shoots [ ] the enemy and knock the enemy back.',
     'type': 'Normal',
@@ -920,7 +958,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Counter Spear',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'Raise your shield to defend yourself from any harmful attack in front of you for 2 seconds. Absorbs damage by an amount equal to your maximum health. Successfully defending for 1 second grants a counter attack on the enemy which deals [] damage and knocks them back',
     'type': 'Normal',
@@ -993,7 +1034,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Strength of Nellasia',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'Reduces all damage done by you and your party members by 10 to 25% for 6 seconds.',
     'type': 'Normal',
@@ -1062,7 +1106,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Spear Shot',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'After a forward thrust, you load its end of energy that attracts enemies before exploding to inflict damage and repel them.',
     'type': 'Normal',
@@ -1132,7 +1179,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Burst Cannon',
-    'class': 'Warlord',
+    'class': {
+      'en': 'Warlord',
+      'ru': 'Полководец',
+    },
     'description':
         'Fires your cannon in front of you. When the burst gauge is fully charged, it deals [] damage your target and knocks them down. When not fully charged, it deals [] damage and pushes the target back.',
     'type': 'Normal',
@@ -1205,7 +1255,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Double Slash',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description':
         'Use X to swing the sword and cause 82, 82, and 82 to the enemy',
     'type': 'Normal',
@@ -1276,7 +1329,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Assault Blade',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description':
         'Deals damage with a sword. Damage bonus for an attack in the back',
     'type': 'Normal',
@@ -1345,7 +1401,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Hazardous Crime',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description':
         'Deals damage with his sword, inflicting additional damage to enemies in the air and crushing them to the ground',
     'type': 'Normal',
@@ -1416,7 +1475,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Finishing Strike',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description': 'Deals huge damage with his sword.',
     'type': 'Normal',
     'cooldown': 18,
@@ -1485,7 +1547,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Shoulder Charge',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description': 'Charge forward, inflicting damage to enemies on the way.',
     'type': 'Normal',
     'cooldown': 14,
@@ -1557,7 +1622,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Whirlwind',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description': 'Spin with your sword to deals damage over 4 seconds.',
     'type': 'Hold 4 sec',
     'cooldown': 24,
@@ -1629,7 +1697,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Power Break',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description':
         'Concentrate energy into the sword to deal damage and knockback enemies.',
     'type': 'Normal',
@@ -1697,7 +1768,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Tempest Slash',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description':
         'Charge forward and swing your sword to deal damage and lift your enemies into the air, and deal additional 3 hit.',
     'type': 'Combo',
@@ -1765,7 +1839,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Mountain Crash',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description':
         'Powerful stomp, and decrease enemy movement speed by 60% for 2s.',
     'type': 'Normal',
@@ -1834,7 +1911,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Diving Slash',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description': 'Jump and crush the enemies with his sword.',
     'type': 'Point',
     'cooldown': 16,
@@ -1902,7 +1982,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Hell Blade',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description':
         'Slot your sword into the ground, enabling you to hold for up to 2s. In addition. By successfully perfect zone, deal additional damage and lift enemies into the air.',
     'type': 'Hold 2.5 sec',
@@ -1974,7 +2057,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Chain Sword',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description':
         'Deal a diagonal sword strike that sends the enemies in the air.',
     'type': 'Normal',
@@ -2043,7 +2129,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Wind Blade',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description': 'Swing your sword around while moving to deal damage.',
     'type': 'Normal',
     'cooldown': 20,
@@ -2110,7 +2199,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Maelstorm',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description':
         'SStrongly strike downwards with your sword to deal damage, and pull the sword out of the ground to damage and pull the enemy towards you.',
     'type': 'Combo',
@@ -2179,7 +2271,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Strike Wave',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description':
         'Attack can be charged on 2 levels that crack the ground over a long distance, inflicting damage to the affected enemies.',
     'type': 'Hold',
@@ -2250,7 +2345,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Red Dust',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description': 'Increases damage taken by you for 6 seconds by 12 to 30%.',
     'type': 'Normal',
     'cooldown': 30,
@@ -2318,7 +2416,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Blade Storm',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description':
         'Jump and create a black storm while falling. Throw the enemies in the air.',
     'type': 'Normal',
@@ -2388,7 +2489,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Aurora Blade',
-    'class': 'Berserker',
+    'class': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
     'description':
         'Slash into the air, causing a wave of energy which does a ranged attack.',
     'type': 'Normal',
@@ -2456,7 +2560,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Heavy Crush',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'Infuses your hammer with gravity energy and then slams it down in front of you',
     'type': 'Normal',
@@ -2527,7 +2634,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Gravity Impact',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'You hit down to inflict damage, and you create a gravity zone. The area deals 8 times damage to the enemies present and draws them to its center. Then the area explodes to inflict damage again, luring enemies to you.',
     'type': 'Normal',
@@ -2600,7 +2710,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Dreadnought',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'Concentrates gravity energy within your hammer, then smashes it to the ground. The impact creates a shockwave launches you into the air, dealing damage to foes upon landing.',
     'type': 'Normal',
@@ -2672,7 +2785,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Power Shoulder',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'Charge 5m forward, dealing dealing damage to foes. An additional combo attack deals damage with an upward strike.',
     'type': 'Combo',
@@ -2744,7 +2860,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Gravity Force',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'Swings the hammer in front of you, dealing damage. The hammer creates a gravity energy beam in front you. Enemies are pulled towards you.',
     'type': 'Chain',
@@ -2815,7 +2934,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Running Crash',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'While holding down the hotkey, you tackle enemies in front of you, and damage up to 7 times. Upon releasing the key or the gauge reaching its maximum, release an explosion that deals damage to foes.',
     'type': 'Hold',
@@ -2887,7 +3009,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Jumping Smash',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'Leap high in the air towards a target location up to 10 m away and inflict damage to nearby foes upon landing.',
     'type': 'Point',
@@ -2959,7 +3084,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Power Strike',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description': 'Raises your hammer and deal three brutal strikes.',
     'type': 'Normal',
     'cooldown': 14,
@@ -3030,7 +3158,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Neutralizer',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'Saturates the hammer with gravity energy for a massive strike. It inflicts [ ] damage, and creates an unpredictable shock wave within 4m of the target location. You can use the skill two more times. The second hit inflicts [ ] damage, and the third hit inflicts [ ] damage.',
     'type': 'Combo',
@@ -3102,7 +3233,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Endure Pain',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'When using a skill, you will have 15 to 40% reduction in damage that you are immune to for more than 5 seconds.',
     'type': 'Normal',
@@ -3173,7 +3307,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Earth Eater',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'Slams the ground behind you. Then swings the hammer to the front up to three times. The first swing inflicts [ ] damage, the second [ ], and the third [ ]. After the third swing, you strike the ground.',
     'type': 'Normal',
@@ -3244,7 +3381,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Full Swing',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'Swings the hammer 3 times like whirlwind. The first and second swings inflict [] damage. The last swing inflicts [ ] damage. This skill can be charged. The fully charged attack inflicts [ ] damage in total swings.',
     'type': 'Normal',
@@ -3315,7 +3455,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Earth Smasher',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'Smashes the hammer to the ground,inflicting [ ] damage. It creates a rock on the landing location. You destroy the rock and particles from the rock scatter in a fan-shaped angle, dealing [ ] damage. Successful hits by the particles stun enemies for 3 seconds.',
     'type': 'Normal',
@@ -3388,7 +3531,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'One Man Army',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'Swing the hammer left and right. Each hit inflicts [ ] damage. Continual swings increase over the time and the last hit deals [ ] damage.',
     'type': 'Hold',
@@ -3459,7 +3605,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Perfect Swing',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'Moves forward and tackles an enemy for [ ] damage, then hefts the hammer with two hands and smashes them for [ ]. You can charge the skill for 2 seconds. When fully charged, the skill moves 2m farther and the hammer strike deals [ ] damage.',
     'type': 'Charge',
@@ -3530,7 +3679,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Gravity Compression',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'Thrusts the hilt of the hammer into the ground, creating a black hole that deals [ ] damage. You can infuse gravity energy into the black hole for 2 seconds, which then spreads in all directions, dealing [ ] damage. Releasing the hotkey explodes the black hole for [ ]. A completed infusion creates a larger black hole that deals [ ] damage.',
     'type': 'Hold',
@@ -3601,7 +3753,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Seismic Hammer',
-    'class': 'Destroyer',
+    'class': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
     'description':
         'Hold the hammer upside down, then leap in the air and smashing the ground for [ ]. After the impact, the skill creates a 5m cone-shaped wall which deals [ ] damage.',
     'type': 'Normal',
@@ -3674,7 +3829,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Heaven Cleaving Kick',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'Strike forward. When pressed again, that deals additional damage and throws enemies into the air. You can change direction for the second attack.',
     'type': 'Combo',
@@ -3744,7 +3902,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Thunder Kick',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'Inflicts damage in two attacks on the enemy. The first attack causes it to fall, then the second attack hits it on the ground and inflicts additional damage to the targets in the air.',
     'type': 'Normal',
@@ -3817,7 +3978,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Triple Punch',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description': 'Makes 3 violent strikes, the 3rd deals more damage.',
     'type': 'Normal',
     'cooldown': 6,
@@ -3888,7 +4052,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Pummel',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'Attack with a volley of 9 rounds that deal damage to enemies, the last move is more powerful.',
     'type': 'Normal',
@@ -3959,7 +4126,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Crescent Kick',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'You charge to the enemies by kicking. Then you launch a series of kicks that hit enemies 4 times.',
     'type': 'Combo',
@@ -4031,7 +4201,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Ground Pound',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'You jump to create an earthquake that deals damage to enemies every second for 5 seconds.',
     'type': 'Normal',
@@ -4103,7 +4276,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Dragon Spiral Kick',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'Charge to an enemy and attack You charge to enemies by attacking them on your way, dealing damage 5 times. Each shot throws enemies into the air and you can change direction between each.by dealing damage up to 5 times. If the enemy is hit in the air extra damage is applied.',
     'type': 'Combo',
@@ -4172,7 +4348,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Whisper of the Wind',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'Within the range of yourself and 24m, the party’s powers of wind increase the movement speed and attack speed by 11 to 16% and 5.5 to 8% for 6 sec.',
     'type': 'Normal',
@@ -4243,7 +4422,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Electric Wind Kick',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'You jump on 16 meters to give an aerial kick. Enemies are struck up to 11 times and are severely repulsed. The movement of the skill is directed by the player\'s cursor.',
     'type': 'Normal',
@@ -4313,7 +4495,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Phoenix Dive',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'You jump very high in the air, before falling heavily on the ground at a maximum distance of 5 meters. You deal damage as you approach the ground and then do more damage at the end of your fall.',
     'type': 'Point',
@@ -4385,7 +4570,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Roar of Valor',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'Shoots a momentary spell to inflict damage and expels nearby enemies. Reduces critical strike resistance by 20% for 6s.',
     'type': 'Normal',
@@ -4456,7 +4644,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Room Fire',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'You kick that deals damage and sends enemies through the air. The player jumps quickly and then hitting twice more, inflicting additional damage on projected enemies. The direction can be changed between strikes.',
     'type': 'Combo',
@@ -4529,7 +4720,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Internal Combustion',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'The wind is around the player and instantly deals damage to nearby enemies. The wind holds for 20 seconds and deals damage to nearby enemies every 0.5 seconds while repelling them.',
     'type': 'Normal',
@@ -4602,7 +4796,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Art: Spiral Blast',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'Cost 1 globe of identity. Performs a powerful, smashing attack that deals damage to enemies.',
     'type': 'Normal',
@@ -4672,7 +4869,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Art: Dragon Ascend',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'Cost 2 globe of identity. Summons a circle of flames that deals damage by gathering enemies and then releases spiraling Dragon\'s energy upwards to hit enemies 5 times.',
     'type': 'Normal',
@@ -4741,7 +4941,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Art: Launching Punch',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'Cost 1 globe of identity. Unleashes an aura of electricity that deals 3 damage to enemies. Enemies become stunned for 2s, and receive 20% more [Cold] damage while stunning.',
     'type': 'Normal',
@@ -4810,7 +5013,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Art: Tornado',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'Cost 2 globe of identity. The player rises in the air and turns quickly to create a tornado. Each enemy caught in the whirlwind suffers damage with each hit. The skill can be held for 4 seconds while continuing to attract enemies. The movement of the skill is directed by the player\'s cursor.',
     'type': 'Hold 4 sec',
@@ -4883,7 +5089,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Art: Exploding Quake',
-    'class': 'Battle Master',
+    'class': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
     'description':
         'Cost 2 globe of identity. Make a powerful punch that causes 3 ground explosions in its wake. Explosions advance forward and repel enemies on their way, causing damage',
     'type': 'Normal',
@@ -4955,7 +5164,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Advancing Strike',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Charge foward, deal 31 damage (max 3 times) on contact while charging, then land a ground slam for 40 damage.',
     'type': 'Normal',
@@ -5026,7 +5238,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Sundering Strike',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description': 'Punch 3 times, each dealing 52/52/70 damage.',
     'type': 'Combo',
     'cooldown': 8,
@@ -5095,7 +5310,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Wild Tiger Strike',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Attack two times rapidly dealing 34, 68 damage and knock up on the last hit.',
     'type': 'Normal',
@@ -5164,7 +5382,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Dragon\'s Descent',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Cost 30 Ki, Regen 20 Shock. Jump to mouse location, dealing 300 damage and knock enemies over.',
     'type': 'Point',
@@ -5232,7 +5453,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Instant Strike',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Cost 30 Ki, Regen 15 Shock. Instantly strike for 137 damage and stun target for 3 sec.',
     'type': 'Normal',
@@ -5300,7 +5524,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Earth Tremor',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Cost 30 Ki, Regen 20 Shock. Shake the ground with your feet, dealing 256 damage to the nearby enemies and knock over',
     'type': 'Normal',
@@ -5371,7 +5598,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Fury Strike',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Cost 15 Ki, Regen 20 Shock. Hold a button to deal 24 damage witch each hit and then move forward for 2 m with a kick to deal 142 damage.',
     'type': 'Hold 1 sec',
@@ -5443,7 +5673,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Push Through',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Cost 25 Ki, Regen 20 Shock. Makes stream of punches in a cursor direction, each hit do 65 damage, applies buff with each successfull hit on 1s which decreases incoming damage for 5%, stacks up to 10 stacks, direction can be changed while holding the skill.',
     'type': 'Hold 1 sec',
@@ -5515,7 +5748,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Triplex Punch',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Cost 25 Ki, Regen 30 Shock. Perform 3 attacks dealing 73, 88, 132 damage and character is moved forward before the last hit.',
     'type': 'Combo',
@@ -5586,7 +5822,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Chains Of Resonsnce',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Cost 20 Ki, Regen 10 Shock. Fire a shock wave to the front causing 94 damage and pull enemies dealing 120 damage.',
     'type': 'Normal',
@@ -5655,7 +5894,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Judgement',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Jump into the air and hit down, causing 148 damage and 29 more damage to fallen enemies.',
     'type': 'Combo',
@@ -5726,7 +5968,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Swallow',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Release the shock wave in the cursor direction to cause 225 damage.',
     'type': 'Normal',
@@ -5797,7 +6042,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Death Sentence',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Release all Shock energy dealing 442 damages and blow away enemies, damage depends on the reduction of Shock energy, at 0 - 25% energy damage increases by 15%, at 26 - 50 % energy damage increases by 30 %, at 51 - 75% energy damage increases by 45 % and at 76 - 100% energy damage increases by 60%.',
     'type': 'Normal',
@@ -5866,7 +6114,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Decisive Attack',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Gather the flags in the gontlette, and damage 113 by a powerful energy strike. It can be charged for continuous input of skill buttons. If it is overfilled, it can cause 168 damages and 393 damages due to secondary wave attacks.',
     'type': 'Charge',
@@ -5935,7 +6186,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Reincarnation',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'It hits the ground strongly, causing earthquakes to inflict and blow a wide range of damage on enemies for a total of four times, 108, 146, 182, 290.',
     'type': 'Normal',
@@ -6007,7 +6261,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'True Art: Rising Dragon',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Launch yourself into the air with first attack, causing 53 damage and proceed with downward strike in the cursor position dealing 210 damage on landing, first hit also launches enemies into the air.',
     'type': 'Combo',
@@ -6080,7 +6337,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Crush',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Staring forward, she instantly slips 3 meters in front of her arms for one second, causes 150 damages, and then throws a punch to 350 damages. Damage depends on the reduction of impact energy. Impact energy increases 15% to 25%, increases 30% to 26% to 50%, increases 45% to 51% to 75%, and increases to 76% to 100%, increases damage to 60%.',
     'type': 'Normal',
@@ -6151,7 +6411,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Supernova Explosion',
-    'class': 'Infighter',
+    'class': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
     'description':
         'Create a ball of energy dealing 66 damage, pull enemies to the ball dealing 66 damage and blow it up with a powerful finishing blow to cause 556 damage.',
     'type': 'Normal',
@@ -6220,7 +6483,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Force Bullet',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description': 'Fires three condensed energy blasts in succession.',
     'type': 'Normal',
     'cooldown': 8,
@@ -6292,7 +6558,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Destruction Force',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'Rushes 4m in front you and damages the enemy. Summons a destructive force to the caster’s hand, then detonates it, dealing damage to the enemy twice. Performs a final blow which deals damage. The final blow deals 100% increased damage to the enemies in the air.',
     'type': 'Normal',
@@ -6361,7 +6630,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Poison Strike',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'Strikes the enemy three times and pulls the enemy toward you. The inflicted enemy has a 30% chance to expose to poison for 3 seconds.',
     'type': 'Normal',
@@ -6433,7 +6705,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Spin Kick',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'Step forward then performs a low kick that knocks the target down deals (82) damage. Then, tackle them, knocking them backwards inflict (124) damage.',
     'type': 'Normal',
@@ -6506,7 +6781,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Implosion',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'Jump 3m forward and strike the enemy three times. Infuse the ground with energy, pulling the target toward the caster. Afterwards, launch the enemy into the air. The caster can hold the skill during the infusion for 1 second.',
     'type': 'Hold',
@@ -6577,7 +6855,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Energy Strike',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'Fires eight successive energy attacks from your fingertip while backstepping 2m. The skill deals 30% more to airborne enemies.',
     'type': 'Normal',
@@ -6645,7 +6926,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Thunderbolt Strike',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'Stretches forth both hands and unleashes a blast of energy, dealing [ ] damage. The skill knocks airborne enemies backwards.',
     'type': 'Normal',
@@ -6716,7 +7000,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Palm of Ru Lai',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'Summons the Palm of Ru Lai to the target location. Knockdowned enemies and airborne enemies take 30% increased damage.',
     'type': 'Point',
@@ -6786,7 +7073,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Dashing Strike',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'Dashes to the target location and deals (53) damage to the enemy. Airborne enemies are knocked airborne again. The skill can be used two additional times. Each time the caster uses the skill, the skill cooldown increases by 4 seconds, and force cost increases double.',
     'type': 'Chain',
@@ -6858,7 +7148,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Force Strike',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'Lashes forward, sending a burst of energy outward. The caster recoils 3m backwards.',
     'type': 'Normal',
@@ -6928,7 +7221,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Tempest Ray',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'If you fire your fingers toward the front and then release your palm again, a thicker, more powerful weapon will be fired and you will have (340) damage.',
     'type': 'Normal',
@@ -7002,7 +7298,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Lighting Force',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'Slams the ground twice, then slams the ground again. Airborne enemies immediately fall when struck by the first and second hits, dealing 50% increased damage.',
     'type': 'Normal',
@@ -7073,7 +7372,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Force Wave',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'Instantly stretches your palms and launches powerful pore-guns. The pore shot spreads at a slow pace and stuns the enemy with (216) damage.',
     'type': 'Normal',
@@ -7144,7 +7446,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Force Barrier',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'Creates a force barrier around itself and makes the surrounding enemies slow. The force barrier deals damage and reduces enemies’ attack and movement speed by 10% for 0.5 seconds per stack of the debuff. The debuff can stack up to four times. The caster can maintain the barrier for 3 seconds by holding the skill.',
     'type': 'Hold',
@@ -7215,7 +7520,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Spiral Strikes',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'Throws a jab in front of the caster, performs a spiral kick, and then fires a burst of force energy.',
     'type': 'Normal',
@@ -7288,7 +7596,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Inferno Beam',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'Strike with a combination of kicks and punches. Can change direction during skill animation.',
     'type': 'Hold',
@@ -7359,7 +7670,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Force Unleashed',
-    'class': 'Soul Master',
+    'class': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
     'description':
         'You and your party within 24m will lose 12 to 25% damage for 6 seconds.',
     'type': 'Normal',
@@ -7427,219 +7741,11 @@ const List<Map<String, dynamic>> _skillsData = [
     ],
   },
   {
-    'name': 'Degeneration',
-    'class': 'Lance Master',
-    'description': 'Swinging a spear twice',
-    'type': 'Normal',
-    'cooldown': 6,
-    'iconUrl': 'assets/icons/lancemaster/c12s00.png',
-    'tripod': [
-      {
-        'tier': 1,
-        'skills': [
-          {
-            'name': 'Flame Cutting',
-            'description': '[Fire] Inflicts a burn for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
-          },
-          {
-            'name': 'Ice',
-            'description': 'Reduce the target 30% movement speed for 5 second.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
-          },
-          {
-            'name': 'Earth',
-            'description':
-                'Increase 20% more dmg for down enemy or enemy being stuck from the change of environment',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.png',
-          },
-        ]
-      },
-      {
-        'tier': 2,
-        'skills': [
-          {
-            'name': 'Airbound',
-            'description': 'Increase damage and launch the enemy into the air.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
-          },
-          {
-            'name': 'Last Judgment',
-            'description':
-                'Consume 10% of the crescent blade (Identity) to boost 40% dmg, if your gauge less than 10% then it won’t apply.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_91.png',
-          },
-          {
-            'name': 'Specialization',
-            'description':
-                'Increase dmg for single target 30% / +5% for more than 2 / +10% for more than 5 / +20% for more than 10 enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_90.png',
-          },
-        ]
-      },
-      {
-        'tier': 3,
-        'skills': [
-          {
-            'name': 'Space Cutter',
-            'description':
-                'Increase 20% range of the skill + dealing 50% dmg for the last target it hit, the last hit will be 100% critical.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.png',
-          },
-          {
-            'name': 'Trackpot',
-            'description':
-                'Increase 60% dmg but can’t move freely while using the skill, increase 100% effect for Flame / Ice / Earth effect from tripod 1 + Increase the Destructive level by 1 (Medium).',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
-          },
-        ]
-      }
-    ],
-  },
-  {
-    'name': 'Wind Hammer',
-    'class': 'Lance Master',
-    'description':
-        'Swinging the spear in all directions and collects the enemy in front.',
-    'type': 'Normal',
-    'cooldown': 12,
-    'iconUrl': 'assets/icons/lancemaster/c12s01.png',
-    'tripod': [
-      {
-        'tier': 1,
-        'skills': [
-          {
-            'name': 'Mana Control',
-            'description': 'Mana consumption reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
-          },
-          {
-            'name': 'Concussion',
-            'description': 'Increases the Incapacitate effect.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
-          },
-          {
-            'name': 'Bounding',
-            'description': 'Reduces enemy movement speed by 50% for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.png',
-          },
-        ]
-      },
-      {
-        'tier': 2,
-        'skills': [
-          {
-            'name': 'Specialization',
-            'description':
-                'Increase dmg for single target 30% / +5% for more than 2 / +10% for more than 5 / +20% for more than 10 enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_90.png',
-          },
-          {
-            'name': 'Rage',
-            'description': 'Increase damage by 30% for bosses.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
-          },
-          {
-            'name': 'Last Judgment',
-            'description':
-                'Consume 10% of the crescent blade (Identity) to boost 40% dmg, if your gauge less than 10% then it won’t apply.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_91.png',
-          },
-        ]
-      },
-      {
-        'tier': 3,
-        'skills': [
-          {
-            'name': 'Face Me',
-            'description':
-                'Change the skill to 2 time step, dealing 100% damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.png',
-          },
-          {
-            'name': 'Quick Access',
-            'description':
-                'Change the skill to a slam attack, dealing 50% dmg and 100% crit damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
-          },
-        ]
-      }
-    ],
-  },
-  {
-    'name': 'Heat',
-    'class': 'Lance Master',
-    'description':
-        'Moves 4 meters forward, dealing 3 hits and throw opponents in the air.',
-    'type': 'Normal',
-    'cooldown': 10,
-    'iconUrl': 'assets/icons/lancemaster/c12s02.png',
-    'tripod': [
-      {
-        'tier': 1,
-        'skills': [
-          {
-            'name': 'Quick Hand',
-            'description': 'Attack speed increases by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
-          },
-          {
-            'name': 'Quick Hit',
-            'description': 'Increases Critical Hit Rate by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
-          },
-          {
-            'name': 'Specialization',
-            'description':
-                'Increase dmg for single target 30% / +3% for more than 2 / +7% for more than 5 / +15% for more than 10 enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_90.png',
-          },
-        ]
-      },
-      {
-        'tier': 2,
-        'skills': [
-          {
-            'name': 'Flame',
-            'description':
-                'Burn the target for 5 second, can stack up to 5 stack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
-          },
-          {
-            'name': 'Ice',
-            'description':
-                'Reduce the target 10% movement speed for 5 second, when reaching 5 stack, the enemy will be stun for 3 second.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
-          },
-          {
-            'name': 'Enhanced Blow',
-            'description': 'Damage increases by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
-          },
-        ]
-      },
-      {
-        'tier': 3,
-        'skills': [
-          {
-            'name': 'Spin',
-            'description':
-                'Increase the attack up to 2 time, increase the range for 2m but reduce the number of hit down to 3, increase the dmg up to 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
-          },
-          {
-            'name': 'Rotation',
-            'description':
-                'Increases the number of strikes by 7 and increases the damage done by the enemy by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
-          },
-        ]
-      }
-    ],
-  },
-  {
     'name': 'Spiral Tracker',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Launch a gun at the targeted location. It whirls and deals damage to all enemies in the area.',
     'type': 'Point',
@@ -7709,7 +7815,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Execution',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Charge the enemy and launch into the air, and then you retreat to strafe him.',
     'type': 'Combo',
@@ -7779,7 +7888,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Plasma Bullet',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Shoot a slow plasma ball that deals damage to enemies in its path.',
     'type': 'Normal',
@@ -7847,7 +7959,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Summer Salt Shot',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description': 'Take a leap forward and fires a handgun.',
     'type': 'Normal',
     'cooldown': 9,
@@ -7914,7 +8029,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Equalibrium',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description': 'Shoot all around you, inflicting damage to nearby enemies.',
     'type': 'Normal',
     'cooldown': 16,
@@ -7983,7 +8101,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Agile Shooting',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Move while shooting at 360 °, inflicting damage to nearby enemies.',
     'type': 'Combo',
@@ -8050,7 +8171,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Despair',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Attack all around you, then leap into the air leaving behind multiple grenades (By successfully perfect zone).',
     'type': 'Hold 2.5 sec',
@@ -8121,7 +8245,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Quickshot',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Shoot 2 bullets in the direction indicated. You can use this skill 2 times in a row.',
     'type': 'Combo',
@@ -8189,7 +8316,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'AT02 Ruthenium',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Launch a grenade at the targeted location that deals damage in a small area.',
     'type': 'Point',
@@ -8259,7 +8389,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Cruel Tracker',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Shoot a burst of cone-shaped bullets, then a powerful shot in front of you. You deal extra damage if you attack the enemy in the back.',
     'type': 'Normal',
@@ -8327,7 +8460,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Precursor of the End',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description': 'Shoot cone-shaped twice with your rifle.',
     'type': 'Combo',
     'cooldown': 24,
@@ -8394,7 +8530,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Judgement Time',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Shoot cone-shaped projectiles over a long distance that explode on impact, inflicting damage to nearby enemies.',
     'type': 'Normal',
@@ -8464,7 +8603,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Shotgun Speaker',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Shoot cone-shaped three times with your rifle, each shot repelling the enemy.',
     'type': 'Normal',
@@ -8532,7 +8674,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Master of Shotguns',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Fire three quick shots with your rifle, followed by a final shot that deals more damage.',
     'type': 'Hold 1.5 sec',
@@ -8602,7 +8747,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Last Supper',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Shoot a powerful explosive ball that throws enemies into the air.',
     'type': 'Normal',
@@ -8675,7 +8823,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Spiral Flame',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Shoot a powerful fireball over a long distance that throws enemies into the air.',
     'type': 'Normal',
@@ -8748,7 +8899,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Catastrophe',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Launch a grenade at the targeted location and then detonate it, inflicting damage in a large rectangular area and throwing enemies into the air.',
     'type': 'Hold 2.5 sec',
@@ -8818,7 +8972,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Triple Exploit',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Shoot an explosive bullet at the targeted location. You can use this skill 3 times in a row.',
     'type': 'Chain',
@@ -8887,7 +9044,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Aim Shot',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Turn and then shoot 4 balls in the direction of your cursor. The first 3 reduce the speed of movement of the enemy by 80% for 2 sec and the last inflicts significant damage.',
     'type': 'Normal',
@@ -8953,7 +9113,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Perfect Shot',
-    'class': 'Devil Hunter',
+    'class': {
+      'en': 'Devil Hunter',
+      'ru': 'Охотник на демонов',
+    },
     'description':
         'Shoots a large caliber bullet at a very high speed, it inflicts significant damage.',
     'type': 'Hold',
@@ -9024,7 +9187,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Enhanced Bullet',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description': 'Fires the enhanced bullet.',
     'type': 'Normal',
     'cooldown': 5,
@@ -9090,7 +9256,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Aim and Fire',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description':
         'Deals [77] damage to the enemies and lowers movement speed by 60% for 4 seconds.',
     'type': 'Normal',
@@ -9160,7 +9329,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Gutling Gun',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description':
         'Fires the machine gun rapidly to the direction of your mouse cursor for 3 seconds, and deals up to [366] damage.',
     'type': 'Normal',
@@ -9230,7 +9402,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Buckshot',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description':
         'Buckshot spreads in a fan shape, deals [183] damage, pushing the enemy backwards.',
     'type': 'Normal',
@@ -9300,7 +9475,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Howitzer',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description': 'Shoots a shell to the target location and lifts the enemy.',
     'type': 'Point',
     'cooldown': 12,
@@ -9369,7 +9547,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Multiple Rocket Luncher',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description':
         'Shoots a missile to the random direction five times. The skill deals up to [172].',
     'type': 'Normal',
@@ -9441,7 +9622,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Napalm Bomb',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description':
         'Explodes the napalm bomb which deals [240] damage and lifts the enemy to the air. The explosion creates burning field that remains for 5 seconds, and deals [32] damage per second.',
     'type': 'Normal',
@@ -9514,7 +9698,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Flamethrower',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description':
         'Shoot the flamethrower to one direction and the caster can freely move. The flamethrower lasts for 4 seconds and deals up to [683] damage.',
     'type': 'Hold 4 sec',
@@ -9585,7 +9772,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Brandish',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description':
         'Brandish the launcher, deals [184] damage, and stunning the enemy for 2 seconds.',
     'type': 'Normal',
@@ -9652,7 +9842,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Air Strike',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description':
         'Launches rockets to the air and the rockets fall random location near the target area. The rockets deals up to [366] damage and lifts the enemy.',
     'type': 'Point',
@@ -9724,7 +9917,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Jump and Fire',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description':
         'Jumps up in the air and fires the launcher below the caster. It deals [233] damage and knock the enemy back.',
     'type': 'Normal',
@@ -9793,7 +9989,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Summonong Turret',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description': 'Summons an auto turret. The turret deals [108] damage.',
     'type': 'Normal',
     'cooldown': 20,
@@ -9861,7 +10060,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Plasma Storm',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description':
         'Creates the plasma storm that slowly follows the enemy. The storm deals [43] damage per 0.5 seconds.',
     'type': 'Normal',
@@ -9930,7 +10132,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Gravity Explosion',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description':
         'Creates the gravity field that pulls the enemy and explodes it. The explosion knocks the enemy backwards.',
     'type': 'Hold',
@@ -10000,7 +10205,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Blast',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description': 'Blasts the enemy and deals [155] damage.',
     'type': 'Normal',
     'cooldown': 8,
@@ -10068,7 +10276,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Missile Strike',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description':
         'Installs a guiding device to the target location. After 5 seconds, the missile hits the device and deals [576] damage. The missile also lifts the enemy to the air.',
     'type': 'Normal',
@@ -10139,7 +10350,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Energy Field',
-    'class': 'Blaster',
+    'class': {
+      'en': 'Blaster',
+      'ru': 'Механист',
+    },
     'description':
         'Creates a shield that absorbs damage from 15 to 40% of maximum health for 4 seconds.',
     'type': 'Normal',
@@ -10209,7 +10423,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Rapid Shot',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description': 'After aiming, you shoot 3 arrows.',
     'type': 'Normal',
     'cooldown': 5,
@@ -10278,7 +10495,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Atomic Arrow',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'After aiming, you shoot an arrow that deals damage. It explodes 3 seconds later, inflicting further damage and knocking down enemies.',
     'type': 'Normal',
@@ -10350,7 +10570,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Whirlwind Arrow',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'You shoot a swirling arrow that deals damage along the way.',
     'type': 'Normal',
@@ -10422,7 +10645,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Sharp Shooter',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'You\'re bending your bow to shoot 10 arrows at once that deal damage to enemies in the area. Each enemy can only receive 3 arrows maximum.',
     'type': 'Normal',
@@ -10491,7 +10717,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Slash Step',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description': 'Moves forward 8m and inflicts damage.',
     'type': 'Normal',
     'cooldown': 10,
@@ -10562,7 +10791,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Persistent Tracking',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'You jump in the air and kick, inflict damage on the enemies below and knock them over, then jump forward 8 meters away.',
     'type': 'Normal',
@@ -10631,7 +10863,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Claymore',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'You place a mine in front of you that activates to inflict damage in front of it, and pushes enemy.',
     'type': 'Normal',
@@ -10702,7 +10937,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Charged Chot',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'Charges a shot, can be charged up to three times to inflict maximum damage. PVP: Reduced damage done by 8.3%.',
     'type': 'Charge',
@@ -10773,7 +11011,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Quick Fire',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'You hold your bow horizontally and shoot several arrows simultaneously, which inflict damage.',
     'type': 'Normal',
@@ -10844,7 +11085,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'DM-42',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'You place a mine that explodes after 12 seconds, or if an enemy triggers it. Inflicts damage and knocks down enemies.',
     'type': 'Chain',
@@ -10914,7 +11158,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Arrow Shower',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'You shoot several arrows in the air, which fall back to the targeted location. They deal damage for 2 seconds.',
     'type': 'Point',
@@ -10984,7 +11231,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Evasive Shot',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'You jump backwards and shoot in front of you, inflicting damage.',
     'type': 'Normal',
@@ -11053,7 +11303,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Quick Cut',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'You give a quick stab in front of you, inflicting damage and applying the Mark of Death effect. The Death Mark effect can be applied up to 3 times, increasing the damage received by the enemy from 5% to 20% depending on the number of effects.',
     'type': 'Normal',
@@ -11124,7 +11377,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Smoke Arrow',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'You shoot an arrow at the target location that deals damage and creates a smoke zone for 6 seconds, the speed of movement and the vision field of the enemies are reduced in the smoke.',
     'type': 'Point',
@@ -11195,7 +11451,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Shadow Arrow',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'You quickly shoot an arrow that deals damage and applies the Dark Curse effect, reducing the speed of movement and the field of view of the enemy. If the Dark Curse effect is applied 3 times, the enemy is stunned for 5 seconds. Reduced target movespeed up to 50% while using normal attack after the skill animation.',
     'type': 'Normal',
@@ -11264,7 +11523,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Blade Storm',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description': 'Spins rapidly and throw blade, causing damage 9 times.',
     'type': 'Normal',
     'cooldown': 20,
@@ -11335,7 +11597,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Electric Nova',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'After aiming inflict damage to the first enemy hit, to nearby enemies and behind the target. The arrow has a 60% chance to stun the first enemy hit for 3 seconds, 40% for nearby enemies, and 20% for enemies behind the target.',
     'type': 'Normal',
@@ -11406,7 +11671,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Snipe',
-    'class': 'Hawk Eye',
+    'class': {
+      'en': 'Hawk Eye',
+      'ru': 'Рейнджер',
+    },
     'description':
         'When holding, it is aimed, deals heavy damage to the perfect zone, and less damage if it fails. PVP: Reduced damage done by 8.3%.',
     'type': 'Hold 3 sec',
@@ -11476,7 +11744,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Soundstrike',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description':
         'Shoots a projectile that explodes and staggers targets near explosion when collision happens.',
     'type': 'Normal',
@@ -11545,7 +11816,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Dissonance',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description':
         'AoE void zone that ticks 7 times once per second, each ticks slows enemies for 2 seconds for 60%.',
     'type': 'Point',
@@ -11614,7 +11888,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Soundwave',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description':
         'Shoots soundwave that pushes enemies backwards as it flies. Doesn’t affect elites/bosses.',
     'type': 'Normal',
@@ -11682,7 +11959,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Holy Sound',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description': 'Ray of light channeled while you are standing still.',
     'type': 'Normal',
     'cooldown': 24,
@@ -11753,7 +12033,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Harp of Rhythm',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description':
         'Puts harp on the ground near you that shoots notes at enemy every 2 seconds within 14m with automatic targeted projectiles for 10 seconds.',
     'type': 'Normal',
@@ -11823,7 +12106,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Bunch of Notes',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description':
         'Ball with no collision flies one direction and slows enemies for 4 s for 40%.',
     'type': 'Normal',
@@ -11896,7 +12182,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Conviction Core',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description':
         'For 10 s you are surrounded with 3 notes exploding when enemy is near you (one by one with cooldown ~ 1 s).',
     'type': 'Normal',
@@ -11966,7 +12255,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Winds of Music',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description': 'AoE winds near you pushes enemies back.',
     'type': 'Normal',
     'cooldown': 18,
@@ -12034,7 +12326,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Stigma',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description':
         'You are casting void zone on the ground that ticks 5 times (once per second) and staggers enemies, every next tick damages 12.5% harder.',
     'type': 'Cast 5 sec',
@@ -12103,7 +12398,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Rhythm Backshot',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description':
         'You are pulling harp strings backwards and knock down enemies in a cone direction.',
     'type': 'Normal',
@@ -12172,7 +12470,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Overtorture of Storm',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description': 'AoE lightning around you stuns enemies for 2 seconds.',
     'type': 'Normal',
     'cooldown': 16,
@@ -12240,7 +12541,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Sound Vibrations',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description':
         'You are slowly casting AoE spell that deals initial damage that knocks down enemies with void zone dealing damage 4 times with stagger effect.',
     'type': 'Point',
@@ -12311,7 +12615,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Prelude to Death',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description':
         'You are standing still while channeling harp play that deals damage 2 times in AoE zone around you and with each tick applies debuff that slows enemies down by 20% and decreases their attack by 30% for 2 seconds. When debuff is over it deals additional damage.',
     'type': 'Normal',
@@ -12380,7 +12687,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Light Note',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description':
         'You are standing still while channeling harp play with AoE zone around mouse cursor. It ticks 3 times every time staggering enemies.',
     'type': 'Point',
@@ -12448,7 +12758,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'March of Notes',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description':
         'You are channeling skill for 5 seconds, every second producing a ball that follows nearest enemy exploding with a touch and applying slow movement debuff for 50% for 2 seconds.',
     'type': 'Hold',
@@ -12516,7 +12829,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Top Performance',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description':
         'Increases attack speed by 4 to 8% and mana regeneration rate by 12 to 40% for 8 sec.',
     'type': 'Normal',
@@ -12584,7 +12900,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Guardian Performance',
-    'class': 'Bard',
+    'class': {
+      'en': 'Bard',
+      'ru': 'Менестрель',
+    },
     'description':
         'Play a harp to reduce damage to yourself and party members within the 24m range by 20 to 30% for 8 seconds.',
     'type': 'Normal',
@@ -12654,7 +12973,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Mana Crystal',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'Throws Mana Crystal to deal (139) damage to collided and (112) to outer cone shape. Damaged target gets slow by 60% for 2s.',
     'type': 'Normal',
@@ -12723,7 +13045,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Instant Explosion',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'Explode condensed mana energy at cursor point to deal (167) damage.',
     'type': 'Point',
@@ -12793,7 +13118,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Accelerating Wind Bird',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'Summon groups of Wind Bird and can move freely while holding. Skill can last up to 3 s and can deal (37) damage at maximum.',
     'type': 'Hold 3 sec',
@@ -12863,7 +13191,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Burning Gallop',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'Relentless fire horse run over to deal (137) damage and airborne enemies.',
     'type': 'Normal',
@@ -12937,7 +13268,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Fauru',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'Throw firebomb at cursor point to deal (111) [Fire] damage and summon fire spirit Fauru. Fauru attacks nearby enemy for 15s and deals (104) [Fire] damage.',
     'type': 'Point',
@@ -13009,7 +13343,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Released Will',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description': 'Release gale to push enemies away and cause (224) damage.',
     'type': 'Normal',
     'cooldown': 16,
@@ -13079,7 +13416,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Maririn',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'Summon coral spirit Maririn. Maririn attacks nearby enemy for 20s and deals (124) damage.',
     'type': 'Normal',
@@ -13149,7 +13489,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Winged Spirit',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'Summon hawk figured wind spirit at cursor point. Can last maximum of 4s to deal (716) damage at maximum.',
     'type': 'Hold 4 sec',
@@ -13218,7 +13561,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Electricity Release',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'Throw condensed electric ball to deal (56) damage and create electric field for 1s that deals (131) damage.',
     'type': 'Normal',
@@ -13289,7 +13635,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Sticky Moss Swamp',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'Summons a sticky moss swamp in the mouse position, giving 25 property damage per second to moss swarms, reducing movement speed by 60% for 2 seconds.',
     'type': 'Point',
@@ -13357,7 +13706,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Elssed',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'Summon 2 Elseed, lily flower spirit. Elseed attacks nearby enemy for 10s and deals (35) damage.',
     'type': 'Normal',
@@ -13427,7 +13779,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Earth Shatter',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'Create strong earthquake at cursor point to deal (380) damage and airborne.',
     'type': 'Point',
@@ -13497,7 +13852,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Spirit of Water',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description': 'Summon water spirit for 2s and deal (374) [Water] damage.',
     'type': 'Normal',
     'cooldown': 20,
@@ -13567,7 +13925,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Electric Storm',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'After channeling mana for 2s, create electric storm for 5s to deal (656) damage.',
     'type': 'Cast 2 sec',
@@ -13637,7 +13998,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Shurudy',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'Summon small light spirit Shurudy. Shurudy travels along with character for 20s to deal (77) damage.',
     'type': 'Normal',
@@ -13707,7 +14071,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Ancient Spear',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'After channeling mana for 2.5 s, summon an ancient spear at the cursor point to deal (1036) damage and knock down targets got direct hit and deal.',
     'type': 'Cast 2.5 sec',
@@ -13778,7 +14145,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Rayne\'s Protection',
-    'class': 'Summoner',
+    'class': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
     'description':
         'Receives Rayne’s favor and creates a shield that absorbs damage from 11 to 20% of life for 5 seconds.',
     'type': 'Normal',
@@ -13848,7 +14218,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Call of Destiny',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'Throws a card in the specified direction, dealing damage. After a short time, inflict additional damage and launches enemy into the air. PVP: Cause stiffness to a target who is not casting skill.',
     'type': 'Normal',
@@ -13917,7 +14290,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Unlimited Shuffle',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'Several cards fly where indicated, inflicting between damage. Launches enemies into the air and then hit the ground, inflicting damage. PVP: Cause stiffness to a target who is casting skill.',
     'type': 'Point',
@@ -13990,7 +14366,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Return',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'Launches cards in the specified area, dealing damage to the target. If the skill is activated again, knockdown the targets and deals additional damage.',
     'type': 'Combo',
@@ -14062,7 +14441,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Mysterious Rush',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'When using it for the first time, you move 4m to your left. Using a second time, you move 8m on your right and finally 4m on your left if it is used a third time. With each move, you send cards to the opponent, dealing damage.',
     'type': 'Combo',
@@ -14131,7 +14513,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Evoke',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'Places a spell in a specified area that explodes, dealing damage, when the skill is used again.',
     'type': 'Chain',
@@ -14200,7 +14585,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Quadra Accelerate',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'Throws 4 straight-line cards, inflicting damage in the specified direction. Movement speed is increased during casting.',
     'type': 'Normal',
@@ -14269,7 +14657,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Scratch Dealers',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'You move 6m in a given direction and inflict damage. If the skill is used again, you knockdown enemy. Can stack 2 times the Floating Cards effect.',
     'type': 'Combo',
@@ -14339,7 +14730,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Spiral Edge',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'Charge on 7m and throw cards around you. The skill can be used 2 times in a row. Each time you use the skill, you inflict the floating cards effect.',
     'type': 'Chain',
@@ -14409,7 +14803,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Flower Dance',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'You move 11m in a given direction while throwing cards around you, dealing damage to enemies. By using the skill a second time, you return to your starting position. The floating cards effect can be applied 4 times.',
     'type': 'Combo',
@@ -14479,7 +14876,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Checkmate',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'Quickly launch a card in the direction of the mouse, inflicting damage.',
     'type': 'Hold',
@@ -14551,7 +14951,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Stream of Edge',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'Open two portals, releasing a deluge of cards: All enemies located between these portals inflict damage.',
     'type': 'Point',
@@ -14623,7 +15026,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Infinity Rain',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'Deals damage by throwing cards at the target location. They increase damage each time the skill is used.',
     'type': 'Combo',
@@ -14694,7 +15100,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Celestial Rain',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Аркан��лог',
+    },
     'description':
         'The card explodes at the target location inflicting damage. Inflicts additional damage to knock-up enemies by bringing them back to the ground. When the stack effect is activated, it gives an additional effect.',
     'type': 'Point',
@@ -14763,7 +15172,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Four Cards',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'Quickly launch 4 cards, dealing вamage in the specified direction. When the deck is triggered, add an additional effect.',
     'type': 'Normal',
@@ -14832,7 +15244,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Serendipity',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'You surround yourself with cards, dealing damage to nearby enemies, and project them in the direction of the mouse.',
     'type': 'Normal',
@@ -14903,7 +15318,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Dark Resurection',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'Throw a card at the indicated location and summon a demon that deals damage for 3s. When the deck effect is triggered, add an effect. PVP: Cause stiffness to a target who is casting skill.',
     'type': 'Point',
@@ -14973,7 +15391,10 @@ const List<Map<String, dynamic>> _skillsData = [
   },
   {
     'name': 'Secret Garden',
-    'class': 'Arcana',
+    'class': {
+      'en': 'Arcana',
+      'ru': 'Арканолог',
+    },
     'description':
         'Instantly deals damage to nearby enemies and deals additional damage to enemies by adding a stack of Floating Card. When the stack effect is on, add an effect.',
     'type': 'Normal',
@@ -15039,6 +15460,217 @@ const List<Map<String, dynamic>> _skillsData = [
       }
     ],
   },
+  // {
+  //   'name': 'Degeneration',
+  //   'class': 'Lance Master',
+  //   'description': 'Swinging a spear twice',
+  //   'type': 'Normal',
+  //   'cooldown': 6,
+  //   'iconUrl': 'assets/icons/lancemaster/c12s00.png',
+  //   'tripod': [
+  //     {
+  //       'tier': 1,
+  //       'skills': [
+  //         {
+  //           'name': 'Flame Cutting',
+  //           'description': '[Fire] Inflicts a burn for 5s.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+  //         },
+  //         {
+  //           'name': 'Ice',
+  //           'description': 'Reduce the target 30% movement speed for 5 second.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+  //         },
+  //         {
+  //           'name': 'Earth',
+  //           'description':
+  //               'Increase 20% more dmg for down enemy or enemy being stuck from the change of environment',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.png',
+  //         },
+  //       ]
+  //     },
+  //     {
+  //       'tier': 2,
+  //       'skills': [
+  //         {
+  //           'name': 'Airbound',
+  //           'description': 'Increase damage and launch the enemy into the air.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+  //         },
+  //         {
+  //           'name': 'Last Judgment',
+  //           'description':
+  //               'Consume 10% of the crescent blade (Identity) to boost 40% dmg, if your gauge less than 10% then it won’t apply.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_91.png',
+  //         },
+  //         {
+  //           'name': 'Specialization',
+  //           'description':
+  //               'Increase dmg for single target 30% / +5% for more than 2 / +10% for more than 5 / +20% for more than 10 enemies.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_90.png',
+  //         },
+  //       ]
+  //     },
+  //     {
+  //       'tier': 3,
+  //       'skills': [
+  //         {
+  //           'name': 'Space Cutter',
+  //           'description':
+  //               'Increase 20% range of the skill + dealing 50% dmg for the last target it hit, the last hit will be 100% critical.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.png',
+  //         },
+  //         {
+  //           'name': 'Trackpot',
+  //           'description':
+  //               'Increase 60% dmg but can’t move freely while using the skill, increase 100% effect for Flame / Ice / Earth effect from tripod 1 + Increase the Destructive level by 1 (Medium).',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+  //         },
+  //       ]
+  //     }
+  //   ],
+  // },
+  // {
+  //   'name': 'Wind Hammer',
+  //   'class': 'Lance Master',
+  //   'description':
+  //       'Swinging the spear in all directions and collects the enemy in front.',
+  //   'type': 'Normal',
+  //   'cooldown': 12,
+  //   'iconUrl': 'assets/icons/lancemaster/c12s01.png',
+  //   'tripod': [
+  //     {
+  //       'tier': 1,
+  //       'skills': [
+  //         {
+  //           'name': 'Mana Control',
+  //           'description': 'Mana consumption reduced by 50%.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+  //         },
+  //         {
+  //           'name': 'Concussion',
+  //           'description': 'Increases the Incapacitate effect.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+  //         },
+  //         {
+  //           'name': 'Bounding',
+  //           'description': 'Reduces enemy movement speed by 50% for 2s.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.png',
+  //         },
+  //       ]
+  //     },
+  //     {
+  //       'tier': 2,
+  //       'skills': [
+  //         {
+  //           'name': 'Specialization',
+  //           'description':
+  //               'Increase dmg for single target 30% / +5% for more than 2 / +10% for more than 5 / +20% for more than 10 enemies.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_90.png',
+  //         },
+  //         {
+  //           'name': 'Rage',
+  //           'description': 'Increase damage by 30% for bosses.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+  //         },
+  //         {
+  //           'name': 'Last Judgment',
+  //           'description':
+  //               'Consume 10% of the crescent blade (Identity) to boost 40% dmg, if your gauge less than 10% then it won’t apply.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_91.png',
+  //         },
+  //       ]
+  //     },
+  //     {
+  //       'tier': 3,
+  //       'skills': [
+  //         {
+  //           'name': 'Face Me',
+  //           'description':
+  //               'Change the skill to 2 time step, dealing 100% damage.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.png',
+  //         },
+  //         {
+  //           'name': 'Quick Access',
+  //           'description':
+  //               'Change the skill to a slam attack, dealing 50% dmg and 100% crit damage.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+  //         },
+  //       ]
+  //     }
+  //   ],
+  // },
+  // {
+  //   'name': 'Heat',
+  //   'class': 'Lance Master',
+  //   'description':
+  //       'Moves 4 meters forward, dealing 3 hits and throw opponents in the air.',
+  //   'type': 'Normal',
+  //   'cooldown': 10,
+  //   'iconUrl': 'assets/icons/lancemaster/c12s02.png',
+  //   'tripod': [
+  //     {
+  //       'tier': 1,
+  //       'skills': [
+  //         {
+  //           'name': 'Quick Hand',
+  //           'description': 'Attack speed increases by 15%.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+  //         },
+  //         {
+  //           'name': 'Quick Hit',
+  //           'description': 'Increases Critical Hit Rate by 15%.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+  //         },
+  //         {
+  //           'name': 'Specialization',
+  //           'description':
+  //               'Increase dmg for single target 30% / +3% for more than 2 / +7% for more than 5 / +15% for more than 10 enemies.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_90.png',
+  //         },
+  //       ]
+  //     },
+  //     {
+  //       'tier': 2,
+  //       'skills': [
+  //         {
+  //           'name': 'Flame',
+  //           'description':
+  //               'Burn the target for 5 second, can stack up to 5 stack.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+  //         },
+  //         {
+  //           'name': 'Ice',
+  //           'description':
+  //               'Reduce the target 10% movement speed for 5 second, when reaching 5 stack, the enemy will be stun for 3 second.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+  //         },
+  //         {
+  //           'name': 'Enhanced Blow',
+  //           'description': 'Damage increases by 25%.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+  //         },
+  //       ]
+  //     },
+  //     {
+  //       'tier': 3,
+  //       'skills': [
+  //         {
+  //           'name': 'Spin',
+  //           'description':
+  //               'Increase the attack up to 2 time, increase the range for 2m but reduce the number of hit down to 3, increase the dmg up to 50%.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+  //         },
+  //         {
+  //           'name': 'Rotation',
+  //           'description':
+  //               'Increases the number of strikes by 7 and increases the damage done by the enemy by 80%.',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+  //         },
+  //       ]
+  //     }
+  //   ],
+  // },
 ];
 
 // {

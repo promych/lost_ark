@@ -27,12 +27,14 @@ class ClassTile extends StatelessWidget {
             ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                Text(
-                  name,
-                  style: TextStyle(
-                      color: CupertinoTheme.of(context).primaryColor,
-                      fontSize: 30.0),
+              children: [
+                Expanded(
+                  child: Text(
+                    name,
+                    style: TextStyle(
+                        color: CupertinoTheme.of(context).primaryColor,
+                        fontSize: 30.0),
+                  ),
                 ),
                 Icon(icon, size: 40.0),
               ],

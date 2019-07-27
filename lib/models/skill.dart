@@ -24,7 +24,7 @@ class Skill {
     @required this.tripod,
   });
 
-  factory Skill.fromJson(Map<String, dynamic> json) {
+  factory Skill.fromJson(Map<String, dynamic> json, {String lang = 'en'}) {
     final icon = json['iconUrl'].toString();
     final id =
         icon.substring(icon.lastIndexOf('/') + 1, icon.lastIndexOf('.png'));
@@ -32,7 +32,7 @@ class Skill {
     return Skill(
       id: id,
       name: json['name'],
-      className: json['class'],
+      className: json['class'][lang],
       description: json['description'],
       type: json['type'],
       cooldown: json['cooldown'],

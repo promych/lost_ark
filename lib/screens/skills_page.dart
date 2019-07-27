@@ -4,6 +4,7 @@ import 'package:lost_ark/ui/cupertino_navbar.dart';
 
 import 'package:provider/provider.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
+import '../managers/locale_manager.dart';
 
 import '../managers/app_manager.dart';
 import '../ui/skill_tile.dart';
@@ -19,11 +20,11 @@ class SkillsPage extends StatelessWidget {
 
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(
-        backTitle: 'Classes',
+        backTitle: LocaleManager.of(context).translate('classes'),
         title: className,
         trailing: GestureDetector(
           child: Text(
-            'Save',
+            LocaleManager.of(context).translate('save'),
             style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
           ),
           onTap: () {},

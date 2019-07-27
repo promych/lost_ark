@@ -4,7 +4,7 @@ import '../helpers/lost_ark_icons.dart';
 class ClassRepo {
   Future<List<CharacterClass>> fetchClassList({String lang = 'en'}) async {
     return _classData
-        .map((item) => CharacterClass.fromJson(item, lang: lang))
+        .map((json) => CharacterClass.fromJson(json, lang: lang))
         .toList();
   }
 }
@@ -67,8 +67,8 @@ const List<Map<String, dynamic>> _classData = [
     },
     'archetype': {
       'en': 'Magician',
+      'ru': 'Маг',
     },
-    'ru': 'Маг',
     'description': {
       'en':
           'The Summoner can command beasts by interacting with spirits. The power of the Ancient Spirits are especially immense.',
@@ -270,7 +270,7 @@ const List<Map<String, dynamic>> _classData = [
     },
     'archetype': {
       'en': 'Warrior',
-      'ru': 'Воиин',
+      'ru': 'Воин',
     },
     'description': {
       'en': 'Destroyer, destroys his enemies!',

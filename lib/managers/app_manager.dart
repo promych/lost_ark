@@ -49,7 +49,9 @@ class AppManager extends ChangeNotifier {
       _classList = (_classList == null || withNewLocale)
           ? await _classRepo.fetchClassList(lang: _locale.languageCode)
           : _classList;
-      _skillList = _skillList ?? await _skillRepo.fetchSkills();
+      _skillList = (_skillList == null || withNewLocale)
+          ? await _skillRepo.fetchSkills(lang: _locale.languageCode)
+          : _skillList;
 
       print('loaded');
       _status = AppStatus.Loaded;
@@ -88,8 +90,11 @@ class AppManager extends ChangeNotifier {
 
   // Classes
 
-  List<String> get classArchetypes =>
-      ['Warrior', 'Fighter', 'Hunter', 'Magician'];
+  List<String> get classArchetypes {
+    return _locale.languageCode == 'en'
+        ? ['Warrior', 'Fighter', 'Hunter', 'Magician']
+        : ['Воин', 'Монах', 'Стрелок', 'Маг'];
+  }
 
   List<CharacterClass> get allClasses => _classList;
 

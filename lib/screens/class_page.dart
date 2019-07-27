@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lost_ark/managers/app_manager.dart';
+import 'package:lost_ark/managers/locale_manager.dart';
 import 'package:lost_ark/ui/cupertino_navbar.dart';
 
 import 'package:provider/provider.dart';
@@ -19,10 +20,10 @@ class ClassPage extends StatelessWidget {
 
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(
-        backTitle: 'Classes',
+        backTitle: LocaleManager.of(context).translate('classes'),
         trailing: GestureDetector(
           child: Text(
-            'Skills',
+            LocaleManager.of(context).translate('skills'),
             style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
           ),
           onTap: () => Navigator.of(context).pushReplacementNamed('/skills'),
