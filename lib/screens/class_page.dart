@@ -7,7 +7,6 @@ import 'package:lost_ark/ui/cupertino_navbar.dart';
 import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
-import '../models/class.dart';
 import '../helpers/spider_chart.dart';
 
 class ClassPage extends StatelessWidget {
@@ -15,19 +14,20 @@ class ClassPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final CharacterClass classData =
+    final classData =
         Provider.of<AppManager>(context, listen: false).selectedClass;
 
     return CupertinoPageScaffold(
       navigationBar: MyCupertinoNavBar(
         backTitle: LocaleManager.of(context).translate('classes'),
         trailing: GestureDetector(
-          child: Text(
-            LocaleManager.of(context).translate('skills'),
-            style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
-          ),
-          onTap: () => Navigator.of(context).pushReplacementNamed('/skills'),
-        ),
+            child: Text(
+              LocaleManager.of(context).translate('skills'),
+              style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
+            ),
+            onTap: () {
+              Navigator.of(context).pushReplacementNamed('/skills');
+            }),
       ),
       child: SafeArea(
         bottom: false,

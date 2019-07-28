@@ -63,18 +63,26 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
                 itemBuilder: (_, int index) {
                   return GestureDetector(
                     child: Card(
-                      // margin: const EdgeInsets.symmetric(
-                      //     horizontal: 20.0, vertical: 100.0),
+                      margin: const EdgeInsets.symmetric(horizontal: 10.0),
                       color: CupertinoTheme.of(context).primaryContrastingColor,
                       child: Stack(
                         alignment: Alignment.center,
                         children: [
+                          Positioned(
+                            top: 0.0,
+                            right: -50.0,
+                            child: Icon(
+                              classes[index].icon,
+                              size: 200.0,
+                              color: Colors.white10,
+                            ),
+                          ),
                           Hero(
                             tag: 'img-${classes[index].name}',
                             child: Image.asset(classes[index].imagePath),
                           ),
                           Positioned(
-                            bottom: 20.0,
+                            bottom: 50.0,
                             child: Text(
                               classes[index].name,
                               style: TextStyle(
@@ -94,7 +102,7 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
                 },
               ),
             ),
-            SizedBox(height: 10.0),
+            SizedBox(height: 20.0),
             DotsIndicator(
               dotsCount: classes.length,
               position: _controller.hasClients ? _currentPage : 0,

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lost_ark/models/build.dart';
 
-const _maxPointsPerBuild = 100;
+const kMaxPointsPerBuild = 100;
 
 class BuildManager with ChangeNotifier {
   Build _build = Build();
@@ -15,6 +15,10 @@ class BuildManager with ChangeNotifier {
     // mutate build if skill exists or add overwise
     final index = _build.items.indexWhere((item) => item.skillId == skillId);
     if (index != -1) {
+      // check valid tier selected
+      if (tierNum > 1 && _build.items[index].enchancements[tierNum - 2].isEmpty)
+        return;
+
       // current list
       final currentEnchancementList = _build.items[index].enchancements;
 
@@ -35,7 +39,7 @@ class BuildManager with ChangeNotifier {
         if (pointsByClass(enchancementId.substring(0, 3)) -
                 _pointsByBuildItem(currentEnchancementList) +
                 _pointsByBuildItem(newEnchancementList) >
-            _maxPointsPerBuild) return;
+            kMaxPointsPerBuild) return;
 
         // finally replace skill in build with new list
         _build.items.replaceRange(
@@ -47,7 +51,7 @@ class BuildManager with ChangeNotifier {
     } else {
       if (tierNum != 1) return;
       if (pointsByClass(enchancementId.substring(0, 3)) + 4 >
-          _maxPointsPerBuild) return;
+          kMaxPointsPerBuild) return;
       _build.items.add(
         BuildItem(
           skillId: skillId,
@@ -58,7 +62,7 @@ class BuildManager with ChangeNotifier {
     }
     notifyListeners();
 
-    // print(_build.items.first.enchancements.toString());
+    // print(_build.items.first?.enchancements.toString());
   }
 
   String getSelectedEnchancementId(String skillId, int tierNum) {

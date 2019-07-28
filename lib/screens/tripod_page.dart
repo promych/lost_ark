@@ -1,7 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lost_ark/managers/build_manager.dart';
+import 'package:lost_ark/managers/locale_manager.dart';
 import 'package:lost_ark/models/skill.dart';
+import 'package:lost_ark/ui/tripod_indicator.dart';
 import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
@@ -14,9 +16,23 @@ class TripodPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final skill = Provider.of<AppManager>(context, listen: false).skillById(id);
+    final app = Provider.of<AppManager>(context, listen: false);
+    final skill = app.skillById(id);
 
     return CupertinoPageScaffold(
+      navigationBar: CupertinoNavigationBar(
+          backgroundColor: CupertinoTheme.of(context).primaryContrastingColor,
+          previousPageTitle: LocaleManager.of(context).translate('skills'),
+          middle: Consumer<BuildManager>(
+            builder: (context, build, _) {
+              return Text(
+                '${build.pointsByClass(app.selectedClass.id)} / $kMaxPointsPerBuild',
+                style:
+                    TextStyle(color: CupertinoTheme.of(context).primaryColor),
+              );
+            },
+          ),
+          trailing: TripodIndicator(skillId: skill.id)),
       child: SafeArea(
         bottom: false,
         child: SingleChildScrollView(
@@ -24,15 +40,42 @@ class TripodPage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SkillTile(id: id),
-              Divider(),
-              Text(
-                'Cooldown: ${skill.cooldown}',
-                style: TextStyle(
-                    fontSize: 20.0,
-                    color: CupertinoTheme.of(context).primaryColor),
+              Row(
+                children: [
+                  Image.asset(skill.iconUrl),
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            skill.name,
+                            style: TextStyle(
+                                color: CupertinoTheme.of(context).primaryColor),
+                          ),
+                          Text(
+                            skill.type,
+                            style: TextStyle(
+                                color: CupertinoTheme.of(context).primaryColor),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  Row(mainAxisSize: MainAxisSize.min, children: [
+                    Icon(Icons.hourglass_empty),
+                    Text(
+                      '${skill.cooldown}',
+                      style: TextStyle(
+                          color: CupertinoTheme.of(context).primaryColor),
+                    ),
+                  ]),
+                ],
               ),
-              SizedBox(height: 10.0),
+              Divider(
+                color: CupertinoTheme.of(context).primaryContrastingColor,
+              ),
               Text(
                 '${skill.description}',
                 style: TextStyle(
@@ -94,7 +137,15 @@ class _TierRow extends StatelessWidget {
             style: TextStyle(
                 fontSize: 20.0, color: CupertinoTheme.of(context).primaryColor),
           ),
-          SizedBox(height: 20.0),
+          SizedBox(height: 10.0),
+          if (selectedEnchancementId != '')
+            Text(
+              tier.enchancements
+                  .singleWhere((item) => item.id == selectedEnchancementId)
+                  .description,
+              style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
+            ),
+          // SizedBox(height: 20.0),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -110,37 +161,31 @@ class _TierRow extends StatelessWidget {
                                 selectedEnchancementId == enchancement.id
                                     ? _selectColor(tier.tier)
                                     : Colors.transparent,
-                            radius: 33.0,
+                            radius: 34.0,
                             child: CircleAvatar(
                               radius: 32.0,
                               backgroundColor: CupertinoTheme.of(context)
                                   .scaffoldBackgroundColor,
                               child: Image.asset(enchancement.iconUrl),
+                              // backgroundImage: AssetImage(enchancement.iconUrl),
                             ),
                           ),
                           onTap: () => build.addToBuild(enchancement.id),
                         ),
-                        SizedBox(height: 10.0),
-                        Text(
-                          enchancement.name,
-                          style: TextStyle(
-                              fontSize: 16.0,
-                              color: CupertinoTheme.of(context).primaryColor),
-                          textAlign: TextAlign.center,
-                        )
+                        // SizedBox(height: 10.0),
+                        // Text(
+                        //   enchancement.name,
+                        //   style: TextStyle(
+                        //       fontSize: 16.0,
+                        //       color: CupertinoTheme.of(context).primaryColor),
+                        //   textAlign: TextAlign.center,
+                        // )
                       ],
                     ),
                   ),
                 )
             ],
           ),
-          if (selectedEnchancementId != '')
-            Text(
-              tier.enchancements
-                  .singleWhere((item) => item.id == selectedEnchancementId)
-                  .description,
-              style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
-            )
         ],
       ),
     );

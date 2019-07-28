@@ -1,9 +1,8 @@
-import 'dart:math' as math;
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lost_ark/managers/app_manager.dart';
 import 'package:lost_ark/managers/locale_manager.dart';
+import 'package:lost_ark/ui/sliver_appbar_delegate.dart';
 import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
@@ -34,7 +33,7 @@ class ClassListPage extends StatelessWidget {
             for (var archetype in app.classArchetypes) ...[
               SliverPersistentHeader(
                 pinned: false,
-                delegate: _SliverAppBarDelegate(
+                delegate: SliverAppBarDelegate(
                   minHeight: 50.0,
                   maxHeight: 80.0,
                   child: Container(
@@ -57,6 +56,10 @@ class ClassListPage extends StatelessWidget {
                       ClassTile(
                         name: item.name,
                         icon: item.icon,
+                        onTap: () {
+                          app.selectClass(item.name);
+                          Navigator.of(context).pushNamed('/class');
+                        },
                       ),
                   ],
                 ),
@@ -66,35 +69,5 @@ class ClassListPage extends StatelessWidget {
         ),
       ),
     );
-  }
-}
-
-class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
-  final double minHeight;
-  final double maxHeight;
-  final Widget child;
-
-  _SliverAppBarDelegate({
-    @required this.minHeight,
-    @required this.maxHeight,
-    @required this.child,
-  });
-
-  @override
-  double get minExtent => minHeight;
-  @override
-  double get maxExtent => math.max(maxHeight, minHeight);
-
-  @override
-  Widget build(
-      BuildContext context, double shrinkOffset, bool overlapsContent) {
-    return SizedBox.expand(child: child);
-  }
-
-  @override
-  bool shouldRebuild(_SliverAppBarDelegate oldDelegate) {
-    return maxHeight != oldDelegate.maxHeight ||
-        minHeight != oldDelegate.minHeight ||
-        child != oldDelegate.child;
   }
 }

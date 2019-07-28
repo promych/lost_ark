@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lost_ark/managers/app_manager.dart';
-import 'package:lost_ark/managers/build_manager.dart';
 import 'package:lost_ark/screens/tripod_page.dart';
+import 'package:lost_ark/ui/tripod_indicator.dart';
 import 'package:provider/provider.dart';
 
 class SkillTile extends StatelessWidget {
@@ -12,7 +12,6 @@ class SkillTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // final build = Provider.of<BuildManager>(context, listen: true);
     final app = Provider.of<AppManager>(context, listen: false);
     final skill = app.skillById(id);
 
@@ -44,30 +43,7 @@ class SkillTile extends StatelessWidget {
                   ),
                 ),
               ),
-              Consumer<BuildManager>(builder: (context, build, _) {
-                return Row(
-                  children: [
-                    Icon(
-                      Icons.looks_one,
-                      color: build.getSelectedEnchancementId(skill.id, 1) != ''
-                          ? CupertinoColors.activeBlue
-                          : CupertinoTheme.of(context).primaryColor,
-                    ),
-                    Icon(
-                      Icons.looks_two,
-                      color: build.getSelectedEnchancementId(skill.id, 2) != ''
-                          ? CupertinoColors.activeGreen
-                          : CupertinoTheme.of(context).primaryColor,
-                    ),
-                    Icon(
-                      Icons.looks_3,
-                      color: build.getSelectedEnchancementId(skill.id, 3) != ''
-                          ? CupertinoColors.activeOrange
-                          : CupertinoTheme.of(context).primaryColor,
-                    ),
-                  ],
-                );
-              }),
+              TripodIndicator(skillId: skill.id)
             ],
           ),
         ),
