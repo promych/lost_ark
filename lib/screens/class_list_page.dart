@@ -28,23 +28,9 @@ class ClassListPage extends StatelessWidget {
         ),
       ),
       child: SafeArea(
+        bottom: false,
         child: CustomScrollView(
           slivers: [
-            // SliverPersistentHeader(
-            //   pinned: true,
-            //   delegate: _SliverAppBarDelegate(
-            //     minHeight: 100.0,
-            //     maxHeight: 200.0,
-            //     child: Container(
-            //       alignment: Alignment.centerLeft,
-            //       color: Colors.grey[800],
-            //       child: Text(
-            //         'Classes',
-            //         style: Theme.of(context).textTheme.display3,
-            //       ),
-            //     ),
-            //   ),
-            // ),
             for (var archetype in app.classArchetypes) ...[
               SliverPersistentHeader(
                 pinned: false,

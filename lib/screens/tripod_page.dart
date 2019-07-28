@@ -18,6 +18,7 @@ class TripodPage extends StatelessWidget {
 
     return CupertinoPageScaffold(
       child: SafeArea(
+        bottom: false,
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(10.0),
           child: Column(

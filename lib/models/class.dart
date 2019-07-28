@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 @immutable
 class CharacterClass {
+  final String id;
   final String name;
   final String archetype;
   final String description;
@@ -11,6 +12,7 @@ class CharacterClass {
   final String imagePath;
 
   CharacterClass({
+    @required this.id,
     @required this.name,
     @required this.archetype,
     @required this.description,
@@ -23,6 +25,7 @@ class CharacterClass {
   factory CharacterClass.fromJson(Map<String, dynamic> json,
       {String lang = 'en'}) {
     return CharacterClass(
+      id: json['id'],
       name: json['name'][lang],
       archetype: json['archetype'][lang],
       description: json['description'][lang],

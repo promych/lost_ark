@@ -1,9 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/ui/cupertino_navbar.dart';
+import 'package:lost_ark/managers/build_manager.dart';
 
 import 'package:provider/provider.dart';
-import 'package:sliding_up_panel/sliding_up_panel.dart';
 import '../managers/locale_manager.dart';
 
 import '../managers/app_manager.dart';
@@ -19,9 +18,17 @@ class SkillsPage extends StatelessWidget {
     final skills = app.skillsByClassName(className);
 
     return CupertinoPageScaffold(
-      navigationBar: MyCupertinoNavBar(
-        backTitle: LocaleManager.of(context).translate('classes'),
-        title: className,
+      navigationBar: CupertinoNavigationBar(
+        backgroundColor: CupertinoTheme.of(context).primaryContrastingColor,
+        previousPageTitle: LocaleManager.of(context).translate('classes'),
+        middle: Consumer<BuildManager>(
+          builder: (context, build, _) {
+            return Text(
+              '$className (${build.pointsByClass(app.selectedClass.id)})',
+              style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
+            );
+          },
+        ),
         trailing: GestureDetector(
           child: Text(
             LocaleManager.of(context).translate('save'),
@@ -31,18 +38,12 @@ class SkillsPage extends StatelessWidget {
         ),
       ),
       child: CupertinoPageScaffold(
-        child: SlidingUpPanel(
-          minHeight: 40.0,
-          body: ListView.separated(
-            itemCount: skills.length,
-            itemBuilder: (_, int index) => SkillTile(id: skills[index].id),
-            separatorBuilder: (_, int index) => Divider(
-              color: CupertinoTheme.of(context).primaryContrastingColor,
-            ),
-          ),
-          panel: Container(
-            height: 400.0,
-            child: Placeholder(),
+        child: ListView.separated(
+          padding: const EdgeInsets.symmetric(vertical: 10.0),
+          itemCount: skills.length,
+          itemBuilder: (_, int index) => SkillTile(id: skills[index].id),
+          separatorBuilder: (_, int index) => Divider(
+            color: CupertinoTheme.of(context).primaryContrastingColor,
           ),
         ),
       ),

@@ -30,6 +30,7 @@ class ClassPage extends StatelessWidget {
         ),
       ),
       child: SafeArea(
+        bottom: false,
         child: Stack(
           children: [
             Positioned(

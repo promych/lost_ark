@@ -11,6 +11,7 @@ class ClassRepo {
 
 const List<Map<String, dynamic>> _classData = [
   {
+    'id': 'c11',
     'name': {
       'en': 'Arcana',
       'ru': 'Арканолог',
@@ -37,6 +38,7 @@ const List<Map<String, dynamic>> _classData = [
     'icon': LostArk.class_arcana,
   },
   {
+    'id': 'c09',
     'name': {
       'en': 'Bard',
       'ru': 'Менестрель',
@@ -61,6 +63,7 @@ const List<Map<String, dynamic>> _classData = [
     'icon': LostArk.class_bard,
   },
   {
+    'id': 'c10',
     'name': {
       'en': 'Summoner',
       'ru': 'Призывательница',
@@ -86,6 +89,7 @@ const List<Map<String, dynamic>> _classData = [
     'icon': LostArk.class_summoner,
   },
   {
+    'id': 'c06',
     'name': {
       'en': 'Devil Hunter',
       'ru': 'Охотник на демонов',
@@ -112,6 +116,7 @@ const List<Map<String, dynamic>> _classData = [
     'icon': LostArk.class_devilhunter,
   },
   {
+    'id': 'c07',
     'name': {
       'en': 'Blaster',
       'ru': 'Механист',
@@ -136,6 +141,7 @@ const List<Map<String, dynamic>> _classData = [
     'icon': LostArk.class_blaster,
   },
   {
+    'id': 'c08',
     'name': {
       'en': 'Hawk Eye',
       'ru': 'Рейнджер',
@@ -161,6 +167,7 @@ const List<Map<String, dynamic>> _classData = [
     'icon': LostArk.class_hawkeye,
   },
   {
+    'id': 'c03',
     'name': {
       'en': 'Battle Master',
       'ru': 'Аватар',
@@ -187,6 +194,7 @@ const List<Map<String, dynamic>> _classData = [
     'icon': LostArk.class_battlemaster,
   },
   {
+    'id': 'c04',
     'name': {
       'en': 'Infighter',
       'ru': 'Дуалист',
@@ -212,6 +220,7 @@ const List<Map<String, dynamic>> _classData = [
     'icon': LostArk.class_infighter,
   },
   {
+    'id': 'c05',
     'name': {
       'en': 'Soul Master',
       'ru': 'Ки-мастер',
@@ -238,6 +247,7 @@ const List<Map<String, dynamic>> _classData = [
     'icon': LostArk.class_soulmaster,
   },
   {
+    'id': 'c01',
     'name': {
       'en': 'Warlord',
       'ru': 'Полководец',
@@ -264,6 +274,7 @@ const List<Map<String, dynamic>> _classData = [
     'icon': LostArk.class_warlord,
   },
   {
+    'id': 'c00',
     'name': {
       'en': 'Destroyer',
       'ru': 'Сокрушитель',
@@ -289,6 +300,7 @@ const List<Map<String, dynamic>> _classData = [
     'icon': LostArk.class_destroyer,
   },
   {
+    'id': 'c02',
     'name': {
       'en': 'Berserker',
       'ru': 'Берсерк',

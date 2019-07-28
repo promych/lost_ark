@@ -51,6 +51,7 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
         ),
       ),
       child: SafeArea(
+        bottom: false,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
