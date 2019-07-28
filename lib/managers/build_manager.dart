@@ -4,7 +4,7 @@ import 'package:lost_ark/models/build.dart';
 class BuildManager with ChangeNotifier {
   Build _build = Build();
 
-  Build get getCurrentBuild => _build;
+  Build get currentBuild => _build;
 
   addToBuild(String enchancementId) {
     final skillId = enchancementId.split('_')[0];

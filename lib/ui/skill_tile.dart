@@ -12,7 +12,7 @@ class SkillTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final build = Provider.of<BuildManager>(context, listen: true);
+    // final build = Provider.of<BuildManager>(context, listen: true);
     final app = Provider.of<AppManager>(context, listen: false);
     final skill = app.skillById(id);
 
@@ -44,28 +44,30 @@ class SkillTile extends StatelessWidget {
                   ),
                 ),
               ),
-              Row(
-                children: [
-                  Icon(
-                    Icons.looks_one,
-                    color: build.getSelectedEnchancementId(skill.id, 1) != ''
-                        ? CupertinoColors.activeBlue
-                        : CupertinoTheme.of(context).primaryColor,
-                  ),
-                  Icon(
-                    Icons.looks_two,
-                    color: build.getSelectedEnchancementId(skill.id, 2) != ''
-                        ? CupertinoColors.activeGreen
-                        : CupertinoTheme.of(context).primaryColor,
-                  ),
-                  Icon(
-                    Icons.looks_3,
-                    color: build.getSelectedEnchancementId(skill.id, 3) != ''
-                        ? CupertinoColors.activeOrange
-                        : CupertinoTheme.of(context).primaryColor,
-                  ),
-                ],
-              )
+              Consumer<BuildManager>(builder: (context, build, _) {
+                return Row(
+                  children: [
+                    Icon(
+                      Icons.looks_one,
+                      color: build.getSelectedEnchancementId(skill.id, 1) != ''
+                          ? CupertinoColors.activeBlue
+                          : CupertinoTheme.of(context).primaryColor,
+                    ),
+                    Icon(
+                      Icons.looks_two,
+                      color: build.getSelectedEnchancementId(skill.id, 2) != ''
+                          ? CupertinoColors.activeGreen
+                          : CupertinoTheme.of(context).primaryColor,
+                    ),
+                    Icon(
+                      Icons.looks_3,
+                      color: build.getSelectedEnchancementId(skill.id, 3) != ''
+                          ? CupertinoColors.activeOrange
+                          : CupertinoTheme.of(context).primaryColor,
+                    ),
+                  ],
+                );
+              }),
             ],
           ),
         ),
