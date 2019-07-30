@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lost_ark/managers/build_manager.dart';
@@ -7,7 +8,6 @@ import 'package:lost_ark/ui/tripod_indicator.dart';
 import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
-import '../ui/skill_tile.dart';
 
 class TripodPage extends StatelessWidget {
   final String id;
@@ -129,64 +129,82 @@ class _TierRow extends StatelessWidget {
         build.getSelectedEnchancementId(skillId, tier.tier);
 
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 20.0),
-      child: Column(
-        children: [
-          Text(
-            'Tier ${tier.tier}',
-            style: TextStyle(
-                fontSize: 20.0, color: CupertinoTheme.of(context).primaryColor),
-          ),
-          SizedBox(height: 10.0),
-          if (selectedEnchancementId != '')
-            Text(
-              tier.enchancements
-                  .singleWhere((item) => item.id == selectedEnchancementId)
-                  .description,
-              style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
+      padding: const EdgeInsets.symmetric(vertical: 10.0),
+      child: Container(
+        decoration: BoxDecoration(
+          color: CupertinoTheme.of(context).primaryContrastingColor,
+          borderRadius: BorderRadius.all(Radius.circular(4.0)),
+        ),
+        child: Column(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(10.0),
+              height: 80.0,
+              child: Center(
+                child: selectedEnchancementId == ''
+                    ? Text(
+                        'Tier ${tier.tier}',
+                        style: TextStyle(
+                            fontSize: 20.0,
+                            color: CupertinoTheme.of(context).primaryColor),
+                      )
+                    : AutoSizeText(
+                        tier.enchancements
+                            .singleWhere(
+                                (item) => item.id == selectedEnchancementId)
+                            .description,
+                        maxFontSize: 16.0,
+                        style: TextStyle(
+                            color: CupertinoTheme.of(context).primaryColor),
+                      ),
+              ),
             ),
-          // SizedBox(height: 20.0),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              for (final enchancement in tier.enchancements)
-                Expanded(
-                  child: Container(
-                    child: Column(
-                      children: [
-                        GestureDetector(
-                          child: CircleAvatar(
-                            backgroundColor:
-                                selectedEnchancementId == enchancement.id
-                                    ? _selectColor(tier.tier)
-                                    : Colors.transparent,
-                            radius: 34.0,
-                            child: CircleAvatar(
-                              radius: 32.0,
-                              backgroundColor: CupertinoTheme.of(context)
-                                  .scaffoldBackgroundColor,
-                              child: Image.asset(enchancement.iconUrl),
-                              // backgroundImage: AssetImage(enchancement.iconUrl),
+            Padding(
+              padding: const EdgeInsets.only(bottom: 10.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  for (final enchancement in tier.enchancements)
+                    Expanded(
+                      child: Container(
+                        child: Column(
+                          children: [
+                            GestureDetector(
+                              child: CircleAvatar(
+                                backgroundColor:
+                                    selectedEnchancementId == enchancement.id
+                                        ? _selectColor(tier.tier)
+                                        : Colors.transparent,
+                                radius: 34.0,
+                                child: CircleAvatar(
+                                  radius: 32.0,
+                                  backgroundColor: CupertinoTheme.of(context)
+                                      .scaffoldBackgroundColor,
+                                  child: Image.asset(enchancement.iconUrl),
+                                  // backgroundImage: AssetImage(enchancement.iconUrl),
+                                ),
+                              ),
+                              onTap: () => build.addToBuild(enchancement.id),
                             ),
-                          ),
-                          onTap: () => build.addToBuild(enchancement.id),
+                            SizedBox(height: 10.0),
+                            Text(
+                              enchancement.name,
+                              style: TextStyle(
+                                  fontSize: 16.0,
+                                  color:
+                                      CupertinoTheme.of(context).primaryColor),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
                         ),
-                        // SizedBox(height: 10.0),
-                        // Text(
-                        //   enchancement.name,
-                        //   style: TextStyle(
-                        //       fontSize: 16.0,
-                        //       color: CupertinoTheme.of(context).primaryColor),
-                        //   textAlign: TextAlign.center,
-                        // )
-                      ],
-                    ),
-                  ),
-                )
-            ],
-          ),
-        ],
+                      ),
+                    )
+                ],
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

@@ -34,6 +34,15 @@ class ClassPage extends StatelessWidget {
         child: Stack(
           children: [
             Positioned(
+              bottom: -50.0,
+              left: -50.0,
+              child: Icon(
+                classData.icon,
+                size: 400.0,
+                color: Colors.white10,
+              ),
+            ),
+            Positioned(
               right: -50.0,
               child: ConstrainedBox(
                 constraints: BoxConstraints(
@@ -45,8 +54,9 @@ class ClassPage extends StatelessWidget {
                 ),
               ),
             ),
-            SingleChildScrollView(
-              child: Padding(
+            Container(
+              height: double.infinity,
+              child: SingleChildScrollView(
                 padding: const EdgeInsets.all(10.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
