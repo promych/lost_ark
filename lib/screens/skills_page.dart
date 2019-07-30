@@ -6,8 +6,9 @@ import 'package:lost_ark/ui/sliver_appbar_delegate.dart';
 
 import 'package:provider/provider.dart';
 import '../managers/locale_manager.dart';
-
 import '../managers/app_manager.dart';
+import '../managers/build_manager.dart';
+
 import '../ui/skill_tile.dart';
 
 class SkillsPage extends StatelessWidget {
@@ -15,6 +16,7 @@ class SkillsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final build = Provider.of<BuildManager>(context);
     final app = Provider.of<AppManager>(context, listen: false);
     final selectedClass = app.selectedClass;
     final skills = app.skillsByClassName(selectedClass.name);
@@ -32,11 +34,25 @@ class SkillsPage extends StatelessWidget {
           },
         ),
         trailing: GestureDetector(
-          child: Text(
-            LocaleManager.of(context).translate('save'),
-            style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
+          child: AnimatedSwitcher(
+            duration: const Duration(milliseconds: 250),
+            transitionBuilder: (Widget child, Animation<double> animation) =>
+                ScaleTransition(child: child, scale: animation),
+            child: build.readyToSave
+                ? Icon(
+                    Icons.save_alt,
+                    key: ValueKey<IconData>(Icons.save_alt),
+                  )
+                // ? Text(
+                //     LocaleManager.of(context).translate('save'),
+                //     style: TextStyle(
+                //         color: CupertinoTheme.of(context).primaryColor),
+                //   )
+                : Icon(Icons.check, key: ValueKey<IconData>(Icons.check)),
           ),
-          onTap: () {},
+          onTap: () {
+            build.save();
+          },
         ),
       ),
       child: CustomScrollView(

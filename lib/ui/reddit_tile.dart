@@ -12,31 +12,27 @@ class RedditPostTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 5.0, horizontal: 10.0),
+        decoration: BoxDecoration(
+            color: CupertinoTheme.of(context).primaryContrastingColor,
+            borderRadius: BorderRadius.all(Radius.circular(4.0))),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            ConstrainedBox(
-              constraints: BoxConstraints(
-                maxHeight: 70.0,
-              ),
-              child: Container(
-                width: MediaQuery.of(context).size.width / 5,
-                child: (post.thumbnail != 'self')
-                    // ? CachedNetworkImage(
-                    //     imageUrl: post.thumbnail,
-                    //     fit: BoxFit.cover,
-                    //     placeholder: (context, _) =>
-                    //         Center(child: Icon(LostArk.logo)),
-                    //   )
-                    ? Image.network(post.thumbnail, fit: BoxFit.cover)
-                    : Container(
-                        child: Center(
-                          child: Icon(Icons.comment),
-                        ),
-                      ),
-              ),
-            ),
-            SizedBox(width: 4.0),
+            //   Container(
+            //     constraints: BoxConstraints(
+            //       maxHeight: 70.0,
+            //     ),
+            //     width: MediaQuery.of(context).size.width / 5,
+            //     child: (post.thumbnail != 'self')
+            //         ? Image.network(post.thumbnail, fit: BoxFit.cover)
+            //         : Container(
+            //             child: Center(
+            //               child: Icon(Icons.comment),
+            //             ),
+            //           ),
+            //   ),
+            // SizedBox(width: 4.0),
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -50,24 +46,50 @@ class RedditPostTile extends StatelessWidget {
                             style: TextStyle(
                                 backgroundColor: CupertinoColors.activeBlue),
                           ),
-                        if (post.flair != '') TextSpan(text: ' '),
-                        TextSpan(text: post.title),
+                        if (post.flair != '') TextSpan(text: '  '),
+                        TextSpan(
+                            text: post.title,
+                            style: TextStyle(
+                              height: 1.2,
+                            )),
                       ],
                     ),
                   ),
-                  SizedBox(height: 4.0),
-                  Text(
-                    'Created by ${post.author} ${post.created.toString()}',
-                    style: TextStyle(
-                      color: CupertinoColors.inactiveGray,
-                    ),
-                  ),
-                  SizedBox(height: 4.0),
+                  // SizedBox(height: 4.0),
+                  // Text(
+                  //   'Created by ${post.author} ${post.created.toString()}',
+                  //   style: TextStyle(
+                  //     color: CupertinoColors.inactiveGray,
+                  //   ),
+                  // ),
+                  SizedBox(height: 20.0),
                   Row(
+                    // mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      Icon(Icons.mode_comment),
-                      SizedBox(width: 4.0),
-                      Text(post.numComments.toString() + ' Comments'),
+                      Expanded(
+                        child: Row(
+                          children: [
+                            Icon(Icons.mode_comment),
+                            SizedBox(width: 4.0),
+                            Text(post.numComments.toString()),
+                          ],
+                        ),
+                      ),
+                      Expanded(
+                        child: Row(
+                          children: [
+                            Icon(Icons.arrow_upward),
+                            SizedBox(width: 4.0),
+                            Text(post.score.toString()),
+                          ],
+                        ),
+                      ),
+                      Expanded(
+                        child: Text(
+                          post.created.toString(),
+                          textAlign: TextAlign.end,
+                        ),
+                      ),
                     ],
                   )
                 ],

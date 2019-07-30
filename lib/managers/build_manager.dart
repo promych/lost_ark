@@ -5,8 +5,10 @@ const kMaxPointsPerBuild = 100;
 
 class BuildManager with ChangeNotifier {
   Build _build = Build();
-
   Build get currentBuild => _build;
+
+  bool _readyToSave = false;
+  bool get readyToSave => _readyToSave;
 
   addToBuild(String enchancementId) {
     final skillId = enchancementId.split('_')[0];
@@ -60,9 +62,16 @@ class BuildManager with ChangeNotifier {
         ),
       );
     }
+
+    _readyToSave = true;
     notifyListeners();
 
     // print(_build.items.first?.enchancements.toString());
+  }
+
+  save() {
+    _readyToSave = false;
+    notifyListeners();
   }
 
   String getSelectedEnchancementId(String skillId, int tierNum) {

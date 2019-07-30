@@ -38,7 +38,7 @@ class ClassPage extends StatelessWidget {
               left: -50.0,
               child: Icon(
                 classData.icon,
-                size: 400.0,
+                size: 300.0,
                 color: Colors.white10,
               ),
             ),
