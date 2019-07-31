@@ -1,6 +1,8 @@
 {
-  "settings": "Settings",
-  "save": "Save",
   "classes": "Classes",
+  "save": "Save",
+  "saved builds": "Saved builds",
+  "select language": "Select language",
+  "settings": "Settings",
   "skills": "Skills"
 }

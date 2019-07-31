@@ -104,6 +104,9 @@ class AppManager extends ChangeNotifier {
   CharacterClass classByName(String name) =>
       _classList.singleWhere((item) => item.name == name);
 
+  CharacterClass classById(String classId) =>
+      _classList.singleWhere((item) => item.id == classId);
+
   CharacterClass get selectedClass {
     return _selectedClass ?? _classList.first;
   }

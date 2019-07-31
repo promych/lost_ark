@@ -115,11 +115,14 @@ class BuildManager with ChangeNotifier {
 
   var _store = StoreRef<int, Map<String, dynamic>>.main();
 
-  Future savedBuildsByClassId(String classId) async {
-    final finder = Finder(sortOrders: [SortOrder('classId')]);
-    return await _store.find(await _db, finder: finder)
-      ..where((snapshot) => snapshot.value['classId'] == classId).toList();
-  }
+  Future<List<RecordSnapshot<int, Map<String, dynamic>>>> savedBuilds() async =>
+      await _store.find(await _db);
+
+  // Future savedBuildsByClassId(String classId) async {
+  //   final finder = Finder(sortOrders: [SortOrder('classId')]);
+  //   return await _store.find(await _db, finder: finder);
+  // ..where((snapshot) => snapshot.value['classId'] == classId).toList(); ??
+  // }
 
   Future _addToBuild(String classId) async {
     var listItems = _build.items
@@ -141,5 +144,15 @@ class BuildManager with ChangeNotifier {
   Future deleteFromBuild(int id) async {
     await _store.record(id).delete(await _db);
     notifyListeners();
+  }
+
+  Future unpackBuild(int id) async {
+    final buildToUnpack = await _store.record(id).get(await _db);
+
+    _build.items.removeWhere(
+        (item) => item.skillId.substring(0, 3) == buildToUnpack['classId']);
+
+    _build.items.addAll(List.from(
+        buildToUnpack['skills'].map((item) => BuildItem.fromMap(item))));
   }
 }

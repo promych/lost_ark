@@ -1,6 +1,8 @@
 {
-  "settings": "Настройки",
-  "save": "Сохранить",
   "classes": "Классы",
+  "save": "Сохранить",
+  "saved builds": "Сохраненные билды",
+  "select language": "Выбор языка",
+  "settings": "Настройки",
   "skills": "Умения"
 }
