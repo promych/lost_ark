@@ -1,3 +1,4 @@
+import 'package:html_unescape/html_unescape_small.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lost_ark/models/reddit_post.dart';
@@ -10,6 +11,7 @@ class RedditPostTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final unescape = HtmlUnescape();
     return GestureDetector(
       child: Container(
         padding: const EdgeInsets.symmetric(vertical: 5.0, horizontal: 10.0),
@@ -48,7 +50,7 @@ class RedditPostTile extends StatelessWidget {
                           ),
                         if (post.flair != '') TextSpan(text: '  '),
                         TextSpan(
-                            text: post.title,
+                            text: unescape.convert(post.title),
                             style: TextStyle(
                               height: 1.2,
                             )),

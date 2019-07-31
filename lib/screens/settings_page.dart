@@ -54,7 +54,7 @@ class SettingsPage extends StatelessWidget {
                         return Text('No builds :(');
                       case ConnectionState.waiting:
                       case ConnectionState.active:
-                        return Material(child: CircularProgressIndicator());
+                        return CircularProgressIndicator();
                       case ConnectionState.done:
                         return snapshot.hasError
                             ? Text('${snapshot.error}')
