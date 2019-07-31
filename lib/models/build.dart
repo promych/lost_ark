@@ -11,4 +11,9 @@ class BuildItem {
   final List<String> enchancements;
 
   BuildItem({@required this.skillId, @required this.enchancements});
+
+  Map<String, dynamic> toMap() => {
+        'id': skillId,
+        'enchancements': enchancements,
+      };
 }

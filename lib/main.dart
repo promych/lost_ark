@@ -53,12 +53,6 @@ class App extends StatelessWidget {
               GlobalCupertinoLocalizations.delegate,
             ],
             locale: app.locale,
-            // routes: {
-            // ClassSelectorPage.routeName: (_) => ClassSelectorPage(),
-            // ClassListPage.routeName: (_) => ClassListPage(),
-            // ClassPage.routeName: (_) => ClassPage(),
-            //   SkillsPage.routeName: (_) => SkillsPage(),
-            // },
             home: _landing(app),
           );
         },

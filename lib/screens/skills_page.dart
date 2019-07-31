@@ -51,7 +51,7 @@ class SkillsPage extends StatelessWidget {
                 : Icon(Icons.check, key: ValueKey<IconData>(Icons.check)),
           ),
           onTap: () {
-            build.save();
+            if (build.readyToSave) build.save(selectedClass.id);
           },
         ),
       ),

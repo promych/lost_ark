@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:lost_ark/data/database.dart';
 import 'package:lost_ark/models/build.dart';
+import 'package:sembast/sembast.dart';
 
 const kMaxPointsPerBuild = 100;
 
@@ -69,7 +71,8 @@ class BuildManager with ChangeNotifier {
     // print(_build.items.first?.enchancements.toString());
   }
 
-  save() {
+  save(String classId) async {
+    await _addToBuild(classId);
     _readyToSave = false;
     notifyListeners();
   }
@@ -104,5 +107,39 @@ class BuildManager with ChangeNotifier {
       default:
         return 0;
     }
+  }
+
+  // Database
+
+  Future<Database> get _db async => await AppDatabase.instance.database;
+
+  var _store = StoreRef<int, Map<String, dynamic>>.main();
+
+  Future savedBuildsByClassId(String classId) async {
+    final finder = Finder(sortOrders: [SortOrder('classId')]);
+    return await _store.find(await _db, finder: finder)
+      ..where((snapshot) => snapshot.value['classId'] == classId).toList();
+  }
+
+  Future _addToBuild(String classId) async {
+    var listItems = _build.items
+        .where((item) => item.skillId.substring(0, 3) == classId)
+        .map((item) => item.toMap())
+        .toList();
+    var currentBuild = Map<String, dynamic>.fromIterables(
+      ['classId', 'skills'],
+      [classId, listItems],
+    );
+
+    // print(currentBuild);
+
+    await _store
+        .record(DateTime.now().millisecondsSinceEpoch)
+        .put(await _db, currentBuild);
+  }
+
+  Future deleteFromBuild(int id) async {
+    await _store.record(id).delete(await _db);
+    notifyListeners();
   }
 }
