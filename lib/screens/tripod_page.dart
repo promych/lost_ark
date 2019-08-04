@@ -56,8 +56,8 @@ class TripodPage extends StatelessWidget {
                           ),
                           Text(
                             skill.type,
-                            style: TextStyle(
-                                color: CupertinoTheme.of(context).primaryColor),
+                            style:
+                                TextStyle(color: CupertinoColors.inactiveGray),
                           ),
                         ],
                       ),
@@ -192,8 +192,7 @@ class _TierRow extends StatelessWidget {
                               enchancement.name,
                               style: TextStyle(
                                   fontSize: 16.0,
-                                  color:
-                                      CupertinoTheme.of(context).primaryColor),
+                                  color: CupertinoColors.lightBackgroundGray),
                               textAlign: TextAlign.center,
                             )
                           ],

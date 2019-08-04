@@ -173,7 +173,7 @@ const List<Map<String, dynamic>> _classData = [
     },
     'weapon': {
       'en': 'Mechanical Bow',
-      'ru': 'Механичесикй лук',
+      'ru': 'Механический лук',
     },
     'stats': {
       'control': 4,
@@ -288,7 +288,7 @@ const List<Map<String, dynamic>> _classData = [
       'en':
           'The Warlord is a knight with strong armor. Even while soaking damage he has a number of attacks with his lance and shield.',
       'ru':
-          'Полководец всегда первым врывается в бой. Самых дерзких противников остуд��т сталь его щита, а беглецов добьет залп пулебарды – коппья со встроенной винтовкой.',
+          'Полководец всегда первым врывается в бой. Самых дерзких противников остудят сталь его щита, а беглецов добьет залп пулебарды – коппья со встроенной винтовкой.',
     },
     'weapon': {
       'en': 'Gunlance',

@@ -17,12 +17,9 @@ class RedditPage extends StatelessWidget {
           style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
         ),
       ),
-      child: DefaultTextStyle(
-        style: Styles.defaultText,
-        child: SafeArea(
-          bottom: false,
-          child: _RedditPosts(),
-        ),
+      child: SafeArea(
+        bottom: false,
+        child: _RedditPosts(),
       ),
     );
   }

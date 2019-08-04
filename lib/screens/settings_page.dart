@@ -20,7 +20,10 @@ class SettingsPage extends StatelessWidget {
         ),
       ),
       child: DefaultTextStyle(
-        style: Styles.defaultText,
+        style: TextStyle(
+          fontSize: 20.0,
+          color: CupertinoTheme.of(context).primaryColor,
+        ),
         child: SafeArea(
           child: Padding(
             padding: const EdgeInsets.all(10.0),
@@ -30,18 +33,22 @@ class SettingsPage extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Container(
-                        child: Text(LocaleManager.of(context)
-                            .translate('select language')),
+                        child: Text(
+                          LocaleManager.of(context)
+                              .translate('select language'),
+                        ),
                       ),
                     ),
                     CupertinoSegmentedControl(
                       children: {
                         0: Padding(
-                          padding: const EdgeInsets.all(10.0),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 10.0, vertical: 4.0),
                           child: Text('EN'),
                         ),
                         1: Padding(
-                          padding: const EdgeInsets.all(10.0),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 10.0, vertical: 4.0),
                           child: Text('RU'),
                         ),
                       },

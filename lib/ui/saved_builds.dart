@@ -13,21 +13,26 @@ class SavedBuilds extends StatelessWidget {
       child: FutureBuilder(
         future: Provider.of<BuildManager>(context, listen: true).savedBuilds(),
         builder: (_, snapshot) {
-          switch (snapshot.connectionState) {
-            case ConnectionState.none:
-              return Text('No builds :(');
-            case ConnectionState.waiting:
-            case ConnectionState.active:
-              return Center(child: CupertinoActivityIndicator());
-            case ConnectionState.done:
-              return snapshot.hasError
-                  ? Text('${snapshot.error}')
-                  : ListView.separated(
-                      itemCount: snapshot.data.length,
-                      itemBuilder: (_, int id) =>
-                          _BuildTile(item: snapshot.data[id]),
-                      separatorBuilder: (_, int index) => Divider(),
-                    );
+          if (snapshot.connectionState == ConnectionState.none) {
+            return Text(':(');
+          } else if (snapshot.connectionState == ConnectionState.waiting ||
+              snapshot.connectionState == ConnectionState.active) {
+            return Center(child: CupertinoActivityIndicator());
+          } else if (snapshot.connectionState == ConnectionState.done) {
+            if (snapshot.hasError) {
+              return Text('${snapshot.error}');
+            }
+            return snapshot.data.length == 0
+                ? Text(
+                    ':)',
+                    style: TextStyle(color: CupertinoColors.inactiveGray),
+                  )
+                : ListView.separated(
+                    itemCount: snapshot.data.length,
+                    itemBuilder: (_, int id) =>
+                        _BuildTile(item: snapshot.data[id]),
+                    separatorBuilder: (context, _) => Divider(),
+                  );
           }
           return null;
         },
@@ -74,16 +79,19 @@ class _BuildTile extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.only(left: 10.0),
-              child: Text(app.classById(item['classId']).name),
+              child: MediaQuery.of(context).size.width <= 360
+                  ? Icon(app.classById(item['classId']).icon)
+                  : Text(app.classById(item['classId']).name),
             ),
             Expanded(
-              child: Row(
-                mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.end,
+              child: Wrap(
+                alignment: WrapAlignment.end,
                 children: List<Widget>.from(
                   item['skills'].map((item) => Image.asset(
                         app.skillById(item['id']).iconUrl,
-                        height: 32.0,
+                        height: MediaQuery.of(context).size.width <= 360
+                            ? 24.0
+                            : 32.0,
                       )),
                 ),
               ),

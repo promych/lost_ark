@@ -17,6 +17,7 @@ class ClassSelectorPage extends StatefulWidget {
 class _ClassSelectorPageState extends State<ClassSelectorPage> {
   PageController _controller;
   int _currentPage = 0;
+  double _screenWidth;
 
   @override
   void initState() {
@@ -27,6 +28,12 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
           _currentPage = _controller.page.round();
         });
       });
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _screenWidth = MediaQuery.of(context).size.width;
   }
 
   @override
@@ -65,33 +72,51 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
                     child: Card(
                       margin: const EdgeInsets.symmetric(horizontal: 10.0),
                       color: CupertinoTheme.of(context).primaryContrastingColor,
-                      child: Stack(
-                        alignment: Alignment.center,
-                        children: [
-                          Positioned(
-                            top: 0.0,
-                            right: -50.0,
-                            child: Icon(
-                              classes[index].icon,
-                              size: 200.0,
-                              color: Colors.white10,
+                      child: Container(
+                        child: Stack(
+                          alignment: Alignment.center,
+                          children: [
+                            Positioned(
+                              top: 0.0,
+                              right: -50.0,
+                              child: Icon(
+                                classes[index].icon,
+                                size: 200.0,
+                                color: Colors.white10,
+                              ),
                             ),
-                          ),
-                          Hero(
-                            tag: 'img-${classes[index].name}',
-                            child: Image.asset(classes[index].imagePath),
-                          ),
-                          Positioned(
-                            bottom: 50.0,
-                            child: Text(
-                              classes[index].name,
-                              style: TextStyle(
-                                  color:
-                                      CupertinoTheme.of(context).primaryColor,
-                                  fontSize: 40.0),
+                            Hero(
+                              tag: 'img-${classes[index].name}',
+                              child: Image.asset(classes[index].imagePath),
                             ),
-                          )
-                        ],
+                            Positioned(
+                              bottom: 50.0,
+                              child: Container(
+                                width: _screenWidth * 0.7,
+                                child: Text(
+                                  classes[index].name,
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                      color: CupertinoTheme.of(context)
+                                          .primaryColor,
+                                      fontSize: _screenWidth / 14),
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(4.0)),
+                          gradient: LinearGradient(
+                            begin: Alignment.topCenter,
+                            end: Alignment.bottomCenter,
+                            colors: [
+                              const Color(0xCC000000),
+                              const Color(0x00000000),
+                              const Color(0x00000000),
+                            ],
+                          ),
+                        ),
                       ),
                     ),
                     onTap: () {

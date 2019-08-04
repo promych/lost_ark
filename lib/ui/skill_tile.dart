@@ -36,8 +36,7 @@ class SkillTile extends StatelessWidget {
                       ),
                       Text(
                         skill.type,
-                        style: TextStyle(
-                            color: CupertinoTheme.of(context).primaryColor),
+                        style: TextStyle(color: CupertinoColors.inactiveGray),
                       ),
                     ],
                   ),

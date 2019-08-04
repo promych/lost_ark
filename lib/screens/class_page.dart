@@ -34,26 +34,27 @@ class ClassPage extends StatelessWidget {
         child: Stack(
           children: [
             Positioned(
-              bottom: -50.0,
-              left: -50.0,
+              // bottom: -50.0,
+              // left: -50.0,
+              right: -50.0,
               child: Icon(
                 classData.icon,
-                size: 300.0,
+                size: 200.0,
                 color: Colors.white10,
               ),
             ),
-            Positioned(
-              right: -50.0,
-              child: ConstrainedBox(
-                constraints: BoxConstraints(
-                        maxHeight: MediaQuery.of(context).size.height) *
-                    0.4,
-                child: Hero(
-                  tag: 'img-${classData.name}',
-                  child: Image.asset(classData.imagePath),
-                ),
-              ),
-            ),
+            // Positioned(
+            //   right: -50.0,
+            //   child: Container(
+            //     constraints: BoxConstraints(
+            //             maxHeight: MediaQuery.of(context).size.height) *
+            //         0.4,
+            //     child: Hero(
+            //       tag: 'img-${classData.name}',
+            //       child: Image.asset(classData.imagePath),
+            //     ),
+            //   ),
+            // ),
             Container(
               height: double.infinity,
               child: SingleChildScrollView(
@@ -64,17 +65,17 @@ class ClassPage extends StatelessWidget {
                     Text(
                       classData.name,
                       style: TextStyle(
-                          fontSize: 40.0,
+                          fontSize: MediaQuery.of(context).size.width / 12,
                           color: CupertinoTheme.of(context).primaryColor),
                     ),
-                    SizedBox(height: 20.0),
+                    SizedBox(height: 10.0),
                     Text(
                       '${LocaleManager.of(context).translate('weapon')}: ${classData.weapon}',
                       style: TextStyle(
-                          fontSize: 24.0,
-                          color: CupertinoTheme.of(context).primaryColor),
+                          fontSize: MediaQuery.of(context).size.width / 18,
+                          color: CupertinoColors.lightBackgroundGray),
                     ),
-                    SizedBox(height: 20.0),
+                    SizedBox(height: 40.0),
                     Center(
                       child: _StatsSpider(
                         attack: classData.stats['attack'].toDouble(),
@@ -87,6 +88,7 @@ class ClassPage extends StatelessWidget {
                     SizedBox(height: 20.0),
                     Container(
                       padding: const EdgeInsets.all(10.0),
+                      width: double.infinity,
                       decoration: BoxDecoration(
                         color:
                             CupertinoTheme.of(context).primaryContrastingColor,
@@ -135,9 +137,10 @@ class _StatsSpider extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final scale = MediaQuery.of(context).size.width * 0.4;
     return Container(
-      width: 200.0,
-      height: 200.0,
+      width: scale,
+      height: scale,
       child: SpiderChart(
         maxValue: 100.0,
         data: [

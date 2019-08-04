@@ -152,8 +152,11 @@ class SpiderChartPainter extends CustomPainter {
         textPainter.paint(
             canvas, center + Offset(x + 10.0, y - textPainter.height / 2));
       } else if (points[i].dy < center.dy) {
-        textPainter.paint(canvas,
-            center + Offset(x - textPainter.width / 2, y - textPainter.height));
+        textPainter.paint(
+            canvas,
+            center +
+                Offset(
+                    x - textPainter.width / 2, y - textPainter.height * 1.4));
       }
     }
   }

@@ -4,6 +4,7 @@ import 'package:lost_ark/models/build.dart';
 import 'package:sembast/sembast.dart';
 
 const kMaxPointsPerBuild = 100;
+const kMaxSkillsPerBuild = 8;
 
 class BuildManager with ChangeNotifier {
   Build _build = Build();
@@ -56,6 +57,12 @@ class BuildManager with ChangeNotifier {
       if (tierNum != 1) return;
       if (pointsByClass(enchancementId.substring(0, 3)) + 4 >
           kMaxPointsPerBuild) return;
+      if (_build.items
+              .where((item) =>
+                  item.skillId.substring(0, 3) == skillId.substring(0, 3))
+              .length >=
+          kMaxSkillsPerBuild) return;
+
       _build.items.add(
         BuildItem(
           skillId: skillId,

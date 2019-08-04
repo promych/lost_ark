@@ -61,15 +61,15 @@ class App extends StatelessWidget {
   }
 
   Widget _landing(app) {
-    switch (app.status) {
-      case AppStatus.Uninitialized:
-      case AppStatus.Loading:
-        return Loading();
-      case AppStatus.Loaded:
-        return HomePage();
-      case AppStatus.Error:
-        return ErrorView(message: app.errorMessage);
+    if (app.status == AppStatus.Uninitialized ||
+        app.status == AppStatus.Loading) {
+      return Loading();
+    } else if (app.status == AppStatus.Loaded) {
+      return HomePage();
+    } else if (app.status == AppStatus.Error) {
+      return ErrorView(message: app.errorMessage);
+    } else {
+      return Loading();
     }
-    return Loading();
   }
 }
