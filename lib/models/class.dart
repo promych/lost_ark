@@ -29,7 +29,7 @@ class CharacterClass {
       name: json['name'][lang],
       archetype: json['archetype'][lang],
       description: json['description'][lang],
-      weapon: json['weapon'],
+      weapon: json['weapon'][lang],
       stats: json['stats'],
       icon: json['icon'],
       imagePath:

@@ -1,6 +1,8 @@
 {
   "classes": "Classes",
   "save": "Save",
+  "delete": "Delete",
+  "cancel": "Cancel",
   "saved builds": "Saved builds",
   "select language": "Select language",
   "settings": "Settings",
@@ -9,5 +11,6 @@
   "defense": "Defense",
   "attack": "Attack",
   "range": "Range",
-  "support": "Support"
+  "support": "Support",
+  "weapon": "Weapon"
 }

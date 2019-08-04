@@ -1,6 +1,8 @@
 {
   "classes": "Классы",
   "save": "Сохранить",
+  "delete": "Удалить",
+  "cancel": "Отмена",
   "saved builds": "Сохраненные билды",
   "select language": "Выбор языка",
   "settings": "Настройки",
@@ -9,5 +11,6 @@
   "defense": "Защита",
   "attack": "Атака",
   "range": "Дальность",
-  "support": "Поддержка"
+  "support": "Поддержка",
+  "weapon": "Оружие"
 }

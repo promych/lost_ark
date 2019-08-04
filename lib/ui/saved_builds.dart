@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lost_ark/managers/app_manager.dart';
 import 'package:lost_ark/managers/build_manager.dart';
+import 'package:lost_ark/managers/locale_manager.dart';
 import 'package:provider/provider.dart';
 import 'package:sembast/sembast.dart';
 
@@ -47,7 +48,23 @@ class _BuildTile extends StatelessWidget {
 
     return Dismissible(
       key: ValueKey(item.key),
-      background: Container(color: CupertinoColors.destructiveRed),
+      direction: DismissDirection.endToStart,
+      background: Container(
+        decoration: BoxDecoration(
+          color: CupertinoColors.destructiveRed,
+          borderRadius: BorderRadius.all(Radius.circular(4.0)),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.end,
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(LocaleManager.of(context).translate('delete')),
+            SizedBox(width: 10.0),
+            Icon(Icons.delete),
+            SizedBox(width: 10.0),
+          ],
+        ),
+      ),
       child: Container(
         decoration: BoxDecoration(
             color: CupertinoTheme.of(context).primaryContrastingColor,
@@ -55,13 +72,20 @@ class _BuildTile extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text(app.classById(item['classId']).name),
-            Row(
-              children: List<Widget>.from(
-                item['skills'].map((item) => Image.asset(
-                      app.skillById(item['id']).iconUrl,
-                      height: 32.0,
-                    )),
+            Padding(
+              padding: const EdgeInsets.only(left: 10.0),
+              child: Text(app.classById(item['classId']).name),
+            ),
+            Expanded(
+              child: Row(
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: List<Widget>.from(
+                  item['skills'].map((item) => Image.asset(
+                        app.skillById(item['id']).iconUrl,
+                        height: 32.0,
+                      )),
+                ),
               ),
             ),
             CupertinoButton(

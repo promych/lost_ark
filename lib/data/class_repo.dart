@@ -26,7 +26,10 @@ const List<Map<String, dynamic>> _classData = [
       'ru':
           'Этот магический персонаж вооружен колодой карт. С помощью мощных и разнообразных заклинаний он наносит урон по врагу.',
     },
-    'weapon': 'Tarot Card',
+    'weapon': {
+      'en': 'Tarot Card',
+      'ru': 'Карты Таро',
+    },
     'stats': {
       'control': 5,
       'speed': 60,
@@ -51,7 +54,10 @@ const List<Map<String, dynamic>> _classData = [
       'en': 'Bard makes doot doots that help everyone!',
       'ru': 'Использует мелодии для поддержки сопартицев.',
     },
-    'weapon': 'Liana Harp',
+    'weapon': {
+      'en': 'Harp',
+      'ru': 'Арфа',
+    },
     'stats': {
       'control': 1,
       'speed': 20,
@@ -77,7 +83,10 @@ const List<Map<String, dynamic>> _classData = [
           'The Summoner can command beasts by interacting with spirits. The power of the Ancient Spirits are especially immense.',
       'ru': 'Может призывать зверей и управлять древними духами.',
     },
-    'weapon': 'Staff',
+    'weapon': {
+      'en': 'Staff',
+      'ru': 'Посох',
+    },
     'stats': {
       'control': 3,
       'speed': 30,
@@ -104,7 +113,10 @@ const List<Map<String, dynamic>> _classData = [
       'ru':
           'Стрелок может использовать в своем вооружении огнестрельное оружие. На выбор парные пистолеты, винтовки и дробовики при смене оружия, у него меняются умения.',
     },
-    'weapon': 'Gun',
+    'weapon': {
+      'en': 'Guns',
+      'ru': 'Пистолеты',
+    },
     'stats': {
       'control': 5,
       'speed': 50,
@@ -127,9 +139,13 @@ const List<Map<String, dynamic>> _classData = [
     },
     'description': {
       'en': 'Blaster, character who blasts!',
-      'ru': 'Человек-арсенал!',
+      'ru':
+          'Накапливает огневую мощь ракетницы, которую можно перевести в режим турели.',
     },
-    'weapon': 'Launcher',
+    'weapon': {
+      'en': 'Launcher',
+      'ru': 'Ракетница-трансформер',
+    },
     'stats': {
       'control': 3,
       'speed': 10,
@@ -155,13 +171,16 @@ const List<Map<String, dynamic>> _classData = [
           'Moves agile and attacks enemies with machine bows, special arrows and Silver Hawk.',
       'ru': 'Проворный стрелок, использующий лук и механического сокола.',
     },
-    'weapon': 'Mechanical Bow',
+    'weapon': {
+      'en': 'Mechanical Bow',
+      'ru': 'Механичесикй лук',
+    },
     'stats': {
       'control': 4,
       'speed': 80,
       'defense': 40,
       'attack': 60,
-      'range': 30,
+      'range': 60,
       'support': 30,
     },
     'icon': LostArk.class_hawkeye,
@@ -180,9 +199,12 @@ const List<Map<String, dynamic>> _classData = [
       'en':
           'The battle master is a martial art class that attacks enemies like lightning stones. It is equipped with various exercises for quick movement, so you can hit the enemy in a flash and continue the colorful air combo. You can also use the powerful elemental skills to reverse the battlefield.',
       'ru':
-          'Носит легкие кастеты перчатки, которыми наносит урон. ДД  у которого очень высокая скорость и ловкость. Дополнения ко всему много комбо-атак.',
+          'Носит легкие кастеты-перчатки, которыми наносит урон. ДД  у которого очень высокая скорость и ловкость. Дополнения ко всему много комбо-атак.',
     },
-    'weapon': 'Light Gauntlet',
+    'weapon': {
+      'en': 'Light Gauntlet',
+      'ru': 'Легкие кастеты',
+    },
     'stats': {
       'control': 4,
       'speed': 90,
@@ -208,7 +230,10 @@ const List<Map<String, dynamic>> _classData = [
           'The Infighter is a heavy handed martial artist. Her attacks explode with pent up energy and deal terrifying amounts of damage. Enemies who are stuck may become pulverized, or are blown away by the impact.',
       'ru': 'Использует тяжелые силовые перчатки.',
     },
-    'weapon': 'Heavy Gauntlet',
+    'weapon': {
+      'en': 'Heavy Gauntlet',
+      'ru': 'Тяжелые кастеты-перчатки',
+    },
     'stats': {
       'control': 3,
       'speed': 60,
@@ -235,7 +260,10 @@ const List<Map<String, dynamic>> _classData = [
       'ru':
           'Владеет уникальными техниками боевых искусств. Подчинив себе потоки энергии, может атаковать противников как вблизи, так и на расстоянии.',
     },
-    'weapon': 'Ductile Gauntlet',
+    'weapon': {
+      'en': 'Gauntlet',
+      'ru': 'Кастеты',
+    },
     'stats': {
       'control': 2,
       'speed': 20,
@@ -260,9 +288,12 @@ const List<Map<String, dynamic>> _classData = [
       'en':
           'The Warlord is a knight with strong armor. Even while soaking damage he has a number of attacks with his lance and shield.',
       'ru':
-          'Полководец всегда первым врывается в бой. Самых дерзких противников остудит сталь его щита, а беглецов добьет залп пулебарды – коппья со встроенной винтовкой.',
+          'Полководец всегда первым врывается в бой. Самых дерзких противников остуд��т сталь его щита, а беглецов добьет залп пулебарды – коппья со встроенной винтовкой.',
     },
-    'weapon': 'Gunlance',
+    'weapon': {
+      'en': 'Gunlance',
+      'ru': 'Копье-пушка',
+    },
     'stats': {
       'control': 3,
       'speed': 20,
@@ -288,7 +319,10 @@ const List<Map<String, dynamic>> _classData = [
       'ru':
           'В руках сокрушителя огромный молот, заряженной энергией молний. Пусть этот воин кажется неповоротливым, зато одного его удара достаточно, чтобы сровнять противника с землей.',
     },
-    'weapon': 'Hammer',
+    'weapon': {
+      'en': 'Hammer',
+      'ru': 'Молот',
+    },
     'stats': {
       'control': 2,
       'speed': 10,
@@ -312,9 +346,12 @@ const List<Map<String, dynamic>> _classData = [
     'description': {
       'en':
           'The Berserker is a warrior that wields a huge two-handed sword in battle. He is able to enter a frenzied state, and while in it can crush any enemy with his strength.',
-      'ru': '',
+      'ru': 'Накапливает ярость для сокуршительных атак.',
     },
-    'weapon': 'Sword',
+    'weapon': {
+      'en': 'Sword',
+      'ru': 'Меч',
+    },
     'stats': {
       'control': 1,
       'speed': 40,

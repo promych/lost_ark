@@ -69,7 +69,7 @@ class ClassPage extends StatelessWidget {
                     ),
                     SizedBox(height: 20.0),
                     Text(
-                      'Weapon: ${classData.weapon}',
+                      '${LocaleManager.of(context).translate('weapon')}: ${classData.weapon}',
                       style: TextStyle(
                           fontSize: 24.0,
                           color: CupertinoTheme.of(context).primaryColor),
