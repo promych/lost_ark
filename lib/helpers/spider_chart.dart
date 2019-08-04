@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'dart:math' show pi, cos, sin;
 
 import 'package:flutter/material.dart';
+import 'package:lost_ark/managers/locale_manager.dart';
 
 class SpiderChart extends StatelessWidget {
   final List<double> data;
@@ -25,12 +26,21 @@ class SpiderChart extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final axisLabels = [
+      LocaleManager.of(context).translate('attack'),
+      LocaleManager.of(context).translate('speed'),
+      LocaleManager.of(context).translate('defense'),
+      LocaleManager.of(context).translate('support'),
+      LocaleManager.of(context).translate('range'),
+    ];
+
     return LimitedBox(
       maxWidth: fallbackWidth,
       maxHeight: fallbackHeight,
       child: CustomPaint(
         size: size,
-        painter: SpiderChartPainter(data, maxValue, colors, decimalPrecision),
+        painter: SpiderChartPainter(
+            data, maxValue, colors, decimalPrecision, axisLabels),
       ),
     );
   }
@@ -41,6 +51,7 @@ class SpiderChartPainter extends CustomPainter {
   final double maxNumber;
   final List<Color> colors;
   final decimalPrecision;
+  final List<String> axisLabels;
 
   final Paint spokes = Paint()..color = Colors.grey;
 
@@ -52,8 +63,8 @@ class SpiderChartPainter extends CustomPainter {
     ..color = Colors.white //Color.fromARGB(255, 50, 50, 50)
     ..style = PaintingStyle.stroke;
 
-  SpiderChartPainter(
-      this.data, this.maxNumber, this.colors, this.decimalPrecision);
+  SpiderChartPainter(this.data, this.maxNumber, this.colors,
+      this.decimalPrecision, this.axisLabels);
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -74,7 +85,8 @@ class SpiderChartPainter extends CustomPainter {
     paintGraphOutline(canvas, center, angle);
     paintDataLines(canvas, points);
     paintDataPoints(canvas, points);
-    paintText(canvas, center, points, data);
+    // paintText(canvas, center, points, data);
+    paintAxisLabeles(canvas, center, points, angle, axisLabels);
   }
 
   void paintDataLines(Canvas canvas, List<Offset> points) {
@@ -102,6 +114,7 @@ class SpiderChartPainter extends CustomPainter {
       textPainter.text =
           TextSpan(text: s, style: TextStyle(color: Colors.white));
       textPainter.layout();
+
       if (points[i].dx < center.dx) {
         textPainter.paint(
             canvas, points[i].translate(-(textPainter.size.width + 5.0), 0));
@@ -113,6 +126,34 @@ class SpiderChartPainter extends CustomPainter {
       } else {
         textPainter.paint(
             canvas, points[i].translate(-(textPainter.size.width / 2), 4));
+      }
+    }
+  }
+
+  void paintAxisLabeles(Canvas canvas, Offset center, List<Offset> points,
+      double angle, List<String> axisLabels) {
+    var textPainter = TextPainter(textDirection: TextDirection.ltr);
+
+    for (var i = 0; i < points.length; i++) {
+      textPainter.text =
+          TextSpan(text: axisLabels[i], style: TextStyle(color: Colors.white));
+      textPainter.layout();
+
+      var x = center.dy * cos(angle * i - pi / 2);
+      var y = center.dy * sin(angle * i - pi / 2);
+
+      if (points[i].dx < center.dx) {
+        textPainter.paint(
+            canvas,
+            center +
+                Offset(
+                    x - textPainter.width - 10.0, y - textPainter.height / 2));
+      } else if (points[i].dx > center.dx) {
+        textPainter.paint(
+            canvas, center + Offset(x + 10.0, y - textPainter.height / 2));
+      } else if (points[i].dy < center.dy) {
+        textPainter.paint(canvas,
+            center + Offset(x - textPainter.width / 2, y - textPainter.height));
       }
     }
   }

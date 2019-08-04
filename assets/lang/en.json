@@ -4,5 +4,10 @@
   "saved builds": "Saved builds",
   "select language": "Select language",
   "settings": "Settings",
-  "skills": "Skills"
+  "skills": "Skills",
+  "speed": "Speed",
+  "defense": "Defense",
+  "attack": "Attack",
+  "range": "Range",
+  "support": "Support"
 }

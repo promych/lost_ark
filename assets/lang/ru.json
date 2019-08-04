@@ -4,5 +4,10 @@
   "saved builds": "Сохраненные билды",
   "select language": "Выбор языка",
   "settings": "Настройки",
-  "skills": "Умения"
+  "skills": "Умения",
+  "speed": "Подвижность",
+  "defense": "Защита",
+  "attack": "Атака",
+  "range": "Дальность",
+  "support": "Поддержка"
 }

@@ -75,19 +75,29 @@ class ClassPage extends StatelessWidget {
                           color: CupertinoTheme.of(context).primaryColor),
                     ),
                     SizedBox(height: 20.0),
-                    _StatsSpider(
-                      speed: classData.stats['speed'].toDouble(),
-                      defense: classData.stats['defense'].toDouble(),
-                      attack: classData.stats['attack'].toDouble(),
-                      range: classData.stats['range'].toDouble(),
-                      support: classData.stats['support'].toDouble(),
+                    Center(
+                      child: _StatsSpider(
+                        attack: classData.stats['attack'].toDouble(),
+                        speed: classData.stats['speed'].toDouble(),
+                        defense: classData.stats['defense'].toDouble(),
+                        support: classData.stats['support'].toDouble(),
+                        range: classData.stats['range'].toDouble(),
+                      ),
                     ),
                     SizedBox(height: 20.0),
-                    Text(
-                      classData.description,
-                      style: TextStyle(
-                          fontSize: 20.0,
-                          color: CupertinoTheme.of(context).primaryColor),
+                    Container(
+                      padding: const EdgeInsets.all(10.0),
+                      decoration: BoxDecoration(
+                        color:
+                            CupertinoTheme.of(context).primaryContrastingColor,
+                        borderRadius: BorderRadius.all(Radius.circular(4.0)),
+                      ),
+                      child: Text(
+                        classData.description,
+                        style: TextStyle(
+                            fontSize: 20.0,
+                            color: CupertinoTheme.of(context).primaryColor),
+                      ),
                     ),
                     SizedBox(height: 20.0),
                     Center(
@@ -131,11 +141,11 @@ class _StatsSpider extends StatelessWidget {
       child: SpiderChart(
         maxValue: 100.0,
         data: [
+          attack,
           speed,
           defense,
-          attack,
-          range,
           support,
+          range,
         ],
         colors: [
           Colors.white,

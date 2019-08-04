@@ -37,7 +37,7 @@ class RedditPost {
       final diff = DateTime.now().difference(dateCreated);
 
       if (diff.inMinutes < 60) {
-        return '${diff.inMinutes} ago';
+        return '${diff.inMinutes} minutes ago';
       } else if (diff.inHours < 24) {
         return _toHours(diff.inHours);
       } else {
