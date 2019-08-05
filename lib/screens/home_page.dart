@@ -1,28 +1,23 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/helpers/theme.dart';
+import 'package:lost_ark/managers/locale_manager.dart';
 
 import 'package:lost_ark/screens/class_list_page.dart';
 import 'package:lost_ark/screens/class_selector_page.dart';
 import 'package:lost_ark/screens/class_page.dart';
-import 'package:lost_ark/screens/reddit_page.dart';
 import 'package:lost_ark/screens/settings_page.dart';
+import 'package:lost_ark/screens/simple_page.dart';
 import 'package:lost_ark/screens/skills_page.dart';
+import 'package:lost_ark/ui/reddit_posts.dart';
 
 class HomePage extends StatelessWidget {
-  // static const routeName = '/';
-
   @override
   Widget build(BuildContext context) {
-    // return CupertinoPageScaffold(
-    //   child: DefaultTextStyle(
-    //     style: Styles.defaultText,
-    //     child: CupertinoTabScaffold(
-    //     ),
-    //   ),
-    // );
     return CupertinoTabScaffold(
       tabBar: CupertinoTabBar(
-        backgroundColor: CupertinoTheme.of(context).primaryContrastingColor,
+        backgroundColor: Styles.layerColor,
+        activeColor: Styles.cyanColor,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home)),
           BottomNavigationBarItem(icon: Icon(Icons.people)),
@@ -32,7 +27,10 @@ class HomePage extends StatelessWidget {
       tabBuilder: (_, int index) {
         switch (index) {
           case 0:
-            return CupertinoTabView(builder: (_) => RedditPage());
+            return CupertinoTabView(
+              builder: (_) =>
+                  SimplePage(title: 'Lost Ark', child: RedditPosts()),
+            );
           case 1:
             return CupertinoTabView(
               builder: (_) => ClassSelectorPage(),
@@ -44,7 +42,12 @@ class HomePage extends StatelessWidget {
               },
             );
           case 2:
-            return CupertinoTabView(builder: (_) => SettingsPage());
+            return CupertinoTabView(
+              builder: (_) => SimplePage(
+                title: LocaleManager.of(context).translate('settings'),
+                child: SettingsPage(),
+              ),
+            );
         }
         return null;
       },

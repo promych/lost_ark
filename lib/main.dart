@@ -51,7 +51,7 @@ class App extends StatelessWidget {
       ],
       child: Consumer<AppManager>(
         builder: (context, AppManager app, _) {
-          return Platform.isAndroid
+          return Platform.isIOS
               ? MaterialApp(
                   debugShowCheckedModeBanner: false,
                   theme: appMaterialTheme,

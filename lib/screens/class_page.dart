@@ -1,8 +1,12 @@
+import 'dart:io';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/helpers/theme.dart';
 import 'package:lost_ark/managers/app_manager.dart';
 import 'package:lost_ark/managers/locale_manager.dart';
 import 'package:lost_ark/ui/cupertino_navbar.dart';
+import 'package:lost_ark/ui/material_appbar.dart';
 
 import 'package:provider/provider.dart';
 
@@ -14,107 +18,129 @@ class ClassPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final backTitle = LocaleManager.of(context).translate('classes');
+    final Function openSkills =
+        () => Navigator.of(context).pushReplacementNamed('/skills');
+
+    return Platform.isIOS
+        ? Scaffold(
+            appBar: MyMaterialAppBar(
+              backTitle: backTitle,
+              trailing: FlatButton(
+                child: Text(
+                  LocaleManager.of(context).translate('skills'),
+                  style: Styles.defaultText20,
+                ),
+                onPressed: openSkills,
+              ),
+            ),
+            body: _ClassPageBody(),
+          )
+        : CupertinoPageScaffold(
+            navigationBar: MyCupertinoNavBar(
+              backTitle: backTitle,
+              trailing: GestureDetector(
+                child: Text(
+                  LocaleManager.of(context).translate('skills'),
+                  style: Styles.defaultText,
+                ),
+                onTap: openSkills,
+              ),
+            ),
+            child: _ClassPageBody(),
+          );
+  }
+}
+
+class _ClassPageBody extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
     final classData =
         Provider.of<AppManager>(context, listen: false).selectedClass;
 
-    return CupertinoPageScaffold(
-      navigationBar: MyCupertinoNavBar(
-        backTitle: LocaleManager.of(context).translate('classes'),
-        trailing: GestureDetector(
-            child: Text(
-              LocaleManager.of(context).translate('skills'),
-              style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
+    return SafeArea(
+      bottom: false,
+      child: Stack(
+        children: [
+          Positioned(
+            // bottom: -50.0,
+            // left: -50.0,
+            right: -50.0,
+            child: Icon(
+              classData.icon,
+              size: 200.0,
+              color: Colors.white10,
             ),
-            onTap: () {
-              Navigator.of(context).pushReplacementNamed('/skills');
-            }),
-      ),
-      child: SafeArea(
-        bottom: false,
-        child: Stack(
-          children: [
-            Positioned(
-              // bottom: -50.0,
-              // left: -50.0,
-              right: -50.0,
-              child: Icon(
-                classData.icon,
-                size: 200.0,
-                color: Colors.white10,
+          ),
+          // Positioned(
+          //   right: -50.0,
+          //   child: Container(
+          //     constraints: BoxConstraints(
+          //             maxHeight: MediaQuery.of(context).size.height) *
+          //         0.4,
+          //     child: Hero(
+          //       tag: 'img-${classData.name}',
+          //       child: Image.asset(classData.imagePath),
+          //     ),
+          //   ),
+          // ),
+          Container(
+            height: double.infinity,
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.all(10.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    classData.name,
+                    style: TextStyle(
+                        fontSize: MediaQuery.of(context).size.width / 12,
+                        color: Styles.defaultWhite),
+                  ),
+                  SizedBox(height: 10.0),
+                  Text(
+                    '${LocaleManager.of(context).translate('weapon')}: ${classData.weapon}',
+                    style: TextStyle(
+                        fontSize: MediaQuery.of(context).size.width / 18,
+                        color: Styles.lightGrey),
+                  ),
+                  SizedBox(height: 40.0),
+                  Center(
+                    child: _StatsSpider(
+                      attack: classData.stats['attack'].toDouble(),
+                      speed: classData.stats['speed'].toDouble(),
+                      defense: classData.stats['defense'].toDouble(),
+                      support: classData.stats['support'].toDouble(),
+                      range: classData.stats['range'].toDouble(),
+                    ),
+                  ),
+                  SizedBox(height: 20.0),
+                  Container(
+                    padding: const EdgeInsets.all(10.0),
+                    width: double.infinity,
+                    decoration: BoxDecoration(
+                      color: Styles.layerColor,
+                      borderRadius: BorderRadius.all(Radius.circular(4.0)),
+                    ),
+                    child: Text(
+                      classData.description,
+                      style:
+                          TextStyle(fontSize: 20.0, color: Styles.defaultWhite),
+                    ),
+                  ),
+                  SizedBox(height: 20.0),
+                  Center(
+                    child: Container(
+                      width: 400.0,
+                      height: 200.0,
+                      child: Placeholder(),
+                    ),
+                  ),
+                ],
               ),
             ),
-            // Positioned(
-            //   right: -50.0,
-            //   child: Container(
-            //     constraints: BoxConstraints(
-            //             maxHeight: MediaQuery.of(context).size.height) *
-            //         0.4,
-            //     child: Hero(
-            //       tag: 'img-${classData.name}',
-            //       child: Image.asset(classData.imagePath),
-            //     ),
-            //   ),
-            // ),
-            Container(
-              height: double.infinity,
-              child: SingleChildScrollView(
-                padding: const EdgeInsets.all(10.0),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      classData.name,
-                      style: TextStyle(
-                          fontSize: MediaQuery.of(context).size.width / 12,
-                          color: CupertinoTheme.of(context).primaryColor),
-                    ),
-                    SizedBox(height: 10.0),
-                    Text(
-                      '${LocaleManager.of(context).translate('weapon')}: ${classData.weapon}',
-                      style: TextStyle(
-                          fontSize: MediaQuery.of(context).size.width / 18,
-                          color: CupertinoColors.lightBackgroundGray),
-                    ),
-                    SizedBox(height: 40.0),
-                    Center(
-                      child: _StatsSpider(
-                        attack: classData.stats['attack'].toDouble(),
-                        speed: classData.stats['speed'].toDouble(),
-                        defense: classData.stats['defense'].toDouble(),
-                        support: classData.stats['support'].toDouble(),
-                        range: classData.stats['range'].toDouble(),
-                      ),
-                    ),
-                    SizedBox(height: 20.0),
-                    Container(
-                      padding: const EdgeInsets.all(10.0),
-                      width: double.infinity,
-                      decoration: BoxDecoration(
-                        color:
-                            CupertinoTheme.of(context).primaryContrastingColor,
-                        borderRadius: BorderRadius.all(Radius.circular(4.0)),
-                      ),
-                      child: Text(
-                        classData.description,
-                        style: TextStyle(
-                            fontSize: 20.0,
-                            color: CupertinoTheme.of(context).primaryColor),
-                      ),
-                    ),
-                    SizedBox(height: 20.0),
-                    Center(
-                      child: Container(
-                        width: 400.0,
-                        height: 200.0,
-                        child: Placeholder(),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

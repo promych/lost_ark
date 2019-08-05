@@ -1,9 +1,15 @@
+import 'dart:io' show Platform;
+
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/helpers/theme.dart';
 import 'package:lost_ark/managers/build_manager.dart';
 import 'package:lost_ark/managers/locale_manager.dart';
 import 'package:lost_ark/models/skill.dart';
+import 'package:lost_ark/ui/build_points.dart';
+import 'package:lost_ark/ui/cupertino_navbar.dart';
+import 'package:lost_ark/ui/material_appbar.dart';
 import 'package:lost_ark/ui/tripod_indicator.dart';
 import 'package:provider/provider.dart';
 
@@ -16,87 +22,87 @@ class TripodPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final app = Provider.of<AppManager>(context, listen: false);
-    final skill = app.skillById(id);
+    final skill = Provider.of<AppManager>(context, listen: false).skillById(id);
+
+    return Platform.isIOS
+        ? Scaffold(
+            appBar: MyMaterialAppBar(
+              title: BuildPoints(),
+              trailing: TripodIndicator(skillId: skill.id),
+            ),
+            body: _TripodPageBody(skill: skill),
+          )
+        : CupertinoPageScaffold(
+            navigationBar: MyCupertinoNavBar(
+                backTitle: LocaleManager.of(context).translate('skills'),
+                middle: BuildPoints(),
+                trailing: TripodIndicator(skillId: skill.id)),
+            child: _TripodPageBody(skill: skill),
+          );
+  }
+}
+
+class _TripodPageBody extends StatelessWidget {
+  final Skill skill;
+
+  _TripodPageBody({@required this.skill});
+
+  @override
+  Widget build(BuildContext context) {
     final scale = MediaQuery.of(context).size.width <= 360 ? 24.0 : 32.0;
 
-    return CupertinoPageScaffold(
-      navigationBar: CupertinoNavigationBar(
-          backgroundColor: CupertinoTheme.of(context).primaryContrastingColor,
-          previousPageTitle: LocaleManager.of(context).translate('skills'),
-          middle: Consumer<BuildManager>(
-            builder: (context, build, _) {
-              return Text(
-                '${build.pointsByClass(app.selectedClass.id)} / $kMaxPointsPerBuild',
-                style:
-                    TextStyle(color: CupertinoTheme.of(context).primaryColor),
-              );
-            },
-          ),
-          trailing: TripodIndicator(skillId: skill.id)),
-      child: SafeArea(
-        bottom: false,
-        child: SingleChildScrollView(
-          padding: const EdgeInsets.all(10.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  Image.asset(skill.iconUrl, height: scale * 2),
-                  Expanded(
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 10.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            skill.name,
-                            style: TextStyle(
-                                color: CupertinoTheme.of(context).primaryColor),
-                          ),
-                          Text(
-                            skill.type,
-                            style:
-                                TextStyle(color: CupertinoColors.inactiveGray),
-                          ),
-                        ],
-                      ),
+    return SafeArea(
+      bottom: false,
+      child: SingleChildScrollView(
+        padding: const EdgeInsets.all(10.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Image.asset(skill.iconUrl, height: scale * 2),
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(skill.name, style: Styles.defaultText),
+                        Text(
+                          skill.type,
+                          style: TextStyle(color: CupertinoColors.inactiveGray),
+                        ),
+                      ],
                     ),
                   ),
-                  Row(mainAxisSize: MainAxisSize.min, children: [
-                    Icon(Icons.hourglass_empty),
-                    Text(
-                      '${skill.cooldown}',
-                      style: TextStyle(
-                          color: CupertinoTheme.of(context).primaryColor),
-                    ),
-                  ]),
-                ],
-              ),
-              Divider(
-                color: CupertinoTheme.of(context).primaryContrastingColor,
-              ),
-              Text(
-                '${skill.description}',
-                style: TextStyle(
-                    fontSize: 16.0,
-                    color: CupertinoTheme.of(context).primaryColor),
-              ),
-              for (var i = 0; i < 3; ++i)
-                _TierRow(
-                  skillId: skill.id,
-                  tier: skill.tripod.elementAt(i),
-                  iconScale: scale,
                 ),
-              Center(
-                child: CupertinoButton(
-                  child: Text('DONE'),
-                  onPressed: () => Navigator.of(context).pop(),
-                ),
+                Row(mainAxisSize: MainAxisSize.min, children: [
+                  Icon(Icons.hourglass_empty),
+                  Text(
+                    '${skill.cooldown}',
+                    style: Styles.defaultText,
+                  ),
+                ]),
+              ],
+            ),
+            Divider(color: Styles.layerColor),
+            Text(
+              '${skill.description}',
+              style: TextStyle(fontSize: 16.0, color: Styles.defaultWhite),
+            ),
+            for (var i = 0; i < 3; ++i)
+              _TierRow(
+                skillId: skill.id,
+                tier: skill.tripod.elementAt(i),
+                iconScale: scale,
               ),
-            ],
-          ),
+            Center(
+              child: CupertinoButton(
+                child: Text('DONE'),
+                onPressed: () => Navigator.of(context).pop(),
+              ),
+            ),
+          ],
         ),
       ),
     );
@@ -136,7 +142,7 @@ class _TierRow extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 10.0),
       child: Container(
         decoration: BoxDecoration(
-          color: CupertinoTheme.of(context).primaryContrastingColor,
+          color: Styles.layerColor,
           borderRadius: BorderRadius.all(Radius.circular(4.0)),
         ),
         child: Column(
@@ -148,9 +154,7 @@ class _TierRow extends StatelessWidget {
                 child: selectedEnchancementId == ''
                     ? Text(
                         'Tier ${tier.tier}',
-                        style: TextStyle(
-                            fontSize: 20.0,
-                            color: CupertinoTheme.of(context).primaryColor),
+                        style: Styles.defaultText20,
                       )
                     : AutoSizeText(
                         tier.enchancements
@@ -158,8 +162,7 @@ class _TierRow extends StatelessWidget {
                                 (item) => item.id == selectedEnchancementId)
                             .description,
                         maxFontSize: 16.0,
-                        style: TextStyle(
-                            color: CupertinoTheme.of(context).primaryColor),
+                        style: Styles.defaultText,
                       ),
               ),
             ),
@@ -183,8 +186,8 @@ class _TierRow extends StatelessWidget {
                                 radius: iconScale + 2,
                                 child: CircleAvatar(
                                   radius: iconScale,
-                                  backgroundColor: CupertinoTheme.of(context)
-                                      .scaffoldBackgroundColor,
+                                  backgroundColor:
+                                      Styles.scaffoldBackgroundColor,
                                   child: Image.asset(enchancement.iconUrl),
                                   // backgroundImage: AssetImage(enchancement.iconUrl),
                                 ),
@@ -195,8 +198,7 @@ class _TierRow extends StatelessWidget {
                             Text(
                               enchancement.name,
                               style: TextStyle(
-                                  fontSize: 16.0,
-                                  color: CupertinoColors.lightBackgroundGray),
+                                  fontSize: 16.0, color: Styles.lightGrey),
                               textAlign: TextAlign.center,
                             )
                           ],

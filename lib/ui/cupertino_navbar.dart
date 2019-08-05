@@ -1,30 +1,25 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/helpers/theme.dart';
 
 class MyCupertinoNavBar extends StatelessWidget
     implements ObstructingPreferredSizeWidget {
   final String backTitle;
-  final String title;
+  final Widget middle;
   final Widget trailing;
   final Color _backgroundColor;
 
-  const MyCupertinoNavBar({@required this.backTitle, this.title, this.trailing})
+  const MyCupertinoNavBar({this.backTitle, this.middle, this.trailing})
       : _backgroundColor = Colors.transparent;
 
   @override
   Widget build(BuildContext context) {
     return CupertinoNavigationBar(
       automaticallyImplyMiddle: false,
-      backgroundColor: CupertinoTheme.of(context)
-          .primaryContrastingColor, //_backgroundColor,
-      actionsForegroundColor: CupertinoTheme.of(context).primaryColor,
+      backgroundColor: Styles.layerColor,
+      actionsForegroundColor: Styles.defaultWhite,
       previousPageTitle: backTitle,
-      middle: title != null
-          ? Text(
-              title,
-              style: TextStyle(color: CupertinoTheme.of(context).primaryColor),
-            )
-          : null,
+      middle: middle ?? null,
       trailing: trailing ?? null,
     );
   }

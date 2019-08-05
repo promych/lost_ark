@@ -1,5 +1,8 @@
+import 'dart:io' show Platform;
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/helpers/theme.dart';
 import 'package:lost_ark/managers/app_manager.dart';
 import 'package:lost_ark/managers/build_manager.dart';
 import 'package:lost_ark/managers/locale_manager.dart';
@@ -31,7 +34,8 @@ class SavedBuilds extends StatelessWidget {
                     itemCount: snapshot.data.length,
                     itemBuilder: (_, int id) =>
                         _BuildTile(item: snapshot.data[id]),
-                    separatorBuilder: (context, _) => Divider(),
+                    separatorBuilder: (context, _) =>
+                        Divider(color: Styles.scaffoldBackgroundColor),
                   );
           }
           return null;
@@ -72,17 +76,17 @@ class _BuildTile extends StatelessWidget {
       ),
       child: Container(
         decoration: BoxDecoration(
-            color: CupertinoTheme.of(context).primaryContrastingColor,
+            color: Styles.layerColor,
             borderRadius: BorderRadius.all(Radius.circular(4.0))),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Padding(
-              padding: const EdgeInsets.only(left: 10.0),
-              child: MediaQuery.of(context).size.width <= 360
-                  ? Icon(app.classById(item['classId']).icon)
-                  : Text(app.classById(item['classId']).name),
-            ),
+                padding: const EdgeInsets.only(left: 10.0),
+                // child: MediaQuery.of(context).size.width <= 360
+                child: Icon(app.classById(item['classId']).icon)
+                // : Text(app.classById(item['classId']).name),
+                ),
             Expanded(
               child: Wrap(
                 alignment: WrapAlignment.end,
@@ -96,14 +100,30 @@ class _BuildTile extends StatelessWidget {
                 ),
               ),
             ),
-            CupertinoButton(
-              child: Icon(Icons.unarchive),
-              onPressed: () => build.unpackBuild(item.key),
-            ),
+            _UnpackButton(onPressed: () => build.unpackBuild(item.key)),
           ],
         ),
       ),
       onDismissed: (_) => build.deleteFromBuild(item.key),
     );
+  }
+}
+
+class _UnpackButton extends StatelessWidget {
+  final Function onPressed;
+
+  _UnpackButton({@required this.onPressed});
+
+  @override
+  Widget build(BuildContext context) {
+    return Platform.isIOS
+        ? IconButton(
+            icon: Icon(Icons.unarchive),
+            onPressed: onPressed,
+          )
+        : CupertinoButton(
+            child: Icon(Icons.unarchive),
+            onPressed: onPressed,
+          );
   }
 }

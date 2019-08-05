@@ -1,6 +1,7 @@
 import 'package:html_unescape/html_unescape_small.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/helpers/theme.dart';
 import 'package:lost_ark/models/reddit_post.dart';
 import 'reddit_webview.dart';
 
@@ -15,7 +16,7 @@ class RedditPostTile extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(10.0),
       decoration: BoxDecoration(
-          color: CupertinoTheme.of(context).primaryContrastingColor,
+          color: Styles.layerColor,
           borderRadius: BorderRadius.all(Radius.circular(4.0))),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -54,8 +55,7 @@ class RedditPostTile extends StatelessWidget {
                 Divider(height: 30.0),
                 GestureDetector(
                   child: DefaultTextStyle(
-                    style:
-                        TextStyle(color: CupertinoColors.lightBackgroundGray),
+                    style: TextStyle(color: Styles.lightGrey),
                     child: Row(
                       children: [
                         Expanded(

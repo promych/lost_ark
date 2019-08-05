@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/helpers/theme.dart';
 import 'package:lost_ark/managers/app_manager.dart';
 import 'package:lost_ark/screens/tripod_page.dart';
 import 'package:lost_ark/ui/tripod_indicator.dart';
@@ -31,14 +32,10 @@ class SkillTile extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        skill.name,
-                        style: TextStyle(
-                            color: CupertinoTheme.of(context).primaryColor),
-                      ),
+                      Text(skill.name, style: Styles.defaultText20),
                       Text(
                         skill.type,
-                        style: TextStyle(color: CupertinoColors.inactiveGray),
+                        style: TextStyle(color: Styles.lightGrey),
                       ),
                     ],
                   ),

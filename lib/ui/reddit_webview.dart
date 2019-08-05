@@ -1,6 +1,12 @@
+import 'dart:io' show Platform;
+
 import 'package:flutter/cupertino.dart';
-import 'package:lost_ark/ui/cupertino_navbar.dart';
+import 'package:flutter/material.dart';
+
 import 'package:webview_flutter/webview_flutter.dart';
+
+import '../ui/material_appbar.dart';
+import '../ui/cupertino_navbar.dart';
 
 class RedditWebView extends StatelessWidget {
   final String url;
@@ -9,15 +15,29 @@ class RedditWebView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CupertinoPageScaffold(
-      navigationBar: MyCupertinoNavBar(
-        backTitle: 'Home',
-      ),
-      child: SafeArea(
-        child: WebView(
-          initialUrl: url,
-          javascriptMode: JavascriptMode.unrestricted,
-        ),
+    return Platform.isIOS
+        ? Scaffold(
+            appBar: MyMaterialAppBar(backTitle: 'Home'),
+            body: _RedditWebViewBody(url: url),
+          )
+        : CupertinoPageScaffold(
+            navigationBar: MyCupertinoNavBar(backTitle: 'Home'),
+            child: _RedditWebViewBody(url: url),
+          );
+  }
+}
+
+class _RedditWebViewBody extends StatelessWidget {
+  final String url;
+
+  _RedditWebViewBody({@required this.url});
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: WebView(
+        initialUrl: url,
+        javascriptMode: JavascriptMode.unrestricted,
       ),
     );
   }

@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/helpers/theme.dart';
 import 'package:lost_ark/managers/build_manager.dart';
 import 'package:provider/provider.dart';
 
@@ -18,19 +19,19 @@ class TripodIndicator extends StatelessWidget {
             Icons.looks_one,
             color: build.getSelectedEnchancementId(skillId, 1) != ''
                 ? CupertinoColors.activeBlue
-                : CupertinoTheme.of(context).primaryColor,
+                : Styles.lightGrey,
           ),
           Icon(
             Icons.looks_two,
             color: build.getSelectedEnchancementId(skillId, 2) != ''
                 ? CupertinoColors.activeGreen
-                : CupertinoTheme.of(context).primaryColor,
+                : Styles.lightGrey,
           ),
           Icon(
             Icons.looks_3,
             color: build.getSelectedEnchancementId(skillId, 3) != ''
                 ? CupertinoColors.activeOrange
-                : CupertinoTheme.of(context).primaryColor,
+                : Styles.lightGrey,
           ),
         ],
       );

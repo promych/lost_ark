@@ -1,72 +1,96 @@
+import 'dart:io' show Platform;
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/managers/app_manager.dart';
-import 'package:lost_ark/managers/locale_manager.dart';
-import 'package:lost_ark/ui/sliver_appbar_delegate.dart';
+import 'package:lost_ark/helpers/theme.dart';
+
 import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
-import '../ui/class_tile.dart';
+import '../managers/locale_manager.dart';
+import '../ui/material_appbar.dart';
 import '../ui/cupertino_navbar.dart';
+import '../ui/sliver_appbar_delegate.dart';
+import '../ui/class_tile.dart';
 
 class ClassListPage extends StatelessWidget {
   static const routeName = '/class-list';
 
   @override
   Widget build(BuildContext context) {
+    final barTitle = LocaleManager.of(context).translate('classes');
+    final switchToSelector =
+        () => Navigator.of(context).pushReplacementNamed('/class-selector');
+
+    return Platform.isIOS
+        ? Scaffold(
+            appBar: MyMaterialAppBar(
+              title: Text(barTitle, style: Styles.defaultText),
+              trailing: IconButton(
+                icon: Icon(Icons.view_carousel),
+                onPressed: switchToSelector,
+              ),
+            ),
+            body: _ClassListBody(),
+          )
+        : CupertinoPageScaffold(
+            navigationBar: MyCupertinoNavBar(
+              middle: Text(barTitle, style: Styles.defaultText),
+              trailing: GestureDetector(
+                child: Icon(Icons.view_carousel),
+                onTap: switchToSelector,
+              ),
+            ),
+            child: _ClassListBody(),
+          );
+  }
+}
+
+class _ClassListBody extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
     final app = Provider.of<AppManager>(context, listen: false);
 
-    return CupertinoPageScaffold(
-      navigationBar: MyCupertinoNavBar(
-        backTitle: 'Home',
-        title: LocaleManager.of(context).translate('classes'),
-        trailing: GestureDetector(
-          child: Icon(Icons.view_carousel),
-          onTap: () =>
-              Navigator.of(context).pushReplacementNamed('/class-selector'),
-        ),
-      ),
-      child: SafeArea(
-        bottom: false,
-        child: CustomScrollView(
-          slivers: [
-            for (var archetype in app.classArchetypes) ...[
-              SliverPersistentHeader(
-                pinned: false,
-                delegate: SliverAppBarDelegate(
-                  minHeight: 50.0,
-                  maxHeight: 80.0,
-                  child: Container(
-                    alignment: Alignment.bottomLeft,
-                    padding: const EdgeInsets.only(left: 10.0),
-                    child: Text(
-                      archetype,
-                      style: TextStyle(
-                        color: CupertinoTheme.of(context).primaryColor,
-                        fontSize: 40.0,
-                      ),
+    return SafeArea(
+      bottom: false,
+      child: CustomScrollView(
+        slivers: [
+          for (var archetype in app.classArchetypes) ...[
+            SliverPersistentHeader(
+              pinned: false,
+              delegate: SliverAppBarDelegate(
+                minHeight: 50.0,
+                maxHeight: 80.0,
+                child: Container(
+                  alignment: Alignment.bottomLeft,
+                  padding: const EdgeInsets.only(left: 10.0),
+                  child: Text(
+                    archetype,
+                    style: TextStyle(
+                      color: Styles.defaultWhite,
+                      fontSize: 40.0,
                     ),
                   ),
                 ),
               ),
-              SliverList(
-                delegate: SliverChildListDelegate(
-                  [
-                    for (var item in app.classesByArchetype(archetype))
-                      ClassTile(
-                        name: item.name,
-                        icon: item.icon,
-                        onTap: () {
-                          app.selectClass(item.name);
-                          Navigator.of(context).pushNamed('/class');
-                        },
-                      ),
-                  ],
-                ),
-              )
-            ],
+            ),
+            SliverList(
+              delegate: SliverChildListDelegate(
+                [
+                  for (var item in app.classesByArchetype(archetype))
+                    ClassTile(
+                      name: item.name,
+                      icon: item.icon,
+                      onTap: () {
+                        app.selectClass(item.name);
+                        Navigator.of(context).pushNamed('/class');
+                      },
+                    ),
+                ],
+              ),
+            )
           ],
-        ),
+        ],
       ),
     );
   }

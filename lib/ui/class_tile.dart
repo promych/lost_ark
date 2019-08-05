@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/helpers/theme.dart';
 
 class ClassTile extends StatelessWidget {
   final String name;
@@ -20,7 +21,7 @@ class ClassTile extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.all(10.0),
           decoration: BoxDecoration(
-            color: CupertinoTheme.of(context).primaryContrastingColor,
+            color: Styles.layerColor,
             borderRadius: BorderRadius.all(Radius.circular(4.0)),
           ),
           child: Row(
@@ -29,9 +30,7 @@ class ClassTile extends StatelessWidget {
               Expanded(
                 child: Text(
                   name,
-                  style: TextStyle(
-                      color: CupertinoTheme.of(context).primaryColor,
-                      fontSize: 30.0),
+                  style: TextStyle(color: Styles.defaultWhite, fontSize: 30.0),
                 ),
               ),
               Icon(icon, size: 40.0),
