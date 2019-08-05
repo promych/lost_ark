@@ -22,7 +22,9 @@ class SkillTile extends StatelessWidget {
           color: Colors.transparent,
           child: Row(
             children: [
-              Image.asset(skill.iconUrl),
+              Image.asset(skill.iconUrl,
+                  height:
+                      MediaQuery.of(context).size.width <= 360 ? 48.0 : 64.0),
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 10.0),

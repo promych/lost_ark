@@ -18,6 +18,7 @@ class TripodPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final app = Provider.of<AppManager>(context, listen: false);
     final skill = app.skillById(id);
+    final scale = MediaQuery.of(context).size.width <= 360 ? 24.0 : 32.0;
 
     return CupertinoPageScaffold(
       navigationBar: CupertinoNavigationBar(
@@ -42,7 +43,7 @@ class TripodPage extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  Image.asset(skill.iconUrl),
+                  Image.asset(skill.iconUrl, height: scale * 2),
                   Expanded(
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 10.0),
@@ -86,6 +87,7 @@ class TripodPage extends StatelessWidget {
                 _TierRow(
                   skillId: skill.id,
                   tier: skill.tripod.elementAt(i),
+                  iconScale: scale,
                 ),
               Center(
                 child: CupertinoButton(
@@ -104,10 +106,12 @@ class TripodPage extends StatelessWidget {
 class _TierRow extends StatelessWidget {
   final String skillId;
   final EnchancementTier tier;
+  final double iconScale;
 
   const _TierRow({
     @required this.skillId,
     @required this.tier,
+    @required this.iconScale,
   });
 
   Color _selectColor(int index) {
@@ -176,9 +180,9 @@ class _TierRow extends StatelessWidget {
                                     selectedEnchancementId == enchancement.id
                                         ? _selectColor(tier.tier)
                                         : Colors.transparent,
-                                radius: 34.0,
+                                radius: iconScale + 2,
                                 child: CircleAvatar(
-                                  radius: 32.0,
+                                  radius: iconScale,
                                   backgroundColor: CupertinoTheme.of(context)
                                       .scaffoldBackgroundColor,
                                   child: Image.asset(enchancement.iconUrl),
