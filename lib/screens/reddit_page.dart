@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/helpers/theme.dart';
 
 import 'package:lost_ark/managers/app_manager.dart';
 import 'package:lost_ark/ui/reddit_tile.dart';

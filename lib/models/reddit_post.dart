@@ -26,18 +26,49 @@ class RedditPost {
       @required this.url,
       @required this.thumbnail});
 
-  factory RedditPost.fromJson(Map<String, dynamic> json) {
-    String _toHours(int howMany) => Intl.plural(howMany,
-        one: '$howMany hour ago', other: '$howMany hours ago');
-    String _toDays(int howMany) => Intl.plural(howMany,
-        one: '$howMany day ago', other: '$howMany days ago');
+  factory RedditPost.fromJson(Map<String, dynamic> json, String appLang) {
+    String _toHours(int howMany) {
+      switch (appLang) {
+        case 'ru':
+          return Intl.plural(
+            howMany,
+            one: '$howMany час назад',
+            other: '$howMany часов назад',
+          );
+        default:
+          return Intl.plural(
+            howMany,
+            one: '$howMany hour ago',
+            other: '$howMany hours ago',
+          );
+      }
+    }
+
+    String _toDays(int howMany) {
+      switch (appLang) {
+        case 'ru':
+          return Intl.plural(
+            howMany,
+            one: '$howMany день назад',
+            other: '$howMany дней назад',
+          );
+        default:
+          return Intl.plural(
+            howMany,
+            one: '$howMany day ago',
+            other: '$howMany days ago',
+          );
+      }
+    }
 
     String _createdAgo(int timestamp) {
       final dateCreated = DateTime.fromMillisecondsSinceEpoch(timestamp * 1000);
       final diff = DateTime.now().difference(dateCreated);
 
       if (diff.inMinutes < 60) {
-        return '${diff.inMinutes} minutes ago';
+        return appLang == 'ru'
+            ? '${diff.inMinutes} минут назад'
+            : '${diff.inMinutes} minutes ago';
       } else if (diff.inHours < 24) {
         return _toHours(diff.inHours);
       } else {

@@ -1,9 +1,19 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
-const appTheme = CupertinoThemeData(
-  scaffoldBackgroundColor: Color(0xff171e28), //Color.fromRGBO(36, 36, 38, 1),
+const _scaffoldBackgroundColor = const Color(0xff171e28);
+
+const appCupertinoTheme = CupertinoThemeData(
+  brightness: Brightness.dark,
+  scaffoldBackgroundColor: _scaffoldBackgroundColor,
   primaryColor: CupertinoColors.white,
   primaryContrastingColor: Color(0xff1d2730), //Color.fromRGBO(54, 54, 56, 1),
+);
+
+final appMaterialTheme = ThemeData(
+  brightness: Brightness.dark,
+  scaffoldBackgroundColor: _scaffoldBackgroundColor,
+  primaryColor: Colors.white,
 );
 
 //beruza Color(0xff078d9b)

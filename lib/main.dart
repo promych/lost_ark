@@ -1,19 +1,20 @@
+import 'dart:io' show Platform;
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart'
     show DeviceOrientation, SystemChrome, SystemUiOverlayStyle;
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:lost_ark/helpers/theme.dart';
-import 'package:lost_ark/managers/build_manager.dart';
 
 import 'package:provider/provider.dart';
 
-import 'package:lost_ark/managers/app_manager.dart';
-
-import 'managers/locale_manager.dart';
-import 'screens/home_page.dart';
-import 'ui/error.dart';
-import 'ui/loading.dart';
+import './helpers/theme.dart';
+import './managers/app_manager.dart';
+import './managers/build_manager.dart';
+import './managers/locale_manager.dart';
+import './screens/home_page.dart';
+import './ui/error.dart';
+import './ui/loading.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
@@ -26,6 +27,17 @@ void main() {
 }
 
 class App extends StatelessWidget {
+  final _locales = const <Locale>[
+    Locale('en', 'US'),
+    Locale('ru', 'RU'),
+  ];
+  final _localeDelegates = <LocalizationsDelegate>[
+    AppLocalizationsDelegate(),
+    GlobalMaterialLocalizations.delegate,
+    GlobalWidgetsLocalizations.delegate,
+    GlobalCupertinoLocalizations.delegate,
+  ];
+
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
@@ -39,22 +51,23 @@ class App extends StatelessWidget {
       ],
       child: Consumer<AppManager>(
         builder: (context, AppManager app, _) {
-          return CupertinoApp(
-            debugShowCheckedModeBanner: false,
-            theme: appTheme,
-            supportedLocales: [
-              const Locale('en', 'US'),
-              const Locale('ru', 'RU'),
-            ],
-            localizationsDelegates: [
-              AppLocalizationsDelegate(),
-              GlobalMaterialLocalizations.delegate,
-              GlobalWidgetsLocalizations.delegate,
-              GlobalCupertinoLocalizations.delegate,
-            ],
-            locale: app.locale,
-            home: _landing(app),
-          );
+          return Platform.isAndroid
+              ? MaterialApp(
+                  debugShowCheckedModeBanner: false,
+                  theme: appMaterialTheme,
+                  supportedLocales: _locales,
+                  localizationsDelegates: _localeDelegates,
+                  locale: app.locale,
+                  home: _landing(app),
+                )
+              : CupertinoApp(
+                  debugShowCheckedModeBanner: false,
+                  theme: appCupertinoTheme,
+                  supportedLocales: _locales,
+                  localizationsDelegates: _localeDelegates,
+                  locale: app.locale,
+                  home: _landing(app),
+                );
         },
       ),
     );
