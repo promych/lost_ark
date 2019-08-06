@@ -39,7 +39,7 @@ class SkillTile extends StatelessWidget {
                       Text(skill.name, style: Styles.defaultText20),
                       Text(
                         skill.type,
-                        style: TextStyle(color: Styles.lightGrey),
+                        style: TextStyle(color: CupertinoColors.inactiveGray),
                       ),
                     ],
                   ),

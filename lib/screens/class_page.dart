@@ -21,7 +21,7 @@ class ClassPage extends StatelessWidget {
     final Function openSkills =
         () => Navigator.of(context).pushReplacementNamed('/skills');
 
-    return Platform.isIOS
+    return Platform.isAndroid
         ? Scaffold(
             appBar: MyMaterialAppBar(
               trailing: FlatButton(
@@ -122,8 +122,7 @@ class _ClassPageBody extends StatelessWidget {
                     ),
                     child: Text(
                       classData.description,
-                      style:
-                          TextStyle(fontSize: 20.0, color: Styles.defaultWhite),
+                      style: Styles.defaultText20,
                     ),
                   ),
                   SizedBox(height: 20.0),

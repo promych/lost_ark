@@ -122,14 +122,10 @@ class BuildManager with ChangeNotifier {
 
   var _store = StoreRef<int, Map<String, dynamic>>.main();
 
-  Future<List<RecordSnapshot<int, Map<String, dynamic>>>> savedBuilds() async =>
-      await _store.find(await _db);
-
-  // Future savedBuildsByClassId(String classId) async {
-  //   final finder = Finder(sortOrders: [SortOrder('classId')]);
-  //   return await _store.find(await _db, finder: finder);
-  // ..where((snapshot) => snapshot.value['classId'] == classId).toList(); ??
-  // }
+  Future<List<RecordSnapshot<int, Map<String, dynamic>>>> savedBuilds() async {
+    final finder = Finder(sortOrders: [SortOrder('classId')]);
+    return await _store.find(await _db, finder: finder);
+  }
 
   Future _addToBuild(String classId) async {
     var listItems = _build.items
@@ -140,9 +136,6 @@ class BuildManager with ChangeNotifier {
       ['classId', 'skills'],
       [classId, listItems],
     );
-
-    // print(currentBuild);
-
     await _store
         .record(DateTime.now().millisecondsSinceEpoch)
         .put(await _db, currentBuild);

@@ -15,9 +15,10 @@ class SimplePage extends StatelessWidget {
   Widget build(BuildContext context) {
     Widget _title = Text(title, style: Styles.defaultText);
 
-    return Platform.isIOS
+    return Platform.isAndroid
         ? Scaffold(
             appBar: AppBar(
+              centerTitle: true,
               backgroundColor: Styles.layerColor,
               title: _title,
             ),

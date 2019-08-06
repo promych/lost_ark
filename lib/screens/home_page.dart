@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
           child: SettingsPage(),
         );
 
-    return Platform.isIOS
+    return Platform.isAndroid
         ? Scaffold(
             bottomNavigationBar: BottomNavigationBar(
               backgroundColor: Styles.layerColor,

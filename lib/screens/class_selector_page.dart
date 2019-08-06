@@ -21,7 +21,7 @@ class ClassSelectorPage extends StatelessWidget {
     final switchToList =
         () => Navigator.of(context).pushReplacementNamed('/class-list');
 
-    return Platform.isIOS
+    return Platform.isAndroid
         ? Scaffold(
             appBar: MyMaterialAppBar(
               title: Text(barTitle, style: Styles.defaultText),
@@ -153,12 +153,12 @@ class __ClassSelectorBodyState extends State<_ClassSelectorBody> {
               },
             ),
           ),
-          SizedBox(height: 20.0),
-          DotsIndicator(
-            dotsCount: classes.length,
-            position: _controller.hasClients ? _currentPage : 0,
-            decorator: DotsDecorator(activeColor: Styles.cyanColor),
-          )
+          // SizedBox(height: 20.0),
+          // DotsIndicator(
+          //   dotsCount: classes.length,
+          //   position: _controller.hasClients ? _currentPage : 0,
+          //   decorator: DotsDecorator(activeColor: Styles.cyanColor),
+          // )
         ],
       ),
     );

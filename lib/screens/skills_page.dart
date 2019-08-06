@@ -21,10 +21,9 @@ class SkillsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Platform.isIOS
+    return Platform.isAndroid
         ? Scaffold(
             appBar: MyMaterialAppBar(
-              // previousPageTitle: LocaleManager.of(context).translate('classes'),
               title: BuildPoints(),
               trailing: _SaveBuildButton(),
             ),

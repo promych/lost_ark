@@ -25,7 +25,7 @@ class TripodPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final skill = Provider.of<AppManager>(context, listen: false).skillById(id);
 
-    return Platform.isIOS
+    return Platform.isAndroid
         ? Scaffold(
             appBar: MyMaterialAppBar(
               title: BuildPoints(),
@@ -68,7 +68,7 @@ class _TripodPageBody extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(skill.name, style: Styles.defaultText),
+                        Text(skill.name, style: Styles.defaultText20),
                         Text(
                           skill.type,
                           style: TextStyle(color: CupertinoColors.inactiveGray),
@@ -81,7 +81,7 @@ class _TripodPageBody extends StatelessWidget {
                   Icon(Icons.hourglass_empty),
                   Text(
                     '${skill.cooldown}',
-                    style: Styles.defaultText,
+                    style: Styles.defaultText20,
                   ),
                 ]),
               ],
@@ -97,16 +97,27 @@ class _TripodPageBody extends StatelessWidget {
                 tier: skill.tripod.elementAt(i),
                 iconScale: scale,
               ),
-            Center(
-              child: CupertinoButton(
-                child: Text('DONE'),
-                onPressed: () => Navigator.of(context).pop(),
-              ),
-            ),
+            Center(child: _DoneButton()),
           ],
         ),
       ),
     );
+  }
+}
+
+class _DoneButton extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final label = LocaleManager.of(context).translate('done');
+    return Platform.isAndroid
+        ? FlatButton(
+            child: Text(label),
+            onPressed: () => Navigator.of(context).pop(),
+          )
+        : CupertinoButton(
+            child: Text(label, style: Styles.defaultText),
+            onPressed: () => Navigator.of(context).pop(),
+          );
   }
 }
 

@@ -22,7 +22,7 @@ class ClassListPage extends StatelessWidget {
     final switchToSelector =
         () => Navigator.of(context).pushReplacementNamed('/');
 
-    return Platform.isIOS
+    return Platform.isAndroid
         ? Scaffold(
             appBar: MyMaterialAppBar(
               title: Text(barTitle, style: Styles.defaultText),
