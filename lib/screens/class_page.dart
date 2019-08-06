@@ -1,17 +1,16 @@
-import 'dart:io';
+import 'dart:io' show Platform;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/helpers/theme.dart';
-import 'package:lost_ark/managers/app_manager.dart';
-import 'package:lost_ark/managers/locale_manager.dart';
-import 'package:lost_ark/ui/cupertino_navbar.dart';
-import 'package:lost_ark/ui/material_appbar.dart';
 
 import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
+import '../managers/locale_manager.dart';
 import '../helpers/spider_chart.dart';
+import '../helpers/theme.dart';
+import '../ui/cupertino_navbar.dart';
+import '../ui/material_appbar.dart';
 
 class ClassPage extends StatelessWidget {
   static const routeName = '/class';

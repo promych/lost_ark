@@ -1,19 +1,20 @@
 import 'dart:io' show Platform;
 
-import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/helpers/theme.dart';
-import 'package:lost_ark/managers/build_manager.dart';
-import 'package:lost_ark/managers/locale_manager.dart';
-import 'package:lost_ark/models/skill.dart';
-import 'package:lost_ark/ui/build_points.dart';
-import 'package:lost_ark/ui/cupertino_navbar.dart';
-import 'package:lost_ark/ui/material_appbar.dart';
-import 'package:lost_ark/ui/tripod_indicator.dart';
-import 'package:provider/provider.dart';
 
+import 'package:provider/provider.dart';
+import 'package:auto_size_text/auto_size_text.dart';
+
+import '../models/skill.dart';
 import '../managers/app_manager.dart';
+import '../managers/build_manager.dart';
+import '../managers/locale_manager.dart';
+import '../helpers/theme.dart';
+import '../ui/build_points.dart';
+import '../ui/cupertino_navbar.dart';
+import '../ui/material_appbar.dart';
+import '../ui/tripod_indicator.dart';
 
 class TripodPage extends StatelessWidget {
   final String id;

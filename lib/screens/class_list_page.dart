@@ -2,12 +2,12 @@ import 'dart:io' show Platform;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/helpers/theme.dart';
 
 import 'package:provider/provider.dart';
 
 import '../managers/app_manager.dart';
 import '../managers/locale_manager.dart';
+import '../helpers/theme.dart';
 import '../ui/material_appbar.dart';
 import '../ui/cupertino_navbar.dart';
 import '../ui/sliver_appbar_delegate.dart';
@@ -20,7 +20,7 @@ class ClassListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final barTitle = LocaleManager.of(context).translate('classes');
     final switchToSelector =
-        () => Navigator.of(context).pushReplacementNamed('/class-selector');
+        () => Navigator.of(context).pushReplacementNamed('/');
 
     return Platform.isIOS
         ? Scaffold(

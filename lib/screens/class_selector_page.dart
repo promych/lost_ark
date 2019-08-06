@@ -13,7 +13,7 @@ import '../ui/material_appbar.dart';
 import '../ui/cupertino_navbar.dart';
 
 class ClassSelectorPage extends StatelessWidget {
-  static const routeName = '/class-selector';
+  static const routeName = '/';
 
   @override
   Widget build(BuildContext context) {
@@ -96,6 +96,7 @@ class __ClassSelectorBodyState extends State<_ClassSelectorBody> {
               itemBuilder: (_, int index) {
                 return GestureDetector(
                   child: Card(
+                    elevation: 10.0,
                     margin: const EdgeInsets.symmetric(horizontal: 10.0),
                     color: Styles.layerColor,
                     child: Container(
