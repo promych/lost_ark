@@ -24,7 +24,6 @@ dependencies:
   flutter_cupertino_localizations: ^1.0.1
  
   provider: ^3.0.0+1
-  dots_indicator: ^1.0.0
   http: ^0.12.0+2
   intl: ^0.15.8
   shared_preferences: ^0.5.3+4

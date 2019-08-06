@@ -4,7 +4,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../helpers/theme.dart';
-import '../screens/class_list_page.dart';
 import '../screens/class_selector_page.dart';
 import '../screens/class_page.dart';
 import '../screens/settings_page.dart';
@@ -76,7 +75,6 @@ class _HomePageState extends State<HomePage> {
                     builder: (_) => ClassSelectorPage(),
                     routes: {
                       ClassSelectorPage.routeName: (_) => ClassSelectorPage(),
-                      ClassListPage.routeName: (_) => ClassListPage(),
                       ClassPage.routeName: (_) => ClassPage(),
                       SkillsPage.routeName: (_) => SkillsPage(),
                     },

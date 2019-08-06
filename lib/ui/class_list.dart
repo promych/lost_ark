@@ -1,52 +1,13 @@
-import 'dart:io' show Platform;
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
-import '../managers/app_manager.dart';
-import '../managers/locale_manager.dart';
 import '../helpers/theme.dart';
-import '../ui/material_appbar.dart';
-import '../ui/cupertino_navbar.dart';
-import '../ui/sliver_appbar_delegate.dart';
-import '../ui/class_tile.dart';
+import '../managers/app_manager.dart';
+import './sliver_appbar_delegate.dart';
+import './class_tile.dart';
 
-class ClassListPage extends StatelessWidget {
-  static const routeName = '/class-list';
-
-  @override
-  Widget build(BuildContext context) {
-    final barTitle = LocaleManager.of(context).translate('classes');
-    final switchToSelector =
-        () => Navigator.of(context).pushReplacementNamed('/class-selector');
-
-    return Platform.isAndroid
-        ? Scaffold(
-            appBar: MyMaterialAppBar(
-              title: Text(barTitle, style: Styles.defaultText),
-              trailing: IconButton(
-                icon: Icon(Icons.view_carousel),
-                onPressed: switchToSelector,
-              ),
-            ),
-            body: _ClassListBody(),
-          )
-        : CupertinoPageScaffold(
-            navigationBar: MyCupertinoNavBar(
-              middle: Text(barTitle, style: Styles.defaultText),
-              trailing: GestureDetector(
-                child: Icon(Icons.view_carousel),
-                onTap: switchToSelector,
-              ),
-            ),
-            child: _ClassListBody(),
-          );
-  }
-}
-
-class _ClassListBody extends StatelessWidget {
+class ClassList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final app = Provider.of<AppManager>(context, listen: false);
