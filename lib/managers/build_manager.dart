@@ -72,13 +72,16 @@ class BuildManager with ChangeNotifier {
       );
     }
 
-    _readyToSave = true;
+    pointsByClass(enchancementId.substring(0, 3)) > 0
+        ? _readyToSave = true
+        : _readyToSave = false;
     notifyListeners();
 
     // print(_build.items.first?.enchancements.toString());
   }
 
   save(String classId) async {
+    if (pointsByClass(classId) == 0) return;
     await _addToBuild(classId);
     _readyToSave = false;
     notifyListeners();

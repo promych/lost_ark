@@ -13,7 +13,7 @@ import '../ui/material_appbar.dart';
 import '../ui/cupertino_navbar.dart';
 
 class ClassSelectorPage extends StatelessWidget {
-  static const routeName = '/';
+  static const routeName = '/class-selector';
 
   @override
   Widget build(BuildContext context) {
@@ -147,7 +147,7 @@ class __ClassSelectorBodyState extends State<_ClassSelectorBody> {
                   ),
                   onTap: () {
                     app.selectClass(classes[index].name);
-                    Navigator.of(context).pushNamed('/class');
+                    Navigator.pushNamed(context, '/skills');
                   },
                 );
               },

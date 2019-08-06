@@ -20,7 +20,7 @@ class ClassListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final barTitle = LocaleManager.of(context).translate('classes');
     final switchToSelector =
-        () => Navigator.of(context).pushReplacementNamed('/');
+        () => Navigator.of(context).pushReplacementNamed('/class-selector');
 
     return Platform.isAndroid
         ? Scaffold(
@@ -83,7 +83,7 @@ class _ClassListBody extends StatelessWidget {
                       icon: item.icon,
                       onTap: () {
                         app.selectClass(item.name);
-                        Navigator.of(context).pushNamed('/class');
+                        Navigator.of(context).pushNamed('/skills');
                       },
                     ),
                 ],

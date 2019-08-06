@@ -12,9 +12,16 @@ import './helpers/theme.dart';
 import './managers/app_manager.dart';
 import './managers/build_manager.dart';
 import './managers/locale_manager.dart';
-import './screens/home_page.dart';
 import './ui/error.dart';
 import './ui/loading.dart';
+
+import './screens/home_page.dart';
+// import './screens/material_home_page.dart';
+// import './screens/cupertino_home_page.dart';
+import './screens/class_selector_page.dart';
+import './screens/class_page.dart';
+import './screens/class_list_page.dart';
+import './screens/skills_page.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
@@ -58,6 +65,12 @@ class App extends StatelessWidget {
                   supportedLocales: _locales,
                   localizationsDelegates: _localeDelegates,
                   locale: app.locale,
+                  routes: {
+                    ClassSelectorPage.routeName: (_) => ClassSelectorPage(),
+                    ClassPage.routeName: (_) => ClassPage(),
+                    ClassListPage.routeName: (_) => ClassListPage(),
+                    SkillsPage.routeName: (_) => SkillsPage(),
+                  },
                   home: _landing(app),
                 )
               : CupertinoApp(
@@ -78,7 +91,7 @@ class App extends StatelessWidget {
         app.status == AppStatus.Loading) {
       return Loading();
     } else if (app.status == AppStatus.Loaded) {
-      return HomePage();
+      return HomePage(); //Platform.isAndroid ? MaterialHomePage() : CupertinoHomePage();
     } else if (app.status == AppStatus.Error) {
       return ErrorView(message: app.errorMessage);
     } else {

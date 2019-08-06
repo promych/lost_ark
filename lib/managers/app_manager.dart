@@ -42,8 +42,6 @@ class AppManager extends ChangeNotifier {
       _status = AppStatus.Loading;
       notifyListeners();
 
-      // await Future.delayed(Duration(seconds: 1));
-
       _locale = _locale ?? await _fetchLocale();
       _redditPosts = _redditPosts ??
           await _redditClient.fetchNewPosts(appLang: _locale.languageCode);

@@ -42,7 +42,7 @@ class RedditPostTile extends StatelessWidget {
                   child: Container(
                     child: RichText(
                       text: TextSpan(
-                        style: TextStyle(fontSize: 24.0),
+                        style: Styles.defaultText20,
                         children: [
                           if (post.flair != '')
                             TextSpan(

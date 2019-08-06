@@ -47,35 +47,38 @@ class _SkillsPageBody extends StatelessWidget {
     final selectedClass = app.selectedClass;
     final skills = app.skillsByClassName(selectedClass.name);
 
-    return CustomScrollView(
-      slivers: [
-        SliverPersistentHeader(
-          pinned: false,
-          delegate: SliverAppBarDelegate(
-            minHeight: 80.0,
-            maxHeight: 80.0,
-            child: ClassTile(
-              name: selectedClass.name,
-              icon: selectedClass.icon,
-              onTap: () {
-                app.selectClass(selectedClass.name);
-                Navigator.of(context).pushReplacementNamed('/class');
-              },
+    return SafeArea(
+      bottom: false,
+      child: CustomScrollView(
+        slivers: [
+          SliverPersistentHeader(
+            pinned: false,
+            delegate: SliverAppBarDelegate(
+              minHeight: 80.0,
+              maxHeight: 80.0,
+              child: ClassTile(
+                name: selectedClass.name,
+                icon: selectedClass.icon,
+                onTap: () {
+                  app.selectClass(selectedClass.name);
+                  Navigator.of(context).pushReplacementNamed('/class');
+                },
+              ),
             ),
           ),
-        ),
-        SliverList(
-          delegate: SliverChildListDelegate([
-            for (var skill in skills)
-              Column(
-                children: [
-                  SkillTile(id: skill.id),
-                  Divider(color: Styles.layerColor),
-                ],
-              ),
-          ]),
-        ),
-      ],
+          SliverList(
+            delegate: SliverChildListDelegate([
+              for (var skill in skills)
+                Column(
+                  children: [
+                    SkillTile(id: skill.id),
+                    Divider(color: Styles.layerColor),
+                  ],
+                ),
+            ]),
+          ),
+        ],
+      ),
     );
   }
 }

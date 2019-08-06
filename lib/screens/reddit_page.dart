@@ -1,17 +1,14 @@
 import 'package:flutter/cupertino.dart';
 
-import '../helpers/lost_ark_icons.dart';
 import '../screens/simple_page.dart';
+import '../ui/reddit_posts.dart';
 
-class Loading extends StatelessWidget {
+class RedditPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SimplePage(
-      showAppBar: false,
       title: 'Lost Ark',
-      child: Center(
-        child: Icon(LostArk.logo, size: 50.0),
-      ),
+      child: RedditPosts(),
     );
   }
 }

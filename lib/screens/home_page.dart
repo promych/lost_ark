@@ -3,15 +3,13 @@ import 'dart:io' show Platform;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../managers/locale_manager.dart';
 import '../helpers/theme.dart';
 import '../screens/class_list_page.dart';
 import '../screens/class_selector_page.dart';
 import '../screens/class_page.dart';
 import '../screens/settings_page.dart';
-import '../screens/simple_page.dart';
 import '../screens/skills_page.dart';
-import '../ui/reddit_posts.dart';
+import '../screens/reddit_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -20,10 +18,12 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _tabIndex = 0;
+  List<BottomNavigationBarItem> _barItems;
 
   @override
-  Widget build(BuildContext context) {
-    final _barItems = [
+  void initState() {
+    super.initState();
+    _barItems = [
       BottomNavigationBarItem(
         icon: Icon(Icons.home),
         title: Text('Home'),
@@ -37,16 +37,10 @@ class _HomePageState extends State<HomePage> {
         title: Text('Settings'),
       ),
     ];
+  }
 
-    Widget _redditPage() => SimplePage(
-          title: 'Lost Ark',
-          child: RedditPosts(),
-        );
-    Widget _settingsPage() => SimplePage(
-          title: LocaleManager.of(context).translate('settings'),
-          child: SettingsPage(),
-        );
-
+  @override
+  Widget build(BuildContext context) {
     return Platform.isAndroid
         ? Scaffold(
             bottomNavigationBar: BottomNavigationBar(
@@ -62,31 +56,9 @@ class _HomePageState extends State<HomePage> {
               },
             ),
             body: [
-              _redditPage(),
-              Navigator(
-                initialRoute: ClassSelectorPage.routeName,
-                onGenerateRoute: (route) {
-                  WidgetBuilder builder;
-                  switch (route.name) {
-                    case ClassSelectorPage.routeName:
-                      builder = (_) => ClassSelectorPage();
-                      break;
-                    case ClassListPage.routeName:
-                      builder = (_) => ClassListPage();
-                      break;
-                    case ClassPage.routeName:
-                      builder = (_) => ClassPage();
-                      break;
-                    case SkillsPage.routeName:
-                      builder = (_) => SkillsPage();
-                      break;
-                    default:
-                      throw Exception('No such route ${route.name}');
-                  }
-                  return MaterialPageRoute(builder: builder, settings: route);
-                },
-              ),
-              _settingsPage(),
+              RedditPage(),
+              ClassSelectorPage(),
+              SettingsPage(),
             ].elementAt(_tabIndex),
           )
         : CupertinoTabScaffold(
@@ -98,7 +70,7 @@ class _HomePageState extends State<HomePage> {
             tabBuilder: (_, int index) {
               switch (index) {
                 case 0:
-                  return CupertinoTabView(builder: (_) => _redditPage());
+                  return CupertinoTabView(builder: (_) => RedditPage());
                 case 1:
                   return CupertinoTabView(
                     builder: (_) => ClassSelectorPage(),
@@ -110,7 +82,7 @@ class _HomePageState extends State<HomePage> {
                     },
                   );
                 case 2:
-                  return CupertinoTabView(builder: (_) => _settingsPage());
+                  return CupertinoTabView(builder: (_) => SettingsPage());
               }
               return null;
             },
