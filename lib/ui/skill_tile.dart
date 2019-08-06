@@ -1,10 +1,14 @@
+import 'dart:io' show Platform;
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/helpers/theme.dart';
-import 'package:lost_ark/managers/app_manager.dart';
-import 'package:lost_ark/screens/tripod_page.dart';
-import 'package:lost_ark/ui/tripod_indicator.dart';
+
 import 'package:provider/provider.dart';
+
+import '../managers/app_manager.dart';
+import '../helpers/theme.dart';
+import '../screens/tripod_page.dart';
+import '../ui/tripod_indicator.dart';
 
 class SkillTile extends StatelessWidget {
   final String id;
@@ -45,8 +49,13 @@ class SkillTile extends StatelessWidget {
             ],
           ),
         ),
-        onTap: () => Navigator.of(context)
-            .push(CupertinoPageRoute(builder: (_) => TripodPage(id: id))),
+        onTap: () {
+          final builder = (_) => TripodPage(id: id);
+          final route = Platform.isAndroid
+              ? MaterialPageRoute(builder: builder)
+              : CupertinoPageRoute(builder: builder);
+          Navigator.of(context).push(route);
+        },
       ),
     );
   }

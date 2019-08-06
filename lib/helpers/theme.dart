@@ -8,10 +8,13 @@ const appCupertinoTheme = CupertinoThemeData(
   // primaryContrastingColor: Color(0xff1d2730), //Color.fromRGBO(54, 54, 56, 1),
 );
 
-final appMaterialTheme = ThemeData(
+final appMaterialTheme = ThemeData.dark().copyWith(
   // brightness: Brightness.light,
   scaffoldBackgroundColor: Styles.scaffoldBackgroundColor,
   primaryColor: CupertinoColors.white,
+  // accentIconTheme: IconThemeData(color: CupertinoColors.white),
+  // iconTheme: IconThemeData(color: CupertinoColors.white),
+  // buttonTheme: ButtonThemeData(buttonColor: CupertinoColors.white),
 );
 
 //grey Color(0xffd1d2d6), //Color.fromRGBO(174, 174, 178, 1),

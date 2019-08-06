@@ -1,9 +1,13 @@
-import 'package:html_unescape/html_unescape_small.dart';
+import 'dart:io' show Platform;
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/helpers/theme.dart';
-import 'package:lost_ark/models/reddit_post.dart';
-import 'reddit_webview.dart';
+
+import 'package:html_unescape/html_unescape_small.dart';
+
+import '../helpers/theme.dart';
+import '../models/reddit_post.dart';
+import './reddit_webview.dart';
 
 class RedditPostTile extends StatelessWidget {
   final RedditPost post;
@@ -13,6 +17,15 @@ class RedditPostTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final unescape = HtmlUnescape();
+
+    Function showWebView = (String url) {
+      final builder = (_) => RedditWebView(url: url);
+      final route = Platform.isAndroid
+          ? MaterialPageRoute(builder: builder)
+          : CupertinoPageRoute(builder: builder);
+      Navigator.of(context).push(route);
+    };
+
     return Container(
       padding: const EdgeInsets.all(10.0),
       decoration: BoxDecoration(
@@ -49,8 +62,7 @@ class RedditPostTile extends StatelessWidget {
                       ),
                     ),
                   ),
-                  onTap: () => Navigator.of(context).push(CupertinoPageRoute(
-                      builder: (_) => RedditWebView(url: post.url))),
+                  onTap: () => showWebView(post.url),
                 ),
                 Divider(height: 30.0),
                 GestureDetector(
@@ -80,10 +92,7 @@ class RedditPostTile extends StatelessWidget {
                       ],
                     ),
                   ),
-                  onTap: () {
-                    Navigator.of(context).push(CupertinoPageRoute(
-                        builder: (_) => RedditWebView(url: post.permalink)));
-                  },
+                  onTap: () => showWebView(post.permalink),
                 )
               ],
             ),

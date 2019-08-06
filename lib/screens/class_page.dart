@@ -24,7 +24,6 @@ class ClassPage extends StatelessWidget {
     return Platform.isIOS
         ? Scaffold(
             appBar: MyMaterialAppBar(
-              backTitle: backTitle,
               trailing: FlatButton(
                 child: Text(
                   LocaleManager.of(context).translate('skills'),

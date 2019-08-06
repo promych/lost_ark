@@ -17,7 +17,7 @@ class RedditWebView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Platform.isIOS
         ? Scaffold(
-            appBar: MyMaterialAppBar(backTitle: 'Home'),
+            appBar: MyMaterialAppBar(),
             body: _RedditWebViewBody(url: url),
           )
         : CupertinoPageScaffold(

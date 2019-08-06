@@ -2,12 +2,14 @@ import 'dart:io' show Platform;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/helpers/theme.dart';
-import 'package:lost_ark/managers/app_manager.dart';
-import 'package:lost_ark/managers/build_manager.dart';
-import 'package:lost_ark/managers/locale_manager.dart';
+
 import 'package:provider/provider.dart';
 import 'package:sembast/sembast.dart';
+
+import '../helpers/theme.dart';
+import '../managers/app_manager.dart';
+import '../managers/build_manager.dart';
+import '../managers/locale_manager.dart';
 
 class SavedBuilds extends StatelessWidget {
   @override
@@ -20,7 +22,10 @@ class SavedBuilds extends StatelessWidget {
             return Text(':(');
           } else if (snapshot.connectionState == ConnectionState.waiting ||
               snapshot.connectionState == ConnectionState.active) {
-            return Center(child: CupertinoActivityIndicator());
+            return Center(
+                child: Platform.isAndroid
+                    ? CircularProgressIndicator()
+                    : CupertinoActivityIndicator());
           } else if (snapshot.connectionState == ConnectionState.done) {
             if (snapshot.hasError) {
               return Text('${snapshot.error}');
@@ -116,7 +121,7 @@ class _UnpackButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Platform.isIOS
+    return Platform.isAndroid
         ? IconButton(
             icon: Icon(Icons.unarchive),
             onPressed: onPressed,

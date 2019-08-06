@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/helpers/theme.dart';
+
+import '../helpers/theme.dart';
 
 class MyCupertinoNavBar extends StatelessWidget
     implements ObstructingPreferredSizeWidget {

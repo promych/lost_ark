@@ -1,8 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lost_ark/helpers/theme.dart';
-import 'package:lost_ark/managers/build_manager.dart';
+
 import 'package:provider/provider.dart';
+
+import '../helpers/theme.dart';
+import '../managers/build_manager.dart';
 
 class TripodIndicator extends StatelessWidget {
   final String skillId;
