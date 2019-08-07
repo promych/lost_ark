@@ -34,9 +34,11 @@ class SettingsPage extends StatelessWidget {
                       ),
                     ),
                     CupertinoSegmentedControl(
-                      selectedColor: Styles.layerColor,
+                      selectedColor: Styles.cyanColor,
                       unselectedColor: Styles.scaffoldBackgroundColor,
                       borderColor: Styles.layerColor,
+                      pressedColor: Styles.layerColor,
+                      padding: const EdgeInsets.all(0.0),
                       children: {
                         0: Padding(
                           padding: const EdgeInsets.symmetric(

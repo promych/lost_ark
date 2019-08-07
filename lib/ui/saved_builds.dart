@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:sembast/sembast.dart';
 
+import '../helpers/lost_ark_icons.dart';
 import '../helpers/theme.dart';
 import '../managers/app_manager.dart';
 import '../managers/build_manager.dart';
@@ -123,11 +124,11 @@ class _UnpackButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Platform.isAndroid
         ? IconButton(
-            icon: Icon(Icons.unarchive),
+            icon: Icon(LostArk.upload),
             onPressed: onPressed,
           )
         : CupertinoButton(
-            child: Icon(Icons.unarchive),
+            child: Icon(LostArk.upload),
             onPressed: onPressed,
           );
   }

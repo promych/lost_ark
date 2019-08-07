@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:html_unescape/html_unescape_small.dart';
+import 'package:lost_ark/helpers/lost_ark_icons.dart';
 
 import '../helpers/theme.dart';
 import '../models/reddit_post.dart';
@@ -64,7 +65,7 @@ class RedditPostTile extends StatelessWidget {
                   ),
                   onTap: () => showWebView(post.url),
                 ),
-                Divider(height: 30.0),
+                Divider(height: 30.0, color: Styles.layerColor),
                 GestureDetector(
                   child: DefaultTextStyle(
                     style: TextStyle(color: Styles.lightGrey),
@@ -73,7 +74,7 @@ class RedditPostTile extends StatelessWidget {
                         Expanded(
                           child: Row(
                             children: [
-                              Icon(Icons.arrow_upward),
+                              Icon(LostArk.up),
                               SizedBox(width: 4.0),
                               Text(post.score.toString()),
                               SizedBox(width: 10.0),

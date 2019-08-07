@@ -43,8 +43,9 @@ class AppManager extends ChangeNotifier {
       notifyListeners();
 
       _locale = _locale ?? await _fetchLocale();
-      _redditPosts = _redditPosts ??
-          await _redditClient.fetchNewPosts(appLang: _locale.languageCode);
+      _redditPosts = (_redditPosts == null || withNewLocale)
+          ? await _redditClient.fetchNewPosts(appLang: _locale.languageCode)
+          : _redditPosts;
       _classList = (_classList == null || withNewLocale)
           ? await _classRepo.fetchClassList(lang: _locale.languageCode)
           : _classList;

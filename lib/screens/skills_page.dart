@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
+import '../helpers/lost_ark_icons.dart';
 import '../helpers/theme.dart';
 import '../managers/locale_manager.dart';
 import '../managers/app_manager.dart';
@@ -95,8 +96,8 @@ class _SaveBuildButton extends StatelessWidget {
             ScaleTransition(child: child, scale: animation),
         child: build.readyToSave
             ? Icon(
-                Icons.save_alt,
-                key: ValueKey<IconData>(Icons.save_alt),
+                LostArk.download,
+                key: ValueKey<IconData>(LostArk.download),
               )
             : Icon(Icons.check, key: ValueKey<IconData>(Icons.check)),
       ),

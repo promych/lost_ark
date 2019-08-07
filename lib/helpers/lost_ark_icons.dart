@@ -12,6 +12,14 @@
 ///       - asset: fonts/LostArk.ttf
 ///
 /// 
+/// * Entypo, Copyright (C) 2012 by Daniel Bruce
+///         Author:    Daniel Bruce
+///         License:   SIL (http://scripts.sil.org/OFL)
+///         Homepage:  http://www.entypo.com
+/// * Font Awesome, Copyright (C) 2016 by Dave Gandy
+///         Author:    Dave Gandy
+///         License:   SIL ()
+///         Homepage:  http://fortawesome.github.com/Font-Awesome/
 ///
 import 'package:flutter/widgets.dart';
 
@@ -37,4 +45,14 @@ class LostArk {
   static const IconData class_warlord = const IconData(0xe80e, fontFamily: _kFontFam);
   static const IconData class_warrior = const IconData(0xe80f, fontFamily: _kFontFam);
   static const IconData logo = const IconData(0xe810, fontFamily: _kFontFam);
+  static const IconData down = const IconData(0xe812, fontFamily: _kFontFam);
+  static const IconData social_youtube = const IconData(0xe816, fontFamily: _kFontFam);
+  static const IconData up = const IconData(0xe817, fontFamily: _kFontFam);
+  static const IconData hourglass = const IconData(0xe819, fontFamily: _kFontFam);
+  static const IconData download = const IconData(0xe81a, fontFamily: _kFontFam);
+  static const IconData upload = const IconData(0xe81b, fontFamily: _kFontFam);
+  static const IconData comment = const IconData(0xe81c, fontFamily: _kFontFam);
+  static const IconData cog_alt = const IconData(0xe81d, fontFamily: _kFontFam);
+  static const IconData reddit_squared = const IconData(0xf1a2, fontFamily: _kFontFam);
+  static const IconData reddit_alien = const IconData(0xf281, fontFamily: _kFontFam);
 }

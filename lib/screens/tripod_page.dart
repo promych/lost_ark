@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 
+import '../helpers/lost_ark_icons.dart';
 import '../models/skill.dart';
 import '../managers/app_manager.dart';
 import '../managers/build_manager.dart';
@@ -77,8 +78,8 @@ class _TripodPageBody extends StatelessWidget {
                     ),
                   ),
                 ),
+                Icon(LostArk.hourglass),
                 Row(mainAxisSize: MainAxisSize.min, children: [
-                  Icon(Icons.hourglass_empty),
                   Text(
                     '${skill.cooldown}',
                     style: Styles.defaultText20,
@@ -111,11 +112,17 @@ class _DoneButton extends StatelessWidget {
     final label = LocaleManager.of(context).translate('done');
     return Platform.isAndroid
         ? FlatButton(
-            child: Text(label),
+            child: Text(
+              label,
+              style: TextStyle(color: Styles.cyanColor),
+            ),
             onPressed: () => Navigator.of(context).pop(),
           )
         : CupertinoButton(
-            child: Text(label, style: Styles.defaultText),
+            child: Text(
+              label,
+              style: TextStyle(color: Styles.cyanColor),
+            ),
             onPressed: () => Navigator.of(context).pop(),
           );
   }

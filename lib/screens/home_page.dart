@@ -3,6 +3,7 @@ import 'dart:io' show Platform;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../helpers/lost_ark_icons.dart';
 import '../helpers/theme.dart';
 import '../screens/class_selector_page.dart';
 import '../screens/class_page.dart';
@@ -24,15 +25,15 @@ class _HomePageState extends State<HomePage> {
     super.initState();
     _barItems = [
       BottomNavigationBarItem(
-        icon: Icon(Icons.home),
-        title: Text('Home'),
-      ),
-      BottomNavigationBarItem(
         icon: Icon(Icons.people),
         title: Text('Classes'),
       ),
       BottomNavigationBarItem(
-        icon: Icon(Icons.settings),
+        icon: Icon(LostArk.reddit_alien),
+        title: Text('Reddit'),
+      ),
+      BottomNavigationBarItem(
+        icon: Icon(LostArk.cog_alt),
         title: Text('Settings'),
       ),
     ];
@@ -55,8 +56,8 @@ class _HomePageState extends State<HomePage> {
               },
             ),
             body: [
-              RedditPage(),
               ClassSelectorPage(),
+              RedditPage(),
               SettingsPage(),
             ].elementAt(_tabIndex),
           )
@@ -69,8 +70,6 @@ class _HomePageState extends State<HomePage> {
             tabBuilder: (_, int index) {
               switch (index) {
                 case 0:
-                  return CupertinoTabView(builder: (_) => RedditPage());
-                case 1:
                   return CupertinoTabView(
                     builder: (_) => ClassSelectorPage(),
                     routes: {
@@ -79,6 +78,8 @@ class _HomePageState extends State<HomePage> {
                       SkillsPage.routeName: (_) => SkillsPage(),
                     },
                   );
+                case 1:
+                  return CupertinoTabView(builder: (_) => RedditPage());
                 case 2:
                   return CupertinoTabView(builder: (_) => SettingsPage());
               }

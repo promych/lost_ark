@@ -27,7 +27,7 @@ class _ClassSelectorState extends State<ClassSelector> {
 
   @override
   Widget build(BuildContext context) {
-    final _screenWidth = MediaQuery.of(context).size.width;
+    final _screenSize = MediaQuery.of(context).size;
     final app = Provider.of<AppManager>(context, listen: false);
     final classes = app.allClasses;
 
@@ -37,7 +37,7 @@ class _ClassSelectorState extends State<ClassSelector> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
-            height: MediaQuery.of(context).size.height * 0.7,
+            height: _screenSize.height * 0.65,
             child: PageView.builder(
               controller: _controller,
               itemCount: classes.length,
@@ -60,20 +60,17 @@ class _ClassSelectorState extends State<ClassSelector> {
                               color: Colors.white10,
                             ),
                           ),
-                          Hero(
-                            tag: 'img-${classes[index].name}',
-                            child: Image.asset(classes[index].imagePath),
-                          ),
+                          Image.asset(classes[index].imagePath),
                           Positioned(
-                            bottom: 50.0,
+                            bottom: _screenSize.height / 20,
                             child: Container(
-                              width: _screenWidth * 0.7,
+                              width: _screenSize.width * 0.7,
                               child: Text(
                                 classes[index].name,
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     color: Styles.defaultWhite,
-                                    fontSize: _screenWidth / 14),
+                                    fontSize: _screenSize.width / 14),
                               ),
                             ),
                           )
