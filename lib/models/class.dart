@@ -33,7 +33,7 @@ class CharacterClass {
       stats: json['stats'],
       icon: json['icon'],
       imagePath:
-          'assets/img/class_${json['name']['en'].replaceAll(' ', '').toLowerCase()}.png',
+          'assets/img/class_${json['name']['en'].replaceAll(' ', '').toLowerCase()}.webp',
     );
   }
 }
