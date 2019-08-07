@@ -18,7 +18,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'You stab enemies in front of you with your spear',
     'type': 'Normal',
     'cooldown': 1,
-    'iconUrl': 'assets/icons/warlord/c01s00.png',
+    'iconUrl': 'assets/icons/warlord/c01s00.webp',
     'tripod': [
       {
         'tier': 1,
@@ -26,18 +26,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Advance',
             'description': 'You jump on 3 meters and attack cone-shaped.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_40.webp',
           },
           {
             'name': 'Penetrate',
             'description':
                 'Reduces attack width by 30% but increases range by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Giant Spin',
             'description': 'You hit at 360°',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_39.webp',
           },
         ],
       },
@@ -47,18 +47,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wound',
             'description': 'Inflicts Bleeding for 4 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
           {
             'name': 'Weakness',
             'description':
                 'Increases damage by 50% against enemies that suffer from a control effect.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.webp',
           },
           {
             'name': 'Irregular Attack',
             'description': 'Attract enemies instead of repelling them.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_27.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_27.webp',
           },
         ]
       },
@@ -68,12 +68,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Endless Spear',
             'description': 'Adds an extra hit that deals 100% of the damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
           {
             'name': 'Strengthened Spear',
             'description': 'Increases range by 30% and damage by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
         ]
       }
@@ -89,7 +89,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You pierce the ground in front of you with your spear to inflict damage, then remove it, inflicting damage on a line in front of you and knocking down enemies.',
     'type': 'Normal',
     'cooldown': 9,
-    'iconUrl': 'assets/icons/warlord/c01s01.png',
+    'iconUrl': 'assets/icons/warlord/c01s01.webp',
     'tripod': [
       {
         'tier': 1,
@@ -98,17 +98,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Advance',
             'description':
                 '[Changes the animation of the skill] Pushes forward by 6 meters by hitting with a shield and dealing Dmg1 damage, at the end striking Dmg2 with 20% additional damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_40.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Reduces the cooldown by 2 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Surpise Attack',
             'description': 'Increase the speed of the attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
         ]
       },
@@ -118,19 +118,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Strengthened Blow',
             'description': 'Increases damage by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Flaming Spear',
             'description':
                 '[Fire] When you remove your spear from the ground, inflict a burn on enemies for 5 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
           {
             'name': 'Lightning',
             'description':
                 '[Lightning] The enemies are no longer knocked down, but electrocuted for 3 seconds',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.webp',
           },
         ]
       },
@@ -141,13 +141,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Earth Spikes',
             'description':
                 'When you plant your spear in the ground, create conical rock spines in front of you, inflicting 60% additional damage and drawing enemies to the center of the attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_22.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_22.webp',
           },
           {
             'name': 'Chain Explosion',
             'description':
                 'Instead of taking your spear out of the ground, you deal damage 5 times on a line in front of you.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -163,7 +163,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You shoot with your spear to deal damage to nearby enemies and repel them.',
     'type': 'Normal',
     'cooldown': 7,
-    'iconUrl': 'assets/icons/warlord/c01s02.png',
+    'iconUrl': 'assets/icons/warlord/c01s02.webp',
     'tripod': [
       {
         'tier': 1,
@@ -171,18 +171,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Solid Armor',
             'description': 'During launch, you receive 20% less damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Luck',
             'description':
                 '50% chance to reduce the cooldown by 4 seconds if the skill hits an enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Mana Control',
             'description': 'Reduces the mana cost by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -192,17 +192,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Destraction',
             'description': 'Increases the Destruction level by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_22.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_22.webp',
           },
           {
             'name': 'Enflame',
             'description': 'Inflicts a burn on enemies for 6 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
           {
             'name': 'Stranthened Blow',
             'description': 'Increases damage by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
         ]
       },
@@ -213,13 +213,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Additional Attack',
             'description':
                 'You shoot twice in a row to deal 60% additional damage, and the second shot repels enemies further.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Area Bombardment',
             'description':
                 'Decreases shooting speed but increases radius by 30%. In addition, it deals 100% additional damage and pushes enemies further. Increases cooldown by 2 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
         ]
       }
@@ -235,7 +235,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You jump to inflict a large blow on your shield that deals damage to enemies, then you can make a second shield hit by pressing the shortcut again.',
     'type': 'Combo',
     'cooldown': 9,
-    'iconUrl': 'assets/icons/warlord/c01s03.png',
+    'iconUrl': 'assets/icons/warlord/c01s03.webp',
     'tripod': [
       {
         'tier': 1,
@@ -244,18 +244,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Armor Desctruction',
             'description':
                 'Decreases the target’s attack power by 20% for 8 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.webp',
           },
           {
             'name': 'Defense Preparation',
             'description':
                 'Landing two successful hits grants a 20% damage reduction bonus for 5 seconds',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Attack Speed',
             'description': 'Increase attack speed by 15%',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
         ]
       },
@@ -266,18 +266,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Shield Enchanced',
             'description':
                 'Shield gauge charge is increased by 50% when attacking.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_37.webp',
           },
           {
             'name': 'Superior Mobility',
             'description': 'Increases the skill range of the first hit by 1m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.webp',
           },
           {
             'name': 'Spot Weakness',
             'description':
                 'Increases damage done any target with the Invulnerable status by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -288,13 +288,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Extra Hit',
             'description':
                 'Increases the number of hits by 2. The additional hits deal 20% and 60% extra damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
           {
             'name': 'Flashbag',
             'description':
                 'You can use the shield bash 3 times, and damage is increased by 30%. It stuns enemy on the last hit fir 2 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
         ]
       }
@@ -310,7 +310,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Strikes an enemy with your shield and stuns it for 3 seconds.',
     'type': 'Normal',
     'cooldown': 10,
-    'iconUrl': 'assets/icons/warlord/c01s04.png',
+    'iconUrl': 'assets/icons/warlord/c01s04.webp',
     'tripod': [
       {
         'tier': 1,
@@ -319,18 +319,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Armor Destruction',
             'description':
                 'Reduces the target’s attack power by 20% for 10 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.webp',
           },
           {
             'name': 'Attack Speed',
             'description': 'Increase attack speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Blitz Bash',
             'description':
                 '[Lightning] 25% chance to inflict 50% more damage to your target.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.webp',
           },
         ]
       },
@@ -341,19 +341,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Attack Preparation',
             'description':
                 'Successful hits grant a 25% damage increase buff for 5 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
           {
             'name': 'Concussion',
             'description':
                 'Increases the Incapacitate effect to its maximum level.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.webp',
           },
           {
             'name': 'Shield Enchancement',
             'description':
                 'Shield gauge charge is increased by 50% when attacking.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_37.webp',
           },
         ]
       },
@@ -363,12 +363,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Strike',
             'description': 'Increases the area of effect by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
           {
             'name': 'Echo',
             'description': 'Increases the stun effect duration by 2 seconds',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_51.webp',
           },
         ]
       }
@@ -384,7 +384,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Rushes to a foe and lifts the target, dealing damage, then follows with a combo attack, firing a cannon that deals [] damage. Inflicts an additional [] damage to targets in the air.',
     'type': 'Combo',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/warlord/c01s05.png',
+    'iconUrl': 'assets/icons/warlord/c01s05.webp',
     'tripod': [
       {
         'tier': 1,
@@ -392,19 +392,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Decreases skill cooldown by 3 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Defense Preparation',
             'description':
                 'Successful hits grant a 20% damage reduction bonus for 4 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Attack Preparation',
             'description':
                 'Increases attack power by 15% for 4 seconds after the first strike.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
         ]
       },
@@ -414,17 +414,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Damage Increased',
             'description': 'Increases the cannon’s damage by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Drillmaster',
             'description': 'Increases the cannon’s area of effect by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
           {
             'name': 'Penetration',
             'description': 'The cannon ignores 60% of a foe’s defense.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.webp',
           },
         ]
       },
@@ -434,12 +434,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Burn',
             'description': 'The shot inflicts a burn for 5 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.webp',
           },
           {
             'name': 'Attack Speed',
             'description': 'Increases attack speed by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_6.webp',
           },
         ]
       }
@@ -455,7 +455,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Leap high in the air towards a target location, and inflict [ ] damage to nearby foes upon landing.',
     'type': 'Point',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/warlord/c01s06.png',
+    'iconUrl': 'assets/icons/warlord/c01s06.webp',
     'tripod': [
       {
         'tier': 1,
@@ -463,17 +463,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Damage Increased',
             'description': 'Increases damage by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Reduces the cooldown by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Superior Mobility',
             'description': 'Increases the skill range by 2m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
         ]
       },
@@ -484,19 +484,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Great Earthquake',
             'description':
                 'You create an earthquake on your landing that slows enemies by 40% for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_15.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_15.webp',
           },
           {
             'name': 'Electric Zone',
             'description':
                 '[Lightning] Upon landing you create a lightning zone that remains 5 seconds. Enemies in the area receive damage every second.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.webp',
           },
           {
             'name': 'Shockwave',
             'description':
                 'You create a shockwave on your landing, dealing 20% ​​more damage and throwing enemies into the air. PVP: Causes stiffness instead of hard cc.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_77.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_77.webp',
           },
         ]
       },
@@ -507,13 +507,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Low Shock',
             'description':
                 'You can relaunch the skill a second time to jump again.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
           {
             'name': 'Jump',
             'description':
                 'You gather your forces before jumping, increasing the range to 18m and the damage done by 30%. The effect areas of Tier 2 talent are increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -529,7 +529,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Slams your shield down and deals [] damage to nearby enemies. Decreases enemies movement and attack speed by 20% for 4 seconds.',
     'type': 'Normal',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/warlord/c01s07.png',
+    'iconUrl': 'assets/icons/warlord/c01s07.webp',
     'tripod': [
       {
         'tier': 1,
@@ -537,19 +537,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mana Control',
             'description': '50% chance to not consume MP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Unquenchable Heat',
             'description':
                 '50% chance to reduce the cooldown by 8 seconds when the skill hits an enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Lucky Damage',
             'description':
                 'An additional lightning strikes to inflict 80% of the damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.webp',
           },
         ]
       },
@@ -560,17 +560,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Tenacity',
             'description':
                 'You become immune to control effects during the launch.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Strengthened Blow',
             'description': 'Increases damage by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Wide Strike',
             'description': 'Increases the attack radius by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -581,12 +581,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Second Wave',
             'description':
                 'The skill turns into chain skill that can be repeated immediately. The The second hit’s damage is increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Electrocution',
             'description': 'Increases the duration of electrocution by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_51.webp',
           },
         ]
       }
@@ -602,7 +602,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Throws a chain hook to your target and deals [] damage, then pulls your target towards you and deals [] damage.',
     'type': 'Notmal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/warlord/c01s08.png',
+    'iconUrl': 'assets/icons/warlord/c01s08.webp',
     'tripod': [
       {
         'tier': 1,
@@ -610,17 +610,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Decreases skill cooldown by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Mind Enhancement',
             'description': 'Decrease MP consumption by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Damage Increased',
             'description': 'Increases damage by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
         ]
       },
@@ -630,17 +630,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Sharpened Chain Hook',
             'description': 'Inflicts bleeding on the target for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
           {
             'name': 'Shackles',
             'description': 'Reduces enemy movement speed by 40% for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
           {
             'name': 'Offensive Preparation',
             'description': 'Increases your attack power by 25% for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
         ]
       },
@@ -650,13 +650,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Drill Master',
             'description': 'Increases the area of effect by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
           {
             'name': 'Taunt',
             'description':
                 'A successful hit taunts a monster that has immunity of the crowd control effects for 2 seconds. Upper grade [seed grade] monsters cannot be taunted again for a certain duration of time.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_33.webp',
           },
         ]
       }
@@ -672,7 +672,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'The caster raises their shield and charges forward. Each hit causes [ ] damage to foes and knocks them back. Causes stiffness instead of hard cc.',
     'type': 'Hold 2 sec',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/warlord/c01s09.png',
+    'iconUrl': 'assets/icons/warlord/c01s09.webp',
     'tripod': [
       {
         'tier': 1,
@@ -681,17 +681,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Improved Armor',
             'description':
                 'Gain a 30% damage reduction bonus while you are performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Decreases skill cooldown by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Damage Increased',
             'description': 'Increases damage by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
         ]
       },
@@ -701,18 +701,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Drill Master',
             'description': 'Increases the area of effect by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Barrier',
             'description':
                 'During the charge, create a barrier that absorbs 15% of your maximum health.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.webp',
           },
           {
             'name': 'Light Steps',
             'description': 'Travel speed is increased by 5% during charging.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.webp',
           },
         ]
       },
@@ -723,13 +723,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Unfinished Business',
             'description':
                 'Thrust a spear after the shield charge, dealing 40% additional damage. The target is lifted into the air.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
           {
             'name': 'Destructive Weapon',
             'description':
                 'Each hit grant a 10% damage bonus for 2 seconds. This bonus stacks up to 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_2.webp',
           },
         ]
       }
@@ -745,7 +745,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You charge your electric energy lance before you quickly shoot forward to hit the enemies. You can change direction slowly while loading the skill. It can also be charged 3 times to inflict more and more damage.',
     'type': 'Charge',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/warlord/c01s10.png',
+    'iconUrl': 'assets/icons/warlord/c01s10.webp',
     'tripod': [
       {
         'tier': 1,
@@ -754,18 +754,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Wound',
             'description':
                 'Inflicts Bleeding for 3 seconds if the skill deals a critical hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.webp',
           },
           {
             'name': 'Weak Spot',
             'description': 'Increases the damage done to your enemies by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.webp',
           },
           {
             'name': 'Improved Armor',
             'description':
                 'Gain a 20% damage reduction bonus while you are performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
         ]
       },
@@ -775,19 +775,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Improved Penetration',
             'description': 'Increases the penetration level by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_21.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_21.webp',
           },
           {
             'name': 'Improved Charging',
             'description':
                 'Each level of the charging gauge increases the damage dealt by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Toughness',
             'description':
                 'The caster becomes Invulnerable to crowd control effects while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
         ]
       },
@@ -798,13 +798,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Lightning Charge',
             'description':
                 'The charging level starts at 2, and overcharging causes an electric shock to your target for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_17.webp',
           },
           {
             'name': 'Last Charge',
             'description':
                 'Increases the maximum charging level by 1. At the maximum level, you travel faster, further, and deal 40% increased damage, followed by an artillery hit that also deals 40% increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -820,7 +820,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Inflicts [ ] damage to a maximum of 12 enemies within 8m. This also taunts monsters for 2 seconds.',
     'type': 'Normal',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/warlord/c01s11.png',
+    'iconUrl': 'assets/icons/warlord/c01s11.webp',
     'tripod': [
       {
         'tier': 1,
@@ -828,17 +828,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Decreases skill cooldown by 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Drill Master',
             'description': 'Increases the area of effect by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Defense Preparation',
             'description': 'All damage you receive is reduced by  20% for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
         ]
       },
@@ -848,19 +848,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Keep Provocation',
             'description': 'The duration of provocation increases by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
           {
             'name': 'Natural Selection',
             'description':
                 'Increases the damage dealt on lower grade monsters by 200%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.webp',
           },
           {
             'name': 'Protective Shield',
             'description':
                 'Creates a protective shield for 3 seconds which absorbs up to 30% of the caster’s maximum health worth of damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.webp',
           },
         ]
       },
@@ -871,13 +871,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Morale Boost',
             'description':
                 'Increases the attack strength of your party and party members in the 24m range by 40% for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.webp',
           },
           {
             'name': 'Shout',
             'description':
                 'Reduces the movement speed and attack power of inflicted enemies by 30% for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_46.webp',
           },
         ]
       }
@@ -893,7 +893,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Stab the spear that deals [ ] damage, charges fire power on the spear, and pulling the enemy []. Once the caster reaches max charge level, the caster shoots [ ] the enemy and knock the enemy back.',
     'type': 'Normal',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/warlord/c01s12.png',
+    'iconUrl': 'assets/icons/warlord/c01s12.webp',
     'tripod': [
       {
         'tier': 1,
@@ -901,17 +901,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Response',
             'description': 'Decreases the skill cooldown by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Swift Movement',
             'description': 'Increase attack speed by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Destroy Armor',
             'description': 'Reduces the target’s attack power by 20% for 10s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.webp',
           },
         ]
       },
@@ -921,19 +921,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Improved Strike',
             'description': 'Increases damage done by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Earthquake',
             'description':
                 'Reduces attack speed to 40% and movement speed to 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.webp',
           },
           {
             'name': 'Defense Preparation',
             'description':
                 'Reduces damage taken by 15% for 10 seconds if the skill hits an enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.webp',
           },
         ]
       },
@@ -944,13 +944,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Second Crash',
             'description':
                 'The skill can be cast twice, then you make a second hit that deals 100% of the damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Assault',
             'description':
                 'You jump on 5 meters before hitting the ground, inflicting 50% more damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
         ]
       }
@@ -966,7 +966,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Raise your shield to defend yourself from any harmful attack in front of you for 2 seconds. Absorbs damage by an amount equal to your maximum health. Successfully defending for 1 second grants a counter attack on the enemy which deals [] damage and knocks them back',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/warlord/c01s13.png',
+    'iconUrl': 'assets/icons/warlord/c01s13.webp',
     'tripod': [
       {
         'tier': 1,
@@ -975,19 +975,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Offensive Preparation',
             'description':
                 'A successful counter hit grants a 15% damage increase for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
           {
             'name': 'Improved Armor',
             'description':
                 'Gain a 30% damage reduction bonus while you are performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Incapacitate',
             'description':
                 'Increases the Incapacitate effect by 1 in the event of a successful counterattack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.webp',
           },
         ]
       },
@@ -998,18 +998,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Quick Response',
             'description':
                 'Decreases the skill cooldown by 8 seconds and but reduces the damage dealt by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.webp',
           },
           {
             'name': 'Improved Strike',
             'description': 'Increases damage by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Spot Weakness',
             'description':
                 'Increases the damage dealt to targets with the Invulnerable status by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -1020,13 +1020,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Bombardment',
             'description':
                 'A successful counter hit grants an extra artillery hit which deals 50% increased damage on the target.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Lightning Spear',
             'description':
                 'A successful counter hit grants an extra attack with the spear. The attack deals magical damage instead of physical and knocks the target down. The target is also inflicted with an electric shock for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_17.webp',
           },
         ]
       }
@@ -1042,7 +1042,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Reduces all damage done by you and your party members by 10 to 25% for 6 seconds.',
     'type': 'Normal',
     'cooldown': 40,
-    'iconUrl': 'assets/icons/warlord/c01s14.png',
+    'iconUrl': 'assets/icons/warlord/c01s14.webp',
     'tripod': [
       {
         'tier': 1,
@@ -1050,17 +1050,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Charge Speed',
             'description': 'Increases your movement speed by 15% for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
           {
             'name': 'Mind Enhancement',
             'description': 'Decrease MP consumption by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
         ]
       },
@@ -1071,18 +1071,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Increase Effectiveness',
             'description':
                 'An additional 25% increase in damage reduced by Nelacia’s energy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_24.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_24.webp',
           },
           {
             'name': 'Cleanse',
             'description':
                 'Cleanses all party members, removing one harmful effect.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.webp',
           },
           {
             'name': 'Prolonged Effect',
             'description': 'Increases the duration of the effect by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
         ]
       },
@@ -1092,13 +1092,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Leadership',
             'description': 'Increases your attack power by 40% for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
           {
             'name': 'Survivability',
             'description':
                 'Creates a protective shield on all party members which absorbs damage equal to 20% of their maximum health. The shield lasts for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.webp',
           },
         ]
       }
@@ -1114,7 +1114,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'After a forward thrust, you load its end of energy that attracts enemies before exploding to inflict damage and repel them.',
     'type': 'Normal',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/warlord/c01s15.png',
+    'iconUrl': 'assets/icons/warlord/c01s15.webp',
     'tripod': [
       {
         'tier': 1,
@@ -1122,18 +1122,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Controlling Mana',
             'description': 'Grants a 30% chance to ignore mana consumption.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Swift Movement',
             'description': 'Increases attack speed by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Tenacity',
             'description':
                 'You become immune to control effects during the launch.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.webp',
           },
         ]
       },
@@ -1143,18 +1143,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Strengthened Blow',
             'description': 'Increases damage by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Detect Weakness',
             'description':
                 'Increases damage by 40% against enemies immune to control effects.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Penetration',
             'description': 'Increases Penetration Level by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_21.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_21.webp',
           },
         ]
       },
@@ -1165,13 +1165,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Exploding Spear',
             'description':
                 'You charge 4 meters before attacking with your spear, which causes an explosion that deals 40% additional damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Close-Range Explosion',
             'description':
                 'The skill can be loaded. At second charge, deals 25% additional damage. At third charge, deals 105% additional damage. On the other hand, the first charge deals 20% less damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
         ]
       }
@@ -1187,7 +1187,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Fires your cannon in front of you. When the burst gauge is fully charged, it deals [] damage your target and knocks them down. When not fully charged, it deals [] damage and pushes the target back.',
     'type': 'Normal',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/warlord/c01s16.png',
+    'iconUrl': 'assets/icons/warlord/c01s16.webp',
     'tripod': [
       {
         'tier': 1,
@@ -1195,19 +1195,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Penetrating Shot',
             'description': 'Ignore 40% of the physical defense of enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.webp',
           },
           {
             'name': 'Scatter Shot',
             'description':
                 'You shoot cone-shaped, increasing damage by 30% against enemies of lower rank than Named. The area of ​​effect is increased by 20% and the enemies are no longer repulsed.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_61.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_61.webp',
           },
           {
             'name': 'High Explosive',
             'description':
                 'During your shot, you launch a bomb that moves 2 meters before exploding. The bomb has a Destruction Level 1 effect, and deals 50% additional damage to normal and lower monsters.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.webp',
           },
         ]
       },
@@ -1218,19 +1218,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Precise Shot',
             'description':
                 'The success bar becomes smaller, but if successful, the attack deals 40% more damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_72.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_72.webp',
           },
           {
             'name': 'Fixed Attack',
             'description':
                 'Becomes a normal skill, which shortens the time before reaching the area of ​​success.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_38.webp',
           },
           {
             'name': 'Overcharge',
             'description':
                 'Becomes a competence with charge. The first charge guarantees the Perfect effect, and the second charge increases the damage by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
         ]
       },
@@ -1241,13 +1241,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Spinning Fire',
             'description':
                 'You make a turn on yourself and shoot 4 times. Each time you hit an enemy, the cooldown is reduced by 1 second, with a maximum of 15 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Concentrated Strike',
             'description':
                 'Fires your cannon 4 times into the front. Each shots deals 50% increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -1263,7 +1263,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Use X to swing the sword and cause 82, 82, and 82 to the enemy',
     'type': 'Normal',
     'cooldown': 6,
-    'iconUrl': 'assets/icons/berserker/c02s00.png',
+    'iconUrl': 'assets/icons/berserker/c02s00.webp',
     'tripod': [
       {
         'tier': 1,
@@ -1272,18 +1272,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Enhanced Blow',
             'description':
                 'The time to prepare the attack increases by 0.3 seconds, but the damage to the enemy is increased by 25 %.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
           {
             'name': 'Shoulder Striking',
             'description':
                 'When casting a skill, move 2m forward and add 10% damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_39.webp',
           },
           {
             'name': 'Quick Hand',
             'description': 'Reduces attack preparation time by 0.3 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
         ]
       },
@@ -1293,18 +1293,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Ranged Blow',
             'description': 'Attack distance increases by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Both Ends',
             'description': 'After the cut attack, 50 % of the damage is added.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.webp',
           },
           {
             'name': 'Moving Forward',
             'description':
                 'Each slash attack will move forward one meter, allowing you to use and use other skills immediately after the attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.webp',
           },
         ]
       },
@@ -1315,13 +1315,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Hasher',
             'description':
                 'Changes to Holding Skills allow rotation during an attack and up to 8 attacks. The waiting time for reuse increases by 8 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.webp',
           },
           {
             'name': 'Cutting Space',
             'description':
                 'It cuts the space with a sharp cutter and creates a scare in the air. The grenade disappears after a while and attacks with an additional 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.webp',
           },
         ]
       }
@@ -1337,7 +1337,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Deals damage with a sword. Damage bonus for an attack in the back',
     'type': 'Normal',
     'cooldown': 5,
-    'iconUrl': 'assets/icons/berserker/c02s01.png',
+    'iconUrl': 'assets/icons/berserker/c02s01.webp',
     'tripod': [
       {
         'tier': 1,
@@ -1345,18 +1345,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Sleek Motion',
             'description': 'Attack speed increases by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Piercing Strike',
             'description': 'Ignores 30% of the target\'s defense.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.webp',
           },
           {
             'name': 'Charmer',
             'description':
                 'Increases the attack range by 10% and increases the stagger time of hit enemies by 0.3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.webp',
           },
         ]
       },
@@ -1366,17 +1366,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Concentration',
             'description': 'Anger gain is increased by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_37.webp',
           },
           {
             'name': 'Strengthen Cutting',
             'description': 'Skill is given Level 1 Cut.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_20.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_20.webp',
           },
           {
             'name': 'Internal Bleeding',
             'description': 'When a single target is hit, it will bleed for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_28.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_28.webp',
           },
         ]
       },
@@ -1387,13 +1387,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Cutting',
             'description':
                 'The skill deals an additional hit, for a total of 4 hits. Increases damage done to enemies by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Counter-Attack',
             'description':
                 'The first attack deals 80% more damage, and after the first strike, the sword can be swung again causing 100% damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
         ]
       }
@@ -1409,7 +1409,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Deals damage with his sword, inflicting additional damage to enemies in the air and crushing them to the ground',
     'type': 'Normal',
     'cooldown': 9,
-    'iconUrl': 'assets/icons/berserker/c02s02.png',
+    'iconUrl': 'assets/icons/berserker/c02s02.webp',
     'tripod': [
       {
         'tier': 1,
@@ -1417,18 +1417,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Muscle Cramps',
             'description': 'Increase knockdown duration by 0.5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.webp',
           },
           {
             'name': 'Enhanced Blowon',
             'description':
                 'Damage to enemies increases by 25%, but mana consumption increases by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
           {
             'name': 'Sharp Strike',
             'description': 'Increases critical hit rate by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
         ]
       },
@@ -1439,18 +1439,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Identified Weakness',
             'description':
                 'Increases the damage done to the immune enemy by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Concentration',
             'description': 'Anger gain is increased by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_37.webp',
           },
           {
             'name': 'Strike Sense',
             'description':
                 'Upon the first hit, critical hit rate increases by 20% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_5.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_5.webp',
           },
         ]
       },
@@ -1461,13 +1461,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Flame Rush',
             'description':
                 'The last downcasting attack is changed to an attack taken 4 times in a row in the air, and the damage given to the enemy is changed to the [Attack] property, increasing by 50% in total.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
           {
             'name': 'Red Lightning',
             'description':
                 'It rotates at the time of the rise, attacking the area of ​​360 degrees, and changes to the attack that takes a snap while it falls down. Damage to enemies increases by 75%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -1482,7 +1482,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Deals huge damage with his sword.',
     'type': 'Normal',
     'cooldown': 18,
-    'iconUrl': 'assets/icons/berserker/c02s03.png',
+    'iconUrl': 'assets/icons/berserker/c02s03.webp',
     'tripod': [
       {
         'tier': 1,
@@ -1490,18 +1490,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Strength',
             'description': 'During casting, gain immunity to CC.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.webp',
           },
           {
             'name': 'Internal Bleeding',
             'description': 'Applies a 5s bleed on hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.webp',
           },
           {
             'name': 'Enhanced Blow',
             'description':
                 'Increases attack time by 0.5s but increases your damage done by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
         ]
       },
@@ -1512,17 +1512,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Finish Him',
             'description':
                 'Increases damage done to enemies with health by less than 50% by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.webp',
           },
           {
             'name': 'Muscle Cramps',
             'description': 'The enemy\'s fallen state is increased by 1s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
           {
             'name': 'Internal Bleeding',
             'description': 'Increases damage done to target by 20% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.webp',
           },
         ]
       },
@@ -1533,13 +1533,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Shockwave',
             'description':
                 'After the attack, the shock wave will rise and give an additional 20% damage twice. At this time, if the target is abnormal, damage caused by shock waves increases to 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Confirm Kill',
             'description':
                 'Combo attack is changed. The second attack deals 150% damage to the enemy, but the cooldown increases by 6 seconds. Also, the delay time is shortened so that the next action can be continued more quickly after the second attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -1554,7 +1554,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Charge forward, inflicting damage to enemies on the way.',
     'type': 'Normal',
     'cooldown': 14,
-    'iconUrl': 'assets/icons/berserker/c02s04.png',
+    'iconUrl': 'assets/icons/berserker/c02s04.webp',
     'tripod': [
       {
         'tier': 1,
@@ -1563,18 +1563,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Shield effect',
             'description':
                 'Summons the power when casting a skill, creating a shield that absorbs up to 15% of maximum health for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_75.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_75.webp',
           },
           {
             'name': 'Burning Rage',
             'description':
                 ' When casting a skill, it is surrounded by fire, attacking nearby enemies with a 10% damage per second for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.webp',
           },
           {
             'name': 'Excellent Mobility',
             'description': 'Dash distance increases by 2m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
         ]
       },
@@ -1585,19 +1585,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Rush',
             'description':
                 'Changed to a chain skill that can be used continuously up to 2 times, but the cooldown time increases by 10 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_38.webp',
           },
           {
             'name': 'Hit',
             'description':
                 'The final attack is added, dealing 100 % damage and knockdown.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.webp',
           },
           {
             'name': 'Scraping',
             'description':
                 'Changes to an attack that travels fast forward and cuts enemies on the path.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.webp',
           },
         ]
       },
@@ -1608,13 +1608,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Earthquake',
             'description':
                 'Element changed to Earth, roll the foot after a run,  it gives 30% damage in the radius of 5m radius, and makes the earthquake for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.webp',
           },
           {
             'name': 'Anger Explosion',
             'description':
                 'Element changed to Fire, causing explosion with shout after rushing, causing 100% damage within 5m radius and float in the air.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.webp',
           },
         ]
       }
@@ -1629,7 +1629,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Spin with your sword to deals damage over 4 seconds.',
     'type': 'Hold 4 sec',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/berserker/c02s05.png',
+    'iconUrl': 'assets/icons/berserker/c02s05.webp',
     'tripod': [
       {
         'tier': 1,
@@ -1638,18 +1638,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Lightfoot',
             'description':
                 'Increases movement speed by 10% while using the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
           {
             'name': 'Sustainability',
             'description': 'Holding duration increases to a maximum of 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_42.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_42.webp',
           },
           {
             'name': 'Quick Preparation',
             'description':
                 'The cooldown time is reduced by 12 seconds, but the holding hold time is reduced to a maximum of 2 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
         ]
       },
@@ -1660,19 +1660,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Forward Cut',
             'description':
                 'When casting a skill, move 4m forward and add 20% damage. Reduces cooldown for reuse or reduction in loss of capacity due to skill cancellation does not apply.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.webp',
           },
           {
             'name': 'Chain Wheel',
             'description':
                 'As you continually attack an enemy, your damage will increase by 6% (per strike), up to 60% total.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
           {
             'name': 'Cleft Blade',
             'description':
                 'An additional attack range equivalent to 40 % of the attack range is created outside of Wheelwind. The range increases damage by 40 %.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
         ]
       },
@@ -1683,13 +1683,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Vacuum Cut',
             'description':
                 'Attack range is increased by 20%, attack rate is doubled, but damage is reduced by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
           {
             'name': 'Hurricane',
             'description':
                 'A whirlwind is created when the skill is released in the perfect zone. The whirlwind inflicts 40% damage if it strikes an enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -1705,7 +1705,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Concentrate energy into the sword to deal damage and knockback enemies.',
     'type': 'Normal',
     'cooldown': 18,
-    'iconUrl': 'assets/icons/berserker/c02s06.png',
+    'iconUrl': 'assets/icons/berserker/c02s06.webp',
     'tripod': [
       {
         'tier': 1,
@@ -1713,17 +1713,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Critical Hit',
             'description': 'Increases Critical Hit Rate by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
           {
             'name': 'Sleek Motion',
             'description': 'Attack speed increased by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Mental Fortification',
             'description': 'Mana cost reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -1733,17 +1733,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Ranged Blow',
             'description': 'Attack range increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Enhanced Strike',
             'description': 'Damage to enemies increased by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Defenseless Target',
             'description': 'Increases damage done to disabled targets by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.webp',
           },
         ]
       },
@@ -1754,13 +1754,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Power Accumulation',
             'description':
                 'Skill Type is changed to Charge Type, 100% for first level charge and 250% for overcharge, but the cooldown time increases by 18s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.webp',
           },
           {
             'name': 'Swirl',
             'description':
                 'Use centrifugal force to attack enemies in 360 degrees. Increases damage done by 50%',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
         ]
       }
@@ -1776,7 +1776,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Charge forward and swing your sword to deal damage and lift your enemies into the air, and deal additional 3 hit.',
     'type': 'Combo',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/berserker/c02s07.png',
+    'iconUrl': 'assets/icons/berserker/c02s07.webp',
     'tripod': [
       {
         'tier': 1,
@@ -1784,17 +1784,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Concentration',
             'description': 'Anger gain is increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.webp',
           },
           {
             'name': 'Sleek Motion',
             'description': 'Attack speed increased by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown time decreases by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
         ]
       },
@@ -1804,17 +1804,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Hit',
             'description': 'Increases Critical Hit Rate by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Enhanced Strike',
             'description': 'Damage to enemies is increased by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Heavy Strike',
             'description': 'Increased damage by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -1825,13 +1825,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Stir',
             'description':
                 '1 The rider disappears and does not move forward anymore. After that, the damage caused by the change of air rotation attack to 3 turns increases by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
           {
             'name': 'Storm Cut',
             'description':
                 'The attack range is increased by 20%, and the last attack is changed to spinning so that enemies in the rear can attack. Damage to enemies increases by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -1847,7 +1847,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Powerful stomp, and decrease enemy movement speed by 60% for 2s.',
     'type': 'Normal',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/berserker/c02s08.png',
+    'iconUrl': 'assets/icons/berserker/c02s08.webp',
     'tripod': [
       {
         'tier': 1,
@@ -1855,17 +1855,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown time decreases by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Concentrated',
             'description': 'Increases rage acquisition by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.webp',
           },
           {
             'name': 'Reinforce',
             'description': 'The duration of the earthquake increases by 1s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.webp',
           },
         ]
       },
@@ -1875,18 +1875,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Enhanced Strike',
             'description': 'Damage to enemies is increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Excellent Mobility',
             'description': 'Attack hit rate increases by 25% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.webp',
           },
           {
             'name': 'Slowdown Effect',
             'description':
                 'Decreases the attack speed of the target by 20% and the movement speed by 40% for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
         ]
       },
@@ -1897,13 +1897,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Seismic Wave',
             'description':
                 'Seismic waves are generated, which extend to 8m in succession. Additional strikes have 20% increased critical strike chance, and deal 80% more damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Land Conflict',
             'description':
                 'When an attack occurs, an earthquake pulling the enemy centered on the attack range, maintains the area for 6 seconds, and creates an area that deals damage every second.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.webp',
           },
         ]
       }
@@ -1918,7 +1918,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Jump and crush the enemies with his sword.',
     'type': 'Point',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/berserker/c02s09.png',
+    'iconUrl': 'assets/icons/berserker/c02s09.webp',
     'tripod': [
       {
         'tier': 1,
@@ -1926,17 +1926,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Excellent Mobility',
             'description': 'Travel distance increased by 2m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
           {
             'name': 'Concentration',
             'description': 'Anger gain increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown time decreases by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
         ]
       },
@@ -1946,18 +1946,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Fast Movement',
             'description': 'Increases movement speed by 30% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.webp',
           },
           {
             'name': 'Great Sword Again',
             'description':
                 'No longer knocks downs enemies, but pulls and collects them in front of you. Additionally, increases attack speed by 20% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.webp',
           },
           {
             'name': 'Muscle Training',
             'description': 'Increases knockdown duration by 1s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
         ]
       },
@@ -1968,13 +1968,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Power Slash',
             'description':
                 'Preparation (Wind Up) time is added, but damage done is increased by 200%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
           {
             'name': 'Sword Fragment',
             'description':
                 'Detection will occur when hit, increasing the Incapacitate to [medium] and causing the enemy to have a critical bleed for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.webp',
           },
         ]
       }
@@ -1990,7 +1990,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Slot your sword into the ground, enabling you to hold for up to 2s. In addition. By successfully perfect zone, deal additional damage and lift enemies into the air.',
     'type': 'Hold 2.5 sec',
     'cooldown': 36,
-    'iconUrl': 'assets/icons/berserker/c02s10.png',
+    'iconUrl': 'assets/icons/berserker/c02s10.webp',
     'tripod': [
       {
         'tier': 1,
@@ -1998,18 +1998,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Training Performance',
             'description': 'Attack range increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Jump',
             'description': 'Leap to the desired position up to 8m and attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
           {
             'name': 'Absorption',
             'description':
                 'The moment an attack is launched, it pulls the enemy within 5m into range.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_71.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_71.webp',
           },
         ]
       },
@@ -2020,19 +2020,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Fusion',
             'description':
                 'As you continue to hit a hit enemy, the damage done by your Hellblade increases by up to 10%, up to 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.webp',
           },
           {
             'name': 'Lava Eruption',
             'description':
                 'A lava zone with a total damage of 50% of the lava flow is created during 6 seconds after the final attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_85.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_85.webp',
           },
           {
             'name': 'Imortal Blow',
             'description':
                 'If you have less than 50% of your health, your damage will increase by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.webp',
           },
         ]
       },
@@ -2043,13 +2043,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Flip the Land',
             'description':
                 '[Earth] changed to a property, and then, after the final attack, cut the knife deeper and attack again with 40 % of the damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.webp',
           },
           {
             'name': 'Blood Ejection',
             'description':
                 'It is changed to [fire], and it executes the finish attack immediately.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.webp',
           },
         ]
       }
@@ -2065,7 +2065,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Deal a diagonal sword strike that sends the enemies in the air.',
     'type': 'Normal',
     'cooldown': 15,
-    'iconUrl': 'assets/icons/berserker/c02s11.png',
+    'iconUrl': 'assets/icons/berserker/c02s11.webp',
     'tripod': [
       {
         'tier': 1,
@@ -2073,17 +2073,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Hit',
             'description': 'Critical Hit rate increased by 15% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
           {
             'name': 'Exceptional Maneuverability',
             'description': 'Attack with 2.5 meters forward.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
           {
             'name': 'Sleek Motion',
             'description': 'Preparation time is greatly reduced. ',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
         ]
       },
@@ -2094,17 +2094,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Annihilate',
             'description':
                 'After the first attack, it strikes an additional court, causing 200% of damage and then knockdown to the enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.webp',
           },
           {
             'name': 'Geomorphic',
             'description': 'Applies a 5s bleed on hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
           {
             'name': 'Rapid Preparation',
             'description': 'Attack speed increases 25% for 3 seconds when hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.webp',
           },
         ]
       },
@@ -2115,13 +2115,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Quick Preparation',
             'description':
                 'Reduces the cooldown by 7s, but reduces damage done by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_56.webp',
           },
           {
             'name': 'Enhanced Blow',
             'description':
                 'Increases attack radius by 20%. Increases damage to enemies by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
         ]
       }
@@ -2136,7 +2136,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Swing your sword around while moving to deal damage.',
     'type': 'Normal',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/berserker/c02s12.png',
+    'iconUrl': 'assets/icons/berserker/c02s12.webp',
     'tripod': [
       {
         'tier': 1,
@@ -2144,17 +2144,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Swift Movement',
             'description': 'Increases movement speed by 15% for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
           {
             'name': 'Internal Bleeding',
             'description': 'Applies 5s of bleeding.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown time reduced by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
         ]
       },
@@ -2164,17 +2164,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Enhanced Strike',
             'description': 'Damage done increased by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Quick Hit',
             'description': 'Critical hit rate increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Concentration',
             'description': 'Anger gain increased by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_37.webp',
           },
         ]
       },
@@ -2185,13 +2185,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Squall',
             'description':
                 'Modifies the attack style. Attack three times with forward momentum. Total damage increases by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Windswift',
             'description':
                 'Swing forward with more forward momentum. Total damage increases by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
         ]
       }
@@ -2207,7 +2207,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'SStrongly strike downwards with your sword to deal damage, and pull the sword out of the ground to damage and pull the enemy towards you.',
     'type': 'Combo',
     'cooldown': 15,
-    'iconUrl': 'assets/icons/berserker/c02s13.png',
+    'iconUrl': 'assets/icons/berserker/c02s13.webp',
     'tripod': [
       {
         'tier': 1,
@@ -2215,17 +2215,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Sleek Motion',
             'description': 'Increases attack speed by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Mental Fortification',
             'description': 'Mana Consumption reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Concentration',
             'description': 'Anger gain increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.webp',
           },
         ]
       },
@@ -2235,18 +2235,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Strength',
             'description': 'Become immune to cc during skill use.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Enhanced Strike',
             'description': 'Damage done increased by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Quick Hit',
             'description':
                 '2 Critical hit chance increases by 25% for 4 seconds when hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
         ]
       },
@@ -2257,13 +2257,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Flame Swirl',
             'description':
                 'A delayed explosion occurs after the second strike, causing 40% additional damage and floating the target.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Depression',
             'description':
                 'Increases attack range by 20% and increases skill damage by 30%. Stiffen time of the second strike increased by 1s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.webp',
           },
         ]
       }
@@ -2279,7 +2279,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Attack can be charged on 2 levels that crack the ground over a long distance, inflicting damage to the affected enemies.',
     'type': 'Hold',
     'cooldown': 36,
-    'iconUrl': 'assets/icons/berserker/c02s14.png',
+    'iconUrl': 'assets/icons/berserker/c02s14.webp',
     'tripod': [
       {
         'tier': 1,
@@ -2288,17 +2288,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Wave',
             'description':
                 'Increases the damage done to enemies by 10% during each charge phase.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
           {
             'name': 'Rapid Accumulation',
             'description': 'Charge time is reduced by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
         ]
       },
@@ -2308,19 +2308,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Cerberus',
             'description': 'If over-charge, break into three parts and attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Limit breakthrough',
             'description':
                 'Increases the charge phase by one step, reducing the time it takes to charge by 0.1 seconds, and increasing the damage done by the overcharge to the enemy by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
           {
             'name': 'Blasting',
             'description':
                 'If over-charge occurs, it explodes at the end of the attack, dealing an additional 50% of damage to the enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.webp',
           },
         ]
       },
@@ -2331,13 +2331,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Blaze Wave',
             'description':
                 '[Fire] The properties change to an additional 60 % of basic damage to the enemy in the first stage of charge due to the flame explosion from the cracks in the ground.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.webp',
           },
           {
             'name': 'Flip the Land',
             'description':
                 'Changed to [Earth] type and black to move forward slowly, turning the ground over, can attack up to four times, but damage per attack is reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.webp',
           },
         ]
       }
@@ -2352,7 +2352,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Increases damage taken by you for 6 seconds by 12 to 30%.',
     'type': 'Normal',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/berserker/c02s15.png',
+    'iconUrl': 'assets/icons/berserker/c02s15.webp',
     'tripod': [
       {
         'tier': 1,
@@ -2360,17 +2360,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Reduces cooldown time by 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Sleek Motion',
             'description': 'Attack speed increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Mental Fortification',
             'description': 'Mana Consumption reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -2380,18 +2380,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Hit',
             'description': 'On hit, critical hit rate increased by 20% for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Cut Enhancement',
             'description': 'The skill is given a level 2 cut.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_20.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_20.webp',
           },
           {
             'name': 'Blood Stasis',
             'description':
                 'Increases the struck time of a hit enemy by 0.5 seconds, and makes it bleed for 5 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
         ]
       },
@@ -2402,13 +2402,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Red Fly',
             'description':
                 'When you raise the bell, a red squadron flies over the ground. Damage increases by 125% and attack distance by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
           {
             'name': 'Damage Boost',
             'description':
                 'Attack damage increases by 30% for 6 seconds for target and party members.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_2.webp',
           },
         ]
       }
@@ -2424,7 +2424,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Jump and create a black storm while falling. Throw the enemies in the air.',
     'type': 'Normal',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/berserker/c02s16.png',
+    'iconUrl': 'assets/icons/berserker/c02s16.webp',
     'tripod': [
       {
         'tier': 1,
@@ -2432,17 +2432,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Sleek Motion',
             'description': 'Attack speed increased by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown time reduces by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Quick Hit',
             'description': 'Critical hit rate increased by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
         ]
       },
@@ -2453,18 +2453,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Backbreak',
             'description':
                 'After the attack, an explosion occurs in the area causing an additional 20% damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.webp',
           },
           {
             'name': 'Weak Spot Capture',
             'description':
                 'Increases the damage done to the immune enemy by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Strength',
             'description': 'Become immune to cc during skill use.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
         ]
       },
@@ -2475,13 +2475,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Fire Storm',
             'description':
                 'Changed to [Fire] property, and if hit, it makes 6 seconds image state. If your health is below 50%, your damage will increase 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.webp',
           },
           {
             'name': 'Seismic Wave',
             'description':
                 'Instead of a float effect, the attack damage is increased by 30% and causes unsteady ground beneath the enemy for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_15.webp',
           },
         ]
       }
@@ -2497,7 +2497,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Slash into the air, causing a wave of energy which does a ranged attack.',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/berserker/c02s17.png',
+    'iconUrl': 'assets/icons/berserker/c02s17.webp',
     'tripod': [
       {
         'tier': 1,
@@ -2505,17 +2505,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Sleek Motion',
             'description': 'Increases attack speed by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown time reduces by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Ranged Blow',
             'description': 'Skill use distance increases by 2m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
         ]
       },
@@ -2525,17 +2525,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Strengthen Cutting',
             'description': 'Increases cut level to 2.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_20.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_20.webp',
           },
           {
             'name': 'Cadaver',
             'description': 'Decreases enemy attack speed by 15% for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
           {
             'name': 'Destruction',
             'description': 'Ignores 40% of the magical armor of enemies hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.webp',
           },
         ]
       },
@@ -2546,13 +2546,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Space Cut',
             'description':
                 'Aurora blade is modified to attack 3 times at the target position, increasing damage done by 75%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
           {
             'name': 'Extinction',
             'description':
                 'Skill is modified to a combo skill. The attack range is reduced, but the critical hit rate is increase by 30% and inflicts an additional 50% of the base attack damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
         ]
       }
@@ -2568,7 +2568,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Infuses your hammer with gravity energy and then slams it down in front of you',
     'type': 'Normal',
     'cooldown': 5,
-    'iconUrl': 'assets/icons/destroyer/c00s00.png',
+    'iconUrl': 'assets/icons/destroyer/c00s00.webp',
     'tripod': [
       {
         'tier': 1,
@@ -2576,18 +2576,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Hit',
             'description': 'Reduces the casting time by 0.3 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_40.webp',
           },
           {
             'name': 'Dark Matter',
             'description':
                 '[Shadow] Increases the chance to deal a critical strike by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_19.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_19.webp',
           },
           {
             'name': 'Force of the Earth',
             'description': '[Earth] Increases damage by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.webp',
           },
         ]
       },
@@ -2598,19 +2598,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Crush',
             'description':
                 'Reduces the movement speed of enemies by 20% for 5 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
           {
             'name': 'Lucky Core',
             'description':
                 'In case of a successful attack, you have a 30% chance of getting a kernel of gravity.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.webp',
           },
           {
             'name': 'Defenseless Target',
             'description':
                 'Deals 30% additional damage to knockdown or stunned enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.webp',
           },
         ]
       },
@@ -2620,13 +2620,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wide Hit',
             'description': 'Attack range increases by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
           {
             'name': 'Aftershock',
             'description':
                 'Your attack creates an earthquake that stays 5 seconds and deals 50% additional damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_22.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_22.webp',
           },
         ]
       }
@@ -2642,7 +2642,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You hit down to inflict damage, and you create a gravity zone. The area deals 8 times damage to the enemies present and draws them to its center. Then the area explodes to inflict damage again, luring enemies to you.',
     'type': 'Normal',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/destroyer/c00s01.png',
+    'iconUrl': 'assets/icons/destroyer/c00s01.webp',
     'tripod': [
       {
         'tier': 1,
@@ -2651,18 +2651,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Improved Recharging',
             'description':
                 'For each enemy hit, decreases the cooldown by 0.5 seconds, with a maximum of 4 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Gravity Enhancement',
             'description': 'Mana cost is reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Lucky Core',
             'description':
                 'Successful hits grant a 75% chance to gain an extra core.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.webp',
           },
         ]
       },
@@ -2673,19 +2673,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Solid Soul',
             'description':
                 'For each enemy hit, reduces damage taken by 10% for 5 seconds, with a maximum of 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.webp',
           },
           {
             'name': 'Hearthless Vengeance',
             'description':
                 'You add a dose of energy in the gravity zone. Increases damage by 5% at each heartbeat, with a maximum of 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
           {
             'name': 'Gravity Echo',
             'description':
                 'Stun for 2 seconds at the moment of exploding gravity.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.webp',
           },
         ]
       },
@@ -2696,13 +2696,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Wisdom of Energy',
             'description':
                 'You inject more energy into the gravity zone, which increases its damage gradually by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Empowered Will',
             'description':
                 'Instead of creating a vortex, generate a powerful gravity sphere that pulls foes toward it.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -2718,7 +2718,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Concentrates gravity energy within your hammer, then smashes it to the ground. The impact creates a shockwave launches you into the air, dealing damage to foes upon landing.',
     'type': 'Normal',
     'cooldown': 10,
-    'iconUrl': 'assets/icons/destroyer/c00s02.png',
+    'iconUrl': 'assets/icons/destroyer/c00s02.webp',
     'tripod': [
       {
         'tier': 1,
@@ -2727,18 +2727,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Toughness',
             'description':
                 'The caster becomes Invulnerable to crowd control effects while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.webp',
           },
           {
             'name': 'Unbearable Strength',
             'description':
                 'Ignores 30% of physical armor on any target with the Invulnerable status.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.webp',
           },
           {
             'name': 'Superior Transition',
             'description': 'Increases the distance traveled by 1m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
         ]
       },
@@ -2748,19 +2748,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Solid Body',
             'description': 'Reduces damage taken by 30% during casting.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.webp',
           },
           {
             'name': 'Sharpened Hammer',
             'description':
                 'Successful hits with the hammer deal 40% more damage to the target.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_63.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_63.webp',
           },
           {
             'name': 'Hammer Rampage',
             'description':
                 'Landing successful hits on at least 2 foes deals 10% more damage. Landing successful hits on 8 foes deals 80% more.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
         ]
       },
@@ -2771,13 +2771,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Shining Strike',
             'description':
                 'The last hits lift foes and deals 30% increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
           {
             'name': 'Raging Hammer',
             'description':
                 'Smashing the hammer on the ground rebounds you into the air, dealing 60% increased damage to foes upon landing.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
         ]
       }
@@ -2793,7 +2793,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Charge 5m forward, dealing dealing damage to foes. An additional combo attack deals damage with an upward strike.',
     'type': 'Combo',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/destroyer/c00s03.png',
+    'iconUrl': 'assets/icons/destroyer/c00s03.webp',
     'tripod': [
       {
         'tier': 1,
@@ -2802,19 +2802,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Iron Skin',
             'description':
                 'Gain a 30% damage reduction bonus while you are performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Victorious Contract',
             'description':
                 'The second (Hammer Up) attack deals 20% additional damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
           {
             'name': 'Critical Strength',
             'description':
                 'Attack speed is reduced by 15%, but damage done by enemies increases by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
         ]
       },
@@ -2824,18 +2824,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mission Completed',
             'description': 'Increases the skill range by 3m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.webp',
           },
           {
             'name': 'Antigravity',
             'description':
                 'You gain a shield that absorbs 15% of your maximum life during the launch.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.webp',
           },
           {
             'name': 'Drillmaster',
             'description': 'Increases the area of effect by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -2846,13 +2846,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Heavy Hammer',
             'description':
                 'You slam the hammer instead striking upwards, dealing 50% increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_22.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_22.webp',
           },
           {
             'name': 'Expression of Anger',
             'description':
                 'The last move becomes a 360 ° strike with the hammer that stuns enemies for 4 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_9.webp',
           },
         ]
       }
@@ -2868,7 +2868,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Swings the hammer in front of you, dealing damage. The hammer creates a gravity energy beam in front you. Enemies are pulled towards you.',
     'type': 'Chain',
     'cooldown': 14,
-    'iconUrl': 'assets/icons/destroyer/c00s04.png',
+    'iconUrl': 'assets/icons/destroyer/c00s04.webp',
     'tripod': [
       {
         'tier': 1,
@@ -2877,18 +2877,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Improved Recharging',
             'description':
                 'Each pulled enemy reduces the cooldown by 0.5 seconds up to a maximum total of 4 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Iron Skin',
             'description':
                 'Gain a 30% damage reduction bonus while you are performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Critical Strength',
             'description': 'Increases damage done by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
         ]
       },
@@ -2898,18 +2898,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Swift Movement',
             'description': 'Increases attack speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.webp',
           },
           {
             'name': 'Focusing Attack',
             'description': 'Increases damage done by 30% on a single target.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_28.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_28.webp',
           },
           {
             'name': 'Lucky Core',
             'description':
                 'When you hit the first strike, you gain 1 additional core with a 30% chance.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.webp',
           },
         ]
       },
@@ -2920,13 +2920,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Effluence of Instinct',
             'description':
                 'Creates a larger gravity energy beam. The charging time of the skill is increased by 0.4 seconds but the damage dealt is increased by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.webp',
           },
           {
             'name': 'Wave of Gravity',
             'description':
                 'Quickly releases the gravity energy but reduces the damage dealt by 50% and the area of effect by 20%. However, the skill can be used a second time within 3 seconds of the first attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.webp',
           },
         ]
       }
@@ -2942,7 +2942,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'While holding down the hotkey, you tackle enemies in front of you, and damage up to 7 times. Upon releasing the key or the gauge reaching its maximum, release an explosion that deals damage to foes.',
     'type': 'Hold',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/destroyer/c00s05.png',
+    'iconUrl': 'assets/icons/destroyer/c00s05.webp',
     'tripod': [
       {
         'tier': 1,
@@ -2951,17 +2951,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Lucky Core',
             'description':
                 'Successful hits grant a 50% chance to gain an extra core.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.webp',
           },
           {
             'name': 'Improved Gravity',
             'description': 'Reduces mana cost by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Quick Response',
             'description': 'Decreases the skill cooldown by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
         ]
       },
@@ -2972,19 +2972,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Antigravity',
             'description':
                 'Creates a gravity energy shield on the caster which absorbs damage equal to 15% of the caster’s maximum health.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.webp',
           },
           {
             'name': 'Careful Planning',
             'description':
                 'The explosion no longer repels the enemies but stuns them for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.webp',
           },
           {
             'name': 'Focused Target',
             'description':
                 'Gravity Energy Blast Attack damage is increased by 20% for 6 seconds when a target deals damage to you and your party members.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.webp',
           },
         ]
       },
@@ -2995,13 +2995,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Reckless Movement',
             'description':
                 'Rushes up to 8m towards the target location, knocking enemies down.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.webp',
           },
           {
             'name': 'Improved Rush',
             'description':
                 'The gravity energy of your hammer charges more powerfully, increasing the attack radius by 50% and the damage by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
         ]
       }
@@ -3017,7 +3017,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Leap high in the air towards a target location up to 10 m away and inflict damage to nearby foes upon landing.',
     'type': 'Point',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/destroyer/c00s06.png',
+    'iconUrl': 'assets/icons/destroyer/c00s06.webp',
     'tripod': [
       {
         'tier': 1,
@@ -3026,17 +3026,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Flame of Darkness',
             'description':
                 '[Shadow] Increases the critical strike chance by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_19.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_19.webp',
           },
           {
             'name': 'Hammer of Earth',
             'description': '[Earth] Increases damage by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.webp',
           },
           {
             'name': 'Superior Transition',
             'description': 'Increases the movement distance by 2m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
         ]
       },
@@ -3047,19 +3047,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Time Distortion',
             'description':
                 'Because of the gravity, creates a temporal distortion. The attack is slower but deals 25% additional damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.webp',
           },
           {
             'name': 'Grotesque Hammer',
             'description':
                 'Increases the area of ​​effect by 20%. If Annihilation (Tier 3) is used, increase the range in front of and behind you by 20%, and reach to your sides by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Quick Preparation',
             'description':
                 'If you hit a Hammer attack last hit, you gain a 50% chance to gain 1 additional core.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.webp',
           },
         ]
       },
@@ -3070,13 +3070,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Gravity Reversal',
             'description':
                 'Your hammer strike deals 30% more damage and creates an inverted gravity zone 5 meters wide. It deals 30% additional damage and casts enemies into the air.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.webp',
           },
           {
             'name': 'Annihilation',
             'description':
                 'Changes to [Normal] skill, rotates in the air while jumping, attacks 100% total damage',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -3091,7 +3091,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Raises your hammer and deal three brutal strikes.',
     'type': 'Normal',
     'cooldown': 14,
-    'iconUrl': 'assets/icons/destroyer/c00s07.png',
+    'iconUrl': 'assets/icons/destroyer/c00s07.webp',
     'tripod': [
       {
         'tier': 1,
@@ -3100,18 +3100,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Reckless Attack',
             'description':
                 'Increases damage received by 20% while performing the skill but the damage of each strike is increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
           {
             'name': 'Unbearable Strength',
             'description':
                 'Ignores 30% of physical armor on any target with the Invulnerable status.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.webp',
           },
           {
             'name': 'Quick Response',
             'description': 'Decreases the skill cooldown by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
         ]
       },
@@ -3122,18 +3122,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Superhuman Strength',
             'description':
                 'You can use other skills or cancel the skill while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.webp',
           },
           {
             'name': 'Improved Hammer',
             'description':
                 'Each hit increases damage dealt by 15% up to maximum total of 90%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
           {
             'name': 'Drillmaster',
             'description': 'Increases the area of effect by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -3144,13 +3144,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Endless attack',
             'description':
                 'Unleash 5 devastating hammer strikes, which, after the first swing, deal an additional 25% damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Coordinated Attack',
             'description':
                 'The last hit damages foes for 80% increased damage,  and knockdown the enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
         ]
       }
@@ -3166,7 +3166,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Saturates the hammer with gravity energy for a massive strike. It inflicts [ ] damage, and creates an unpredictable shock wave within 4m of the target location. You can use the skill two more times. The second hit inflicts [ ] damage, and the third hit inflicts [ ] damage.',
     'type': 'Combo',
     'cooldown': 36,
-    'iconUrl': 'assets/icons/destroyer/c00s08.png',
+    'iconUrl': 'assets/icons/destroyer/c00s08.webp',
     'tripod': [
       {
         'tier': 1,
@@ -3175,19 +3175,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Dark Energy',
             'description':
                 '[Shadow] You ignore 30% of the physical defense of enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_19.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_19.webp',
           },
           {
             'name': 'Earth Energy',
             'description':
                 '[Earth] Reduces enemy movement speed by 30% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.webp',
           },
           {
             'name': 'Strong Impact',
             'description':
                 'The enemies hit by the shock waves are thrown into the air. Enemies immune to control effects receive 20% additional damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.webp',
           },
         ]
       },
@@ -3197,19 +3197,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wide Strike',
             'description': 'Increases shock wave radius by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Unstable Earth',
             'description':
                 'You only hit once but the shock waves propagate three times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_78.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_78.webp',
           },
           {
             'name': 'Amplified Gravity',
             'description':
                 'With each hit, the shock wave damage increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
         ]
       },
@@ -3219,13 +3219,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Explosive Gravity',
             'description': 'Creates three shockwaves per each hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Gravity Control',
             'description':
                 'You create a series of three shockwaves around your hammer, inflicting 50% more damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -3241,7 +3241,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'When using a skill, you will have 15 to 40% reduction in damage that you are immune to for more than 5 seconds.',
     'type': 'Normal',
     'cooldown': 40,
-    'iconUrl': 'assets/icons/destroyer/c00s09.png',
+    'iconUrl': 'assets/icons/destroyer/c00s09.webp',
     'tripod': [
       {
         'tier': 1,
@@ -3249,18 +3249,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Drillmaster',
             'description': 'Increases the area of effect by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Improved Gravity',
             'description': 'Reduces mana cost by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Expulsion',
             'description':
                 'Successful hits push enemies back further. The inflicted enemies remain in the stiffness status longer.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.webp',
           },
         ]
       },
@@ -3271,18 +3271,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Antigravity',
             'description':
                 'Gain a gravitational shield of 30% of your maximum health for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.webp',
           },
           {
             'name': 'Terror of Battlefield',
             'description':
                 'Decreases the enemy attack speed by 20% and the movement speed by 40% for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.webp',
           },
           {
             'name': 'Trace of Pain',
             'description': 'Reduces the target attack power by 60% for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.webp',
           },
         ]
       },
@@ -3293,13 +3293,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Healthy Mentality',
             'description':
                 'Increases the duration of the buff from the skill by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_51.webp',
           },
           {
             'name': 'Hidden Pain',
             'description':
                 'Reduces damage taken by enemies when casting a skill by 90%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_24.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_24.webp',
           },
         ]
       }
@@ -3315,7 +3315,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Slams the ground behind you. Then swings the hammer to the front up to three times. The first swing inflicts [ ] damage, the second [ ], and the third [ ]. After the third swing, you strike the ground.',
     'type': 'Normal',
     'cooldown': 1,
-    'iconUrl': 'assets/icons/destroyer/c00s10.png',
+    'iconUrl': 'assets/icons/destroyer/c00s10.webp',
     'tripod': [
       {
         'tier': 1,
@@ -3323,18 +3323,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Intensified Blow',
             'description': 'Increases hammer damage by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
           {
             'name': 'Crimson Shrapnel',
             'description': 'Increases damage done by stone shards by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
           {
             'name': 'Absolute Power',
             'description':
                 'Ignore 10% of the physical defense of enemies by consumed kernel of gravity.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.webp',
           },
         ]
       },
@@ -3345,18 +3345,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Tenacity',
             'description':
                 'You are immune to control effects during the launch.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Practiced Outcome',
             'description': 'Increases the area of effect by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Earth Shock',
             'description':
                 'You hit the ground with your hammer, which creates an earthquake 7 meters ahead of you. It deals 15% more damage and defeats enemies for 2 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.webp',
           },
         ]
       },
@@ -3367,13 +3367,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Earth\'s Wrath',
             'description':
                 'Your hammer becomes a huge hammer surrounded by rocks, increasing its damage by 150%. The damage of stone chips is also increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
           {
             'name': 'Geostorm',
             'description':
                 'Competence becomes a [Hold] skill. The final blow is replaced by several hammer strokes. Damage is increased by 30% but area damage is removed.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -3389,7 +3389,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Swings the hammer 3 times like whirlwind. The first and second swings inflict [] damage. The last swing inflicts [ ] damage. This skill can be charged. The fully charged attack inflicts [ ] damage in total swings.',
     'type': 'Normal',
     'cooldown': 22,
-    'iconUrl': 'assets/icons/destroyer/c00s11.png',
+    'iconUrl': 'assets/icons/destroyer/c00s11.webp',
     'tripod': [
       {
         'tier': 1,
@@ -3398,17 +3398,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Iron Heart',
             'description':
                 'Gain a 30% damage reduction bonus while you are performing the skill and a 50% damage reduction while you are charging the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Swift Movement',
             'description': 'Increases attack speed by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Quick Response',
             'description': 'Decreases the skill cooldown by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
         ]
       },
@@ -3419,18 +3419,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Toughness',
             'description':
                 'The caster becomes Invulnerable to crowd control effects while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Absolute Power',
             'description': 'Each core increases damage dealt by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
           {
             'name': 'Terrifying Hammer',
             'description':
                 'Each successful hit increases damage dealt by 10% up to  a maximum of 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
         ]
       },
@@ -3441,13 +3441,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Bestial Eyes',
             'description':
                 'Reduces the charging time by 50% and increases the maximum level of the charge gauge. Overcharging increases damage dealt by 125%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Enraged Attack',
             'description':
                 'Removes the ability to charge and instead performs stationary swings. The area of effect increases over the duration of the skill and damage dealt is increased by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
         ]
       }
@@ -3463,7 +3463,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Smashes the hammer to the ground,inflicting [ ] damage. It creates a rock on the landing location. You destroy the rock and particles from the rock scatter in a fan-shaped angle, dealing [ ] damage. Successful hits by the particles stun enemies for 3 seconds.',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/destroyer/c00s12.png',
+    'iconUrl': 'assets/icons/destroyer/c00s12.webp',
     'tripod': [
       {
         'tier': 1,
@@ -3472,19 +3472,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Critical Strength',
             'description':
                 'Reduces attack speed by 10% but increases damage dealt by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
           {
             'name': 'Iron Skin',
             'description':
                 'Gain a 30% damage reduction bonus while you are performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Absolute Strength',
             'description':
                 'Increases the damage done by your opponent by 1% to 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
         ]
       },
@@ -3494,19 +3494,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wide Strike',
             'description': 'Increases the attack radius by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Superhuman Ability',
             'description':
                 'Using the force of gravity, you can use another skill to undo it.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.webp',
           },
           {
             'name': 'Basic Training',
             'description':
                 'Enemies hit by rock fragments are stunned for 2 more seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.webp',
           },
         ]
       },
@@ -3517,13 +3517,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Explosive Smash',
             'description':
                 'You make two rotations before sending your hammer to the rocks, which completely destroys them and makes the fragments fly 360 degrees. Increases the damage dealt by the shards by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_30.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_30.webp',
           },
           {
             'name': 'Strange Movement',
             'description':
                 'You can change the direction of the skill. You then lift the hammer above your head and jump up to a distance of 6 meters.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_27.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_27.webp',
           },
         ]
       }
@@ -3539,7 +3539,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Swing the hammer left and right. Each hit inflicts [ ] damage. Continual swings increase over the time and the last hit deals [ ] damage.',
     'type': 'Hold',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/destroyer/c00s13.png',
+    'iconUrl': 'assets/icons/destroyer/c00s13.webp',
     'tripod': [
       {
         'tier': 1,
@@ -3547,17 +3547,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Ready',
             'description': 'Decreases the skill cooldown by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Swift Movement',
             'description': 'Increases attack speed by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Improved Gravity',
             'description': 'Reduces mana cost by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -3568,19 +3568,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Well-maintained Hammer',
             'description':
                 'The damage of the first and second hits are increased by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Spot Weakness',
             'description':
                 'Increases the damage dealt to targets with the Invulnerable status by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Red Hammer',
             'description':
                 'Each hit increases damage dealt by 10% up to a maximum total of 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
         ]
       },
@@ -3591,13 +3591,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Critical Hammer',
             'description':
                 'You cannot change direction while performing the skill, but instead rapidly swing 5 time in front of you for 250% increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Superior Blow',
             'description':
                 'Swings the hammer in a 360 degree arc for a maximum of 4.5 seconds. The swing deals 40% increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
         ]
       }
@@ -3613,7 +3613,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Moves forward and tackles an enemy for [ ] damage, then hefts the hammer with two hands and smashes them for [ ]. You can charge the skill for 2 seconds. When fully charged, the skill moves 2m farther and the hammer strike deals [ ] damage.',
     'type': 'Charge',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/destroyer/c00s14.png',
+    'iconUrl': 'assets/icons/destroyer/c00s14.webp',
     'tripod': [
       {
         'tier': 1,
@@ -3621,19 +3621,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Capture Weakness',
             'description': 'Increases the damage done to your enemies by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.webp',
           },
           {
             'name': 'Final Blow',
             'description':
                 'When you hit a skill with an HP of 50% or less, your damage increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
           {
             'name': 'Toughness',
             'description':
                 'The caster becomes Invulnerable to crowd control effects while charging the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.webp',
           },
         ]
       },
@@ -3643,18 +3643,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Concussion',
             'description': 'Increases the incapacitate level by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.webp',
           },
           {
             'name': 'Sharpened Hammer',
             'description':
                 'Successful hits with the hammer deal 40% more damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_63.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_63.webp',
           },
           {
             'name': 'Unnecessary Waiting',
             'description': 'Reduces the time for charging the skill by 1s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.webp',
           },
         ]
       },
@@ -3665,13 +3665,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Massacre',
             'description':
                 'Immediately swings the hammer without charging it, creating a soundwave which damages the foe for 30% of the skill damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
           {
             'name': 'Intemperate',
             'description':
                 'Reduces the charging time by 50% and increases the maximum level of the charge gauge. Overcharging increases damage dealt by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -3687,7 +3687,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Thrusts the hilt of the hammer into the ground, creating a black hole that deals [ ] damage. You can infuse gravity energy into the black hole for 2 seconds, which then spreads in all directions, dealing [ ] damage. Releasing the hotkey explodes the black hole for [ ]. A completed infusion creates a larger black hole that deals [ ] damage.',
     'type': 'Hold',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/destroyer/c00s15.png',
+    'iconUrl': 'assets/icons/destroyer/c00s15.webp',
     'tripod': [
       {
         'tier': 1,
@@ -3696,19 +3696,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Hard Heart',
             'description':
                 'Reduces damage taken by 30% during casting and by 50% while loading the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Reasonable Choice',
             'description':
                 'Increases attack speed by 25% but increases the skill cooldown by 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Unbearable Strength',
             'description':
                 'Unleashing 3 cores ignores 30% of all armor on any target.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.webp',
           },
         ]
       },
@@ -3718,18 +3718,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wide Strike',
             'description': 'Increases the area of effect by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Strong Finish',
             'description':
                 'The damage of the black hole’s explosion is increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Absolute Power',
             'description': 'Each core increases damage dealt by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
         ]
       },
@@ -3740,12 +3740,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Target Location',
             'description':
                 'You target the location to create a magnetic field up to 10m from the current location. You can hold for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.webp',
           },
           {
             'name': 'Improved Magnetic Field',
             'description': 'Increases damage of the black hole by 150%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_1.webp',
           },
         ]
       }
@@ -3761,7 +3761,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Hold the hammer upside down, then leap in the air and smashing the ground for [ ]. After the impact, the skill creates a 5m cone-shaped wall which deals [ ] damage.',
     'type': 'Normal',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/destroyer/c00s16.png',
+    'iconUrl': 'assets/icons/destroyer/c00s16.webp',
     'tripod': [
       {
         'tier': 1,
@@ -3769,19 +3769,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Reduces the cooldown by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Toughness',
             'description':
                 'The caster becomes Invulnerable to crowd control effects while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.webp',
           },
           {
             'name': 'Absolute Force',
             'description':
                 'Increases the damage done by your opponent by 1% to 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
         ]
       },
@@ -3792,19 +3792,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Unbearable Strength',
             'description':
                 'Reduces all enemy armor by 60% for 4 seconds when attacking.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.webp',
           },
           {
             'name': 'Concussion',
             'description':
                 'Increases the level of the Incapacitate effect by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.webp',
           },
           {
             'name': 'Sharp Wall',
             'description':
                 'Increases damage done to wall-targeted enemies by 60%. In addition, we adjusted it to hit the wall more easily than usual.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
         ]
       },
@@ -3815,13 +3815,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Power Hungry',
             'description':
                 'The attack distance is reduced by 30%, but a circular shock wave extends to create a round wall, which increases wall damage by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
           {
             'name': 'Improved Spot Weakness',
             'description':
                 'Hit the hammer in place without jumping. It extends 2m further forward, creating walls that are larger in size and thickness, and increases wall damage by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.webp',
           },
         ]
       }
@@ -3837,7 +3837,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Strike forward. When pressed again, that deals additional damage and throws enemies into the air. You can change direction for the second attack.',
     'type': 'Combo',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/battlemaster/c03s00.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s00.webp',
     'tripod': [
       {
         'tier': 1,
@@ -3845,18 +3845,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Movement Distance',
             'description': 'Movement distance can increases by 1m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
           {
             'name': 'Winning Angle',
             'description':
                 'Increases the distance at which enemies are thrown, but the cast time is longer.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.webp',
           },
           {
             'name': 'Attack Speed',
             'description': 'Attack speed increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
         ]
       },
@@ -3867,18 +3867,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Ice Strike',
             'description':
                 '[Cold] When the attack hits 2 or more enemies freeze an enemy for 2s. Cooldown increased by 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.webp',
           },
           {
             'name': 'Range',
             'description': 'Skill range increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Ready to Attack',
             'description':
                 'Increases attack power by 15% for 3 seconds if you hit 2 or more enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
         ]
       },
@@ -3889,12 +3889,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Crushing Blade',
             'description':
                 'The first hit becomes more violent. Damage to enemies increases by up to 175%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Concentration',
             'description': 'Increases the gain of the identity gauge by 200%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_36.webp',
           },
         ]
       }
@@ -3910,7 +3910,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Inflicts damage in two attacks on the enemy. The first attack causes it to fall, then the second attack hits it on the ground and inflicts additional damage to the targets in the air.',
     'type': 'Normal',
     'cooldown': 7,
-    'iconUrl': 'assets/icons/battlemaster/c03s01.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s01.webp',
     'tripod': [
       {
         'tier': 1,
@@ -3919,19 +3919,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Movement Distance',
             'description':
                 'Using the skill, you can change direction and the movement distance is increased by 2 meters.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
           {
             'name': 'Transcendental',
             'description':
                 'Increases the gain of the identity gauge by 30% by attacking.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Without Mercy',
             'description':
                 'Increases damage by 30% against enemies that suffer from a control effect.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.webp',
           },
         ]
       },
@@ -3941,19 +3941,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Lightning Strike',
             'description': 'Affected enemies receive 30% more damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Thunderbolt',
             'description':
                 'When this skill deals damage to the enemy, the enemy suffers a 30% increase in damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.webp',
           },
           {
             'name': 'Violent Flash',
             'description':
                 'You get a 50% chance to electrify the enemy for 4 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.webp',
           },
         ]
       },
@@ -3964,13 +3964,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Lightning',
             'description':
                 'A quick-fire attack is added after 1 hit, increasing total damage by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Thump',
             'description':
                 'You can move in the direction of your cursor during the attack. Increases damage by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_27.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_27.webp',
           },
         ]
       }
@@ -3985,7 +3985,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Makes 3 violent strikes, the 3rd deals more damage.',
     'type': 'Normal',
     'cooldown': 6,
-    'iconUrl': 'assets/icons/battlemaster/c03s02.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s02.webp',
     'tripod': [
       {
         'tier': 1,
@@ -3994,18 +3994,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Dark Attack',
             'description':
                 'Changed: Changed to [Cancer] property, increasing the critical hit rate by 15%. A target that is hit by an attack will be in a dark state for 3 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_19.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_19.webp',
           },
           {
             'name': 'Single Extortion',
             'description':
                 'Increases the gain of the identity gauge by 100% if you only hit one enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Flame Attack',
             'description': 'Increase the damage by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.webp',
           },
         ]
       },
@@ -4016,18 +4016,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Damage Reduction',
             'description':
                 'Reduces damage to you by 40% while using the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.webp',
           },
           {
             'name': 'Resonance',
             'description': 'Increases damage by 15% each time you hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
           {
             'name': 'Without Mercy',
             'description':
                 'Increases damage by 50% against enemies that suffer from a control effect.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.webp',
           },
         ]
       },
@@ -4038,13 +4038,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Thunder',
             'description':
                 'Movement distance increased by 2 m, attack speed increased by 20%. The damage done to the enemy by the last strike increases by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_6.webp',
           },
           {
             'name': 'Damage',
             'description':
                 'The violent fists are changed to 5 manual attacks. Skill damage increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -4060,7 +4060,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Attack with a volley of 9 rounds that deal damage to enemies, the last move is more powerful.',
     'type': 'Normal',
     'cooldown': 14,
-    'iconUrl': 'assets/icons/battlemaster/c03s03.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s03.webp',
     'tripod': [
       {
         'tier': 1,
@@ -4068,18 +4068,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Holy Attack',
             'description': '[Holy] Increases attack speed by 20% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_18.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_18.webp',
           },
           {
             'name': 'Dark Attack',
             'description':
                 'Changed: Changed to [Cancer] property, increasing the critical hit rate by 15%. A target that is hit by an attack will be in a dark state for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_19.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_19.webp',
           },
           {
             'name': 'Wide Blow',
             'description': 'Attack Range increases by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
         ]
       },
@@ -4090,18 +4090,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Master of Strike',
             'description':
                 'Becomes a skill that can be channeled for 2.5 to inflict a myriad of blows on enemies. The damage is increased by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.webp',
           },
           {
             'name': 'Quick Blow',
             'description':
                 'You hit the enemies with 4 powerful shots instead of 9, and the last shot projects them. Increases damage by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.webp',
           },
           {
             'name': 'Weak Catch',
             'description': 'Increases the damage done to your enemies by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -4112,13 +4112,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Quietens',
             'description':
                 'The last move is transformed into uppercut, increasing the critical chance by 30% and the damage dealt to the enemy by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.webp',
           },
           {
             'name': 'Unbelievable',
             'description':
                 'While using the skill, the character is immune to attacks and ignores 40% of the enemy\'s physical defense.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
         ]
       }
@@ -4134,7 +4134,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You charge to the enemies by kicking. Then you launch a series of kicks that hit enemies 4 times.',
     'type': 'Combo',
     'cooldown': 18,
-    'iconUrl': 'assets/icons/battlemaster/c03s04.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s04.webp',
     'tripod': [
       {
         'tier': 1,
@@ -4143,18 +4143,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Termal Fiber Angle',
             'description':
                 '[Fire] If you start the sequence of 4 kicks, inflict a burn for 5 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.webp',
           },
           {
             'name': 'Violent Flash',
             'description':
                 '[Lightning] You can move during the chaining. In addition, the first shot repels enemies further and they suffer lightning damage for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.webp',
           },
           {
             'name': 'Incandescent Angle',
             'description': 'Increases the gain of the Identity Meter by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -4165,18 +4165,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Movement Distance',
             'description':
                 'The movement distance of the first shot is increased by 3 meters. Cooldown is reduced by 3 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.webp',
           },
           {
             'name': 'Diagonal Angle',
             'description':
                 'Increases the range by 30% and the number of kicks in the chain by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Single Blow',
             'description': 'Increases damage by 50% against single targets.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_28.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_28.webp',
           },
         ]
       },
@@ -4187,13 +4187,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Colorful Footstep',
             'description':
                 'Competence becomes a channeled skill. You can not move and you are not kicking anymore. Instead, you make a series of quick kicks for 2 seconds just after charging.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
           {
             'name': 'Full Moon Angle',
             'description':
                 'The preparation for the final blow is getting longer. Damage to enemies increased by 250%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.webp',
           },
         ]
       }
@@ -4209,7 +4209,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You jump to create an earthquake that deals damage to enemies every second for 5 seconds.',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/battlemaster/c03s05.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s05.webp',
     'tripod': [
       {
         'tier': 1,
@@ -4217,18 +4217,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Vibration Strengthening',
             'description': 'First hit, it knockdown the enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_77.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_77.webp',
           },
           {
             'name': 'Strong Attack',
             'description':
                 'Damage dealt to enemies who are knockdown is increased by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_29.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_29.webp',
           },
           {
             'name': 'Echo of the Earth',
             'description': 'Earthquake duration increased by 1s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.webp',
           },
         ]
       },
@@ -4239,19 +4239,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Heavy Steel',
             'description':
                 'Increases damage by 40% against normal or lower enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.webp',
           },
           {
             'name': 'Identified Weakness',
             'description':
                 'Increases damage by 40% against enemies immune to control effects.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Firmness',
             'description':
                 'The jump animation is removed, now the earth is punched by the character, which reduces the cast time.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.webp',
           },
         ]
       },
@@ -4262,13 +4262,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Crustal Change',
             'description':
                 'The number of earthquakes is reduced to 3. Last earthquake causes a larger explosion, knockdown. Damage increased by 300%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_22.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_22.webp',
           },
           {
             'name': 'Great Earthquake',
             'description':
                 'The attack range of the earthquake is increased by 30%. The time between earthquakes is reduced and the number of earthquakes is doubled.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -4284,7 +4284,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Charge to an enemy and attack You charge to enemies by attacking them on your way, dealing damage 5 times. Each shot throws enemies into the air and you can change direction between each.by dealing damage up to 5 times. If the enemy is hit in the air extra damage is applied.',
     'type': 'Combo',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/battlemaster/c03s06.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s06.webp',
     'tripod': [
       {
         'tier': 1,
@@ -4292,17 +4292,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Attack Speed',
             'description': 'Increases attack speed and attack range by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Wide Blow',
             'description': 'Attack Range increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Critical Hit',
             'description': 'Increases Critical Hit Rate by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
         ]
       },
@@ -4312,18 +4312,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.webp',
           },
           {
             'name': 'Damage Increased',
             'description': 'Damage increased by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'AP buff',
             'description':
                 'Increases attack power by 25% for 3 seconds when hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
         ]
       },
@@ -4334,13 +4334,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Fallen Leaves',
             'description':
                 'Slide forward, and allow you to knockdown enemies by pressing the skill key again. You can use the windmill during sliding.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.webp',
           },
           {
             'name': 'Order Ascension Angle',
             'description':
                 '[Water] Increases damage by 50% and casts enemies into the air.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_9.webp',
           },
         ]
       }
@@ -4356,7 +4356,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Within the range of yourself and 24m, the party’s powers of wind increase the movement speed and attack speed by 11 to 16% and 5.5 to 8% for 6 sec.',
     'type': 'Normal',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/battlemaster/c03s07.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s07.webp',
     'tripod': [
       {
         'tier': 1,
@@ -4365,19 +4365,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Blessing of the Wind',
             'description':
                 'Your attack speed increases by 8% for 6 seconds when casting a skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Breeze',
             'description':
                 'Your skill damage will be reduced by 25% for 6 seconds. The effect is lost when hit once.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Oath of Wind',
             'description':
                 'Your critical strike rate increases by 10% for 6 seconds when casting a skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_49.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_49.webp',
           },
         ]
       },
@@ -4387,18 +4387,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Reduction Damage',
             'description': '30% reduction in damage to party members for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.webp',
           },
           {
             'name': 'Quicker',
             'description': 'Cooldown reduced by 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.webp',
           },
           {
             'name': 'Whisper of the Wind',
             'description':
                 'The blessing of the wind, the blessing of the wind, and the effect of the wind swear increase by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
         ]
       },
@@ -4408,13 +4408,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Ready to Attack',
             'description': 'Your attack power increases by 40% for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
           {
             'name': 'Super-strong',
             'description':
                 'Causes powerful damage, also repelling enemies. The damage dealt to the enemies will result in the filling of the identity meter. PVP: Reduced damaged done by 46.0%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_16.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_16.webp',
           },
         ]
       }
@@ -4430,7 +4430,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You jump on 16 meters to give an aerial kick. Enemies are struck up to 11 times and are severely repulsed. The movement of the skill is directed by the player\'s cursor.',
     'type': 'Normal',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/battlemaster/c03s08.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s08.webp',
     'tripod': [
       {
         'tier': 1,
@@ -4438,19 +4438,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Critical Hit',
             'description': '[Lightning] Increases Critical Hit Rate by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.webp',
           },
           {
             'name': 'Hydropower',
             'description':
                 'Reduces enemy attack speed by 20% and movement speed by 40% for 4 seconds when attacking.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.webp',
           },
           {
             'name': 'Burns',
             'description':
                 '[Fire] The enemy burns for 5 seconds when hit by the attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.webp',
           },
         ]
       },
@@ -4460,17 +4460,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wide Blow',
             'description': 'Increases attack range by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown time decreases by 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.webp',
           },
           {
             'name': 'Agile Judgment',
             'description': 'Attack speed increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.webp',
           },
         ]
       },
@@ -4481,13 +4481,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Wrath of Ange',
             'description':
                 'Changes the skill in a rotating kick of 4 turns diagonally, with a final hit on the ground. Dealing 30% more damage to enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Extreme Water Lily',
             'description':
                 'Increases the spinning kick time by 1 second, facilitates redirection, and increases the total damage done by enemies by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.webp',
           },
         ]
       }
@@ -4503,7 +4503,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You jump very high in the air, before falling heavily on the ground at a maximum distance of 5 meters. You deal damage as you approach the ground and then do more damage at the end of your fall.',
     'type': 'Point',
     'cooldown': 18,
-    'iconUrl': 'assets/icons/battlemaster/c03s09.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s09.webp',
     'tripod': [
       {
         'tier': 1,
@@ -4511,19 +4511,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wide Blow',
             'description': 'Attack Range increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Light Target',
             'description':
                 'Targets that are stunned by this skill take 20% more damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_29.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_29.webp',
           },
           {
             'name': 'Burns',
             'description':
                 'The enemy burns for 5 seconds when hit by the attack',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.webp',
           },
         ]
       },
@@ -4534,18 +4534,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Fierce Attack',
             'description':
                 'When you fall back and hit the ground, an explosion occurs, causing 25% more damage to enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Weak Point',
             'description':
                 'Increases damage dealt to enemies immune to controls by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Frozen',
             'description': 'When attacking, the enemy is frozen for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.webp',
           },
         ]
       },
@@ -4556,13 +4556,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Unstoppable Surprise',
             'description':
                 'You can start the skill a second time by pressing the skill key again. Cooldown increased by 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
           {
             'name': 'Attack Speed',
             'description':
                 'Attack speed increased by 20%. Movement distance increased by 5 m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_6.webp',
           },
         ]
       }
@@ -4578,7 +4578,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Shoots a momentary spell to inflict damage and expels nearby enemies. Reduces critical strike resistance by 20% for 6s.',
     'type': 'Normal',
     'cooldown': 25,
-    'iconUrl': 'assets/icons/battlemaster/c03s10.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s10.webp',
     'tripod': [
       {
         'tier': 1,
@@ -4586,18 +4586,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mind Enhancement',
             'description': 'Decrease MP consumption by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Wide Blow',
             'description': 'Attack Range increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Concentration',
             'description':
                 'Increases the gain of the identity gauge by 25% by attacking.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -4607,19 +4607,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Rapid Preparation',
             'description': 'Cooldown reduced by 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.webp',
           },
           {
             'name': 'Mobility Weakness',
             'description':
                 'Reduces enemy movement speed by 60% for 4 seconds when attacking.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
           {
             'name': 'Afterimage of the King',
             'description':
                 'Increases the duration of the Roar of Valor effect by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.webp',
           },
         ]
       },
@@ -4630,13 +4630,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Deadly Wave',
             'description':
                 'When attacking, the enemy’s critical resistance decreases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.webp',
           },
           {
             'name': 'Impact Enhanced',
             'description':
                 'The skill casting method is changed to charge, and the damage done to the enemy by charge is increased by 250%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
         ]
       }
@@ -4652,7 +4652,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You kick that deals damage and sends enemies through the air. The player jumps quickly and then hitting twice more, inflicting additional damage on projected enemies. The direction can be changed between strikes.',
     'type': 'Combo',
     'cooldown': 25,
-    'iconUrl': 'assets/icons/battlemaster/c03s11.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s11.webp',
     'tripod': [
       {
         'tier': 1,
@@ -4661,19 +4661,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Concentration',
             'description':
                 'Increases the gain of the identity gauge by 25% by attacking.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.webp',
           },
           {
             'name': 'Weak Point',
             'description':
                 'Increases the damage dealt to enemies immune to controls by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.webp',
           },
           {
             'name': 'Sharp Footwork',
             'description':
                 'Hit the enemy without falling on it, reducing the time of the animation of the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.webp',
           },
         ]
       },
@@ -4683,19 +4683,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Attack Range',
             'description': 'Increases attack range and attack speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Shadows of Darkness',
             'description':
                 'Changed: Changed to [Cancer] property and increases the critical hit rate by 30%. The target hit in the last kick attack will be in darkness for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.webp',
           },
           {
             'name': 'Intense Lightning',
             'description':
                 '[Lightning] Enemies hit by the last attack have a 50% chance of being electrified for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.webp',
           },
         ]
       },
@@ -4706,13 +4706,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Exceptiona',
             'description':
                 'Reduces stance, pulls the toes, jumps forward, and blows one of the extreme bounces, giving 150% more damage to enemies and knocking them around. While collecting flags at the end of your foot, damage done by your attack increases by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
           {
             'name': 'Exaggerated Ability',
             'description':
                 'The movement of the kicker becomes concise, and the damage given to the attacking enemy increases by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -4728,7 +4728,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'The wind is around the player and instantly deals damage to nearby enemies. The wind holds for 20 seconds and deals damage to nearby enemies every 0.5 seconds while repelling them.',
     'type': 'Normal',
     'cooldown': 36,
-    'iconUrl': 'assets/icons/battlemaster/c03s12.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s12.webp',
     'tripod': [
       {
         'tier': 1,
@@ -4737,19 +4737,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Burning Armor',
             'description':
                 'The damage received at the launch of the skill is reduced by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Lightfoot',
             'description':
                 'Increases movement speed by 30% for 3s while launching the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
           {
             'name': 'Deadly Acting',
             'description':
                 'Increases the gain of the Identity Meter by 50% by attacking.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -4759,19 +4759,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Road of Commitment',
             'description': 'The duration increases by 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
           {
             'name': 'Technology Loss',
             'description':
                 'Reduces the cooldown by 15s, but also decreases the duration by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.webp',
           },
           {
             'name': 'Fierce Battle',
             'description':
                 'Increases damage by 5% for 2s, cumulative up to 10 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
         ]
       },
@@ -4782,13 +4782,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Attack Range',
             'description':
                 'Increases attack range by 20%. Increases critical damage by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
           {
             'name': 'Explosion in the Air',
             'description':
                 'When a gust of wind blows, it causes an explosion, inflicting 50% of basic skill damage and detonating the enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -4804,7 +4804,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Cost 1 globe of identity. Performs a powerful, smashing attack that deals damage to enemies.',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/battlemaster/c03s13.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s13.webp',
     'tripod': [
       {
         'tier': 1,
@@ -4813,18 +4813,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Weak Point',
             'description':
                 'Increases the damage dealt to enemies immune to controls by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.webp',
           },
           {
             'name': 'Attack Range',
             'description': 'Attack range increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Absorption Blow',
             'description':
                 'During the preparation of this attack, the player is immune to dizziness. A model is created that represents the negative and positive forces on the ground, the surrounding enemies are pulled into the attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_71.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_71.webp',
           },
         ]
       },
@@ -4834,18 +4834,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Attack Speed',
             'description': 'Attack speed increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.webp',
           },
           {
             'name': 'Сollection',
             'description': '30% chance of acquire 1 globe of identity.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.webp',
           },
           {
             'name': 'Dead Set',
             'description':
                 'Increases attack power by 30% for 4 seconds when attacking.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
         ]
       },
@@ -4855,13 +4855,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Bastion of Destruction',
             'description': 'Increases damage by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
           {
             'name': 'Meditation Strike',
             'description':
                 'The skill no longer repels the enemy but stuns them for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.webp',
           },
         ]
       }
@@ -4877,7 +4877,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Cost 2 globe of identity. Summons a circle of flames that deals damage by gathering enemies and then releases spiraling Dragon\'s energy upwards to hit enemies 5 times.',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/battlemaster/c03s14.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s14.webp',
     'tripod': [
       {
         'tier': 1,
@@ -4885,18 +4885,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Attack Range',
             'description': 'Attack Range increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_71.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_71.webp',
           },
           {
             'name': 'Сollection',
             'description': '40% chance of acquire 1 globe of identity.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.webp',
           },
           {
             'name': 'Strength',
             'description':
                 'After your jump, you are becomes immune to attacks.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.webp',
           },
         ]
       },
@@ -4906,17 +4906,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Concentrated Hit',
             'description': 'Increases damage by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Ascension of the Black Dragon',
             'description': 'Increases critical damage by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.webp',
           },
           {
             'name': 'Finishing Attack',
             'description': 'Deals 80% more damage to enemies with <30% health.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.webp',
           },
         ]
       },
@@ -4927,13 +4927,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Eye of the Storm',
             'description':
                 'Now, the skill allows enemies to pulled up to 2.5 seconds. The skill begins when the skill key is released or the 2.5 seconds elapse. Increased damage to immune enemies by 50% against the pull effect.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_33.webp',
           },
           {
             'name': 'Finishing Blow',
             'description':
                 'The last attack will have a 100% chance of being a critical hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.webp',
           },
         ]
       }
@@ -4949,7 +4949,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Cost 1 globe of identity. Unleashes an aura of electricity that deals 3 damage to enemies. Enemies become stunned for 2s, and receive 20% more [Cold] damage while stunning.',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/battlemaster/c03s15.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s15.webp',
     'tripod': [
       {
         'tier': 1,
@@ -4957,17 +4957,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Critical Hit',
             'description': 'Increase critical hit rate by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
           {
             'name': 'Сollection',
             'description': 'The attack lasts 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.webp',
           },
           {
             'name': 'Attack Speed',
             'description': 'Increases attack speed by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
         ]
       },
@@ -4978,17 +4978,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Lightning',
             'description':
                 'The electric current goes in line and extends over 9 meters.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_87.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_87.webp',
           },
           {
             'name': 'Firm Will',
             'description': 'Increases damage by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Bend',
             'description': 'You charge 4 meters during the attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.webp',
           },
         ]
       },
@@ -4999,13 +4999,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Electric Shock',
             'description':
                 'After the attack, a cloud of electric current remains for 5 seconds. It deals damage to enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
           {
             'name': 'Dangerous Deal',
             'description':
                 'You consume 1 additional elemental bubble and the stunning effect is removed. However, the skill becomes a combo and its damage increases by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
         ]
       }
@@ -5021,7 +5021,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Cost 2 globe of identity. The player rises in the air and turns quickly to create a tornado. Each enemy caught in the whirlwind suffers damage with each hit. The skill can be held for 4 seconds while continuing to attract enemies. The movement of the skill is directed by the player\'s cursor.',
     'type': 'Hold 4 sec',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/battlemaster/c03s16.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s16.webp',
     'tripod': [
       {
         'tier': 1,
@@ -5030,19 +5030,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Earth Storm',
             'description':
                 '[Earth] Enemies are no longer attracted, but the damage increases by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.webp',
           },
           {
             'name': 'Cold Storm',
             'description':
                 '[Cold] Enemies hit 5 times are frozen for 2 seconds. PVP: Will not cause stiffness.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.webp',
           },
           {
             'name': 'Lightning Storm',
             'description':
                 '[Lighting] Each hit in the tornado has a 30% chance to increase critical damage by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.webp',
           },
         ]
       },
@@ -5053,18 +5053,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Growing Attack',
             'description':
                 'On each turn, the damage of the tornado increases by 5%, with a maximum of 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
           {
             'name': 'Wide Attack',
             'description': 'Increases the range by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Add Rotation',
             'description':
                 'Increases movement speed by 13% while casting and increases its duration by 1s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.webp',
           },
         ]
       },
@@ -5075,13 +5075,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Summon Storm',
             'description':
                 'Instead of turning you into a tornado, you summon one that blows slowly in all directions, and attracts the surrounding enemies. It remains 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_85.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_85.webp',
           },
           {
             'name': 'Raging Storm',
             'description':
                 'When the swirl ends, it dispels forcefully and deals 60% of the basic skill damage to the enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.webp',
           },
         ]
       }
@@ -5097,7 +5097,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Cost 2 globe of identity. Make a powerful punch that causes 3 ground explosions in its wake. Explosions advance forward and repel enemies on their way, causing damage',
     'type': 'Normal',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/battlemaster/c03s17.png',
+    'iconUrl': 'assets/icons/battlemaster/c03s17.webp',
     'tripod': [
       {
         'tier': 1,
@@ -5106,19 +5106,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Weak Point',
             'description':
                 'Increases damage dealt to enemies immune to controls by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.webp',
           },
           {
             'name': 'The Last Blast',
             'description':
                 'The damage caused by the third explosion is increased by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
           {
             'name': 'Rough Explosion',
             'description':
                 'Increases the attack power by 3% for 5 seconds for the number of enemies hit. It can be stacked up to 10 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
         ]
       },
@@ -5128,18 +5128,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Сollection',
             'description': '75% chance of acquire 1 globe of identity.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.webp',
           },
           {
             'name': 'Frost Explosion',
             'description': 'Enemies are frozen for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
           },
           {
             'name': 'Flame Explosion',
             'description':
                 '[Fire] Inflicts a burn for 5 seconds, which can accumulate up to 6 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
         ]
       },
@@ -5150,13 +5150,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Endless Destruction',
             'description':
                 'The blast spreads in three directions. Damage increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Big Explosion',
             'description':
                 'After the third explosion, the player jumps once more, causing a massive explosion. Damage increased by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -5172,7 +5172,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Charge foward, deal 31 damage (max 3 times) on contact while charging, then land a ground slam for 40 damage.',
     'type': 'Normal',
     'cooldown': 5,
-    'iconUrl': 'assets/icons/infighter/c04s00.png',
+    'iconUrl': 'assets/icons/infighter/c04s00.webp',
     'tripod': [
       {
         'tier': 1,
@@ -5180,18 +5180,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Focus',
             'description': 'Shock gauge generation increased by 10.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.webp',
           },
           {
             'name': 'Excellent Mobility',
             'description': 'The charge distance increased by 3 meters.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
           {
             'name': 'Ready to Attack',
             'description':
                 'ATK increases by 10% for 3 seconds when hit in an aggressive attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
         ]
       },
@@ -5202,19 +5202,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Ruthless Advance',
             'description':
                 'After ground slam, add an extra slam. Increase total damage by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.webp',
           },
           {
             'name': 'Strong Fist',
             'description':
                 'The range of slam attack increases by 70% and pulls enemies to the slam location.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_71.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_71.webp',
           },
           {
             'name': 'Destroyer',
             'description':
                 'Increase damage by 15% and knock up enemies with the slam attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
         ]
       },
@@ -5224,13 +5224,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Ruthless Advance',
             'description': 'Damage increases by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.webp',
           },
           {
             'name': 'Shock Wave',
             'description':
                 'Attack speed is increased by 20% and damage increases by 40% against enemies that are immune to CC.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_33.webp',
           },
         ]
       }
@@ -5245,7 +5245,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Punch 3 times, each dealing 52/52/70 damage.',
     'type': 'Combo',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/infighter/c04s01.png',
+    'iconUrl': 'assets/icons/infighter/c04s01.webp',
     'tripod': [
       {
         'tier': 1,
@@ -5253,18 +5253,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Internal Bleeding',
             'description': '50% chance to inflict Bleed for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.webp',
           },
           {
             'name': 'Wide Blow',
             'description': 'Increases attack range by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Monster Shock',
             'description':
                 'Damage to target and party members increases by 10% for 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_61.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_61.webp',
           },
         ]
       },
@@ -5275,17 +5275,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Trifoliate',
             'description':
                 'Damage of the first hit increases by 5% and every hit after that increases by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
           {
             'name': 'Identified Weakness',
             'description': 'Increases damage done to cc immune enemies by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Focus',
             'description': 'Shock gauge generation increased by 15.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.webp',
           },
         ]
       },
@@ -5296,13 +5296,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'One Punch Blow',
             'description':
                 'After the third hit adds one more attack, the total damage increases by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
           {
             'name': 'Transcendent',
             'description':
                 'The last hit has it’s critical chance raised by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.webp',
           },
         ]
       }
@@ -5318,7 +5318,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Attack two times rapidly dealing 34, 68 damage and knock up on the last hit.',
     'type': 'Normal',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/infighter/c04s02.png',
+    'iconUrl': 'assets/icons/infighter/c04s02.webp',
     'tripod': [
       {
         'tier': 1,
@@ -5326,18 +5326,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wide Blow',
             'description': 'Attack Range increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Amplification',
             'description':
                 'Damage to target and party members increases by 10% for 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.webp',
           },
           {
             'name': 'Abdominal Respiration',
             'description': 'Power gauge consumption reduced by 5.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.webp',
           },
         ]
       },
@@ -5347,17 +5347,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Dig',
             'description': 'Moving foward while attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.webp',
           },
           {
             'name': 'Identified Weakness',
             'description': 'Increases damage done to CC immune enemies by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Concentration',
             'description': 'Shock gain increased by 15.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.webp',
           },
         ]
       },
@@ -5368,13 +5368,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Coarse Division',
             'description':
                 'On successful hit the attack strength increases by 10% for each enemy hit up to 50%, buff lasts 3 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
           {
             'name': 'Frantic Bombing',
             'description':
                 'Add an additional attack after the second jab, and if hit on a single target, deal 40% extra damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
         ]
       }
@@ -5390,7 +5390,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Cost 30 Ki, Regen 20 Shock. Jump to mouse location, dealing 300 damage and knock enemies over.',
     'type': 'Point',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/infighter/c04s03.png',
+    'iconUrl': 'assets/icons/infighter/c04s03.webp',
     'tripod': [
       {
         'tier': 1,
@@ -5398,18 +5398,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Excellent Mobility',
             'description': 'Travel distance increased by 2 meters.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
           {
             'name': 'Abdominal Respiration',
             'description': 'Ki gauge consumption reduced by 5.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.webp',
           },
           {
             'name': 'Momentary Burst',
             'description':
                 'Increases Ki gauge consumption by 10 but increases damage by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.webp',
           },
         ]
       },
@@ -5419,18 +5419,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wide Blow',
             'description': 'Increases AoE by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Incarnation',
             'description':
                 'After landing, you cover yourself in a fire aura for 6s, dealing continuous damage to nearby enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
           {
             'name': 'Strength',
             'description': 'Immune to one attack while cast.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
         ]
       },
@@ -5440,12 +5440,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Destruction',
             'description': 'Increases damage to single targets by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_28.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_28.webp',
           },
           {
             'name': 'Black Dragon\'s Fall',
             'description': 'Increases damage by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_19.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_19.webp',
           },
         ]
       }
@@ -5461,7 +5461,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Cost 30 Ki, Regen 15 Shock. Instantly strike for 137 damage and stun target for 3 sec.',
     'type': 'Normal',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/infighter/c04s04.png',
+    'iconUrl': 'assets/icons/infighter/c04s04.webp',
     'tripod': [
       {
         'tier': 1,
@@ -5469,17 +5469,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wide Blow',
             'description': 'Attack Range increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Abdominal Respiration',
             'description': 'Ki gauge consumption reduced by 5.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.webp',
           },
           {
             'name': 'Concentration',
             'description': 'Shock gauge generation increased by 10.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.webp',
           },
         ]
       },
@@ -5490,18 +5490,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Dangerous Contract',
             'description':
                 'Decreases cooldown by 6s but reduces Stun duration by 1s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.webp',
           },
           {
             'name': 'Accuracy',
             'description': 'Increases the Stun duration by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.webp',
           },
           {
             'name': 'Adverse Effect',
             'description':
                 'The stun effect disappears and the damage done to the enemy is 300% increased.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -5511,12 +5511,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Tracking Instinct',
             'description': 'Move and attack to the mouse position in 4m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.webp',
           },
           {
             'name': 'Last Stand',
             'description': 'Increase attack AoE by 350 degrees.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -5532,7 +5532,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Cost 30 Ki, Regen 20 Shock. Shake the ground with your feet, dealing 256 damage to the nearby enemies and knock over',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/infighter/c04s05.png',
+    'iconUrl': 'assets/icons/infighter/c04s05.webp',
     'tripod': [
       {
         'tier': 1,
@@ -5541,18 +5541,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Force of the Earth',
             'description':
                 'Change element to Earth and removes super armor on successful hit from the enemies, an earthquake occurs at the bottom, reducing the enemy\'s move speed by 30% for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.webp',
           },
           {
             'name': 'Indomitable Strength',
             'description':
                 'Change element to Fire, applies Burn effect for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.webp',
           },
           {
             'name': 'Shock Release',
             'description': 'Increase the duration of the knock up in 2 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.webp',
           },
         ]
       },
@@ -5562,19 +5562,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Breakthrough',
             'description': 'Creates a wave for 7m in the direction of cursor.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.webp',
           },
           {
             'name': 'Surprise Attack',
             'description':
                 'Strike very hard in one hit, damage to enemy is increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.webp',
           },
           {
             'name': 'Strong Case',
             'description':
                 'Changes to combo skill, the damage to the enemy increases by 40% by pressing on the left foot 2 times fast and then strong on the right foot.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_38.webp',
           },
         ]
       },
@@ -5585,12 +5585,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Empowered Earthquake',
             'description':
                 'After a short delay another hit occurs at the the same place, the total damage increases by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.webp',
           },
           {
             'name': 'Giant’s Advance',
             'description': 'Attack range increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
         ]
       }
@@ -5606,7 +5606,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Cost 15 Ki, Regen 20 Shock. Hold a button to deal 24 damage witch each hit and then move forward for 2 m with a kick to deal 142 damage.',
     'type': 'Hold 1 sec',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/infighter/c04s06.png',
+    'iconUrl': 'assets/icons/infighter/c04s06.webp',
     'tripod': [
       {
         'tier': 1,
@@ -5614,18 +5614,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Crackshot',
             'description': 'Increases damage of the last attack by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_18.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_18.webp',
           },
           {
             'name': 'Righteous Plunder',
             'description':
                 'As you jab, there’s a 50% chance to apply Bleed for 5s, this can stack up to 3 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.webp',
           },
           {
             'name': 'Excellent Mobility',
             'description': 'Travel distance increased by 2m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
         ]
       },
@@ -5636,19 +5636,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Formidable Will',
             'description':
                 'The duration of a quick punch increases by up to 0.3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_42.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_42.webp',
           },
           {
             'name': 'Red Explosion',
             'description':
                 'Increases damage by 100% against CC immune enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Single Blow',
             'description':
                 'Increases fast jabs damage to single targets by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_28.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_28.webp',
           },
         ]
       },
@@ -5659,13 +5659,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Widespread',
             'description':
                 'The fast jabs turn into two spurts of furious flurries and the damage increases by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
           {
             'name': 'Reverse Rotation Blow',
             'description':
                 'After the final hit, adds one more attack in front.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.webp',
           },
         ]
       }
@@ -5681,7 +5681,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Cost 25 Ki, Regen 20 Shock. Makes stream of punches in a cursor direction, each hit do 65 damage, applies buff with each successfull hit on 1s which decreases incoming damage for 5%, stacks up to 10 stacks, direction can be changed while holding the skill.',
     'type': 'Hold 1 sec',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/infighter/c04s07.png',
+    'iconUrl': 'assets/icons/infighter/c04s07.webp',
     'tripod': [
       {
         'tier': 1,
@@ -5689,19 +5689,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Critical Hit',
             'description': 'Increases critical hit rate by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
           {
             'name': 'Solid Armor',
             'description':
                 'Incoming damage received reduced by 20% during cast.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Quick Charge',
             'description':
                 'Every time this attack successfully lands, generates 1 additional Shock.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.webp',
           },
         ]
       },
@@ -5712,18 +5712,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Anger',
             'description':
                 'If your health falls under 50%, increases damage dealt by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.webp',
           },
           {
             'name': 'Momentary Burst',
             'description':
                 'Increases Power gauge consumption by 5 but increases damage by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Piercing Strike',
             'description': 'Attack ignores 40 % of enemy’s physical defense.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.webp',
           },
         ]
       },
@@ -5734,13 +5734,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Threshold of Death',
             'description':
                 'Adds the perfect zone, when the perfect zone is successfull strike with additional hit to do 6 times more damage then ordinary punches.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_72.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_72.webp',
           },
           {
             'name': 'Forward Advance',
             'description':
                 'Increases attack speed by 20% and total charge time by 50% (2s).',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_6.webp',
           },
         ]
       }
@@ -5756,7 +5756,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Cost 25 Ki, Regen 30 Shock. Perform 3 attacks dealing 73, 88, 132 damage and character is moved forward before the last hit.',
     'type': 'Combo',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/infighter/c04s08.png',
+    'iconUrl': 'assets/icons/infighter/c04s08.webp',
     'tripod': [
       {
         'tier': 1,
@@ -5765,19 +5765,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Enhanced Blow',
             'description':
                 'Transforms the last attack into a strong smash which knocks down enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_39.webp',
           },
           {
             'name': 'Wave',
             'description':
                 'The final strike fires a burst of energy 7 meter outwards.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_87.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_87.webp',
           },
           {
             'name': 'Full Power',
             'description':
                 'The last blow releases energy from the swinging arm and Increases damage by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
         ]
       },
@@ -5787,17 +5787,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Concentration',
             'description': 'Shock gauge generation increased by 10.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_37.webp',
           },
           {
             'name': 'Wide Blow',
             'description': 'Increases attack range by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Reduces the cooldown time by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.webp',
           },
         ]
       },
@@ -5808,13 +5808,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Reinforcement',
             'description':
                 'Increases movement distance by 1 meter, attack speed by 20%, and damage by 150% when attacking CC immune enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.webp',
           },
           {
             'name': 'Enhanced Fist',
             'description':
                 'Grants immunity to hit-effects while casting and increases the damage by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_23.webp',
           },
         ]
       }
@@ -5830,7 +5830,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Cost 20 Ki, Regen 10 Shock. Fire a shock wave to the front causing 94 damage and pull enemies dealing 120 damage.',
     'type': 'Normal',
     'cooldown': 15,
-    'iconUrl': 'assets/icons/infighter/c04s09.png',
+    'iconUrl': 'assets/icons/infighter/c04s09.webp',
     'tripod': [
       {
         'tier': 1,
@@ -5838,17 +5838,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Concentration',
             'description': 'Increases Shock gauge generation by 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.webp',
           },
           {
             'name': 'Quick Hand',
             'description': 'Attack speed increases by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
         ]
       },
@@ -5859,18 +5859,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Enhanced Blow',
             'description':
                 'Decreases Shock gauge generation by 10 but increases damage by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Vigilance',
             'description':
                 'Increases attack power by 5% for 3s. Can be stacked up to 10 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
           {
             'name': 'Piercing Strike',
             'description': 'Attack ignores 40% of enemy’s physical defense.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.webp',
           },
         ]
       },
@@ -5881,12 +5881,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Oscillating Resonance',
             'description':
                 'Chains project into a circular shape and pulls enemies towards the center.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.webp',
           },
           {
             'name': 'Empowered Resonance',
             'description': 'Launches three chains that pull the enemy to you.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.webp',
           },
         ]
       }
@@ -5902,7 +5902,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Jump into the air and hit down, causing 148 damage and 29 more damage to fallen enemies.',
     'type': 'Combo',
     'cooldown': 6,
-    'iconUrl': 'assets/icons/infighter/c04s10.png',
+    'iconUrl': 'assets/icons/infighter/c04s10.webp',
     'tripod': [
       {
         'tier': 1,
@@ -5910,18 +5910,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Abdominal Respiration',
             'description': 'Increases Critical Hit Rate by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Increases energy gain by 10.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.webp',
           },
           {
             'name': 'Sleek Motion',
             'description':
                 'Damage to target and party members increases by 10% for 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
         ]
       },
@@ -5931,19 +5931,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Strength',
             'description': 'Damage to knockdown enemies increases by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.webp',
           },
           {
             'name': 'Ignorant Blow',
             'description':
                 'Can be cast a second time dealing 100% additional damage however increases cooldown by 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.webp',
           },
           {
             'name': 'Neurology',
             'description':
                 'Increase the total damage by 20% but the additional damage to fallen enemyes can\'t be applied.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_77.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_77.webp',
           },
         ]
       },
@@ -5954,13 +5954,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'True Judgment',
             'description':
                 'Changes the attack into two smaller attacks and increases total damage by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
           {
             'name': 'Talon of the Falcon',
             'description':
                 'Increases damage inflicted by 40%  and shock consumption decreases by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
         ]
       }
@@ -5976,7 +5976,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Release the shock wave in the cursor direction to cause 225 damage.',
     'type': 'Normal',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/infighter/c04s11.png',
+    'iconUrl': 'assets/icons/infighter/c04s11.webp',
     'tripod': [
       {
         'tier': 1,
@@ -5984,18 +5984,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'On a critical hit, 50% chance to reset the CD.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Single Blow',
             'description': 'Increases damage to single targets by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_28.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_28.webp',
           },
           {
             'name': 'Concentration',
             'description':
                 'When a fist hit is hit, 50% chance to cause the enemy to bleed for 3 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.webp',
           },
         ]
       },
@@ -6006,18 +6006,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Identified Weakness',
             'description':
                 'Striking a fist results in a trajectory that is 30% longer than the basics, and increases the damage to the enemy by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_88.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_88.webp',
           },
           {
             'name': 'Lucky Blow',
             'description':
                 'Immediately move 3 m forward rapidly in a forward direction, increasing the damage done to the enemy by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.webp',
           },
           {
             'name': 'Finishing Strike',
             'description': 'You can have 2 stacks of a skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_83.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_83.webp',
           },
         ]
       },
@@ -6028,13 +6028,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Reinforced Blow',
             'description':
                 'Huge fist appear attacking the enemy with a thrust increasing skill damage by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
           {
             'name': 'Heavy Swing',
             'description':
                 'Increases the attack wind-up for a heavier hit, increases total damage by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
         ]
       }
@@ -6050,7 +6050,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Release all Shock energy dealing 442 damages and blow away enemies, damage depends on the reduction of Shock energy, at 0 - 25% energy damage increases by 15%, at 26 - 50 % energy damage increases by 30 %, at 51 - 75% energy damage increases by 45 % and at 76 - 100% energy damage increases by 60%.',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/infighter/c04s12.png',
+    'iconUrl': 'assets/icons/infighter/c04s12.webp',
     'tripod': [
       {
         'tier': 1,
@@ -6058,18 +6058,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Wide Blow',
             'description': 'Attack Range increases by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Eye of the Heart',
             'description':
                 'Increases attack speed by 15% but also increases cooldown by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
         ]
       },
@@ -6079,18 +6079,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Strength',
             'description': 'Become immune to CC during skill casting.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Single Blow',
             'description': 'Increases damage to single targets by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_28.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_28.webp',
           },
           {
             'name': 'Finishing Strike',
             'description':
                 'Increases damage by 50% to enemies below 50% of max HP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.webp',
           },
         ]
       },
@@ -6101,12 +6101,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Shock',
             'description':
                 'Increases bonus damage by 20%, 40%, 60%, and 120% depending on the amount of impact gauges you have.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
           {
             'name': 'Mind Relaxation',
             'description': 'Consumes 50% of Shock gauge instead of all.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_37.webp',
           },
         ]
       }
@@ -6122,7 +6122,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Gather the flags in the gontlette, and damage 113 by a powerful energy strike. It can be charged for continuous input of skill buttons. If it is overfilled, it can cause 168 damages and 393 damages due to secondary wave attacks.',
     'type': 'Charge',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/infighter/c04s13.png',
+    'iconUrl': 'assets/icons/infighter/c04s13.webp',
     'tripod': [
       {
         'tier': 1,
@@ -6130,17 +6130,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Suddenly Strike',
             'description': 'Critical hit rate increases by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
           {
             'name': 'Concentration',
             'description': 'Shock gauge consumption reduced by 10.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.webp',
           },
         ]
       },
@@ -6150,18 +6150,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Muscle Burst',
             'description': 'Second wave hit knocks enemy down.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_77.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_77.webp',
           },
           {
             'name': 'Ligament Burst',
             'description': 'Second wave hit damage is increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Focus Target',
             'description':
                 'When a fist or a second wave attack is hit, the target will lose 20% of his or her damage to the party member for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.webp',
           },
         ]
       },
@@ -6172,13 +6172,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Mastery',
             'description':
                 'Increases Shock gauge consumption by 10 but no longer needs to be charged.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
           {
             'name': 'Supersonic Shockwave',
             'description':
                 'Increases Strength gauge generation by 15 and increases damage by 80% against enemies whose HP is below 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
         ]
       }
@@ -6194,7 +6194,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'It hits the ground strongly, causing earthquakes to inflict and blow a wide range of damage on enemies for a total of four times, 108, 146, 182, 290.',
     'type': 'Normal',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/infighter/c04s14.png',
+    'iconUrl': 'assets/icons/infighter/c04s14.webp',
     'tripod': [
       {
         'tier': 1,
@@ -6203,18 +6203,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Old Hand',
             'description':
                 'The damage done while using the skill is reduced by 20%, the number of strikes hit on the ground increases, and the damage done to the enemy is increased by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_39.webp',
           },
           {
             'name': 'Arousal',
             'description': 'Strike fast 2 times and make final attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Wide Blow',
             'description':
                 'The damage to the enemy is increased by 20% by rapidly charging the floor several times and taking the last blow. As you hit, the range of attacks increases slightly and restores two shocks of energy for each attack hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_40.webp',
           },
         ]
       },
@@ -6225,18 +6225,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Armor Destruction',
             'description':
                 'Every time you hit the ground except for the last blow, the energy is released and then washed back into the character, pulling the enemies together.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_71.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_71.webp',
           },
           {
             'name': 'Strength',
             'description': 'Become immune to cc during skill casting.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Unbalanced',
             'description':
                 '[Fire] If an attack is hit, it is damaged by burn. It can be supersioned up to 5 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
         ]
       },
@@ -6247,13 +6247,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Mega Explosion',
             'description':
                 'The last attack has a slight delay (adds a jumping animation) and the damage of it is increased by 150%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
           {
             'name': 'Vital Impact',
             'description':
                 'Each time you cut, the damage to the enemy increases by 10% as the pointed posts rise from the ground.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_85.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_85.webp',
           },
         ]
       }
@@ -6269,7 +6269,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Launch yourself into the air with first attack, causing 53 damage and proceed with downward strike in the cursor position dealing 210 damage on landing, first hit also launches enemies into the air.',
     'type': 'Combo',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/infighter/c04s15.png',
+    'iconUrl': 'assets/icons/infighter/c04s15.webp',
     'tripod': [
       {
         'tier': 1,
@@ -6278,19 +6278,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Technical Finesse',
             'description':
                 'Adds an uppercut in the beginning of the attack, increasing total damage by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_40.webp',
           },
           {
             'name': 'Lightning Fist',
             'description':
                 'The first attack has a 50% chance to inflict Shock on the enemy for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.webp',
           },
           {
             'name': 'Fist of Destruction',
             'description':
                 'First hit gathers enemies up before floating them into the air.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_71.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_71.webp',
           },
         ]
       },
@@ -6300,19 +6300,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Identified Weakness',
             'description': 'Increases damage done to CC immune enemies by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Angry Strike',
             'description':
                 'While your HP is 50% or lower, the critical damage of this skill increases by 150%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Midair Bombing',
             'description':
                 'The upper cut pierces 60% of enemy’s physical defense.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_21.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_21.webp',
           },
         ]
       },
@@ -6323,13 +6323,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Dragon\'s Rage',
             'description':
                 'Increases attack radius by 30% and decreases incoming damage by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
           {
             'name': 'Explosive Strike',
             'description':
                 'The downward strike will always be a critical hit and the critical damage is increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.webp',
           },
         ]
       }
@@ -6345,7 +6345,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Staring forward, she instantly slips 3 meters in front of her arms for one second, causes 150 damages, and then throws a punch to 350 damages. Damage depends on the reduction of impact energy. Impact energy increases 15% to 25%, increases 30% to 26% to 50%, increases 45% to 51% to 75%, and increases to 76% to 100%, increases damage to 60%.',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/infighter/c04s16.png',
+    'iconUrl': 'assets/icons/infighter/c04s16.webp',
     'tripod': [
       {
         'tier': 1,
@@ -6354,19 +6354,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Violent Fist',
             'description':
                 'The attack when moving forward is turned to a multi-hit. The attack becomes an explosion and inflicts burning damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.webp',
           },
           {
             'name': 'Rational Move',
             'description':
                 'Movement distance is reduced by 3 meters but damage is increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Unexpected Move',
             'description':
                 'It will become possible to take over and take up to 2 stages. Depending on the level of charge, the distance to hit the fist increases by 1 meter.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_39.webp',
           },
         ]
       },
@@ -6377,17 +6377,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Overflowing Force',
             'description':
                 'Increases damage from Shock gauge consumption by 20%, 40%, 60% and 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Shock Control',
             'description': 'Damage increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
           {
             'name': 'Patience',
             'description': 'Reduces incoming damage by 50% whille using skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.webp',
           },
         ]
       },
@@ -6398,12 +6398,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Surprise Attack',
             'description':
                 'Increases attack speed by 30% and Power gauge generated by 30.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_37.webp',
           },
           {
             'name': 'Strength',
             'description': 'Become immune to CC during skill casting.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_23.webp',
           },
         ]
       }
@@ -6419,7 +6419,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Create a ball of energy dealing 66 damage, pull enemies to the ball dealing 66 damage and blow it up with a powerful finishing blow to cause 556 damage.',
     'type': 'Normal',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/infighter/c04s17.png',
+    'iconUrl': 'assets/icons/infighter/c04s17.webp',
     'tripod': [
       {
         'tier': 1,
@@ -6427,18 +6427,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Sleek Motion',
             'description': 'Attack speed increases by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Justice Plunder',
             'description':
                 'Reduces Shock gauge consumption by 30 but increases cooldown by 12s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
         ]
       },
@@ -6448,18 +6448,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Piercing Strike',
             'description': 'Attack ignores 30% of enemy’s defense.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.webp',
           },
           {
             'name': 'Angry Explosion',
             'description':
                 'The attack that pulls enemies is removed and the explosion happens instantly instead.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.webp',
           },
           {
             'name': 'Wide Blow',
             'description': 'Attack Range increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -6470,12 +6470,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Pride of Fighters',
             'description':
                 'Make 4 additional punches to increase damage by 20% and scope of explosion by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Unyielding Blow',
             'description': 'Increases damage by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
         ]
       }
@@ -6490,7 +6490,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Fires three condensed energy blasts in succession.',
     'type': 'Normal',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/soulmaster/c05s00.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s00.webp',
     'tripod': [
       {
         'tier': 1,
@@ -6499,18 +6499,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Penetrative Force',
             'description':
                 'Increases the airborne consumption by 20% and attack rate by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
           {
             'name': 'Ranged Attack',
             'description': 'Increases the skill range by 4 meters.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
           {
             'name': 'Mobility Weakness',
             'description':
                 'Skill hits the enemy\'s movement speed by 5% for 5 seconds and up to 6 stacks.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.webp',
           },
         ]
       },
@@ -6521,19 +6521,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Penetrating Pain',
             'description':
                 'Gives a 20% additional damage to your opponent in the form of a 4-meter fan-shaped strike against your hit position.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.webp',
           },
           {
             'name': 'Over Supply',
             'description':
                 ' As the number of shots fired increases, the damage done to one enemy per shot increases by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
           {
             'name': 'Shaft',
             'description':
                 ' The longer the distance of the shot, the greater the damage done to the enemy by up to 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_82.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_82.webp',
           },
         ]
       },
@@ -6544,13 +6544,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Trance',
             'description':
                 'Allows the caster to fire six energy blasts by holding the skill. Increases damage done by enemies by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.webp',
           },
           {
             'name': 'Precision Strike',
             'description':
                 ' Increases the skill range by 30% and reduces cooldown by 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_62.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_62.webp',
           },
         ]
       }
@@ -6566,7 +6566,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Rushes 4m in front you and damages the enemy. Summons a destructive force to the caster’s hand, then detonates it, dealing damage to the enemy twice. Performs a final blow which deals damage. The final blow deals 100% increased damage to the enemies in the air.',
     'type': 'Normal',
     'cooldown': 9,
-    'iconUrl': 'assets/icons/soulmaster/c05s01.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s01.webp',
     'tripod': [
       {
         'tier': 1,
@@ -6574,17 +6574,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Improved Endurance',
             'description': 'Reduces force consumption by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.webp',
           },
           {
             'name': 'Superior Mobility',
             'description': 'Increases the movement distance by 2 meters.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
           {
             'name': 'Dexterous',
             'description': 'Increases attack speed by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
         ]
       },
@@ -6595,18 +6595,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Strengthens',
             'description':
                 'When you hit an attack that attacks with your hand, you and your party members within a 24m radius increase attack strength by 15% for 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_65.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_65.webp',
           },
           {
             'name': 'Ready to Attack',
             'description':
                 'If an attack that attacks with a palm is successful, the attack power increases by 25% for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
           {
             'name': 'Drillmaster',
             'description': 'Increases the area of effect by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -6617,12 +6617,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Force Master',
             'description':
                 'The last hit fires the force energy forward. The force energy deals 40% increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
           {
             'name': 'Unavoidable Strike',
             'description': 'The force energy pulls the enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.webp',
           },
         ]
       }
@@ -6638,7 +6638,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Strikes the enemy three times and pulls the enemy toward you. The inflicted enemy has a 30% chance to expose to poison for 3 seconds.',
     'type': 'Normal',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/soulmaster/c05s02.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s02.webp',
     'tripod': [
       {
         'tier': 1,
@@ -6647,18 +6647,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Improved Recharging',
             'description':
                 'For each enemy stuck by the last hit, the skill cooldown is reduced by 0.5 seconds, up to maximum total of 4 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Improved Strike',
             'description':
                 'Increases damage dealt by 30%, but increases force cost by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_80.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_80.webp',
           },
           {
             'name': 'Improved Endurance',
             'description': 'Reduces force consumption by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.webp',
           },
         ]
       },
@@ -6669,18 +6669,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Successful Transition',
             'description':
                 'Increases the area of effect by 30%. Deals 30% more damage to any target with the vulnerable status.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Penetrating Strike',
             'description': 'The skill ignores 40% of the enemies all defense.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.webp',
           },
           {
             'name': 'Skilled Movement',
             'description':
                 'After the last hit, the caster performs a 4m backstep.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.webp',
           },
         ]
       },
@@ -6691,13 +6691,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Trusted Strike',
             'description':
                 'The skill knocks the enemy down instead of pulling them.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.webp',
           },
           {
             'name': 'Channeled Strike',
             'description':
                 'Absorbs additional power. The damage dealt is increased by 40% and the inflicted enemy is exposed to a stronger poison.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -6713,7 +6713,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Step forward then performs a low kick that knocks the target down deals (82) damage. Then, tackle them, knocking them backwards inflict (124) damage.',
     'type': 'Normal',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/soulmaster/c05s03.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s03.webp',
     'tripod': [
       {
         'tier': 1,
@@ -6722,18 +6722,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Push',
             'description':
                 'The enemy\'s distance is increased when the enemy hits.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.webp',
           },
           {
             'name': 'Improved Speed',
             'description':
                 'Increases attack speed by 15% but the mana cost is increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_80.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_80.webp',
           },
           {
             'name': 'Improved Mobility',
             'description': 'Increases the movement distance by 1m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
         ]
       },
@@ -6744,19 +6744,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Strengthens',
             'description':
                 'During your last hit, you and your party members within a 24m radius increase attack strength by 15% for 10s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_65.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_65.webp',
           },
           {
             'name': 'Vulnerable Target',
             'description':
                 'Deals 30% more damage to any target with the vulnerable status.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.webp',
           },
           {
             'name': 'Changed Circumstance',
             'description':
                 'Deals 50% more damage on any target with the incapacitate status.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.webp',
           },
         ]
       },
@@ -6767,13 +6767,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Strong Shoulder',
             'description':
                 'Instead of kicking, rush 2m forward and tackle the enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.webp',
           },
           {
             'name': 'Aggressive Attack',
             'description':
                 'All the hits stiffen the enemy and reduce travel distance on the second hit. After 2 hit, hit the opposite side of the body more strongly, striking an enemy for 3 seconds when attacking, increases the damage done to enemies by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -6789,7 +6789,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Jump 3m forward and strike the enemy three times. Infuse the ground with energy, pulling the target toward the caster. Afterwards, launch the enemy into the air. The caster can hold the skill during the infusion for 1 second.',
     'type': 'Hold',
     'cooldown': 14,
-    'iconUrl': 'assets/icons/soulmaster/c05s04.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s04.webp',
     'tripod': [
       {
         'tier': 1,
@@ -6797,19 +6797,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Defensive Preparation',
             'description': 'Takes 20% less damage while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Improved Recharging',
             'description':
                 'For each enemy inflicted by the last hit, reduces the skill cooldown by 0.5 seconds up to a maximum total of 4 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Superior Control',
             'description':
                 'For each enemy inflicted by the last hit, recharges the force by 30 up to a maximum total of 150.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.webp',
           },
         ]
       },
@@ -6820,18 +6820,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Strength',
             'description':
                 'The caster becomes Invulnerable to crowd control effects while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Dexterous',
             'description': 'The infusion increases attack speed by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.webp',
           },
           {
             'name': 'Changed Circumstance',
             'description':
                 'Deals 50% more damage to any target with the incapacitate status.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.webp',
           },
         ]
       },
@@ -6842,12 +6842,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Brave Ember',
             'description':
                 'Burn the enemy when pulling them toward you. If the enemy has 3 stacks of the burning debuff, they suffer serious burn damage. Following the infusion, detonate the energy, delaing 50% increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.webp',
           },
           {
             'name': 'Unforgiven Chill',
             'description': 'The pulling freezes the enemy for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_14.webp',
           },
         ]
       }
@@ -6863,7 +6863,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Fires eight successive energy attacks from your fingertip while backstepping 2m. The skill deals 30% more to airborne enemies.',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/soulmaster/c05s05.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s05.webp',
     'tripod': [
       {
         'tier': 1,
@@ -6871,17 +6871,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Response',
             'description': 'Decreases the skill cooldown by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Drillmaster',
             'description': 'Increases the area of effect by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Quick Response',
             'description': 'Increases attack speed by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
         ]
       },
@@ -6892,17 +6892,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Reduced Mobility',
             'description':
                 'Successful hits reduce the enemy’s movement speed by 30% for 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
           {
             'name': 'Heat',
             'description': 'Successful hits burn the enemy for 7s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
           {
             'name': 'Vulnerable Strike',
             'description': 'Deals 50% more damage to any target in the air.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.webp',
           },
         ]
       },
@@ -6912,13 +6912,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Strong Will',
             'description': 'Fire a single attack instead of eight.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.webp',
           },
           {
             'name': 'Rapid Strike',
             'description':
                 'Rapidly fire your attacks, dealing 50% increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
         ]
       }
@@ -6934,7 +6934,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Stretches forth both hands and unleashes a blast of energy, dealing [ ] damage. The skill knocks airborne enemies backwards.',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/soulmaster/c05s06.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s06.webp',
     'tripod': [
       {
         'tier': 1,
@@ -6943,17 +6943,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Justice Strike',
             'description':
                 'Increases the attack strength by 4% for 3 sec. It can be stacked up to 5 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
           {
             'name': 'Improved Endurance',
             'description': 'Reduces force consumption by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.webp',
           },
           {
             'name': 'Improved Penetration',
             'description': 'Adds penetration level by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.webp',
           },
         ]
       },
@@ -6963,19 +6963,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Drillmaster',
             'description': 'Increases the area of effect by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Icy Fist',
             'description':
                 'Increases the skill cooldown by 6 seconds. The last hit freezes the enemy for 2 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
           },
           {
             'name': 'Heat',
             'description':
                 'The last hit knocks the enemy down and burns them for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
         ]
       },
@@ -6986,13 +6986,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Raging Wave',
             'description':
                 'Changes the skill into a multi-strike attack, dealing 20% increased damage under the faster skill animation.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.webp',
           },
           {
             'name': 'Cruel Grip',
             'description':
                 'Increases the damage dealt by 150% to enemies in melee range.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
         ]
       }
@@ -7008,7 +7008,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Summons the Palm of Ru Lai to the target location. Knockdowned enemies and airborne enemies take 30% increased damage.',
     'type': 'Point',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/soulmaster/c05s07.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s07.webp',
     'tripod': [
       {
         'tier': 1,
@@ -7017,17 +7017,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Improved Strike',
             'description':
                 'Increases damage dealt by 30%, but increases force cost by 20%',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_80.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_80.webp',
           },
           {
             'name': 'Quick Response',
             'description': 'Decreases the skill cooldown by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Insight',
             'description': 'Increases the skill range by 3m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
         ]
       },
@@ -7037,18 +7037,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Cold Attack',
             'description': 'Freeze the enemy for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
           },
           {
             'name': 'Tough Training',
             'description':
                 'Faster attack, stiffen enemies without knocking them down.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.webp',
           },
           {
             'name': 'Heat',
             'description': 'Successful hits burn the enemy for 7s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
         ]
       },
@@ -7059,13 +7059,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Greatest Revenge',
             'description':
                 'Removes the Destruction property of the skill. Summons 4 small palms, dealing 120% increased total skill damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Ignorant Palm',
             'description':
                 'It changes to tap skill. When using the skill, the palm moves forward 9m and affects the enemy.  Ignores 50% of all enemy armor when attacking.  Increases the attack distance by 3m when acquiring a ranged buff.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_81.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_81.webp',
           },
         ]
       }
@@ -7081,7 +7081,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Dashes to the target location and deals (53) damage to the enemy. Airborne enemies are knocked airborne again. The skill can be used two additional times. Each time the caster uses the skill, the skill cooldown increases by 4 seconds, and force cost increases double.',
     'type': 'Chain',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/soulmaster/c05s08.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s08.webp',
     'tripod': [
       {
         'tier': 1,
@@ -7089,18 +7089,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Unstoppable Passion',
             'description': 'The next turn available time increases by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.webp',
           },
           {
             'name': 'Ready-to-Ready',
             'description':
                 'The cooldown time is reduced by the number of turnovers. Reduces the cooldown time by 1 second when used. Reduces cooldown time by 2 seconds when using twice in a row. Reduces cooldown time by 4 seconds when using 3 consecutive times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Superior Mobility',
             'description': 'Increases the movement distance by 2m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
         ]
       },
@@ -7111,19 +7111,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Swift Step',
             'description':
                 'Successful hits grant a 10% movement speed bonus for 3 seconds. The bonus can be stacked up to 3 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.webp',
           },
           {
             'name': 'Prompt Defense',
             'description':
                 'When using a skill, the damage you receive for 3 seconds is reduced by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.webp',
           },
           {
             'name': 'Cheers of Victory',
             'description':
                 'Performing the skill grants a buff that increases attack power by 10%. The buff can be stacked 3 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
         ]
       },
@@ -7134,13 +7134,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Unstable Space-time',
             'description':
                 'Increases the damage dealt by 50%. Each additional use of the skill deals double damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
           {
             'name': 'Fierce Movement',
             'description':
                 'Reduces the force cost by 50% and each additional use of the skill reduces the force cost by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_35.webp',
           },
         ]
       }
@@ -7156,7 +7156,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Lashes forward, sending a burst of energy outward. The caster recoils 3m backwards.',
     'type': 'Normal',
     'cooldown': 18,
-    'iconUrl': 'assets/icons/soulmaster/c05s09.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s09.webp',
     'tripod': [
       {
         'tier': 1,
@@ -7164,17 +7164,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Response',
             'description': 'Decreases the skill cooldown by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Improved Endurance',
             'description': 'Reduces force consumption by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.webp',
           },
           {
             'name': 'Dramatic Blow',
             'description': 'Increases the incapacitate level to [Medium].',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.webp',
           },
         ]
       },
@@ -7185,18 +7185,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Heat',
             'description':
                 'The last hit knocks the enemy down, and burns them for 7s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
           {
             'name': 'Instant Evasion',
             'description': 'The caster recoils 3m backwards.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.webp',
           },
           {
             'name': 'Aggressive Attack',
             'description':
                 'Take 20% more damage while performing the skill but deal 50% additional damage to any target with the Invulnerable status.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -7207,13 +7207,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Exceptional Movement',
             'description':
                 'After the backstep, fire an energy burst forward and evade when the skill is used again.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.webp',
           },
           {
             'name': 'Space Adsorption',
             'description':
                 'After collecting the energy, the energy sphere is blown forward.  The spheres are advanced by about 9m and are destroyed. Summons a black hole that attracts nearby enemies, increasing damage by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.webp',
           },
         ]
       }
@@ -7229,7 +7229,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'If you fire your fingers toward the front and then release your palm again, a thicker, more powerful weapon will be fired and you will have (340) damage.',
     'type': 'Normal',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/soulmaster/c05s10.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s10.webp',
     'tripod': [
       {
         'tier': 1,
@@ -7238,19 +7238,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Recharge',
             'description':
                 'Reduces the cooldown per hit by 0.5 seconds for a maximum of 5 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Instinctive Movement',
             'description':
                 'If you fire your toward the front and then release again, stronger weapon will be fired, giving 391 damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.webp',
           },
           {
             'name': 'Song of Time',
             'description':
                 'Launches flashing light energy. Which stuns for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_44.webp',
           },
         ]
       },
@@ -7261,19 +7261,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Harsh Training',
             'description':
                 'Preparatory time is accelerated and released more quickly.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.webp',
           },
           {
             'name': 'Delete target',
             'description':
                 'Attack width is reduced by 50%. The damage done to the enemy by charge is increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.webp',
           },
           {
             'name': 'Energy Explosion',
             'description':
                 'Emits enormous energy with a 30% increase in attack width.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_62.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_62.webp',
           },
         ]
       },
@@ -7284,13 +7284,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Exit Status',
             'description':
                 'An additional explosion occurs immediately after the attack, and the damage it inflicts on the enemy increases by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.webp',
           },
           {
             'name': 'Explosive Attack',
             'description':
                 'Increases the attack range by 4m and increases the damage done by the attacker by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.webp',
           },
         ]
       }
@@ -7306,7 +7306,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Slams the ground twice, then slams the ground again. Airborne enemies immediately fall when struck by the first and second hits, dealing 50% increased damage.',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/soulmaster/c05s11.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s11.webp',
     'tripod': [
       {
         'tier': 1,
@@ -7314,19 +7314,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Improved Endurance',
             'description': 'Reduces force consumption by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.webp',
           },
           {
             'name': 'Secret Attack',
             'description':
                 'Increases damage by 20% when attacking an enemy with health below 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_32.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_32.webp',
           },
           {
             'name': 'Fine Hitting',
             'description':
                 'A successful last hit on a knockdowned enemy lifts them into the air.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_77.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_77.webp',
           },
         ]
       },
@@ -7336,18 +7336,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Defenseless Target',
             'description': '100% additional damage to airborne enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.webp',
           },
           {
             'name': 'Spot Weakness',
             'description':
                 'Increases the damage dealt to targets with the Invulnerable status by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Concussion',
             'description': 'The Incapacitate stage 1 increases.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.webp',
           },
         ]
       },
@@ -7358,13 +7358,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Six Sense',
             'description':
                 'Increases attack speed by 20% and pulls the enemy toward the caster and Last Hit Damage increased by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.webp',
           },
           {
             'name': 'Slowed Movement',
             'description':
                 'Attack range is increased by 20% and the other 3 on hit for 5 seconds enemy movement speed by 60% reduce.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
         ]
       }
@@ -7380,7 +7380,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Instantly stretches your palms and launches powerful pore-guns. The pore shot spreads at a slow pace and stuns the enemy with (216) damage.',
     'type': 'Normal',
     'cooldown': 15,
-    'iconUrl': 'assets/icons/soulmaster/c05s12.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s12.webp',
     'tripod': [
       {
         'tier': 1,
@@ -7388,18 +7388,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Response',
             'description': 'Decreases the skill cooldown by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Improved Endurance',
             'description': 'Reduces force consumption by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.webp',
           },
           {
             'name': 'Improved Speed',
             'description':
                 'Increases attack speed by 20% but the mana cost is increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
         ]
       },
@@ -7410,18 +7410,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Growing Wave',
             'description':
                 'Damage increases up to 60% when the force wave travels farther.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.webp',
           },
           {
             'name': 'Reduced Mobility',
             'description':
                 'Successful hits reduce the enemy’s movement speed by 30% for 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
           {
             'name': 'Raging Wave',
             'description': 'Increases damage dealt by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
         ]
       },
@@ -7432,13 +7432,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Space Expansion',
             'description':
                 'Releases the force wave three times but deals 30% less damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Space Contraction',
             'description':
                 'The speed of the wave is increased by 50% and enemies are stiffened instead of knocked back. Additional skill use creates a strong wind that deals 100% increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.webp',
           },
         ]
       }
@@ -7454,7 +7454,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Creates a force barrier around itself and makes the surrounding enemies slow. The force barrier deals damage and reduces enemies’ attack and movement speed by 10% for 0.5 seconds per stack of the debuff. The debuff can stack up to four times. The caster can maintain the barrier for 3 seconds by holding the skill.',
     'type': 'Hold',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/soulmaster/c05s13.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s13.webp',
     'tripod': [
       {
         'tier': 1,
@@ -7462,17 +7462,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Defensive Preparation',
             'description': 'Takes 30% less damage while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Quick Response',
             'description': 'Decreases the skill cooldown by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Improved Endurance',
             'description': 'Reduces force consumption by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.webp',
           },
         ]
       },
@@ -7483,19 +7483,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Toughness',
             'description':
                 'The caster becomes Invulnerable to crowd control effects while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Spot Weakness',
             'description':
                 'Increases the damage dealt to targets with the Invulnerable status by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Overheated Force',
             'description':
                 'Increase the force cost by 20% but deals 10% more damage per hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_80.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_80.webp',
           },
         ]
       },
@@ -7506,13 +7506,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Desperate Attack',
             'description':
                 'Holding the barrier for the full duration knocks enemies back and deals 40% more damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.webp',
           },
           {
             'name': 'Incisive Decision',
             'description':
                 'Holding the barrier for the full duration pulls enemies towards the caster, and deals 40% more damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.webp',
           },
         ]
       }
@@ -7528,7 +7528,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Throws a jab in front of the caster, performs a spiral kick, and then fires a burst of force energy.',
     'type': 'Normal',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/soulmaster/c05s14.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s14.webp',
     'tripod': [
       {
         'tier': 1,
@@ -7537,18 +7537,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Attack Enhance',
             'description':
                 'Increases your armor consumption by 20% and increases your damage by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_80.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_80.webp',
           },
           {
             'name': 'Stealing',
             'description':
                 'When attacking, the target\'s movement speed is reduced by 5% for 5 seconds, its movement speed is increased by 5%, and can be stacked up to 5 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.webp',
           },
           {
             'name': 'Wide Blow',
             'description': 'Increases attack range by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
         ]
       },
@@ -7559,19 +7559,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Sure Strike',
             'description':
                 'Throw a roundhouse kick that lifts enemies into the air.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.webp',
           },
           {
             'name': 'No Regrets Attack',
             'description':
                 'Move forward 5 meters and deal 3 hits for 20% increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.webp',
           },
           {
             'name': 'Sober Movement',
             'description':
                 'The last hit after 2 more times, with a palm attack, and the enemies give a total damage increase of 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.webp',
           },
         ]
       },
@@ -7582,13 +7582,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Transitional Burn',
             'description':
                 'Change skill damage to fire. Target will burn for 7 seconds then spread it to nearby enemies. Target then will burn for additional 10 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.webp',
           },
           {
             'name': 'Afterimage Attack',
             'description':
                 'A shadow of yourself will deal additional hits increasing damage by 100%. Increase cooldown by 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.webp',
           },
         ]
       }
@@ -7604,7 +7604,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Strike with a combination of kicks and punches. Can change direction during skill animation.',
     'type': 'Hold',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/soulmaster/c05s15.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s15.webp',
     'tripod': [
       {
         'tier': 1,
@@ -7612,18 +7612,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Improved Endurance',
             'description': 'Reduces force consumption by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_35.webp',
           },
           {
             'name': 'Concussion',
             'description': 'The skill’s disabling phase increases to [Up].',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.webp',
           },
           {
             'name': 'Spot Weakness',
             'description':
                 'Increases the damage dealt to targets with the Invulnerable status by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.webp',
           },
         ]
       },
@@ -7633,19 +7633,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Ranged Target',
             'description': 'Increases the skill range by 5m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_52.webp',
           },
           {
             'name': 'Changed Circumstance',
             'description':
                 'Deals 50% more damage to any target with the Incapacitate status.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.webp',
           },
           {
             'name': 'Toughness',
             'description':
                 'The caster becomes Invulnerable to crowd control effects while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
         ]
       },
@@ -7656,13 +7656,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Bold Movement',
             'description':
                 'Skips the skill preparation animation but prevents the caster from changing the attack direction. Increases attack speed by 30% and ignores 50% of the enemies’ armor.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.webp',
           },
           {
             'name': 'Rapid Fire',
             'description':
                 'Increases the damage dealt by 80% during the last second of the cast.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -7678,7 +7678,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You and your party within 24m will lose 12 to 25% damage for 6 seconds.',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/soulmaster/c05s16.png',
+    'iconUrl': 'assets/icons/soulmaster/c05s16.webp',
     'tripod': [
       {
         'tier': 1,
@@ -7686,18 +7686,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Dexterous',
             'description': 'Increases attack speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Quick Response',
             'description': 'Decreases the skill cooldown by 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Fortified Strong',
             'description':
                 'You and your party members within a 24m radius increase attack strength by 15% for 16s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_65.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_65.webp',
           },
         ]
       },
@@ -7708,18 +7708,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Tripod of Cleansing',
             'description':
                 'Unlocks one of the harmful effects of yourself and party members within the 24m range.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_39.webp',
           },
           {
             'name': 'Enhanced Wave',
             'description': 'All party members take 50% less damage for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_24.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_24.webp',
           },
           {
             'name': 'Toughness',
             'description':
                 'The caster becomes Invulnerable to crowd control effects while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
         ]
       },
@@ -7729,12 +7729,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Ready to Attack',
             'description': 'Your attack power increases by 40% for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
           {
             'name': 'Shout',
             'description': 'Performs a strong attack to the enemies within 4m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
         ]
       }
@@ -7750,7 +7750,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Launch a gun at the targeted location. It whirls and deals damage to all enemies in the area.',
     'type': 'Point',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/devilhunter/c06s00.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s00.webp',
     'tripod': [
       {
         'tier': 1,
@@ -7758,18 +7758,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Range',
             'description': 'Increase the skill range by 2 meters.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
           {
             'name': 'Quick Release',
             'description':
                 'When a target is attacked, the critical hit rate of the target and the party member increases by 15% for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_49.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_49.webp',
           },
           {
             'name': 'Quick Hand',
             'description': 'Attack speed increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
         ]
       },
@@ -7779,19 +7779,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Swift Movement',
             'description': 'Increases movement speed by 20% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.webp',
           },
           {
             'name': 'Growing Bullet',
             'description':
                 'Each time your attack hits 3 times. Damage is increased by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
           {
             'name': 'Concentrated Shot',
             'description':
                 'Damage done to enemies in the center of the area is increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
         ]
       },
@@ -7802,12 +7802,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Swirl',
             'description':
                 'Creates a magnetic field and the attack range increases by 15%. Slowly draw the enemies into the center of the circle.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.webp',
           },
           {
             'name': 'Continuous Use',
             'description': 'Can stack up to 2 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_83.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_83.webp',
           },
         ]
       }
@@ -7823,7 +7823,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Charge the enemy and launch into the air, and then you retreat to strafe him.',
     'type': 'Combo',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/devilhunter/c06s01.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s01.webp',
     'tripod': [
       {
         'tier': 1,
@@ -7831,18 +7831,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Movement Distance',
             'description': 'Movement distance can increases by 1m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
           {
             'name': 'Big Foot',
             'description':
                 'Upper kick is changed to kick, attack rate is increased by 30%. Increase the height of the enemy in the air.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Sudden Strike',
             'description': 'Increases Critical Hit Rate of Upper Kick by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
         ]
       },
@@ -7853,17 +7853,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Range',
             'description':
                 'Increases the attack range by 30% when using a handgun.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Strength',
             'description': 'Become super armor during the cast a skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Fire',
             'description': 'Deals 40% more damage to enemies with >50% health.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.webp',
           },
         ]
       },
@@ -7874,13 +7874,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Air Strike',
             'description':
                 'Increases the critical hit rate of enemies in the air by 50% when you hit a hand.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_29.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_29.webp',
           },
           {
             'name': 'Strafing indiscriminately',
             'description':
                 'Increases the number of shots by 4. Damage increased by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -7896,7 +7896,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Shoot a slow plasma ball that deals damage to enemies in its path.',
     'type': 'Normal',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/devilhunter/c06s02.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s02.webp',
     'tripod': [
       {
         'tier': 1,
@@ -7904,17 +7904,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Range',
             'description': 'Increase the skill range by 3m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
           {
             'name': 'Attack Speed',
             'description': 'Increases attack speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Retreat',
             'description': 'You retreat 1.5m after the shot.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_40.webp',
           },
         ]
       },
@@ -7924,17 +7924,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Continuous Use',
             'description': 'Changes to stack skill, stack up to 2 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_83.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_83.webp',
           },
           {
             'name': 'Icing Effect',
             'description': 'Reduces enemy movement speed by 40% for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
           {
             'name': 'Shoot-out',
             'description': 'Critical hit rate increases by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
         ]
       },
@@ -7945,13 +7945,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Supercharge Zone',
             'description':
                 'Generates an overloaded area at the targeted location. In this area, damage is inflicted periodically.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
           {
             'name': 'Plasma Fragmentation',
             'description':
                 'Launch three plasma bullets at once. The two bullets added have a 50% reduction in attack range. Reduced damage to enemies by 70%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
         ]
       }
@@ -7966,7 +7966,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Take a leap forward and fires a handgun.',
     'type': 'Normal',
     'cooldown': 9,
-    'iconUrl': 'assets/icons/devilhunter/c06s03.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s03.webp',
     'tripod': [
       {
         'tier': 1,
@@ -7974,18 +7974,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mental Fortification',
             'description': 'Mana cost reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Burn',
             'description':
                 'Normal and weak monsters have a 50% chance of getting the Burn effect.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_45.webp',
           },
           {
             'name': 'Ignored Collision',
             'description': 'You can cross the bosses when you fly.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_12.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_12.webp',
           },
         ]
       },
@@ -7995,17 +7995,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Attack Speed',
             'description': 'Increases attack speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.webp',
           },
           {
             'name': 'Quick Shoot',
             'description': 'Critical hit rate increases by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Evasion Master',
             'description': 'Increases evasion rate by 30% during cast.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.webp',
           },
         ]
       },
@@ -8015,13 +8015,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Double Jump',
             'description': '',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Super Armor',
             'description':
                 'You become immune to control effects. Cooldown decreases by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_23.webp',
           },
         ]
       }
@@ -8036,7 +8036,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Shoot all around you, inflicting damage to nearby enemies.',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/devilhunter/c06s04.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s04.webp',
     'tripod': [
       {
         'tier': 1,
@@ -8044,18 +8044,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Fast Fire',
             'description': 'Attack speed increases by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Under-exposed',
             'description':
                 'A critical strike on target and party members increases by 15% for 12s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_49.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_49.webp',
           },
           {
             'name': 'Master of evasion',
             'description': 'Increases evasion rate by 20% while using Skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_26.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_26.webp',
           },
         ]
       },
@@ -8066,17 +8066,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Picture Effect',
             'description':
                 'Makes the enemy hit for 5 seconds. Up to three times can be superimposed.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
           {
             'name': 'Critical Hit',
             'description': 'Increases Critical Hit Rate by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Range',
             'description': 'Skill range increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -8087,13 +8087,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Thinning Fire',
             'description':
                 'Reduces the area of effect to a cone in front of you. Increases the duration of the attack. Damage inflicted increases by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.webp',
           },
           {
             'name': 'Sweep',
             'description':
                 'Attack 360 degrees range. Critical damage increases by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -8109,7 +8109,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Move while shooting at 360 °, inflicting damage to nearby enemies.',
     'type': 'Combo',
     'cooldown': 1,
-    'iconUrl': 'assets/icons/devilhunter/c06s05.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s05.webp',
     'tripod': [
       {
         'tier': 1,
@@ -8117,17 +8117,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mana Control',
             'description': '50% chance to not consume MP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Attack Speed',
             'description': 'Increases attack speed by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Critical Hit',
             'description': 'Increases Critical Hit Rate by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
         ]
       },
@@ -8138,17 +8138,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Close Shot',
             'description':
                 'Decrease attack range by 20%. Damage increased by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Master of Evasion',
             'description': 'Increases evasion rate by 35% while using Skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.webp',
           },
           {
             'name': 'Movement Distance',
             'description': 'Movement distance increases by 1m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_10.webp',
           },
         ]
       },
@@ -8158,12 +8158,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Number of Attacks',
             'description': 'The number of attacks increased by 3.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
           {
             'name': 'Number of Attacks',
             'description': 'The number of hits increased by 2.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -8179,7 +8179,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Attack all around you, then leap into the air leaving behind multiple grenades (By successfully perfect zone).',
     'type': 'Hold 2.5 sec',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/devilhunter/c06s06.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s06.webp',
     'tripod': [
       {
         'tier': 1,
@@ -8187,18 +8187,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Hand',
             'description': 'Increases attack speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Strength',
             'description':
                 'You are immune to control effects during the attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.webp',
           },
           {
             'name': 'Critical Damage',
             'description': 'Critical damage increases by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
         ]
       },
@@ -8209,18 +8209,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Flame Bomb',
             'description':
                 'Attack attribute is changed to [Fire], and the damage given to the enemy by the bomb is increased by 30%, and it is burned for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
           {
             'name': 'Ice Bomb',
             'description':
                 'The Attack Attribute is changed to the [water] and the enemy is no longer down by the bomb, but is frozen for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
           },
           {
             'name': 'Continuous Launch',
             'description': 'Launch bombs 2 times in a row.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
           },
         ]
       },
@@ -8231,13 +8231,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Destructive Penetration',
             'description':
                 'Move quickly to 6m distance instantly cast the skill, then move back 8m. Reduces cooldown and mana reduction due to skill cancellation.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.webp',
           },
           {
             'name': 'Infinite annihilation',
             'description':
                 'The number of attacks before bouncing is increased by 3. Increases Critical Hit Rate by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.webp',
           },
         ]
       }
@@ -8253,7 +8253,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Shoot 2 bullets in the direction indicated. You can use this skill 2 times in a row.',
     'type': 'Combo',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/devilhunter/c06s07.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s07.webp',
     'tripod': [
       {
         'tier': 1,
@@ -8261,18 +8261,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Attack Speed',
             'description': 'The duration of the burst increases.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Push',
             'description': 'The duration of the burst increases.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.webp',
           },
           {
             'name': 'Infinite Passion',
             'description':
                 'The next time you use the skill, the duration of the animation increases by 1s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_55.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_55.webp',
           },
         ]
       },
@@ -8282,18 +8282,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Lightfoot',
             'description': 'Increases your movement speed by 40% for 1s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.webp',
           },
           {
             'name': 'Starting Shot',
             'description':
                 'The damage done to the enemy by the first chain attack hits 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Damage Increased',
             'description': 'Damage increases by 40% every hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
         ]
       },
@@ -8303,12 +8303,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Shotgun',
             'description': 'Critical hit rate increases by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_4.webp',
           },
           {
             'name': 'Triple Shot',
             'description': 'The number of chains increases by 3.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
         ]
       }
@@ -8324,7 +8324,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Launch a grenade at the targeted location that deals damage in a small area.',
     'type': 'Point',
     'cooldown': 6,
-    'iconUrl': 'assets/icons/devilhunter/c06s08.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s08.webp',
     'tripod': [
       {
         'tier': 1,
@@ -8332,18 +8332,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Range',
             'description': 'Increase the skill range by 2m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
           {
             'name': 'Explosion Range',
             'description': 'Explosion range increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Sudden Exposure',
             'description':
                 'When a target is attacked, the critical hit rate of the target and party members increases by 15% for 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_49.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_49.webp',
           },
         ]
       },
@@ -8353,19 +8353,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Damage Increased',
             'description': 'Damage increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Stolen Grenade',
             'description':
                 'Damage to enemies is reduced by 50%. Cooldown increased by 6s. Launch enemy into the air.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.webp',
           },
           {
             'name': 'Freezing Grenade',
             'description':
                 'Damage to enemies is reduced by 75%. Cooldown increased by 12s. Freeze the enemy for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.webp',
           },
         ]
       },
@@ -8376,12 +8376,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Fireworks',
             'description':
                 'Throw three grenades at a time. Damage decreased by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Internal Ignition',
             'description': 'The attack deals Burn to the enemy for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.webp',
           },
         ]
       }
@@ -8397,7 +8397,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Shoot a burst of cone-shaped bullets, then a powerful shot in front of you. You deal extra damage if you attack the enemy in the back.',
     'type': 'Normal',
     'cooldown': 18,
-    'iconUrl': 'assets/icons/devilhunter/c06s09.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s09.webp',
     'tripod': [
       {
         'tier': 1,
@@ -8405,17 +8405,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Mental Fortification',
             'description': 'Mana cost reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Push',
             'description': 'The last shot travels a longer distance.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.webp',
           },
         ]
       },
@@ -8425,17 +8425,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Critical Hit',
             'description': 'Increases Critical Hit Rate by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Improved Shot',
             'description': 'Attack count increases by 3 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
           {
             'name': 'Wide Shot',
             'description': 'Increases the attack angle by 40% when you fire.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -8446,13 +8446,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Quick Gun',
             'description':
                 'The last shot becomes very fast. You can use the last attack once more.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
           {
             'name': 'Explosive Bullet',
             'description':
                 'The last attack has been changed to an explosive form. Explodes when hit and gives 100% more damage to nearby enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -8467,7 +8467,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Shoot cone-shaped twice with your rifle.',
     'type': 'Combo',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/devilhunter/c06s10.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s10.webp',
     'tripod': [
       {
         'tier': 1,
@@ -8476,17 +8476,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Damage Increased',
             'description':
                 'Increases the damage done to nearby enemies by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_70.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_70.webp',
           },
           {
             'name': 'Attack Angle',
             'description': 'Attack angle increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Stun',
             'description': 'Stun enemies 2 times for 2 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_44.webp',
           },
         ]
       },
@@ -8496,17 +8496,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Enhanced Shot',
             'description': 'Damage to enemies increases by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Penetration',
             'description': '2 or 3 strokes increases pierce level by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_21.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_21.webp',
           },
           {
             'name': 'Quick-ready',
             'description': 'Reduces the cooldown time by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.webp',
           },
         ]
       },
@@ -8517,12 +8517,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Consequences of the Disaster',
             'description':
                 'Increases the number of shots by 3. Mana cost reduced by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
           {
             'name': 'Desperation',
             'description': 'Increases the damage done to your opponent by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.webp',
           },
         ]
       }
@@ -8538,7 +8538,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Shoot cone-shaped projectiles over a long distance that explode on impact, inflicting damage to nearby enemies.',
     'type': 'Normal',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/devilhunter/c06s11.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s11.webp',
     'tripod': [
       {
         'tier': 1,
@@ -8546,17 +8546,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Enhanced Shoot',
             'description': 'Damage to enemies increases by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
           {
             'name': 'Push',
             'description': 'Strike time increases when hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.webp',
           },
         ]
       },
@@ -8566,19 +8566,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Master of Evasion',
             'description': 'Increases evasion rate by 30% while using Skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.webp',
           },
           {
             'name': 'Improved Explosion',
             'description':
                 'Increases the damage of fragments from the explosion by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Wide Explosion',
             'description':
                 'The bullet fragments spreading distance increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -8589,13 +8589,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Sentence of Imprisonment',
             'description':
                 'Concentrate energy into a single ball that deals 600% of the damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
           {
             'name': 'Evidence Destruction',
             'description':
                 'Increases the range of explosion of the bullet attack by 40%, and increases the damage done to the enemies below the seed by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_61.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_61.webp',
           },
         ]
       }
@@ -8611,7 +8611,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Shoot cone-shaped three times with your rifle, each shot repelling the enemy.',
     'type': 'Normal',
     'cooldown': 36,
-    'iconUrl': 'assets/icons/devilhunter/c06s12.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s12.webp',
     'tripod': [
       {
         'tier': 1,
@@ -8620,17 +8620,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Close Shot',
             'description':
                 'Increases the damage done to nearby enemies by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_70.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_70.webp',
           },
           {
             'name': 'Mana Control',
             'description': '50% chance to not consume MP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Combo',
             'description': 'The skill becomes usable 3 times in a row.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_38.webp',
           },
         ]
       },
@@ -8640,17 +8640,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Enhanced Shot',
             'description': 'Damage to enemies increases by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Master of Evasion',
             'description': 'Increases evasion rate by 30% while using Skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.webp',
           },
           {
             'name': 'Quick-ready',
             'description': 'Cooldown reduced by 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.webp',
           },
         ]
       },
@@ -8661,12 +8661,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Extended Fire',
             'description':
                 'After a series of three shots, you carry a powerful shotgun shot. Knockdown enemies. Move back 4m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Damage Increased',
             'description': 'Increases the damage done to your opponent by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
         ]
       }
@@ -8682,7 +8682,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Fire three quick shots with your rifle, followed by a final shot that deals more damage.',
     'type': 'Hold 1.5 sec',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/devilhunter/c06s13.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s13.webp',
     'tripod': [
       {
         'tier': 1,
@@ -8690,18 +8690,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Quick Hand',
             'description': 'Attack speed increases by 20% while holding.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Damage Increased',
             'description':
                 'Increases the damage done to nearby enemies by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_70.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_70.webp',
           },
         ]
       },
@@ -8711,18 +8711,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Weak Shoot',
             'description': 'Increases the damage done to your enemies by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Full Range',
             'description': 'All ranges apply to near damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Quick Preparation',
             'description':
                 'Each time an opponent dies, the cooldown time is reset by a 15% chance.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.webp',
           },
         ]
       },
@@ -8733,13 +8733,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Will of the Ruler',
             'description':
                 'The last attack delete. Hold time increases by 1.6s. Damage is increased by 40% during a holding.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.webp',
           },
           {
             'name': 'Ruler',
             'description':
                 'Attack distance is reduced by 20%, but a Perfect Zone is added, and when a Perfect Zone succeeds, a powerful spear attack will increase the damage of the last attack by 200%. If the perfect zone fails, the last attack is activated.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.webp',
           },
         ]
       }
@@ -8755,7 +8755,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Shoot a powerful explosive ball that throws enemies into the air.',
     'type': 'Normal',
     'cooldown': 36,
-    'iconUrl': 'assets/icons/devilhunter/c06s14.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s14.webp',
     'tripod': [
       {
         'tier': 1,
@@ -8763,19 +8763,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Fireball',
             'description':
                 'The attack property is changed to the [Fire], and the enemy is attacked for 3 seconds, causing damage every second.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.webp',
           },
           {
             'name': 'Chill',
             'description':
                 'Attack attribute is changed to [water], and the enemy that is hit is frosted for 5 seconds to reduce the movement speed by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.webp',
           },
         ]
       },
@@ -8786,19 +8786,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Hot',
             'description':
                 'Hot heat is created on the ground, causing damage to enemies within a range every second. When a cold shot is applied, the hot heat is also changed to the [water].',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_85.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_85.webp',
           },
           {
             'name': 'Strong Explosion',
             'description':
                 'The powerful explosion pressure causes the enemy to float higher and the downtime to increase.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.webp',
           },
           {
             'name': 'Execution',
             'description':
                 'Prepare to fire, move 4m to the front, attack the enemy, and fire a special shot, giving damage to the enemy is increasing damage by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_86.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_86.webp',
           },
         ]
       },
@@ -8809,13 +8809,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Double Shot',
             'description':
                 'Shoots with a shotgun in each hand simultaneously, causing 2 explosions.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Barrage',
             'description':
                 'The enemy shoots three times.  Destruction attacks apply to the last attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -8831,7 +8831,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Shoot a powerful fireball over a long distance that throws enemies into the air.',
     'type': 'Normal',
     'cooldown': 36,
-    'iconUrl': 'assets/icons/devilhunter/c06s15.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s15.webp',
     'tripod': [
       {
         'tier': 1,
@@ -8840,18 +8840,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Chill',
             'description':
                 'Instead of the flames on the ground, it creates a cold that reduces enemy movement speed by 50% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_31.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_31.webp',
           },
           {
             'name': 'Furious Flame',
             'description':
                 'He no longer hits the enemy in the air, but he ignites it for 3 seconds. The object to be caught by the ignited state is stiffened with the damage that explodes at the end of the ignited state.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_78.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_78.webp',
           },
           {
             'name': 'Quick Aim',
             'description': 'Aiming time is 50% faster.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
         ]
       },
@@ -8862,19 +8862,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Growth Bullet',
             'description':
                 'Damage to enemies increases by up to 50%, depending on distance.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
           {
             'name': 'Fast Bullet',
             'description':
                 'The speed of the warhead increases by 30%, and it becomes possible to slowly turn while aiming.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_82.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_82.webp',
           },
           {
             'name': 'Finishing Fire',
             'description':
                 'Increases critical strike chance by 60% for enemies with health below 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.webp',
           },
         ]
       },
@@ -8885,13 +8885,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Strengthening the Total',
             'description':
                 'Tornadoes around the warhead, attracting enemies, increasing the width of the fire by 20%, and increasing the damage done by the fire to the enemy by 200%. If you use cold shot, the enemy movement speed reduction effect increases to 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_81.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_81.webp',
           },
           {
             'name': 'Humpback',
             'description':
                 'A warhead is changed to a non-canal, a warhead increases damage to an enemy by 30%, and a hurricane is generated instead of a fire when it hits an enemy. If frostbite is applied, frost is applied for 5 seconds instead of fire damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -8907,7 +8907,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Launch a grenade at the targeted location and then detonate it, inflicting damage in a large rectangular area and throwing enemies into the air.',
     'type': 'Hold 2.5 sec',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/devilhunter/c06s16.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s16.webp',
     'tripod': [
       {
         'tier': 1,
@@ -8915,17 +8915,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Strength',
             'description': 'You are immune to control effects during casting.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.webp',
           },
           {
             'name': 'Remote Aim',
             'description': 'Increases the area of explosion 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
           {
             'name': 'Quick Aim',
             'description': 'Area selection time is reduced by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
         ]
       },
@@ -8936,18 +8936,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Finishing Fire',
             'description':
                 'Enemies with <40% health suffer additional damage equal to 50% of their physical defense.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.webp',
           },
           {
             'name': 'Unprotected Target',
             'description':
                 'Increases explosion damage by 40% for enemies that are stranded.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.webp',
           },
           {
             'name': 'Concussion',
             'description': 'The neutralization phase increases to [Lunge].',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_69.webp',
           },
         ]
       },
@@ -8958,13 +8958,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Carpet Bombing',
             'description':
                 '2  grenades are thrown in succession, causing damage over a greater distance. Increased the damage of additional explosions by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Eternal Disaster',
             'description':
                 'Shrapnels are created and planted in the ground, exploding every second and inflicting damage. Increased the damage of debris explosion by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -8980,7 +8980,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Shoot an explosive bullet at the targeted location. You can use this skill 3 times in a row.',
     'type': 'Chain',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/devilhunter/c06s17.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s17.webp',
     'tripod': [
       {
         'tier': 1,
@@ -8988,18 +8988,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Vision',
             'description': 'Scope of the skill increased by 3m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
           {
             'name': 'Finishing Attack',
             'description': 'Deals 25% more damage to enemies with <40% health.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_32.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_32.webp',
           },
           {
             'name': 'Constant Passion',
             'description':
                 'Increase the amount of time you can re-cast the 1s skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_55.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_55.webp',
           },
         ]
       },
@@ -9009,17 +9009,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Attack Speed',
             'description': 'Increases attack speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.webp',
           },
           {
             'name': 'Attack Range',
             'description': 'Attack Range increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Flaming Bullet',
             'description': 'Inflicts Burn for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
         ]
       },
@@ -9030,13 +9030,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Quadruple Explosion',
             'description':
                 'Increases the number of Chain Skill activations by 4 and increases the critical hit rate by 100% for enemies with health below 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
           {
             'name': 'Super Explosion',
             'description':
                 'Increases target’s damage by 50%, but stuns the enemy for 3 seconds when attacking the last chain.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -9052,7 +9052,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Turn and then shoot 4 balls in the direction of your cursor. The first 3 reduce the speed of movement of the enemy by 80% for 2 sec and the last inflicts significant damage.',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/devilhunter/c06s18.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s18.webp',
     'tripod': [
       {
         'tier': 1,
@@ -9060,17 +9060,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Fast Bullet',
             'description': 'Bullet Flight Speed ​​Increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
           {
             'name': 'Quick Aim',
             'description': 'Aiming time is shortened by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Last Shot',
             'description': 'The last one is a critical hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
         ]
       },
@@ -9080,17 +9080,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Damage Increased',
             'description': 'Damage increased by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Large Bullet',
             'description': 'Increases the size of the bullets by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_62.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_62.webp',
           },
           {
             'name': 'Stun',
             'description': 'Stuns the enemies for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.webp',
           },
         ]
       },
@@ -9100,12 +9100,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Fast Fire',
             'description': 'Firing speed is 40% faster after aiming.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Hexa Shot',
             'description': 'Shoot 2 more balls after aiming.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
         ]
       }
@@ -9121,7 +9121,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Shoots a large caliber bullet at a very high speed, it inflicts significant damage.',
     'type': 'Hold',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/devilhunter/c06s19.png',
+    'iconUrl': 'assets/icons/devilhunter/c06s19.webp',
     'tripod': [
       {
         'tier': 1,
@@ -9129,18 +9129,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mental Fortification',
             'description': 'Mana cost reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Stable Posture',
             'description': 'Immune to rigidity during holding and casting.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.webp',
           },
           {
             'name': 'Penetration',
             'description':
                 'If the skill is launched Perfect Zone, gives a Pierce Level 1 effect to the attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.webp',
           },
         ]
       },
@@ -9150,19 +9150,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Improved Shot',
             'description': 'Perfect Zone Attack Increases damage done by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Muscle Cramps',
             'description':
                 'If the attack is launched Perfect Zone, the enemies remain reversed 1 s more and the neutralization is increased by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.webp',
           },
           {
             'name': 'Bleeding',
             'description':
                 'If the attack is launched  Perfect Zone, it inflicts a Bleeding for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
         ]
       },
@@ -9173,13 +9173,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Perfect Aim',
             'description':
                 'The skill loads for 1 s, and at the end of the load has the same effect as a perfect shot.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Sniper',
             'description':
                 'The Perfect Zone is shrinking. Perfect shot is inevitably a critical hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_72.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_72.webp',
           },
         ]
       }
@@ -9194,7 +9194,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Fires the enhanced bullet.',
     'type': 'Normal',
     'cooldown': 5,
-    'iconUrl': 'assets/icons/blaster/c07s00.png',
+    'iconUrl': 'assets/icons/blaster/c07s00.webp',
     'tripod': [
       {
         'tier': 1,
@@ -9202,17 +9202,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Armor Destroyed',
             'description': 'Reduces 20% of all enemy armor for 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.webp',
           },
           {
             'name': 'Critical Hit',
             'description': 'Increases a critical hit chance by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
           {
             'name': 'Push',
             'description': 'Increases the push distance by 1 meter.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.webp',
           },
         ]
       },
@@ -9222,18 +9222,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Bullet Strengthening',
             'description': 'Damage to enemies increases by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Natural Selection',
             'description':
                 'Increases the damage dealt on lower grade and normal grade monsters by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.webp',
           },
           {
             'name': 'Attack Speed',
             'description': 'Increases attack speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.webp',
           },
         ]
       },
@@ -9243,12 +9243,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Penetration Shell',
             'description': 'The shell penetrates the enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_2.webp',
           },
           {
             'name': 'Ignition',
             'description': 'Successful hits burn the enemy for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.webp',
           },
         ]
       }
@@ -9264,7 +9264,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Deals [77] damage to the enemies and lowers movement speed by 60% for 4 seconds.',
     'type': 'Normal',
     'cooldown': 6,
-    'iconUrl': 'assets/icons/blaster/c07s01.png',
+    'iconUrl': 'assets/icons/blaster/c07s01.webp',
     'tripod': [
       {
         'tier': 1,
@@ -9272,18 +9272,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Skill Range',
             'description': 'Increases the skill range by 2 meters.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
           {
             'name': 'Empowered Will',
             'description': 'Reduces mana consumption by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Freezing',
             'description':
                 'Enhances the movement speed debuff by 20% and deals 15% more damage to monsters above the seed grade.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.webp',
           },
         ]
       },
@@ -9294,17 +9294,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Icy Shell',
             'description':
                 'Increases the duration of chill effect by 2 seconds and the duration of freeze effect by 1 second.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
           },
           {
             'name': 'Improved Shell',
             'description': 'Increases damage by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Extensive Explosion',
             'description': 'Increases the area of effect by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -9315,13 +9315,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Chain Explosion',
             'description':
                 'The shell penetrates through the enemy and explodes 3 times until it reaches the maximum range.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
           {
             'name': 'Icy Explosion',
             'description':
                 'Successful hits freeze the enemy for 3 seconds but increases the skill cooldown by 4 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_43.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_43.webp',
           },
         ]
       }
@@ -9337,7 +9337,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Fires the machine gun rapidly to the direction of your mouse cursor for 3 seconds, and deals up to [366] damage.',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/blaster/c07s02.png',
+    'iconUrl': 'assets/icons/blaster/c07s02.webp',
     'tripod': [
       {
         'tier': 1,
@@ -9345,18 +9345,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Improved Shot',
             'description': 'Increases damage by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
           {
             'name': 'Quick Response',
             'description': 'Decreases the skill cooldown by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Final Blow',
             'description':
                 'Deals 30% more damage to enemies that have less than 50% health.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_32.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_32.webp',
           },
         ]
       },
@@ -9366,18 +9366,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Growing Bullet',
             'description': 'Every second hit increases damage dealt by 5%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
           {
             'name': 'Toughness',
             'description':
                 'The caster becomes Invulnerable to crowd control effects while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Thick Armor',
             'description': 'Takes 50% less damage while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.webp',
           },
         ]
       },
@@ -9388,13 +9388,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Will of Destroyer',
             'description':
                 'The skill becomes a holding skill and the caster can shoot the machine gun for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.webp',
           },
           {
             'name': 'Aim and Fire',
             'description':
                 'The skill has 50% decreased the area of effect but the skill range is increased by 50%. Also, it ignores the enemy’s armor by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
         ]
       }
@@ -9410,7 +9410,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Buckshot spreads in a fan shape, deals [183] damage, pushing the enemy backwards.',
     'type': 'Normal',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/blaster/c07s03.png',
+    'iconUrl': 'assets/icons/blaster/c07s03.webp',
     'tripod': [
       {
         'tier': 1,
@@ -9418,19 +9418,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Improved Penetration',
             'description': 'Increases the penetration level by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.webp',
           },
           {
             'name': 'Pushing Back',
             'description':
                 'Successful hits stiffen the enemy longer and push the enemy back farther.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.webp',
           },
           {
             'name': 'Spot Weakness',
             'description':
                 'Increases damage done any target with the Invulnerable status by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.webp',
           },
         ]
       },
@@ -9440,18 +9440,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Critical Strike',
             'description': 'Increases a critical hit chance by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Penetrated Will',
             'description':
                 'Successful hits ignore the enemy’s physical armor by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.webp',
           },
           {
             'name': 'Long Ranged Buckshot',
             'description': 'Increases the skill range by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -9462,12 +9462,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Elimination Buckshot',
             'description':
                 'The skill has 40% decreased the area of effect but shots buckshot twice with increased attack speed. The maximum damage is increased by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Ignition',
             'description': 'Successful hits burn the enemy for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.webp',
           },
         ]
       }
@@ -9482,7 +9482,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Shoots a shell to the target location and lifts the enemy.',
     'type': 'Point',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/blaster/c07s04.png',
+    'iconUrl': 'assets/icons/blaster/c07s04.webp',
     'tripod': [
       {
         'tier': 1,
@@ -9490,17 +9490,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Armor Destroyed',
             'description': 'Reduces all armor of a hit enemy by 20% for 10s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.webp',
           },
           {
             'name': 'Quick Response',
             'description': 'Increases attack speed by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Controlling Mana',
             'description': 'Grants a 50% chance to ignore mana consumption.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -9511,19 +9511,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Vulnerable Target',
             'description':
                 'Damage is increased by 30% when used against a target under crowd control effects [airborne and knock down].',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.webp',
           },
           {
             'name': 'Final Blow',
             'description':
                 'Increases a 50% critical hit chance when the caster deals enemies that have less than 50% health.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_32.webp',
           },
           {
             'name': 'Concentrated Shelling',
             'description':
                 'The enemy near center of the explosion takes 30% more damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
         ]
       },
@@ -9534,12 +9534,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Flash Shell',
             'description':
                 'Increases the area of effect by 20% and damage dealt by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
           {
             'name': 'Fireworks',
             'description': 'Bombards random places with increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -9555,7 +9555,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Shoots a missile to the random direction five times. The skill deals up to [172].',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/blaster/c07s05.png',
+    'iconUrl': 'assets/icons/blaster/c07s05.webp',
     'tripod': [
       {
         'tier': 1,
@@ -9564,18 +9564,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Fire Rocket',
             'description':
                 '[Fire] Inflicts a burn for 5 seconds, cumulative 3 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.webp',
           },
           {
             'name': 'Ice Rocket',
             'description':
                 '[Ice] Reduces the movement speed of enemies by 20% for 5 seconds. Cumulative 3 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.webp',
           },
           {
             'name': 'Giant Rocket',
             'description': 'Increases rocket size by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_62.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_62.webp',
           },
         ]
       },
@@ -9586,18 +9586,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Back Step',
             'description':
                 'You move back 0.8 meters at each shot, and the damage increases with the distance of enemies, with a maximum of 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.webp',
           },
           {
             'name': 'Stun Effect',
             'description': 'The first shot stuns enemies for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.webp',
           },
           {
             'name': 'Rapid Fire',
             'description':
                 'Launches the rockets 7 times with faster attack speed.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_54.webp',
           },
         ]
       },
@@ -9608,13 +9608,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Enhanced Rocket Launcher',
             'description':
                 'Increases the area of effect by 20% and the damage dealt by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.webp',
           },
           {
             'name': 'Access Denied',
             'description':
                 'You shoot two rockets at each shot, but the damage is reduced by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -9630,7 +9630,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Explodes the napalm bomb which deals [240] damage and lifts the enemy to the air. The explosion creates burning field that remains for 5 seconds, and deals [32] damage per second.',
     'type': 'Normal',
     'cooldown': 18,
-    'iconUrl': 'assets/icons/blaster/c07s06.png',
+    'iconUrl': 'assets/icons/blaster/c07s06.webp',
     'tripod': [
       {
         'tier': 1,
@@ -9639,19 +9639,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Improved Destruction',
             'description':
                 'Increases the destruction level on the explosion by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_22.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_22.webp',
           },
           {
             'name': 'Wide Explosion',
             'description':
                 'Increases the area of effect of the explosion by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Focus Target',
             'description':
                 'An enemy hit by an explosion gets 20% more damage for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.webp',
           },
         ]
       },
@@ -9662,19 +9662,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Nut Cracker',
             'description':
                 'Increases a critical hit chance of the explosion by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Hot Open',
             'description':
                 'Damage done to enemies in the inflamed area is increased by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
           {
             'name': 'Flash Explosion',
             'description':
                 'Stun enemies that have been affected for 4 seconds without launching them into the air anymore.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.webp',
           },
         ]
       },
@@ -9685,12 +9685,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Chain Explosion',
             'description':
                 'You quickly launch a second bomb before moving back. The second bomb generates flame dust for 2 seconds inside the inflamed area. Then the area explodes, increasing the damage done.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Inferno',
             'description': 'The burning field remains for 3s longer.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.webp',
           },
         ]
       }
@@ -9706,7 +9706,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Shoot the flamethrower to one direction and the caster can freely move. The flamethrower lasts for 4 seconds and deals up to [683] damage.',
     'type': 'Hold 4 sec',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/blaster/c07s07.png',
+    'iconUrl': 'assets/icons/blaster/c07s07.webp',
     'tripod': [
       {
         'tier': 1,
@@ -9714,18 +9714,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Nut Cracker',
             'description': 'Increases a critical hit chance by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Reduces the cooldown by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Controlling Firepower',
             'description':
                 'Successful hits absorb 100% more firepower resources.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.webp',
           },
         ]
       },
@@ -9736,18 +9736,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Ignoring Collision',
             'description':
                 'The caster ignores collision with normal monsters while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_12.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_12.webp',
           },
           {
             'name': 'Long Ranged Flame',
             'description': 'Increases the skill range by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Shield',
             'description':
                 'Creates a shield that absorbs up to 10% of your health.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.webp',
           },
         ]
       },
@@ -9758,13 +9758,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Blue Flame',
             'description':
                 'The skill is only held for 2 seconds and its damage increases by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.webp',
           },
           {
             'name': 'Fire',
             'description':
                 'Increases the flamethrower\'s radius, and inflicts a burn on enemies for 10 seconds, cumulative 5 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.webp',
           },
         ]
       }
@@ -9780,7 +9780,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Brandish the launcher, deals [184] damage, and stunning the enemy for 2 seconds.',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/blaster/c07s08.png',
+    'iconUrl': 'assets/icons/blaster/c07s08.webp',
     'tripod': [
       {
         'tier': 1,
@@ -9788,17 +9788,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Empowered Will',
             'description': 'Reduces mana consumption by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Stable Post',
             'description': 'Immune to stiffness while using the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.webp',
           },
           {
             'name': 'Swift Attack',
             'description': 'Increases attack speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
         ]
       },
@@ -9808,18 +9808,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Improved Strike',
             'description': 'Increases damage done by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Maintaining Stun',
             'description': 'Increases the duration of stun effect by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.webp',
           },
           {
             'name': 'Mana Regeneration',
             'description':
                 'Each inflicted enemy regenerate 25% mana up to 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_79.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_79.webp',
           },
         ]
       },
@@ -9829,12 +9829,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Rush',
             'description': 'Rushes 6m and attack the enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.webp',
           },
           {
             'name': 'Spin Attack',
             'description': 'Swing the launcher 360 degree.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -9850,7 +9850,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Launches rockets to the air and the rockets fall random location near the target area. The rockets deals up to [366] damage and lifts the enemy.',
     'type': 'Point',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/blaster/c07s09.png',
+    'iconUrl': 'assets/icons/blaster/c07s09.webp',
     'tripod': [
       {
         'tier': 1,
@@ -9859,17 +9859,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Preparation for Firing',
             'description':
                 'Attack enemies before launch to throw them in the air.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.webp',
           },
           {
             'name': 'Quick Launch',
             'description': 'Increases attack speed by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Concussion',
             'description': 'The neutralization phase increases by one.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.webp',
           },
         ]
       },
@@ -9880,19 +9880,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Flame Strike',
             'description':
                 '[Fire] Successful hits burn the enemy for 6 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
           {
             'name': 'Ice Strike',
             'description':
                 '[Ice] Reduces the movement speed of enemies by 20% for 5 seconds, cumulative 3 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
           },
           {
             'name': 'Lightning Strike',
             'description':
                 '[Lightning] Increases critical strike chance by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.webp',
           },
         ]
       },
@@ -9903,13 +9903,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'No Mercy',
             'description':
                 'Launches the rocket 3 more times and damage done is increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Nuclear Bomb',
             'description':
                 'Drops a very large and powerful single shell. The range of damage and explosion given to enemies is greatly increased, and harmful effects from flame bombardment and cold bombing are applied as maximum overlapping effects. In addition, 60% increase in damage to enemies that are immune to the attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -9925,7 +9925,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Jumps up in the air and fires the launcher below the caster. It deals [233] damage and knock the enemy back.',
     'type': 'Normal',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/blaster/c07s10.png',
+    'iconUrl': 'assets/icons/blaster/c07s10.webp',
     'tripod': [
       {
         'tier': 1,
@@ -9933,18 +9933,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Jump',
             'description': 'Increases attack speed by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Controlling Mana',
             'description': 'Grants a 50% chance to ignore mana consumption.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Cramp',
             'description':
                 'Increases the duration of knock back status by 0.5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.webp',
           },
         ]
       },
@@ -9954,18 +9954,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Extensive Explosion',
             'description': 'Increases the area of effect by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Improved Shelling',
             'description': 'Increases damage done by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Identified Weakness',
             'description':
                 'Increases damage by 40% against enemies immune to control effects.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -9976,12 +9976,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Triple Fire',
             'description':
                 'Fires the launcher three times and damage done is increased by 100%. Last hit knocks the enemy back.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Rocket Jump',
             'description': 'Leap through the air to the target location.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_10.webp',
           },
         ]
       }
@@ -9996,7 +9996,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Summons an auto turret. The turret deals [108] damage.',
     'type': 'Normal',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/blaster/c07s11.png',
+    'iconUrl': 'assets/icons/blaster/c07s11.webp',
     'tripod': [
       {
         'tier': 1,
@@ -10004,18 +10004,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Fast Recharge',
             'description': 'Reduces the turret stack timer by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Extra Battery',
             'description': 'Increases the duration of the turret by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.webp',
           },
           {
             'name': 'Armor Destroy',
             'description':
                 'Reduces all enemy armor that hit a turret attack by 20% for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.webp',
           },
         ]
       },
@@ -10025,18 +10025,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Improved Turret',
             'description': 'Increases damage done by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Long Ranged Turret',
             'description': 'Increases the skill range by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_52.webp',
           },
           {
             'name': 'Quick Install',
             'description':
                 'Immune to stiffness during turret installation, turret installation speed increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.webp',
           },
         ]
       },
@@ -10046,13 +10046,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Big Pack',
             'description': 'Increases the turret stack to 3.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_36.webp',
           },
           {
             'name': 'Laser Turret',
             'description':
                 'Turret shoots the laser and damage done is increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_18.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_18.webp',
           },
         ]
       }
@@ -10068,7 +10068,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Creates the plasma storm that slowly follows the enemy. The storm deals [43] damage per 0.5 seconds.',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/blaster/c07s12.png',
+    'iconUrl': 'assets/icons/blaster/c07s12.webp',
     'tripod': [
       {
         'tier': 1,
@@ -10077,18 +10077,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Rage',
             'description':
                 'Your attack power increases by 20% for 3s after casting.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
           {
             'name': 'Solid Armor',
             'description': 'Reduces damage taken by 40% during launch.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Stun',
             'description':
                 'Successful hits have a 10% chance to stun the enemy for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_44.webp',
           },
         ]
       },
@@ -10098,17 +10098,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Fast Travel',
             'description': 'Increases the speed of the plasma storm by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.webp',
           },
           {
             'name': 'Improved Continuity',
             'description': 'Increases the skill duration by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
           {
             'name': 'Massive Plasma',
             'description': 'Increases the area of effect by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -10119,12 +10119,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Growing Plasma',
             'description':
                 'The enemy takes 10% more damage every 0.5s in the storm.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.webp',
           },
           {
             'name': 'Ice Storm',
             'description': '[Ice] Reduces the enemy’s movement speed by 70%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_14.webp',
           },
         ]
       }
@@ -10140,7 +10140,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Creates the gravity field that pulls the enemy and explodes it. The explosion knocks the enemy backwards.',
     'type': 'Hold',
     'cooldown': 36,
-    'iconUrl': 'assets/icons/blaster/c07s13.png',
+    'iconUrl': 'assets/icons/blaster/c07s13.webp',
     'tripod': [
       {
         'tier': 1,
@@ -10148,18 +10148,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Free Launch',
             'description': 'The area of ​​success is enlarged (launch bar).',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_72.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_72.webp',
           },
           {
             'name': 'Mass Attack',
             'description': 'Takes 30% less damage while performing the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
           {
             'name': 'Stun Effect',
             'description':
                 'The enemies are no longer thrown but stun for 4 seconds during the explosion. Increases the level of the Incapacitate effect by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_30.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_30.webp',
           },
         ]
       },
@@ -10170,17 +10170,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Solid Armor',
             'description':
                 'Creates a shield that absorbs 15% of your maximum health during launch.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.webp',
           },
           {
             'name': 'Stabilization',
             'description': 'You can turn slowly during casting.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_27.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_27.webp',
           },
           {
             'name': 'Swift Movement',
             'description': 'Pulls the enemy 20% faster.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.webp',
           },
         ]
       },
@@ -10191,13 +10191,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Sweep',
             'description':
                 'The gravity field now extends over a 14-meter line, it draws enemies to its center before exploding. Increases the launch time by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_81.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_81.webp',
           },
           {
             'name': 'Planetary Gravity',
             'description':
                 'The range of attraction increases by 50% but decreases slowly. Explosion deals 50% more damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_71.webp',
           },
         ]
       }
@@ -10212,7 +10212,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Blasts the enemy and deals [155] damage.',
     'type': 'Normal',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/blaster/c07s14.png',
+    'iconUrl': 'assets/icons/blaster/c07s14.webp',
     'tripod': [
       {
         'tier': 1,
@@ -10220,18 +10220,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Changing Coordinate',
             'description': 'Attack location changes to 2m front of the caster.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_53.webp',
           },
           {
             'name': 'Controlling Firepower',
             'description':
                 'Successful hits absorb 100% more firepower resources.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.webp',
           },
           {
             'name': 'Increases Area',
             'description': 'Increases the area of effect by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
         ]
       },
@@ -10241,17 +10241,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Response',
             'description': 'Decreases the skill cooldown by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.webp',
           },
           {
             'name': 'Improved Shelling',
             'description': 'Increases damage done by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Sharp Strike',
             'description': 'Increases critical damage by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
         ]
       },
@@ -10262,13 +10262,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Dancing Boom',
             'description':
                 'The explosion causes another two small explosions right next to it. Additional explosions are reduced damage and the area of effect by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Concentrate Fire',
             'description':
                 'The skill changes to the first level of charging skill. Successful charging increases damage dealt by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -10284,7 +10284,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Installs a guiding device to the target location. After 5 seconds, the missile hits the device and deals [576] damage. The missile also lifts the enemy to the air.',
     'type': 'Normal',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/blaster/c07s15.png',
+    'iconUrl': 'assets/icons/blaster/c07s15.webp',
     'tripod': [
       {
         'tier': 1,
@@ -10292,18 +10292,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Long Ranged Installment',
             'description': 'The skill range is increased by 2m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
           {
             'name': 'Improved Guiding Missile',
             'description': 'The missile strikes the target location in 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Slow Effect',
             'description':
                 'The guiding device reduces the enemy’s movement speed by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.webp',
           },
         ]
       },
@@ -10313,19 +10313,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Nut Cracker',
             'description': 'Increases a critical hit chance by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Natural Selection',
             'description':
                 'Increases the damage dealt on lower grade and normal grade monsters by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.webp',
           },
           {
             'name': 'Spot Weakness',
             'description':
                 'Increases damage done any target with the Invulnerable status by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -10336,13 +10336,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'EMP',
             'description':
                 'Do not throw enemies into the air but stuns them for 5 seconds. Increases the incapacitate level by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.webp',
           },
           {
             'name': 'Atomic Bomb',
             'description':
                 'The missile creates a radiation field that lasts for 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -10358,7 +10358,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Creates a shield that absorbs damage from 15 to 40% of maximum health for 4 seconds.',
     'type': 'Normal',
     'cooldown': 40,
-    'iconUrl': 'assets/icons/blaster/c07s16.png',
+    'iconUrl': 'assets/icons/blaster/c07s16.webp',
     'tripod': [
       {
         'tier': 1,
@@ -10367,18 +10367,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Concentrate Fire',
             'description':
                 'The firepower gauge is increased by 50% when the caster has less than 30% health.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.webp',
           },
           {
             'name': 'Energy Unleashed',
             'description':
                 'The caster unleashes energy when the skill is activated.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.webp',
           },
           {
             'name': 'Improved Will',
             'description': 'No longer requires mana to activate the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -10388,17 +10388,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Improved Shield',
             'description': 'Double the effect of the shield.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.webp',
           },
           {
             'name': 'Overflow Energy',
             'description': 'Increases the duration of the skill for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
           {
             'name': 'Quick Response',
             'description': 'Cooldown reduced by 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.webp',
           },
         ]
       },
@@ -10409,13 +10409,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Thick Shield',
             'description':
                 'The caster becomes Invulnerable to crowd control effects while the shield is up.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_25.webp',
           },
           {
             'name': 'Sharing Energy',
             'description':
                 'Shields are applied to nearby party members, but the shielding level is reduced by half.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.webp',
           },
         ]
       }
@@ -10430,7 +10430,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'After aiming, you shoot 3 arrows.',
     'type': 'Normal',
     'cooldown': 5,
-    'iconUrl': 'assets/icons/hawkeye/c08s00.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s00.webp',
     'tripod': [
       {
         'tier': 1,
@@ -10439,18 +10439,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Damage Boost',
             'description':
                 'Damage to target and party members increases by 10% for 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.webp',
           },
           {
             'name': 'Horsepower Control',
             'description': 'Mana consumption is reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Tracking Fire',
             'description':
                 'It automatically turns and fires to the nearest enemy within 90 degrees ahead.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_84.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_84.webp',
           },
         ]
       },
@@ -10460,18 +10460,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Double Shot',
             'description': 'Damage done increased by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_54.webp',
           },
           {
             'name': 'Shock Shot',
             'description':
                 'Attribute changes to [Lighting] property, and applies Shock for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.webp',
           },
           {
             'name': 'Light Footsteps',
             'description': 'Increases movement speed by 30% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.webp',
           },
         ]
       },
@@ -10482,12 +10482,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Power shot',
             'description':
                 'The last strike is changed to a powerful attack, which increases the critical hit rate by 100% and the width by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_4.webp',
           },
           {
             'name': 'Sustained Fire',
             'description': 'The number of arrow shoots increases from 3 to 5.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -10503,7 +10503,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'After aiming, you shoot an arrow that deals damage. It explodes 3 seconds later, inflicting further damage and knocking down enemies.',
     'type': 'Normal',
     'cooldown': 9,
-    'iconUrl': 'assets/icons/hawkeye/c08s01.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s01.webp',
     'tripod': [
       {
         'tier': 1,
@@ -10511,18 +10511,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Horsepower Control',
             'description': 'Mana consumption is reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Quick Hand',
             'description': 'Increases attack speed by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Damage Boost',
             'description':
                 'The damage a target receives on his or her party member during a blast attack increases by 10% for 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.webp',
           },
         ]
       },
@@ -10533,19 +10533,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Heavy Bomb',
             'description':
                 'Decrease enemy’s movement speed for 50% before explosion.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
           {
             'name': 'Flame Gunpowder',
             'description':
                 'We burn for 6 seconds to the enemy hit by the explosion.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
           {
             'name': 'Arrowhead Enhancement',
             'description':
                 'Increases the chance of a critical hit by 30%. Increases the duration of an electric shock by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
         ]
       },
@@ -10556,13 +10556,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Light Arrow',
             'description':
                 'It does not surpass an enemy hit by an explosion anymore, but the Atomic Arrow\'s flight speed is increased by 50% , the explosion time is shortened from 2 seconds to 1 second, and the explosion creates an electric shock for 2 seconds. When using a flame arrow, instead of burning, it takes 3 seconds of lightning, causing damage every second.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_17.webp',
           },
           {
             'name': 'Long Fuse',
             'description':
                 'The explosion time increases from 3 seconds to 5 seconds. Damage to enemies increases by 75%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.webp',
           },
         ]
       }
@@ -10578,7 +10578,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You shoot a swirling arrow that deals damage along the way.',
     'type': 'Normal',
     'cooldown': 6,
-    'iconUrl': 'assets/icons/hawkeye/c08s02.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s02.webp',
     'tripod': [
       {
         'tier': 1,
@@ -10586,19 +10586,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Reinforced Arrow',
             'description': 'Increases the damage done by the arrows by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
           {
             'name': 'Blizzard',
             'description':
                 'Changed to [Frost] property and deals a frosty condition that slows the movement speed by 20% for 5 seconds to the affected enemy . Freeze the enemy when the frost condition is inflicted 3 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.webp',
           },
           {
             'name': 'Hellfire',
             'description':
                 'Changed to [Fire] property, and deals a flame condition that damages enemies for 5 seconds every second. When the flame condition is inflicted 3 times, the target detonates.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.webp',
           },
         ]
       },
@@ -10609,18 +10609,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Slow Bullet',
             'description':
                 'The speed of the whirlwind decreases, hitting the enemy more.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
           {
             'name': 'Quick Launch',
             'description':
                 'Gather the wind power to increase the attack rate by 20% , flips back 2m and fires.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.webp',
           },
           {
             'name': 'Giant Whirlwind',
             'description': 'The width of the whirlwind increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -10631,13 +10631,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Tidal Wave',
             'description':
                 'It changes to a straight attack form. During the third firing, the tornado will form long and attack enemies within range, and increasing damage done to enemies by 30%. If you apply a Slow bullet, your damage to the enemy increases by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.webp',
           },
           {
             'name': 'Multi Tidal',
             'description':
                 'After a certain period of time, the whirlwind will separate and fire up to four whirlwinds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -10653,7 +10653,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You\'re bending your bow to shoot 10 arrows at once that deal damage to enemies in the area. Each enemy can only receive 3 arrows maximum.',
     'type': 'Normal',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/hawkeye/c08s03.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s03.webp',
     'tripod': [
       {
         'tier': 1,
@@ -10661,18 +10661,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Hit',
             'description': 'Increases Critical Hit Rate by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
           {
             'name': 'Damage Boost',
             'description':
                 'Attack damage increases by 10% for 16 seconds for target and party members.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_2.webp',
           },
           {
             'name': 'Mind Enhancement',
             'description': 'Decrease MP usage by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -10682,17 +10682,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Merciless Fire',
             'description': 'Increases the number of arrows from 10 to 15.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_54.webp',
           },
           {
             'name': 'Painful Shooting',
             'description': 'Inflicts bleeding, damagштп every second for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
           {
             'name': 'Weak Point',
             'description': 'Increase the damage by 40% toward an enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -10703,13 +10703,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Concentrated Shot',
             'description':
                 'Up to 5 arrows stuck to the same target. Critical damage is increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Definite Fire',
             'description':
                 'Two arrows hit to all enemies within range. If Merciless Fire is learned, all enemies in range are hit by 3 arrows.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.webp',
           },
         ]
       }
@@ -10724,7 +10724,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Moves forward 8m and inflicts damage.',
     'type': 'Normal',
     'cooldown': 10,
-    'iconUrl': 'assets/icons/hawkeye/c08s04.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s04.webp',
     'tripod': [
       {
         'tier': 1,
@@ -10732,18 +10732,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Ghost Steps',
             'description':
                 'Ignore collision with normal monsters while using the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_12.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_12.webp',
           },
           {
             'name': 'Excellent Maneuver',
             'description': 'Increase skill’s travel distance by 2m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
         ]
       },
@@ -10754,19 +10754,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Push',
             'description':
                 'Increases the attack range by 10% and increases the distance between the struck enemy\'s striking time and the hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_60.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_60.webp',
           },
           {
             'name': 'Silver Master',
             'description':
                 'When the skill is hit, the Hawk Gauge is restored to 35.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_36.webp',
           },
           {
             'name': 'Mark Of Death',
             'description':
                 'Inflicts Mark of death to an enemy hit on a move. The Mark of death can be applied up to 3 times. Increasing the damage received by the enemy from 5% to 20% depending on the number of effects.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_76.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_76.webp',
           },
         ]
       },
@@ -10777,13 +10777,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Survival',
             'description':
                 'Become super armor while using the skill. Increases evasion rate by 50% while casting the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_26.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_26.webp',
           },
           {
             'name': 'Strengthening',
             'description':
                 'Increases damage by 100% and applies bleed, dealing damage every second for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
         ]
       }
@@ -10799,7 +10799,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You jump in the air and kick, inflict damage on the enemies below and knock them over, then jump forward 8 meters away.',
     'type': 'Normal',
     'cooldown': 14,
-    'iconUrl': 'assets/icons/hawkeye/c08s05.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s05.webp',
     'tripod': [
       {
         'tier': 1,
@@ -10807,17 +10807,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Hand',
             'description': 'Increases attack speed by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Excellent Maneuver',
             'description': 'Increase skill’s travel distance by 3m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
         ]
       },
@@ -10827,18 +10827,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Light Footsteps',
             'description': 'Increases movement speed by 30% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.webp',
           },
           {
             'name': 'Evasion Master',
             'description': 'Increases evasion rate by 35% during cast.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.webp',
           },
           {
             'name': 'Weak Point',
             'description':
                 'Increase the damage by 40% toward an enemy with hit recovery immune.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -10849,13 +10849,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Neat Herb',
             'description':
                 'Increases knockdown time by 50% and increases damage by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.webp',
           },
           {
             'name': 'Finishing Blow',
             'description':
                 'After landing, attack a second time. The point of neutralization(staggering time) increases by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_17.webp',
           },
         ]
       }
@@ -10871,7 +10871,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You place a mine in front of you that activates to inflict damage in front of it, and pushes enemy.',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/hawkeye/c08s06.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s06.webp',
     'tripod': [
       {
         'tier': 1,
@@ -10879,18 +10879,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Hand',
             'description': 'Increases attack speed by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Weapon Destruction',
             'description':
                 'Decreases the attack strength of an enemy by 20% for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_46.webp',
           },
           {
             'name': 'Push',
             'description': 'Increases the distance by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.webp',
           },
         ]
       },
@@ -10900,19 +10900,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Strength',
             'description': 'Become immune to cc during skill casting.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Thunderstorm',
             'description':
                 'Attack attribute is changed to [Lighting]. Increases the chance of critical hits by 15%, making it in a state of electric shock for 3 seconds. Enemies are no longer pushes.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Lightning',
             'description':
                 'Attack attribute is changed to [Fire]. Increases damage by 30% and burns the enemy, inflicting damage every second for 3 seconds. But increases the mana cost by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
         ]
       },
@@ -10923,13 +10923,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Storm Surge',
             'description':
                 'The direction of the explosion changes to a sector. Incread skill cooldown by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
           {
             'name': 'Concentrated Storm',
             'description':
                 'Decreases the range by 30%, but explodes 3 times with 0.5s intervals. Damage to enemies increases by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -10945,7 +10945,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Charges a shot, can be charged up to three times to inflict maximum damage. PVP: Reduced damage done by 8.3%.',
     'type': 'Charge',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/hawkeye/c08s07.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s07.webp',
     'tripod': [
       {
         'tier': 1,
@@ -10954,17 +10954,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Quick Aim',
             'description':
                 'Increases the redirection speed during charge by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_27.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_27.webp',
           },
           {
             'name': 'Сamouflage',
             'description': 'You become invisible. Cooldown increased by 9s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_0.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
         ]
       },
@@ -10975,18 +10975,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Double shot',
             'description':
                 'Shots 2 arrows at the same time, causing 50% more damage to the enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_54.webp',
           },
           {
             'name': 'Overpain',
             'description':
                 'Immediately upon reaching Over Charge, inflict additional damage on the enemy in the immediate vicinity and knock it over.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.webp',
           },
           {
             'name': 'Quick Hand',
             'description': 'Charge time is reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.webp',
           },
         ]
       },
@@ -10997,13 +10997,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Instant Arrow',
             'description':
                 'The higher the charge phase, the more the range is increased. Explosion occurs when the target point is reached. No longer increase damage by the charging.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_87.webp',
           },
           {
             'name': 'Concentration',
             'description':
                 'The charge phase is added once, and when overcharged, an unconditional critical hit occurs.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.webp',
           },
         ]
       }
@@ -11019,7 +11019,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You hold your bow horizontally and shoot several arrows simultaneously, which inflict damage.',
     'type': 'Normal',
     'cooldown': 6,
-    'iconUrl': 'assets/icons/hawkeye/c08s08.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s08.webp',
     'tripod': [
       {
         'tier': 1,
@@ -11028,17 +11028,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Heavy Steel',
             'description':
                 'Increases the damage inflicted on weakened enemies by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_61.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_61.webp',
           },
           {
             'name': 'Mind Enhancement',
             'description': 'Decrease MP consumption by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Lightfoot',
             'description': 'Increases movement speed by 20% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
         ]
       },
@@ -11048,19 +11048,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Achievement Of Training',
             'description': 'Increase attack distance by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Cold Arrow',
             'description':
                 'Attack attributes are changed to [Frost]. Increases damage by 15% and reduces enemy movement speed by 50% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
           },
           {
             'name': 'Shock Fire',
             'description':
                 'Stuns the target for 3 seconds if a hit is critical.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.webp',
           },
         ]
       },
@@ -11071,13 +11071,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Covert Movement',
             'description':
                 'After using the skill, you become invisible but the cooldown increases by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_74.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_74.webp',
           },
           {
             'name': 'Close Shot',
             'description':
                 'The attack angle is reduced by 30% and increases damage by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
         ]
       }
@@ -11093,7 +11093,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You place a mine that explodes after 12 seconds, or if an enemy triggers it. Inflicts damage and knocks down enemies.',
     'type': 'Chain',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/hawkeye/c08s09.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s09.webp',
     'tripod': [
       {
         'tier': 1,
@@ -11101,18 +11101,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mind Enhancement',
             'description': 'Decrease MP consumption by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Heavy Steel',
             'description':
                 'Increases the damage dealt to normal monsters and below by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_61.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_61.webp',
           },
           {
             'name': 'Strengthen Destruction',
             'description': 'Increases the destruction level by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_22.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_22.webp',
           },
         ]
       },
@@ -11122,18 +11122,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Remote Installation',
             'description': 'Increases the deployment distance by 4 meters.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_52.webp',
           },
           {
             'name': 'Shock Mines',
             'description':
                 'Do not knockdown the enemy anymore, but stuns them for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_30.webp',
           },
           {
             'name': 'Explosion Spread',
             'description': 'Increase explosion range by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -11144,13 +11144,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Fire Mines',
             'description':
                 'Reduces the damage of the explosion by 20% but creates a flame zone that deals 45% of the damage every second for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_13.webp',
           },
           {
             'name': 'Distributed Installation',
             'description':
                 'Can install 2 mines within 5s, but increases the cooldown by 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
         ]
       }
@@ -11166,7 +11166,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You shoot several arrows in the air, which fall back to the targeted location. They deal damage for 2 seconds.',
     'type': 'Point',
     'cooldown': 18,
-    'iconUrl': 'assets/icons/hawkeye/c08s10.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s10.webp',
     'tripod': [
       {
         'tier': 1,
@@ -11174,17 +11174,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Hand',
             'description': 'Increases attack speed by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Mind Enhancement',
             'description': 'Decrease MP consumption by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Evasion Master',
             'description': 'Increases evasion rate by 35% during cast.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_26.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_26.webp',
           },
         ]
       },
@@ -11195,19 +11195,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Enhancement Sustain',
             'description':
                 'Reduces damage by 20% per hit but increases the duration by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.webp',
           },
           {
             'name': 'Flame Baptism',
             'description':
                 'The attack property is changed to [Fire]. Fire arrows fall and burn enemies, inflicting damage every second for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
           {
             'name': 'Electric Baptism',
             'description':
                 'Attack attribute is changed to [Lighting]. Shoots a bolt of lightning. 30% chance to stun for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.webp',
           },
         ]
       },
@@ -11218,12 +11218,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Piercing Arrow',
             'description':
                 'The arrows fall faster. Critical hit rate increases by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_4.webp',
           },
           {
             'name': 'Sustained Rain',
             'description': 'Increase damage to enemies by 20% per second.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.webp',
           },
         ]
       }
@@ -11239,7 +11239,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You jump backwards and shoot in front of you, inflicting damage.',
     'type': 'Normal',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/hawkeye/c08s11.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s11.webp',
     'tripod': [
       {
         'tier': 1,
@@ -11247,17 +11247,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Hand',
             'description': 'Increases attack speed by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Excellent Maneuver',
             'description': 'Move backward by 2m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
         ]
       },
@@ -11267,18 +11267,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Light Footsteps',
             'description': 'Increases movement speed by 30% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.webp',
           },
           {
             'name': 'Evasion Master',
             'description': 'Increases evasion rate by 40% during cast.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.webp',
           },
           {
             'name': 'Heavy Arrow',
             'description':
                 'The distance to push enemies is increased by 3m. Increases damage by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
         ]
       },
@@ -11289,13 +11289,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Conversion Strike',
             'description':
                 'Knockdown enemy. Increases critical hit rate by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_9.webp',
           },
           {
             'name': 'Strategic Retreat',
             'description':
                 'After landing, you can use a new arrow in the direction and retreat an additional 2 meters.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -11311,7 +11311,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You give a quick stab in front of you, inflicting damage and applying the Mark of Death effect. The Death Mark effect can be applied up to 3 times, increasing the damage received by the enemy from 5% to 20% depending on the number of effects.',
     'type': 'Normal',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/hawkeye/c08s12.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s12.webp',
     'tripod': [
       {
         'tier': 1,
@@ -11319,17 +11319,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mind Enhancement',
             'description': 'Decrease MP usage by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Silver Master',
             'description': 'Skill hits to restore identity 35.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.webp',
           },
           {
             'name': 'Quick Hit',
             'description': 'Increases Critical Hit Rate by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
         ]
       },
@@ -11340,19 +11340,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Mark Of Death',
             'description':
                 'The Mark of death can be applied up to 2 times. The mark of death can be stacked up to 3 times. Increasing the damage from 5% to 20% depending on the number of effects.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_76.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_76.webp',
           },
           {
             'name': 'Unjust Strike',
             'description':
                 'Increase the damage bonus to 100% while enemy health is above 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Painful Strike',
             'description':
                 'Inflicts bleeding, inflicting damage every second for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
         ]
       },
@@ -11363,13 +11363,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Double Cut',
             'description':
                 'Give a second hit, which increases the damage by 100%. A 20% chance inflict an additional 400% damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Covert Movement',
             'description':
                 'After using the skill, you become invisible and increase movement speed by 50% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_74.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_74.webp',
           },
         ]
       }
@@ -11385,7 +11385,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You shoot an arrow at the target location that deals damage and creates a smoke zone for 6 seconds, the speed of movement and the vision field of the enemies are reduced in the smoke.',
     'type': 'Point',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/hawkeye/c08s13.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s13.webp',
     'tripod': [
       {
         'tier': 1,
@@ -11393,17 +11393,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mind Enhancement',
             'description': 'Decrease MP usage by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Ranged Shooting',
             'description': 'Increases the range of 3m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
         ]
       },
@@ -11414,19 +11414,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Sticky Smoke',
             'description':
                 'Reduction movement speed lasts for 3 seconds even when moving out of the smoke zone.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
           {
             'name': 'Dark Smoke',
             'description':
                 'Reduces the vision field of enemies for 3 seconds even if they come out of the smoke zone.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.webp',
           },
           {
             'name': 'Poison Smoke',
             'description':
                 'Inflicts damage every second to enemies in the smoke.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
         ]
       },
@@ -11437,13 +11437,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Spreading Smoke',
             'description':
                 'Increases smoke zone by 30% and the smoke duration increases by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
           {
             'name': 'Invisible Threat',
             'description':
                 'Increases the damage done to enemies in the Smoke Zone by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
         ]
       }
@@ -11459,7 +11459,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You quickly shoot an arrow that deals damage and applies the Dark Curse effect, reducing the speed of movement and the field of view of the enemy. If the Dark Curse effect is applied 3 times, the enemy is stunned for 5 seconds. Reduced target movespeed up to 50% while using normal attack after the skill animation.',
     'type': 'Normal',
     'cooldown': 1,
-    'iconUrl': 'assets/icons/hawkeye/c08s14.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s14.webp',
     'tripod': [
       {
         'tier': 1,
@@ -11467,17 +11467,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Fast Charge',
             'description': 'Reduces the cooldown of each charge by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'High Speed Arrow',
             'description': 'Increases the speed of the arrows by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Mind Enhancement',
             'description': 'Decrease MP usage by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -11488,18 +11488,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Overcharge',
             'description':
                 'The maximum charges of shadow arrows increases from 3 to 4.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_83.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_83.webp',
           },
           {
             'name': 'Curse',
             'description':
                 'Increases the duration of the Dark Curse effect from 4s to 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
           {
             'name': 'Shadows of Abyss',
             'description': 'Increases shadow curse effect by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.webp',
           },
         ]
       },
@@ -11510,12 +11510,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Shadow Tracking',
             'description':
                 'Shadow arrows track the closest enemy on the path. No longer pierce the enemy and increase the cooldown by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_84.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_84.webp',
           },
           {
             'name': 'Ruthless Shadow',
             'description': 'Shoot 3 arrows together in a fan-shaped form.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
         ]
       }
@@ -11530,7 +11530,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Spins rapidly and throw blade, causing damage 9 times.',
     'type': 'Normal',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/hawkeye/c08s15.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s15.webp',
     'tripod': [
       {
         'tier': 1,
@@ -11538,18 +11538,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Ranged Blow',
             'description': 'Attack range increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Quick Hand',
             'description': 'Increases the attack speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Silver Master',
             'description':
                 'Each time skill hit 3 times to restore identity 12.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.webp',
           },
         ]
       },
@@ -11560,19 +11560,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Poison Blade',
             'description':
                 'Shoots the poison blade at the last attack and makes the hit enemy poisoned for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
           {
             'name': 'Lightning Blade',
             'description':
                 'The last attack blows additional lightning blade rotating in the direction of increasing the attack surface of a certain angle, and the critical chance of attacks increases by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_49.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_49.webp',
           },
           {
             'name': 'Mark Of Death',
             'description':
                 'Inflicts mark of death to an enemy hit in the last attack. The Mark of death can be applied up to 3 times. Increasing the damage received by the enemy from 5% to 20% depending on the number of effects.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_76.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_76.webp',
           },
         ]
       },
@@ -11583,13 +11583,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Blade Dance',
             'description':
                 'The rotational attack becomes longer, and movement during the rotation becomes possible. Also, the number of attacks from the last attack increases by one.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Shadow Dance',
             'description':
                 'It is possible to move after 2 rotations. At the point where the skill is used, the clone continues to attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.webp',
           },
         ]
       }
@@ -11605,7 +11605,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'After aiming inflict damage to the first enemy hit, to nearby enemies and behind the target. The arrow has a 60% chance to stun the first enemy hit for 3 seconds, 40% for nearby enemies, and 20% for enemies behind the target.',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/hawkeye/c08s16.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s16.webp',
     'tripod': [
       {
         'tier': 1,
@@ -11613,17 +11613,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Hand',
             'description': 'Increases attack speed by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Mind Enhancement',
             'description': 'Decrease MP usage by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Ranged Shooting',
             'description': 'Increases the range of 3m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
         ]
       },
@@ -11634,19 +11634,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Current Zone',
             'description':
                 'The chances of stunning the first enemy are increased from 60% to 100%, for enemies close to 40% to 70% and for enemies behind from 20% to 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.webp',
           },
           {
             'name': 'Overload',
             'description':
                 'Increases damage by 20% for the first enemy hit, 40% for nearby enemies, and 70% for enemies behind.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
           {
             'name': 'Electric Shock',
             'description':
                 'No longer inflicts stunning but gains 100% chance to inflict electrocution for 3 seconds and increases damage by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.webp',
           },
         ]
       },
@@ -11657,13 +11657,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Lightning Rod',
             'description':
                 'Send the lightning rod in the targeted location for 2 seconds, it deals a second attack, increasing the damage by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Electric Storm',
             'description':
                 'Increases the size of the skill by 50% and increases the current range by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
         ]
       }
@@ -11679,7 +11679,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'When holding, it is aimed, deals heavy damage to the perfect zone, and less damage if it fails. PVP: Reduced damage done by 8.3%.',
     'type': 'Hold 3 sec',
     'cooldown': 36,
-    'iconUrl': 'assets/icons/hawkeye/c08s17.png',
+    'iconUrl': 'assets/icons/hawkeye/c08s17.webp',
     'tripod': [
       {
         'tier': 1,
@@ -11687,17 +11687,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 6s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Quick Hand',
             'description': 'Increases attack speed by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Insight',
             'description': 'Increase the skill range by 3m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
         ]
       },
@@ -11708,18 +11708,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Perfection',
             'description':
                 'Increases damage by 40% when the arrow is released at the perfect zone.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_72.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_72.webp',
           },
           {
             'name': 'Strength',
             'description': 'Become super armor during the cast a skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Weak Point',
             'description':
                 'Increase the damage by 30% toward an enemy with hit recovery immune and 80% for perfect zone.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -11730,13 +11730,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Ghillie Suit',
             'description':
                 'You become invisible during the cast a skill, but increases the cooldown by 18s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_74.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_74.webp',
           },
           {
             'name': 'Easy Prey',
             'description':
                 'When the size of the Perfect Zone increases, and the Perfect Zone succeeds, the critical hit rate increases by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.webp',
           },
         ]
       }
@@ -11752,7 +11752,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Shoots a projectile that explodes and staggers targets near explosion when collision happens.',
     'type': 'Normal',
     'cooldown': 6,
-    'iconUrl': 'assets/icons/bard/c09s00.png',
+    'iconUrl': 'assets/icons/bard/c09s00.webp',
     'tripod': [
       {
         'tier': 1,
@@ -11760,17 +11760,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 1s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Wide Explosion',
             'description': 'Increases the range of explosive blast by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Remaining Blast',
             'description': 'Leaves a DoT on the ground at the explosion.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_8.webp',
           },
         ]
       },
@@ -11781,18 +11781,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Sacred Shock',
             'description':
                 'Changes to [Holy] property, for 1 second, enemy hit by soundshock takes 15% increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_18.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_18.webp',
           },
           {
             'name': 'Cold Shock',
             'description':
                 'Changes to [Ice] property, soundshock freezes enemies for 3 seconds, if they are not frozen their movement speed is reduced by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
           },
           {
             'name': 'Shock Reinforcement',
             'description': 'Damage increases by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
         ]
       },
@@ -11802,13 +11802,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Speaker',
             'description': 'Shoots another soundstrike.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Song',
             'description':
                 'Soundstrike is no longer shot straight but falls as a bomb to the pointed location and the damage is increased by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_62.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_62.webp',
           },
         ]
       }
@@ -11824,7 +11824,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'AoE void zone that ticks 7 times once per second, each ticks slows enemies for 2 seconds for 60%.',
     'type': 'Point',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/bard/c09s01.png',
+    'iconUrl': 'assets/icons/bard/c09s01.webp',
     'tripod': [
       {
         'tier': 1,
@@ -11832,17 +11832,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Nimble Cast',
             'description': 'Skill cast time is reduced by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Increase Melody',
             'description': 'Serenade gauge charges from the skill 30% faster.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_64.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_64.webp',
           },
           {
             'name': 'Mental fortification',
             'description': 'Mana cost reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -11853,18 +11853,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Dragon Rigid',
             'description':
                 'Damage to monsters under a given name increases by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.webp',
           },
           {
             'name': 'Helpless Chord',
             'description':
                 'When hit, the attack power of the enemy decreases by 6% every 2 seconds for a maximum of 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.webp',
           },
           {
             'name': 'Achievement of Training',
             'description': 'Skill range increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -11875,12 +11875,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Live Chord',
             'description':
                 'Void zone now moves towards nearest enemy and follows him as he is moving. dissonant chord has the slower speed to chase a target and increase skill cooldown by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_81.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_81.webp',
           },
           {
             'name': 'Chord Enhancement',
             'description': 'Skill damage increased by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_1.webp',
           },
         ]
       }
@@ -11896,7 +11896,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Shoots soundwave that pushes enemies backwards as it flies. Doesn’t affect elites/bosses.',
     'type': 'Normal',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/bard/c09s02.png',
+    'iconUrl': 'assets/icons/bard/c09s02.webp',
     'tripod': [
       {
         'tier': 1,
@@ -11904,17 +11904,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Slick Casting',
             'description': 'Casting speed increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Excellent Maneuver',
             'description': 'When casting skill you are pushed back 4m away.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
           {
             'name': 'Large Wave',
             'description': 'Increase the skill range by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
         ]
       },
@@ -11924,18 +11924,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mana Control',
             'description': '70% chance to not consume MP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_34.webp',
           },
           {
             'name': 'Wave of Patience',
             'description':
                 'When soundwave touches your party member it grants damage 40% reduce buff for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_65.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_65.webp',
           },
           {
             'name': 'Increase Melody',
             'description': 'Serenade gauge charges from the skill 50% faster.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_64.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_64.webp',
           },
         ]
       },
@@ -11945,13 +11945,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Burning Wave',
             'description': 'Skill damage increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_1.webp',
           },
           {
             'name': 'Ground Breaking',
             'description':
                 'With the last wave hit enemies are falling into sleep for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.webp',
           },
         ]
       }
@@ -11966,7 +11966,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Ray of light channeled while you are standing still.',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/bard/c09s03.png',
+    'iconUrl': 'assets/icons/bard/c09s03.webp',
     'tripod': [
       {
         'tier': 1,
@@ -11974,19 +11974,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Sound Concentration',
             'description': 'Each tick increases damage by 5% up to 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_58.webp',
           },
           {
             'name': 'Subjugation',
             'description':
                 'Turns the ray of light into a cone and increase damage taken by enemies at max range by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.webp',
           },
           {
             'name': 'Mana Healing',
             'description':
                 'Recovers a party member mana hit by a sound holy by 1%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_79.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_79.webp',
           },
         ]
       },
@@ -11997,19 +11997,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Strengthen Sustainability',
             'description':
                 'Skill duration increased by 1.5s (means more ticks of damage) and cooldown increased by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_42.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_42.webp',
           },
           {
             'name': 'Sound Barrier',
             'description':
                 'A shield is created for 15% of your maximum hp during the channeling.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.webp',
           },
           {
             'name': 'Mobility Weakness',
             'description':
                 'Reduces the movement speed of enemies by 60% for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
         ]
       },
@@ -12019,13 +12019,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Increase Melody',
             'description': 'Serenade gauge charges from the skill 200% faster.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_64.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_64.webp',
           },
           {
             'name': 'Concentrated Saturation',
             'description':
                 'Duration reduced by 50% and damage increases by 300%, you can’t redirect the spell.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -12041,7 +12041,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Puts harp on the ground near you that shoots notes at enemy every 2 seconds within 14m with automatic targeted projectiles for 10 seconds.',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/bard/c09s04.png',
+    'iconUrl': 'assets/icons/bard/c09s04.webp',
     'tripod': [
       {
         'tier': 1,
@@ -12049,17 +12049,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Skill duration increased by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.webp',
           },
           {
             'name': 'Nimble Cast',
             'description': 'Skill cast time decreased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Mana Control',
             'description': '50% chance to not consume MP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -12069,19 +12069,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Sleek Speaker',
             'description': 'Harp attack rate increases by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_6.webp',
           },
           {
             'name': 'Blasting',
             'description':
                 'Adds AoE damage to projectiles but reduces skill range to 6m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.webp',
           },
           {
             'name': 'Increase Melody',
             'description':
                 'Serenade gauge charges additional 1% with every hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_64.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_64.webp',
           },
         ]
       },
@@ -12092,13 +12092,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Note Brand',
             'description':
                 'Decreases the damage dealt by the harp by 80% , for 1 second enemies struck by the harp takes 15% increased damage from you and your party.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.webp',
           },
           {
             'name': 'Giant Harp',
             'description':
                 'The size of the harp increases by 20% and it’s damage is increased by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.webp',
           },
         ]
       }
@@ -12114,7 +12114,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Ball with no collision flies one direction and slows enemies for 4 s for 40%.',
     'type': 'Normal',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/bard/c09s05.png',
+    'iconUrl': 'assets/icons/bard/c09s05.webp',
     'tripod': [
       {
         'tier': 1,
@@ -12123,19 +12123,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Strong Notes',
             'description':
                 'Every time you hit a party or a group of notes, your damage is reduced by 10% by up to 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_65.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_65.webp',
           },
           {
             'name': 'Turning Tables',
             'description':
                 'Cooldown increased by 5 seconds but can be used twice in a row.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_38.webp',
           },
           {
             'name': 'Musical Note Collapse',
             'description':
                 'Explodes at the end of the spell doing 200% damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_78.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_78.webp',
           },
         ]
       },
@@ -12146,18 +12146,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Frozen Notes',
             'description':
                 'Changes to [Ice] property, the slow turns into freeze and the movement speed is reduced by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
           },
           {
             'name': 'Sacred Notes',
             'description':
                 'Changes to [Holy] property, for 1 second, enemy hit by the bunch of notes takes 15% increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_18.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_18.webp',
           },
           {
             'name': 'Note Tsunami',
             'description': 'Damage increase by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
         ]
       },
@@ -12168,13 +12168,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Merciless Release',
             'description':
                 'Shoots 5  bunch of notes in an arc and is twice (100%) as fast, and the damage is increased by 200%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Stigma of Melody',
             'description':
                 'Falls from the sky and leaves it on the ground as a DoT and the casting range is increased by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -12190,7 +12190,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'For 10 s you are surrounded with 3 notes exploding when enemy is near you (one by one with cooldown ~ 1 s).',
     'type': 'Normal',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/bard/c09s06.png',
+    'iconUrl': 'assets/icons/bard/c09s06.webp',
     'tripod': [
       {
         'tier': 1,
@@ -12199,17 +12199,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Strengthen Intelligence',
             'description':
                 'Skill duration increased by 3s (means more strikes).',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Enhanced Core',
             'description': 'Skill damage increased by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.webp',
           },
         ]
       },
@@ -12219,19 +12219,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Cold Core',
             'description': 'Enemies movement slowed by 60% for 2s while hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
           },
           {
             'name': 'Collective Core',
             'description':
                 'After enemy being hit by 1 of the notes damage increased by 50% for every other hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
           {
             'name': 'Derived Effect',
             'description':
                 'Mana regeneration increases by 30% if the cores are still on the user.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_34.webp',
           },
         ]
       },
@@ -12242,12 +12242,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Core Explosion',
             'description':
                 'Number of cores reduced by 2, but when the core hits it explodes further and the damage is increased by 300%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
           {
             'name': 'Core Increase',
             'description': 'Number of notes increased by 2.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
         ]
       }
@@ -12262,7 +12262,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'AoE winds near you pushes enemies back.',
     'type': 'Normal',
     'cooldown': 18,
-    'iconUrl': 'assets/icons/bard/c09s07.png',
+    'iconUrl': 'assets/icons/bard/c09s07.webp',
     'tripod': [
       {
         'tier': 1,
@@ -12270,17 +12270,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mana Control',
             'description': '50% chance to not consume MP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Nimble Cast',
             'description': 'Skill cast time decreased by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
         ]
       },
@@ -12290,18 +12290,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Increase Melody',
             'description': 'Serenade gauge charges from the skill 150% faster.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_64.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_64.webp',
           },
           {
             'name': 'Enhanced Casting',
             'description': 'Skill damage increased by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
           {
             'name': 'Damage Reduction',
             'description':
                 'Reduces damage to you by 40% while casting the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_24.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_24.webp',
           },
         ]
       },
@@ -12312,13 +12312,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'High Speed Cast',
             'description':
                 'Reduces the number of attacks by 1, increases the cooldown by 6 seconds, but changes the skill so you can cast it twice. Increases damage by 40% and damage done to the enemy increases by 200% of the first verdict.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
           {
             'name': 'Wish for Protection',
             'description':
                 'You and party members touched by wind got shield buff 25% max hp for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_75.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_75.webp',
           },
         ]
       }
@@ -12334,7 +12334,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You are casting void zone on the ground that ticks 5 times (once per second) and staggers enemies, every next tick damages 12.5% harder.',
     'type': 'Cast 5 sec',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/bard/c09s08.png',
+    'iconUrl': 'assets/icons/bard/c09s08.webp',
     'tripod': [
       {
         'tier': 1,
@@ -12342,17 +12342,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wide Attack',
             'description': 'Area of effect increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_7.webp',
           },
           {
             'name': 'Slick Casting',
             'description': 'Casting speed increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Strengthen Sustainability',
             'description': 'Stigma duration is increased by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.webp',
           },
         ]
       },
@@ -12363,19 +12363,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Ice Stigma',
             'description':
                 'Changes to [Ice] property, the movement speed is reduced by 50% for 3 seconds and freezes enemies for 4 seconds if hit 3 times in a row.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
           },
           {
             'name': 'Sacred Stigma',
             'description':
                 'Changes to [Holy] property, for 1 second, enemy hit by stigma takes 15% increased damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_18.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_18.webp',
           },
           {
             'name': 'Storm stigma',
             'description':
                 'Changes into a sphere that slowly moves toward the enemy, and every second a wave damages the enemy. PVP: No longer cause stiffness.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_81.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_81.webp',
           },
         ]
       },
@@ -12385,12 +12385,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Stigma of Pain',
             'description': 'Damage increases from 12.5% to 40% upon time.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
           {
             'name': 'Melody Increase',
             'description': 'Increases the on-hit serenade gauge rate by 200%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_64.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_64.webp',
           },
         ]
       }
@@ -12406,7 +12406,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You are pulling harp strings backwards and knock down enemies in a cone direction.',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/bard/c09s09.png',
+    'iconUrl': 'assets/icons/bard/c09s09.webp',
     'tripod': [
       {
         'tier': 1,
@@ -12414,17 +12414,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Increase Melody',
             'description': 'Serenade gauge charges from the skill 30% faster.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_64.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_64.webp',
           },
           {
             'name': 'Mana Control',
             'description': '50% chance to not consume MP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Strengthen Destruction',
             'description': 'Enemy falls at 2x times increased distance.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.webp',
           },
         ]
       },
@@ -12434,18 +12434,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Achievement of Training',
             'description': 'Skill range increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Strength',
             'description': 'Become super armor during the cast a skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Strong Shot',
             'description':
                 'Skill damage increased by 25%, knockdown time increased by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.webp',
           },
         ]
       },
@@ -12456,13 +12456,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Nimble Cast',
             'description':
                 'Skill cast time decreased by 20%, critical chance increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_6.webp',
           },
           {
             'name': 'Shooting Concentration',
             'description':
                 'Skill cast time increased by 0.5s, skill damage increased by 100% and Incapacitate increases by [Medium].',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
         ]
       }
@@ -12477,7 +12477,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'AoE lightning around you stuns enemies for 2 seconds.',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/bard/c09s10.png',
+    'iconUrl': 'assets/icons/bard/c09s10.webp',
     'tripod': [
       {
         'tier': 1,
@@ -12486,17 +12486,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Mana Control',
             'description':
                 'Recovers up to 75% of the mana cost by 15% per enemy hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Capture Weakness',
             'description': 'Skill damage on boss monsters increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_33.webp',
           },
         ]
       },
@@ -12506,17 +12506,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wide Blow',
             'description': 'Attack Range increases by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Increase Melody',
             'description': 'Serenade gauge charges from the skill 150% faster.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_64.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_64.webp',
           },
           {
             'name': 'Lightning Strengthening',
             'description': 'Skill damage increased by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
         ]
       },
@@ -12527,13 +12527,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Powerful Overture',
             'description':
                 'Stunning duration decreased by 1 second, but leaves an electric zone that damages in an area for 2 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Lightning Concentration',
             'description':
                 'No longer casts around you but in front of you in a range of 11m, increasing the damage by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_17.webp',
           },
         ]
       }
@@ -12549,7 +12549,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You are slowly casting AoE spell that deals initial damage that knocks down enemies with void zone dealing damage 4 times with stagger effect.',
     'type': 'Point',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/bard/c09s11.png',
+    'iconUrl': 'assets/icons/bard/c09s11.webp',
     'tripod': [
       {
         'tier': 1,
@@ -12558,18 +12558,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Slick Casting',
             'description':
                 'Casting speed is increased by 0.3 seconds, and the speed of the waves are increased by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
           {
             'name': 'Guard Vibration',
             'description':
                 'When sound vibrations hit an enemy, a shield is created for 3 seconds, and the number of hit enemies increases the shield by 5% to a total of 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_75.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_75.webp',
           },
           {
             'name': 'Super Armor',
             'description': 'While casting, obtain a super armor.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.webp',
           },
         ]
       },
@@ -12580,18 +12580,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Ice Vibrations',
             'description':
                 'Changes to [Ice] property, upon cast, the enemies are pulled in the center and slows the movement speed by 40% for 4 seconds, if hit 5 times freezes for 3 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
           },
           {
             'name': 'Sacred Vibrations',
             'description': 'ATK increases by 40% for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_18.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_18.webp',
           },
           {
             'name': 'Chain Vibration',
             'description':
                 'The waves are removed but the note rises again into the air to attack again.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_81.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_81.webp',
           },
         ]
       },
@@ -12601,13 +12601,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wide Attack',
             'description': 'AoE size increases by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
           {
             'name': 'Spread Vibrations',
             'description':
                 'When the note explodes, launches 4 other notes in an X shape that travels 10m and cause 40% damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
         ]
       }
@@ -12623,7 +12623,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You are standing still while channeling harp play that deals damage 2 times in AoE zone around you and with each tick applies debuff that slows enemies down by 20% and decreases their attack by 30% for 2 seconds. When debuff is over it deals additional damage.',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/bard/c09s12.png',
+    'iconUrl': 'assets/icons/bard/c09s12.webp',
     'tripod': [
       {
         'tier': 1,
@@ -12631,17 +12631,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Increase Melody',
             'description': 'Serenade gauge charges from the skill 30% faster.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_64.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_64.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Mana Control',
             'description': '50% chance to not consume MP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -12651,18 +12651,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Amplification of Death',
             'description': 'Last tick of damage increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
           {
             'name': 'Deadly Death',
             'description':
                 'Debuff additionally gets 10% more slow reduction and 10% decrease in attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
           {
             'name': 'Endless Play',
             'description': 'Additional wave while casting the spell.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
         ]
       },
@@ -12673,13 +12673,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Aria of Death',
             'description':
                 'When a damage is increased by 30% and a target hit in the prelude to death dies in 5 seconds, the damage is done to the enemy within 3m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
           {
             'name': 'Cry of Pain',
             'description':
                 'Skill range increased by 25% and when debuff is over target falls asleep for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.webp',
           },
         ]
       }
@@ -12695,7 +12695,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You are standing still while channeling harp play with AoE zone around mouse cursor. It ticks 3 times every time staggering enemies.',
     'type': 'Point',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/bard/c09s13.png',
+    'iconUrl': 'assets/icons/bard/c09s13.webp',
     'tripod': [
       {
         'tier': 1,
@@ -12703,17 +12703,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mana Control',
             'description': '50% chance to not consume MP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Nimble Cast',
             'description': 'Skill cast time is reduced by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
         ]
       },
@@ -12723,18 +12723,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Strength',
             'description': 'Become super armor during the cast a skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Musical note stigma',
             'description':
                 'Enemies hit by Song of Light receives a debuff that increases you and your party’s damage by 15% for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_76.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_76.webp',
           },
           {
             'name': 'Strengthen Sustain',
             'description': 'Additional tick of damage while harp play.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
         ]
       },
@@ -12744,13 +12744,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Concentration of Light',
             'description': 'Skill damage increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.webp',
           },
           {
             'name': 'Protection of Light',
             'description':
                 'Reduces damage to enemies by 50%, reduces damage done by 50% of light damage, 75% damage for 3 seconds, and absorbs 10% of maximum life.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.webp',
           },
         ]
       }
@@ -12766,7 +12766,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You are channeling skill for 5 seconds, every second producing a ball that follows nearest enemy exploding with a touch and applying slow movement debuff for 50% for 2 seconds.',
     'type': 'Hold',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/bard/c09s14.png',
+    'iconUrl': 'assets/icons/bard/c09s14.webp',
     'tripod': [
       {
         'tier': 1,
@@ -12774,18 +12774,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Mana Control',
             'description': '50% chance to not consume MP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Light March',
             'description':
                 'Increases your movement speed by 15% when channeling the skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
         ]
       },
@@ -12795,18 +12795,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Achievement of Training',
             'description': 'Skill range increases by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Strengthen the March',
             'description': 'Critical hit rate increases by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.webp',
           },
           {
             'name': 'Decrease in Mobility',
             'description':
                 'Enemies hit by the balls slowed additional 30% for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
         ]
       },
@@ -12816,12 +12816,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Threatening March',
             'description': 'Damage to enemies increases by 200%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_1.webp',
           },
           {
             'name': 'March of the Melody',
             'description': 'Serenade gauge charges from the skill 200% faster.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_37.webp',
           },
         ]
       }
@@ -12837,7 +12837,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Increases attack speed by 4 to 8% and mana regeneration rate by 12 to 40% for 8 sec.',
     'type': 'Normal',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/bard/c09s15.png',
+    'iconUrl': 'assets/icons/bard/c09s15.webp',
     'tripod': [
       {
         'tier': 1,
@@ -12845,17 +12845,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Reduces the cooldown time by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Nimble Cast',
             'description': 'Skill cast time decreased by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Mana Control',
             'description': '50% chance to not consume MP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -12865,17 +12865,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Strong Performance',
             'description': 'Attack speed increases by an additional 8%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_65.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_65.webp',
           },
           {
             'name': 'Performance of Valor',
             'description': 'Reduces the enemy’s attack power by 30% for 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.webp',
           },
           {
             'name': 'Achievement of Training',
             'description': 'Skill range increased by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -12886,13 +12886,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Violent Performance',
             'description':
                 'In addition to the existing effects, it increases the damage of the party and the party by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_4.webp',
           },
           {
             'name': 'Play for Me',
             'description':
                 'Damage increases by 200% and the existing buffs are increased by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_24.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_24.webp',
           },
         ]
       }
@@ -12908,7 +12908,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Play a harp to reduce damage to yourself and party members within the 24m range by 20 to 30% for 8 seconds.',
     'type': 'Normal',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/bard/c09s16.png',
+    'iconUrl': 'assets/icons/bard/c09s16.webp',
     'tripod': [
       {
         'tier': 1,
@@ -12917,17 +12917,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Robust',
             'description':
                 'Modification: Suh is playing a role in immune to the attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_23.webp',
           },
           {
             'name': 'Mana Control',
             'description': 'Mana consumption decreases by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Nimble Cast',
             'description': 'Skill cast time decreased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
         ]
       },
@@ -12938,18 +12938,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Unfinished Guardian',
             'description':
                 'Shields additional shields for 8 seconds for 15% of the target’s maximum health.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.webp',
           },
           {
             'name': 'Strong Guard',
             'description': 'Increases the damage taken by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
           {
             'name': 'Retribution of Defense',
             'description':
                 'When Guardian Performance ends it explodes and inflicts AoE damage in 4m radius.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.webp',
           },
         ]
       },
@@ -12960,12 +12960,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Sleek Guardian',
             'description':
                 'Reduces the cooldown time by 50%, and reduces all retention times by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_56.webp',
           },
           {
             'name': 'Wish for Protection',
             'description': 'The state is blocked by one attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_26.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_26.webp',
           },
         ]
       }
@@ -12981,7 +12981,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Throws Mana Crystal to deal (139) damage to collided and (112) to outer cone shape. Damaged target gets slow by 60% for 2s.',
     'type': 'Normal',
     'cooldown': 6,
-    'iconUrl': 'assets/icons/summoner/c10s00.png',
+    'iconUrl': 'assets/icons/summoner/c10s00.webp',
     'tripod': [
       {
         'tier': 1,
@@ -12989,17 +12989,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mind Enhancement',
             'description': 'Mana consumption reduce by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Ranged Launch',
             'description': 'Increase the skill range by 2m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
           {
             'name': 'Slow Enhancement',
             'description': 'Increase duration of slow effect by 1s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.webp',
           },
         ]
       },
@@ -13009,18 +13009,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Flame Crystal',
             'description': 'Increase the damage by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
           {
             'name': 'Ice Crystal',
             'description':
                 'Property, the cooldown increases by 5 seconds, and does not decrease the movement speed anymore, but it is frozen for 2 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.webp',
           },
           {
             'name': 'Thunder Crystal',
             'description': 'Increase critical hit rate by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_49.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_49.webp',
           },
         ]
       },
@@ -13031,13 +13031,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Chain Explosion',
             'description':
                 'In the case of an attacking attack , an additional sectorial damage occurs 2m behind the explosion location . Additional damage increases attack distance by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Area Explosion',
             'description':
                 'Removed cone shape AOE at successful hit but explodes in circle with increase in 30% damage and 20% slow effect.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -13053,7 +13053,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Explode condensed mana energy at cursor point to deal (167) damage.',
     'type': 'Point',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/summoner/c10s01.png',
+    'iconUrl': 'assets/icons/summoner/c10s01.webp',
     'tripod': [
       {
         'tier': 1,
@@ -13061,18 +13061,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Insight',
             'description': 'Increase the skill range by 2m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_52.webp',
           },
           {
             'name': 'Destruction Enhancement',
             'description': 'Add Lv1 Destruction effect.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_22.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_22.webp',
           },
           {
             'name': 'Energy Control',
             'description':
                 'At successful hit, increase ancient spirit gauge gain by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.webp',
           },
         ]
       },
@@ -13082,18 +13082,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Vital Point Explosion',
             'description': 'Increase critical hit rate by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Shiny Explosion',
             'description':
                 'At successful hit, sleep the target for 2s but increase CD by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.webp',
           },
           {
             'name': 'Capture Weakness',
             'description': 'Increases the damage done to your enemies by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -13104,13 +13104,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Mega Explosion',
             'description':
                 'Increase the delay of explosion but increase the damage by 50% and range by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
           {
             'name': 'It’s a Trap!',
             'description':
                 'Create a mine that explodes automatically when enemy approaches and decrease enemy’s movement speed for 60% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_47.webp',
           },
         ]
       }
@@ -13126,7 +13126,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Summon groups of Wind Bird and can move freely while holding. Skill can last up to 3 s and can deal (37) damage at maximum.',
     'type': 'Hold 3 sec',
     'cooldown': 18,
-    'iconUrl': 'assets/icons/summoner/c10s02.png',
+    'iconUrl': 'assets/icons/summoner/c10s02.webp',
     'tripod': [
       {
         'tier': 1,
@@ -13134,18 +13134,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mind Enhancement',
             'description': 'Mana consumption is reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Accumulated Energy',
             'description':
                 'You can not acquire ancient energy during holding, but if you keep holding to the end, you gain 80% chance to gain 1 elemental bead.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.webp',
           },
           {
             'name': 'Sleek Motion',
             'description': 'Movement speed increases by 10% during holding.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
         ]
       },
@@ -13155,18 +13155,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Fire Bird',
             'description': 'Increase the damage by 30% while holding.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
           {
             'name': 'Ice Bird',
             'description':
                 'Holding the skill for 0.5s or longer removes stiffness effect but decrease enemy’s movement speed by 60% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
           {
             'name': 'Wisdom of Mage',
             'description': 'Maximum holding time increase to 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_42.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_42.webp',
           },
         ]
       },
@@ -13177,13 +13177,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Flock of Birds',
             'description':
                 'Summons more bird to increase the skill range by 30% and ignore 60% of magic defense.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
           {
             'name': 'Mother Bird',
             'description':
                 'Holding the skill 0.5 s or longer summons mother bird additionally at the end of holding. Increased skill damage by 33.3%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_59.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_59.webp',
           },
         ]
       }
@@ -13199,7 +13199,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Relentless fire horse run over to deal (137) damage and airborne enemies.',
     'type': 'Normal',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/summoner/c10s03.png',
+    'iconUrl': 'assets/icons/summoner/c10s03.webp',
     'tripod': [
       {
         'tier': 1,
@@ -13208,19 +13208,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Burning Run',
             'description':
                 'Changed to [Fire] property, and deals damage to hit enemy for 3 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.webp',
           },
           {
             'name': 'Storm Run',
             'description':
                 'Changed to [Brain], increases the critical hit rate by 15% , and makes it a 5 % chance to light up for 30 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_17.webp',
           },
           {
             'name': 'Frozen Streak',
             'description':
                 'It is changed to the [Number] property and no longer blows the enemy, but when hit it freezes for 3 seconds to reduce the movement speed by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.webp',
           },
         ]
       },
@@ -13231,19 +13231,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Collapse Spree',
             'description':
                 'Destroy the magic power on the ground and damage it every second for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.webp',
           },
           {
             'name': 'Fast Witch',
             'description':
                 'Increases the horse\'s movement speed by 30% and ignores the enemy magic defense by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_3.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_3.webp',
           },
           {
             'name': 'Weak Point',
             'description':
                 'Increase the critical damage by 100% toward an enemy with hit recovery immune.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -13254,13 +13254,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Ascension',
             'description':
                 'Five horses rush in order to deal damage on each hit, but the cooldown increases by 16s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Demolisher',
             'description':
                 'It changes to non-canal, but the distance the winged horse runs away increases the damage done by the enemy by up to 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.webp',
           },
         ]
       }
@@ -13276,7 +13276,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Throw firebomb at cursor point to deal (111) [Fire] damage and summon fire spirit Fauru. Fauru attacks nearby enemy for 15s and deals (104) [Fire] damage.',
     'type': 'Point',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/summoner/c10s04.png',
+    'iconUrl': 'assets/icons/summoner/c10s04.webp',
     'tripod': [
       {
         'tier': 1,
@@ -13285,19 +13285,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Twilight Burning',
             'description':
                 'Summoner\'s summon damage is increased by 30% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.webp',
           },
           {
             'name': 'Mana Cycle',
             'description':
                 'When Piru is recalled, it recovers by 30% of max mana.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_79.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_79.webp',
           },
           {
             'name': 'Wide Explosion',
             'description':
                 'When Pauer is summoned, the skill\'s cooldown decreases by 30% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
         ]
       },
@@ -13307,18 +13307,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Attack Enhancement',
             'description': 'Increase Fauru’s damage by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
           {
             'name': 'Flaming Fire',
             'description':
                 'Pauru burns every attack for 5 seconds, and when it is 5 stacked, it explodes and causes big damage to the surroundings.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
           {
             'name': 'Summon Maintenance',
             'description': 'Increase Fauru’s summon duration by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
         ]
       },
@@ -13329,13 +13329,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Blue Flame Fauru',
             'description':
                 'Increase Fauru’s attack and movement speed and vision rage by 20% each, decrease attack interval time, can activate fire breath in a cone shape with 100% damage that blows away enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_59.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_59.webp',
           },
           {
             'name': 'Pair of Flames',
             'description':
                 'Paurus is changed to the command abilities, and after self-destruction, causing great damage to the surroundings.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.webp',
           },
         ]
       }
@@ -13350,7 +13350,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Release gale to push enemies away and cause (224) damage.',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/summoner/c10s05.png',
+    'iconUrl': 'assets/icons/summoner/c10s05.webp',
     'tripod': [
       {
         'tier': 1,
@@ -13359,18 +13359,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Excellent Maneuver',
             'description':
                 'Increase skill’s travel distance by 2m. If cyclone tripod is learned, only increase by 1m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
           {
             'name': 'Mana Control',
             'description': '50% chance to not consume MP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Energy Control',
             'description':
                 'At successful hit, increase ancient spirit gauge gain by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_37.webp',
           },
         ]
       },
@@ -13380,18 +13380,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Ranged Blast',
             'description': 'Increase skill range by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_52.webp',
           },
           {
             'name': 'Freezing Cold',
             'description':
                 'It is changed to [Number] property, and when attack hit, freeze for 4 seconds to reduce movement speed by 80%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.webp',
           },
           {
             'name': 'Sandy Wind',
             'description': 'Blows the blast and gives 224 damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_60.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_60.webp',
           },
         ]
       },
@@ -13402,13 +13402,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Cyclon Rush',
             'description':
                 'Skill motion changes into a spin to attack all enemy around.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Mana Amplification',
             'description':
                 'Increase the MP consumption by 50% and the damage by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_1.webp',
           },
         ]
       }
@@ -13424,7 +13424,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Summon coral spirit Maririn. Maririn attacks nearby enemy for 20s and deals (124) damage.',
     'type': 'Normal',
     'cooldown': 45,
-    'iconUrl': 'assets/icons/summoner/c10s06.png',
+    'iconUrl': 'assets/icons/summoner/c10s06.webp',
     'tripod': [
       {
         'tier': 1,
@@ -13432,18 +13432,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Attack Enhancement',
             'description': 'Increase Maririn’s damage by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
           {
             'name': 'Iron Skin',
             'description': 'Maririn gets 30% damage reduction.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Ether of Power',
             'description':
                 'At the death of Marilyn, a power ether is created at the death location.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.webp',
           },
         ]
       },
@@ -13454,19 +13454,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Taunt Command',
             'description':
                 'Grant taunt skill. Can be activated to immediately taunt all enemy except players for 2s. Seed or higher class mob can’t be taunted for certain period.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_73.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_73.webp',
           },
           {
             'name': 'Charge Command',
             'description':
                 'Grant charge skill. Can be activated to charge toward an enemy to stun for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.webp',
           },
           {
             'name': 'Neutralization Command',
             'description':
                 'When you summon Marilyn, it is changed to the disabling command skill.  Immediately after using the changed skill, Marilyn uses the neutralization skill toward the enemy, and the Incapacitatepoint [middle] is given.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_11.webp',
           },
         ]
       },
@@ -13476,12 +13476,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Communion',
             'description': 'Increase Maririn’s duration by 10s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_51.webp',
           },
           {
             'name': 'Coral Spirit',
             'description': 'Increase Maririn’s HP by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_59.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_59.webp',
           },
         ]
       }
@@ -13497,7 +13497,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Summon hawk figured wind spirit at cursor point. Can last maximum of 4s to deal (716) damage at maximum.',
     'type': 'Hold 4 sec',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/summoner/c10s07.png',
+    'iconUrl': 'assets/icons/summoner/c10s07.webp',
     'tripod': [
       {
         'tier': 1,
@@ -13506,17 +13506,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Feeding on Prey',
             'description':
                 'Increase the damage by 30% toward a mob with Named class or below.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.webp',
           },
           {
             'name': 'Fortified Robe',
             'description': '30% damage reduction while holding.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Mana Regeneration',
             'description': '50% increased MP regeneration while holding.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_79.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_79.webp',
           },
         ]
       },
@@ -13526,17 +13526,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Thunder Spirit',
             'description': 'Increase critical hit rate by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Earth Spirit',
             'description': '10% chance to petrify an enemy for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_43.webp',
           },
           {
             'name': 'Result of Training',
             'description': 'Increase the skill range by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -13547,13 +13547,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Typhoon',
             'description':
                 'Increase the damage by 30% and critical damage by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_5.webp',
           },
           {
             'name': 'Communion',
             'description':
                 'Decrease hit interval by 33%. Increase in ancient spirit gauge gain as it hits more..',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_42.webp',
           },
         ]
       }
@@ -13569,7 +13569,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Throw condensed electric ball to deal (56) damage and create electric field for 1s that deals (131) damage.',
     'type': 'Normal',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/summoner/c10s08.png',
+    'iconUrl': 'assets/icons/summoner/c10s08.webp',
     'tripod': [
       {
         'tier': 1,
@@ -13578,17 +13578,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Chain Launch',
             'description':
                 'Change into a chain skill. Increase the MP cost by 50% and activating a chain skill increase CD by 12s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_38.webp',
           },
           {
             'name': 'Rapid Casting',
             'description': 'Increase the casting motion speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Haste Launch',
             'description': 'Increase the projectile travel speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
         ]
       },
@@ -13599,19 +13599,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Electricity Enhancement',
             'description':
                 'Increased in duration of stiffness and critical hit rate by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Feeding on Prey',
             'description':
                 'Increase the damage by 30% toward a mob with Minion or Normal class.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_61.webp',
           },
           {
             'name': 'Weak Point',
             'description':
                 'Increase the damage by 40% toward an enemy with hit recovery immune.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -13622,12 +13622,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Supercurrent Area',
             'description':
                 'At the arrival point, create an electrical field for 3.5s that causes damage for every 0.5s and pulls enemies toward a center.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
           {
             'name': 'High Voltage',
             'description': 'Electrify an enemy for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.webp',
           },
         ]
       }
@@ -13643,7 +13643,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Summons a sticky moss swamp in the mouse position, giving 25 property damage per second to moss swarms, reducing movement speed by 60% for 2 seconds.',
     'type': 'Point',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/summoner/c10s09.png',
+    'iconUrl': 'assets/icons/summoner/c10s09.webp',
     'tripod': [
       {
         'tier': 1,
@@ -13651,18 +13651,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mind Enhancement',
             'description': 'Decrease MP consumption by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Rapid Preparation',
             'description': 'Cooldown reduced by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Battle Preparation',
             'description':
                 'When a skill is activated, its attack power increases by 20% for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
         ]
       },
@@ -13672,17 +13672,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Increased Diffusion',
             'description': 'Speed up the spreading of the swamp.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.webp',
           },
           {
             'name': 'Poisonous Swamp',
             'description': 'Increase the damage by 200%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
           {
             'name': 'Sticky Swamp',
             'description': 'Increase the slow effect by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
         ]
       },
@@ -13692,13 +13692,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Queen of Swamp',
             'description': 'Increase the size of the swamp by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
           {
             'name': 'Acidic Swamp',
             'description':
                 'Reduces 60% of all enemies attacked by moss swamp for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_46.webp',
           },
         ]
       }
@@ -13714,7 +13714,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Summon 2 Elseed, lily flower spirit. Elseed attacks nearby enemy for 10s and deals (35) damage.',
     'type': 'Normal',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/summoner/c10s10.png',
+    'iconUrl': 'assets/icons/summoner/c10s10.webp',
     'tripod': [
       {
         'tier': 1,
@@ -13722,18 +13722,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mind Enhancement',
             'description': 'Decrease MP consumption by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Mana Amplification',
             'description':
                 'Increases mana consumption by 50%, but increases your attack power by 30% for 4 seconds when you activate a skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
           {
             'name': 'Summon Maintenance',
             'description': 'Increase summon duration by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_51.webp',
           },
         ]
       },
@@ -13744,18 +13744,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Poisonous Seed',
             'description':
                 'Hit applies poison to an enemy for 5s and stacks up to 20 stacks.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
           {
             'name': 'Ice Seed',
             'description':
                 'Hit applies slow which decrease movement speed by 40% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_47.webp',
           },
           {
             'name': 'Trace Seed',
             'description': 'Changes to the seed to track the enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.webp',
           },
         ]
       },
@@ -13765,13 +13765,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Pack Summon',
             'description': 'Summons 3 Elseeds',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Elite Summon',
             'description':
                 'Summons only one elite version which has greater damage, 40% increased attack range, and can cause stiffness on good hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_59.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_59.webp',
           },
         ]
       }
@@ -13787,7 +13787,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Create strong earthquake at cursor point to deal (380) damage and airborne.',
     'type': 'Point',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/summoner/c10s11.png',
+    'iconUrl': 'assets/icons/summoner/c10s11.webp',
     'tripod': [
       {
         'tier': 1,
@@ -13795,18 +13795,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Flame Shatter',
             'description': 'Increase the damage by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.webp',
           },
           {
             'name': 'Glacial Collapse',
             'description':
                 'Changed to [Number] property and freezes the enemy hit for the Earth Collapse for 3 seconds, no longer causing any damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.webp',
           },
           {
             'name': 'Big Crack',
             'description': 'The Incapacitate stage 1 increases.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.webp',
           },
         ]
       },
@@ -13817,17 +13817,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Aftershocks',
             'description':
                 'After the earth collapse, it creates a crack zone for 3 seconds to damage the location every second.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
           {
             'name': 'Tremble',
             'description': 'Additional hits of 4 times during casting.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.webp',
           },
           {
             'name': 'Tenacity',
             'description': 'Grant hit recovery immune during casting.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
         ]
       },
@@ -13838,13 +13838,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Great Rift',
             'description':
                 'Increase MP consumption by 50% and ignore magic defense of enemy by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_3.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_3.webp',
           },
           {
             'name': 'Earthquake',
             'description':
                 'Increases attack range by 50% and increases destruction level by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
         ]
       }
@@ -13859,7 +13859,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': 'Summon water spirit for 2s and deal (374) [Water] damage.',
     'type': 'Normal',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/summoner/c10s12.png',
+    'iconUrl': 'assets/icons/summoner/c10s12.webp',
     'tripod': [
       {
         'tier': 1,
@@ -13867,19 +13867,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Rapid Casting',
             'description': 'Increase casting motion speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Fortified Robe',
             'description':
                 'Grant damage reduction of 30% while the spirit is up.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
           {
             'name': 'Mana Regeneration',
             'description':
                 'Increase MP regeneration rate by 200% while the spirit is up.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_79.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_79.webp',
           },
         ]
       },
@@ -13889,18 +13889,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mud Spirit',
             'description': 'Apply slow effect for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_46.webp',
           },
           {
             'name': 'Water Spray Spirit',
             'description':
                 'Last hit deals greater damage and blows enemy away.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.webp',
           },
           {
             'name': 'Weak Point',
             'description': 'Increases the damage done to your enemies by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -13911,13 +13911,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Wisdom of Spirit',
             'description':
                 'Increase summon duration by 1s and gradually increase the damage up to 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.webp',
           },
           {
             'name': 'Water Cannon',
             'description':
                 'Decrease skill angle by 50% but increase the attack distance by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
         ]
       }
@@ -13933,7 +13933,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'After channeling mana for 2s, create electric storm for 5s to deal (656) damage.',
     'type': 'Cast 2 sec',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/summoner/c10s13.png',
+    'iconUrl': 'assets/icons/summoner/c10s13.webp',
     'tripod': [
       {
         'tier': 1,
@@ -13941,17 +13941,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mana Control',
             'description': '50% chance to not consume MP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Rapid Casting',
             'description': 'Increase casting speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Fortified Robe',
             'description': '30% damage reduction while casting.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_25.webp',
           },
         ]
       },
@@ -13962,18 +13962,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Vital Strike',
             'description':
                 'Increase MP consumption by 25% and critical hit rate by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Result of Training',
             'description': 'Increase the size of the storm by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
           {
             'name': 'Long-lasting',
             'description':
                 'Increase MP consumption by 75% and summon duration by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
         ]
       },
@@ -13984,13 +13984,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Crimson Storm',
             'description':
                 'Decrease hit interval by 33%. Increase in ancient spirit gauge gain as it hits more.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Homing Storm',
             'description':
                 'Increase in ancient spirit gauge gain by 50% and grant homing ability that slowly travels toward an enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_81.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_81.webp',
           },
         ]
       }
@@ -14006,7 +14006,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Summon small light spirit Shurudy. Shurudy travels along with character for 20s to deal (77) damage.',
     'type': 'Normal',
     'cooldown': 30,
-    'iconUrl': 'assets/icons/summoner/c10s14.png',
+    'iconUrl': 'assets/icons/summoner/c10s14.webp',
     'tripod': [
       {
         'tier': 1,
@@ -14015,17 +14015,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Ignore Collision',
             'description':
                 'Increases your movement speed by 10% during Shurudy summoning, ignoring conflicts with normal monsters.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_48.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_48.webp',
           },
           {
             'name': 'High Speed Projectile',
             'description': 'Increase attack projectile speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
           {
             'name': 'Growth of Light',
             'description': 'After 10s Shurudy’s attack gets 50% increase.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_50.webp',
           },
         ]
       },
@@ -14036,17 +14036,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Smarty Shurudy',
             'description':
                 'Increase vision and attack range by 20% and decrease the hit interval.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_41.webp',
           },
           {
             'name': 'Buffed Shurudy',
             'description': 'Increase skill attack by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
           {
             'name': 'Vanity Shurudy',
             'description': 'Increase summon duration 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
         ]
       },
@@ -14057,13 +14057,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Exhilarating light',
             'description':
                 'When Shredi’s attack hit, it deals damage every second for 7 seconds, explodes on 3 stacks, causes big damage, and stuns for 2 seconds.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.webp',
           },
           {
             'name': 'Mana Regeneration',
             'description':
                 'Increases the basic recovery rate of mana and party mana by 40% during Summoning.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_79.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_79.webp',
           },
         ]
       }
@@ -14079,7 +14079,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'After channeling mana for 2.5 s, summon an ancient spear at the cursor point to deal (1036) damage and knock down targets got direct hit and deal.',
     'type': 'Cast 2.5 sec',
     'cooldown': 36,
-    'iconUrl': 'assets/icons/summoner/c10s15.png',
+    'iconUrl': 'assets/icons/summoner/c10s15.webp',
     'tripod': [
       {
         'tier': 1,
@@ -14088,18 +14088,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Ancient Judgment',
             'description':
                 'An Ancient Spear is stuck on the floor and the ground explodes, causing additional damage and turning it over.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_78.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_78.webp',
           },
           {
             'name': 'Rapid Casting',
             'description': 'Increase casting speed by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Ancient Flow',
             'description':
                 'Skill distance reduced by 2m, but damage to enemies increases by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_53.webp',
           },
         ]
       },
@@ -14109,18 +14109,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Blazing Spear',
             'description': 'Spear applies burn effect for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
           },
           {
             'name': 'Glacial Spear',
             'description':
                 'Direct hit by spear freezes an enemy for 4 seconds and reduces the movement speed by 50% for 4 seconds at outer range.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
           },
           {
             'name': 'Earth Spear',
             'description': 'Increases Incapacitate level by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_15.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_15.webp',
           },
         ]
       },
@@ -14131,13 +14131,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Condensed Power',
             'description':
                 'When an Ancient Spear is stuck, it gives off the intense aura and lasts 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Ancient Power',
             'description':
                 'The damage done to the enemy is reduced by 20%, but the drops two more Ancient Spear.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.webp',
           },
         ]
       }
@@ -14153,7 +14153,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Receives Rayne’s favor and creates a shield that absorbs damage from 11 to 20% of life for 5 seconds.',
     'type': 'Normal',
     'cooldown': 40,
-    'iconUrl': 'assets/icons/summoner/c10s16.png',
+    'iconUrl': 'assets/icons/summoner/c10s16.webp',
     'tripod': [
       {
         'tier': 1,
@@ -14161,19 +14161,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wind of Protection',
             'description': 'Push enemies away at cast.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_60.webp',
           },
           {
             'name': 'Focused Energy',
             'description':
                 'When you activate a skill, you gain a 30% chance of receiving 1 elemental bead.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_36.webp',
           },
           {
             'name': 'Light Footfall',
             'description':
                 'Movement speed is increased by 20% while shielding effect is maintained.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
         ]
       },
@@ -14183,18 +14183,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Barrier Enhancement',
             'description': 'Increase the shield amount by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_75.webp',
           },
           {
             'name': 'Barrier Maintenance',
             'description': 'Shield duration increased by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_51.webp',
           },
           {
             'name': 'Clean',
             'description':
                 'When you activate a skill, you remove 1 harmful effect that affects you and your party members within the 24m radius.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_65.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_65.webp',
           },
         ]
       },
@@ -14205,12 +14205,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Resonance',
             'description':
                 'Shield breaks with explosion that causes stun for 4s to nearby enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.webp',
           },
           {
             'name': 'Accelerating Shield',
             'description': '30% CDR while shield is up.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_56.webp',
           },
         ]
       }
@@ -14226,7 +14226,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Throws a card in the specified direction, dealing damage. After a short time, inflict additional damage and launches enemy into the air. PVP: Cause stiffness to a target who is not casting skill.',
     'type': 'Normal',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/arcana/c11s00.png',
+    'iconUrl': 'assets/icons/arcana/c11s00.webp',
     'tripod': [
       {
         'tier': 1,
@@ -14234,17 +14234,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mental Fortification',
             'description': 'Mana cost reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Piercing Strike',
             'description': 'Ignores 30% of the magical defense of a hit enemy.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_3.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_3.webp',
           },
           {
             'name': 'Sleek Motion',
             'description': 'Attack speed increases by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_6.webp',
           },
         ]
       },
@@ -14254,18 +14254,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Increase Card',
             'description': '10% chance to draw a Tarot card on hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_66.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_66.webp',
           },
           {
             'name': 'Identified Weakness',
             'description': 'Increases damage done to immune enemies by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Dark Fate',
             'description':
                 'increases the damage done to the enemy by 15%, and increases the critical damage received for 3s by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_53.webp',
           },
         ]
       },
@@ -14276,13 +14276,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Continuous Attack',
             'description':
                 'Changes the attack to a three hit attack. The first hit repeats before knocking up on the third hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Concentration of Fate',
             'description':
                 'Cast time reduced by 0.3s. Changes the attack to a single hit and increases damage by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.webp',
           },
         ]
       }
@@ -14298,7 +14298,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Several cards fly where indicated, inflicting between damage. Launches enemies into the air and then hit the ground, inflicting damage. PVP: Cause stiffness to a target who is casting skill.',
     'type': 'Point',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/arcana/c11s01.png',
+    'iconUrl': 'assets/icons/arcana/c11s01.webp',
     'tripod': [
       {
         'tier': 1,
@@ -14307,18 +14307,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Shuffle',
             'description':
                 'While use Unlimited Shuffle, the card rolls around the Arcana and deals 20% damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_8.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Mental Fortification',
             'description':
                 'When you hit the last attack, you get a 15% chance to draw a Tarot card.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_66.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_66.webp',
           },
         ]
       },
@@ -14329,19 +14329,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Infinite Stroke',
             'description':
                 'no longer hit the attack, but the enemy hit in the last attack makes the state of electric shock for 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.webp',
           },
           {
             'name': 'Dark Nucleus',
             'description':
                 'Increases Critical Hit Rate by 15%, and increases critical damage by 3% for 3s by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.webp',
           },
           {
             'name': 'Ultimate Shuffle',
             'description':
                 'The duration of unlimited shuffle is increased by 0.6 seconds, and the card fires even faster, increasing the number of hits by 3.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_40.webp',
           },
         ]
       },
@@ -14352,13 +14352,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Predicted Death',
             'description':
                 'Increases the range of your judgment by 40%, additionally creates a circular spell, and increases the damage done to the enemy on the circular spell by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Storm of Destruction',
             'description':
                 'You can not move your enemies to the air, you can move to 70% of your movement speed, and you will be able to fly all the cards 4m in front of you when landing. Send the enemy away.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.webp',
           },
         ]
       }
@@ -14374,7 +14374,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Launches cards in the specified area, dealing damage to the target. If the skill is activated again, knockdown the targets and deals additional damage.',
     'type': 'Combo',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/arcana/c11s02.png',
+    'iconUrl': 'assets/icons/arcana/c11s02.webp',
     'tripod': [
       {
         'tier': 1,
@@ -14383,18 +14383,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Quick Release',
             'description':
                 'Increases the critical hit rate your and party members by 15% for 10s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
           {
             'name': 'Mind Focus',
             'description': 'Mana cost is reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Penetration Enhance',
             'description':
                 'Increases penetration rate of second skill attack by 2.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.webp',
           },
         ]
       },
@@ -14405,18 +14405,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Exposed Target',
             'description':
                 'Second skill attack damage is increased by 50% when target has been hit by first hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
           {
             'name': 'Capture Weakness',
             'description': 'Increases the damage done to your enemies by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
           {
             'name': 'Concentrated Card',
             'description':
                 'Decreases the attack angle but increases attack range and damage by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_7.webp',
           },
         ]
       },
@@ -14427,13 +14427,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Continuous Attack',
             'description':
                 'Changes the attack to a three hit attack. The second hit repeats a third time damage done to the enemy by the added combo attack is increased by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Exposed Dark',
             'description':
                 'Changed to [Cancer] property, which increases 40% critical chanse and 50% of critical damage received from you for 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_49.webp',
           },
         ]
       }
@@ -14449,7 +14449,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'When using it for the first time, you move 4m to your left. Using a second time, you move 8m on your right and finally 4m on your left if it is used a third time. With each move, you send cards to the opponent, dealing damage.',
     'type': 'Combo',
     'cooldown': 14,
-    'iconUrl': 'assets/icons/arcana/c11s03.png',
+    'iconUrl': 'assets/icons/arcana/c11s03.webp',
     'tripod': [
       {
         'tier': 1,
@@ -14457,17 +14457,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mental Fortification',
             'description': 'Mana consumption reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Penetration Enhance',
             'description': 'Increases penetration rate by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.webp',
           },
           {
             'name': 'Quickdraw',
             'description': '5% chance to draw a Tarot card each hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_66.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_66.webp',
           },
         ]
       },
@@ -14477,18 +14477,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Escape Master',
             'description': 'Increases evasion rate by 30% during cast.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.webp',
           },
           {
             'name': 'Rush Concentration',
             'description': 'As combo progresses, increases damage by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
           {
             'name': 'Mobility Weakness',
             'description':
                 'Reduces enemy movement speeds hit by mysterious rushes by 50% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.webp',
           },
         ]
       },
@@ -14499,13 +14499,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Mysterious Retreat',
             'description':
                 'It changes to stack skill, and can be used two times consecutively.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_83.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_83.webp',
           },
           {
             'name': 'Continuous Attack',
             'description':
                 'Changes the attack to a four hit attack. The last attack pushes the enemy away. When used as a reinforcing through- 2 and # 3 respectively, the second attack one through-attack level is applied.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -14521,7 +14521,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Places a spell in a specified area that explodes, dealing damage, when the skill is used again.',
     'type': 'Chain',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/arcana/c11s04.png',
+    'iconUrl': 'assets/icons/arcana/c11s04.webp',
     'tripod': [
       {
         'tier': 1,
@@ -14529,17 +14529,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Mental Fortification',
             'description': 'Mana consumption reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Quickdraw',
             'description': '10% chance to draw a Tarot card each hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_66.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_66.webp',
           },
         ]
       },
@@ -14549,18 +14549,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Link Magic',
             'description': 'Damage to enemies increases by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
           {
             'name': 'Mana Poisoning',
             'description':
                 'Damage reduced by 30% and no longer knocks up. Reduces movement speed by 40% and deals 15% continuous poison damage each second for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_45.webp',
           },
           {
             'name': 'Sharp Strike',
             'description': 'Critical hit rate increases by 30%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
         ]
       },
@@ -14571,13 +14571,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Split Magic',
             'description':
                 'You can cast the skill twice within 3s. It will automatically detonate after 5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Nested Circle',
             'description':
                 'The number of attacks increases by 3, but the damage and attack range of the second attack is 50%, the third attack is damaged, and the attack range is reduced by 75%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
         ]
       }
@@ -14593,7 +14593,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Throws 4 straight-line cards, inflicting damage in the specified direction. Movement speed is increased during casting.',
     'type': 'Normal',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/arcana/c11s05.png',
+    'iconUrl': 'assets/icons/arcana/c11s05.webp',
     'tripod': [
       {
         'tier': 1,
@@ -14601,18 +14601,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Penetration Enhance',
             'description': 'Increases penetration rate by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.webp',
           },
           {
             'name': 'Sleek Motion',
             'description': 'Attack speed increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Sharp Strike',
             'description':
                 'Attack hit increases the critical hit rate of the target’s self and party members by 15% for 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
         ]
       },
@@ -14622,18 +14622,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Swift Movement',
             'description': 'Increases movement speed by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_48.webp',
           },
           {
             'name': 'Ignore Collision',
             'description': 'No unit collision during the cast.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.webp',
           },
           {
             'name': 'Increase Card',
             'description':
                 '5% chance to deal 20% additional damage and instantly apply 4 stacked cards.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_67.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_67.webp',
           },
         ]
       },
@@ -14644,12 +14644,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Hexagon Enhancement',
             'description':
                 'Increases skill duration by 1s and cards fired from 4 to 6.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Accelerate Concentration',
             'description': 'Increases damage by 30% to 90% per hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_58.webp',
           },
         ]
       }
@@ -14665,7 +14665,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You move 6m in a given direction and inflict damage. If the skill is used again, you knockdown enemy. Can stack 2 times the Floating Cards effect.',
     'type': 'Combo',
     'cooldown': 10,
-    'iconUrl': 'assets/icons/arcana/c11s06.png',
+    'iconUrl': 'assets/icons/arcana/c11s06.webp',
     'tripod': [
       {
         'tier': 1,
@@ -14673,18 +14673,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Excellent Mobility',
             'description': 'Travel distance increased by 2m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
           {
             'name': 'Barely Exposed',
             'description':
                 'Increases the critical hit rate of your target and party members by 15% for 10s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
           {
             'name': 'Muscle Spasm',
             'description': 'Increases fall down condition by 0.5s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_9.webp',
           },
         ]
       },
@@ -14694,18 +14694,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Sharp Blow',
             'description': 'Critical damage increases by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'First Scratch',
             'description':
                 'Increases the damage done to non-overlapping enemies by 40% in the First Scratch Stack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
           {
             'name': 'Identified Weakness',
             'description': 'Increases damage done to immune enemies by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -14716,13 +14716,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Squall',
             'description':
                 'Combo increases by 3 attack that inflicts a hit on a second hit in the air is added, and the last attack increases the damage done by the enemy in the air by 50% and overlaps the stack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Safety Device',
             'description':
                 'Increases the combo by 3 and uses the last combo to move 7m backward for 3 sec, increasing attack rate by 10% and moving speed by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_26.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_26.webp',
           },
         ]
       }
@@ -14738,7 +14738,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Charge on 7m and throw cards around you. The skill can be used 2 times in a row. Each time you use the skill, you inflict the floating cards effect.',
     'type': 'Chain',
     'cooldown': 14,
-    'iconUrl': 'assets/icons/arcana/c11s07.png',
+    'iconUrl': 'assets/icons/arcana/c11s07.webp',
     'tripod': [
       {
         'tier': 1,
@@ -14746,17 +14746,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Mental Fortification',
             'description': 'Mana consumption reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown time decreases by 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Excellent Mobility',
             'description': 'Travel distance increased by 1.4m.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
         ]
       },
@@ -14766,19 +14766,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Stronger',
             'description': 'Spiral Edge during use, is immune to attack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Ruthless Shot',
             'description':
                 'Reduces damage by 40% but adds an extra attack around the caster on destination.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_8.webp',
           },
           {
             'name': 'Sharp Blow',
             'description':
                 'Increases critical strike damage taken by you for 3s by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
         ]
       },
@@ -14789,13 +14789,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Card Amplification',
             'description':
                 'Deals an additional attack on arrival to enemies within 4 meters of player.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Light Step',
             'description':
                 'After using the skill, movement speed increased by 40% and no collision for 2s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_48.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_48.webp',
           },
         ]
       }
@@ -14811,7 +14811,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You move 11m in a given direction while throwing cards around you, dealing damage to enemies. By using the skill a second time, you return to your starting position. The floating cards effect can be applied 4 times.',
     'type': 'Combo',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/arcana/c11s08.png',
+    'iconUrl': 'assets/icons/arcana/c11s08.webp',
     'tripod': [
       {
         'tier': 1,
@@ -14820,18 +14820,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Critical Hit Rate',
             'description':
                 'Blight Critical Hit Rate increases by 5%, up to 50%, depending on skill duration.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
           {
             'name': 'Damage Increased',
             'description': 'Damage increased by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_1.webp',
           },
           {
             'name': 'Light Step',
             'description':
                 'Using teleportation when 3 a second movement speed by 20% increases.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
         ]
       },
@@ -14841,17 +14841,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wide Attack',
             'description': 'Radius increases by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Exhilarating Dance',
             'description': 'Causing a 30% chance to light up for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.webp',
           },
           {
             'name': 'Blooming Flower',
             'description': 'Critical damage increases by 75%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.webp',
           },
         ]
       },
@@ -14862,13 +14862,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Aggressive Visibility',
             'description':
                 'Reduces number of attacks by 4, increases damage by 60%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_41.webp',
           },
           {
             'name': 'Fatal Visibility',
             'description':
                 '100% damage explosion at destination when teleporting back.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
         ]
       }
@@ -14884,7 +14884,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Quickly launch a card in the direction of the mouse, inflicting damage.',
     'type': 'Hold',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/arcana/c11s09.png',
+    'iconUrl': 'assets/icons/arcana/c11s09.webp',
     'tripod': [
       {
         'tier': 1,
@@ -14893,18 +14893,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Piercing Strike',
             'description':
                 'Each time you hit a Strike Strike card, the damage it inflicts on the enemy increases by 5%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_58.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_58.webp',
           },
           {
             'name': 'Sharp Strike',
             'description': 'Increases critical hit rate by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
           {
             'name': 'Card Increase',
             'description':
                 'Increases maximum number of card stacks from 3 to 4.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_67.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_67.webp',
           },
         ]
       },
@@ -14915,19 +14915,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Thundermate',
             'description':
                 'Causing the card to blow up faster , increasing the attack frequency by 30%, and causing it to light up for 3 seconds with a 30% chance.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.webp',
           },
           {
             'name': 'Concentrated Darkness',
             'description':
                 'Increases the damage done by the Checkmate by 10%, up to 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.webp',
           },
           {
             'name': 'Identified Weakness',
             'description':
                 'Increase the Incapacitate level by 1 andIncreases damage done to immune enemies by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
           },
         ]
       },
@@ -14937,13 +14937,13 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wave of Cards',
             'description': 'Fans out attacks in a four-directional cone fan.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Deadline',
             'description':
                 'When holding the skill for longer than 0.5s you throw explosive cards after letting go that inflicts 600% damage. Knocks targets down.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
         ]
       }
@@ -14959,7 +14959,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Open two portals, releasing a deluge of cards: All enemies located between these portals inflict damage.',
     'type': 'Point',
     'cooldown': 24,
-    'iconUrl': 'assets/icons/arcana/c11s10.png',
+    'iconUrl': 'assets/icons/arcana/c11s10.webp',
     'tripod': [
       {
         'tier': 1,
@@ -14968,17 +14968,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Card Increase',
             'description':
                 'Increases Floating Cards stacks from one cast from 2 to 3.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_67.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_67.webp',
           },
           {
             'name': 'Movement Speed',
             'description': 'Your movement speed increases by 20% for 3s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_11.webp',
           },
           {
             'name': 'Edge Night',
             'description': 'Final strike explodes, causing additional damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_78.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_78.webp',
           },
         ]
       },
@@ -14989,19 +14989,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Deathwheel',
             'description':
                 'Stream of Edge rotates and deals 25% more damage to enemies.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_81.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_81.webp',
           },
           {
             'name': 'Thunder Stream',
             'description':
                 'Electric shock state for 3 seconds when hit 4 times in a short time.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_17.webp',
           },
           {
             'name': 'Darkness Edge',
             'description':
                 'Changed to [Arm] attribute, and each time it hits, the arkana’s critical hit rate increases by 3% for 3s, up to 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_19.webp',
           },
         ]
       },
@@ -15012,13 +15012,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Stream Wave',
             'description':
                 'No longer fixates the skill in place. Skill slowly travels forward and increases damage by 150%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_52.webp',
           },
           {
             'name': 'Perfect Stream',
             'description':
                 'is changed into a triangle form by summoning another text of the stream\'s edge.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
         ]
       }
@@ -15034,7 +15034,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Deals damage by throwing cards at the target location. They increase damage each time the skill is used.',
     'type': 'Combo',
     'cooldown': 20,
-    'iconUrl': 'assets/icons/arcana/c11s11.png',
+    'iconUrl': 'assets/icons/arcana/c11s11.webp',
     'tripod': [
       {
         'tier': 1,
@@ -15042,18 +15042,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown reduced by 4s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Card Increase',
             'description':
                 'Increases maximum number of card stacks from 1 to 2.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_67.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_67.webp',
           },
           {
             'name': 'Sharp Strike',
             'description': 'Increases critical hit rate by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
         ]
       },
@@ -15063,19 +15063,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Master of Evasion',
             'description': 'Encreases evasion rate by 30% while using skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_26.webp',
           },
           {
             'name': 'Uniform Attack',
             'description':
                 'No longer incrementally increases the damage of each attack. Increases total damage by 75%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
           {
             'name': 'Defenseless Targets',
             'description':
                 'Increases damage done to a knocked down targets by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.webp',
           },
         ]
       },
@@ -15086,13 +15086,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Last Infinite',
             'description':
                 'Increased damage by 60%. Fallen enemies struck will remain fallen.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_9.webp',
           },
           {
             'name': 'Infinite Maneuver',
             'description':
                 'Reduces number of hits to 1 and increases damage by 200%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -15108,7 +15108,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'The card explodes at the target location inflicting damage. Inflicts additional damage to knock-up enemies by bringing them back to the ground. When the stack effect is activated, it gives an additional effect.',
     'type': 'Point',
     'cooldown': 9,
-    'iconUrl': 'assets/icons/arcana/c11s12.png',
+    'iconUrl': 'assets/icons/arcana/c11s12.webp',
     'tripod': [
       {
         'tier': 1,
@@ -15116,17 +15116,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Sleek Motion',
             'description': 'Attack speed increases by 15%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Sharp Strike',
             'description': 'Increases critical hit rate by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
           {
             'name': 'Quick Preparation',
             'description': '50% chance to reset cooldown on cast.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -15136,18 +15136,18 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Destroyer Card',
             'description': 'Critical damage increased by 10% to 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_5.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_5.webp',
           },
           {
             'name': 'Sharp Card',
             'description':
                 'In addition to the existing Stack effect, if you have 4 stacks, damage done to you for 4 seconds increases by 20%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_68.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_68.webp',
           },
           {
             'name': 'Strengthened Strike',
             'description': 'Damage dealt increased by 25%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
         ]
       },
@@ -15158,13 +15158,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Heavy Rain',
             'description':
                 'Adds another hit with 100% additional damage. This hit deals 50% further damage if the enemies it hits are knocked down.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
           {
             'name': 'Detect Weakness',
             'description':
                 'Damage increases by 25% to 100% per Floating Cards stack against a target immune to hit-effects. Increases cooldown by 8s.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_33.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_33.webp',
           },
         ]
       }
@@ -15180,7 +15180,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Quickly launch 4 cards, dealing вamage in the specified direction. When the deck is triggered, add an additional effect.',
     'type': 'Normal',
     'cooldown': 12,
-    'iconUrl': 'assets/icons/arcana/c11s13.png',
+    'iconUrl': 'assets/icons/arcana/c11s13.webp',
     'tripod': [
       {
         'tier': 1,
@@ -15188,17 +15188,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': '44% chance to reset cooldown on cast.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Mental Fortification',
             'description': 'Mana consumption reduced by 44%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Penetration Enhance',
             'description': 'Increases penetration rate by 1.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.webp',
           },
         ]
       },
@@ -15209,17 +15209,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Four Stack',
             'description':
                 'Damage dealt by player is increased by 44% for 4s every time the skill is cast 4 times.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
           {
             'name': 'Strength',
             'description': 'Become immune to cc during skill use.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_23.webp',
           },
           {
             'name': 'Card Enhancement',
             'description': 'Damage dealt increased by 44%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
         ]
       },
@@ -15230,13 +15230,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Delayed Shock',
             'description':
                 'Reduces damage to 44% and places a debuff on the target. 4s later, it deals 444% more damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_78.webp',
           },
           {
             'name': 'Continuous Attack',
             'description':
                 'Skill becomes a combo, allowing a 2nd hit by holding down the key.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_38.webp',
           },
         ]
       }
@@ -15252,7 +15252,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'You surround yourself with cards, dealing damage to nearby enemies, and project them in the direction of the mouse.',
     'type': 'Normal',
     'cooldown': 16,
-    'iconUrl': 'assets/icons/arcana/c11s14.png',
+    'iconUrl': 'assets/icons/arcana/c11s14.webp',
     'tripod': [
       {
         'tier': 1,
@@ -15260,17 +15260,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Piercing Strike',
             'description': '50% chance to ignore 50% of enemy’s magic defense.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_3.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_3.webp',
           },
           {
             'name': 'Quickdraw',
             'description': '0% chance that a skill does not consume stacks.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_66.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_66.webp',
           },
           {
             'name': 'Mental Fortification',
             'description': '50% chance to not consume MP.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -15281,19 +15281,19 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Accidental Blow',
             'description':
                 'Has a 20% chance to increase the critical damage by 200% per Floating Cards stack.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_68.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_68.webp',
           },
           {
             'name': 'Accidental Bang',
             'description':
                 'ncreases the attack speed by 30% and stuns for 3 seconds with a 20% chance per stack stacking,. No longer knocks down.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_44.webp',
           },
           {
             'name': 'Strengthened Strike',
             'description':
                 'Increases damage done by Serendipity to enemies by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
         ]
       },
@@ -15304,13 +15304,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Continuous Attack',
             'description':
                 'Skill is changed to combo damage to the enemy is increased by 40%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
           },
           {
             'name': 'Designed Luck',
             'description':
                 'Increases the odds of other Tripod talents within this skill activating by 20%. Talents that rely on number of Floating Cards detonated will default to 20% chance.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_36.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_36.webp',
           },
         ]
       }
@@ -15326,7 +15326,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Throw a card at the indicated location and summon a demon that deals damage for 3s. When the deck effect is triggered, add an effect. PVP: Cause stiffness to a target who is casting skill.',
     'type': 'Point',
     'cooldown': 36,
-    'iconUrl': 'assets/icons/arcana/c11s15.png',
+    'iconUrl': 'assets/icons/arcana/c11s15.webp',
     'tripod': [
       {
         'tier': 1,
@@ -15334,17 +15334,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Sleek Motion',
             'description': 'Attack speed increases by 10%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
           },
           {
             'name': 'Piercing Strike',
             'description': 'Ignores 30% of enemy’s magic defense.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_3.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_3.webp',
           },
           {
             'name': 'Mental Fortification',
             'description': 'Mana Consumption reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
         ]
       },
@@ -15354,19 +15354,19 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quickdraw',
             'description': '15% chance to draw a Tarot card on last hit.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_66.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_66.webp',
           },
           {
             'name': 'Fatal Card',
             'description':
                 'Increases critical chance by 10% to 60% depending on Floating Cards.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
           {
             'name': 'Intense Card',
             'description':
                 'Increases damage by 10% to 40% depending on Floating Cards.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_1.webp',
           },
         ]
       },
@@ -15377,13 +15377,13 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Fear of Death',
             'description':
                 'Causes enemies hit by the last attack to be poisoned for 3s and reduces casting animation time for this skill.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_45.webp',
           },
           {
             'name': 'Anger Strike',
             'description':
                 'Critical damage from Skill and Stack effects is increased by 50%, and the last attack strikes the ground, knocking the hit enemies into the middle, causing 30% more damage.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
         ]
       }
@@ -15399,7 +15399,7 @@ const List<Map<String, dynamic>> _skillsData = [
         'Instantly deals damage to nearby enemies and deals additional damage to enemies by adding a stack of Floating Card. When the stack effect is on, add an effect.',
     'type': 'Normal',
     'cooldown': 8,
-    'iconUrl': 'assets/icons/arcana/c11s16.png',
+    'iconUrl': 'assets/icons/arcana/c11s16.webp',
     'tripod': [
       {
         'tier': 1,
@@ -15407,17 +15407,17 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Quick Preparation',
             'description': 'Cooldown time is reduced by 4.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
             'name': 'Mental Fortification',
             'description': 'Mana consumption reduced by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
             'name': 'Sharp Strike',
             'description': 'Increases critical hit rate by 15%',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
           },
         ]
       },
@@ -15428,18 +15428,18 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Perfect Secret',
             'description':
                 '40% additional damage to enemies with 4 card stacks.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_68.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_68.webp',
           },
           {
             'name': 'Down Attack',
             'description':
                 'Floating Cards bonus damage reduced by 30%, however knocks down enemies if they have Floating Cards stacks.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.webp',
           },
           {
             'name': 'Darkness Garden',
             'description': 'Increases critical damage by 100%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_49.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_49.webp',
           },
         ]
       },
@@ -15449,12 +15449,12 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Secret Chance',
             'description': 'Increases Floating Cards detonation damage by 50%.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
           {
             'name': 'Trained Performance',
             'description': 'Attack range increased by 2 meters.',
-            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.png',
+            'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_7.webp',
           },
         ]
       }
@@ -15466,7 +15466,7 @@ const List<Map<String, dynamic>> _skillsData = [
   //   'description': 'Swinging a spear twice',
   //   'type': 'Normal',
   //   'cooldown': 6,
-  //   'iconUrl': 'assets/icons/lancemaster/c12s00.png',
+  //   'iconUrl': 'assets/icons/lancemaster/c12s00.webp',
   //   'tripod': [
   //     {
   //       'tier': 1,
@@ -15474,18 +15474,18 @@ const List<Map<String, dynamic>> _skillsData = [
   //         {
   //           'name': 'Flame Cutting',
   //           'description': '[Fire] Inflicts a burn for 5s.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_13.webp',
   //         },
   //         {
   //           'name': 'Ice',
   //           'description': 'Reduce the target 30% movement speed for 5 second.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_14.webp',
   //         },
   //         {
   //           'name': 'Earth',
   //           'description':
   //               'Increase 20% more dmg for down enemy or enemy being stuck from the change of environment',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_15.webp',
   //         },
   //       ]
   //     },
@@ -15495,19 +15495,19 @@ const List<Map<String, dynamic>> _skillsData = [
   //         {
   //           'name': 'Airbound',
   //           'description': 'Increase damage and launch the enemy into the air.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_9.webp',
   //         },
   //         {
   //           'name': 'Last Judgment',
   //           'description':
   //               'Consume 10% of the crescent blade (Identity) to boost 40% dmg, if your gauge less than 10% then it won’t apply.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_91.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_91.webp',
   //         },
   //         {
   //           'name': 'Specialization',
   //           'description':
   //               'Increase dmg for single target 30% / +5% for more than 2 / +10% for more than 5 / +20% for more than 10 enemies.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_90.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_90.webp',
   //         },
   //       ]
   //     },
@@ -15518,13 +15518,13 @@ const List<Map<String, dynamic>> _skillsData = [
   //           'name': 'Space Cutter',
   //           'description':
   //               'Increase 20% range of the skill + dealing 50% dmg for the last target it hit, the last hit will be 100% critical.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.webp',
   //         },
   //         {
   //           'name': 'Trackpot',
   //           'description':
   //               'Increase 60% dmg but can’t move freely while using the skill, increase 100% effect for Flame / Ice / Earth effect from tripod 1 + Increase the Destructive level by 1 (Medium).',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.webp',
   //         },
   //       ]
   //     }
@@ -15537,7 +15537,7 @@ const List<Map<String, dynamic>> _skillsData = [
   //       'Swinging the spear in all directions and collects the enemy in front.',
   //   'type': 'Normal',
   //   'cooldown': 12,
-  //   'iconUrl': 'assets/icons/lancemaster/c12s01.png',
+  //   'iconUrl': 'assets/icons/lancemaster/c12s01.webp',
   //   'tripod': [
   //     {
   //       'tier': 1,
@@ -15545,17 +15545,17 @@ const List<Map<String, dynamic>> _skillsData = [
   //         {
   //           'name': 'Mana Control',
   //           'description': 'Mana consumption reduced by 50%.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
   //         },
   //         {
   //           'name': 'Concussion',
   //           'description': 'Increases the Incapacitate effect.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_69.webp',
   //         },
   //         {
   //           'name': 'Bounding',
   //           'description': 'Reduces enemy movement speed by 50% for 2s.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_47.webp',
   //         },
   //       ]
   //     },
@@ -15566,18 +15566,18 @@ const List<Map<String, dynamic>> _skillsData = [
   //           'name': 'Specialization',
   //           'description':
   //               'Increase dmg for single target 30% / +5% for more than 2 / +10% for more than 5 / +20% for more than 10 enemies.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_90.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_90.webp',
   //         },
   //         {
   //           'name': 'Rage',
   //           'description': 'Increase damage by 30% for bosses.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_33.webp',
   //         },
   //         {
   //           'name': 'Last Judgment',
   //           'description':
   //               'Consume 10% of the crescent blade (Identity) to boost 40% dmg, if your gauge less than 10% then it won’t apply.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_91.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_91.webp',
   //         },
   //       ]
   //     },
@@ -15588,13 +15588,13 @@ const List<Map<String, dynamic>> _skillsData = [
   //           'name': 'Face Me',
   //           'description':
   //               'Change the skill to 2 time step, dealing 100% damage.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_88.webp',
   //         },
   //         {
   //           'name': 'Quick Access',
   //           'description':
   //               'Change the skill to a slam attack, dealing 50% dmg and 100% crit damage.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_77.webp',
   //         },
   //       ]
   //     }
@@ -15607,7 +15607,7 @@ const List<Map<String, dynamic>> _skillsData = [
   //       'Moves 4 meters forward, dealing 3 hits and throw opponents in the air.',
   //   'type': 'Normal',
   //   'cooldown': 10,
-  //   'iconUrl': 'assets/icons/lancemaster/c12s02.png',
+  //   'iconUrl': 'assets/icons/lancemaster/c12s02.webp',
   //   'tripod': [
   //     {
   //       'tier': 1,
@@ -15615,18 +15615,18 @@ const List<Map<String, dynamic>> _skillsData = [
   //         {
   //           'name': 'Quick Hand',
   //           'description': 'Attack speed increases by 15%.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_41.webp',
   //         },
   //         {
   //           'name': 'Quick Hit',
   //           'description': 'Increases Critical Hit Rate by 15%.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_4.webp',
   //         },
   //         {
   //           'name': 'Specialization',
   //           'description':
   //               'Increase dmg for single target 30% / +3% for more than 2 / +7% for more than 5 / +15% for more than 10 enemies.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_90.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_90.webp',
   //         },
   //       ]
   //     },
@@ -15637,18 +15637,18 @@ const List<Map<String, dynamic>> _skillsData = [
   //           'name': 'Flame',
   //           'description':
   //               'Burn the target for 5 second, can stack up to 5 stack.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_13.webp',
   //         },
   //         {
   //           'name': 'Ice',
   //           'description':
   //               'Reduce the target 10% movement speed for 5 second, when reaching 5 stack, the enemy will be stun for 3 second.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_14.webp',
   //         },
   //         {
   //           'name': 'Enhanced Blow',
   //           'description': 'Damage increases by 25%.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
   //         },
   //       ]
   //     },
@@ -15659,13 +15659,13 @@ const List<Map<String, dynamic>> _skillsData = [
   //           'name': 'Spin',
   //           'description':
   //               'Increase the attack up to 2 time, increase the range for 2m but reduce the number of hit down to 3, increase the dmg up to 50%.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_40.webp',
   //         },
   //         {
   //           'name': 'Rotation',
   //           'description':
   //               'Increases the number of strikes by 7 and increases the damage done by the enemy by 80%.',
-  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.png',
+  //           'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
   //         },
   //       ]
   //     }
