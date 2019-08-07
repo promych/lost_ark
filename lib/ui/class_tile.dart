@@ -30,7 +30,7 @@ class ClassTile extends StatelessWidget {
               Expanded(
                 child: Text(
                   name,
-                  style: TextStyle(color: Styles.defaultWhite, fontSize: 30.0),
+                  style: Styles.defaultText20,
                 ),
               ),
               Icon(icon, size: 40.0),

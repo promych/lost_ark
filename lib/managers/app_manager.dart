@@ -101,8 +101,8 @@ class AppManager extends ChangeNotifier {
   List<CharacterClass> classesByArchetype(String archetype) =>
       _classList.where((item) => item.archetype == archetype).toList();
 
-  CharacterClass classByName(String name) =>
-      _classList.singleWhere((item) => item.name == name);
+  // CharacterClass classByName(String name) =>
+  //     _classList.singleWhere((item) => item.name == name);
 
   CharacterClass classById(String classId) =>
       _classList.singleWhere((item) => item.id == classId);
@@ -111,8 +111,8 @@ class AppManager extends ChangeNotifier {
     return _selectedClass ?? _classList.first;
   }
 
-  selectClass(String name) {
-    _selectedClass = classByName(name);
+  selectClass(String id) {
+    _selectedClass = classById(id);
     notifyListeners();
   }
 

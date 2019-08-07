@@ -14,5 +14,6 @@
   "attack": "Атака",
   "range": "Дальность",
   "support": "Поддержка",
-  "weapon": "Оружие"
+  "weapon": "Оружие",
+  "build unpacked": "Билд загружен"
 }

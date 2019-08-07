@@ -106,7 +106,10 @@ class _BuildTile extends StatelessWidget {
                 ),
               ),
             ),
-            _UnpackButton(onPressed: () => build.unpackBuild(item.key)),
+            _UnpackButton(onPressed: () {
+              app.selectClass(item['classId']);
+              build.unpackBuild(item.key);
+            }),
           ],
         ),
       ),
@@ -123,10 +126,20 @@ class _UnpackButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final icon = Icon(LostArk.upload, color: Styles.cyanColor);
+
     return Platform.isAndroid
         ? IconButton(
+            highlightColor: Colors.transparent,
+            splashColor: Colors.transparent,
             icon: icon,
-            onPressed: onPressed,
+            onPressed: () {
+              onPressed();
+              final snackBar = SnackBar(
+                content:
+                    Text(LocaleManager.of(context).translate('build unpacked')),
+              );
+              Scaffold.of(context).showSnackBar(snackBar);
+            },
           )
         : CupertinoButton(
             child: icon,

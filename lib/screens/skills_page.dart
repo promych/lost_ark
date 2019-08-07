@@ -61,7 +61,7 @@ class _SkillsPageBody extends StatelessWidget {
                 name: selectedClass.name,
                 icon: selectedClass.icon,
                 onTap: () {
-                  app.selectClass(selectedClass.name);
+                  app.selectClass(selectedClass.id);
                   Navigator.of(context).pushReplacementNamed('/class');
                 },
               ),

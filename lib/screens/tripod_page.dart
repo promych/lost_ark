@@ -147,7 +147,8 @@ class _TierRow extends StatelessWidget {
             Positioned(
               right: 10.0,
               child: Text(
-                List.generate(tier.tier, (_) => 'I').join(''),
+                // List.generate(tier.tier, (_) => 'I').join(''),
+                tier.tier.toString(),
                 style: TextStyle(
                   fontSize: 60.0,
                   color: Styles.defaultWhite.withOpacity(0.1),

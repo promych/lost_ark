@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 
 import '../helpers/lost_ark_icons.dart';
 import '../helpers/theme.dart';
+import '../managers/locale_manager.dart';
 import '../screens/class_selector_page.dart';
 import '../screens/class_page.dart';
 import '../screens/settings_page.dart';
@@ -18,15 +19,13 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _tabIndex = 0;
-  List<BottomNavigationBarItem> _barItems;
 
   @override
-  void initState() {
-    super.initState();
-    _barItems = [
+  Widget build(BuildContext context) {
+    final _barItems = [
       BottomNavigationBarItem(
         icon: Icon(Icons.people),
-        title: Text('Classes'),
+        title: Text(LocaleManager.of(context).translate('classes')),
       ),
       BottomNavigationBarItem(
         icon: Icon(LostArk.reddit_alien),
@@ -34,13 +33,10 @@ class _HomePageState extends State<HomePage> {
       ),
       BottomNavigationBarItem(
         icon: Icon(LostArk.cog_alt),
-        title: Text('Settings'),
+        title: Text(LocaleManager.of(context).translate('settings')),
       ),
     ];
-  }
 
-  @override
-  Widget build(BuildContext context) {
     return Platform.isAndroid
         ? Scaffold(
             bottomNavigationBar: BottomNavigationBar(

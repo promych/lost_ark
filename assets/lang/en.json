@@ -14,5 +14,6 @@
   "attack": "Attack",
   "range": "Range",
   "support": "Support",
-  "weapon": "Weapon"
+  "weapon": "Weapon",
+  "build unpacked": "Build loaded"
 }

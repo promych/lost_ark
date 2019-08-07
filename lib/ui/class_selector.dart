@@ -10,7 +10,8 @@ class ClassSelector extends StatefulWidget {
   _ClassSelectorState createState() => _ClassSelectorState();
 }
 
-class _ClassSelectorState extends State<ClassSelector> {
+class _ClassSelectorState extends State<ClassSelector>
+    with AutomaticKeepAliveClientMixin {
   PageController _controller;
 
   @override
@@ -27,6 +28,7 @@ class _ClassSelectorState extends State<ClassSelector> {
 
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     final _screenSize = MediaQuery.of(context).size;
     final app = Provider.of<AppManager>(context, listen: false);
     final classes = app.allClasses;
@@ -39,6 +41,7 @@ class _ClassSelectorState extends State<ClassSelector> {
           Container(
             height: _screenSize.height * 0.65,
             child: PageView.builder(
+              key: PageStorageKey('class-selector'),
               controller: _controller,
               itemCount: classes.length,
               itemBuilder: (_, int index) {
@@ -91,7 +94,7 @@ class _ClassSelectorState extends State<ClassSelector> {
                     ),
                   ),
                   onTap: () {
-                    app.selectClass(classes[index].name);
+                    app.selectClass(classes[index].id);
                     Navigator.pushNamed(context, '/skills');
                   },
                 );
@@ -102,4 +105,7 @@ class _ClassSelectorState extends State<ClassSelector> {
       ),
     );
   }
+
+  @override
+  bool get wantKeepAlive => true;
 }

@@ -43,7 +43,7 @@ class ClassList extends StatelessWidget {
                       name: item.name,
                       icon: item.icon,
                       onTap: () {
-                        app.selectClass(item.name);
+                        app.selectClass(item.id);
                         Navigator.of(context).pushNamed('/skills');
                       },
                     ),
