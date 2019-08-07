@@ -23,7 +23,8 @@ class ClassPage extends StatelessWidget {
         ? Scaffold(
             appBar: MyMaterialAppBar(
               trailing: FlatButton(
-                child: Text(skillsLabel, style: Styles.defaultText20),
+                child: Text(skillsLabel,
+                    style: TextStyle(color: Styles.cyanColor, fontSize: 20.0)),
                 onPressed: openSkills,
               ),
             ),
@@ -34,7 +35,10 @@ class ClassPage extends StatelessWidget {
             navigationBar: MyCupertinoNavBar(
               backTitle: backTitle,
               trailing: GestureDetector(
-                child: Text(skillsLabel, style: Styles.defaultText),
+                child: Text(
+                  skillsLabel,
+                  style: TextStyle(color: Styles.cyanColor),
+                ),
                 onTap: openSkills,
               ),
             ),

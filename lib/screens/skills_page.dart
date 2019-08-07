@@ -97,9 +97,11 @@ class _SaveBuildButton extends StatelessWidget {
         child: build.readyToSave
             ? Icon(
                 LostArk.download,
+                color: Styles.cyanColor,
                 key: ValueKey<IconData>(LostArk.download),
               )
-            : Icon(Icons.check, key: ValueKey<IconData>(Icons.check)),
+            : Icon(Icons.check,
+                color: Styles.cyanColor, key: ValueKey<IconData>(Icons.check)),
       ),
       onTap: () {
         if (build.readyToSave)

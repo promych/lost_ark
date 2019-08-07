@@ -122,13 +122,14 @@ class _UnpackButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final icon = Icon(LostArk.upload, color: Styles.cyanColor);
     return Platform.isAndroid
         ? IconButton(
-            icon: Icon(LostArk.upload),
+            icon: icon,
             onPressed: onPressed,
           )
         : CupertinoButton(
-            child: Icon(LostArk.upload),
+            child: icon,
             onPressed: onPressed,
           );
   }

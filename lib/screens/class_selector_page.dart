@@ -51,10 +51,12 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
         child: _index == 0
             ? Icon(
                 Icons.list,
+                color: Styles.cyanColor,
                 key: ValueKey<IconData>(Icons.save_alt),
               )
             : Icon(
                 Icons.view_carousel,
+                color: Styles.cyanColor,
                 key: ValueKey<IconData>(Icons.check),
               ),
       ),

@@ -14,7 +14,12 @@ class MyMaterialAppBar extends StatelessWidget implements PreferredSizeWidget {
       backgroundColor: Styles.layerColor,
       centerTitle: true,
       title: title ?? null,
-      actions: trailing != null ? [trailing, SizedBox(width: 10.0)] : null,
+      actions: trailing != null
+          ? [
+              trailing,
+              SizedBox(width: 10.0),
+            ]
+          : null,
     );
   }
 

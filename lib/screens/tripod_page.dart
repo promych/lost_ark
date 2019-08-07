@@ -106,28 +106,6 @@ class _TripodPageBody extends StatelessWidget {
   }
 }
 
-class _DoneButton extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    final label = LocaleManager.of(context).translate('done');
-    return Platform.isAndroid
-        ? FlatButton(
-            child: Text(
-              label,
-              style: TextStyle(color: Styles.cyanColor),
-            ),
-            onPressed: () => Navigator.of(context).pop(),
-          )
-        : CupertinoButton(
-            child: Text(
-              label,
-              style: TextStyle(color: Styles.cyanColor),
-            ),
-            onPressed: () => Navigator.of(context).pop(),
-          );
-  }
-}
-
 class _TierRow extends StatelessWidget {
   final String skillId;
   final EnchancementTier tier;
@@ -164,72 +142,109 @@ class _TierRow extends StatelessWidget {
           color: Styles.layerColor,
           borderRadius: BorderRadius.all(Radius.circular(4.0)),
         ),
-        child: Column(
+        child: Stack(
           children: [
-            Container(
-              padding: const EdgeInsets.all(10.0),
-              height: 80.0,
-              child: Center(
-                child: selectedEnchancementId == ''
-                    ? Text(
-                        'Tier ${tier.tier}',
-                        style: Styles.defaultText20,
-                      )
-                    : AutoSizeText(
-                        tier.enchancements
-                            .singleWhere(
-                                (item) => item.id == selectedEnchancementId)
-                            .description,
-                        maxFontSize: 16.0,
-                        style: Styles.defaultText,
-                      ),
+            Positioned(
+              right: 10.0,
+              child: Text(
+                List.generate(tier.tier, (_) => 'I').join(''),
+                style: TextStyle(
+                  fontSize: 60.0,
+                  color: Styles.defaultWhite.withOpacity(0.1),
+                ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(bottom: 10.0),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  for (final enchancement in tier.enchancements)
-                    Expanded(
-                      child: Container(
-                        child: Column(
-                          children: [
-                            GestureDetector(
-                              child: CircleAvatar(
-                                backgroundColor:
-                                    selectedEnchancementId == enchancement.id
+            Column(
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(10.0),
+                  height: 80.0,
+                  child: Center(
+                    child: selectedEnchancementId == ''
+                        ? Text(
+                            'Tier ${tier.tier}',
+                            style: Styles.defaultText20,
+                          )
+                        : AutoSizeText(
+                            tier.enchancements
+                                .singleWhere(
+                                    (item) => item.id == selectedEnchancementId)
+                                .description,
+                            maxFontSize: 16.0,
+                            style: Styles.defaultText,
+                          ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 10.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      for (final enchancement in tier.enchancements)
+                        Expanded(
+                          child: Container(
+                            child: Column(
+                              children: [
+                                GestureDetector(
+                                  child: CircleAvatar(
+                                    backgroundColor: selectedEnchancementId ==
+                                            enchancement.id
                                         ? _selectColor(tier.tier)
                                         : Colors.transparent,
-                                radius: iconScale + 2,
-                                child: CircleAvatar(
-                                  radius: iconScale,
-                                  backgroundColor:
-                                      Styles.scaffoldBackgroundColor,
-                                  child: Image.asset(enchancement.iconUrl),
-                                  // backgroundImage: AssetImage(enchancement.iconUrl),
+                                    radius: iconScale + 2,
+                                    child: CircleAvatar(
+                                      radius: iconScale,
+                                      backgroundColor:
+                                          Styles.scaffoldBackgroundColor,
+                                      child: Image.asset(enchancement.iconUrl),
+                                      // backgroundImage: AssetImage(enchancement.iconUrl),
+                                    ),
+                                  ),
+                                  onTap: () =>
+                                      build.addToBuild(enchancement.id),
                                 ),
-                              ),
-                              onTap: () => build.addToBuild(enchancement.id),
+                                SizedBox(height: 10.0),
+                                Text(
+                                  enchancement.name,
+                                  style: TextStyle(
+                                      fontSize: 16.0, color: Styles.lightGrey),
+                                  textAlign: TextAlign.center,
+                                )
+                              ],
                             ),
-                            SizedBox(height: 10.0),
-                            Text(
-                              enchancement.name,
-                              style: TextStyle(
-                                  fontSize: 16.0, color: Styles.lightGrey),
-                              textAlign: TextAlign.center,
-                            )
-                          ],
-                        ),
-                      ),
-                    )
-                ],
-              ),
+                          ),
+                        )
+                    ],
+                  ),
+                ),
+              ],
             ),
           ],
         ),
       ),
     );
+  }
+}
+
+class _DoneButton extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final label = LocaleManager.of(context).translate('done');
+    return Platform.isAndroid
+        ? FlatButton(
+            child: Text(
+              label,
+              style: TextStyle(color: Styles.cyanColor, fontSize: 20.0),
+            ),
+            onPressed: () => Navigator.of(context).pop(),
+          )
+        : CupertinoButton(
+            child: Text(
+              label,
+              style: TextStyle(color: Styles.cyanColor),
+            ),
+            onPressed: () => Navigator.of(context).pop(),
+          );
   }
 }
