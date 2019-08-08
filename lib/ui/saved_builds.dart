@@ -17,16 +17,17 @@ class SavedBuilds extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: FutureBuilder(
-        future: Provider.of<BuildManager>(context, listen: true).savedBuilds(),
+        future: Provider.of<BuildManager>(context, listen: false).savedBuilds(),
         builder: (_, snapshot) {
           if (snapshot.connectionState == ConnectionState.none) {
             return Text(':(');
           } else if (snapshot.connectionState == ConnectionState.waiting ||
               snapshot.connectionState == ConnectionState.active) {
             return Center(
-                child: Platform.isAndroid
-                    ? CircularProgressIndicator()
-                    : CupertinoActivityIndicator());
+              child: Platform.isAndroid
+                  ? CircularProgressIndicator()
+                  : CupertinoActivityIndicator(),
+            );
           } else if (snapshot.connectionState == ConnectionState.done) {
             if (snapshot.hasError) {
               return Text('${snapshot.error}');

@@ -11,91 +11,184 @@ class ClassRepo {
 
 const List<Map<String, dynamic>> _classData = [
   {
-    'id': 'c11',
+    'id': 'c01',
     'name': {
-      'en': 'Arcana',
-      'ru': 'Арканолог',
+      'en': 'Warlord',
+      'ru': 'Полководец',
     },
     'archetype': {
-      'en': 'Magician',
-      'ru': 'Маг',
+      'en': 'Warrior',
+      'ru': 'Воин',
     },
     'description': {
       'en':
-          'The Arcana uses cards as medium of powerful spells. She can cast cards chosen by a roulette wheel that spins according to special conditions.',
+          'Warlord is a knight with strong armor. Even while soaking damage he has a number of attacks with his lance and shield.',
       'ru':
-          'Этот магический персонаж вооружен колодой карт. С помощью мощных и разнообразных заклинаний он наносит урон по врагу.',
+          'Полководец всегда первым врывается в бой. Благодаря щиту имеет высокий показатель защиты, а для атаки использует пулебарду – копье со встроенной винтовкой.',
     },
     'weapon': {
-      'en': 'Tarot Card',
-      'ru': 'Карты Таро',
-    },
-    'stats': {
-      'control': 5,
-      'speed': 60,
-      'defense': 10,
-      'attack': 90,
-      'range': 50,
-      'support': 30,
-    },
-    'icon': LostArk.class_arcana,
-  },
-  {
-    'id': 'c09',
-    'name': {
-      'en': 'Bard',
-      'ru': 'Менестрель',
-    },
-    'archetype': {
-      'en': 'Magician',
-      'ru': 'Маг',
-    },
-    'description': {
-      'en': 'Bard makes doot doots that help everyone!',
-      'ru': 'Использует мелодии для поддержки сопартицев.',
-    },
-    'weapon': {
-      'en': 'Harp',
-      'ru': 'Арфа',
-    },
-    'stats': {
-      'control': 1,
-      'speed': 20,
-      'defense': 40,
-      'attack': 30,
-      'range': 60,
-      'support': 90,
-    },
-    'icon': LostArk.class_bard,
-  },
-  {
-    'id': 'c10',
-    'name': {
-      'en': 'Summoner',
-      'ru': 'Призывательница',
-    },
-    'archetype': {
-      'en': 'Magician',
-      'ru': 'Маг',
-    },
-    'description': {
-      'en':
-          'The Summoner can command beasts by interacting with spirits. The power of the Ancient Spirits are especially immense.',
-      'ru': 'Может призывать зверей и управлять древними духами.',
-    },
-    'weapon': {
-      'en': 'Staff',
-      'ru': 'Посох',
+      'en': 'Gunlance',
+      'ru': 'Копье-винтовка',
     },
     'stats': {
       'control': 3,
-      'speed': 30,
-      'defense': 20,
+      'speed': 20,
+      'defense': 90,
       'attack': 60,
-      'range': 80,
+      'range': 20,
+      'support': 70,
+    },
+    'icon': LostArk.class_warlord,
+  },
+  {
+    'id': 'c00',
+    'name': {
+      'en': 'Destroyer',
+      'ru': 'Сокрушитель',
+    },
+    'archetype': {
+      'en': 'Warrior',
+      'ru': 'Воин',
+    },
+    'description': {
+      'en':
+          'Slow Destroyer with the help of a huge hammer, charged with the energy of lightning, is able to easily immobilize a more agile enemy.',
+      'ru':
+          'Неповоротлиый Сокрушитель с помощью огромного молота, заряженного энергией молний, способен с легкостью обездвижить более проворного противника.',
+    },
+    'weapon': {
+      'en': 'Hammer',
+      'ru': 'Молот',
+    },
+    'stats': {
+      'control': 2,
+      'speed': 10,
+      'defense': 90,
+      'attack': 90,
+      'range': 30,
+      'support': 30,
+    },
+    'icon': LostArk.class_destroyer,
+  },
+  {
+    'id': 'c02',
+    'name': {
+      'en': 'Berserker',
+      'ru': 'Берсерк',
+    },
+    'archetype': {
+      'en': 'Warrior',
+      'ru': 'Воин',
+    },
+    'description': {
+      'en':
+          'Berserker is a warrior that wields a huge two-handed sword in battle. He is able to enter a frenzied state, and while in it can crush any enemy with his strength.',
+      'ru':
+          'Берсерк - воин, вооруженный двуручным мечом, с помощью которого, накопив достаточно ярости, наносит врагам сокуршительный урон.',
+    },
+    'weapon': {
+      'en': 'Sword',
+      'ru': 'Меч',
+    },
+    'stats': {
+      'control': 1,
+      'speed': 40,
+      'defense': 80,
+      'attack': 80,
+      'range': 40,
+      'support': 40,
+    },
+    'icon': LostArk.class_berserker,
+  },
+  {
+    'id': 'c03',
+    'name': {
+      'en': 'Battle Master',
+      'ru': 'Аватар',
+    },
+    'archetype': {
+      'en': 'Fighter',
+      'ru': 'Монах',
+    },
+    'description': {
+      'en':
+          'Battle Master, possessing high speed and mobility, inflicts combo attacks using light brass knuckles.',
+      'ru':
+          'Аватар, обладая высокой скоростью и ловкостью, наносит противникам комбо-атаки с помощью легких кастетов.',
+    },
+    'weapon': {
+      'en': 'Light Gauntlet',
+      'ru': 'Легкие кастеты',
+    },
+    'stats': {
+      'control': 4,
+      'speed': 90,
+      'defense': 40,
+      'attack': 80,
+      'range': 20,
+      'support': 20,
+    },
+    'icon': LostArk.class_battlemaster,
+  },
+  {
+    'id': 'c04',
+    'name': {
+      'en': 'Infighter',
+      'ru': 'Дуалист',
+    },
+    'archetype': {
+      'en': 'Fighter',
+      'ru': 'Монах',
+    },
+    'description': {
+      'en':
+          'Infighter is a heavy handed martial artist. Her attacks explode with pent up energy and deal terrifying amounts of damage.',
+      'ru':
+          'Дуалист использует тяжелые силовые перчатки и комбинирует умения для нанесения урона противникам.',
+    },
+    'weapon': {
+      'en': 'Heavy Gauntlet',
+      'ru': 'Тяжелые кастеты',
+    },
+    'stats': {
+      'control': 3,
+      'speed': 60,
+      'defense': 50,
+      'attack': 90,
+      'range': 30,
+      'support': 20,
+    },
+    'icon': LostArk.class_infighter,
+  },
+  {
+    'id': 'c05',
+    'name': {
+      'en': 'Soul Master',
+      'ru': 'Ки-мастер',
+    },
+    'archetype': {
+      'en': 'Fighter',
+      'ru': 'Монах',
+    },
+    'description': {
+      'en':
+          'Soul Master is medium-range class that can use a variety of melee and ranged attacks.',
+      'ru':
+          'Владеет уникальными техниками боевых искусств. Подчинив себе потоки энергии, может атаковать противников как вблизи, так и на расстоянии.',
+    },
+    'weapon': {
+      'en': 'Gauntlet',
+      'ru': 'Талисман',
+    },
+    'stats': {
+      'control': 2,
+      'speed': 50,
+      'defense': 40,
+      'attack': 60,
+      'range': 50,
       'support': 50,
     },
-    'icon': LostArk.class_summoner,
+    'icon': LostArk.class_soulmaster,
   },
   {
     'id': 'c06',
@@ -109,13 +202,13 @@ const List<Map<String, dynamic>> _classData = [
     },
     'description': {
       'en':
-          'The Devil Hunter is one hell of a gun-slinger. He makes use of three different stances.',
+          'Devil Hunter can use firearms in his armament - paired pistols, rifles and shotguns.',
       'ru':
-          'Стрелок может использовать в своем вооружении огнестрельное оружие. На выбор парные пистолеты, винтовки и дробовики при смене оружия, у него меняются умения.',
+          'Охотник на демонов может использовать в своем вооружении огнестрельное оружие - парные пистолеты, винтовки и дробовики.',
     },
     'weapon': {
       'en': 'Guns',
-      'ru': 'Пистолеты',
+      'ru': 'Огнестрельное оружие',
     },
     'stats': {
       'control': 5,
@@ -138,9 +231,10 @@ const List<Map<String, dynamic>> _classData = [
       'ru': 'Стрелок',
     },
     'description': {
-      'en': 'Blaster, character who blasts!',
+      'en':
+          'Blaster with the help of a rocket launcher, which can also be a flamethrower and a machine gun, accumulates firepower to activate the turret mode.',
       'ru':
-          'Накапливает огневую мощь ракетницы, которую можно перевести в режим турели.',
+          'Механист с помощью ракетницы, которая может быть также огнеметом и пулеметом, накапливает огневую мощь для активации режима турели.',
     },
     'weapon': {
       'en': 'Launcher',
@@ -168,8 +262,9 @@ const List<Map<String, dynamic>> _classData = [
     },
     'description': {
       'en':
-          'Moves agile and attacks enemies with machine bows, special arrows and Silver Hawk.',
-      'ru': 'Проворный стрелок, использующий лук и механического сокола.',
+          'Hawk Eye moves agile and attacks enemies with machine bows, special arrows and Silver Hawk.',
+      'ru':
+          'Проворный стрелок, использует лук и специальные стрелы. Может призвать на помощь механического сокола.',
     },
     'weapon': {
       'en': 'Mechanical Bow',
@@ -180,186 +275,99 @@ const List<Map<String, dynamic>> _classData = [
       'speed': 80,
       'defense': 40,
       'attack': 60,
-      'range': 60,
+      'range': 70,
       'support': 30,
     },
     'icon': LostArk.class_hawkeye,
   },
   {
-    'id': 'c03',
+    'id': 'c11',
     'name': {
-      'en': 'Battle Master',
-      'ru': 'Аватар',
+      'en': 'Arcana',
+      'ru': 'Арканолог',
     },
     'archetype': {
-      'en': 'Fighter',
-      'ru': 'Монах',
+      'en': 'Magician',
+      'ru': 'Маг',
     },
     'description': {
       'en':
-          'The battle master is a martial art class that attacks enemies like lightning stones. It is equipped with various exercises for quick movement, so you can hit the enemy in a flash and continue the colorful air combo. You can also use the powerful elemental skills to reverse the battlefield.',
+          'Arcana uses cards as medium of powerful spells. She can cast cards chosen by a roulette wheel that spins according to special conditions.',
       'ru':
-          'Носит легкие кастеты-перчатки, которыми наносит урон. ДД  у которого очень высокая скорость и ловкость. Дополнения ко всему много комбо-атак.',
+          'Магический персонаж, способный быстро передвигаться, при этом нанося урон и получая усиления с помощью карт-заклинаний.',
     },
     'weapon': {
-      'en': 'Light Gauntlet',
-      'ru': 'Легкие кастеты',
+      'en': 'Cards',
+      'ru': 'Колода карт',
     },
     'stats': {
-      'control': 4,
-      'speed': 90,
-      'defense': 40,
-      'attack': 80,
-      'range': 20,
-      'support': 10,
-    },
-    'icon': LostArk.class_battlemaster,
-  },
-  {
-    'id': 'c04',
-    'name': {
-      'en': 'Infighter',
-      'ru': 'Дуалист',
-    },
-    'archetype': {
-      'en': 'Fighter',
-      'ru': 'Монах',
-    },
-    'description': {
-      'en':
-          'The Infighter is a heavy handed martial artist. Her attacks explode with pent up energy and deal terrifying amounts of damage. Enemies who are stuck may become pulverized, or are blown away by the impact.',
-      'ru': 'Использует тяжелые силовые перчатки.',
-    },
-    'weapon': {
-      'en': 'Heavy Gauntlet',
-      'ru': 'Тяжелые кастеты-перчатки',
-    },
-    'stats': {
-      'control': 3,
-      'speed': 60,
-      'defense': 50,
-      'attack': 80,
-      'range': 30,
-      'support': 20,
-    },
-    'icon': LostArk.class_infighter,
-  },
-  {
-    'id': 'c05',
-    'name': {
-      'en': 'Soul Master',
-      'ru': 'Ки-мастер',
-    },
-    'archetype': {
-      'en': 'Fighter',
-      'ru': 'Монах',
-    },
-    'description': {
-      'en':
-          'Medium-range class that can use a variety of melee and ranged attacks.',
-      'ru':
-          'Владеет уникальными техниками боевых искусств. Подчинив себе потоки энергии, может атаковать противников как вблизи, так и на расстоянии.',
-    },
-    'weapon': {
-      'en': 'Gauntlet',
-      'ru': 'Кастеты',
-    },
-    'stats': {
-      'control': 2,
-      'speed': 20,
-      'defense': 60,
-      'attack': 50,
-      'range': 50,
-      'support': 60,
-    },
-    'icon': LostArk.class_soulmaster,
-  },
-  {
-    'id': 'c01',
-    'name': {
-      'en': 'Warlord',
-      'ru': 'Полководец',
-    },
-    'archetype': {
-      'en': 'Warrior',
-      'ru': 'Воин',
-    },
-    'description': {
-      'en':
-          'The Warlord is a knight with strong armor. Even while soaking damage he has a number of attacks with his lance and shield.',
-      'ru':
-          'Полководец всегда первым врывается в бой. Самых дерзких противников остудят сталь его щита, а беглецов добьет залп пулебарды – коппья со встроенной винтовкой.',
-    },
-    'weapon': {
-      'en': 'Gunlance',
-      'ru': 'Копье-пушка',
-    },
-    'stats': {
-      'control': 3,
-      'speed': 20,
-      'defense': 90,
-      'attack': 60,
-      'range': 20,
-      'support': 70,
-    },
-    'icon': LostArk.class_warlord,
-  },
-  {
-    'id': 'c00',
-    'name': {
-      'en': 'Destroyer',
-      'ru': 'Сокрушитель',
-    },
-    'archetype': {
-      'en': 'Warrior',
-      'ru': 'Воин',
-    },
-    'description': {
-      'en': 'Destroyer, destroys his enemies!',
-      'ru':
-          'В руках сокрушителя огромный молот, заряженной энергией молний. Пусть этот воин кажется неповоротливым, зато одного его удара достаточно, чтобы сровнять противника с землей.',
-    },
-    'weapon': {
-      'en': 'Hammer',
-      'ru': 'Молот',
-    },
-    'stats': {
-      'control': 2,
-      'speed': 10,
-      'defense': 70,
+      'control': 5,
+      'speed': 70,
+      'defense': 20,
       'attack': 90,
-      'range': 60,
+      'range': 40,
       'support': 30,
     },
-    'icon': LostArk.class_destroyer,
+    'icon': LostArk.class_arcana,
   },
   {
-    'id': 'c02',
+    'id': 'c09',
     'name': {
-      'en': 'Berserker',
-      'ru': 'Берсерк',
+      'en': 'Bard',
+      'ru': 'Менестрель',
     },
     'archetype': {
-      'en': 'Warrior',
-      'ru': 'Воин',
+      'en': 'Magician',
+      'ru': 'Маг',
     },
     'description': {
       'en':
-          'The Berserker is a warrior that wields a huge two-handed sword in battle. He is able to enter a frenzied state, and while in it can crush any enemy with his strength.',
-      'ru': 'Накапливает ярость для сокуршительных атак.',
+          'Bard uses harp melodies to support party members, as well as inflicting damage to enemies.',
+      'ru':
+          'Менестрель использует мелодии арфы для поддержки сопартицев, а так же нанесения урона противникам.',
     },
     'weapon': {
-      'en': 'Sword',
-      'ru': 'Меч',
+      'en': 'Harp',
+      'ru': 'Арфа',
     },
     'stats': {
       'control': 1,
-      'speed': 40,
-      'defense': 60,
-      'attack': 80,
+      'speed': 20,
+      'defense': 40,
+      'attack': 30,
       'range': 60,
-      'support': 20,
+      'support': 90,
     },
-    'icon': LostArk.class_berserker,
+    'icon': LostArk.class_bard,
+  },
+  {
+    'id': 'c10',
+    'name': {
+      'en': 'Summoner',
+      'ru': 'Призывательница',
+    },
+    'archetype': {
+      'en': 'Magician',
+      'ru': 'Маг',
+    },
+    'description': {
+      'en':
+          'Summoner can command beasts by interacting with spirits. The power of the Ancient Spirits are especially immense.',
+      'ru':
+          'Призывательница может призывать зверей, управлять древними духами и вызывать иллюзии.',
+    },
+    'weapon': {
+      'en': 'Staff',
+      'ru': 'Посох',
+    },
+    'stats': {
+      'control': 3,
+      'speed': 30,
+      'defense': 20,
+      'attack': 60,
+      'range': 80,
+      'support': 50,
+    },
+    'icon': LostArk.class_summoner,
   },
 ];
