@@ -3,8 +3,8 @@ import 'package:lost_ark/data/database.dart';
 import 'package:lost_ark/models/build.dart';
 import 'package:sembast/sembast.dart';
 
-const kMaxPointsPerBuild = 100;
-const kMaxSkillsPerBuild = 8;
+const kMaxPointsPerBuild = 303;
+const kMaxSkillsPerBuild = 99;
 
 class BuildManager with ChangeNotifier {
   Build _build = Build();

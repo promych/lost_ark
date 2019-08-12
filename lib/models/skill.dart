@@ -33,13 +33,13 @@ class Skill {
       id: id,
       name: json['name'],
       className: json['class'][lang],
-      description: json['description'],
+      description: json['description'][lang],
       type: json['type'],
       cooldown: json['cooldown'],
       unlockLevel: json['unlockLevel'] ?? 1,
       iconUrl: icon,
-      tripod: List<EnchancementTier>.from(
-          json['tripod'].map((item) => EnchancementTier.fromJson(item, id))),
+      tripod: List<EnchancementTier>.from(json['tripod']
+          .map((item) => EnchancementTier.fromJson(item, id, lang: lang))),
     );
   }
 }
@@ -54,11 +54,12 @@ class EnchancementTier {
     @required this.enchancements,
   });
 
-  factory EnchancementTier.fromJson(Map<String, dynamic> json, String skillId) {
+  factory EnchancementTier.fromJson(Map<String, dynamic> json, String skillId,
+      {String lang = 'en'}) {
     return EnchancementTier(
       tier: json['tier'],
-      enchancements: List<SkillEnchancement>.from(json['skills']
-          .map((item) => SkillEnchancement.fromJson(item, skillId))),
+      enchancements: List<SkillEnchancement>.from(json['skills'].map(
+          (item) => SkillEnchancement.fromJson(item, skillId, lang: lang))),
     );
   }
 }
@@ -77,15 +78,15 @@ class SkillEnchancement {
     @required this.iconUrl,
   });
 
-  factory SkillEnchancement.fromJson(
-      Map<String, dynamic> json, String skillId) {
+  factory SkillEnchancement.fromJson(Map<String, dynamic> json, String skillId,
+      {String lang = 'en'}) {
     final icon = json['iconUrl'].toString();
     final id = icon.substring(icon.indexOf('Tier_') + 4, icon.lastIndexOf('.'));
 
     return SkillEnchancement(
       id: skillId + id,
       name: json['name'],
-      description: json['description'],
+      description: json['description'][lang],
       iconUrl: icon,
     );
   }
