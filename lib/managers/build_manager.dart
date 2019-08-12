@@ -3,7 +3,11 @@ import 'package:lost_ark/data/database.dart';
 import 'package:lost_ark/models/build.dart';
 import 'package:sembast/sembast.dart';
 
+// Max points per build
 const kMaxPointsPerBuild = 303;
+
+// Skillbar has 8 items, but we can improve more skills,
+// so this can be removed? Now set to 99 for this purpose
 const kMaxSkillsPerBuild = 99;
 
 class BuildManager with ChangeNotifier {
