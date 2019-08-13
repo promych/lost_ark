@@ -132,7 +132,7 @@ const List<Map<String, dynamic>> _classData = [
       'support': 20,
     },
     'icon': LostArk.class_battlemaster,
-    'video': 'dE5yDSJuXhs',
+    'video': 'nWAYIM1fXDU',
   },
   {
     'id': 'c04',
