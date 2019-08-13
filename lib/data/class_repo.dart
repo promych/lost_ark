@@ -39,6 +39,7 @@ const List<Map<String, dynamic>> _classData = [
       'support': 70,
     },
     'icon': LostArk.class_warlord,
+    'video': 'Y99s5b-hYkU',
   },
   {
     'id': 'c00',
@@ -69,6 +70,7 @@ const List<Map<String, dynamic>> _classData = [
       'support': 30,
     },
     'icon': LostArk.class_destroyer,
+    'video': 'w_JzbFzckPQ',
   },
   {
     'id': 'c02',
@@ -99,6 +101,7 @@ const List<Map<String, dynamic>> _classData = [
       'support': 40,
     },
     'icon': LostArk.class_berserker,
+    'video': 'tNHbBENXysE',
   },
   {
     'id': 'c03',
@@ -129,6 +132,7 @@ const List<Map<String, dynamic>> _classData = [
       'support': 20,
     },
     'icon': LostArk.class_battlemaster,
+    'video': 'dE5yDSJuXhs',
   },
   {
     'id': 'c04',
@@ -159,6 +163,7 @@ const List<Map<String, dynamic>> _classData = [
       'support': 20,
     },
     'icon': LostArk.class_infighter,
+    'video': 'gHkOUHdC2Pg',
   },
   {
     'id': 'c05',
@@ -189,6 +194,7 @@ const List<Map<String, dynamic>> _classData = [
       'support': 50,
     },
     'icon': LostArk.class_soulmaster,
+    'video': 'TXRigZrbGw4',
   },
   {
     'id': 'c06',
@@ -219,6 +225,7 @@ const List<Map<String, dynamic>> _classData = [
       'support': 20,
     },
     'icon': LostArk.class_devilhunter,
+    'video': 'XGEmZGSP1ck',
   },
   {
     'id': 'c07',
@@ -249,6 +256,7 @@ const List<Map<String, dynamic>> _classData = [
       'support': 40,
     },
     'icon': LostArk.class_blaster,
+    'video': '9Kwh1RgOWzE',
   },
   {
     'id': 'c08',
@@ -279,6 +287,7 @@ const List<Map<String, dynamic>> _classData = [
       'support': 30,
     },
     'icon': LostArk.class_hawkeye,
+    'video': 'MqWy2135ukk',
   },
   {
     'id': 'c11',
@@ -309,6 +318,7 @@ const List<Map<String, dynamic>> _classData = [
       'support': 30,
     },
     'icon': LostArk.class_arcana,
+    'video': '2ecCZO-837E',
   },
   {
     'id': 'c09',
@@ -339,6 +349,7 @@ const List<Map<String, dynamic>> _classData = [
       'support': 90,
     },
     'icon': LostArk.class_bard,
+    'video': '_tAQ8tIpznk',
   },
   {
     'id': 'c10',
@@ -369,5 +380,6 @@ const List<Map<String, dynamic>> _classData = [
       'support': 50,
     },
     'icon': LostArk.class_summoner,
+    'video': 'CFjrpbee7VM',
   },
 ];

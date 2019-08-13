@@ -29,7 +29,6 @@ class ClassPage extends StatelessWidget {
               ),
             ),
             body: ClassPageBody(),
-            // ),
           )
         : CupertinoPageScaffold(
             navigationBar: MyCupertinoNavBar(

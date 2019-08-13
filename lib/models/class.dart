@@ -10,6 +10,7 @@ class CharacterClass {
   final Map<String, int> stats;
   final IconData icon;
   final String imagePath;
+  final String video;
 
   CharacterClass({
     @required this.id,
@@ -20,6 +21,7 @@ class CharacterClass {
     @required this.stats,
     @required this.icon,
     @required this.imagePath,
+    @required this.video,
   });
 
   factory CharacterClass.fromJson(Map<String, dynamic> json,
@@ -32,6 +34,7 @@ class CharacterClass {
       weapon: json['weapon'][lang],
       stats: json['stats'],
       icon: json['icon'],
+      video: json['video'],
       imagePath:
           'assets/img/class_${json['name']['en'].replaceAll(' ', '').toLowerCase()}.webp',
     );

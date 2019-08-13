@@ -33,9 +33,12 @@ class SavedBuilds extends StatelessWidget {
               return Text('${snapshot.error}');
             }
             return snapshot.data.length == 0
-                ? Text(
-                    ':)',
-                    style: TextStyle(color: CupertinoColors.inactiveGray),
+                ? Align(
+                    alignment: Alignment.topCenter,
+                    child: Icon(
+                      Icons.insert_emoticon,
+                      color: CupertinoColors.inactiveGray,
+                    ),
                   )
                 : ListView.separated(
                     itemCount: snapshot.data.length,

@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
+import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 import '../managers/app_manager.dart';
 import '../managers/locale_manager.dart';
@@ -86,9 +87,15 @@ class ClassPageBody extends StatelessWidget {
                   SizedBox(height: 20.0),
                   Center(
                     child: Container(
-                      width: 400.0,
                       height: 200.0,
-                      child: Placeholder(),
+                      child: YoutubePlayer(
+                        context: context,
+                        videoId: classData.video,
+                        flags: YoutubePlayerFlags(
+                          autoPlay: false,
+                          showVideoProgressIndicator: true,
+                        ),
+                      ),
                     ),
                   ),
                 ],

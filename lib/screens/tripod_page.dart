@@ -38,9 +38,9 @@ class TripodPage extends StatelessWidget {
         ? Scaffold(
             appBar: MyMaterialAppBar(
               title: BuildPoints(),
-              trailing: TripodIndicator(skillId: skill.id),
+              trailing: _tripodIndicator(),
             ),
-            body: _tripodIndicator(),
+            body: _TripodPageBody(skill: skill),
           )
         : CupertinoPageScaffold(
             navigationBar: MyCupertinoNavBar(
