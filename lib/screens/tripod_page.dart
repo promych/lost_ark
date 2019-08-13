@@ -26,19 +26,28 @@ class TripodPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final skill = Provider.of<AppManager>(context, listen: false).skillById(id);
 
+    Widget _tripodIndicator() {
+      return Transform.scale(
+        scale: 0.7,
+        alignment: Alignment.centerRight,
+        child: TripodIndicator(skillId: skill.id),
+      );
+    }
+
     return Platform.isAndroid
         ? Scaffold(
             appBar: MyMaterialAppBar(
               title: BuildPoints(),
               trailing: TripodIndicator(skillId: skill.id),
             ),
-            body: _TripodPageBody(skill: skill),
+            body: _tripodIndicator(),
           )
         : CupertinoPageScaffold(
             navigationBar: MyCupertinoNavBar(
-                backTitle: LocaleManager.of(context).translate('skills'),
-                middle: BuildPoints(),
-                trailing: TripodIndicator(skillId: skill.id)),
+              backTitle: LocaleManager.of(context).translate('skills'),
+              middle: BuildPoints(),
+              trailing: _tripodIndicator(),
+            ),
             child: _TripodPageBody(skill: skill),
           );
   }
@@ -147,7 +156,6 @@ class _TierRow extends StatelessWidget {
             Positioned(
               right: 10.0,
               child: Text(
-                // List.generate(tier.tier, (_) => 'I').join(''),
                 tier.tier.toString(),
                 style: TextStyle(
                   fontSize: 60.0,
@@ -176,8 +184,9 @@ class _TierRow extends StatelessWidget {
                           ),
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 10.0),
+                Container(
+                  padding: const EdgeInsets.only(
+                      left: 2.0, right: 2.0, bottom: 10.0),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -198,19 +207,29 @@ class _TierRow extends StatelessWidget {
                                       radius: iconScale,
                                       backgroundColor:
                                           Styles.scaffoldBackgroundColor,
-                                      child: Image.asset(enchancement.iconUrl),
-                                      // backgroundImage: AssetImage(enchancement.iconUrl),
+                                      child: Opacity(
+                                        opacity: selectedEnchancementId == ''
+                                            ? 0.6
+                                            : 1.0,
+                                        child:
+                                            Image.asset(enchancement.iconUrl),
+                                      ),
                                     ),
                                   ),
                                   onTap: () =>
                                       build.addToBuild(enchancement.id),
                                 ),
                                 SizedBox(height: 10.0),
-                                Text(
-                                  enchancement.name,
-                                  style: TextStyle(
-                                      fontSize: 16.0, color: Styles.lightGrey),
-                                  textAlign: TextAlign.center,
+                                Padding(
+                                  padding: const EdgeInsets.symmetric(
+                                      horizontal: 2.0),
+                                  child: Text(
+                                    enchancement.name,
+                                    style: TextStyle(
+                                        fontSize: 14.0,
+                                        color: Styles.lightGrey),
+                                    textAlign: TextAlign.center,
+                                  ),
                                 )
                               ],
                             ),

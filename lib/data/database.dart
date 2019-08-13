@@ -22,7 +22,7 @@ class AppDatabase {
   Future<Database> _openDatabase() async {
     print('open db');
     Directory dir = await getApplicationDocumentsDirectory();
-    String path = join(dir.path, 'notes.db');
+    String path = join(dir.path, 'lacalc.db');
     Database database = await databaseFactoryIo.openDatabase(path);
     return database;
   }
