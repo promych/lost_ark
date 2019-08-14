@@ -1,11 +1,14 @@
+import 'dart:io' show InternetAddress, SocketException;
+
 import 'package:flutter/cupertino.dart';
-import 'package:lost_ark/data/class_repo.dart';
-import 'package:lost_ark/data/reddit_client.dart';
-import 'package:lost_ark/data/skill_repo.dart';
-import 'package:lost_ark/models/reddit_post.dart';
-import 'package:lost_ark/models/skill.dart';
+
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../data/class_repo.dart';
+import '../data/skill_repo.dart';
+import '../data/reddit_client.dart';
+import '../models/reddit_post.dart';
+import '../models/skill.dart';
 import '../models/class.dart';
 
 enum AppStatus { Uninitialized, Loading, Loaded, Error }
@@ -21,6 +24,7 @@ class AppManager extends ChangeNotifier {
 
   Locale _locale;
   CharacterClass _selectedClass;
+  bool _isOnline = true;
   String _errorMessage = '';
 
   AppStatus _status = AppStatus.Uninitialized;
@@ -35,6 +39,7 @@ class AppManager extends ChangeNotifier {
   AppStatus get status => _status;
   Locale get locale => _locale;
   String get errorMessage => _errorMessage;
+  bool get isOnline => _isOnline;
 
   Future<void> _loadApp([bool withNewLocale = false]) async {
     try {
@@ -43,9 +48,7 @@ class AppManager extends ChangeNotifier {
       notifyListeners();
 
       _locale = _locale ?? await _fetchLocale();
-      _redditPosts = (_redditPosts == null || withNewLocale)
-          ? await _redditClient.fetchNewPosts(appLang: _locale.languageCode)
-          : _redditPosts;
+      _redditPosts = _redditPosts ?? [];
       _classList = (_classList == null || withNewLocale)
           ? await _classRepo.fetchClassList(lang: _locale.languageCode)
           : _classList;
@@ -81,12 +84,34 @@ class AppManager extends ChangeNotifier {
       ..setString('countryCode', newLocale.countryCode);
     _locale = newLocale;
     _loadApp(true);
+    loadRedditPosts();
     notifyListeners();
   }
 
   // Reddit posts
 
-  List<RedditPost> get newRedditPosts => _redditPosts;
+  Future<List<RedditPost>> get newRedditPosts async {
+    if (_redditPosts.isEmpty) await loadRedditPosts();
+    return _redditPosts;
+  }
+
+  Future<void> loadRedditPosts() async {
+    try {
+      final result = await InternetAddress.lookup('google.com');
+      if (result.isNotEmpty && result[0].rawAddress.isNotEmpty) {
+        _isOnline = true;
+        print('load posts');
+        _redditPosts =
+            await _redditClient.fetchNewPosts(appLang: _locale.languageCode);
+      }
+    } on SocketException catch (_) {
+      _isOnline = false;
+    } catch (error) {
+      _errorMessage = error.message;
+      throw Exception('Error $_errorMessage');
+    }
+    notifyListeners();
+  }
 
   // Classes
 
@@ -100,9 +125,6 @@ class AppManager extends ChangeNotifier {
 
   List<CharacterClass> classesByArchetype(String archetype) =>
       _classList.where((item) => item.archetype == archetype).toList();
-
-  // CharacterClass classByName(String name) =>
-  //     _classList.singleWhere((item) => item.name == name);
 
   CharacterClass classById(String classId) =>
       _classList.singleWhere((item) => item.id == classId);

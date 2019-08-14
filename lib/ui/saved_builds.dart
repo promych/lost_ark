@@ -23,11 +23,10 @@ class SavedBuilds extends StatelessWidget {
             return Text(':(');
           } else if (snapshot.connectionState == ConnectionState.waiting ||
               snapshot.connectionState == ConnectionState.active) {
-            return Center(
-              child: Platform.isAndroid
-                  ? CircularProgressIndicator()
-                  : CupertinoActivityIndicator(),
-            );
+            // return Platform.isAndroid
+            //     ? CircularProgressIndicator()
+            //     : CupertinoActivityIndicator();
+            return Container();
           } else if (snapshot.connectionState == ConnectionState.done) {
             if (snapshot.hasError) {
               return Text('${snapshot.error}');
