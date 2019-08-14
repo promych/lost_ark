@@ -73,7 +73,8 @@ class _ClassSelectorState extends State<ClassSelector>
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     color: Styles.defaultWhite,
-                                    fontSize: _screenSize.width / 14),
+                                    fontSize: _screenSize.width / 14,
+                                    fontFamily: 'Alegreya'),
                               ),
                             ),
                           )

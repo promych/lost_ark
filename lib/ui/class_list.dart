@@ -30,6 +30,7 @@ class ClassList extends StatelessWidget {
                     style: TextStyle(
                       color: Styles.defaultWhite,
                       fontSize: 40.0,
+                      fontFamily: 'Alegreya',
                     ),
                   ),
                 ),

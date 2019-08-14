@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:lost_ark/data/database.dart';
-import 'package:lost_ark/models/build.dart';
+
 import 'package:sembast/sembast.dart';
+
+import '../data/database.dart';
+import '../models/build.dart';
 
 // Max points per build
 const kMaxPointsPerBuild = 303;

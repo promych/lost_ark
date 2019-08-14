@@ -33,7 +33,10 @@ class ClassTile extends StatelessWidget {
                   style: Styles.defaultText20,
                 ),
               ),
-              Icon(icon, size: 40.0),
+              Hero(
+                tag: 'hero-$name',
+                child: Icon(icon, size: 40.0),
+              ),
             ],
           ),
         ),

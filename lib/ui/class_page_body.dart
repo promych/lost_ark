@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
-import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 import '../managers/app_manager.dart';
 import '../managers/locale_manager.dart';
@@ -20,27 +19,16 @@ class ClassPageBody extends StatelessWidget {
       child: Stack(
         children: [
           Positioned(
-            // bottom: -50.0,
-            // left: -50.0,
             right: -50.0,
-            child: Icon(
-              classData.icon,
-              size: 200.0,
-              color: Colors.white10,
+            child: Hero(
+              tag: 'hero-${classData.name}',
+              child: Icon(
+                classData.icon,
+                size: 200.0,
+                color: Colors.white10,
+              ),
             ),
           ),
-          // Positioned(
-          //   right: -50.0,
-          //   child: Container(
-          //     constraints: BoxConstraints(
-          //             maxHeight: MediaQuery.of(context).size.height) *
-          //         0.4,
-          //     child: Hero(
-          //       tag: 'img-${classData.name}',
-          //       child: Image.asset(classData.imagePath),
-          //     ),
-          //   ),
-          // ),
           Container(
             height: double.infinity,
             child: SingleChildScrollView(
@@ -51,15 +39,19 @@ class ClassPageBody extends StatelessWidget {
                   Text(
                     classData.name,
                     style: TextStyle(
-                        fontSize: MediaQuery.of(context).size.width / 12,
-                        color: Styles.defaultWhite),
+                      fontSize: MediaQuery.of(context).size.width / 12,
+                      color: Styles.defaultWhite,
+                      fontFamily: 'Alegreya',
+                    ),
                   ),
                   SizedBox(height: 10.0),
                   Text(
                     '${LocaleManager.of(context).translate('weapon')}: ${classData.weapon}',
                     style: TextStyle(
-                        fontSize: MediaQuery.of(context).size.width / 18,
-                        color: Styles.lightGrey),
+                      fontSize: MediaQuery.of(context).size.width / 18,
+                      color: Styles.lightGrey,
+                      fontFamily: 'Alegreya',
+                    ),
                   ),
                   SizedBox(height: 40.0),
                   Center(
@@ -84,20 +76,20 @@ class ClassPageBody extends StatelessWidget {
                       style: Styles.defaultText20,
                     ),
                   ),
-                  SizedBox(height: 20.0),
-                  Center(
-                    child: Container(
-                      height: 200.0,
-                      child: YoutubePlayer(
-                        context: context,
-                        videoId: classData.video,
-                        flags: YoutubePlayerFlags(
-                          autoPlay: false,
-                          showVideoProgressIndicator: true,
-                        ),
-                      ),
-                    ),
-                  ),
+                  // SizedBox(height: 20.0),
+                  // Center(
+                  //   child: Container(
+                  //     height: 200.0,
+                  //     child: YoutubePlayer(
+                  //       context: context,
+                  //       videoId: classData.video,
+                  //       flags: YoutubePlayerFlags(
+                  //         autoPlay: false,
+                  //         showVideoProgressIndicator: true,
+                  //       ),
+                  //     ),
+                  //   ),
+                  // ),
                 ],
               ),
             ),
