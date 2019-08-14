@@ -55,7 +55,7 @@ const List<Map<String, dynamic>> _classData = [
       'en':
           'Slow Destroyer with the help of a huge hammer, charged with the energy of lightning, is able to easily immobilize a more agile enemy.',
       'ru':
-          'Неповоротлиый Сокрушитель с помощью огромного молота, заряженного энергией молний, способен с легкостью обездвижить более проворного противника.',
+          'Неповоротливый Сокрушитель с помощью огромного молота, заряженного энергией молний, способен с легкостью обездвижить более проворного противника.',
     },
     'weapon': {
       'en': 'Hammer',
@@ -86,7 +86,7 @@ const List<Map<String, dynamic>> _classData = [
       'en':
           'Berserker is a warrior that wields a huge two-handed sword in battle. He is able to enter a frenzied state, and while in it can crush any enemy with his strength.',
       'ru':
-          'Берсерк - воин, вооруженный двуручным мечом, с помощью которого, накопив достаточно ярости, наносит врагам сокуршительный урон.',
+          'Берсерк - воин, вооруженный двуручным мечом, с помощью которого, накопив достаточно ярости, наносит врагам сокрушительный урон.',
     },
     'weapon': {
       'en': 'Sword',
@@ -334,7 +334,7 @@ const List<Map<String, dynamic>> _classData = [
       'en':
           'Bard uses harp melodies to support party members, as well as inflicting damage to enemies.',
       'ru':
-          'Менестрель использует мелодии арфы для поддержки сопартицев, а так же нанесения урона противникам.',
+          'Менестрель использует мелодии арфы для поддержки сопартийцев, а так же нанесения урона противникам.',
     },
     'weapon': {
       'en': 'Harp',
