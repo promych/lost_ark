@@ -1,7 +1,8 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:lost_ark/models/reddit_post.dart';
+
+import '../models/reddit_post.dart';
 
 class RedditClient {
   static const _baseUrl = 'https://www.reddit.com/r/lostarkgame';

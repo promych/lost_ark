@@ -28,7 +28,7 @@ class TripodPage extends StatelessWidget {
 
     Widget _tripodIndicator() {
       return Transform.scale(
-        scale: 0.7,
+        scale: 0.75,
         alignment: Alignment.centerRight,
         child: TripodIndicator(skillId: skill.id),
       );
@@ -107,7 +107,7 @@ class _TripodPageBody extends StatelessWidget {
                 tier: skill.tripod.elementAt(i),
                 iconScale: scale,
               ),
-            Center(child: _DoneButton()),
+            // Center(child: _DoneButton()),
           ],
         ),
       ),
@@ -252,11 +252,9 @@ class _DoneButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final label = LocaleManager.of(context).translate('done');
     return Platform.isAndroid
-        ? FlatButton(
-            child: Text(
-              label,
-              style: TextStyle(color: Styles.cyanColor, fontSize: 20.0),
-            ),
+        ? RaisedButton(
+            child: Text(label.toUpperCase()),
+            color: Styles.cyanColor,
             onPressed: () => Navigator.of(context).pop(),
           )
         : CupertinoButton(

@@ -29,12 +29,4 @@ abstract class Styles {
     color: defaultWhite,
     fontFamily: 'Alegreya',
   );
-
-  //   static const headlineText = TextStyle(
-  //   color: Color.fromRGBO(0, 0, 0, 0.8),
-  //   fontFamily: 'NotoSans',
-  //   fontSize: 32,
-  //   fontStyle: FontStyle.normal,
-  //   fontWeight: FontWeight.bold,
-  // );
 }

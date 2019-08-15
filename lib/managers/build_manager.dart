@@ -16,8 +16,7 @@ class BuildManager with ChangeNotifier {
   Build _build = Build();
   Build get currentBuild => _build;
 
-  bool _readyToSave = false;
-  bool get readyToSave => _readyToSave;
+  bool readyToSave = false;
 
   addToBuild(String enchancementId) {
     final skillId = enchancementId.split('_')[0];
@@ -79,8 +78,8 @@ class BuildManager with ChangeNotifier {
     }
 
     pointsByClass(enchancementId.substring(0, 3)) > 0
-        ? _readyToSave = true
-        : _readyToSave = false;
+        ? readyToSave = true
+        : readyToSave = false;
     notifyListeners();
 
     // print(_build.items.first?.enchancements.toString());
@@ -89,7 +88,7 @@ class BuildManager with ChangeNotifier {
   save(String classId) async {
     if (pointsByClass(classId) == 0) return;
     await _addToBuild(classId);
-    _readyToSave = false;
+    readyToSave = false;
     notifyListeners();
   }
 

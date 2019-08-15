@@ -17,8 +17,19 @@ import '../ui/material_appbar.dart';
 import '../ui/sliver_appbar_delegate.dart';
 import '../ui/skill_tile.dart';
 
-class SkillsPage extends StatelessWidget {
+class SkillsPage extends StatefulWidget {
   static const routeName = '/skills';
+
+  @override
+  _SkillsPageState createState() => _SkillsPageState();
+}
+
+class _SkillsPageState extends State<SkillsPage> {
+  @override
+  void initState() {
+    super.initState();
+    Provider.of<BuildManager>(context, listen: false).readyToSave = true;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -88,6 +99,9 @@ class _SaveBuildButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final build = Provider.of<BuildManager>(context);
+    final selectedClassId = Provider.of<AppManager>(context).selectedClass.id;
+
+    if (build.pointsByClass(selectedClassId) == 0) return SizedBox();
 
     return GestureDetector(
       child: AnimatedSwitcher(
@@ -100,13 +114,14 @@ class _SaveBuildButton extends StatelessWidget {
                 color: Styles.cyanColor,
                 key: ValueKey<IconData>(LostArk.download),
               )
-            : Icon(Icons.check,
-                color: Styles.cyanColor, key: ValueKey<IconData>(Icons.check)),
+            : Icon(
+                Icons.check,
+                color: Styles.cyanColor,
+                key: ValueKey<IconData>(Icons.check),
+              ),
       ),
       onTap: () {
-        if (build.readyToSave)
-          build.save(
-              Provider.of<AppManager>(context, listen: false).selectedClass.id);
+        if (build.readyToSave) build.save(selectedClassId);
       },
     );
   }

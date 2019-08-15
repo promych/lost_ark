@@ -2,7 +2,8 @@ import 'dart:ui';
 import 'dart:math' show pi, cos, sin;
 
 import 'package:flutter/material.dart';
-import 'package:lost_ark/managers/locale_manager.dart';
+
+import '../managers/locale_manager.dart';
 
 class SpiderChart extends StatelessWidget {
   final List<double> data;
