@@ -1085,7 +1085,7 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Improved Penetration',
             'description': {
               'en': 'Increases the Penetration level by 1.',
-              'ru': 'Ур��ве��ь ��робивания увеличен на 1.'
+              'ru': 'Уровень пробивания увеличен на 1.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_21.webp',
           },
@@ -1093,8 +1093,8 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Improved Charging',
             'description': {
               'en':
-                  'Each level of the charging increases the damage dealt by 10%.',
-              'ru': 'Каждый уровень заряда умения увеличивает урон на 10%.'
+                  'Each level of the charging increases the physical damage dealt by 15%.',
+              'ru': 'Каждый уровень заряда умения увеличивает физический урон на 15%.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_0.webp',
           },
@@ -1221,9 +1221,9 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Morale Boost',
             'description': {
               'en':
-                  'Increases the attack strength of your party and party members in the 24m range by 40% for 6s.',
+                  'Recovers 20% of energy on attack, and increases the target back attack by 20% for 12 seconds.',
               'ru':
-                  'Увеличивает показатель атаки группы в радиусе 24 метров на 40% в течение 6 секунд.'
+                  'Восстанавливает 20% энергии за удар, урон по цели со спины увеличен на 20% в течение 12 секунд.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.webp',
           },
@@ -1348,7 +1348,7 @@ const List<Map<String, dynamic>> _skillsData = [
     ],
   },
   {
-    'name': 'Counter Spear',
+    'name': 'Counter Sphere',
     'class': {
       'en': 'Warlord',
       'ru': 'Полководец',
@@ -1360,7 +1360,7 @@ const List<Map<String, dynamic>> _skillsData = [
           'В течение 2 секунд щит способен поглотить урон равный 100% вашего здоровья. Через секунду гарантирует контратаку нанося 469 урона и отталкивая врага.'
     },
     'type': 'Normal',
-    'cooldown': 24,
+    'cooldown': 20,
     'mana': 101,
     'iconUrl': 'assets/icons/warlord/c01s13.webp',
     'tripod': [
@@ -1405,9 +1405,9 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Quick Response',
             'description': {
               'en':
-                  'Decreases the skill cooldown by 8 seconds but reduces the damage dealt by 25%.',
+                  'Reduces cooldown time by 4 seconds.',
               'ru':
-                  'Сокращает время перезарядки на 8 секунд, но и урон умения уменьшается на 25%.'
+                  'Сокращает время перезарядки на 4 секунды.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_56.webp',
           },
@@ -1539,8 +1539,8 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Leadership',
             'description': {
-              'en': 'Increases your attack power by 40% for 6s.',
-              'ru': 'Показатель атаки увеличен на 40% в течение 6 секунд.'
+              'en': 'You are immune to control effects while casting skills, party members attack speed is increased by 20% for 6 seconds.',
+              'ru': 'Невосприимчивость к эффектам контроля во время подготовки умения. Участники группы получают скорость к атаке на 20% в течение 6 секунд.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_0.webp',
           },
@@ -1548,9 +1548,9 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Survivability',
             'description': {
               'en':
-                  'Creates a protective shield on all party members which absorbs damage equal to 20% of their maximum health. The shield lasts for 6s.',
+                  'Creates a protective shield on all party members which absorbs damage equal to 30% of their maximum health. The shield lasts for 6s.',
               'ru':
-                  'Создает щит, поглощающий урон по группе. Максимум 20% здоровья в течение 6 секунд.'
+                  'Создает щит, поглощающий урон по группе. Максимум 30% здоровья в течение 6 секунд.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_65.webp',
           },
@@ -1739,9 +1739,9 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Overcharge',
             'description': {
               'en':
-                  'Becomes a competence with charge. The first charge guarantees the Perfect effect, and the second charge increases the damage by 40%.',
+                  'Becomes a competence with charge. The first charge guarantees the Perfect effect, and the second charge increases the damage by 60%.',
               'ru':
-                  'Умение становится удерживаемым. На первом уровне добавляет Идеальный эффект, при перегрузке наносит на 40% больше урона.'
+                  'Умение становится удерживаемым. На первом уровне добавляет Идеальный эффект, при перегрузке наносит на 60% больше урона.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_58.webp',
           },
@@ -1883,7 +1883,7 @@ const List<Map<String, dynamic>> _skillsData = [
       'en': 'Berserker',
       'ru': 'Берсерк',
     },
-    'description': {'en': 'Deals 148 damage with a sword.', 'ru': '.'},
+    'description': {'en': 'Deals 148 damage with a sword.', 'ru': 'Наносит 148 урона мечом.'},
     'type': 'Normal',
     'cooldown': 5,
     'mana': 41,
@@ -3381,7 +3381,7 @@ const List<Map<String, dynamic>> _skillsData = [
             'description': {
               'en': 'On hit, critical hit rate increased by 20% for 6s.',
               'ru':
-                  'Шанс критического удара увеличен ��а 20% в течение 6 секунд.'
+                  'Шанс критического удара увеличен на 20% в течение 6 секунд.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_4.webp',
           },
@@ -3438,7 +3438,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': {
       'en':
           'Jump and create a black storm dealing 507 damage, throws the enemies in the air.',
-      'ru': '.'
+      'ru': 'Подпрыгивает и создает шторм, наносящий 507 урона. Подкидывает врагов в воздух.'
     },
     'type': 'Normal',
     'cooldown': 30,
@@ -3806,7 +3806,7 @@ const List<Map<String, dynamic>> _skillsData = [
             'description': {
               'en':
                   'Increases damage by 5% at each hit, with a maximum of 50%.',
-              'ru': 'Увеличивает урон на 5% за каждый уда��, максимум до 50%.'
+              'ru': 'Увеличивает урон на 5% за каждый удар, максимум до 50%.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_50.webp',
           },
@@ -3826,8 +3826,8 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Wisdom of Energy',
             'description': {
-              'en': 'Радиус действия области увеличен на 40%.',
-              'ru': '.'
+              'en': 'Area range increased by 40%.',
+              'ru': 'Радиус действия области увеличен на 40%.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
@@ -4777,8 +4777,8 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Earth\'s Wrath',
             'description': {
               'en':
-                  'Your hammer becomes a huge hammer increasing its damage by 150%. The damage of stone chips is also increased by 30%.',
-              'ru': 'Урон от молота увеличен на 150%, от вихря на 30%.'
+                  'Your hammer becomes a huge hammer increasing its damage by 200%. The damage of stone chips is also increased by 50%.',
+              'ru': 'Урон от молота увеличен на 200%, от вихря на 50%.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_39.webp',
           },
@@ -6217,8 +6217,8 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Reduction Damage',
             'description': {
-              'en': '30% reduction in damage to party members for 6s.',
-              'ru': 'Получаемый урон группы уменьшен на 30% в течение 6 секунд.'
+              'en': '20% reduction in damage to party members within 24m for 6s.',
+              'ru': 'Получаемый урон группы в радиусе 24 метров уменьшен на 20% в течение 6 секунд.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_25.webp',
           },
@@ -6877,7 +6877,7 @@ const List<Map<String, dynamic>> _skillsData = [
             'description': {
               'en':
                   'The skill no longer pushes the enemy but stuns them for 5s.',
-              'ru': 'Не притягивает врагов, а оглушает на 5 с��кунд.'
+              'ru': 'Не притягивает врагов, а оглушает на 5 секунд.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_44.webp',
           },
@@ -7875,9 +7875,9 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Strong Case',
             'description': {
               'en':
-                  'Damage increases by 40% by pressing on the left foot 2 times fast and then strong on the right foot.',
+                  'Damage increases by 60% by pressing on the left foot 2 times fast and then strong on the right foot.',
               'ru':
-                  'Добавляет 2 удара по земле левой ногой, увеличивая общий урон на 40%.'
+                  'Добавляет 2 удара по земле левой ногой, увеличивая общий урон на 60%.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_38.webp',
           },
@@ -8374,7 +8374,7 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Strength',
             'description': {
               'en': 'Damage to knockdown enemies increases by 50%.',
-              'ru': 'Урон по сбитым с ног целям увеличе�� на 50%.'
+              'ru': 'Урон по сбитым с ног целям увеличен на 50%.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_29.webp',
           },
@@ -9111,8 +9111,8 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Piercing Strike',
             'description': {
-              'en': 'Attack ignores 30% of enemy’s defense.',
-              'ru': 'Умение игнорирует 30% защиты врагов.'
+              'en': 'Attack ignores 40% of enemy’s defense.',
+              'ru': 'Умение игнорирует 40% защиты врагов.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_2.webp',
           },
@@ -9143,17 +9143,17 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Pride of Fighters',
             'description': {
               'en':
-                  'Make 4 additional spheres to increase damage by 20% and scope of explosion by 20%.',
+                  'Make 4 additional spheres to increase damage by 40% and scope of explosion by 20%.',
               'ru':
-                  'Добавляет 4 меньших сферы в начальную сферу, что увеличивает радиус и урон от взрыва на 20%.'
+                  'Добавляет 4 меньших сферы в начальную сферу, что увеличивает радиус на 20% и урон от взрыва на 40%.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_8.webp',
           },
           {
             'name': 'Unyielding Blow',
             'description': {
-              'en': 'Increases damage by 50%.',
-              'ru': 'Увеличивает урон на 50%.'
+              'en': 'Increases damage by 70%.',
+              'ru': 'Увеличивает урон на 70%.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_50.webp',
           },
@@ -11582,7 +11582,7 @@ const List<Map<String, dynamic>> _skillsData = [
     'description': {
       'en':
           'Move while inflicting 73 damage to nearby enemies. Can be used 2 times.',
-      'ru': '.'
+      'ru': 'При движении наносит 73 урона ближайшим врагам. Может быть использовано 2 раза.'
     },
     'type': 'Combo',
     'cooldown': 1,
@@ -11961,7 +11961,7 @@ const List<Map<String, dynamic>> _skillsData = [
             'name': 'Fireworks',
             'description': {
               'en': 'Throw 3 grenades at a time. Damage increased by 20%.',
-              'ru': '.'
+              'ru': 'Бросает 3 гранаты. Урон увеличен на 20%.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_54.webp',
           },
@@ -16006,7 +16006,7 @@ const List<Map<String, dynamic>> _skillsData = [
           },
           {
             'name': 'Excellent Maneuver',
-            'description': {'en': 'Move backward by 2m.', 'ru': '.'},
+            'description': {'en': 'Move backward by 2m.', 'ru': 'Отпрыгивает на 2 метра.'},
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_10.webp',
           },
           {
@@ -17597,8 +17597,8 @@ const List<Map<String, dynamic>> _skillsData = [
           {
             'name': 'Stigma of Pain',
             'description': {
-              'en': 'Damage increases from 12.5% to 40% upon time.',
-              'ru': 'Урон увеличивается с 12.5% до 40%.'
+              'en': 'Damage increases from 12.5% to 60% upon time.',
+              'ru': 'Урон увеличивается с 12.5% до 60%.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_3_53.webp',
           },
@@ -20244,10 +20244,10 @@ const List<Map<String, dynamic>> _skillsData = [
         'tier': 2,
         'skills': [
           {
-            'name': 'Increase Card',
+            'name': 'Quick Draw',
             'description': {
-              'en': '10% chance to draw a Tarot card on hit.',
-              'ru': '10% шанс получить Карту-Таро при атаке.'
+              'en': '20% chance to draw a card on hit.',
+              'ru': '20% шанс получить карту при атаке.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_2_66.webp',
           },
@@ -20323,7 +20323,7 @@ const List<Map<String, dynamic>> _skillsData = [
             'description': {
               'en':
                   'While use Unlimited Shuffle, the card rolls around the Arcana and deals 20% damage.',
-              'ru': '.'
+              'ru': 'Карты наносят 20% урона вокруг.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_8.webp',
           },
@@ -20336,12 +20336,12 @@ const List<Map<String, dynamic>> _skillsData = [
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_56.webp',
           },
           {
-            'name': 'Mental Fortification',
+            'name': 'Quick Draw',
             'description': {
               'en':
-                  'When you hit the last attack, you get a 15% chance to draw a Tarot card.',
+                  'When you hit the last attack, you get a 30% chance to draw a card.',
               'ru':
-                  'При свершении последней атаки вероятность получить карту равна 15%.'
+                  'При свершении последней атаки вероятность получить карту равна 30%.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_66.webp',
           },
@@ -20552,10 +20552,10 @@ const List<Map<String, dynamic>> _skillsData = [
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_21.webp',
           },
           {
-            'name': 'Quickdraw',
+            'name': 'Quick Draw',
             'description': {
-              'en': '5% chance to draw a Tarot card each hit.',
-              'ru': 'Вероятность получить карту при успешной атаке равна 5%.'
+              'en': '10% chance to draw a card each hit.',
+              'ru': 'Вероятность получить карту при успешной атаке равна 10%.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_66.webp',
           },
@@ -20652,10 +20652,10 @@ const List<Map<String, dynamic>> _skillsData = [
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_34.webp',
           },
           {
-            'name': 'Quickdraw',
+            'name': 'Quick Draw',
             'description': {
-              'en': '10% chance to draw a Tarot card each hit.',
-              'ru': 'Вероятность получить карту увеличена на 10%.'
+              'en': '20% chance to draw a card each hit.',
+              'ru': 'Вероятность получить карту увеличена на 20%.'
             },
             'iconUrl': 'assets/icons/tripod/Tripod_Tier_1_66.webp',
           },
