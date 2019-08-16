@@ -247,22 +247,22 @@ class _TierRow extends StatelessWidget {
   }
 }
 
-class _DoneButton extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    final label = LocaleManager.of(context).translate('done');
-    return Platform.isAndroid
-        ? RaisedButton(
-            child: Text(label.toUpperCase()),
-            color: Styles.cyanColor,
-            onPressed: () => Navigator.of(context).pop(),
-          )
-        : CupertinoButton(
-            child: Text(
-              label,
-              style: TextStyle(color: Styles.cyanColor),
-            ),
-            onPressed: () => Navigator.of(context).pop(),
-          );
-  }
-}
+// class _DoneButton extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     final label = LocaleManager.of(context).translate('done');
+//     return Platform.isAndroid
+//         ? RaisedButton(
+//             child: Text(label.toUpperCase()),
+//             color: Styles.cyanColor,
+//             onPressed: () => Navigator.of(context).pop(),
+//           )
+//         : CupertinoButton(
+//             child: Text(
+//               label,
+//               style: TextStyle(color: Styles.cyanColor),
+//             ),
+//             onPressed: () => Navigator.of(context).pop(),
+//           );
+//   }
+// }

@@ -27,6 +27,8 @@ void main() {
     DeviceOrientation.portraitDown,
   ]);
 
+  ErrorWidget.builder = (FlutterErrorDetails details) => Container();
+
   runApp(App());
 }
 
