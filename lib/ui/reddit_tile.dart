@@ -106,11 +106,13 @@ class RedditPostTile extends StatelessWidget {
   Color _flairBackgroundColor(String flair) {
     switch (flair.toLowerCase()) {
       case 'video':
-        return CupertinoColors.activeGreen;
+        return Colors.green;
       case 'question':
-        return CupertinoColors.activeOrange;
+        return Colors.orange;
       case 'discussion':
-        return CupertinoColors.activeBlue;
+        return Colors.blue;
+      case 'community':
+        return Colors.indigo[900];
       default:
         return CupertinoColors.inactiveGray;
     }
