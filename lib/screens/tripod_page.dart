@@ -1,20 +1,20 @@
 import 'dart:io' show Platform;
 
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import 'package:provider/provider.dart';
-import 'package:auto_size_text/auto_size_text.dart';
 
 import '../helpers/lost_ark_icons.dart';
-import '../models/skill.dart';
+import '../helpers/theme.dart';
 import '../managers/app_manager.dart';
 import '../managers/build_manager.dart';
 import '../managers/locale_manager.dart';
-import '../helpers/theme.dart';
+import '../models/skill.dart';
 import '../ui/build_points.dart';
 import '../ui/cupertino_navbar.dart';
 import '../ui/material_appbar.dart';
+import '../ui/skill_type_in_tile.dart';
 import '../ui/tripod_indicator.dart';
 
 class TripodPage extends StatelessWidget {
@@ -79,10 +79,7 @@ class _TripodPageBody extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(skill.name, style: Styles.defaultText20),
-                        Text(
-                          skill.type,
-                          style: TextStyle(color: CupertinoColors.inactiveGray),
-                        ),
+                        SkillTypeInTile(sType: skill.type),
                       ],
                     ),
                   ),

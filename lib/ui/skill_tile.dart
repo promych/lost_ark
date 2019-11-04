@@ -2,13 +2,13 @@ import 'dart:io' show Platform;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import 'package:provider/provider.dart';
 
-import '../managers/app_manager.dart';
 import '../helpers/theme.dart';
+import '../managers/app_manager.dart';
 import '../screens/tripod_page.dart';
 import '../ui/tripod_indicator.dart';
+import 'skill_type_in_tile.dart';
 
 class SkillTile extends StatelessWidget {
   final String id;
@@ -37,10 +37,7 @@ class SkillTile extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(skill.name, style: Styles.defaultText20),
-                      Text(
-                        skill.type,
-                        style: TextStyle(color: CupertinoColors.inactiveGray),
-                      ),
+                      SkillTypeInTile(sType: skill.type),
                     ],
                   ),
                 ),

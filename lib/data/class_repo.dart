@@ -14,7 +14,7 @@ const List<Map<String, dynamic>> _classData = [
     'id': 'c01',
     'name': {
       'en': 'Warlord',
-      'ru': 'Полководец',
+      'ru': 'Страж',
     },
     'archetype': {
       'en': 'Warrior',
@@ -24,7 +24,7 @@ const List<Map<String, dynamic>> _classData = [
       'en':
           'Warlord is a knight with strong armor. Even while soaking damage he has a number of attacks with his lance and shield.',
       'ru':
-          'Полководец всегда первым врывается в бой. Благодаря щиту имеет высокий показатель защиты, а для атаки использует пулебарду – копье со встроенной винтовкой.',
+          'Страж всегда первым врывается в бой. Благодаря щиту имеет высокий показатель защиты, а для атаки использует пулебарду – копье со встроенной винтовкой.',
     },
     'weapon': {
       'en': 'Gunlance',

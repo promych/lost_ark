@@ -26,12 +26,12 @@ class Skill {
 
   factory Skill.fromJson(Map<String, dynamic> json, {String lang = 'en'}) {
     final icon = json['iconUrl'].toString();
-    final id =
-        icon.substring(icon.lastIndexOf('/') + 1, icon.lastIndexOf('.webp'));
+    final id = json['id'];
+    // icon.substring(icon.lastIndexOf('/') + 1, icon.lastIndexOf('.webp'));
 
     return Skill(
       id: id,
-      name: json['name'],
+      name: json['name'][lang],
       className: json['class'][lang],
       description: json['description'][lang],
       type: json['type'],

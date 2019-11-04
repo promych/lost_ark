@@ -80,7 +80,6 @@
 				25083FCA58F40BBEB806BCE0 /* Pods-Runner.release.xcconfig */,
 				41FA71B4C8ECD46C4A375861 /* Pods-Runner.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -391,7 +390,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.lostArk;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peshkovre.lost-ark";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -523,7 +522,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.lostArk;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peshkovre.lost-ark";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -547,7 +546,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.lostArk;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peshkovre.lost-ark";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
