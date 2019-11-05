@@ -2,20 +2,19 @@ import 'dart:io' show Platform;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import 'package:provider/provider.dart';
 
 import '../helpers/lost_ark_icons.dart';
 import '../helpers/theme.dart';
-import '../managers/locale_manager.dart';
 import '../managers/app_manager.dart';
 import '../managers/build_manager.dart';
+import '../managers/locale_manager.dart';
 import '../ui/build_points.dart';
 import '../ui/class_tile.dart';
 import '../ui/cupertino_navbar.dart';
 import '../ui/material_appbar.dart';
-import '../ui/sliver_appbar_delegate.dart';
 import '../ui/skill_tile.dart';
+import '../ui/sliver_appbar_delegate.dart';
 
 class SkillsPage extends StatefulWidget {
   static const routeName = '/skills';
@@ -57,7 +56,7 @@ class _SkillsPageBody extends StatelessWidget {
   Widget build(BuildContext context) {
     final app = Provider.of<AppManager>(context, listen: false);
     final selectedClass = app.selectedClass;
-    final skills = app.skillsByClassName(selectedClass.name);
+    final skills = app.skillsByClassId(selectedClass.id);
 
     return SafeArea(
       bottom: false,

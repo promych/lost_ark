@@ -141,8 +141,8 @@ class AppManager extends ChangeNotifier {
 
   List<Skill> get allSkills => _skillList;
 
-  List<Skill> skillsByClassName(String name) =>
-      _skillList.where((item) => item.className == name).toList();
+  List<Skill> skillsByClassId(String id) =>
+      _skillList.where((item) => item.id.startsWith(id)).toList();
 
   Skill skillById(String id) =>
       _skillList.singleWhere((item) => item.id == id, orElse: () => null);
