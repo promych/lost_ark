@@ -9,13 +9,22 @@ import '../managers/build_manager.dart';
 class BuildPoints extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final app = Provider.of<AppManager>(context, listen: false);
+    final classId =
+        Provider.of<AppManager>(context, listen: false).selectedClass.id;
 
-    return Consumer<BuildManager>(
-      builder: (context, build, _) => Text(
-        '${build.pointsByClass(app.selectedClass.id)} / $kMaxPointsPerBuild',
-        style: Styles.defaultText,
-      ),
-    );
+    return Consumer<BuildManager>(builder: (context, build, _) {
+      final points = build.pointsByClass(classId);
+      return points == 0
+          ? Container()
+          : Container(
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 10.0, vertical: 5.0),
+              decoration: BoxDecoration(
+                color: Styles.scaffoldBackgroundColor,
+                borderRadius: BorderRadius.all(Radius.circular(5.0)),
+              ),
+              child: Text(points.toString(), style: Styles.defaultText),
+            );
+    });
   }
 }

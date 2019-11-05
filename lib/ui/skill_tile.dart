@@ -2,24 +2,20 @@ import 'dart:io' show Platform;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 import '../helpers/theme.dart';
-import '../managers/app_manager.dart';
+import '../models/skill.dart';
 import '../screens/tripod_page.dart';
 import '../ui/tripod_indicator.dart';
 import 'skill_type_in_tile.dart';
 
 class SkillTile extends StatelessWidget {
-  final String id;
+  final Skill skill;
 
-  const SkillTile({@required this.id});
+  const SkillTile({@required this.skill});
 
   @override
   Widget build(BuildContext context) {
-    final app = Provider.of<AppManager>(context, listen: false);
-    final skill = app.skillById(id);
-
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 10.0),
       child: GestureDetector(
@@ -47,7 +43,7 @@ class SkillTile extends StatelessWidget {
           ),
         ),
         onTap: () {
-          final builder = (_) => TripodPage(id: id);
+          final builder = (_) => TripodPage(skill: skill);
           final route = Platform.isAndroid
               ? MaterialPageRoute(builder: builder)
               : CupertinoPageRoute(builder: builder);

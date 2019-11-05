@@ -2,7 +2,6 @@ import 'dart:io' show Platform;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import 'package:provider/provider.dart';
 import 'package:sembast/sembast.dart';
 
@@ -63,6 +62,7 @@ class _BuildTile extends StatelessWidget {
   Widget build(BuildContext context) {
     final app = Provider.of<AppManager>(context, listen: false);
     final build = Provider.of<BuildManager>(context, listen: false);
+    final charClass = app.classById(item['classId']);
 
     return Dismissible(
       key: ValueKey(item.key),
@@ -90,23 +90,24 @@ class _BuildTile extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Padding(
-                padding: const EdgeInsets.only(left: 10.0),
-                // child: MediaQuery.of(context).size.width <= 360
-                child: Icon(app.classById(item['classId']).icon)
-                // : Text(app.classById(item['classId']).name),
-                ),
+            if (charClass != null)
+              Padding(
+                  padding: const EdgeInsets.only(left: 10.0),
+                  child: Icon(charClass.icon)),
             Expanded(
               child: Wrap(
                 alignment: WrapAlignment.end,
-                children: List<Widget>.from(
-                  item['skills'].map((item) => Image.asset(
-                        app.skillById(item['id']).iconUrl,
-                        height: MediaQuery.of(context).size.width <= 360
-                            ? 24.0
-                            : 32.0,
-                      )),
-                ),
+                children: List<Widget>.from(item['skills'].map((item) {
+                  final skill = app.skillById(item['id']);
+                  return skill != null
+                      ? Image.asset(
+                          skill.iconUrl,
+                          height: MediaQuery.of(context).size.width <= 360
+                              ? 24.0
+                              : 32.0,
+                        )
+                      : Container();
+                })),
               ),
             ),
             _UnpackButton(onPressed: () {

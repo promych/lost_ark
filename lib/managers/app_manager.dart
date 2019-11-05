@@ -1,15 +1,14 @@
 import 'dart:io' show InternetAddress, SocketException;
 
 import 'package:flutter/cupertino.dart';
-
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../data/class_repo.dart';
-import '../data/skill_repo.dart';
 import '../data/reddit_client.dart';
+import '../data/skill_repo.dart';
+import '../models/class.dart';
 import '../models/reddit_post.dart';
 import '../models/skill.dart';
-import '../models/class.dart';
 
 enum AppStatus { Uninitialized, Loading, Loaded, Error }
 
@@ -77,7 +76,7 @@ class AppManager extends ChangeNotifier {
             prefs.getString('languageCode'), prefs.getString('countryCode'));
   }
 
-  changeLocale(Locale newLocale) async {
+  Future<void> changeLocale(Locale newLocale) async {
     if (_locale == newLocale) return;
     await SharedPreferences.getInstance()
       ..setString('languageCode', newLocale.languageCode)
@@ -127,13 +126,13 @@ class AppManager extends ChangeNotifier {
       _classList.where((item) => item.archetype == archetype).toList();
 
   CharacterClass classById(String classId) =>
-      _classList.singleWhere((item) => item.id == classId);
+      _classList.singleWhere((item) => item.id == classId, orElse: () => null);
 
   CharacterClass get selectedClass {
     return _selectedClass ?? _classList.first;
   }
 
-  selectClass(String id) {
+  void selectClass(String id) {
     _selectedClass = classById(id);
     notifyListeners();
   }
@@ -145,5 +144,6 @@ class AppManager extends ChangeNotifier {
   List<Skill> skillsByClassName(String name) =>
       _skillList.where((item) => item.className == name).toList();
 
-  Skill skillById(String id) => _skillList.singleWhere((item) => item.id == id);
+  Skill skillById(String id) =>
+      _skillList.singleWhere((item) => item.id == id, orElse: () => null);
 }

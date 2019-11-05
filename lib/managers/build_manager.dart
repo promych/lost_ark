@@ -6,7 +6,7 @@ import '../data/database.dart';
 import '../models/build.dart';
 
 // Max points per build
-const kMaxPointsPerBuild = 303;
+// const kMaxPointsPerBuild = 303;
 
 // Skillbar has 8 items, but we can improve more skills,
 // so this can be removed? Now set to 99 for this purpose
@@ -18,7 +18,7 @@ class BuildManager with ChangeNotifier {
 
   bool readyToSave = false;
 
-  addToBuild(String enchancementId) {
+  void addToBuild(String enchancementId) {
     final skillId = enchancementId.split('_')[0];
     final tierNum = int.parse(enchancementId.split('_')[1]);
 
@@ -46,10 +46,10 @@ class BuildManager with ChangeNotifier {
         _build.items.removeAt(index);
       } else {
         //check max points not reached
-        if (pointsByClass(enchancementId.substring(0, 3)) -
-                _pointsByBuildItem(currentEnchancementList) +
-                _pointsByBuildItem(newEnchancementList) >
-            kMaxPointsPerBuild) return;
+        // if (pointsByClass(enchancementId.substring(0, 3)) -
+        //         _pointsByBuildItem(currentEnchancementList) +
+        //         _pointsByBuildItem(newEnchancementList) >
+        //     kMaxPointsPerBuild) return;
 
         // finally replace skill in build with new list
         _build.items.replaceRange(
@@ -60,8 +60,8 @@ class BuildManager with ChangeNotifier {
       }
     } else {
       if (tierNum != 1) return;
-      if (pointsByClass(enchancementId.substring(0, 3)) + 4 >
-          kMaxPointsPerBuild) return;
+      // if (pointsByClass(enchancementId.substring(0, 3)) + 4 >
+      //     kMaxPointsPerBuild) return;
       if (_build.items
               .where((item) =>
                   item.skillId.substring(0, 3) == skillId.substring(0, 3))
@@ -85,7 +85,7 @@ class BuildManager with ChangeNotifier {
     // print(_build.items.first?.enchancements.toString());
   }
 
-  save(String classId) async {
+  Future<void> save(String classId) async {
     if (pointsByClass(classId) == 0) return;
     await _addToBuild(classId);
     readyToSave = false;
@@ -135,12 +135,12 @@ class BuildManager with ChangeNotifier {
     return await _store.find(await _db, finder: finder);
   }
 
-  Future _addToBuild(String classId) async {
-    var listItems = _build.items
+  Future<void> _addToBuild(String classId) async {
+    final listItems = _build.items
         .where((item) => item.skillId.substring(0, 3) == classId)
         .map((item) => item.toMap())
         .toList();
-    var currentBuild = Map<String, dynamic>.fromIterables(
+    final currentBuild = Map<String, dynamic>.fromIterables(
       ['classId', 'skills'],
       [classId, listItems],
     );
@@ -149,12 +149,12 @@ class BuildManager with ChangeNotifier {
         .put(await _db, currentBuild);
   }
 
-  Future deleteFromBuild(int id) async {
+  Future<void> deleteFromBuild(int id) async {
     await _store.record(id).delete(await _db);
     notifyListeners();
   }
 
-  Future unpackBuild(int id) async {
+  Future<void> unpackBuild(int id) async {
     final buildToUnpack = await _store.record(id).get(await _db);
 
     _build.items.removeWhere(

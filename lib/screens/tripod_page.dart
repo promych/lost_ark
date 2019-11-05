@@ -7,7 +7,6 @@ import 'package:provider/provider.dart';
 
 import '../helpers/lost_ark_icons.dart';
 import '../helpers/theme.dart';
-import '../managers/app_manager.dart';
 import '../managers/build_manager.dart';
 import '../managers/locale_manager.dart';
 import '../models/skill.dart';
@@ -18,14 +17,12 @@ import '../ui/skill_type_in_tile.dart';
 import '../ui/tripod_indicator.dart';
 
 class TripodPage extends StatelessWidget {
-  final String id;
+  final Skill skill;
 
-  const TripodPage({@required this.id});
+  const TripodPage({@required this.skill});
 
   @override
   Widget build(BuildContext context) {
-    final skill = Provider.of<AppManager>(context, listen: false).skillById(id);
-
     Widget _tripodIndicator() {
       return Transform.scale(
         scale: 0.75,

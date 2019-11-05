@@ -83,7 +83,7 @@ class _SkillsPageBody extends StatelessWidget {
               for (var skill in skills)
                 Column(
                   children: [
-                    SkillTile(id: skill.id),
+                    SkillTile(skill: skill),
                     Divider(color: Styles.layerColor),
                   ],
                 ),
