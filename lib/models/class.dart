@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../helpers/lost_ark_icons.dart';
+
 @immutable
 class CharacterClass {
   final String id;
@@ -32,8 +34,8 @@ class CharacterClass {
       archetype: json['archetype'][lang],
       description: json['description'][lang],
       weapon: json['weapon'][lang],
-      stats: json['stats'],
-      icon: json['icon'],
+      stats: Map<String, int>.from(json['stats']),
+      icon: LostArk.icons[json['icon']],
       video: json['video'],
       imagePath:
           'assets/img/class_${json['name']['en'].replaceAll(' ', '').toLowerCase()}.webp',
