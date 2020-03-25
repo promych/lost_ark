@@ -25,10 +25,15 @@ class MyCupertinoNavBar extends StatelessWidget
     );
   }
 
-  @override
-  bool get fullObstruction =>
-      _backgroundColor == null ? null : _backgroundColor.alpha == 0xFF;
+  // @override
+  // bool get fullObstruction =>
+  //     _backgroundColor == null ? null : _backgroundColor.alpha == 0xFF;
 
   @override
   Size get preferredSize => const Size.fromHeight(44.0);
+
+  @override
+  bool shouldFullyObstruct(BuildContext context) {
+    return _backgroundColor == null ? null : _backgroundColor.alpha == 0xFF;
+  }
 }

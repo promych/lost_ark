@@ -49,10 +49,10 @@ class App extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(
-          builder: (_) => AppManager(),
+          create: (_) => AppManager(),
         ),
         ChangeNotifierProvider(
-          builder: (_) => BuildManager(),
+          create: (_) => BuildManager(),
         ),
       ],
       child: Consumer<AppManager>(
