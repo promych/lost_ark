@@ -21,6 +21,8 @@ import './screens/class_page.dart';
 import './screens/skills_page.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,

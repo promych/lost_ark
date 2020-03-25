@@ -21037,5 +21037,1886 @@
         ]
       }
     ]
+  },
+  {
+    "id": "c12s00",
+    "name": {
+      "en": "Degeneration",
+      "ru": "Двойное сечение"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Deals two hits - 105 and 157 damage.",
+      "ru": "Наносит два удара - 105 и 157 урона."
+    },
+    "type": "Normal",
+    "cooldown": 6,
+    "iconUrl": "assets/icons/lancemaster/c12s00.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Огенный взмах",
+            "description": {
+              "en": "[Fire] Imposes a burning effect for 5 seconds.",
+              "ru": "[Огонь] Накладывает эффект горения на 5 секунд."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_13.webp"
+          },
+          {
+            "name": "Ледяной взмах",
+            "description": {
+              "en": "[Ice] Inflicts frostbite on 5 seconds, slowing down by 30%.",
+              "ru": "[Лед] Накладывает обморожение на 5 секунд, замедляя на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_14.webp"
+          },
+          {
+            "name": "Гранитная скала",
+            "description": {
+              "en": "[Earth] Damage to enemies of the type rare and increased by 20% lower.",
+              "ru": "[Земля] Урон по противникам типа редкий и ниже увеличен на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_15.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Апперкот",
+            "description": {
+              "en": "The second attack throws opponents.",
+              "ru": "Вторая атака подбрасывает противников."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_9.webp"
+          },
+          {
+            "name": "Внутренний резерв",
+            "description": {
+              "en": "Consumes 10% of maximum energy, deals 40% more damage.",
+              "ru": "Расходует 10% максимального объема энергии, наносит на 40% урона больше."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_91.webp"
+          },
+          {
+            "name": "Впечатляющее мастерство",
+            "description": {
+              "en": "Damage for one target increased by 30%, for 2-4 targets by 5%, for 5-9 targets by 10%, for 10 and more - by 20%.",
+              "ru": "Урон по одной цели увеличен на 30%, по 2-4 целям на 5%, по 5-9 целям на 10%, по 10 и болле - на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_90.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Порыв ветра",
+            "description": {
+              "en": "Radius increased by 20%, damage increased by 50%.",
+              "ru": "Радиус действия увеличен на 20%, урон увеличен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
+          },
+          {
+            "name": "Неудержимая стихия",
+            "description": {
+              "en": "[Combo] Damage increased by 60%. Reuse adds a final knock-down.",
+              "ru": "[Комбо] Урон увеличен на 60%. Повторное использование добавляет завершающий удар, сбивающий с ног."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_77.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s01",
+    "name": {
+      "en": "Reincarnation",
+      "ru": "Ярость Лунного Клинка"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Deals 127 damage and flips up. The next blow deals 101 damage. Two final hits deal 127 and 152 damage.",
+      "ru": "Наносит 127 урона и подбрассывает вверх. Следующий удар наносит 101 урона. Два завершающих удара наносят 127 и 152 урона."
+    },
+    "type": "Normal",
+    "cooldown": 10,
+    "iconUrl": "assets/icons/lancemaster/c12s08.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Тройной выпад",
+            "description": {
+              "en": "[Combo] Can be used thrice. Damage increased by 20%.",
+              "ru": "[Комбо] Можно использовать трижды. Урон увеличен на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_38.webp"
+          },
+          {
+            "name": "Стремительный бросок",
+            "description": {
+              "en": "Increases the range of application, knocks down a single blow.",
+              "ru": "Увеличивает дальность применения, сбивает с ног одиночным ударом."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Ошеломляющий клинок",
+            "description": {
+              "en": "Strikes without moving, stunning opponents. Damage increased by 15%.",
+              "ru": "Наносит удары без движения, ошеломляя противников. Урон увеличен на 15%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_39.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Внутренний резерв",
+            "description": {
+              "en": "Consumes 10% of maximum energy, deals 40% more damage.",
+              "ru": "Расходует 10% максимального объема энергии, наносит на 40% урона больше."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_91.webp"
+          },
+          {
+            "name": "Контузия",
+            "description": {
+              "en": "Exhausting faster.",
+              "ru": "Изнуряет быстрее."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_69.webp"
+          },
+          {
+            "name": "Перехват",
+            "description": {
+              "en": "Attack speed increased by 10%, damage to planted enemies increased by 40%.",
+              "ru": "Скорость атаки увеличена на 10%, урон по подброшенным противникам увеличен на 40%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_29.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Слабое место",
+            "description": {
+              "en": "Deals 60% more damage to enemies, immune control effects.",
+              "ru": "Наносит на 60% больше урона по противникам, невосприимчивым эффектам контроля."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_33.webp"
+          },
+          {
+            "name": "Волна энергии",
+            "description": {
+              "en": "Each blow creates a wave of energy that does not knock down. Damage increased by 30%.",
+              "ru": "Каждый удар создает волну энергии, не сбивающую с ног. Урон увеличен на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s02",
+    "name": {
+      "en": "Heat Source",
+      "ru": "Хлесткий натиск"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Deals 4 hits, the first 3 to 114 damage, the last - 169 damage.",
+      "ru": "Наносит 4 удара, первые 3 по 114 урона, последний - 169 урона."
+    },
+    "type": "Normal",
+    "cooldown": 10,
+    "iconUrl": "assets/icons/lancemaster/c12s02.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Ловкие руки",
+            "description": {
+              "en": "Attack speed increased by 15%.",
+              "ru": "Скорость атаки увеличена на 15%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
+          },
+          {
+            "name": "Критическая угроза",
+            "description": {
+              "en": "Critical strike chance increased by 15%.",
+              "ru": "Шанс критического удара увеличен на 15%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_4.webp"
+          },
+          {
+            "name": "Впечатляющее мастерство",
+            "description": {
+              "en": "If hit on one target, damage is increased by 20%, 2-4 by 3%, 5-9 by 7%, 10 and more by 15%.",
+              "ru": "При попадании по одной цели урон увеличен на 20%, по 2-4 на 3%, по 5-9 на 7%, по 10 и болле на 15%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_90.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Огненный натиск",
+            "description": {
+              "en": "[Fire] Imposes a burning effect for 5 seconds. Summarizes up to 5 times.",
+              "ru": "[Огонь] Накладывает эффект горения на 5 секунд. Суммируется до 5 раз."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_13.webp"
+          },
+          {
+            "name": "Ледяной натиск",
+            "description": {
+              "en": "[Ice] Inflicts frostbite, reducing speed by 10% for 5 seconds. Superimposed up to 5 times, the target will be frozen for 3 seconds.",
+              "ru": "[Лед] Накладывает обморожение, снижающее скорость на 10% в течение 5 секунд. Накладывается до 5 раз, цель будет заморожена на 3 секунды."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_14.webp"
+          },
+          {
+            "name": "Скрытая мощь",
+            "description": {
+              "en": "Damage increased by 25%.",
+              "ru": "Урон увеличен на 25%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_0.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Решительное наступление",
+            "description": {
+              "en": "[Combo] Applicable twice. The number of strokes is reduced to three. Damage increased by 50%.",
+              "ru": "[Комбо] Применимо дважды. Количество ударов уменьшено до трёх. Урон увеличен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
+          },
+          {
+            "name": "Град ударов",
+            "description": {
+              "en": "Deals 7 hits in place, damage increased by 80%.",
+              "ru": "Наносит 7 ударов на месте, урон увеличен на 80%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s03",
+    "name": {
+      "en": "Whirlwind",
+      "ru": "Полет Синего дракона"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Makes a lunge at 3m, dealing 114 damage, and jumping back 4 meters. When reused, lunges at 4m, dealing 96 damage twice. At the end, it takes 4 hits 131, 96, 96, 137 damage.",
+      "ru": "Делает выпад на 3м, нанося 114 урона, и отпрыгивает назад на 4 метра. При повторном использовании делает выпад на 4м, нанося 96 урона дважды. В конце совершает 4 удара 131, 96, 96, 137 урона."
+    },
+    "type": "Combo",
+    "cooldown": 15,
+    "iconUrl": "assets/icons/lancemaster/c12s10.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Быстрая подготовка",
+            "description": {
+              "en": "Cooldown is reduced by 2 seconds.",
+              "ru": "Время восстановления сокращается на 2 секунды."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          },
+          {
+            "name": "Синергия",
+            "description": {
+              "en": "Energy recovery increased by 30%.",
+              "ru": "Восстановление энергии увеличено на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
+          },
+          {
+            "name": "Сосредоточенность",
+            "description": {
+              "en": "Mana cost reduced by 50%.",
+              "ru": "Расход маны уменьшен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Четкое взаимодействие.",
+            "description": {
+              "en": "[Normal] Lashes and rolls back, leaving copy to deal damage.",
+              "ru": "[Обычное] Делает выпад и возвращается назад, осталвяя свою копию, наносящую урон."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_40.webp"
+          },
+          {
+            "name": "Продвижение",
+            "description": {
+              "en": "[Normal] Hits twice, the second blow repels. Deals 20% more damage.",
+              "ru": "[Обычное] Ударяет дважды, второй удар отталкивает. Наносит на 20% больше урона."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_10.webp"
+          },
+          {
+            "name": "Волна энергии",
+            "description": {
+              "en": "Creates shock waves of energy. Deals 15% more damage.",
+              "ru": "Создает ударами волны энергии. Наносит на 15% больше урона."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_88.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Зуб дракона",
+            "description": {
+              "en": "Ignores 30% of the enemy’s defense, attack speed increased by 20%.",
+              "ru": "Игнорирует 30% защиты противника, скорость атаки увеличена на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_2.webp"
+          },
+          {
+            "name": "Потрясение",
+            "description": {
+              "en": "Exhausting faster. For a single target, damage is increased by 30%.",
+              "ru": "Быстрее изнуряет. По одиночной цели урон увеличен на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_69.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s04",
+    "name": {
+      "en": "Sunshine",
+      "ru": "Нисхождение Луны"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Using the spear, moves 7m forward, dealing 92 damage three times and 148 damage with the last blow.",
+      "ru": "С помощью копья перемещается на 7м вперед, нанося по 92 урона трижды и 148 урона последним ударом."
+    },
+    "type": "Normal",
+    "cooldown": 12,
+    "iconUrl": "assets/icons/lancemaster/c12s04.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Высокая маневренность",
+            "description": {
+              "en": "Movement range increased by 2 meters.",
+              "ru": "Дальность перемещения увеличена на 2 метра."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Контузия",
+            "description": {
+              "en": "Exhausting faster.",
+              "ru": "Быстрее изнуряет."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_69.webp"
+          },
+          {
+            "name": "Соредоточенность",
+            "description": {
+              "en": "Mana cost reduced by 50%.",
+              "ru": "Расход маны уменьшен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Нокдаун",
+            "description": {
+              "en": "The last hit stuns for 3 seconds. Cooldown increased by 4 seconds.",
+              "ru": "Последний удар оглушает на 3 секунды. Время восстановления увеличено на 4 секунды."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_30.webp"
+          },
+          {
+            "name": "Слабое место",
+            "description": {
+              "en": "Deals 30% more damage to opponents of non-susceptible control effects.",
+              "ru": "Наносит на 30% урона больше по противникам не восприимчивым эффектам контроля."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_33.webp"
+          },
+          {
+            "name": "Внутренний резерв",
+            "description": {
+              "en": "Consumes 10% of maximum energy, deals 40% more damage.",
+              "ru": "Расходует 10% максимального объема энергии, наносит на 40% урона больше."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_91.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Головокружительный полет",
+            "description": {
+              "en": "Radius increased by 20%, damage increased by 50%.",
+              "ru": "Радиус действия увеличен на 20%, урон увеличен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
+          },
+          {
+            "name": "Пикирующий удар",
+            "description": {
+              "en": "Jumps in the indicated direction, deals damage upon landing.",
+              "ru": "Прыгает в указанном направлении, наносит урон при приземлении."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_52.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s05",
+    "name": {
+      "en": "Iron Chip",
+      "ru": "Восхождение Луны"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Deals 367 damage, throws opponents.",
+      "ru": "Наносит 367 урона, подбрасывает противников."
+    },
+    "type": "Normal",
+    "cooldown": 10,
+    "iconUrl": "assets/icons/lancemaster/c12s05.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Быстрая подготовка",
+            "description": {
+              "en": "Cooldown reduced by 2 seconds.",
+              "ru": "Время восстановления уменьшено на 2 секунды."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          },
+          {
+            "name": "Превосходная подвижность",
+            "description": {
+              "en": "Attack distance increased by 3 meters.",
+              "ru": "Дистанция атаки увеличена на 3 метра."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Синергия",
+            "description": {
+              "en": "Energy builds up 30% faster.",
+              "ru": "Энергия накапливается на 30% быстрее."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Отработанный удар",
+            "description": {
+              "en": "Increases the time for which the enemy will be thrown.",
+              "ru": "Увеличивает время, на которое будет подброшен противник."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_9.webp"
+          },
+          {
+            "name": "Контузия",
+            "description": {
+              "en": "Exhausting faster.",
+              "ru": "Быстрее изнуряет."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_69.webp"
+          },
+          {
+            "name": "Непосильная ноша",
+            "description": {
+              "en": "[Earth] Instead of a toss, slows by 70% for 5 seconds.",
+              "ru": "[Земля] Вместо подбрасывания замедляет на 70% в течение 5 секунд."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_15.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Необузданная сила",
+            "description": {
+              "en": "Radius increased by 20%, damage increased by 50%.",
+              "ru": "Радиус действия увеличен на 20%, урон увеличен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_7.webp"
+          },
+          {
+            "name": "Разлом",
+            "description": {
+              "en": "Knocks down the enemy, inflicts critical damage.",
+              "ru": "Сбивает противника, наносит критический урон."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_77.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s06",
+    "name": {
+      "en": "Spiral Spear",
+      "ru": "Солнечный удар"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Deals 242 damage.",
+      "ru": "Наносит 242 урона."
+    },
+    "type": "Normal",
+    "cooldown": 5,
+    "iconUrl": "assets/icons/lancemaster/c12s14.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Синергия",
+            "description": {
+              "en": "Energy builds up 30% faster.",
+              "ru": "Энергия накапливается на 30% быстрее."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
+          },
+          {
+            "name": "Критическая угроза",
+            "description": {
+              "en": "Critical strike chance of spear tip increased by 30%.",
+              "ru": "Шанс критического удара наконечником копья увеличен на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_89.webp"
+          },
+          {
+            "name": "Удар плечом",
+            "description": {
+              "en": "Before the main blow, deals an additional blow of 20% base damage and repels the enemy.",
+              "ru": "Перед основным ударом наносит дополнительный удар 20% урона от базового и отталкивает противника."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_60.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Серия выпадов",
+            "description": {
+              "en": "Deals 3 hits instead of one, damage increased by 40%.",
+              "ru": "Наносит 3 удара вместо одного, урон увеличен на 40%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_39.webp"
+          },
+          {
+            "name": "Спиральный укол",
+            "description": {
+              "en": "The area of effect of the skill is increased by 20%, damage is increased by 30%.",
+              "ru": "Область действия умения увеличена на 20%, урон увеличен на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_41.webp"
+          },
+          {
+            "name": "Стальное жало",
+            "description": {
+              "en": "Knocks down, damage increased by 20%.",
+              "ru": "Сбивает с ног, урон увеличен на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_50.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Тяжелое древо",
+            "description": {
+              "en": "After the first strike, deals one more, knocking down and inflicting 40% base damage",
+              "ru": "После первого удара наносит еще один, сбивающий с ног и наносящий 40% урона от базового."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_78.webp"
+          },
+          {
+            "name": "Концетрация энергиии",
+            "description": {
+              "en": "The tip of the spear increases by 80%.",
+              "ru": "Наконечник копья увеличивается на 80%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_7.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s07",
+    "name": {
+      "en": "Four Dragons",
+      "ru": "Световые клинки"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Deals 628 damage in 8 hits and 270 by final.",
+      "ru": "Наносит 628 урона за 8 ударов и 270 завершающим."
+    },
+    "type": "Normal",
+    "cooldown": 16,
+    "iconUrl": "assets/icons/lancemaster/c12s15.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Синергия",
+            "description": {
+              "en": "Energy is restored 30% faster.",
+              "ru": "Энергия восстанавливается на 30% быстрее."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
+          },
+          {
+            "name": "Ловкие руки",
+            "description": {
+              "en": "Attack speed increased by 15%.",
+              "ru": "Скорость атаки увеличена на 15%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
+          },
+          {
+            "name": "Критическая угроза",
+            "description": {
+              "en": "Critical strike chance of spear tip increased by 30%.",
+              "ru": "Шанс критического удара наконечником копья увеличен на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_89.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Высокий темп",
+            "description": {
+              "en": "[Hold] Deals 50% more damage.",
+              "ru": "[Поддерживаемое] Наносит на 50% больше урона."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_42.webp"
+          },
+          {
+            "name": "Расправа",
+            "description": {
+              "en": "Last hit damage increased by 100%. Attack speed increased.",
+              "ru": "Урон последним ударом увеличен на 100%. Скорость атаки увеличена."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_39.webp"
+          },
+          {
+            "name": "Фантом",
+            "description": {
+              "en": "After the first blow, moves leaving a copy of itself.",
+              "ru": "После первого удара перемещается, оставляя копию себя."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_88.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Быстраяя подготовка",
+            "description": {
+              "en": "Cooldown reduced by 8 seconds.",
+              "ru": "Время восстановления уменьшено на 8 секунд."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_56.webp"
+          },
+          {
+            "name": "Глубокие раны",
+            "description": {
+              "en": "Applies effect for 5 seconds, dealing damage and increasing damage taken by 20%. Summarizes up to 3 times.",
+              "ru": "Накладывает эффект на 5 секунд, наносящий урон и увеличивает получаемый урон на 20%. Суммируется до 3 раз."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_46.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s08",
+    "name": {
+      "en": "Crescent Moon",
+      "ru": "Удар полумесяца"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Deals 152 damage twice, followed by 260 damage and a final strike of 303, tossing opponents.",
+      "ru": "Дважды наносит 152 урона, далее 260 урона и завершающим ударом 303, подбрасывая противников."
+    },
+    "type": "Normal",
+    "cooldown": 20,
+    "iconUrl": "assets/icons/lancemaster/c12s07.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Впечатляющее мастерство",
+            "description": {
+              "en": "For one target, 20% more damage, 2-4 for 3%, 5-9 for 7%, 10 and 15% more.",
+              "ru": "По одной цели на 20% больше урона, по 2-4 на 3%, по 5-9 на 7%, по 10 и болле на 15%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_90.webp"
+          },
+          {
+            "name": "Большой размах",
+            "description": {
+              "en": "Final strike radius increased by 20%.",
+              "ru": "Радиус действия завершающим ударом увеличен на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
+          },
+          {
+            "name": "Вращение",
+            "description": {
+              "en": "Damage increased by 20% before the final hit.",
+              "ru": "Урон увеличен на 20% перед завершающим ударом."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_88.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Беззащитная мишень",
+            "description": {
+              "en": "Critical strike chance increased by 30% for downed opponents.",
+              "ru": "Шанс критического удара увеличен на 30% по сбитым противникам."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_29.webp"
+          },
+          {
+            "name": "Свободный полет",
+            "description": {
+              "en": "After a toss, deals an additional blow, dealing 30% more damage.",
+              "ru": "После подбрасывания наносит дополнительный удар, наносящий на 30% больше урона."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_9.webp"
+          },
+          {
+            "name": "Внутренний резерв",
+            "description": {
+              "en": "Consumes 10% of total energy reserve, deals 40% more damage.",
+              "ru": "Расходует 10% маскимального запаса энергии, наносит на 40% больше урона."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_91.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Штурм",
+            "description": {
+              "en": "[Preparation] When fully prepared, deals 80% more damage.",
+              "ru": "[Подготовка] При полной подготовке наносит на 80% больше урона."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_42.webp"
+          },
+          {
+            "name": "Разрушительный вихрь",
+            "description": {
+              "en": "Additionally creates a whirlwind, causing 50% of the base damage. With \"Free flight\" selected, the vortex moves forward.",
+              "ru": "Дополнительно создает вихрь, наносящий 50% базового урона. При выбранном \"Свободном полете\" вихрь движется вперед."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s09",
+    "name": {
+      "en": "Dragon Wave",
+      "ru": "Кольцо света"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Deals 1101 damage around itself and knocks back enemies.",
+      "ru": "Наносит 1101 урона вокруг себя и отбрасывает противников."
+    },
+    "type": "Normal",
+    "cooldown": 24,
+    "iconUrl": "assets/icons/lancemaster/c12s11.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Обжигающее пламя",
+            "description": {
+              "en": "[Fire] Imposes a burning effect for 5 seconds. Summarizes up to 6 times.",
+              "ru": "[Огонь] Накладывает эффект горения на 5 секунда. Суммируется до 6 раз."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_13.webp"
+          },
+          {
+            "name": "Сковывающий холод",
+            "description": {
+              "en": "[Cold] Applies a frostbite effect, reducing movement speed by 20% for 3 seconds. Summarizes up to 2 times, freezes for 2 seconds. Does not toss.",
+              "ru": "[Холод] Накладывает эффект обморожения, снижающий скорость передвижения на 20% в течение 3 секунд. Суммируется до 2 раз, замораживает на 2 секунды. Не подбрасывает."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_14.webp"
+          },
+          {
+            "name": "Быстрая подготовка",
+            "description": {
+              "en": "Recovery speed reduced by 4 seconds.",
+              "ru": "Скорость восстановления уменьшена на 4 секунды."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Повторная аттака",
+            "description": {
+              "en": "[Combo] Extra hit. Deals 40% more damage.",
+              "ru": "[Комбо] Дополнительный удар. Наносит на 40% больше урона."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_38.webp"
+          },
+          {
+            "name": "Захват инициативы",
+            "description": {
+              "en": "Radius reduced by 20%, cast speed reduced by 0.6 seconds, damage increased by 20%.",
+              "ru": "Радиус действия уменьшен на 20%, скорость применения уменьшена на 0.6 секунд, урон увеличен на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_41.webp"
+          },
+          {
+            "name": "Предельное усилие",
+            "description": {
+              "en": "Cast time increased by 1.5 seconds. Damage increased by 80%.",
+              "ru": "Время применения увеличено на 1.5 секунд. Урон увеличен на 80%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_39.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Несгибаемая воля",
+            "description": {
+              "en": "Immunity to knockback effects, damage taken reduced by 30%.",
+              "ru": "Невосприимчивость эффектам отбрасывания, получаемый урон уменьшен на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_23.webp"
+          },
+          {
+            "name": "Пргобуждение дракона",
+            "description": {
+              "en": "Summons a dragon spirit that deals damage. Critical strike chance increased by 25%, damage dealt increased by 50%.",
+              "ru": "Призывает дух дракона, наносящий урон. Шанс критического урона увеличен на 25%, наносимый урон увеличен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s10",
+    "name": {
+      "en": "Heat Wave",
+      "ru": "Опаляющая волна"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Double deals 47 damage, then three times 206 damage. The final blow repels enemies and inflicts 238 damage.",
+      "ru": "Дважды наносит по 47 урона, далее трижды по 206 урона. Завершающим ударом откидывает противников и наносит 238 урона."
+    },
+    "type": "Normal",
+    "cooldown": 24,
+    "iconUrl": "assets/icons/lancemaster/c12s16.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Быстрая подготовка",
+            "description": {
+              "en": "Cooldown reduced by 4 seconds.",
+              "ru": "Время восстановления уменьшено на 4 секунды."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          },
+          {
+            "name": "Слабое место",
+            "description": {
+              "en": "Deals 20% more damage to enemies, immune control effects.",
+              "ru": "Наносит на 20% больше урона по противникам, невосприимчивым эффектам контроля."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_33.webp"
+          },
+          {
+            "name": "Ловкие руки",
+            "description": {
+              "en": "Attack speed increased by 20%.",
+              "ru": "Скорость атаки увеличена на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Критическая угроза",
+            "description": {
+              "en": "Critical Chance increased by 50%.",
+              "ru": "Шанс критического урона увеличен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_89.webp"
+          },
+          {
+            "name": "Защитный барьер",
+            "description": {
+              "en": "During use, absorbs damage equal to 30% of maximum health.",
+              "ru": "Во время применения поглощает урон, равный 30% максимального запаса здоровья."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_75.webp"
+          },
+          {
+            "name": "Разрушительный эффект",
+            "description": {
+              "en": "Adds a Level 2 Destruction effect.",
+              "ru": "Добавляет эффект Разрушение 2 уровня."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_21.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Тщательная подготовка",
+            "description": {
+              "en": "[Preparation] With full preparation, the critical strike chance is increased by 50%, damage is increased by 50%.",
+              "ru": "[Подготовка] При полной подготовке шанс критического удара увеличен на 50%, урон увеличен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_42.webp"
+          },
+          {
+            "name": "Кипучая энергия",
+            "description": {
+              "en": "Instead of knocking back, deals damage three times with an impulse and throws enemies. Deals 30% more base damage.",
+              "ru": "Вместо отбрасывания наносит трижды урон импульсом и подбрасывает. Наносит на 30% больше базового урона."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s11",
+    "name": {
+      "en": "Line Spear",
+      "ru": "Небесное колесо"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Three times deals 211 damage around up in the air, when landing deals 271 damage. Re-flies opponents.",
+      "ru": "Трижды наносит 211 урона вокруг себя в воздухе, при приземлении наносит 271 урона. Повторно подбрасывает противников."
+    },
+    "type": "Normal",
+    "cooldown": 14,
+    "iconUrl": "assets/icons/lancemaster/c12s03.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Сосредоточенность",
+            "description": {
+              "en": "Mana cost reduced by 50%.",
+              "ru": "Расход маны уменьшен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          },
+          {
+            "name": "Жесткая посадка",
+            "description": {
+              "en": "The last blow knocks down not even thrown opponents.",
+              "ru": "Последний удар сбивает с ног даже не подброшенных противников."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_77.webp"
+          },
+          {
+            "name": "Высокая маневренность",
+            "description": {
+              "en": "Range increased by 2m. Stronger repels.",
+              "ru": "Дальность увеличена на 2 метра. Сильнее отталкивает."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Слабое место",
+            "description": {
+              "en": "Deals 30% more damage to enemies, responsive control effects.",
+              "ru": "Наносит на 30% больше урона по противникам, навосприимчивым эффектам контроля."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_33.webp"
+          },
+          {
+            "name": "Синергия",
+            "description": {
+              "en": "Energy is restored 50% faster.",
+              "ru": "Энергия восстанавливается на 50% быстрее."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_37.webp"
+          },
+          {
+            "name": "Героизм",
+            "description": {
+              "en": "Cannot be interrupted by knockback effects.",
+              "ru": "Невозможно прервать эффектами отбрасывания."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_23.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Суровый приговор",
+            "description": {
+              "en": "Critical strike chance of last attack increased by 50%.",
+              "ru": "Шанс критического удара последней атакой увеличен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_4.webp"
+          },
+          {
+            "name": "Бешенный напор",
+            "description": {
+              "en": "[Combo] Applied twice. Damage increased by 100%.",
+              "ru": "[Комбо] Применяется дважды. Урон увеличен на 100%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s12",
+    "name": {
+      "en": "Ball",
+      "ru": "Танец Лунной девы"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Makes a jump, dealing 120 damage. Deals a series of circular strokes, the first deals 120 and 4 subsequent ones of 80. When reused, it deals 239 damage in the selected direction.",
+      "ru": "Совершает прыжок, нанося 120 урона. Наносит серию круговых ударов, первый наносит 120 и 4 последующих по 80. При повторном использовании наносит 239 урона в выбранном направлении."
+    },
+    "type": "Combo",
+    "cooldown": 16,
+    "iconUrl": "assets/icons/lancemaster/c12s12.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Сосредоточенность",
+            "description": {
+              "en": "Mana cost reduced by 50%.",
+              "ru": "Расход маны уменьшен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          },
+          {
+            "name": "Черепашья скорость",
+            "description": {
+              "en": "Enemy movement speed reduced by 20% for 7 seconds.",
+              "ru": "Скорость передвижения противников уменьшена на 20% в течение 7 секунд."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_47.webp"
+          },
+          {
+            "name": "Высокая маневренность",
+            "description": {
+              "en": "Jump range increased by 2 meters.",
+              "ru": "Дальность прыжка увеличена на 2 метра."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Широкая траектория",
+            "description": {
+              "en": "Skill radius increased by 20%.",
+              "ru": "Радиус умения увеличен на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_7.webp"
+          },
+          {
+            "name": "Прочная броня",
+            "description": {
+              "en": "Damage taken reduced by 30%.",
+              "ru": "Получаемый урон снижен на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_25.webp"
+          },
+          {
+            "name": "Удачное приземление",
+            "description": {
+              "en": "Reuse deals damage around.",
+              "ru": "Повторное использование наносит урон вокруг."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_39.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Мгновенная реакция",
+            "description": {
+              "en": "Cooldown reduced by 3 seconds. Does not strike a series of blows.",
+              "ru": "Время восстановления уменьшено на 3 секунды. Не наносит серию ударов."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
+          },
+          {
+            "name": "Призрачный шаг",
+            "description": {
+              "en": "Makes a jump in the selected direction, damage increased by 20%. Passes through ordinary opponents.",
+              "ru": "Совершает прыжок в выбранном направлении, урон увеличен на 20%. Проходит сквозь обычным противников."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_41.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s13",
+    "name": {
+      "en": "Shooting Star",
+      "ru": "Солнечное затмение"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Makes a jump to a specified location, dealing 1060 damage.",
+      "ru": "Совершает прыжок в указанное место, нанося 1060 урона."
+    },
+    "type": "Point",
+    "cooldown": 24,
+    "iconUrl": "assets/icons/lancemaster/c12s17.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Слабое место",
+            "description": {
+              "en": "Deals 20% more damage to opponents of the immune effects of control.",
+              "ru": "Наносит на 20% больше урона по противникам невосприимчивым эффектам контроля."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_33.webp"
+          },
+          {
+            "name": "Зона поражения",
+            "description": {
+              "en": "Skill radius increased by 20%.",
+              "ru": "Радиус умения увеличен на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
+          },
+          {
+            "name": "Разрушительный эффект",
+            "description": {
+              "en": "Adds a Level 1 Destruction effect.",
+              "ru": "Добавляет эффект Разрушение 1 уровня."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_21.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Контузия",
+            "description": {
+              "en": "Exhausting faster.",
+              "ru": "Быстрее изнуряет."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_69.webp"
+          },
+          {
+            "name": "Синергия",
+            "description": {
+              "en": "Energy is restored 50% faster.",
+              "ru": "Энергия восстанавливается на 50% быстрее."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_37.webp"
+          },
+          {
+            "name": "Быстрая подготовка",
+            "description": {
+              "en": "Cooldown reduced by 6 seconds.",
+              "ru": "Время восстановления уменьшено на 6 секунд."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_56.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Сжатая пружина",
+            "description": {
+              "en": "Chance of critical damage against enemies, immune control effects, increased by 100%.",
+              "ru": "Шанс критического урона по противникам, невосприимчивым эффектам контроля, увеличен на 100%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_0.webp"
+          },
+          {
+            "name": "Ударная волна",
+            "description": {
+              "en": "Damage increased by 70%.",
+              "ru": "Урон увеличен на 70%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_78.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s14",
+    "name": {
+      "en": "Blue Dragon",
+      "ru": "Круговорот силы"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "It makes a 4 meter spurt, deals damage 6 times with 98 damage, and bounces back 3 meters.",
+      "ru": "Совершает рывок на 4 метра, наносит урон 6 раз по 98 урона и отскакивает назад на 3 метра."
+    },
+    "type": "Normal",
+    "cooldown": 14,
+    "iconUrl": "assets/icons/lancemaster/c12s06.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Прочная броня",
+            "description": {
+              "en": "Takes 40% less damage.",
+              "ru": "Получает на 40% меньше урона."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_25.webp"
+          },
+          {
+            "name": "Сосредоточенность",
+            "description": {
+              "en": "Mana cost reduced by 50%.",
+              "ru": "Расход маны уменьшен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          },
+          {
+            "name": "Беззащитная мешень",
+            "description": {
+              "en": "Deals 30% more damage to downed enemies.",
+              "ru": "Наносит на 30% больше урона по сбитым противникам."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_29.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Синергия",
+            "description": {
+              "en": "Energy builds up 50% faster.",
+              "ru": "Энергия накапливается на 50% быстрее."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_37.webp"
+          },
+          {
+            "name": "Испровизация",
+            "description": {
+              "en": "A skill can be interrupted by another skill.",
+              "ru": "Умение можно прервать другим умением."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_92.webp"
+          },
+          {
+            "name": "Впечатляющее мастерство",
+            "description": {
+              "en": "For one enemy damage is increased by 30%, by 2-4 by 5%, by 5-9 by 10%, by 10 and more by 20%.",
+              "ru": "По одной цели урон увеличен на 30%, по 2-4 на 5%, по 5-9 на 10%, по 10 и болле на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_90.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Смертельный круговорот",
+            "description": {
+              "en": "Does not dash, damage increased by 50%.",
+              "ru": "Не совершает рывок, урон увеличен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          },
+          {
+            "name": "Наступательный маневр",
+            "description": {
+              "en": "Dash range increased by 2 meters. Before the rebound, throws up opponents. Damage increased by 30%.",
+              "ru": "Дальность рывка увеличена на 2 метра. Перед отскоком подбрасывает противников. Урон увеличен на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s15",
+    "name": {
+      "en": "Wind Hammer",
+      "ru": "Удар полнолуния"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Circular strike for 436 damage, pulls together opponents.",
+      "ru": "Круговой удар на 436 урона, стягивает противников."
+    },
+    "type": "Normal",
+    "cooldown": 12,
+    "iconUrl": "assets/icons/lancemaster/c12s01.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Сосредоточенность",
+            "description": {
+              "en": "Mana cost reduced by 50%.",
+              "ru": "Расход маны уменьшен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          },
+          {
+            "name": "Контузия",
+            "description": {
+              "en": "Exhausting faster.",
+              "ru": "Быстрее изнуряет."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_69.webp"
+          },
+          {
+            "name": "Прочные путы",
+            "description": {
+              "en": "Reduces enemy movement speed by 50% for 2 seconds.",
+              "ru": "Уменьшает скорость передвижения противников на 50% в течение 2 секунд."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_47.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Впечатляющее мастерство",
+            "description": {
+              "en": "Damage for one target increased by 30%, 2-4 by 5%, 5-9 by 10%, 10 and more by 20%.",
+              "ru": "Урон по одной цели увеличен на 30%, по 2-4 на 5%, по 5-9 на 10%, по 10 и более на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_90.webp"
+          },
+          {
+            "name": "Слабое место",
+            "description": {
+              "en": "Deals 30% more damage to enemies, immune control effects.",
+              "ru": "Наносит на 30% больше урона по противникам, невосприимчивым эффектам контроля."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_33.webp"
+          },
+          {
+            "name": "Внутренний резерв",
+            "description": {
+              "en": "Consumes 10% of maximum energy, damage increased by 40%.",
+              "ru": "Расходует 10% максимального запаса энергии, урон увеличен на 40%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_91.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Касание смерти",
+            "description": {
+              "en": "[Combo] When used repeatedly, it inflicts a circular blow. Damage increased by 100%.",
+              "ru": "[Комбо] При повторном использовании наносит круговой удар. Урон увеличен на 100%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
+          },
+          {
+            "name": "Последний аргумент",
+            "description": {
+              "en": "Instead of a circular blow, strikes in front. Damage increased by 50%, critical damage - by 100%.",
+              "ru": "Вместо кругового удара, наносит удар перед собой. Урон увеличен на 50%, кртический урон - на 100%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_77.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s16",
+    "name": {
+      "en": "Dragon Spear",
+      "ru": "Мантра рассвета"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Absorbs damage in the amount of 50% of maximum health. If successfully blocked for 1.1 seconds, deals two hits of 535 damage.",
+      "ru": "Поглощает урон в размере 50% максимального запаса здоровья. При успешном блокировании в течение 1.1 секунд, наносит два удара по 535 урона."
+    },
+    "type": "Normal",
+    "cooldown": 20,
+    "iconUrl": "assets/icons/lancemaster/c12s18.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Сосредоточенность",
+            "description": {
+              "en": "Mana cost reduced by 50%.",
+              "ru": "Расход маны уменьшен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          },
+          {
+            "name": "Быстрая контратака",
+            "description": {
+              "en": "Response time increased by 0.1 seconds.",
+              "ru": "Время для ответной атаки увеличено на 0.1 секунды."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_25.webp"
+          },
+          {
+            "name": "Синергия",
+            "description": {
+              "en": "Energy is restored 30% faster.",
+              "ru": "Энергия восстанавливается на 30% быстрее."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Потеря сознания",
+            "description": {
+              "en": "A successful strike back stuns for 3 seconds.",
+              "ru": "Ответный удар при успешной защите оглушает на 3 секунды."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_44.webp"
+          },
+          {
+            "name": "Жесткое возмездие",
+            "description": {
+              "en": "Retaliation always deals critical damage.",
+              "ru": "Ответный удар всегда наносит критический урон."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          },
+          {
+            "name": "Абсолютная защита",
+            "description": {
+              "en": "Immune to control effects during blocking. Retaliation damage increased by 20%.",
+              "ru": "Невосприимчивость к эффектам контроля во время блока. Урон ответного удара увеличен на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_0.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Стремление к совершенству",
+            "description": {
+              "en": "Retaliation radius increased by 5 meters.",
+              "ru": "Радиус ответного удар увеличен на 5 метров."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_7.webp"
+          },
+          {
+            "name": "Очевидное превосходство",
+            "description": {
+              "en": "Deals two retaliatory strikes. Damage increased by 50%.",
+              "ru": "Наносит два ответных удара. Урон увеличен на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s17",
+    "name": {
+      "en": "Flurry",
+      "ru": "Путь затмения"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Makes a dash of 8 meters, dealing three times 211 damage, and returns with a fourth blow with 271 damage.",
+      "ru": "Совершает рывок на 8 метров, нанося трижды по 211 урона, четвертым ударом на 271 урона возвращается назад."
+    },
+    "type": "Normal",
+    "cooldown": 20,
+    "iconUrl": "assets/icons/lancemaster/c12s09.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Быстрая подготовка",
+            "description": {
+              "en": "Cooldown reduced by 4 seconds.",
+              "ru": "Время восстановления уменьшено на 4 секунды."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          },
+          {
+            "name": "Синергия",
+            "description": {
+              "en": "Energy is restored 30% faster.",
+              "ru": "Энергия восстанавливается на 30% быстрее."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
+          },
+          {
+            "name": "Выверенная защита",
+            "description": {
+              "en": "Damage taken reduced by 20%.",
+              "ru": "Получаемый урон уменьшен на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_25.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Бумеранг",
+            "description": {
+              "en": "Creates a copy of itself that deals damage.",
+              "ru": "Создает копию себя, наносящую урон."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_40.webp"
+          },
+          {
+            "name": "Постоянный угроза",
+            "description": {
+              "en": "[Hold] Radius increased by 20%.",
+              "ru": "[Поддерживаемое] Радиус действия увеличен на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_42.webp"
+          },
+          {
+            "name": "Скоростная атака",
+            "description": {
+              "en": "The range is reduced by 20%. Returns after a single hit.",
+              "ru": "Радиус действия уменьшен на 20%. Возвращает назад после одиночного удара."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_41.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Летальный ущерб",
+            "description": {
+              "en": "Damage increased by 30%.",
+              "ru": "Урон увеличен на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_50.webp"
+          },
+          {
+            "name": "Слабое место",
+            "description": {
+              "en": "Deals 60% more damage to enemies, immune control effects.",
+              "ru": "Наносит на 60% больше урона по противникам невосприимчивым эффектам контроля."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_33.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12s18",
+    "name": {
+      "en": "Red Archangel",
+      "ru": "Полет Красного дракона"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Having accumulated energy, releases a wave at a distance of 12 meters with 659 damage. With perfect use, the wave distance is increased to 16m, damage to 1320. Allows to rotate at 90 degrees.",
+      "ru": "Накопив энергию, выпускает волну на расстояние 12 метров 659 урона. При идеальном использование расстояние волны увеличено до 16 мнтров, урон до 1320. Позволяет поворачиваться на 90 градусов."
+    },
+    "type": "Hold",
+    "cooldown": 24,
+    "iconUrl": "assets/icons/lancemaster/c12s19.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Баланс силы",
+            "description": {
+              "en": "Preparation time is reduced by 30%.",
+              "ru": "Время подготовки сокращается на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_6.webp"
+          },
+          {
+            "name": "Синергия",
+            "description": {
+              "en": "Energy is restored 30% faster.",
+              "ru": "Энергия восстанавливается на 30% быстрее."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
+          },
+          {
+            "name": "Быстрая подготовка",
+            "description": {
+              "en": "Cooldown reduced by 4 seconds.",
+              "ru": "Время восстановления уменьшено на 4 секунды."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Озарение",
+            "description": {
+              "en": "Damage increased by 15%, ideally by 40%.",
+              "ru": "Урон увеличен на 15%, в идеале на 40%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_1.webp"
+          },
+          {
+            "name": "Полный контроль",
+            "description": {
+              "en": "Allows to rotate at 360 degrees. There is no perfect moment. Damage increased by 30%, with full preparation - by 50%.",
+              "ru": "Позволяет поворачиваться на 360 градусов. Нет идеального момента. Урон увеличен на 30%, при полной подготовке - на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_42.webp"
+          },
+          {
+            "name": "Губительная мощь",
+            "description": {
+              "en": "The energy wave narrows by 50%, always does critical damage.",
+              "ru": "Волна энергии сужается на 50%, всегда наносит критический урон."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Слабое место",
+            "description": {
+              "en": "Deals 60% more damage to enemies, immune control effects.",
+              "ru": "Наносит на 60% больше урона по противникам, невосприимчивым эффектам контроля."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_33.webp"
+          },
+          {
+            "name": "Безупречное исполнение",
+            "description": {
+              "en": "Critical damage increased by 100% when hit with a spear tip at the perfect moment.",
+              "ru": "Критический урон увеличен на 100%, если попасть наконечником копья в идеальный момент."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_89.webp"
+          }
+        ]
+      }
+    ]
   }
 ]

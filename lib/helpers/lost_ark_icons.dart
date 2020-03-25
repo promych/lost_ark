@@ -45,6 +45,7 @@ class LostArk {
     'class_summoner': class_summoner,
     'class_warlord': class_warlord,
     'class_warrior': class_warrior,
+    'class_lancemaster': class_lancemaster,
     'logo': logo,
     'down': down,
     'social_youtube': social_youtube,
@@ -90,6 +91,8 @@ class LostArk {
       const IconData(0xe80e, fontFamily: _kFontFam);
   static const IconData class_warrior =
       const IconData(0xe80f, fontFamily: _kFontFam);
+  static const IconData class_lancemaster =
+      const IconData(0xf113, fontFamily: _kFontFam);
   static const IconData logo = const IconData(0xe810, fontFamily: _kFontFam);
   static const IconData down = const IconData(0xe812, fontFamily: _kFontFam);
   static const IconData social_youtube =
