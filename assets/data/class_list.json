@@ -375,5 +375,63 @@
     },
     "icon": "class_summoner",
     "video": "CFjrpbee7VM"
+  },
+  {
+    "id": "c13",
+    "name": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "archetype": {
+      "en": "Assassin",
+      "ru": "Ассасин"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "weapon": {
+      "en": "",
+      "ru": ""
+    },
+    "stats": {
+      "control": 3,
+      "speed": 30,
+      "defense": 20,
+      "attack": 60,
+      "range": 80,
+      "support": 50
+    },
+    "icon": "class_blade",
+    "video": ""
+  },
+  {
+    "id": "c14",
+    "name": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "archetype": {
+      "en": "Assassin",
+      "ru": "Ассасин"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "weapon": {
+      "en": "",
+      "ru": ""
+    },
+    "stats": {
+      "control": 3,
+      "speed": 30,
+      "defense": 20,
+      "attack": 60,
+      "range": 80,
+      "support": 50
+    },
+    "icon": "class_demonic",
+    "video": ""
   }
 ]

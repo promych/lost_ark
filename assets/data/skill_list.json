@@ -22918,5 +22918,3571 @@
         ]
       }
     ]
+  },
+  {
+    "id": "c13s00",
+    "name": {
+      "en": "Surprise Attack",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "Hero rolls on 4m forward, strikes crosswise, striking 138 units damage.",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 5,
+    "iconUrl": "assets/icons/blade/c13s00.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Weak exposure",
+            "description": {
+              "en": "When an attack hits with twin blades, it increases the damage from the back, received from the caster and group members, by 20% during 6 from.",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_100.webp"
+          },
+          {
+            "name": "Vital Attack",
+            "description": {
+              "en": "Critical Hit Rate 15%",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_4.webp"
+          },
+          {
+            "name": "Wide Attack",
+            "description": {
+              "en": "Attack range 20%",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "Travel distance 2m",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_10.webp"
+          },
+          {
+            "name": "Weaken Mobility",
+            "description": {
+              "en": "When hit, reduces the enemy’s movement speed by 40% during 4s",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_47.webp"
+          },
+          {
+            "name": "Sharp Attack",
+            "description": {
+              "en": "Critical damage is increased by 50%.",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_5.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Tournament",
+            "description": {
+              "en": "Before jerking on 1 sec turns into a whirlwind with swords, inflicting up 100% damage and knockback enemies. Skill cooldown increased by 5sec.",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
+          },
+          {
+            "name": "Brutal attack",
+            "description": {
+              "en": "Becomes a combo attack. It makes a jerk even faster, piercing the enemy with a two-handed sword and cutting from right to left, which 60% extra damage.",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s01",
+    "name": {
+      "en": "Wind cut",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "Creates Lasting 1,5 sec a whirlwind using twin blades, applying up to 249 units damage, pulls together opponents, and then throws enemies exposed to control effects into the air.",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 10,
+    "iconUrl": "assets/icons/blade/c13s06.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Weaken Mobility",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_47.webp"
+          },
+          {
+            "name": "Survival of the Fittest",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_61.webp"
+          },
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Vortex",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_71.webp"
+          },
+          {
+            "name": "Vital Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          },
+          {
+            "name": "Equipment reinforcement",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_51.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Detonation explosion",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_53.webp"
+          },
+          {
+            "name": "Thick scout",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_7.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s02",
+    "name": {
+      "en": "Upper slash",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 8,
+    "iconUrl": "assets/icons/blade/c13s01.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Strong Armor",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_25.webp"
+          },
+          {
+            "name": "Quick Hands",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
+          },
+          {
+            "name": "Vital Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_4.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Pulling blow",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_71.webp"
+          },
+          {
+            "name": "Powerful whirlwind",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_39.webp"
+          },
+          {
+            "name": "Large whirlpool",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_85.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Sharp Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_69.webp"
+          },
+          {
+            "name": "Tenacity",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_23.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s03",
+    "name": {
+      "en": "Blade Dance",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Hold",
+    "cooldown": 12,
+    "iconUrl": "assets/icons/blade/c13s02.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Dark Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_19.webp"
+          },
+          {
+            "name": "Flame Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_13.webp"
+          },
+          {
+            "name": "Cold Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_14.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_56.webp"
+          },
+          {
+            "name": "Soul abduction",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_37.webp"
+          },
+          {
+            "name": "Vital Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Strengthen the finish",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_72.webp"
+          },
+          {
+            "name": "Hack & Slash",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s04",
+    "name": {
+      "en": "Spin cutter",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Combo",
+    "cooldown": 12,
+    "iconUrl": "assets/icons/blade/c13s08.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Wide Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
+          },
+          {
+            "name": "Weak exposure",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_100.webp"
+          },
+          {
+            "name": "Quick Hands",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Strong Armor",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_25.webp"
+          },
+          {
+            "name": "River rotation",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_71.webp"
+          },
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_56.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Triple spin",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_38.webp"
+          },
+          {
+            "name": "King Spin",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s05",
+    "name": {
+      "en": "",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 12,
+    "iconUrl": "assets/icons/blade/c13s13.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          },
+          {
+            "name": "Sphere management",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
+          },
+          {
+            "name": "Find Weakness",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_33.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Tenacity",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_23.webp"
+          },
+          {
+            "name": "Vital Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          },
+          {
+            "name": "Swoop",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_10.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Moon star",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_5.webp"
+          },
+          {
+            "name": "Stardust",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_42.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s06",
+    "name": {
+      "en": "Dark Axel",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 16,
+    "iconUrl": "assets/icons/blade/c13s11.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Quick Hands",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
+          },
+          {
+            "name": "Light Steps",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_11.webp"
+          },
+          {
+            "name": "Magic Control",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Tenacity",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_23.webp"
+          },
+          {
+            "name": "River rotation",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_10.webp"
+          },
+          {
+            "name": "Vital Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Upper Axel",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_9.webp"
+          },
+          {
+            "name": "Hi-Axel",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_12.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s07",
+    "name": {
+      "en": "Soul Appsover",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Charge",
+    "cooldown": 24,
+    "iconUrl": "assets/icons/blade/c13s07.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Wide Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
+          },
+          {
+            "name": "Concussion",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_69.webp"
+          },
+          {
+            "name": "Quick Hands",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Dark Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_19.webp"
+          },
+          {
+            "name": "Flame Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_13.webp"
+          },
+          {
+            "name": "Cold Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_14.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "A powerful stab",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_87.webp"
+          },
+          {
+            "name": "Half-gap",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s08",
+    "name": {
+      "en": "Death Sentence",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 18,
+    "iconUrl": "assets/icons/blade/c13s04.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          },
+          {
+            "name": "Enhanced Cut",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_20.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Confirm Kill",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_29.webp"
+          },
+          {
+            "name": "Merciless",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_86.webp"
+          },
+          {
+            "name": "Cold zone",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_14.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Decisive Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_41.webp"
+          },
+          {
+            "name": "Bomb",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_78.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s09",
+    "name": {
+      "en": "Twin Shadow",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Chain",
+    "cooldown": 12,
+    "iconUrl": "assets/icons/blade/c13s05.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Magic Control",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          },
+          {
+            "name": "Sphere management",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
+          },
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Reinforcement",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_101.webp"
+          },
+          {
+            "name": "Wide Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_7.webp"
+          },
+          {
+            "name": "Vital Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Cross attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
+          },
+          {
+            "name": "Forward retraction",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s10",
+    "name": {
+      "en": "Earth slash",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 16,
+    "iconUrl": "assets/icons/blade/c13s03.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Merciless",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_69.webp"
+          },
+          {
+            "name": "Survival of the Fittest",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_61.webp"
+          },
+          {
+            "name": "Push",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_60.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Shadow Injection",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_19.webp"
+          },
+          {
+            "name": "Stun Effect",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_30.webp"
+          },
+          {
+            "name": "Find Weakness",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_33.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Leap attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          },
+          {
+            "name": "Earth explosion",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_54.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s11",
+    "name": {
+      "en": "Head Hunt",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 18,
+    "iconUrl": "assets/icons/blade/c13s17.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          },
+          {
+            "name": "Magic Control",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          },
+          {
+            "name": "Weapon Destruction",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_46.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Quick Hunt",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_41.webp"
+          },
+          {
+            "name": "Down Hunt",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_9.webp"
+          },
+          {
+            "name": "Enhanced Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_0.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Find Weakness",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_33.webp"
+          },
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_51.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s12",
+    "name": {
+      "en": "Moonlight Sonic",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 27,
+    "iconUrl": "assets/icons/blade/c13s10.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Dark Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_19.webp"
+          },
+          {
+            "name": "Flame Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_13.webp"
+          },
+          {
+            "name": "Cold Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_14.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_56.webp"
+          },
+          {
+            "name": "Enhanced Duration",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_42.webp"
+          },
+          {
+            "name": "Concentrated attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Forward attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_10.webp"
+          },
+          {
+            "name": "Shade Sonic",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_8.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s13",
+    "name": {
+      "en": "Big Foot",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 15,
+    "iconUrl": "assets/icons/blade/c13s09.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Weak exposure",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_100.webp"
+          },
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Enhanced Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_0.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Missile Bombing",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_38.webp"
+          },
+          {
+            "name": "Enhanced Cut",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_20.webp"
+          },
+          {
+            "name": "Tenacity",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_23.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Concentrated attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
+          },
+          {
+            "name": "Triple turn",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s14",
+    "name": {
+      "en": "Maelstrom",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 30,
+    "iconUrl": "assets/icons/blade/c13s12.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Cold contact",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_14.webp"
+          },
+          {
+            "name": "Sphere management",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
+          },
+          {
+            "name": "Wide Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Dark order",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_6.webp"
+          },
+          {
+            "name": "Quickcast",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_41.webp"
+          },
+          {
+            "name": "Windstorm",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_54.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Stable aura",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_23.webp"
+          },
+          {
+            "name": "Top pressure",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_61.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s15",
+    "name": {
+      "en": "Phat wave",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 18,
+    "iconUrl": "assets/icons/blade/c13s15.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Sphere management",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
+          },
+          {
+            "name": "Quick Hands",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
+          },
+          {
+            "name": "Survival of the Fittest",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_61.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Wide Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_7.webp"
+          },
+          {
+            "name": "Vital Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          },
+          {
+            "name": "Cold Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_14.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Double wave",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
+          },
+          {
+            "name": "Deathwave",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_87.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s16",
+    "name": {
+      "en": "Blitz Rush",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Charge",
+    "cooldown": 24,
+    "iconUrl": "assets/icons/blade/c13s16.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Wide Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
+          },
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Vital Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_4.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Allround",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_41.webp"
+          },
+          {
+            "name": "Scaling Wave",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_58.webp"
+          },
+          {
+            "name": "Dark charge",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_71.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Shadow Rush",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
+          },
+          {
+            "name": "Dual Blitz",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_50.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s17",
+    "name": {
+      "en": "Void Strike",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Charge",
+    "cooldown": 27,
+    "iconUrl": "assets/icons/blade/c13s14.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Quick Hands",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
+          },
+          {
+            "name": "Wide Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
+          },
+          {
+            "name": "Sphere management",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Dark Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_19.webp"
+          },
+          {
+            "name": "Void area",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_85.webp"
+          },
+          {
+            "name": "Concussion",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_69.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Black Explosion",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_78.webp"
+          },
+          {
+            "name": "Black Dimension",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_42.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s00",
+    "name": {
+      "en": "Demonic slash",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 10,
+    "iconUrl": "assets/icons/demonic/c14s04.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Evasion Master",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_26.webp"
+          },
+          {
+            "name": "Enhanced Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_0.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Wide Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_7.webp"
+          },
+          {
+            "name": "Lethargy Effect",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_47.webp"
+          },
+          {
+            "name": "Swift Movement",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_11.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Continuous Charge",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_38.webp"
+          },
+          {
+            "name": "Spinning kick",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s01",
+    "name": {
+      "en": "Nimble",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 6,
+    "iconUrl": "assets/icons/demonic/c14s05.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Magic Control",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          },
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          },
+          {
+            "name": "Enhance",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_60.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Thunder & Lightning",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_17.webp"
+          },
+          {
+            "name": "Ground attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_15.webp"
+          },
+          {
+            "name": "Dark Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_19.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Deadly lunge",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_8.webp"
+          },
+          {
+            "name": "Merciless cutter",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_102.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s02",
+    "name": {
+      "en": "Slasher",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 8,
+    "iconUrl": "assets/icons/demonic/c14s06.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Death Target",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_4.webp"
+          },
+          {
+            "name": "Bleed Effect",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_45.webp"
+          },
+          {
+            "name": "Quick Hands",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_6.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Wide Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_7.webp"
+          },
+          {
+            "name": "Rush",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_39.webp"
+          },
+          {
+            "name": "Precise Shot",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_49.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Merciless blow",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
+          },
+          {
+            "name": "Electric shock",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_17.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s03",
+    "name": {
+      "en": "Spinning dive",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 16,
+    "iconUrl": "assets/icons/demonic/c14s09.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Quick Hands",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_6.webp"
+          },
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Helpless Target",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_29.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Tenacity",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_23.webp"
+          },
+          {
+            "name": "Spin gain",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_0.webp"
+          },
+          {
+            "name": "Evasion Master",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_26.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Last jump",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          },
+          {
+            "name": "Rotation master",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s04",
+    "name": {
+      "en": "Cutlery Cutter",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 18,
+    "iconUrl": "assets/icons/demonic/c14s11.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Swift Movement",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_11.webp"
+          },
+          {
+            "name": "Magic Control",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          },
+          {
+            "name": "Bleed Effect",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_45.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Electric discharge",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_17.webp"
+          },
+          {
+            "name": "Ground attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_15.webp"
+          },
+          {
+            "name": "Wide Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_58.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Boomerang",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_84.webp"
+          },
+          {
+            "name": "Merciless cutter",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_91.webp"
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
+    "id": "c14s05",
+    "name": {
+      "en": "Thrust Impact",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 18,
+    "iconUrl": "assets/icons/demonic/c14s12.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Wide Explosion",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
+          },
+          {
+            "name": "Quick lunge",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Stun Effect",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_44.webp"
+          },
+          {
+            "name": "Enhanced Explosion",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_9.webp"
+          },
+          {
+            "name": "Deep lunge",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_8.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Throw in the throw",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_103.webp"
+          },
+          {
+            "name": "Burst of vengeful spirit",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_0.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s06",
+    "name": {
+      "en": "Brutal Cross",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 10,
+    "iconUrl": "assets/icons/demonic/c14s12.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Electric discharge",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_17.webp"
+          },
+          {
+            "name": "Ground attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_15.webp"
+          },
+          {
+            "name": "Dark Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_19.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Concussion",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_69.webp"
+          },
+          {
+            "name": "Enhanced Cut",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_20.webp"
+          },
+          {
+            "name": "Deadly lunge",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Sudden somersault",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_50.webp"
+          },
+          {
+            "name": "Merciless cutter",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_102.webp"
+          }
+        ]
+      }
+    ]
+  },  
+  {
+    "id": "c14s07",
+    "name": {
+      "en": "Grind Chain",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 12,
+    "iconUrl": "assets/icons/demonic/c14s08.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Enhanced Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_0.webp"
+          },
+          {
+            "name": "Ground attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_15.webp"
+          },
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Vital Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          },
+          {
+            "name": "Weaken Mobility",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_47.webp"
+          },
+          {
+            "name": "Evasion Master",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_26.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Continuous Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_54.webp"
+          },
+          {
+            "name": "Grind Chain",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_53.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s08",
+    "name": {
+      "en": "Destruction",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Combo",
+    "cooldown": 16,
+    "iconUrl": "assets/icons/demonic/c14s13.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Naivety",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_23.webp"
+          },
+          {
+            "name": "Special Bullet",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_33.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Enhanced Cut",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_20.webp"
+          },
+          {
+            "name": "Wave attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_39.webp"
+          },
+          {
+            "name": "Quick Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_41.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Death Target",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_4.webp"
+          },
+          {
+            "name": "Lunge throw",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_10.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s09",
+    "name": {
+      "en": "Spinning weapon",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Combo",
+    "cooldown": 24,
+    "iconUrl": "assets/icons/demonic/c14s27.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Bleed Effect",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_45.webp"
+          },
+          {
+            "name": "Swift Movement",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_11.webp"
+          },
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Enhanced Duration",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_51.webp"
+          },
+          {
+            "name": "Large blade",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_62.webp"
+          },
+          {
+            "name": "Instant determination",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_40.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Armor-piercing blade",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_2.webp"
+          },
+          {
+            "name": "Merciless cutter",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_102.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s10",
+    "name": {
+      "en": "Pointed blade",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 18,
+    "iconUrl": "assets/icons/demonic/c14s10.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Enhanced Duration",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_39.webp"
+          },
+          {
+            "name": "Powerful swing",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_0.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Heavy bleeding",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_45.webp"
+          },
+          {
+            "name": "Vertical swing",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_40.webp"
+          },
+          {
+            "name": "Penetrating blow",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_27.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Deadly blade",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_49.webp"
+          },
+          {
+            "name": "Demon's Blade",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_61.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s11",
+    "name": {
+      "en": "Rising claw",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 12,
+    "iconUrl": "assets/icons/demonic/c14s15.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          },
+          {
+            "name": "Naivety",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_23.webp"
+          },
+          {
+            "name": "Special Bullet",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_33.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Huge hand",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_7.webp"
+          },
+          {
+            "name": "Deadly lunge",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          },
+          {
+            "name": "Concussion",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_69.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Landing capture",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          },
+          {
+            "name": "Capture of death",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s12",
+    "name": {
+      "en": "Genocide",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Combo",
+    "cooldown": 12,
+    "iconUrl": "assets/icons/demonic/c14s29.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Ruthless blow",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_44.webp"
+          },
+          {
+            "name": "Vital Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_4.webp"
+          },
+          {
+            "name": "Straightness",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_23.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Continuous Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_39.webp"
+          },
+          {
+            "name": "Contract with the demon",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_81.webp"
+          },
+          {
+            "name": "Fatal fist",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_40.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Powerful assault",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_103.webp"
+          },
+          {
+            "name": "Tempest Slash",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_104.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s13",
+    "name": {
+      "en": "Daemon Vision",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Charge",
+    "cooldown": 24,
+    "iconUrl": "assets/icons/demonic/c14s17.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Quick release",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
+          },
+          {
+            "name": "Concentrated discharge",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_42.webp"
+          },
+          {
+            "name": "Magic Control",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Burst of energy",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_17.webp"
+          },
+          {
+            "name": "Clot of darkness",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_19.webp"
+          },
+          {
+            "name": "Throw in the throw",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_103.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Instant surge",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          },
+          {
+            "name": "Overwhelming Power",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s14",
+    "name": {
+      "en": "Daemon Grab",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 18,
+    "iconUrl": "assets/icons/demonic/c14s14.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          },
+          {
+            "name": "Magic Control",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          },
+          {
+            "name": "Quick Hands",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_6.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Lethargy Effect",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_47.webp"
+          },
+          {
+            "name": "Throw in the throw",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_103.webp"
+          },
+          {
+            "name": "Armor-piercing arm",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_2.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Huge hand grab",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_7.webp"
+          },
+          {
+            "name": "Outstretched hand",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_52.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s15",
+    "name": {
+      "en": "Pierce Thorn",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Point",
+    "cooldown": 20,
+    "iconUrl": "assets/icons/demonic/c14s16.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Magic Control",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          },
+          {
+            "name": "Bleed Effect",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_45.webp"
+          },
+          {
+            "name": "Enhanced Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_0.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Rotting area",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_45.webp"
+          },
+          {
+            "name": "Triple spikes",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_85.webp"
+          },
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_56.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Released spikes",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_62.webp"
+          },
+          {
+            "name": "Huge spike",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_7.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s16",
+    "name": {
+      "en": "Howling",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 30,
+    "iconUrl": "assets/icons/demonic/c14s18.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Quick Hands",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_6.webp"
+          },
+          {
+            "name": "Fear Preservation",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_51.webp"
+          },
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Survival of the Fittest",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_61.webp"
+          },
+          {
+            "name": "Throw in the throw",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_103.webp"
+          },
+          {
+            "name": "Concussion",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_69.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Angry cry",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_2.webp"
+          },
+          {
+            "name": "Mighty roar",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_7.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s17",
+    "name": {
+      "en": "Eluding Form",
+      "ru": ""
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 27,
+    "iconUrl": "assets/icons/demonic/c14s28.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Bleed Effect",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_45.webp"
+          },
+          {
+            "name": "Quick Hands",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_6.webp"
+          },
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Special Bullet",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_33.webp"
+          },
+          {
+            "name": "Tempest Slash",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_104.webp"
+          },
+          {
+            "name": "Deadly lunge",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Ice hand",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_78.webp"
+          },
+          {
+            "name": "Intensive Attack",
+            "description": {
+              "en": "",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          }
+        ]
+      }
+    ]
   }
 ]
+
