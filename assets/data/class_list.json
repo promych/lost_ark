@@ -387,20 +387,20 @@
       "ru": "Ассасин"
     },
     "description": {
-      "en": "",
+      "en": "Blade is the perfect killer. She is fluent in the art of close combat and usually uses twin daggers, but if necessary she puts into operation a long sword. When fighting, Blade can enter a combat trance, increasing attack speed and strength.",
       "ru": "Клинок смерти — идеальный убийца. Она в совершенстве владеет искусством ближнего боя и обычно использует парные кинжалы, но при необходимости пускает в дело длинный меч. Сражаясь, Клинок смерти может входить в боевой транс, увеличивая скорость и силу атаки."
     },
     "weapon": {
-      "en": "",
-      "ru": ""
+      "en": "Twin blades and sword",
+      "ru": "Парные клинки и меч"
     },
     "stats": {
       "control": 3,
-      "speed": 30,
+      "speed": 80,
       "defense": 20,
-      "attack": 60,
-      "range": 80,
-      "support": 50
+      "attack": 80,
+      "range": 10,
+      "support": 10
     },
     "icon": "class_blade",
     "video": "3jVMGuHkQWs"
@@ -416,20 +416,20 @@
       "ru": "Ассасин"
     },
     "description": {
-      "en": "",
+      "en": "In battle, the unstoppable Demonic combines the technique of lightning attacks with a two-blade haladi dagger and the brute force of demons. A pupil of the Order of Assassins draws dark energy from a fragment of the Red Moon to take on a demonic form in which crushing attacks are available that plunge the enemies into horror.",
       "ru": "В бою неудержимая Фурия сочетает технику молниеносных атак двухклинковым кинжалом халади и грубую силу демонов. Воспитанница ордена убийц черпает темную энергию из осколка Красной луны, чтобы принимать демоническую форму, в которой доступны сокрушительные атаки, повергающие врагов в ужас."
     },
     "weapon": {
-      "en": "",
-      "ru": ""
+      "en": "Haladi",
+      "ru": "Халади"
     },
     "stats": {
       "control": 3,
-      "speed": 30,
-      "defense": 20,
-      "attack": 60,
-      "range": 80,
-      "support": 50
+      "speed": 40,
+      "defense": 30,
+      "attack": 90,
+      "range": 40,
+      "support": 10
     },
     "icon": "class_demonic",
     "video": "FocVw3fUgUw"

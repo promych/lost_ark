@@ -95,8 +95,8 @@ class LostArk {
       const IconData(0xe80f, fontFamily: _kFontFam);
   static const IconData class_lancemaster =
       const IconData(0xf113, fontFamily: _kFontFam);
-  static const IconData class_blade = const IconData(0xffff, fontFamily: _kFontFam);
-  static const IconData class_demonic = const IconData(0xffff, fontFamily: _kFontFam);
+  static const IconData class_blade = const IconData(0xf10d, fontFamily: _kFontFam);
+  static const IconData class_demonic = const IconData(0xf10f, fontFamily: _kFontFam);
   static const IconData logo = const IconData(0xe810, fontFamily: _kFontFam);
   static const IconData down = const IconData(0xe812, fontFamily: _kFontFam);
   static const IconData social_youtube =
