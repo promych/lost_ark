@@ -22920,10 +22920,109 @@
     ]
   },
   {
+    "id": "c12s19",
+    "name": {
+      "en": "Piercing light",
+      "ru": "Пронзающий свет"
+    },
+    "class": {
+      "en": "Lance Master",
+      "ru": "Мастер копья"
+    },
+    "description": {
+      "en": "Having unleashed a spear, it splits the ground with them, causing a blast wave and inflicting 452 damage to enemies. For 6 sec critical damage resistance in affected targets is reduced by 20%.",
+      "ru": "Раскрутив копье, раскалывает им землю, вызывая взрывную волну и нанося врагам 452 ед. урона. В течение 6 сек. устойчивость к критическому урону у пораженных целей снижается на 20%."
+    },
+    "type": "Normal",
+    "cooldown": 24,
+    "iconUrl": "assets/icons/lancemaster/c12s13.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Калечащий удар",
+            "description": {
+              "en": "Adds 2 levels of Parts Destruction: Cut.",
+              "ru": "Эффект «Разрушение (увечья)» для этого умения повышается до 2"
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_20.webp"
+          },
+          {
+            "name": "Контузия",
+            "description": {
+              "en": "The skill causes strong fatigue, when attacking Named or higher type monster.",
+              "ru": "Это умение изнуряет противников быстрее."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_69.webp"
+          },
+          {
+            "name": "Быстрая подготовка",
+            "description": {
+              "en": "Cooldown is reduced by 4s.",
+              "ru": "Время восстановления этого умения сокращается на 4 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Отточенные рефлексы",
+            "description": {
+              "en": "Skill radius is reduced by 20%, but the ground hit is instant.",
+              "ru": "Радиус действия умения сокращается на 20%, но удар по земле теперь наносится мгновенно."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_41.webp"
+          },
+          {
+            "name": "Дезориентация",
+            "description": {
+              "en": "Attack type becomes elements: earth. Using this skill will disorient opponents, making them unable to move and attack for 3s.",
+              "ru": "[Элемент: земля] Теперь использование этого умения дезориентирует противников, лишая их возможности двигаться и атаковать в течение 3 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_15.webp"
+          },
+          {
+            "name": "Удар с небес",
+            "description": {
+              "en": "Summons a huge spear that collapses to a selected point. Skill radius is reduced by 20%.",
+              "ru": "Призывает огромное копье, которое обрушивается в выбранную точку. Радиус действия умения сокращается на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_52.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Серьезная уязвимость",
+            "description": {
+              "en": "On hit, reduces enemy critical strike resistance by 20%.",
+              "ru": "Это умение дополнительно снижает устойчивость врагов к критическому урону на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_46.webp"
+          },
+          {
+            "name": "Внутренний резерв",
+            "description": {
+              "en": "Consumes 15% of the maximum amount of energy of the stars, but damage increases by 100%. The effect will not work if the energy is less than 15%.",
+              "ru": "Поглощает 15% от максимального объема энергии светил, при этом его урон повышается на 100%. Эффект не подействует, если энергии менее 15%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_91.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "c13s00",
     "name": {
       "en": "Surprise Attack",
-      "ru": ""
+      "ru": "Внезапный выпад"
     },
     "class": {
       "en": "Blade",
@@ -22944,7 +23043,7 @@
             "name": "Weak exposure",
             "description": {
               "en": "When an attack hits with twin blades, it increases the damage from the back, received from the caster and group members, by 20% during 6 from.",
-              "ru": ""
+              "ru": "Попадание этим умением накладывает на противников эффект, повышающий получаемый ими урон со спины от Клинка смерти и ее союзников на 20% в течение б сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_100.webp"
           },
@@ -22952,7 +23051,7 @@
             "name": "Vital Attack",
             "description": {
               "en": "Critical Hit Rate 15%",
-              "ru": ""
+              "ru": "Шанс критического удара для этого умения увеличивается на 15%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_4.webp"
           },
@@ -22960,7 +23059,7 @@
             "name": "Wide Attack",
             "description": {
               "en": "Attack range 20%",
-              "ru": ""
+              "ru": "Радиус действия умения увеличивается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
           }
@@ -22973,7 +23072,7 @@
             "name": "Outstanding Mobility",
             "description": {
               "en": "Travel distance 2m",
-              "ru": ""
+              "ru": "Дальность рывка увеличивается на 2м."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_10.webp"
           },
@@ -22981,7 +23080,7 @@
             "name": "Weaken Mobility",
             "description": {
               "en": "When hit, reduces the enemy’s movement speed by 40% during 4s",
-              "ru": ""
+              "ru": "Попадание этим умением уменьшает скорость передвижения противника на 40% в течение 4 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_47.webp"
           },
@@ -22989,7 +23088,7 @@
             "name": "Sharp Attack",
             "description": {
               "en": "Critical damage is increased by 50%.",
-              "ru": ""
+              "ru": "Критический урон для этого умения увеличивается на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_5.webp"
           }
@@ -23002,7 +23101,7 @@
             "name": "Tournament",
             "description": {
               "en": "Before jerking on 1 sec turns into a whirlwind with swords, inflicting up 100% damage and knockback enemies. Skill cooldown increased by 5sec.",
-              "ru": ""
+              "ru": "Перед рывком Клинок смерти создает на исходной позиции вихрь, который действует в течение 1 сек. Вихрь наносит противникам до 100% от урона умения и подбрасывает их в воздух. Время восстановления умения увеличивается на 5 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
           },
@@ -23010,7 +23109,7 @@
             "name": "Brutal attack",
             "description": {
               "en": "Becomes a combo attack. It makes a jerk even faster, piercing the enemy with a two-handed sword and cutting from right to left, which 60% extra damage.",
-              "ru": ""
+              "ru": "«Внезапный выпад» становится комбо-умением. Теперь Клинок смерти делает рывок вперед быстрее. При повторном использовании умения Клинок смерти скрещивает кинжалы, а затем резко разводит их в стороны, отталкивая противников. Общий урон умения увеличивается на 60%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
           }
@@ -23021,115 +23120,16 @@
   {
     "id": "c13s01",
     "name": {
-      "en": "Wind cut",
-      "ru": ""
-    },
-    "class": {
-      "en": "Blade",
-      "ru": "Клинок смерти"
-    },
-    "description": {
-      "en": "Creates Lasting 1,5 sec a whirlwind using twin blades, applying up to 249 units damage, pulls together opponents, and then throws enemies exposed to control effects into the air.",
-      "ru": ""
-    },
-    "type": "Normal",
-    "cooldown": 10,
-    "iconUrl": "assets/icons/blade/c13s06.webp",
-    "tripod": [
-      {
-        "tier": 1,
-        "skills": [
-          {
-            "name": "Weaken Mobility",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_47.webp"
-          },
-          {
-            "name": "Survival of the Fittest",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_61.webp"
-          },
-          {
-            "name": "Quickly Prepare",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "skills": [
-          {
-            "name": "Vortex",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_71.webp"
-          },
-          {
-            "name": "Vital Attack",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
-          },
-          {
-            "name": "Equipment reinforcement",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_51.webp"
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "skills": [
-          {
-            "name": "Detonation explosion",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_53.webp"
-          },
-          {
-            "name": "Thick scout",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_7.webp"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "c13s02",
-    "name": {
       "en": "Upper slash",
-      "ru": ""
+      "ru": "Восходящий вихрь"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Makes a strike inflicting 143 damage, and then creates a small whirlwind with a quick wave of another dagger, throwing enemies into the air and inflicting 214 more damage to them.",
+      "ru": "Клинок смерти совершает удар с разворота, нанося 143 ед. урона, а затем создает небольшой вихрь быстрым взмахом другого кинжала, тем самым подбрасывая противников в воздух и нанося им еще 214 ед. урона."
     },
     "type": "Normal",
     "cooldown": 8,
@@ -23141,24 +23141,24 @@
           {
             "name": "Strong Armor",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Damage taken by Blade during the use of this skill is reduced by 40%.",
+              "ru": "Урон, получаемый Клинком смерти во время применения этого умения, уменьшается на 40%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_25.webp"
           },
           {
             "name": "Quick Hands",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Skill attack speed increases by 15%.",
+              "ru": "Скорость атаки умением увеличивается на 15%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
           },
           {
             "name": "Vital Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The critical strike chance for this skill is increased by 150%.",
+              "ru": "Шанс критического удара для этого умения увеличивается на 150%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_4.webp"
           }
@@ -23170,24 +23170,24 @@
           {
             "name": "Pulling blow",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The radius of the first strike increases by 20%. Now he draws opponents to Blade.",
+              "ru": "Радиус действия первого удара увеличивается на 20%. Теперь он притягивает противников к Клинку смерти."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_71.webp"
           },
           {
             "name": "Powerful whirlwind",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The whirlwind increases in size and throws opponents higher, and the critical strike chance of the second attack of the skill increases by 50%.",
+              "ru": "Вихрь увеличивается в размерах и подбрасывает противников выше, а шанс критического удара второй атакой умения повышается на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_39.webp"
           },
           {
             "name": "Large whirlpool",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "A third attack is added to the skill: Blade swings its sword sharply, creating a larger whirlwind that throws opponents even higher. Skill damage increased by 50%.",
+              "ru": "К умению добавляется третья атака: Клинок смерти резко взмахивает мечом, создавая более крупный вихрь, который подбрасывает противников еще выше. Урон умения повышается на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_85.webp"
           }
@@ -23199,16 +23199,16 @@
           {
             "name": "Sharp Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The skill exhausts opponents faster, and critical damage increases by 50%.",
+              "ru": "Умение изнуряет противников быстрее, а критический урон увеличивается на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_69.webp"
           },
           {
             "name": "Tenacity",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Now this ability cannot be interrupted by the effects of daze and knockback, while its recovery time is increased by 8 seconds.",
+              "ru": "Теперь это умение невозможно прервать эффектами ошеломления и отбрасывания, при этом его время восстановления увеличивается на 8 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_23.webp"
           }
@@ -23217,49 +23217,49 @@
     ]
   },
   {
-    "id": "c13s03",
+    "id": "c13s02",
     "name": {
-      "en": "Blade Dance",
-      "ru": ""
+      "en": "Wind cut",
+      "ru": "Неумолимое притяжение"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "The blade cuts through the air, creating a deadly whirlwind that lasts for 1.5 seconds. The whirlwind inflicts up to 413 damage and attracts opponents to itself. When hit by enemies thrown into the air, throws them again.",
+      "ru": "Клинок смерти рассекает воздух, создавая смертоносныи вихрь, который действует в течение 1,5 сек. Вихрь наносит до 41З ед. урона. и притягивает противников к себе. При попадании по врагам, подброшенным в воздух, подбрасывает их снова."
     },
-    "type": "Hold",
-    "cooldown": 12,
-    "iconUrl": "assets/icons/blade/c13s02.webp",
+    "type": "Normal",
+    "cooldown": 10,
+    "iconUrl": "assets/icons/blade/c13s06.webp",
     "tripod": [
       {
         "tier": 1,
         "skills": [
           {
-            "name": "Dark Attack",
+            "name": "Weaken Mobility",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Hitting this ability reduces the enemy’s movement speed by 30% for 4 sec.",
+              "ru": "Попадание этим умением уменьшает скорость передвижения противника на 30% в течение 4 сек."
             },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_19.webp"
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_47.webp"
           },
           {
-            "name": "Flame Attack",
+            "name": "Survival of the Fittest",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Damage to enemies of the rare type and below is increased by 30%.",
+              "ru": "Урон по противникам типа «редкий» и ниже повышается на 30%."
             },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_13.webp"
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_61.webp"
           },
           {
-            "name": "Cold Attack",
+            "name": "Quickly Prepare",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The cooldown of this skill is reduced by 2 sec.",
+              "ru": "Время восстановления этого умения сокращается на 2 сек."
             },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_14.webp"
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
           }
         ]
       },
@@ -23267,28 +23267,28 @@
         "tier": 2,
         "skills": [
           {
-            "name": "Quickly Prepare",
+            "name": "Vortex",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The radius of the skill increases by 20%. The maximum distance at which the skill attracts opponents also increases by 20%.",
+              "ru": "Радиус действия умения увеличивается на 20%. Максимальное расстояние, на котором умение притягивает противников, также повышается на 20%."
             },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_56.webp"
-          },
-          {
-            "name": "Soul abduction",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_37.webp"
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_71.webp"
           },
           {
             "name": "Vital Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The critical strike chance for this skill is increased by 30%.",
+              "ru": "Шанс критического удара для этого умения увеличивается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          },
+          {
+            "name": "Equipment reinforcement",
+            "description": {
+              "en": "The duration of the vortex increases by 0.6 sec, and the damage done to enemies by 40%.",
+              "ru": "Продолжительность действия вихря увеличивается на 0.6 сек, а наносимый противникам урон — на 40%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_51.webp"
           }
         ]
       },
@@ -23296,20 +23296,119 @@
         "tier": 3,
         "skills": [
           {
-            "name": "Strengthen the finish",
+            "name": "Detonation explosion",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "After the disappearance of the vortex, a surge of energy occurs, which throws opponents into the air. Skill damage increased by 50%.",
+              "ru": "После исчезновения вихря происходит всплеск энергии, который подбрасывает противников в воздух. Урон умения увеличивается на 50%."
             },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_72.webp"
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_53.webp"
           },
           {
-            "name": "Hack & Slash",
+            "name": "Thick scout",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The vortex gradually grows in size, increasing the scope of the skill up to 100% in the last stage.",
+              "ru": "Вихрь постепенно растет в размерах, увеличивая область действия умения вплоть до 100% на последней стадии."
             },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_7.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13s03",
+    "name": {
+      "en": "Paul star",
+      "ru": ""
+    },
+    "class": {
+      "en": "Blade",
+      "ru": "Клинок смерти"
+    },
+    "description": {
+      "en": "Blade throws the enemy at the wave of the sword, inflicting 58 damage, and then bounces and performs a series of blows in the air with their daggers, which inflict up to 345 damage. After that Blade conducts the final blow with the sword, driving the enemy into the ground and inflicting 174 damage to it.",
+      "ru": "Клинок смерти подбрасывает противника взмахом меча, нанося 58 ед. урона, а затем подпрыгивает и совершает серию ударов в воздухе своими кинжалами, которые наносят до 345 ед. урона. После этого Клинок смерти проводит заключительный удар мечом, вбивая противника в землю и нанося ему 174 ед. урона."
+    },
+    "type": "Normal",
+    "cooldown": 12,
+    "iconUrl": "assets/icons/blade/c13s13.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "The cooldown of this skill is reduced by 2 sec.",
+              "ru": "Время восстановления этого умения сокращается на 2 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          },
+          {
+            "name": "Sphere management",
+            "description": {
+              "en": "Using this skill fills the realms of the will 50% faster.",
+              "ru": "Использование этого умения заполняет сферы воли на 50% быстрее."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
+          },
+          {
+            "name": "Find Weakness",
+            "description": {
+              "en": "This skill deals 30% more damage to enemies immune to stun and knockback effects.",
+              "ru": "Это умение наносит на 30% больше урона противникам, невосприимчивым к эффектам ошеломления и отбрасывания."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_33.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Tenacity",
+            "description": {
+              "en": "When Blade is in the air while this skill is being used, it is immune to knockback effects.",
+              "ru": "Когда Клинок смерти находится в воздухе во время применения этого умения, она невосприимчива к эффектам отбрасывания."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_23.webp"
+          },
+          {
+            "name": "Vital Attack",
+            "description": {
+              "en": "The critical strike chance for this skill is increased by 30%.",
+              "ru": "Шанс критического удара для этого умения увеличивается на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          },
+          {
+            "name": "Swoop",
+            "description": {
+              "en": "When using the skill, Blade makes a jerk 4 meters ahead and only then strikes.",
+              "ru": "При использовании умения Клинок смерти совершает рывок на 4 м вперед и лишь затем наносит удар."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_10.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Moon star",
+            "description": {
+              "en": "Blade throws opponents into the air, but then instead of dagger strikes, summon a huge energy sword and plunges it into the ground, throwing opponents again. The damage of the skill is increased by 100%, but at the same time, its recovery time is increased by 6 seconds.",
+              "ru": "Клинок смерти подбрасывает противников в воздух, однако затем вместо ударов кинжалами призывает огромный энергетический меч и вонзает его в землю, подбрасывая противников еще раз. Урон умения повышается на 100%, но при этом время его восстановления увеличивается на 6 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_5.webp"
+          },
+          {
+            "name": "Stardust",
+            "description": {
+              "en": "The skill becomes supported. The duration of air strikes increases by 1 sec., And the total damage done by them - by 200%.",
+              "ru": "Умение становится поддерживаемым. Продолжительность ударов в воздухе увеличивается на 1 сек., а общий наносимый ими урон — на 200%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_42.webp"
           }
         ]
       }
@@ -23326,8 +23425,8 @@
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Blade jerks 5 meters in the indicated direction, rapidly spinning around its axis and inflicting up to 243 damage. The skill can be used up to two times in a row.",
+      "ru": "Клинок смерти совершает рывок на 5 м в указанном направлении, стремительно вращаясь вокруг своеи оси и нанося противникам до 243 ед. урона. Умение можно использовать до двух раз подряд."
     },
     "type": "Combo",
     "cooldown": 12,
@@ -23339,24 +23438,24 @@
           {
             "name": "Wide Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The radius of the skill increases by 15%.",
+              "ru": "Радиус действия умения увеличивается на 15%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
           },
           {
             "name": "Weak exposure",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Hitting this ability inflicts an effect on enemies that increases the damage they take from the back of Blade and its allies by 20% for 10 sec.",
+              "ru": "Попадание этим умением накладывает на противников эффект, повышающий получаемый ими урон со спины от Клинка смерти и ее союзников на 20% в течение 10 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_100.webp"
           },
           {
             "name": "Quick Hands",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Skill attack speed increases by 15%.",
+              "ru": "Скорость атаки умением увеличивается на 15%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
           }
@@ -23368,24 +23467,24 @@
           {
             "name": "Strong Armor",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Damage taken by Blade during the use of this skill is reduced by 40%.",
+              "ru": "Урон, получаемый Клинком смерти во время применения этого умения, уменьшается на 40%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_25.webp"
           },
           {
             "name": "River rotation",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The range of each jerk is increased by 1 m. In addition, the ability now repels opponents 20% further.",
+              "ru": "Дальность каждого рывка увеличивается на 1 м. Кроме того, умение теперь отталкивает противников на 20% дальше."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_71.webp"
           },
           {
             "name": "Quickly Prepare",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The cooldown of this skill is reduced by 4 sec.",
+              "ru": "Время восстановления этого умения сокращается на 4 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_56.webp"
           }
@@ -23397,16 +23496,16 @@
           {
             "name": "Triple spin",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Now the skill can be used up to three times in a row.",
+              "ru": "Теперь умение можно использовать до трех раз подряд."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_38.webp"
           },
           {
             "name": "King Spin",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The skill is becoming ordinary. Blade dashes forward 8 meters, dealing damage to enemies. The ability now repels enemies 2 meters further.",
+              "ru": "Умение становится обычным. Клинок смерти совершает рывок на 8 м вперед, нанося урон противникам. Умение теперь отталкивает врагов на 2 м дальше."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
           }
@@ -23417,47 +23516,47 @@
   {
     "id": "c13s05",
     "name": {
-      "en": "",
-      "ru": ""
+      "en": "Blade Dance",
+      "ru": "Блиц"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Blade makes up to seven lightning strikes with its daggers for 2 sec, inflicting 667 damage to enemies, after which it conducts a final attack, which inflicts 286 damage. damage. When hit by enemies thrown into the air, throws them again.",
+      "ru": "Клинок смерти совершает до семи молниеносных ударов своими кинжалами в течение 2 сек., нанося противникам 667 ед. урона, после чего проводит завершающую атаку, которая наносит 286 ед. урона. При попадании по врагам, подброшенным в воздух, подбрасывает их снова."
     },
-    "type": "Normal",
+    "type": "Hold",
     "cooldown": 12,
-    "iconUrl": "assets/icons/blade/c13s13.webp",
+    "iconUrl": "assets/icons/blade/c13s02.webp",
     "tripod": [
       {
         "tier": 1,
         "skills": [
           {
-            "name": "Quickly Prepare",
+            "name": "Dark Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Dark] Skill damage increased by 15%.",
+              "ru": "[Элемент: тьма] Урон умения повышается на 15%."
             },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_19.webp"
           },
           {
-            "name": "Sphere management",
+            "name": "Flame Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Fire] Hitting this ability causes the enemy to burn for 5 seconds. The effect stacks up to five times.",
+              "ru": "[Элемент: огонь] Попадание этим умением вызывает у противника ожог на 5 сек. Эффект суммируется до пяти раз."
             },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_13.webp"
           },
           {
-            "name": "Find Weakness",
+            "name": "Cold Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Ice] This skill additionally inflicts frostbite on the enemies, reducing their movement speed by 20% and lasting 3 sec. This effect is summed up to three times, after which it causes icing, which deprives the target of the ability to move and attack for 3 seconds.",
+              "ru": "[Элемент: лед] Это умение дополнительно накладывает на противников эффект обморожения, снижающий скорость передвижения на 20% и действующий 3 сек. Этот эффект суммируется до трех раз, после чего вызывает обледенение, которое лишает цель возможности двигаться и атаковать в течение 3 сек."
             },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_33.webp"
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_14.webp"
           }
         ]
       },
@@ -23465,28 +23564,28 @@
         "tier": 2,
         "skills": [
           {
-            "name": "Tenacity",
+            "name": "Quickly Prepare",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The cooldown of this skill is reduced by 5 sec.",
+              "ru": "Время восстановления этого умения сокращается на 5 сек."
             },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_23.webp"
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_56.webp"
+          },
+          {
+            "name": "Soul abduction",
+            "description": {
+              "en": "If the skill has been fully completed, the Death Blade with a 40% probability will immediately receive half the scope of the will. This effect also works during a combat trance.",
+              "ru": "Если умение было выполнено полностью, Клинок смерти с вероятностью 40% получит сразу половину сферы воли. Этот эффект действует и во время боевого транса."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_37.webp"
           },
           {
             "name": "Vital Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Critical strike chance increased by 30%.",
+              "ru": "Шанс критического удара увеличивается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
-          },
-          {
-            "name": "Swoop",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_10.webp"
           }
         ]
       },
@@ -23494,38 +23593,39 @@
         "tier": 3,
         "skills": [
           {
-            "name": "Moon star",
+            "name": "Strengthen the finish",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Blade begins to feel the perfect moment for this skill. If you catch this moment, the final attack with the sword will do 200% more damage. The second second-level tripod effect acts when the skill is applied at the ideal moment.",
+              "ru": "Клинок смерти начинает чувствовать идеальный момент для данного умения. Если поймать этот момент, завершающая атака мечом нанесет на 200% больше урона. Эффект второго трипода второго уровня действует при применении умения в идеальный момент."
             },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_5.webp"
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_72.webp"
           },
           {
-            "name": "Stardust",
+            "name": "Hack & Slash",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Blade no longer carries out a final attack, however, it makes blows faster and is able to slowly change their direction. The skill can now be used for 1 sec. longer, and the damage it deals is increased by 100%.",
+              "ru": "Клинок смерти больше не проводит завершаюидую атаку, однако быстрее совершает удары и при этом способна медленно изменять их направление. Умение теперь можно использовать на 1 сек. дольше, а наносимый им урон увеличивается на 100%."
             },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_42.webp"
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
           }
         ]
       }
     ]
   },
+  
   {
     "id": "c13s06",
     "name": {
       "en": "Dark Axel",
-      "ru": ""
+      "ru": "Аксель"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Blade leaps 6 meters in the indicated direction, while it rotates in the air and inflicts 380 damage to enemies and also pushes them back. Immediately after landing, waves its long sword, inflicting 253 damage and tossing opponents. When hit by a skill on enemies thrown into the air, throws them up again.",
+      "ru": "Клинок смерти совершает прыжок на 6 м в указанном направлении, при этом она вращается в воздухе и наносит врагам 380 ед. урона, а также отталкивает их назад. Сразу после приземления Клинок смерти взмахивает длинным мечом, нанося 253 ед. урона и подбрасывая противников. При попадании умением по врагам, подброшенным в воздух, подбрасывает их снова."
     },
     "type": "Normal",
     "cooldown": 16,
@@ -23537,24 +23637,24 @@
           {
             "name": "Quick Hands",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Skill attack speed increases by 15%.",
+              "ru": "Скорость атаки умением увеличивается на 15%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
           },
           {
             "name": "Light Steps",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "After using the ability, the speed of Blade increases by 20% for 3 sec.",
+              "ru": "После использования умения скорость передвижения Клинка смерти увеличивается на 20% в течение 3 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_11.webp"
           },
           {
             "name": "Magic Control",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Mana cost of this skill is reduced by 50%.",
+              "ru": "Расход маны на это умение уменьшается на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
           }
@@ -23566,24 +23666,24 @@
           {
             "name": "Tenacity",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "When Blade is in the air while this skill is being used, it is immune to the effects of stun and knockback.",
+              "ru": "Когда Клинок смерти находится в воздухе во время применения этого умения, она невосприимчива к эффектам ошеломления и отбрасывания."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_23.webp"
           },
           {
             "name": "River rotation",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The jump range is increased by 3 m, and the damage done - by 30%. In addition, the number of hits in the jump is increasing.",
+              "ru": "Дальность прыжка повышается на 3 м, а наносимый урон — на 30%. Кроме того, увеличивается количество ударов в прыжке."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_10.webp"
           },
           {
             "name": "Vital Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The critical strike chance for this skill is increased by 30%.",
+              "ru": "Шанс критического удара для этого умения увеличивается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
           }
@@ -23595,16 +23695,16 @@
           {
             "name": "Upper Axel",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The critical strike chance for attacks during the jump is increased by 50%, and the damage from the final strike with the sword is increased by 100%. In addition, this blow now throws opponents higher.",
+              "ru": "Шанс критического удара для атак во время прыжка увеличивается на 50%, а урон от завершающего удара мечом — на 100%. Кроме того, этот удар теперь подбрасывает противников выше."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_9.webp"
           },
           {
             "name": "Hi-Axel",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Blade no longer deals the final blow with the sword, but its jump range increases by 2 m, and its height increases so much that it allows jumping over the Guardians. If the second level is chosen as the effect of the tripod of the second level, the range of the jump increases by another 2 m.",
+              "ru": "Клинок смерти больше не наносит завершающий удар мечом, но дальность ее прыжка повышается на 2 м, а его высота увеличивается настолько, что позволяет перепрыгивать через Хранителей. Если в качестве эффекта трипода второго уровня выбран второй - дальность прыжка повышается еще на 2 м."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_12.webp"
           }
@@ -23616,15 +23716,15 @@
     "id": "c13s07",
     "name": {
       "en": "Soul Appsover",
-      "ru": ""
+      "ru": "Длань Авесты"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Blade concentrates energy in his sword, and then makes a sharp attack, which inflicts 304 damage and throws enemies into the air. With full training, damage increases to 1217.",
+      "ru": "Клинок смерти концентрирует энергию в своем мече, а затем совершает резкий выпад, который наносит 304 ед. урона и подбрасывает противников в воздух. При полнои подготовке урон увеличивается до 1217 ед."
     },
     "type": "Charge",
     "cooldown": 24,
@@ -23636,24 +23736,24 @@
           {
             "name": "Wide Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Lunge range increased by 30%.",
+              "ru": "Дальность выпада увеличивается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
           },
           {
             "name": "Concussion",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "This skill exhausts opponents faster.",
+              "ru": "Это умение изнуряет противников быстрее."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_69.webp"
           },
           {
             "name": "Quick Hands",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The training time for this skill is reduced by 20%.",
+              "ru": "Время подготовки этого умения сокращается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
           }
@@ -23665,24 +23765,24 @@
           {
             "name": "Dark Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Darkness] Skill damage increased by 30%.",
+              "ru": "[Элемент: тьма] Урон умения повышается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_19.webp"
           },
           {
             "name": "Flame Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Fire] The critical strike chance for this skill is increased by 30%.",
+              "ru": "[Элемент: огонь] Шанс критического удара для этого умения увеличивается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_13.webp"
           },
           {
             "name": "Cold Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Ice] When fully prepared, the skill no longer throws opponents, but imposes an icing effect on them, making it impossible to move and attack for 3 seconds.",
+              "ru": "[Элемент: лед] При полной подготовке умение больше не подбрасывает противников, а накладывает на них эффект обледенения, лишающий возможности двигаться и атаковать в течение 3 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_14.webp"
           }
@@ -23694,16 +23794,16 @@
           {
             "name": "A powerful stab",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The skill is becoming ordinary. Lunge range increases by 30%, and critical damage - by 50%.",
+              "ru": "Умение становится обычным. Дальность выпада увеличивается на 30%, а критический урон — на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_87.webp"
           },
           {
             "name": "Half-gap",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "When fully prepared, Blade throws enemies into the air not with the first blow, but with the second, which it makes immediately after the attack. At the same time, the total damage of the skill is increased by 100%.",
+              "ru": "При полной подготовке Клинок смерти подбрасывает противников в воздух не первым ударом, а вторым, который она совершает сразу после выпада. При этом общий урон умения увеличивается на 100%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
           }
@@ -23715,15 +23815,15 @@
     "id": "c13s08",
     "name": {
       "en": "Death Sentence",
-      "ru": ""
+      "ru": "Смертельный приговор"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Blade jumps 4 meters in the indicated direction and makes a powerful blow with two daggers, which inflicts 671 damage and knocks down opponents.",
+      "ru": "Клинок смерти прыгает на 4 м в указанном направлении и совершает мощныи удар двумя кинжалами, который наносит 671 ед. урона и сбивает противников с ног."
     },
     "type": "Normal",
     "cooldown": 18,
@@ -23735,24 +23835,24 @@
           {
             "name": "Outstanding Mobility",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Jump range increases by 2 m.",
+              "ru": "Дальность прыжка увеличивается на 2 м."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
           },
           {
             "name": "Quickly Prepare",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The cooldown of this skill is reduced by 2 sec.",
+              "ru": "Время восстановления этого умения сокращается на 2 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
           },
           {
             "name": "Enhanced Cut",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Level 1 Destruction is added to this skill.",
+              "ru": "К этому умению добавляется эффект Разрушение 1 ур."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_20.webp"
           }
@@ -23764,24 +23864,24 @@
           {
             "name": "Confirm Kill",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The chance to critically hit opponents knocked down by this ability is increased by 100%.",
+              "ru": "Шанс нанести этим умением критический удар по сбитым с ног противникам увеличивается на 100%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_29.webp"
           },
           {
             "name": "Merciless",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The chance to critically strike exhausted opponents with this ability is increased by 100%.",
+              "ru": "Шанс нанести этим умением критический удар по изнуренным противникам увеличивается на 100%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_86.webp"
           },
           {
             "name": "Cold zone",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Ice] This skill creates an area of piercing cold, which deals damage to enemies every second for 5 sec. and applies a frostbite effect on them, reducing movement speed by 20%. The effect lasts 2 sec. and stacks up to three times.",
+              "ru": "[Элемент: лед] Это умение создает область пронизывающего холода, которая наносит противникам урон каждую секунду в течение 5 сек. и накладывает на них эффект обморожения , уменьшающий скорость передвижения на 20%. Эффект действует 2 сек. и суммируется до трех раз."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_14.webp"
           }
@@ -23793,16 +23893,16 @@
           {
             "name": "Decisive Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Blade is teleported into the air, after which it crumbles with crushing force to the indicated point. This skill deals 80% more damage to enemies immune to stun and knockback effects. The maximum jump range is increased by 1 m.",
+              "ru": "Клинок смерти телепортируется в воздух, после чего с сокрушительной силой обрушивается в указанную точку. Это умение наносит на 80% больше урона противникам, невосприимчивым к эффектам ошеломления и отбрасывания. Максимальная дальность прыжка увеличивается на 1 м."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_41.webp"
           },
           {
             "name": "Bomb",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The area of effect of the skill increases by 30%. After the first strike, Blade kicks the ground, inflicting 50% of the damage of the damage to enemies and throwing them into the air.",
+              "ru": "Область действия умения увеличивается на 30%. После первого удара Клинок смерти бьет ногой по земле, нанося противникам урон в размере 50% от урона умения и подбрасывая их в воздух."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_78.webp"
           }
@@ -23814,15 +23914,15 @@
     "id": "c13s09",
     "name": {
       "en": "Twin Shadow",
-      "ru": ""
+      "ru": "Двойная плеть"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Blade makes a slashing sword strike, inflicting 245 damage. The skill can be reused once per 4 sec. after the first application.",
+      "ru": "Клинок смерти совершает рубящий удар мечом, нанося 245 ед. урона. Умение можно один раз использовать повторно в течение 4 сек. после первого применения."
     },
     "type": "Chain",
     "cooldown": 12,
@@ -23834,24 +23934,24 @@
           {
             "name": "Magic Control",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Mana cost of this skill is reduced by 50%.",
+              "ru": "Расход маны на это умение уменьшается на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
           },
           {
             "name": "Sphere management",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Using this skill fills the realms of the will 50% faster.",
+              "ru": "Использование этого умения заполняет сферы воли на 50% быстрее."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
           },
           {
             "name": "Quickly Prepare",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The cooldown of this skill is reduced by 2 sec.",
+              "ru": "Время восстановления этого умения сокращается на 2 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
           }
@@ -23863,24 +23963,24 @@
           {
             "name": "Reinforcement",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Attacks from the back with this skill deal 50% more damage.",
+              "ru": "Атаки со спины этим умением наносят на 50% больше урона."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_101.webp"
           },
           {
             "name": "Wide Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The radius of the skill increases by 20%.",
+              "ru": "Радиус действия умения увеличивается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_7.webp"
           },
           {
             "name": "Vital Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The critical strike chance for this skill is increased by 30%.",
+              "ru": "Шанс критического удара для этого умения увеличивается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
           }
@@ -23892,16 +23992,16 @@
           {
             "name": "Cross attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Strikes a horizontal dagger, immediately followed by a powerful slashing sword. Skill damage increased by 50%.",
+              "ru": "Клинок смерти наносит горизонтальный удар кинжалом, за которым тут же следует мощный рубящий удар мечом. Урон умения увеличивается на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
           },
           {
             "name": "Forward retraction",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Jerks 4 meters in the indicated direction, after which it strikes. When reusing the skill, she again attacks the enemy and jumps 6 meters back. The critical damage for this skill is increased by 100%.",
+              "ru": "Совершает рывок на 4 м в указанном направлении, после чего наносит удар. При повторном использовании умения она вновь атакует противника и отпрыгивает на 6 м назад. Критический урон для этого умения увеличивается на 100%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
           }
@@ -23913,15 +24013,15 @@
     "id": "c13s10",
     "name": {
       "en": "Earth slash",
-      "ru": ""
+      "ru": "Двуручный хват"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Holding the hilt of the sword with both hands, Blade puts all its strength into the blow, inflicting 7З1 damage to enemies and knocking them down.",
+      "ru": "Взявшись за рукоять меча двумя руками, Клинок смерти вкладывает в удар всю силу, нанося противникам 7З1 ед. урона и сбивая их с ног."
     },
     "type": "Normal",
     "cooldown": 16,
@@ -23933,24 +24033,24 @@
           {
             "name": "Merciless",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "This skill exhausts opponents faster.",
+              "ru": "Это умение изнуряет противников быстрее."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_69.webp"
           },
           {
             "name": "Survival of the Fittest",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Damage to enemies of the \"rare\" type and below is increased by 30%.",
+              "ru": "Урон по противникам типа «редкий» и ниже повышается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_61.webp"
           },
           {
             "name": "Push",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Before striking, Blade makes a 4-meter jerk in the indicated direction, dealing damage and repelling opponents. The total damage of the skill is increased by 15%.",
+              "ru": "Перед тем как нанести удар, Клинок смерти совершает рывок на 4 м в указанном направлении, нанося урон и отталкивая противников. Общий урон умения увеличивается на 15%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_60.webp"
           }
@@ -23962,24 +24062,24 @@
           {
             "name": "Shadow Injection",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Darkness] Hitting this ability will have an effect that lasts 2 sec. additionally deals 30% damage to the enemy and pushes him back.",
+              "ru": "[Элемент: тьма] Попадание этим умением накладывает эффект, который через 2 сек. дополнительно наносит противнику 30% урона и отталкивает его назад."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_19.webp"
           },
           {
             "name": "Stun Effect",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Now this skill does not knock down opponents, but stuns them for 3 sec.",
+              "ru": "Теперь это умение не сбивает противников с ног, а оглушает их на 3 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_30.webp"
           },
           {
             "name": "Find Weakness",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "This skill deals 40% more damage to enemies immune to the effects of stun and knockback.",
+              "ru": "Умение наносит на 40% больше урона противникам, невосприимчивым к эффектам ошеломления и отбрасывания."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_33.webp"
           }
@@ -23991,16 +24091,16 @@
           {
             "name": "Leap attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Jumps 2 meters in the indicated direction, hitting opponents with a sweeping blow of the sword. The critical strike chance for this sword strike is increased by 100%.",
+              "ru": "Прыгает на 2 м в указанном направлении, поражая противников размашистым ударом меча. Шанс критического удара для этого удара мечом повышается на 100%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
           },
           {
             "name": "Earth explosion",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "After the impact of Blade, three powerful streams of energy erupt from the earth, which reject opponents. The total damage of the skill is increased by 90%.",
+              "ru": "После удара Клинка смерти из земли вырываются три мощных потока энергии, которые отбрасывают противников. Общий урон умения увеличивается на 90%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_54.webp"
           }
@@ -24012,15 +24112,15 @@
     "id": "c13s11",
     "name": {
       "en": "Head Hunt",
-      "ru": ""
+      "ru": "Хитроумный финт"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Strikes the enemy with the hilt of a sword, pushing him away and inflicting 223 damage, after which it makes a jerk 4 meters ahead and takes another blow, which inflicts 223 damage and stuns the target for 1 sec.",
+      "ru": "Бьет противника рукоятью меча, отталкивая его и нанося 223 ед. урона, после чего делает рывок на 4 м вперед и совершает еще один удар, который наносит 223 ед. урона и оглушает цель на 1 сек."
     },
     "type": "Normal",
     "cooldown": 18,
@@ -24032,24 +24132,24 @@
           {
             "name": "Quickly Prepare",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The cooldown of this skill is reduced by 3 sec.",
+              "ru": "Время восстановления этого умения сокращается на 3 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
           },
           {
             "name": "Magic Control",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Mana cost of this skill is reduced by 50%.",
+              "ru": "Расход маны на это умение уменьшается на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
           },
           {
             "name": "Weapon Destruction",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Hitting this ability reduces the attack power of opponents by 20% for 4 sec.",
+              "ru": "Попадание этим умением снижает силу атаки противников на 20% в течение 4 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_46.webp"
           }
@@ -24061,24 +24161,24 @@
           {
             "name": "Quick Hunt",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "No longer attacks opponents with the hilt of a sword and makes a jerk, instead delivering a lightning strike from a place.",
+              "ru": "Больше не атакует противников рукоятью меча и не делает рывок, вместо этого нанося молниеносный удар с места."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_41.webp"
           },
           {
             "name": "Down Hunt",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Now it makes a circular blow, which does not stun opponents, but knocks them off their feet. If the second level is chosen as the effect of the tripod of the third level, the enemies will be in the air and on the ground for 20% longer.",
+              "ru": "Теперь совершает круговой удар, который не оглушает противников, а сбивает их с ног. Если в качестве эффекта трипода третьего уровня выбран второй, враги будут находиться в воздухе и на земле на 20% дольше."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_9.webp"
           },
           {
             "name": "Enhanced Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Skill damage increased by 30%.",
+              "ru": "Урон умения увеличивается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_0.webp"
           }
@@ -24090,16 +24190,16 @@
           {
             "name": "Find Weakness",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "This skill deals 60% more damage to enemies immune to stun and knockback effects.",
+              "ru": "Умение наносит на 60% больше урона противникам, невосприимчивым к эффектам ошеломления и отбрасывания."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_33.webp"
           },
           {
             "name": "Quickly Prepare",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Stun duration increases by 4 sec.",
+              "ru": "Продолжительность оглушения увеличивается на 4 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_51.webp"
           }
@@ -24111,15 +24211,15 @@
     "id": "c13s12",
     "name": {
       "en": "Moonlight Sonic",
-      "ru": ""
+      "ru": "Ураганный порыв"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Moving instantly from place to place, Blade pulls together enemies and inflicts 1396 damage.",
+      "ru": "Молниеносно перемещаясь с места на место, Клинок смерти стягивает противников и наносит им 1396 ед. урона."
     },
     "type": "Normal",
     "cooldown": 27,
@@ -24131,24 +24231,24 @@
           {
             "name": "Dark Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Dark] Skill damage increased by 15%.",
+              "ru": "[Элемент: тьма] Урон умения повышается на 15%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_19.webp"
           },
           {
             "name": "Flame Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Fire] When using this skill, a hot area appears on the ground for 5 seconds. causes burns in opponents. The effect stacks up to five times.",
+              "ru": "[Элемент: огонь] При использовании умения на земле появляется раскаленная область, которая в течение 5 сек. вызывает у противников ожоги. Эффект суммируется до пяти раз."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_13.webp"
           },
           {
             "name": "Cold Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Ice] When using this ability, an area of piercing cold appears on the ground for 5 seconds. causes frostbite in opponents, reducing movement speed by 20%. The effect stacks up to three times.",
+              "ru": "[Элемент: лед] При использовании умения на земле появляется область пронизывающего холода, которая в течение 5 сек. вызывает у противников обморожение, снижающее скорость передвижения на 20%. Эффект суммируется до трех раз."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_14.webp"
           }
@@ -24160,24 +24260,24 @@
           {
             "name": "Quickly Prepare",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The cooldown of this skill is reduced by 7 sec.",
+              "ru": "Время восстановления этого умения сокращается на 7 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_56.webp"
           },
           {
             "name": "Enhanced Duration",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The skill becomes supported. The duration of attacks is doubled, and damage to enemies is increased by 50%.",
+              "ru": "Умение становится поддерживаемым. Продолжительность атак увеличивается в два раза, а урон по врагам — на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_42.webp"
           },
           {
             "name": "Concentrated attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The critical strike chance for this skill is increased by 50%, while the radius of the skill’s effect is reduced by 20%.",
+              "ru": "Шанс критического удара для этого умения увеличивается на 50%, при этом радиус действия умения уменьшается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
           }
@@ -24189,16 +24289,16 @@
           {
             "name": "Forward attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "After each strike, it moves 3 m forward, after which it attacks the opponents again. If the second level is chosen as the effect of the second-level tripod, it takes two more hits, but the damage done increases only by 25%.",
+              "ru": "После каждого удара перемещается на 3 м вперед, после чего вновь атакует противников. Если в качестве эффекта трипода второго уровня выбран второй, совершает на два удара больше, однако наносимый урон увеличивается лишь на 25%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_10.webp"
           },
           {
             "name": "Shade Sonic",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The number of strikes is increasing. Skill damage increased by 70%.",
+              "ru": "Количество наносимых ударов увеличивается. Урон умения повышается на 70%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_8.webp"
           }
@@ -24210,15 +24310,15 @@
     "id": "c13s13",
     "name": {
       "en": "Big Foot",
-      "ru": ""
+      "ru": "Иссечение"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Making a 5-meter jerk forward, Blade makes two hits with the sword, which inflict 336 and 275 damage accordingly.",
+      "ru": "Делая рывок на 5 м вперед, Клинок смерти совершает два удара мечом, которые наносят 336 и 275 ед. урона соответственно."
     },
     "type": "Normal",
     "cooldown": 15,
@@ -24230,24 +24330,24 @@
           {
             "name": "Weak exposure",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Hitting this ability inflicts an effect on enemies that increases the damage they take from the back of Blade and its allies by 20% for 12 sec.",
+              "ru": "Попадание этим умением накладывает на противников эффект, повышающий получаемый ими урон со спины от Клинка смерти и ее союзников на 20% в течение 12 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_100.webp"
           },
           {
             "name": "Outstanding Mobility",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "With each stroke of the sword, the dash distance increases by 1 m.",
+              "ru": "С каждым ударом меча дистанция рывка увеличивается на 1 м."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
           },
           {
             "name": "Enhanced Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Skill damage increased by 15%.",
+              "ru": "Урон умения увеличивается на 15%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_0.webp"
           }
@@ -24259,24 +24359,24 @@
           {
             "name": "Missile Bombing",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Becomes a combo skill that can be used twice in a row. In this case, Blade can change the direction of blows.",
+              "ru": "Становится комбо-умением, которое можно использовать дважды подряд. При этом Клинок смерти может изменять направление ударов."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_38.webp"
           },
           {
             "name": "Enhanced Cut",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "For each attack of this skill, the effect is \"Destruction 1 level.\"",
+              "ru": "К каждой атаке этого умения добавляется эффект «Разрушение 1 ур.»"
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_20.webp"
           },
           {
             "name": "Tenacity",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "This ability can no longer be interrupted by stun and knockback effects.",
+              "ru": "Это умение теперь невозможно прервать эффектами ошеломления и отбрасывания."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_23.webp"
           }
@@ -24288,16 +24388,16 @@
           {
             "name": "Concentrated attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Makes swings with the sword, without leaving the spot, while the damage dealt is increased by 100%. If the second level is chosen as the effect of the tripod of the first level, Blade advances 2 meters forward, after which it attacks enemies.",
+              "ru": "Совершает удары мечом, не сходя с места, при этом наносимый урон увеличивается на 100%. Если в качестве эффекта трипода первого уровня выбран второй, Клинок смерти продвигается на 2 м вперед, после чего атакует противников."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
           },
           {
             "name": "Triple turn",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Blade makes three hits with the sword instead of two. Skill damage increased by 70%.",
+              "ru": "Клинок смерти совершает три удара мечом вместо двух. Урон умения увеличивается на 70%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
           }
@@ -24309,15 +24409,15 @@
     "id": "c13s14",
     "name": {
       "en": "Maelstrom",
-      "ru": ""
+      "ru": "Плащ клинков"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Creates a protective whirlwind around itself that inflicts 88 damage upon appearance. After that, he inflicts another 60 damage to all enemies in the area of effect. damage every second for 6 sec.",
+      "ru": "Создает вокруг себя защитный вихрь, который наносит 88 ед. урона при появлении. После этого он наносит всем противникам в зоне действия еще 60 ед. урона каждую секунду в течение 6 сек."
     },
     "type": "Normal",
     "cooldown": 30,
@@ -24329,24 +24429,24 @@
           {
             "name": "Cold contact",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Ice] If Blade takes damage, an icing effect is applied to enemies within 4 yards for 2 seconds, after which the whirlwind disappears.",
+              "ru": "[Элемент: лед] Если Клинок смерти получает урон, на противников в радиусе 4 м накладывается эффект обледенения, действующий в течение 2 сек., после чего вихрь исчезает."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_14.webp"
           },
           {
             "name": "Sphere management",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "While the Deathblade maintains a protective vortex, using other skills fills the realms of the will 20% faster.",
+              "ru": "Пока Клинок смерти поддерживает защитный вихрь, использование других умений заполняет сферы воли на 20% быстрее."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
           },
           {
             "name": "Wide Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The radius of the skill increases by 15%.",
+              "ru": "Радиус действия умения увеличивается на 15%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
           }
@@ -24358,24 +24458,24 @@
           {
             "name": "Dark order",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "When using the ability on Blade and its allies within a radius of 24 m, an effect is applied that lasts for 6 sec. increases movement speed by 15%, and attack speed - by 20%.",
+              "ru": "При использовании умения на Клинка смерти и ее союзников в радиусе 24 м накладывается эффект, который в течение 6 сек. увеличивает скорость передвижения на 15%, а скорость атаки — на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_6.webp"
           },
           {
             "name": "Quickcast",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The speed of using the skill increases by 60%.",
+              "ru": "Скорость использования умения увеличивается на 60%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_41.webp"
           },
           {
             "name": "Windstorm",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Protective whirlwind no longer deals damage to enemies at the time of appearance. Instead, small vortices are carried away in different directions from Blade, increasing the total damage of the skill by 20%.",
+              "ru": "Защитный вихрь больше не наносит урон противникам в момент появления. Вместо этого в разные стороны от Клинка смерти уносятся небольшие вихри, увеличивая общий урон умения на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_54.webp"
           }
@@ -24387,16 +24487,16 @@
           {
             "name": "Stable aura",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "While Blade maintains a protective vortex, it is immune to stun effects.",
+              "ru": "Пока Клинок смерти поддерживает защитный вихрь, она невосприимчива к эффектам ошеломления."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_23.webp"
           },
           {
             "name": "Top pressure",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "This skill deals 100% more damage to enemies of the rare and lower types, and also causes stunned normal enemies when they take damage from a vortex.",
+              "ru": "Умение наносит на 100% больше урона по противникам типа «редкий» и ниже, а также вызывает ошеломление у обычных противников, когда они получают урон от вихря."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_61.webp"
           }
@@ -24408,15 +24508,15 @@
     "id": "c13s15",
     "name": {
       "en": "Phat wave",
-      "ru": ""
+      "ru": "Воздушные шакрамы"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Swings the sword three times, creating air swirls that fly towards the opponents and inflict 228 units, 228 units and 305 units damage accordingly.",
+      "ru": "Трижды взмахивает мечом, создавая завихрения воздуха, которые летят в сторону противников и наносят им 228 ед., 228 ед. и 305 ед. урона соответственно."
     },
     "type": "Normal",
     "cooldown": 18,
@@ -24428,24 +24528,24 @@
           {
             "name": "Sphere management",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Using this skill fills the realms of the will 50% faster.",
+              "ru": "Использование этого умения заполняет сферы воли на 50% быстрее."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
           },
           {
             "name": "Quick Hands",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Skill attack speed increases by 15%.",
+              "ru": "Скорость атаки умением увеличивается на 15%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
           },
           {
             "name": "Survival of the Fittest",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Damage to enemies of the \"rare\" type and below is increased by 30%.",
+              "ru": "Урон по противникам типа «редкий» и ниже повышается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_61.webp"
           }
@@ -24457,24 +24557,24 @@
           {
             "name": "Wide Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The radius of the skill increases by 15%.",
+              "ru": "Радиус действия умения увеличивается на 15%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_7.webp"
           },
           {
             "name": "Vital Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The critical strike chance for this skill is increased by 30%.",
+              "ru": "Шанс критического удара для этого умения увеличивается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
           },
           {
             "name": "Cold Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Ice] This skill additionally inflicts frostbite on the enemies, reducing their movement speed by 20% and lasting 5 sec. Summarizes up to three times, after which it changes to icing, which deprives the target of the ability to move and attack for 4 seconds.",
+              "ru": "[Элемент: лед] Это умение дополнительно накладывает на противников эффект обморожения, снижающий скорость передвижения на 20% и действующий 5 сек. Суммируется до трех раз, после чего меняется на обледенение, которое лишает цель возможности двигаться и атаковать в течение 4 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_14.webp"
           }
@@ -24486,16 +24586,16 @@
           {
             "name": "Double wave",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Each swing of the sword creates two chakrams, which increases the damage done to enemies by 60%. If the third level is selected as the second-level tripod effect, every second chakram imposes a frostbite effect on the target.",
+              "ru": "Каждый взмах меча создает два шакрама, что увеличивает наносимый противникам урон на 60%. Если в качестве эффекта трипода второго уровня выбран третий, каждый второй шакрам накладывает на цель эффект обморожения."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
           },
           {
             "name": "Deathwave",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Instead of chakrams, it creates one wave of energy that moves slowly in the indicated direction. The skill deals more damage (up to + 155%).",
+              "ru": "Вместо шакрамов создает одну волну энергии, которая медленно движется в указанном направлении. Умение наносит больше урона (вплоть до +155%)."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_87.webp"
           }
@@ -24507,15 +24607,15 @@
     "id": "c13s16",
     "name": {
       "en": "Blitz Rush",
-      "ru": ""
+      "ru": "Охота за головами"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Makes a 5 meter dash forward and carries out a series of swift attacks with daggers, which inflicts 486 damage without preparation. At the end of the first phase of aegis preparation, attacks inflict 970 damage. When fully prepared, inflicts 970 damage with daggers, and then carries out a powerful blow with a sword, which inflicts 647 damage and knocks down.",
+      "ru": "Делает рывок на 5 м вперед и проводит серию стремительных атак кинжалами, которая наносит 486 ед. урона без подготовки. По окончании первой фазы подготовки эги атаки наносят 970 ед. урона. При полной подготовке наносит 970 ед. урона кинжалами, а затем проводит мощный удар мечом, который наносит им 647 ед. урона и сбивает с ног."
     },
     "type": "Charge",
     "cooldown": 24,
@@ -24527,16 +24627,16 @@
           {
             "name": "Wide Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The radius of the skill increases by 20%.",
+              "ru": "Радиус действия умения увеличивается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
           },
           {
             "name": "Outstanding Mobility",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Dash range increases by 2 m.",
+              "ru": "Дальность рывка увеличивается на 2 м."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
           },
@@ -24544,7 +24644,7 @@
             "name": "Vital Attack",
             "description": {
               "en": "",
-              "ru": ""
+              "ru": "Шанс критического удара для этого умения увеличивается на 15%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_4.webp"
           }
@@ -24556,24 +24656,24 @@
           {
             "name": "Allround",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The skill is becoming ordinary. The speed of its execution increases, and the equipment corresponds to the application with full training.",
+              "ru": "Умение становится обычным. Скорость его выполнения увеличивается, а техника соответствует применению с полной подготовкой."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_41.webp"
           },
           {
             "name": "Scaling Wave",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "With each level of preparation, the damage of the skill increases by 20%.",
+              "ru": "С каждым уровнем подготовки урон умения увеличивается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_58.webp"
           },
           {
             "name": "Dark charge",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "With each level of training, dark energy is increasingly enveloping, which deals up to 40% of the damage of the skill to the enemies around it.",
+              "ru": "С каждым уровнем подготовки все больше окутывает темная энергия, которая наносит вплоть до 40% от урона умения окружающим ее противникам."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_71.webp"
           }
@@ -24585,16 +24685,16 @@
           {
             "name": "Shadow Rush",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "When using the skill, Blade remains in place, and its ghostly embodiment rushes forward and attacks the enemy.",
+              "ru": "При использовании умения Клинок смерти остается на месте, а ее призрачное воплощение устремляется вперед и атакует противника."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
           },
           {
             "name": "Dual Blitz",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "When fully trained, no longer strikes with the sword. Instead, it fills the daggers with the power of fire and ice, imposing a cold effect on the affected enemies. Deals damage to enemies every second for 5 sec., And also reduces their movement speed by 10%. The effect stacks up to five times.",
+              "ru": "При полной подготовке больше не совершает удар мечом. Вместо этого наполняет кинжалы силой огня и льда, накладывая на пораженных противников эффект холода. Наносит врагам урон каждую секунду в течение 5 сек., а также снижает их скорость передвижения на 10%. Эффект суммируется до пяти раз."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_50.webp"
           }
@@ -24606,15 +24706,15 @@
     "id": "c13s17",
     "name": {
       "en": "Void Strike",
-      "ru": ""
+      "ru": "Искусство меча"
     },
     "class": {
       "en": "Blade",
       "ru": "Клинок смерти"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Blade takes hold of the hilt of the sword, focusing its internal energy, and then makes a sharp upward blow, which deals 412 damage and throws enemies into the air. When fully prepared, Blade makes a jerk on 5 m forward and deals up 826 damage, while throwing opponents even higher.",
+      "ru": "Клинок смерти берется за рукоять меча, фокусируя свою внутреннюю энергию, а затем совершает резкий восходящий удар, который наносит 412 ед. урона и подбрасывает противников в воздух. При полной подготовке Клинок смерти делает рывок на 5 м вперед и наносит до 826 ед. урона, при этом подбрасывая противников еще выше."
     },
     "type": "Charge",
     "cooldown": 27,
@@ -24626,24 +24726,24 @@
           {
             "name": "Quick Hands",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Skill attack speed increases by 15%.",
+              "ru": "Скорость атаки умением увеличивается на 15%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
           },
           {
             "name": "Wide Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The range of the skill increases by 20%.",
+              "ru": "Радиус действия умения увеличивается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
           },
           {
             "name": "Sphere management",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Using this skill fills the realms of will 50% faster.",
+              "ru": "Использование этого умения заполняет сферы воли на 50% быстрее."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_37.webp"
           }
@@ -24655,24 +24755,24 @@
           {
             "name": "Dark Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Dark] Skill damage increased by 30%.",
+              "ru": "[Элемент: тьма] Урон умения повышается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_19.webp"
           },
           {
             "name": "Void area",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "When fully trained, this skill creates an area of impenetrable darkness that inflicts adversaries on 20% from skill damage over 5 sec., and also reduces their movement speed by 30% and makes review difficult.",
+              "ru": "При полной подготовке это умение создает область непроницаемой тьмы, которая наносит противникам до 20% от урона умения в течение 5 сек., а также уменьшает их скорость передвижения на 30% и затрудняет обзор."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_85.webp"
           },
           {
             "name": "Concussion",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The skill causes strong fatigue, when attacking Named or higher type monster.",
+              "ru": "Это умение изнуряет противников быстрее."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_69.webp"
           }
@@ -24684,16 +24784,16 @@
           {
             "name": "Black Explosion",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "When fully trained, this skill applies the “Easy Loot” effect to opponents, which after a while causes an explosion and throws them into the air, increasing the total damage of the skill by 70%.",
+              "ru": "При полной подготовке это умение накладывает на противников эффект «Легкая добыча», который через некоторое время вызывает взрыв и подбрасывает их в воздух, увеличивая общий урон умения на 70%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_78.webp"
           },
           {
             "name": "Black Dimension",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The skill becomes supported. Blade before 1.5 sec attracts opponents in front of her. After that, she strikes with a sword, the technique of which corresponds to an attack with full training.",
+              "ru": "Умение становится поддерживаемым. Клинок смерти до 1.5  сек. притягивает противников, находящихся перед ней. После этого она совершает удар мечом, техника которого соответствует атаке с полной подготовкой."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_42.webp"
           }
@@ -24704,115 +24804,16 @@
   {
     "id": "c14s00",
     "name": {
-      "en": "Demonic slash",
-      "ru": ""
-    },
-    "class": {
-      "en": "Demonic",
-      "ru": "Фурия"
-    },
-    "description": {
-      "en": "",
-      "ru": ""
-    },
-    "type": "Normal",
-    "cooldown": 10,
-    "iconUrl": "assets/icons/demonic/c14s04.webp",
-    "tripod": [
-      {
-        "tier": 1,
-        "skills": [
-          {
-            "name": "Outstanding Mobility",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
-          },
-          {
-            "name": "Evasion Master",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_26.webp"
-          },
-          {
-            "name": "Enhanced Attack",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_0.webp"
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "skills": [
-          {
-            "name": "Wide Attack",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_7.webp"
-          },
-          {
-            "name": "Lethargy Effect",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_47.webp"
-          },
-          {
-            "name": "Swift Movement",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_11.webp"
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "skills": [
-          {
-            "name": "Continuous Charge",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_38.webp"
-          },
-          {
-            "name": "Spinning kick",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "c14s01",
-    "name": {
       "en": "Nimble",
-      "ru": ""
+      "ru": "Тройной порез"
     },
     "class": {
       "en": "Demonic",
       "ru": "Фурия"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Makes three quick horizontal hits, inflicting 67 damage, 67 damage and 90 damage accordingly.",
+      "ru": "Совершает три быстрых горизонтальных удара, нанося 67 ед. урона, 67 ед. урона и 90 ед. урона соответственно."
     },
     "type": "Normal",
     "cooldown": 6,
@@ -24824,24 +24825,24 @@
           {
             "name": "Magic Control",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Mana cost of this skill is reduced by 30%.",
+              "ru": "Расход маны на это умениеуменьшается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
           },
           {
             "name": "Quickly Prepare",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The recovery time of this skill is reduced by 2 sec.",
+              "ru": "Время восстановления этогоумения сокращается на 2 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
           },
           {
             "name": "Enhance",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The daze caused by the last attack of this skill lasts 0.2 seconds longer.",
+              "ru": "Ошеломление, вызванное последней атакой этого умения, длится дольше на 0.2 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_60.webp"
           }
@@ -24853,24 +24854,24 @@
           {
             "name": "Thunder & Lightning",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Lightning] Critical strike chance for this skill is increased by 40%.",
+              "ru": "[Элемент: молнии] Шанс критического удара для этого умения увеличивается на 40%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_17.webp"
           },
           {
             "name": "Ground attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Earth] The range of the skill is increased by 20%.",
+              "ru": "[Элемент: земля] Радиус действия умения увеличивается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_15.webp"
           },
           {
             "name": "Dark Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Dark] Skill damage increased by 40%.",
+              "ru": "[Элемент: тьма] Урон умения повышается на 40%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_19.webp"
           }
@@ -24882,16 +24883,16 @@
           {
             "name": "Deadly lunge",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Each hit of this skill now deals damage three times. Total damage increased by 60%.",
+              "ru": "Каждый удар этого умения теперь наносит урон трижды. Общий урон повышается на 60%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_8.webp"
           },
           {
             "name": "Merciless cutter",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Deals two hits instead of three. The skill now consumes 20% of the accumulated Chaos energy, while the damage it deals is increased by 140%. If the Chaos Energy is less than 20% full, damage only increases by 20%.",
+              "ru": "Наносит два удара вместо трех. Умение теперь расходует 20% накопленной энергии Хаоса, при этом наносимый им урон повышается на 140%. Если шкала энергии Хаоса заполнена менее чем на 20%, урон повышается только на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_102.webp"
           }
@@ -24903,15 +24904,15 @@
     "id": "c14s02",
     "name": {
       "en": "Slasher",
-      "ru": ""
+      "ru": "Стальная дуга"
     },
     "class": {
       "en": "Demonic",
       "ru": "Фурия"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Makes a downward strike with a dagger in the right hand, immediately followed by an upward strike with a dagger in the left. The first attack deals 153 damage, and the second - 232.",
+      "ru": "Совершает нисходящий удар кинжалом в правои руке, за которым тут же следует восходящий удар кинжалом в левой. Первая атака наносит 153 ед. урона, а вторая — 232 ед."
     },
     "type": "Normal",
     "cooldown": 8,
@@ -24923,24 +24924,24 @@
           {
             "name": "Death Target",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The critical strike chance for this skill is increased by 20%.",
+              "ru": "Шанс критического удара для этого умения увеличивается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_4.webp"
           },
           {
             "name": "Bleed Effect",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Hit with this skill causes the enemy to bleed for 5 seconds.",
+              "ru": "Попадание этим умением вызывает у противника кровотечение, которое действует 5 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_45.webp"
           },
           {
             "name": "Quick Hands",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The attack speed of this skill is increased by 15%.",
+              "ru": "Скорость атаки этим умением повышается на 15%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_6.webp"
           }
@@ -24952,24 +24953,24 @@
           {
             "name": "Wide Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The range of the ability increases by 20%.",
+              "ru": "Дальность действия умения повышается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_7.webp"
           },
           {
             "name": "Rush",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Before inflicting downward and upward strokes, makes a quick attack with daggers. Total skill damage increased by 40%.",
+              "ru": "Перед тем как нанести нисходящий и восходящий удары, делает быстрый выпад кинжалами. Общий урон умения повышается на 40%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_39.webp"
           },
           {
             "name": "Precise Shot",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Critical damage increased by 100%.",
+              "ru": "Критический урон увеличивается на 100%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_49.webp"
           }
@@ -24981,18 +24982,117 @@
           {
             "name": "Merciless blow",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "It deals only an upward strike, which now throws enemies into the air. Total skill damage increased by 40%.",
+              "ru": "Наносит только восходящий удар, который теперь подбрасывает противников в воздух. Общий урон умения повышается на 40%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
           },
           {
             "name": "Electric shock",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Lightning] Now, instead of striking, it strikes the enemy with an energy discharge, which lasts 2 sec. causes electroshock in them. Skill cooldown is increased by 6 sec.",
+              "ru": "[Элемент: молнии] Теперь вместо ударов поражает противником энергетическим разрядом, который на 2 сек. вызывает у них электрошок. Время восстановления умения увеличивается на 6 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_17.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s02",
+    "name": {
+      "en": "Demonic slash",
+      "ru": "Молниеносный бросок"
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "Makes a rapid leap forward, inflicting 78 damage each three times, and then deals 78 final damage",
+      "ru": "Делает стремительный рывок вперед, трижды нанося цели по 78 ед. урона, а затем наносит еще 78 ед. урона заключительной"
+    },
+    "type": "Normal",
+    "cooldown": 10,
+    "iconUrl": "assets/icons/demonic/c14s04.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "Dash range increases by 2 m.",
+              "ru": "Дальность рывка увеличивается на 2 м."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Evasion Master",
+            "description": {
+              "en": "When this skill is applied, dodge increases by 10%.",
+              "ru": "Во время применения этого умения показатель уклонения повышается на 10%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_26.webp"
+          },
+          {
+            "name": "Enhanced Attack",
+            "description": {
+              "en": "Skill damage increased by 20%.",
+              "ru": "Урон умения увеличивается на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_0.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Wide Attack",
+            "description": {
+              "en": "The radius of the skill increases by 20%.",
+              "ru": "Радиус действия умения увеличивается на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_7.webp"
+          },
+          {
+            "name": "Lethargy Effect",
+            "description": {
+              "en": "Hit with this skill reduces the speed of movement and attack of the enemy by 20% for 5 sec.",
+              "ru": "Попадание этим умением уменьшает скорость передвижения и атаки противника на 20% в течение 5 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_47.webp"
+          },
+          {
+            "name": "Swift Movement",
+            "description": {
+              "en": "Using this skill increases the speed of a fury by 20% for 5 sec.",
+              "ru": "Использование этого умения повышает скорость передвижения фурии на 20% в течение 5 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_11.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Continuous Charge",
+            "description": {
+              "en": "Becomes a combo skill. If reused within 3 seconds. after the first application, will make another leap forward.",
+              "ru": "Становится комбо-умением. Если повторно использовать его в течение 3 сек. после первого применения, сделает еще один рывок вперед."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_38.webp"
+          },
+          {
+            "name": "Spinning kick",
+            "description": {
+              "en": "After a jerk, makes a circular kick, which increases the total damage of the skill by 120%.",
+              "ru": "После рывка совершает круговой удар ногой, который увеличивает общий урон умения на 120%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
           }
         ]
       }
@@ -25002,15 +25102,15 @@
     "id": "c14s03",
     "name": {
       "en": "Spinning dive",
-      "ru": ""
+      "ru": "Прыжок с вращением"
     },
     "class": {
       "en": "Demonic",
       "ru": "Фурия"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Jumps forward, spinning in a frantic whirlwind, and inflicts 336 damage. At the time of landing, it makes a quick horizontal attack, which inflicts 225 damage and repels opponents. When hit by enemies thrown into the air, throws them again.",
+      "ru": "Прыгает вперед, кружась в бешеном вихре, и наносит 336 ед. урона. В момент приземления совершает быстрый горизонтальный выпад, который наносит 225 ед. урона и отталкивает противников. При попадании по врагам, подброшенным в воздух, подбрасывает их снова."
     },
     "type": "Normal",
     "cooldown": 16,
@@ -25022,24 +25122,24 @@
           {
             "name": "Quick Hands",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Skill attack speed increases by 20%.",
+              "ru": "Скорость атаки умением увеличивается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_6.webp"
           },
           {
             "name": "Outstanding Mobility",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Jump range increases by 2 m.",
+              "ru": "Дальность прыжка увеличивается на 2 м."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
           },
           {
             "name": "Helpless Target",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "This skill deals 30% more damage to enemies knocked down.",
+              "ru": "Умение наносит на 30% больше урона противникам, сбитым с ног."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_29.webp"
           }
@@ -25051,24 +25151,24 @@
           {
             "name": "Tenacity",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "This ability can no longer be interrupted by discarding effects.",
+              "ru": "Это умение теперь невозможно прервать эффектами отбрасывания."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_23.webp"
           },
           {
             "name": "Spin gain",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Fury deals 50% more damage to enemies when spinning in a whirlwind.",
+              "ru": "Фурия наносит противникам на 50% больше урона, когда кружится в вихре."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_0.webp"
           },
           {
             "name": "Evasion Master",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "When this skill is applied, dodge increases by 20%.",
+              "ru": "Во время применения этого умения показатель уклонения повышается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_26.webp"
           }
@@ -25080,16 +25180,16 @@
           {
             "name": "Last jump",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Instead of a horizontal lunge at the time of landing, it now strikes with two daggers. This blow knocks down opponents, and the damage it deals is increased by 100%.",
+              "ru": "Вместо горизонтального выпада в момент приземления теперь совершает удар двумя кинжалами. Этот удар сбивает противников с ног, а наносимый им урон увеличивается на 100%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
           },
           {
             "name": "Rotation master",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "No longer makes a horizontal lunge at the time of landing, while the range of the jump increases by 4 m, and attacks in the jump do 100% more damage.",
+              "ru": "Больше не совершает горизонтальный выпад в момент приземления, при этом дальность прыжка увеличивается на 4 м, а атаки в прыжке наносят на 100% больше урона."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
           }
@@ -25100,809 +25200,16 @@
   {
     "id": "c14s04",
     "name": {
-      "en": "Cutlery Cutter",
-      "ru": ""
-    },
-    "class": {
-      "en": "Demonic",
-      "ru": "Фурия"
-    },
-    "description": {
-      "en": "",
-      "ru": ""
-    },
-    "type": "Normal",
-    "cooldown": 18,
-    "iconUrl": "assets/icons/demonic/c14s11.webp",
-    "tripod": [
-      {
-        "tier": 1,
-        "skills": [
-          {
-            "name": "Swift Movement",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_11.webp"
-          },
-          {
-            "name": "Magic Control",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
-          },
-          {
-            "name": "Bleed Effect",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_45.webp"
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "skills": [
-          {
-            "name": "Electric discharge",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_17.webp"
-          },
-          {
-            "name": "Ground attack",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_15.webp"
-          },
-          {
-            "name": "Wide Attack",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_58.webp"
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "skills": [
-          {
-            "name": "Boomerang",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_84.webp"
-          },
-          {
-            "name": "Merciless cutter",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_91.webp"
-          }
-        ]
-      }
-    ]
-  },
-  
-  {
-    "id": "c14s05",
-    "name": {
-      "en": "Thrust Impact",
-      "ru": ""
-    },
-    "class": {
-      "en": "Demonic",
-      "ru": "Фурия"
-    },
-    "description": {
-      "en": "",
-      "ru": ""
-    },
-    "type": "Normal",
-    "cooldown": 18,
-    "iconUrl": "assets/icons/demonic/c14s12.webp",
-    "tripod": [
-      {
-        "tier": 1,
-        "skills": [
-          {
-            "name": "Outstanding Mobility",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
-          },
-          {
-            "name": "Wide Explosion",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
-          },
-          {
-            "name": "Quick lunge",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "skills": [
-          {
-            "name": "Stun Effect",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_44.webp"
-          },
-          {
-            "name": "Enhanced Explosion",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_9.webp"
-          },
-          {
-            "name": "Deep lunge",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_8.webp"
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "skills": [
-          {
-            "name": "Throw in the throw",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_103.webp"
-          },
-          {
-            "name": "Burst of vengeful spirit",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_0.webp"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "c14s06",
-    "name": {
-      "en": "Brutal Cross",
-      "ru": ""
-    },
-    "class": {
-      "en": "Demonic",
-      "ru": "Фурия"
-    },
-    "description": {
-      "en": "",
-      "ru": ""
-    },
-    "type": "Normal",
-    "cooldown": 10,
-    "iconUrl": "assets/icons/demonic/c14s12.webp",
-    "tripod": [
-      {
-        "tier": 1,
-        "skills": [
-          {
-            "name": "Electric discharge",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_17.webp"
-          },
-          {
-            "name": "Ground attack",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_15.webp"
-          },
-          {
-            "name": "Dark Attack",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_19.webp"
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "skills": [
-          {
-            "name": "Concussion",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_69.webp"
-          },
-          {
-            "name": "Enhanced Cut",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_20.webp"
-          },
-          {
-            "name": "Deadly lunge",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "skills": [
-          {
-            "name": "Sudden somersault",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_50.webp"
-          },
-          {
-            "name": "Merciless cutter",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_102.webp"
-          }
-        ]
-      }
-    ]
-  },  
-  {
-    "id": "c14s07",
-    "name": {
-      "en": "Grind Chain",
-      "ru": ""
-    },
-    "class": {
-      "en": "Demonic",
-      "ru": "Фурия"
-    },
-    "description": {
-      "en": "",
-      "ru": ""
-    },
-    "type": "Normal",
-    "cooldown": 12,
-    "iconUrl": "assets/icons/demonic/c14s08.webp",
-    "tripod": [
-      {
-        "tier": 1,
-        "skills": [
-          {
-            "name": "Enhanced Attack",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_0.webp"
-          },
-          {
-            "name": "Ground attack",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_15.webp"
-          },
-          {
-            "name": "Quickly Prepare",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "skills": [
-          {
-            "name": "Vital Attack",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
-          },
-          {
-            "name": "Weaken Mobility",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_47.webp"
-          },
-          {
-            "name": "Evasion Master",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_26.webp"
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "skills": [
-          {
-            "name": "Continuous Attack",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_54.webp"
-          },
-          {
-            "name": "Grind Chain",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_53.webp"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "c14s08",
-    "name": {
-      "en": "Destruction",
-      "ru": ""
-    },
-    "class": {
-      "en": "Demonic",
-      "ru": "Фурия"
-    },
-    "description": {
-      "en": "",
-      "ru": ""
-    },
-    "type": "Combo",
-    "cooldown": 16,
-    "iconUrl": "assets/icons/demonic/c14s13.webp",
-    "tripod": [
-      {
-        "tier": 1,
-        "skills": [
-          {
-            "name": "Outstanding Mobility",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
-          },
-          {
-            "name": "Naivety",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_23.webp"
-          },
-          {
-            "name": "Special Bullet",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_33.webp"
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "skills": [
-          {
-            "name": "Enhanced Cut",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_20.webp"
-          },
-          {
-            "name": "Wave attack",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_39.webp"
-          },
-          {
-            "name": "Quick Attack",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_41.webp"
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "skills": [
-          {
-            "name": "Death Target",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_4.webp"
-          },
-          {
-            "name": "Lunge throw",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_10.webp"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "c14s09",
-    "name": {
-      "en": "Spinning weapon",
-      "ru": ""
-    },
-    "class": {
-      "en": "Demonic",
-      "ru": "Фурия"
-    },
-    "description": {
-      "en": "",
-      "ru": ""
-    },
-    "type": "Combo",
-    "cooldown": 24,
-    "iconUrl": "assets/icons/demonic/c14s27.webp",
-    "tripod": [
-      {
-        "tier": 1,
-        "skills": [
-          {
-            "name": "Bleed Effect",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_45.webp"
-          },
-          {
-            "name": "Swift Movement",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_11.webp"
-          },
-          {
-            "name": "Quickly Prepare",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "skills": [
-          {
-            "name": "Enhanced Duration",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_51.webp"
-          },
-          {
-            "name": "Large blade",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_62.webp"
-          },
-          {
-            "name": "Instant determination",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_40.webp"
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "skills": [
-          {
-            "name": "Armor-piercing blade",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_2.webp"
-          },
-          {
-            "name": "Merciless cutter",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_102.webp"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "c14s10",
-    "name": {
-      "en": "Pointed blade",
-      "ru": ""
-    },
-    "class": {
-      "en": "Demonic",
-      "ru": "Фурия"
-    },
-    "description": {
-      "en": "",
-      "ru": ""
-    },
-    "type": "Normal",
-    "cooldown": 18,
-    "iconUrl": "assets/icons/demonic/c14s10.webp",
-    "tripod": [
-      {
-        "tier": 1,
-        "skills": [
-          {
-            "name": "Outstanding Mobility",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
-          },
-          {
-            "name": "Enhanced Duration",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_39.webp"
-          },
-          {
-            "name": "Powerful swing",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_0.webp"
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "skills": [
-          {
-            "name": "Heavy bleeding",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_45.webp"
-          },
-          {
-            "name": "Vertical swing",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_40.webp"
-          },
-          {
-            "name": "Penetrating blow",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_27.webp"
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "skills": [
-          {
-            "name": "Deadly blade",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_49.webp"
-          },
-          {
-            "name": "Demon's Blade",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_61.webp"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "c14s11",
-    "name": {
-      "en": "Rising claw",
-      "ru": ""
-    },
-    "class": {
-      "en": "Demonic",
-      "ru": "Фурия"
-    },
-    "description": {
-      "en": "",
-      "ru": ""
-    },
-    "type": "Normal",
-    "cooldown": 12,
-    "iconUrl": "assets/icons/demonic/c14s15.webp",
-    "tripod": [
-      {
-        "tier": 1,
-        "skills": [
-          {
-            "name": "Quickly Prepare",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
-          },
-          {
-            "name": "Naivety",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_23.webp"
-          },
-          {
-            "name": "Special Bullet",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_33.webp"
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "skills": [
-          {
-            "name": "Huge hand",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_7.webp"
-          },
-          {
-            "name": "Deadly lunge",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
-          },
-          {
-            "name": "Concussion",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_69.webp"
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "skills": [
-          {
-            "name": "Landing capture",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
-          },
-          {
-            "name": "Capture of death",
-            "description": {
-              "en": "",
-              "ru": ""
-            },
-            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "c14s12",
-    "name": {
       "en": "Genocide",
-      "ru": ""
+      "ru": "Истребление"
     },
     "class": {
       "en": "Demonic",
       "ru": "Фурия"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Behind him, an incarnation of a powerful demon arises, which inflicts 349 damage to enemies. Upon repeated use, the phantom takes another blow, corresponding to the force of the first, and with the third use, it punches the ground, inflicting 234 damage.",
+      "ru": "За спиной возникает воплощение могучего демона, которое наносит противникам 349 ед. урона. При повторном применении фантом совершает еще один удар, соответствующий по силе первому, а при третьем использовании — бьет кулаками по земле, нанося 234 ед. урона."
     },
     "type": "Combo",
     "cooldown": 12,
@@ -25914,24 +25221,24 @@
           {
             "name": "Ruthless blow",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "A punch on the ground with a 50% chance stuns enemies for 3 sec.",
+              "ru": "Удар кулаками по земле с вероятностью 50% оглушает противников на 3 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_44.webp"
           },
           {
             "name": "Vital Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The critical strike chance for this skill is increased by 20%.",
+              "ru": "Шанс критического удара для этого умения увеличивается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_4.webp"
           },
           {
             "name": "Straightness",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "This ability can no longer be interrupted by stun and knockback effects.",
+              "ru": "Это умение теперь невозможно прервать эффектами ошеломления и отбрасывания."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_23.webp"
           }
@@ -25943,24 +25250,24 @@
           {
             "name": "Continuous Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Now the skill can be used for the fourth time in a row - at the same time the incarnation of the demon performs another claw hit, increasing the total damage of the skill by 50%.",
+              "ru": "Теперь умение можно использовать четвертый раз подряд — при этом воплощение демона совершает еще один удар когтями, увеличивая общий урон умения на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_39.webp"
           },
           {
             "name": "Contract with the demon",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The skill is becoming ordinary. Summons an incarnation of a demon that inflicts three blows on enemies and then disappears.",
+              "ru": "Умение становится обычным. Призывает воплощение демона, которое наносит противникам три удара, после чего исчезает."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_81.webp"
           },
           {
             "name": "Fatal fist",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The skill is becoming ordinary. The incarnation of the demon inflicts two powerful punches, while the second blow throws opponents into the air. The total damage of the skill is increased by 30%.",
+              "ru": "Умение становится обычным. Воплощение демона наносит два мощных удара кулаками, при этом второй удар подбрасывает противников в воздух. Общий урон умения увеличивается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_40.webp"
           }
@@ -25972,16 +25279,16 @@
           {
             "name": "Powerful assault",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "This skill debilitates opponents faster, and its use accumulates 100% more Chaos energy.",
+              "ru": "Это умение изнуряет противников быстрее, а его использование накапливает на 100% больше энергии Хаоса."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_103.webp"
           },
           {
             "name": "Tempest Slash",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "This skill no longer accumulates Chaos energy. Skill damage increased by 100%.",
+              "ru": "Это умение больше не накапливает энергию Хаоса. Урон умения повышается на 100%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_104.webp"
           }
@@ -25990,18 +25297,216 @@
     ]
   },
   {
-    "id": "c14s13",
+    "id": "c14s05",
     "name": {
-      "en": "Daemon Vision",
-      "ru": ""
+      "en": "Rising claw",
+      "ru": "Фетранийские когти"
     },
     "class": {
       "en": "Demonic",
       "ru": "Фурия"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Dark energy envelops the right hand, taking the form of a clawed paw. Then it makes an upward strike, which first deals 40 damage, and then another 358 damage, while throwing enemies into the air.",
+      "ru": "Правую руку обволакивает темная энергия, принимающая форму когтистой лапы. Затем совершает восходящий удар, который наносит сначала 40 ед. урона, а затем еще 358 ед. урона, при этом подбрасывая противников в воздух."
+    },
+    "type": "Normal",
+    "cooldown": 12,
+    "iconUrl": "assets/icons/demonic/c14s15.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "The cooldown of this skill is reduced by 2 sec.",
+              "ru": "Время восстановления этого умения сокращается на 2 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          },
+          {
+            "name": "Naivety",
+            "description": {
+              "en": "This ability can no longer be interrupted by stun and knockback effects.",
+              "ru": "Это умение теперь невозможно прервать эффектами ошеломления и отбрасывания."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_23.webp"
+          },
+          {
+            "name": "Special Bullet",
+            "description": {
+              "en": "This skill deals 30% more damage to enemies immune to stun and knockback effects.",
+              "ru": "Это умение наносит на 30% больше урона противникам, невосприимчивым к эффектам ошеломления и отбрасывания."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_33.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Huge hand",
+            "description": {
+              "en": "Claw attack radius increases by 20%.",
+              "ru": "Радиус атаки когтей увеличивается на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_7.webp"
+          },
+          {
+            "name": "Deadly lunge",
+            "description": {
+              "en": "Critical damage increased by 100%.",
+              "ru": "Критический урон увеличивается на 100%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          },
+          {
+            "name": "Concussion",
+            "description": {
+              "en": "The skill exhausts opponents faster.",
+              "ru": "Умение изнуряет противников быстрее."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_69.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Landing capture",
+            "description": {
+              "en": "The skill becomes supported. The technique of its execution is changing: first it attacks the opponents within a few seconds, and then there is an emission of energy, throwing them into the air. The skill deals more damage (up to + 60%).",
+              "ru": "Умение становится поддерживаемым. Техника его исполнения меняется: сначала в течение нескольких секунд атакует противников, а затем происходит выброс энергии, подбрасывающий их в воздух. Умение наносит больше урона (вплоть до +60%)."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
+          },
+          {
+            "name": "Capture of death",
+            "description": {
+              "en": "After an upward strike, an explosion of dark energy occurs, which also throws enemies into the air. The total damage of the skill is increased by 80%.",
+              "ru": "После восходящего удара происходит взрыв темной энергии, который также подбрасывает врагов в воздух. Общий урон умения увеличивается на 80%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s06",
+    "name": {
+      "en": "Cutlery Cutter",
+      "ru": "Циркулярная пила"
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "Spins the haladi and drives into the ground, after which the daggers begin to move forward, pushing away the enemies and inflicting up to 1011 damage. When hit by enemies thrown into the air, throws them again.",
+      "ru": "Раскручивает халади и вбивает в землю, после чего кинжалы начинают двигаться вперед, отталкивая врагов и нанося им до 1011 ед. урона. При попадании по врагам, подброшенным в воздух, подбрасывает их снова."
+    },
+    "type": "Normal",
+    "cooldown": 18,
+    "iconUrl": "assets/icons/demonic/c14s11.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Swift Movement",
+            "description": {
+              "en": "Using this skill increases your movement speed by 20% for 2 sec.",
+              "ru": "Использование этого умения повышает скорость передвижения на 20% в течение 2 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_11.webp"
+          },
+          {
+            "name": "Magic Control",
+            "description": {
+              "en": "Mana cost of this skill is reduced by 50%.",
+              "ru": "Расход маны на это умение уменьшается на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
+          },
+          {
+            "name": "Bleed Effect",
+            "description": {
+              "en": "Hit with this skill causes the enemy to bleed for 5 seconds.",
+              "ru": "Попадание этим умением вызывает у противника кровотечение, которое действует 5 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_45.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Electric discharge",
+            "description": {
+              "en": "[Element: Lightning] The critical strike chance for this skill is increased by 30%.",
+              "ru": "[Элемент: молнии] Шанс критического удара для этого умения увеличивается на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_17.webp"
+          },
+          {
+            "name": "Ground attack",
+            "description": {
+              "en": "[Element: Earth] Dagger movement speed decreases by 20%, and range by 8 m. Damage to enemies immune to stun and knockback effects increases by 60%.",
+              "ru": "[Элемент: земля] Скорость движения кинжалов уменьшается на 20%, а дальность — на 8 м. Урон по противникам, невосприимчивым к эффектам ошеломления и отбрасывания, увеличивается на 60%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_15.webp"
+          },
+          {
+            "name": "Wide Attack",
+            "description": {
+              "en": "The damage done by the skill now depends on the distance to the target. It increases up to 80% as the daggers approach the end point.",
+              "ru": "Урон, наносимый умением, теперь зависит от расстояния до цели. Он увеличивается вплоть до 80% по мере того, как кинжалы приближаются к конечной точке."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_58.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Boomerang",
+            "description": {
+              "en": "Daggers quickly reach the end point and after a short pause they return back, inflicting damage in the amount of 80% of the damage of the skill.",
+              "ru": "Кинжалы стремительно достигают конечной точки и после небольшой паузы возвращаются обратно, нанося урон в размере 80% от урона умения."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_84.webp"
+          },
+          {
+            "name": "Merciless cutter",
+            "description": {
+              "en": "The skill now consumes 20% of the accumulated Chaos energy, while the damage it deals is increased by 140%. The effect will not work if the energy is less than 20%.",
+              "ru": "Умение теперь расходует 20% накопленной энергии Хаоса, при этом наносимый им урон повышается на 140%. Эффект не подействует, если энергии менее 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_91.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s07",
+    "name": {
+      "en": "Daemon Vision",
+      "ru": "Луч смерти"
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "Concentrates the power of the wasp in the right hand and releases a destructive beam, which inflicts 551 damage and knocks down opponents. When fully trained, the skill deals 1101 damage, and its range increases.",
+      "ru": "Концентрирует в правой руке силу оса и выпускает разрушительный луч, который наносит 551 ед. урона и сбивает противников с ног. При полной подготовке умение наносит 1101 ед. урона, а дальность его действия увеличивается."
     },
     "type": "Charge",
     "cooldown": 24,
@@ -26013,24 +25518,24 @@
           {
             "name": "Quick release",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The beam's lifetime is reduced by 50%.",
+              "ru": "Время существования луча сокращается на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
           },
           {
             "name": "Concentrated discharge",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The beam's lifetime is extended by 50%. Damage of the skill increases by 30%.",
+              "ru": "Время существования луча продлевается на 50% Урон умения увеличивается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_42.webp"
           },
           {
             "name": "Magic Control",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Mana cost of this skill is reduced by 50%.",
+              "ru": "Расход маны на это умение уменьшается на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
           }
@@ -26042,24 +25547,24 @@
           {
             "name": "Burst of energy",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Lightning] Now the skill does not throw enemies into the air, but for 3 sec. imposes an electric shock effect on them.",
+              "ru": "[Элемент: молнии] Теперь умение не подбрасывает противников в воздух, а на 3 сек. накладывает на них эффект электрошока."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_17.webp"
           },
           {
             "name": "Clot of darkness",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "[Element: Darkness] The critical strike chance for this skill is increased by 30%.",
+              "ru": "[Элемент: тьма] Шанс критического удара для этого умения увеличивается на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_19.webp"
           },
           {
             "name": "Throw in the throw",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Using this skill accumulates 100% more Chaos energy.",
+              "ru": "Использование этого умения накапливает на 100% больше энергии Хаоса."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_103.webp"
           }
@@ -26071,16 +25576,16 @@
           {
             "name": "Instant surge",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The skill is becoming ordinary - now it is applied instantly.",
+              "ru": "Умение становится обычным — теперь оно применяется мгновенно."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
           },
           {
             "name": "Overwhelming Power",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Now the skill preparation consists of two stages. When fully prepared, the damage done increases by 80%, and the beam length - by 20%.",
+              "ru": "Теперь подготовка умения состоит из двух этапов. При полной подготовке наносимый урон увеличивается на 80%, а длина луча — на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_40.webp"
           }
@@ -26089,18 +25594,216 @@
     ]
   },
   {
-    "id": "c14s14",
+    "id": "c14s08",
     "name": {
-      "en": "Daemon Grab",
-      "ru": ""
+      "en": "Thrust Impact",
+      "ru": "Ударная волна"
     },
     "class": {
       "en": "Demonic",
       "ru": "Фурия"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Lashes with two daggers, inflicting 133 damage to an enemy. Immediately after this, an explosion occurs that inflicts 535 more damage to the target, at the same moment jumps back.",
+      "ru": "Совершает выпад двумя кинжалами, наносящий противнику 133 ед. урона. Сразу после этого происходит взрыв, который наносит цели еще 535 ед. урона, в этот же момент отпрыгивает назад."
+    },
+    "type": "Normal",
+    "cooldown": 18,
+    "iconUrl": "assets/icons/demonic/c14s12.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "Before making a lunge, moves 3 m forward.",
+              "ru": "Перед тем как сделать выпад, перемещается на 3 м вперед."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Wide Explosion",
+            "description": {
+              "en": "The radius of the explosion increases by 30%.",
+              "ru": "Радиус действия взрыва увеличивается на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_7.webp"
+          },
+          {
+            "name": "Quick lunge",
+            "description": {
+              "en": "Now the explosion occurs simultaneously with the attack.",
+              "ru": "Теперь взрыв происходит одновременно с выпадом."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_41.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Stun Effect",
+            "description": {
+              "en": "Blast stuns enemies for 2 sec.",
+              "ru": "Взрыв оглушает противников на 2 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_44.webp"
+          },
+          {
+            "name": "Enhanced Explosion",
+            "description": {
+              "en": "An explosion knocks back enemies, and the damage they deal is increased by 50%.",
+              "ru": "Взрыв отбрасывает противников, а наносимый им урон увеличивается на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_9.webp"
+          },
+          {
+            "name": "Deep lunge",
+            "description": {
+              "en": "After an attack, daggers cross, concentrating force in them, and only then does an explosion occur. Skill damage increased by 60%.",
+              "ru": "После выпада скрещивает кинжалы, концентрируя в них силу, и только потом происходит взрыв. Урон умения повышается на 60%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_8.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Throw in the throw",
+            "description": {
+              "en": "The cooldown of this skill is reduced by 3 sec. In addition, it accumulates 100% more Chaos energy.",
+              "ru": "Время восстановления этого умения сокращается на 3 сек. Кроме того, оно накапливает на 100% больше энергии Хаоса."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_103.webp"
+          },
+          {
+            "name": "Burst of vengeful spirit",
+            "description": {
+              "en": "This skill no longer accumulates Chaos energy, and its recovery time is increased by 5 sec. Skill damage increased by 140%.",
+              "ru": "Это умение больше не накапливает энергию Хаоса, а время его восстановления увеличивается на 5 сек. Урон умения повышается на 140%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_0.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s09",
+    "name": {
+      "en": "Brutal Cross",
+      "ru": "Темное клеймо"
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "He fills his daggers with dark energy, after which he strikes crosswise, inflicting 389 damage. damage and repels opponents.",
+      "ru": "Наполняет свои кинжалы темной энергией, после чего совершает удар крест- накрест, который наносит 389 ед. урона и отталкивает противников."
+    },
+    "type": "Normal",
+    "cooldown": 10,
+    "iconUrl": "assets/icons/demonic/c14s07.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Electric discharge",
+            "description": {
+              "en": "[Element: Lightning] Critical strike chance for this skill is increased by 20%.",
+              "ru": "[Элемент: молнии] Шанс критического удара для этого умения увеличивается на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_17.webp"
+          },
+          {
+            "name": "Ground attack",
+            "description": {
+              "en": "[Element: Earth] The daze caused by this skill lasts 0.3 seconds longer.",
+              "ru": "[Элемент: земля] Ошеломление, вызванное этим умением, длится дольше на 0.3 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_15.webp"
+          },
+          {
+            "name": "Dark Attack",
+            "description": {
+              "en": "[Element: Darkness] Skill damage increased by 20%.",
+              "ru": "[Элемент: тьма] Урон умения повышается на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_19.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Concussion",
+            "description": {
+              "en": "The skill exhausts opponents faster.",
+              "ru": "Умение изнуряет противников быстрее."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_69.webp"
+          },
+          {
+            "name": "Enhanced Cut",
+            "description": {
+              "en": "Destruction effect level for this skill increases to 1",
+              "ru": "Уровень эффекта «Разрушение» для этого умения повышается до 1"
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_20.webp"
+          },
+          {
+            "name": "Deadly lunge",
+            "description": {
+              "en": "Critical damage increased by 100%.",
+              "ru": "Критический урон увеличивается на 100%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Sudden somersault",
+            "description": {
+              "en": "The range of this skill is increased by 20%, and damage - by 40%.",
+              "ru": "Дальность действия этого умения увеличивается на 20%, а урон — на 40%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_50.webp"
+          },
+          {
+            "name": "Merciless cutter",
+            "description": {
+              "en": "The ability now consumes 10% of the accumulated Chaos energy, while it always does critical damage. The effect will not work if the energy is less than 10%.",
+              "ru": "Умение теперь расходует 10% накопленной энергии Хаоса, при этом оно всегда наносит критический урон. Эффект не подействует, если энергии менее 10%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_102.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s10",
+    "name": {
+      "en": "Daemon Grab",
+      "ru": "Мертвая хватка"
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "Creates a demon's clawed claw from dark energy and throws it forward, inflicting 588 damage to the enemy and pulling it towards you.",
+      "ru": "Создает из темной энергии когтистую лапу демона и выбрасывает ее вперед, нанося противнику 588 ед. урона и притягивая его к себе."
     },
     "type": "Normal",
     "cooldown": 18,
@@ -26112,24 +25815,24 @@
           {
             "name": "Quickly Prepare",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The cooldown of this skill is reduced by 4 sec.",
+              "ru": "Время восстановления этого умения сокращается на 4 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
           },
           {
             "name": "Magic Control",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Mana cost of this skill is reduced by 50%.",
+              "ru": "Расход маны на это умение уменьшается на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
           },
           {
             "name": "Quick Hands",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Skill attack speed increases by 20%.",
+              "ru": "Скорость атаки умением увеличивается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_6.webp"
           }
@@ -26141,24 +25844,24 @@
           {
             "name": "Lethargy Effect",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Hitting this ability reduces the movement and attack speed of the enemy by 20% for 4 sec.",
+              "ru": "Попадание этим умением уменьшает скорость передвижения и атаки противника на 20% в течение 4 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_47.webp"
           },
           {
             "name": "Throw in the throw",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Using this skill accumulates 100% more Chaos energy.",
+              "ru": "Использование этого умения накапливает на 100% больше энергии Хаоса."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_103.webp"
           },
           {
             "name": "Armor-piercing arm",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "This skill ignores 40% of all enemy defenses.",
+              "ru": "Это умение игнорирует 40% всей защиты противника."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_2.webp"
           }
@@ -26170,16 +25873,16 @@
           {
             "name": "Huge hand grab",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The range of demonic claws increases by 50%, and the damage done by 40%.",
+              "ru": "Размах демонических когтей увеличивается на 50%, а наносимый урон — на 40%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_7.webp"
           },
           {
             "name": "Outstretched hand",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The technique of performing the skill changes: now the demon's paw does not attract enemies, but throws them into the air. Opponents that are immune to stun and knockback effects take 80% more damage from this ability.",
+              "ru": "Техника исполнения умения меняется: теперь лапа демона не притягивает врагов, а подбрасывает их в воздух. Противники, невосприимчивые к эффектам ошеломления и отбрасывания, получают от этого умения на 80% больше урона."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_52.webp"
           }
@@ -26188,18 +25891,216 @@
     ]
   },
   {
-    "id": "c14s15",
+    "id": "c14s11",
     "name": {
-      "en": "Pierce Thorn",
-      "ru": ""
+      "en": "Grind Chain",
+      "ru": "Жестокое рассечение"
     },
     "class": {
       "en": "Demonic",
       "ru": "Фурия"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Throws haladi in front of him, inflicting up to 213 damage to opponents. After that, the weapon returns back and at the same time deals 231 damage. You cannot interrupt the use of a skill after a throw.",
+      "ru": "Бросает халади перед собой, наносяпротивникам до 21З ед. урона. После этого оружие возвращается обратно и при этом наносит еще 231 ед. урона. Прервать применение умения после броска нельзя."
+    },
+    "type": "Normal",
+    "cooldown": 12,
+    "iconUrl": "assets/icons/demonic/c14s08.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Enhanced Attack",
+            "description": {
+              "en": "Skill damage increased by 20%.",
+              "ru": "Урон умения увеличивается на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_0.webp"
+          },
+          {
+            "name": "Ground attack",
+            "description": {
+              "en": "[Element: Earth] The range of this skill is increased by 20%.",
+              "ru": "[Элемент: земля] Дальность действия умения увеличивается на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_15.webp"
+          },
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "The cooldown of this skill is reduced by 2 sec.",
+              "ru": "Время восстановления этого умения сокращается на 2 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Vital Attack",
+            "description": {
+              "en": "The critical strike chance for this skill is increased by 30%.",
+              "ru": "Шанс критического удара для этого умения увеличивается на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
+          },
+          {
+            "name": "Weaken Mobility",
+            "description": {
+              "en": "Hitting an enemy with this skill reduces their movement speed by 50% for 3 sec.",
+              "ru": "Попадание этим умением по противнику снижает его скорость передвижения на 50% в течение 3 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_47.webp"
+          },
+          {
+            "name": "Evasion Master",
+            "description": {
+              "en": "When this skill is applied, dodge increases by 20%.",
+              "ru": "Во время применения этого умения показатель уклонения повышается на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_26.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Continuous Attack",
+            "description": {
+              "en": "Throws haladi twice. Skill damage increased by 80%.",
+              "ru": "Бросает халади дважды. Урон умения увеличивается на 80%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_54.webp"
+          },
+          {
+            "name": "Grind Chain",
+            "description": {
+              "en": "After the throw, the haladi continues to rotate at the indicated point for 3 seconds, pulling together the enemies and causing them damage, and then disappears. The damage of the skill increases by 100%.",
+              "ru": "После броска халади продолжает вращаться в указанной точке на протяжении 3 сек., стягивая противников и нанося им урон, а затем исчезает Урон умения повышается на 100%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_53.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s12",
+    "name": {
+      "en": "Destruction",
+      "ru": "Безжалостная ликвидация"
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "Puts daggers forward, creating a wave of energy and inflicting 199 damage to enemies. When re-applying the skill, conducts two quick hits, inflicting 199 more damage. At the third use, completes the series, sharply spreading daggers to the sides, while doing 266 damage and repels opponents.",
+      "ru": "Выставляет кинжалы вперед, создавая волну энергии и нанося противникам 199 ед. урона. При повторном применении умения проводит два быстрых удара, нанося еще 199 ед. урона. При третьем использовании завершает серию, резко разводя кинжалы в стороны, при этом наносит 266 ед. урона и отталкивает противников."
+    },
+    "type": "Combo",
+    "cooldown": 16,
+    "iconUrl": "assets/icons/demonic/c14s13.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "Before delivering the first blow, the fury jerks 2 meters ahead.",
+              "ru": "Перед тем как нанести первый удар, фурия делает рывок на 2 м вперед."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Naivety",
+            "description": {
+              "en": "This ability can no longer be interrupted by stun and knockback effects.",
+              "ru": "Это умение теперь невозможно прервать эффектами ошеломления и отбрасывания."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_23.webp"
+          },
+          {
+            "name": "Special Bullet",
+            "description": {
+              "en": "This skill deals 30% more damage to enemies immune to stun and knockback effects.",
+              "ru": "Умение наносит на 30% больше урона противникам, невосприимчивым к эффектам ошеломления и отбрасывания."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_33.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Enhanced Cut",
+            "description": {
+              "en": "The level of the “Destruction” effect for the last hit with this skill increases by 1.",
+              "ru": "Уровень эффекта «Разрушение» для последнего удара этим умением повышается на 1 ."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_20.webp"
+          },
+          {
+            "name": "Wave attack",
+            "description": {
+              "en": "The number of strokes increases by three, and the damage done by the skill by 50%.",
+              "ru": "Количество ударов увеличивается на три, а наносимый умением урон — на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_39.webp"
+          },
+          {
+            "name": "Quick Attack",
+            "description": {
+              "en": "Damage from an energy wave is increased by 100%. The ability can now be used only twice in a row - when reused, it immediately deals the final blow with two daggers.",
+              "ru": "Урон от волны энергии увеличивается на 100%. Умение теперь можно использовать только дважды подряд — при повторном использовании сразу же наносит завершающий удар двумя кинжалами."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_41.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Death Target",
+            "description": {
+              "en": "The critical strike chance is increased by 50%, and the final strike speed of this skill is increased by 20%.",
+              "ru": "Шанс критического удара увеличивается на 50%, а скорость завершающего удара этого умения — на 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_4.webp"
+          },
+          {
+            "name": "Lunge throw",
+            "description": {
+              "en": "When it deals the final blow of this skill, it makes a jerk 8 meters forward, during which it can pass through ordinary opponents. In addition, this strike deals 50% more damage and knocks down enemies.",
+              "ru": "Когда наносит завершающий удар этого умения, делает рывок на 8 м вперед, во время которого может проходить сквозь обычных противников. Кроме того, этот удар наносит на 50% больше урона и сбивает врагов с ног."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_10.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s13",
+    "name": {
+      "en": "Pierce Thorn",
+      "ru": "Пронзающие шипы"
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "Shakes up the ground at a specified point at a distance of 12 m, creating huge spikes there that inflict 578 damage on enemies. damage and knock them down.",
+      "ru": "Вздыбливает землю в указанной точке на расстоянии до 12 м, создавая там огромные шипы, которые наносят противникам 578 ед. урона и сбивают их с ног."
     },
     "type": "Point",
     "cooldown": 20,
@@ -26211,24 +26112,24 @@
           {
             "name": "Magic Control",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Mana cost of this skill is reduced by 50%.",
+              "ru": "Расход маны на это умение уменьшается на 50%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_34.webp"
           },
           {
             "name": "Bleed Effect",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Hit with this skill causes the enemy to bleed for 5 seconds.",
+              "ru": "Попадание этим умением вызывает у противника кровотечение, которое действует 5 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_45.webp"
           },
           {
             "name": "Enhanced Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Skill damage increased by 20%.",
+              "ru": "Урон умения увеличивается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_0.webp"
           }
@@ -26240,24 +26141,24 @@
           {
             "name": "Rotting area",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Negative energy at the site of the spikes causes damage to enemies every 0.3 sec. within 3 sec. The skill deals more damage (up to 50%)",
+              "ru": "Негативная энергия в месте появления шипов наносит противникам урон каждые 0.3 сек. в течение 3 сек. Умение наносит больше урона (вплоть до 50%)"
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_45.webp"
           },
           {
             "name": "Triple spikes",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Creates many small spikes instead of several large ones. Skill damage increased by 40%.",
+              "ru": "Создает множество мелких шипов вместо нескольких больших. Урон умения увеличивается на 40%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_85.webp"
           },
           {
             "name": "Quickly Prepare",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The cooldown of this skill is reduced by 6 sec.",
+              "ru": "Время восстановления этого умения сокращается на 6 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_56.webp"
           }
@@ -26269,18 +26170,216 @@
           {
             "name": "Released spikes",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The skill is becoming ordinary. The spikes first move 8 m in the indicated direction, pushing away enemies, and then tearing the ground and knocking them down. The total damage of the skill is increased by 60%.",
+              "ru": "Умение становится обычным. Шипы сначала перемещаются на 8 м в указанном направлении, отталкивая врагов, а затем разрывают землю и сбивают их с ног. Общий урон умения увеличивается на 60%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_62.webp"
           },
           {
             "name": "Huge spike",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The size of the spikes increases by 50%, and the damage they cause is increased by 40%.",
+              "ru": "Размер шипов увеличивается на 50%, а наносимый ими урон — на 40%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_7.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s14",
+    "name": {
+      "en": "Spinning weapon",
+      "ru": "Барьер из лезвий"
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "Throws a dagger in front of him, which at great speed rotates in the air for 2 seconds and deals up to 393 damage. When reapplied, throws a second dagger, which also rotates for 2 seconds and inflicts up to 393 damage.",
+      "ru": "Бросает перед собой кинжал, который с огромной скоростью вращается в воздухе в течение 2 сек. и наносит до 393 ед. урона. При повторном применении бросает второй кинжал, который также вращается в течение 2 сек и наносит до 393 ед. урона."
+    },
+    "type": "Combo",
+    "cooldown": 24,
+    "iconUrl": "assets/icons/demonic/c14s27.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Bleed Effect",
+            "description": {
+              "en": "Hit with this skill causes the enemy to bleed for 5 seconds.",
+              "ru": "Попадание этим умением вызывает у противника кровотечение, которое действует 5 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_45.webp"
+          },
+          {
+            "name": "Swift Movement",
+            "description": {
+              "en": "Using this skill increases the speed of a fury by 10% for 5 sec.",
+              "ru": "Использование этого умения повышает скорость передвижения фурии на 10% в течение 5 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_11.webp"
+          },
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "The cooldown of this skill is reduced by 4 sec.",
+              "ru": "Время восстановления этого умения сокращается на 4 сек."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Enhanced Duration",
+            "description": {
+              "en": "Daggers rotate in the air for 1 sec. longer, and the damage they deal is increased by 50%.",
+              "ru": "Кинжалы вращаются в воздухе на 1 сек. дольше, а наносимый ими урон увеличивается на 50%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_51.webp"
+          },
+          {
+            "name": "Large blade",
+            "description": {
+              "en": "The radius of attack of daggers increases by 30%.",
+              "ru": "Радиус атаки кинжалов увеличивается на 30%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_62.webp"
+          },
+          {
+            "name": "Instant determination",
+            "description": {
+              "en": "This skill is becoming common. Now throws two daggers at the same time. The radius of attack of daggers is reduced by 20%, but at the same time they do more damage (up to + 60%).",
+              "ru": "Это умение становится обычным. Теперь одновременно бросает два кинжала. Радиус атаки кинжалов снижается на 20%, но при этом они наносят больше урона (вплоть до +60%)."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_40.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Armor-piercing blade",
+            "description": {
+              "en": "This skill ignores 60% of all enemy defenses.",
+              "ru": "Это умение игнорирует 60% всей защиты противника."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_2.webp"
+          },
+          {
+            "name": "Merciless cutter",
+            "description": {
+              "en": "The ability now consumes 20% of the accumulated Chaos energy, while the damage it deals is increased by 140%. The effect will not work if the energy is less than 20%.",
+              "ru": "Умение теперь расходует 20% накопленной энергии Хаоса, при этом наносимый им урон повышается на 140% Эффект не подействует, если энергии менее 20%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_102.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14s15",
+    "name": {
+      "en": "Pointed blade",
+      "ru": "Отчаянный прорыв"
+    },
+    "class": {
+      "en": "Demonic",
+      "ru": "Фурия"
+    },
+    "description": {
+      "en": "Rapidly advancing 9 m, spinning around its axis with daggers set aside, and inflicts up to 623 damage. When using this skill, it can go through ordinary opponents.",
+      "ru": "Стремительно продвигается вперед на 9 м, вращаясь вокруг своеи оси с выставленными в стороны кинжалами, и наносит до 623 ед. урона. При использовании этого умения может проходить сквозь обычных противников."
+    },
+    "type": "Normal",
+    "cooldown": 18,
+    "iconUrl": "assets/icons/demonic/c14s10.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "Dash range increases by 2 m.",
+              "ru": "Дальность рывка увеличивается на 2 м."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Enhanced Duration",
+            "description": {
+              "en": "Rotation time increases by 0.4 sec. In addition, it does more damage during rotation (up to + 20%).",
+              "ru": "Время вращения увеличивается на 0.4 сек. Кроме того, наносит больше урона во время вращения (вплоть до +20%)."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_39.webp"
+          },
+          {
+            "name": "Powerful swing",
+            "description": {
+              "en": "The damage of the skill is increased by 20%, but when it is used, it can no longer pass through ordinary opponents.",
+              "ru": "Урон умения увеличивается на 20%, но при его использовании больше не может проходить сквозь обычных противников."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_0.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Heavy bleeding",
+            "description": {
+              "en": "Hit with this skill causes the enemy to bleed for 5 seconds. The effect stacks up to five times.",
+              "ru": "Попадание этим умением вызывает у противника кровотечение, которое действует 5 сек. Эффект суммируется до пяти раз."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_45.webp"
+          },
+          {
+            "name": "Vertical swing",
+            "description": {
+              "en": "During rotation, it strikes vertically instead of horizontally. The radius of the skill decreases by 60%, while the damage dealt is increased by 60%.",
+              "ru": "Во время вращения наносит вертикальные удары вместо горизонтальных. Радиус действия умения уменьшается на 60%, при этом наносимый урон увеличивается на 60%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_40.webp"
+          },
+          {
+            "name": "Penetrating blow",
+            "description": {
+              "en": "When using the skill, makes a quick spurt of 6 m in the specified direction and inflicts a circular blow to opponents.",
+              "ru": "При использовании умения совершает быстрый рывок на 6 м в указанном направлении и наносит противникам круговой удар."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_27.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Deadly blade",
+            "description": {
+              "en": "Critical strike chance increases by 30%, and critical damage by 100%.",
+              "ru": "Шанс критического удара увеличивается на 30%, а критический урон — на 100%."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_49.webp"
+          },
+          {
+            "name": "Demon's Blade",
+            "description": {
+              "en": "Before striking, the fury fills the daggers with dark power. Damage to enemies of the \"rare\" type and below is increased by 50%. Using this skill accumulates 100% more Chaos energy.",
+              "ru": "Перед тем как нанести удар, фурия наполняет кинжалы темной силой. Урон по противникам типа «редкий» и ниже увеличивается на 50%. Использование этого умения накапливает на 100% больше энергии Хаоса."
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_61.webp"
           }
         ]
       }
@@ -26290,15 +26389,15 @@
     "id": "c14s16",
     "name": {
       "en": "Howling",
-      "ru": ""
+      "ru": "Ужасный рев"
     },
     "class": {
       "en": "Demonic",
       "ru": "Фурия"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Summons a demon incarnate who makes a terrifying roar, inflicting 458 damage and fear in nearby enemies for 2 sec.",
+      "ru": "Призывает воплощение демона, которое издает ужасающий рев, нанося 458 ед. урона и вселяя страх в ближайших противников на 2 сек."
     },
     "type": "Normal",
     "cooldown": 30,
@@ -26310,24 +26409,24 @@
           {
             "name": "Quick Hands",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Skill attack speed increases by 20%.",
+              "ru": "Скорость атаки умением увеличивается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_6.webp"
           },
           {
             "name": "Fear Preservation",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The duration of the “Fear” effect increases by 1 sec.",
+              "ru": "Время действия эффекта «Страх» увеличивается на 1 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_51.webp"
           },
           {
             "name": "Quickly Prepare",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The cooldown of this skill is reduced by 3 sec.",
+              "ru": "Время восстановления этого умения сокращается на 3 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
           }
@@ -26339,24 +26438,24 @@
           {
             "name": "Survival of the Fittest",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The skill deals 100% more damage to enemies of the rare and lower types.",
+              "ru": "Умение наносит на 100% больше урона противникам типа «редкий» и ниже."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_61.webp"
           },
           {
             "name": "Throw in the throw",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Using this skill accumulates 100% more Chaos energy.",
+              "ru": "Использование этого умения накапливает на 100% больше энергии Хаоса."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_103.webp"
           },
           {
             "name": "Concussion",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The skill exhausts opponents faster.",
+              "ru": "Умение изнуряет противников быстрее."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_69.webp"
           }
@@ -26368,16 +26467,16 @@
           {
             "name": "Angry cry",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "This skill is for 6 sec. Increases damage done by the target and its allies by 30%.",
+              "ru": "Это умение на 6 сек. повышает урон, наносимый цели и ее союзниками, на 30%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_2.webp"
           },
           {
             "name": "Mighty roar",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The radius of the ability increases by 25%, and the damage done - by 100%.",
+              "ru": "Радиус действия умения увеличивается на 25%, а наносимый урон — на 100%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_7.webp"
           }
@@ -26389,15 +26488,15 @@
     "id": "c14s17",
     "name": {
       "en": "Eluding Form",
-      "ru": ""
+      "ru": "Агония"
     },
     "class": {
       "en": "Demonic",
       "ru": "Фурия"
     },
     "description": {
-      "en": "",
-      "ru": ""
+      "en": "Summons а huge demon paw that inflicts оп enemies 540 damage.",
+      "ru": "Призывает огромную лапу демона, которая наноситпротивникам 540 ед. урона."
     },
     "type": "Normal",
     "cooldown": 27,
@@ -26409,24 +26508,24 @@
           {
             "name": "Bleed Effect",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Hit with this skill causes the opponent to bleed for 5s.",
+              "ru": "Попадание этим умением вызывает у противника кровотечение, которое действует 5 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_45.webp"
           },
           {
             "name": "Quick Hands",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Attack speed increases by 20%.",
+              "ru": "Скорость атаки умением увеличивается на 20%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_6.webp"
           },
           {
             "name": "Quickly Prepare",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The cooldown of this skill is reduced by 3s.",
+              "ru": "Время восстановления этого умения сокращается на 3 сек."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
           }
@@ -26438,24 +26537,24 @@
           {
             "name": "Special Bullet",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Deals 60% more damage to enemies immune to stagger and knockback effects.",
+              "ru": "Наносит 60% больше урона противникам, невосприимчивым к эффектам ошеломления и отбрасывания."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_33.webp"
           },
           {
             "name": "Tempest Slash",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "This skill no longer accumulates Chaos energy. Skill damage increaseы by 100%.",
+              "ru": "Это умение больше не накапливает энергию Хаоса. Урон умения повышается на 100%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_104.webp"
           },
           {
             "name": "Deadly lunge",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "The critical damage for this skill is increased by 100%.",
+              "ru": "Критический урон для этого умения увеличивается на 100%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_2_4.webp"
           }
@@ -26467,16 +26566,16 @@
           {
             "name": "Ice hand",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "After clawing, a surge of dark energy occurs, which increases the damage of the skill by 80%.",
+              "ru": "После удара когтями происходит всплеск темной энергии, который увеличивает урон умения на 80%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_78.webp"
           },
           {
             "name": "Intensive Attack",
             "description": {
-              "en": "",
-              "ru": ""
+              "en": "Makes a horizontal claw strike, while the angle of attack increases to 180 degrees and damage decreases by 60%.",
+              "ru": "Фурия совершает горизонтальный удар когтями, при этом угол атаки увеличивается до 180 градусов, а урон увеличен на 60%."
             },
             "iconUrl": "assets/icons/tripod/Tripod_Tier_3_39.webp"
           }
@@ -26485,4 +26584,3 @@
     ]
   }
 ]
-

@@ -116,8 +116,8 @@ class AppManager extends ChangeNotifier {
 
   List<String> get classArchetypes {
     return _locale.languageCode == 'en'
-        ? ['Warrior', 'Fighter', 'Hunter', 'Magician']
-        : ['Воин', 'Монах', 'Стрелок', 'Маг'];
+        ? ['Warrior', 'Fighter', 'Hunter', 'Magician', 'Assassin']
+        : ['Воин', 'Монах', 'Стрелок', 'Маг', 'Ассасин'];
   }
 
   List<CharacterClass> get allClasses => _classList;
