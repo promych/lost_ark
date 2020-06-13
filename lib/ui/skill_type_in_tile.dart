@@ -20,6 +20,8 @@ class SkillTypeInTile extends StatelessWidget {
         return 'Серия приемов';
       case 'point':
         return 'Направленное';
+      case 'charge':
+        return 'Подготовка';
       default:
         if (sType.contains('Hold'))
           return sType.replaceAll('Hold', 'Поддерживаемое');
