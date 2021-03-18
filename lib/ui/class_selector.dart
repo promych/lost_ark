@@ -85,7 +85,7 @@ class _ClassSelectorState extends State<ClassSelector>
                         gradient: LinearGradient(
                           begin: Alignment.topCenter,
                           end: Alignment.bottomCenter,
-                          List: const <Color>[
+                          colors: const <Color>[
                             Color(0xCC000000),
                             Color(0x00000000),
                             Color(0x00000000),
