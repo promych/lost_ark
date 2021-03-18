@@ -25,21 +25,15 @@ class _HomePageState extends State<HomePage> {
     final _barItems = [
       BottomNavigationBarItem(
         icon: Icon(Icons.people),
-        title: Text(
-          LocaleManager.of(context).translate('classes'),
-        ),
+        label: LocaleManager.of(context).translate('classes'),
       ),
       BottomNavigationBarItem(
         icon: Icon(LostArk.reddit_alien),
-        title: Text(
-          'Reddit',
-        ),
+        label: 'Reddit',
       ),
       BottomNavigationBarItem(
         icon: Icon(LostArk.cog_alt),
-        title: Text(
-          LocaleManager.of(context).translate('settings'),
-        ),
+        label: LocaleManager.of(context).translate('settings'),
       ),
     ];
 
