@@ -48,6 +48,10 @@ class LostArk {
     'class_lancemaster': class_lancemaster,
     'class_blade': class_blade,
     'class_demonic': class_demonic,
+    'class_gunslinger': class_gunslinger,
+    'class_paladin': class_paladin,
+    'class_sorceress': class_sorceress,
+    'class_striker': class_striker,
     'logo': logo,
     'down': down,
     'social_youtube': social_youtube,
@@ -97,6 +101,10 @@ class LostArk {
       const IconData(0xf113, fontFamily: _kFontFam);
   static const IconData class_blade = const IconData(0xf10d, fontFamily: _kFontFam);
   static const IconData class_demonic = const IconData(0xf10f, fontFamily: _kFontFam);
+  static const IconData class_gunslinger = const IconData(0xf282, fontFamily: _kFontFam);
+  static const IconData class_paladin = const IconData(0xf283, fontFamily: _kFontFam);
+  static const IconData class_sorceress = const IconData(0xf284, fontFamily: _kFontFam);
+  static const IconData class_striker = const IconData(0xf285, fontFamily: _kFontFam);
   static const IconData logo = const IconData(0xe810, fontFamily: _kFontFam);
   static const IconData down = const IconData(0xe812, fontFamily: _kFontFam);
   static const IconData social_youtube =
