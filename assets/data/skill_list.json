@@ -16,7 +16,7 @@
     "type": "Normal",
     "cooldown": 5,
     "mana": 41,
-    "iconUrl": "assets/icons/warlord/c01s00.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s00.webp",
     "tripod": [
       {
         "tier": 1,
@@ -116,7 +116,7 @@
     "type": "Normal",
     "cooldown": 10,
     "mana": 61,
-    "iconUrl": "assets/icons/warlord/c01s01.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s01.webp",
     "tripod": [
       {
         "tier": 1,
@@ -216,7 +216,7 @@
     "type": "Normal",
     "cooldown": 7,
     "mana": 49,
-    "iconUrl": "assets/icons/warlord/c01s03.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s03.webp",
     "tripod": [
       {
         "tier": 1,
@@ -316,7 +316,7 @@
     "type": "Normal",
     "cooldown": 9,
     "mana": 57,
-    "iconUrl": "assets/icons/warlord/c01s04.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s04.webp",
     "tripod": [
       {
         "tier": 1,
@@ -416,7 +416,7 @@
     "type": "Combo",
     "cooldown": 16,
     "mana": 80,
-    "iconUrl": "assets/icons/warlord/c01s05.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s05.webp",
     "tripod": [
       {
         "tier": 1,
@@ -516,7 +516,7 @@
     "type": "Combo",
     "cooldown": 9,
     "mana": 57,
-    "iconUrl": "assets/icons/warlord/c01s11.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s11.webp",
     "tripod": [
       {
         "tier": 1,
@@ -616,7 +616,7 @@
     "type": "Point",
     "cooldown": 16,
     "mana": 80,
-    "iconUrl": "assets/icons/warlord/c01s08.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s08.webp",
     "tripod": [
       {
         "tier": 1,
@@ -716,7 +716,7 @@
     "type": "Normal",
     "cooldown": 20,
     "mana": 91,
-    "iconUrl": "assets/icons/warlord/c01s10.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s10.webp",
     "tripod": [
       {
         "tier": 1,
@@ -816,7 +816,7 @@
     "type": "Notmal",
     "cooldown": 24,
     "mana": 101,
-    "iconUrl": "assets/icons/warlord/c01s06.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s06.webp",
     "tripod": [
       {
         "tier": 1,
@@ -916,7 +916,7 @@
     "type": "Hold 2 sec",
     "cooldown": 16,
     "mana": 80,
-    "iconUrl": "assets/icons/warlord/c01s02.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s02.webp",
     "tripod": [
       {
         "tier": 1,
@@ -1016,7 +1016,7 @@
     "type": "Charge",
     "cooldown": 30,
     "mana": 114,
-    "iconUrl": "assets/icons/warlord/c01s16.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s16.webp",
     "tripod": [
       {
         "tier": 1,
@@ -1116,7 +1116,7 @@
     "type": "Normal",
     "cooldown": 30,
     "mana": 114,
-    "iconUrl": "assets/icons/warlord/c01s13.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s13.webp",
     "tripod": [
       {
         "tier": 1,
@@ -1216,7 +1216,7 @@
     "type": "Normal",
     "cooldown": 12,
     "mana": 67,
-    "iconUrl": "assets/icons/warlord/c01s07.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s07.webp",
     "tripod": [
       {
         "tier": 1,
@@ -1316,7 +1316,7 @@
     "type": "Normal",
     "cooldown": 20,
     "mana": 101,
-    "iconUrl": "assets/icons/warlord/c01s14.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s14.webp",
     "tripod": [
       {
         "tier": 1,
@@ -1416,7 +1416,7 @@
     "type": "Normal",
     "cooldown": 40,
     "mana": 135,
-    "iconUrl": "assets/icons/warlord/c01s09.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s09.webp",
     "tripod": [
       {
         "tier": 1,
@@ -1516,7 +1516,7 @@
     "type": "Normal",
     "cooldown": 12,
     "mana": 85,
-    "iconUrl": "assets/icons/warlord/c01s12.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s12.webp",
     "tripod": [
       {
         "tier": 1,
@@ -1616,7 +1616,7 @@
     "type": "Normal",
     "cooldown": 30,
     "mana": 114,
-    "iconUrl": "assets/icons/warlord/c01s15.webp",
+    "iconUrl": "assets/icons/gunlancer/c01s15.webp",
     "tripod": [
       {
         "tier": 1,
@@ -5214,7 +5214,7 @@
     },
     "type": "Normal",
     "cooldown": 14,
-    "iconUrl": "assets/icons/battlemaster/c03s03.webp",
+    "iconUrl": "assets/icons/wardander/c03s03.webp",
     "tripod": [
       {
         "tier": 1,
@@ -5313,7 +5313,7 @@
     },
     "type": "Combo",
     "cooldown": 8,
-    "iconUrl": "assets/icons/battlemaster/c03s11.webp",
+    "iconUrl": "assets/icons/wardander/c03s11.webp",
     "tripod": [
       {
         "tier": 1,
@@ -5412,7 +5412,7 @@
     },
     "type": "Normal",
     "cooldown": 7,
-    "iconUrl": "assets/icons/battlemaster/c03s12.webp",
+    "iconUrl": "assets/icons/wardander/c03s12.webp",
     "tripod": [
       {
         "tier": 1,
@@ -5511,7 +5511,7 @@
     },
     "type": "Normal",
     "cooldown": 6,
-    "iconUrl": "assets/icons/battlemaster/c03s13.webp",
+    "iconUrl": "assets/icons/wardander/c03s13.webp",
     "tripod": [
       {
         "tier": 1,
@@ -5610,7 +5610,7 @@
     },
     "type": "Combo",
     "cooldown": 18,
-    "iconUrl": "assets/icons/battlemaster/c03s14.webp",
+    "iconUrl": "assets/icons/wardander/c03s14.webp",
     "tripod": [
       {
         "tier": 1,
@@ -5709,7 +5709,7 @@
     },
     "type": "Normal",
     "cooldown": 16,
-    "iconUrl": "assets/icons/battlemaster/c03s06.webp",
+    "iconUrl": "assets/icons/wardander/c03s06.webp",
     "tripod": [
       {
         "tier": 1,
@@ -5808,7 +5808,7 @@
     },
     "type": "Combo",
     "cooldown": 16,
-    "iconUrl": "assets/icons/battlemaster/c03s04.webp",
+    "iconUrl": "assets/icons/wardander/c03s04.webp",
     "tripod": [
       {
         "tier": 1,
@@ -5907,7 +5907,7 @@
     },
     "type": "Normal",
     "cooldown": 30,
-    "iconUrl": "assets/icons/battlemaster/c03s09.webp",
+    "iconUrl": "assets/icons/wardander/c03s09.webp",
     "tripod": [
       {
         "tier": 1,
@@ -6006,7 +6006,7 @@
     },
     "type": "Normal",
     "cooldown": 20,
-    "iconUrl": "assets/icons/battlemaster/c03s15.webp",
+    "iconUrl": "assets/icons/wardander/c03s15.webp",
     "tripod": [
       {
         "tier": 1,
@@ -6105,7 +6105,7 @@
     },
     "type": "Point",
     "cooldown": 18,
-    "iconUrl": "assets/icons/battlemaster/c03s10.webp",
+    "iconUrl": "assets/icons/wardander/c03s10.webp",
     "tripod": [
       {
         "tier": 1,
@@ -6204,7 +6204,7 @@
     },
     "type": "Normal",
     "cooldown": 25,
-    "iconUrl": "assets/icons/battlemaster/c03s05.webp",
+    "iconUrl": "assets/icons/wardander/c03s05.webp",
     "tripod": [
       {
         "tier": 1,
@@ -6303,7 +6303,7 @@
     },
     "type": "Combo",
     "cooldown": 25,
-    "iconUrl": "assets/icons/battlemaster/c03s17.webp",
+    "iconUrl": "assets/icons/wardander/c03s17.webp",
     "tripod": [
       {
         "tier": 1,
@@ -6402,7 +6402,7 @@
     },
     "type": "Normal",
     "cooldown": 36,
-    "iconUrl": "assets/icons/battlemaster/c03s16.webp",
+    "iconUrl": "assets/icons/wardander/c03s16.webp",
     "tripod": [
       {
         "tier": 1,
@@ -6501,7 +6501,7 @@
     },
     "type": "Normal",
     "cooldown": 16,
-    "iconUrl": "assets/icons/battlemaster/c03s01.webp",
+    "iconUrl": "assets/icons/wardander/c03s01.webp",
     "tripod": [
       {
         "tier": 1,
@@ -6600,7 +6600,7 @@
     },
     "type": "Normal",
     "cooldown": 24,
-    "iconUrl": "assets/icons/battlemaster/c03s02.webp",
+    "iconUrl": "assets/icons/wardander/c03s02.webp",
     "tripod": [
       {
         "tier": 1,
@@ -6699,7 +6699,7 @@
     },
     "type": "Normal",
     "cooldown": 16,
-    "iconUrl": "assets/icons/battlemaster/c03s07.webp",
+    "iconUrl": "assets/icons/wardander/c03s07.webp",
     "tripod": [
       {
         "tier": 1,
@@ -6798,7 +6798,7 @@
     },
     "type": "Hold 4 sec",
     "cooldown": 24,
-    "iconUrl": "assets/icons/battlemaster/c03s08.webp",
+    "iconUrl": "assets/icons/wardander/c03s08.webp",
     "tripod": [
       {
         "tier": 1,
@@ -6897,7 +6897,7 @@
     },
     "type": "Normal",
     "cooldown": 30,
-    "iconUrl": "assets/icons/battlemaster/c03s00.webp",
+    "iconUrl": "assets/icons/wardander/c03s00.webp",
     "tripod": [
       {
         "tier": 1,
@@ -6996,7 +6996,7 @@
     },
     "type": "Normal",
     "cooldown": 5,
-    "iconUrl": "assets/icons/infighter/c04s00.webp",
+    "iconUrl": "assets/icons/scrapper/c04s00.webp",
     "tripod": [
       {
         "tier": 1,
@@ -7095,7 +7095,7 @@
     },
     "type": "Combo",
     "cooldown": 8,
-    "iconUrl": "assets/icons/infighter/c04s05.webp",
+    "iconUrl": "assets/icons/scrapper/c04s05.webp",
     "tripod": [
       {
         "tier": 1,
@@ -7194,7 +7194,7 @@
     },
     "type": "Normal",
     "cooldown": 8,
-    "iconUrl": "assets/icons/infighter/c04s11.webp",
+    "iconUrl": "assets/icons/scrapper/c04s11.webp",
     "tripod": [
       {
         "tier": 1,
@@ -7293,7 +7293,7 @@
     },
     "type": "Point",
     "cooldown": 16,
-    "iconUrl": "assets/icons/infighter/c04s01.webp",
+    "iconUrl": "assets/icons/scrapper/c04s01.webp",
     "tripod": [
       {
         "tier": 1,
@@ -7392,7 +7392,7 @@
     },
     "type": "Normal",
     "cooldown": 20,
-    "iconUrl": "assets/icons/infighter/c04s09.webp",
+    "iconUrl": "assets/icons/scrapper/c04s09.webp",
     "tripod": [
       {
         "tier": 1,
@@ -7491,7 +7491,7 @@
     },
     "type": "Normal",
     "cooldown": 16,
-    "iconUrl": "assets/icons/infighter/c04s03.webp",
+    "iconUrl": "assets/icons/scrapper/c04s03.webp",
     "tripod": [
       {
         "tier": 1,
@@ -7590,7 +7590,7 @@
     },
     "type": "Hold 1 sec",
     "cooldown": 16,
-    "iconUrl": "assets/icons/infighter/c04s14.webp",
+    "iconUrl": "assets/icons/scrapper/c04s14.webp",
     "tripod": [
       {
         "tier": 1,
@@ -7689,7 +7689,7 @@
     },
     "type": "Hold 1 sec",
     "cooldown": 24,
-    "iconUrl": "assets/icons/infighter/c04s12.webp",
+    "iconUrl": "assets/icons/scrapper/c04s12.webp",
     "tripod": [
       {
         "tier": 1,
@@ -7788,7 +7788,7 @@
     },
     "type": "Combo",
     "cooldown": 16,
-    "iconUrl": "assets/icons/infighter/c04s15.webp",
+    "iconUrl": "assets/icons/scrapper/c04s15.webp",
     "tripod": [
       {
         "tier": 1,
@@ -7887,7 +7887,7 @@
     },
     "type": "Normal",
     "cooldown": 15,
-    "iconUrl": "assets/icons/infighter/c04s04.webp",
+    "iconUrl": "assets/icons/scrapper/c04s04.webp",
     "tripod": [
       {
         "tier": 1,
@@ -7986,7 +7986,7 @@
     },
     "type": "Combo",
     "cooldown": 6,
-    "iconUrl": "assets/icons/infighter/c04s02.webp",
+    "iconUrl": "assets/icons/scrapper/c04s02.webp",
     "tripod": [
       {
         "tier": 1,
@@ -8085,7 +8085,7 @@
     },
     "type": "Normal",
     "cooldown": 8,
-    "iconUrl": "assets/icons/infighter/c04s10.webp",
+    "iconUrl": "assets/icons/scrapper/c04s10.webp",
     "tripod": [
       {
         "tier": 1,
@@ -8184,7 +8184,7 @@
     },
     "type": "Normal",
     "cooldown": 24,
-    "iconUrl": "assets/icons/infighter/c04s07.webp",
+    "iconUrl": "assets/icons/scrapper/c04s07.webp",
     "tripod": [
       {
         "tier": 1,
@@ -8283,7 +8283,7 @@
     },
     "type": "Charge",
     "cooldown": 20,
-    "iconUrl": "assets/icons/infighter/c04s13.webp",
+    "iconUrl": "assets/icons/scrapper/c04s13.webp",
     "tripod": [
       {
         "tier": 1,
@@ -8382,7 +8382,7 @@
     },
     "type": "Normal",
     "cooldown": 30,
-    "iconUrl": "assets/icons/infighter/c04s06.webp",
+    "iconUrl": "assets/icons/scrapper/c04s06.webp",
     "tripod": [
       {
         "tier": 1,
@@ -8481,7 +8481,7 @@
     },
     "type": "Combo",
     "cooldown": 24,
-    "iconUrl": "assets/icons/infighter/c04s16.webp",
+    "iconUrl": "assets/icons/scrapper/c04s16.webp",
     "tripod": [
       {
         "tier": 1,
@@ -8580,7 +8580,7 @@
     },
     "type": "Normal",
     "cooldown": 24,
-    "iconUrl": "assets/icons/infighter/c04s17.webp",
+    "iconUrl": "assets/icons/scrapper/c04s17.webp",
     "tripod": [
       {
         "tier": 1,
@@ -8679,7 +8679,7 @@
     },
     "type": "Normal",
     "cooldown": 30,
-    "iconUrl": "assets/icons/infighter/c04s08.webp",
+    "iconUrl": "assets/icons/scrapper/c04s08.webp",
     "tripod": [
       {
         "tier": 1,
@@ -8778,7 +8778,7 @@
     },
     "type": "Normal",
     "cooldown": 8,
-    "iconUrl": "assets/icons/soulmaster/c05s03.webp",
+    "iconUrl": "assets/icons/soulfist/c05s03.webp",
     "tripod": [
       {
         "tier": 1,
@@ -8877,7 +8877,7 @@
     },
     "type": "Normal",
     "cooldown": 9,
-    "iconUrl": "assets/icons/soulmaster/c05s08.webp",
+    "iconUrl": "assets/icons/soulfist/c05s08.webp",
     "tripod": [
       {
         "tier": 1,
@@ -8976,7 +8976,7 @@
     },
     "type": "Normal",
     "cooldown": 8,
-    "iconUrl": "assets/icons/soulmaster/c05s01.webp",
+    "iconUrl": "assets/icons/soulfist/c05s01.webp",
     "tripod": [
       {
         "tier": 1,
@@ -9075,7 +9075,7 @@
     },
     "type": "Normal",
     "cooldown": 12,
-    "iconUrl": "assets/icons/soulmaster/c05s12.webp",
+    "iconUrl": "assets/icons/soulfist/c05s12.webp",
     "tripod": [
       {
         "tier": 1,
@@ -9174,7 +9174,7 @@
     },
     "type": "Hold",
     "cooldown": 14,
-    "iconUrl": "assets/icons/soulmaster/c05s07.webp",
+    "iconUrl": "assets/icons/soulfist/c05s07.webp",
     "tripod": [
       {
         "tier": 1,
@@ -9273,7 +9273,7 @@
     },
     "type": "Normal",
     "cooldown": 16,
-    "iconUrl": "assets/icons/soulmaster/c05s16.webp",
+    "iconUrl": "assets/icons/soulfist/c05s16.webp",
     "tripod": [
       {
         "tier": 1,
@@ -9372,7 +9372,7 @@
     },
     "type": "Normal",
     "cooldown": 16,
-    "iconUrl": "assets/icons/soulmaster/c05s02.webp",
+    "iconUrl": "assets/icons/soulfist/c05s02.webp",
     "tripod": [
       {
         "tier": 1,
@@ -9471,7 +9471,7 @@
     },
     "type": "Point",
     "cooldown": 20,
-    "iconUrl": "assets/icons/soulmaster/c05s05.webp",
+    "iconUrl": "assets/icons/soulfist/c05s05.webp",
     "tripod": [
       {
         "tier": 1,
@@ -9570,7 +9570,7 @@
     },
     "type": "Chain",
     "cooldown": 8,
-    "iconUrl": "assets/icons/soulmaster/c05s14.webp",
+    "iconUrl": "assets/icons/soulfist/c05s14.webp",
     "tripod": [
       {
         "tier": 1,
@@ -9669,7 +9669,7 @@
     },
     "type": "Normal",
     "cooldown": 18,
-    "iconUrl": "assets/icons/soulmaster/c05s04.webp",
+    "iconUrl": "assets/icons/soulfist/c05s04.webp",
     "tripod": [
       {
         "tier": 1,
@@ -9768,7 +9768,7 @@
     },
     "type": "Normal",
     "cooldown": 20,
-    "iconUrl": "assets/icons/soulmaster/c05s09.webp",
+    "iconUrl": "assets/icons/soulfist/c05s09.webp",
     "tripod": [
       {
         "tier": 1,
@@ -9867,7 +9867,7 @@
     },
     "type": "Normal",
     "cooldown": 16,
-    "iconUrl": "assets/icons/soulmaster/c05s10.webp",
+    "iconUrl": "assets/icons/soulfist/c05s10.webp",
     "tripod": [
       {
         "tier": 1,
@@ -9966,7 +9966,7 @@
     },
     "type": "Normal",
     "cooldown": 15,
-    "iconUrl": "assets/icons/soulmaster/c05s13.webp",
+    "iconUrl": "assets/icons/soulfist/c05s13.webp",
     "tripod": [
       {
         "tier": 1,
@@ -10065,7 +10065,7 @@
     },
     "type": "Hold",
     "cooldown": 24,
-    "iconUrl": "assets/icons/soulmaster/c05s06.webp",
+    "iconUrl": "assets/icons/soulfist/c05s06.webp",
     "tripod": [
       {
         "tier": 1,
@@ -10164,7 +10164,7 @@
     },
     "type": "Normal",
     "cooldown": 20,
-    "iconUrl": "assets/icons/soulmaster/c05s11.webp",
+    "iconUrl": "assets/icons/soulfist/c05s11.webp",
     "tripod": [
       {
         "tier": 1,
@@ -10263,7 +10263,7 @@
     },
     "type": "Hold",
     "cooldown": 30,
-    "iconUrl": "assets/icons/soulmaster/c05s00.webp",
+    "iconUrl": "assets/icons/soulfist/c05s00.webp",
     "tripod": [
       {
         "tier": 1,
@@ -10362,7 +10362,7 @@
     },
     "type": "Normal",
     "cooldown": 24,
-    "iconUrl": "assets/icons/soulmaster/c05s15.webp",
+    "iconUrl": "assets/icons/soulfist/c05s15.webp",
     "tripod": [
       {
         "tier": 1,
@@ -10461,7 +10461,7 @@
     },
     "type": "Combo",
     "cooldown": 12,
-    "iconUrl": "assets/icons/devilhunter/c06s00.webp",
+    "iconUrl": "assets/icons/deadeye/c06s00.webp",
     "tripod": [
       {
         "tier": 1,
@@ -10560,7 +10560,7 @@
     },
     "type": "Point",
     "cooldown": 9,
-    "iconUrl": "assets/icons/devilhunter/c06s07.webp",
+    "iconUrl": "assets/icons/deadeye/c06s07.webp",
     "tripod": [
       {
         "tier": 1,
@@ -10659,7 +10659,7 @@
     },
     "type": "Point",
     "cooldown": 6,
-    "iconUrl": "assets/icons/devilhunter/c06s09.webp",
+    "iconUrl": "assets/icons/deadeye/c06s09.webp",
     "tripod": [
       {
         "tier": 1,
@@ -10758,7 +10758,7 @@
     },
     "type": "Normal",
     "cooldown": 8,
-    "iconUrl": "assets/icons/devilhunter/c06s10.webp",
+    "iconUrl": "assets/icons/deadeye/c06s10.webp",
     "tripod": [
       {
         "tier": 1,
@@ -10857,7 +10857,7 @@
     },
     "type": "Point",
     "cooldown": 8,
-    "iconUrl": "assets/icons/devilhunter/c06s12.webp",
+    "iconUrl": "assets/icons/deadeye/c06s12.webp",
     "tripod": [
       {
         "tier": 1,
@@ -10956,7 +10956,7 @@
     },
     "type": "Normal",
     "cooldown": 9,
-    "iconUrl": "assets/icons/devilhunter/c06s15.webp",
+    "iconUrl": "assets/icons/deadeye/c06s15.webp",
     "tripod": [
       {
         "tier": 1,
@@ -11055,7 +11055,7 @@
     },
     "type": "Normal",
     "cooldown": 16,
-    "iconUrl": "assets/icons/devilhunter/c06s16.webp",
+    "iconUrl": "assets/icons/deadeye/c06s16.webp",
     "tripod": [
       {
         "tier": 1,
@@ -11154,7 +11154,7 @@
     },
     "type": "Combo",
     "cooldown": 1,
-    "iconUrl": "assets/icons/devilhunter/c06s14.webp",
+    "iconUrl": "assets/icons/deadeye/c06s14.webp",
     "tripod": [
       {
         "tier": 1,
@@ -11253,7 +11253,7 @@
     },
     "type": "Hold 2.5 sec",
     "cooldown": 24,
-    "iconUrl": "assets/icons/devilhunter/c06s06.webp",
+    "iconUrl": "assets/icons/deadeye/c06s06.webp",
     "tripod": [
       {
         "tier": 1,
@@ -11352,7 +11352,7 @@
     },
     "type": "Combo",
     "cooldown": 8,
-    "iconUrl": "assets/icons/devilhunter/c06s19.webp",
+    "iconUrl": "assets/icons/deadeye/c06s19.webp",
     "tripod": [
       {
         "tier": 1,
@@ -11451,7 +11451,7 @@
     },
     "type": "Normal",
     "cooldown": 18,
-    "iconUrl": "assets/icons/devilhunter/c06s13.webp",
+    "iconUrl": "assets/icons/deadeye/c06s13.webp",
     "tripod": [
       {
         "tier": 1,
@@ -11550,7 +11550,7 @@
     },
     "type": "Combo",
     "cooldown": 24,
-    "iconUrl": "assets/icons/devilhunter/c06s01.webp",
+    "iconUrl": "assets/icons/deadeye/c06s01.webp",
     "tripod": [
       {
         "tier": 1,
@@ -11649,7 +11649,7 @@
     },
     "type": "Normal",
     "cooldown": 30,
-    "iconUrl": "assets/icons/devilhunter/c06s02.webp",
+    "iconUrl": "assets/icons/deadeye/c06s02.webp",
     "tripod": [
       {
         "tier": 1,
@@ -11748,7 +11748,7 @@
     },
     "type": "Normal",
     "cooldown": 36,
-    "iconUrl": "assets/icons/devilhunter/c06s11.webp",
+    "iconUrl": "assets/icons/deadeye/c06s11.webp",
     "tripod": [
       {
         "tier": 1,
@@ -11847,7 +11847,7 @@
     },
     "type": "Hold 1.5 sec",
     "cooldown": 24,
-    "iconUrl": "assets/icons/devilhunter/c06s08.webp",
+    "iconUrl": "assets/icons/deadeye/c06s08.webp",
     "tripod": [
       {
         "tier": 1,
@@ -11946,7 +11946,7 @@
     },
     "type": "Normal",
     "cooldown": 36,
-    "iconUrl": "assets/icons/devilhunter/c06s17.webp",
+    "iconUrl": "assets/icons/deadeye/c06s17.webp",
     "tripod": [
       {
         "tier": 1,
@@ -12045,7 +12045,7 @@
     },
     "type": "Normal",
     "cooldown": 36,
-    "iconUrl": "assets/icons/devilhunter/c06s03.webp",
+    "iconUrl": "assets/icons/deadeye/c06s03.webp",
     "tripod": [
       {
         "tier": 1,
@@ -12144,7 +12144,7 @@
     },
     "type": "Hold 2.5 sec",
     "cooldown": 24,
-    "iconUrl": "assets/icons/devilhunter/c06s05.webp",
+    "iconUrl": "assets/icons/deadeye/c06s05.webp",
     "tripod": [
       {
         "tier": 1,
@@ -12243,7 +12243,7 @@
     },
     "type": "Chain",
     "cooldown": 30,
-    "iconUrl": "assets/icons/devilhunter/c06s04.webp",
+    "iconUrl": "assets/icons/deadeye/c06s04.webp",
     "tripod": [
       {
         "tier": 1,
@@ -12342,7 +12342,7 @@
     },
     "type": "Normal",
     "cooldown": 24,
-    "iconUrl": "assets/icons/devilhunter/c06s18.webp",
+    "iconUrl": "assets/icons/deadeye/c06s18.webp",
     "tripod": [
       {
         "tier": 1,
@@ -12441,7 +12441,7 @@
     },
     "type": "Hold",
     "cooldown": 30,
-    "iconUrl": "assets/icons/devilhunter/c06s20.webp",
+    "iconUrl": "assets/icons/deadeye/c06s20.webp",
     "tripod": [
       {
         "tier": 1,
@@ -12540,7 +12540,7 @@
     },
     "type": "Normal",
     "cooldown": 5,
-    "iconUrl": "assets/icons/blaster/c07s00.webp",
+    "iconUrl": "assets/icons/artillerist/c07s00.webp",
     "tripod": [
       {
         "tier": 1,
@@ -12639,7 +12639,7 @@
     },
     "type": "Normal",
     "cooldown": 6,
-    "iconUrl": "assets/icons/blaster/c07s01.webp",
+    "iconUrl": "assets/icons/artillerist/c07s01.webp",
     "tripod": [
       {
         "tier": 1,
@@ -12738,7 +12738,7 @@
     },
     "type": "Normal",
     "cooldown": 8,
-    "iconUrl": "assets/icons/blaster/c07s02.webp",
+    "iconUrl": "assets/icons/artillerist/c07s02.webp",
     "tripod": [
       {
         "tier": 1,
@@ -12837,7 +12837,7 @@
     },
     "type": "Point",
     "cooldown": 12,
-    "iconUrl": "assets/icons/blaster/c07s04.webp",
+    "iconUrl": "assets/icons/artillerist/c07s04.webp",
     "tripod": [
       {
         "tier": 1,
@@ -12936,7 +12936,7 @@
     },
     "type": "Normal",
     "cooldown": 16,
-    "iconUrl": "assets/icons/blaster/c07s11.webp",
+    "iconUrl": "assets/icons/artillerist/c07s11.webp",
     "tripod": [
       {
         "tier": 1,
@@ -13035,7 +13035,7 @@
     },
     "type": "Normal",
     "cooldown": 18,
-    "iconUrl": "assets/icons/blaster/c07s12.webp",
+    "iconUrl": "assets/icons/artillerist/c07s12.webp",
     "tripod": [
       {
         "tier": 1,
@@ -13134,7 +13134,7 @@
     },
     "type": "Normal",
     "cooldown": 24,
-    "iconUrl": "assets/icons/blaster/c07s03.webp",
+    "iconUrl": "assets/icons/artillerist/c07s03.webp",
     "tripod": [
       {
         "tier": 1,
@@ -13233,7 +13233,7 @@
     },
     "type": "Hold 4 sec",
     "cooldown": 20,
-    "iconUrl": "assets/icons/blaster/c07s07.webp",
+    "iconUrl": "assets/icons/artillerist/c07s07.webp",
     "tripod": [
       {
         "tier": 1,
@@ -13332,7 +13332,7 @@
     },
     "type": "Normal",
     "cooldown": 24,
-    "iconUrl": "assets/icons/blaster/c07s08.webp",
+    "iconUrl": "assets/icons/artillerist/c07s08.webp",
     "tripod": [
       {
         "tier": 1,
@@ -13431,7 +13431,7 @@
     },
     "type": "Point",
     "cooldown": 20,
-    "iconUrl": "assets/icons/blaster/c07s06.webp",
+    "iconUrl": "assets/icons/artillerist/c07s06.webp",
     "tripod": [
       {
         "tier": 1,
@@ -13530,7 +13530,7 @@
     },
     "type": "Normal",
     "cooldown": 20,
-    "iconUrl": "assets/icons/blaster/c07s09.webp",
+    "iconUrl": "assets/icons/artillerist/c07s09.webp",
     "tripod": [
       {
         "tier": 1,
@@ -13629,7 +13629,7 @@
     },
     "type": "Normal",
     "cooldown": 20,
-    "iconUrl": "assets/icons/blaster/c07s05.webp",
+    "iconUrl": "assets/icons/artillerist/c07s05.webp",
     "tripod": [
       {
         "tier": 1,
@@ -13728,7 +13728,7 @@
     },
     "type": "Normal",
     "cooldown": 24,
-    "iconUrl": "assets/icons/blaster/c07s15.webp",
+    "iconUrl": "assets/icons/artillerist/c07s15.webp",
     "tripod": [
       {
         "tier": 1,
@@ -13827,7 +13827,7 @@
     },
     "type": "Hold",
     "cooldown": 36,
-    "iconUrl": "assets/icons/blaster/c07s14.webp",
+    "iconUrl": "assets/icons/artillerist/c07s14.webp",
     "tripod": [
       {
         "tier": 1,
@@ -13926,7 +13926,7 @@
     },
     "type": "Normal",
     "cooldown": 8,
-    "iconUrl": "assets/icons/blaster/c07s13.webp",
+    "iconUrl": "assets/icons/artillerist/c07s13.webp",
     "tripod": [
       {
         "tier": 1,
@@ -14025,7 +14025,7 @@
     },
     "type": "Normal",
     "cooldown": 20,
-    "iconUrl": "assets/icons/blaster/c07s16.webp",
+    "iconUrl": "assets/icons/artillerist/c07s16.webp",
     "tripod": [
       {
         "tier": 1,
@@ -14124,7 +14124,7 @@
     },
     "type": "Normal",
     "cooldown": 40,
-    "iconUrl": "assets/icons/blaster/c07s10.webp",
+    "iconUrl": "assets/icons/artillerist/c07s10.webp",
     "tripod": [
       {
         "tier": 1,
@@ -14223,7 +14223,7 @@
     },
     "type": "Normal",
     "cooldown": 5,
-    "iconUrl": "assets/icons/hawkeye/c08s00.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s00.webp",
     "tripod": [
       {
         "tier": 1,
@@ -14322,7 +14322,7 @@
     },
     "type": "Normal",
     "cooldown": 9,
-    "iconUrl": "assets/icons/hawkeye/c08s02.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s02.webp",
     "tripod": [
       {
         "tier": 1,
@@ -14421,7 +14421,7 @@
     },
     "type": "Normal",
     "cooldown": 6,
-    "iconUrl": "assets/icons/hawkeye/c08s05.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s05.webp",
     "tripod": [
       {
         "tier": 1,
@@ -14520,7 +14520,7 @@
     },
     "type": "Point",
     "cooldown": 18,
-    "iconUrl": "assets/icons/hawkeye/c08s06.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s06.webp",
     "tripod": [
       {
         "tier": 1,
@@ -14619,7 +14619,7 @@
     },
     "type": "Normal",
     "cooldown": 10,
-    "iconUrl": "assets/icons/hawkeye/c08s12.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s12.webp",
     "tripod": [
       {
         "tier": 1,
@@ -14718,7 +14718,7 @@
     },
     "type": "Normal",
     "cooldown": 20,
-    "iconUrl": "assets/icons/hawkeye/c08s13.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s13.webp",
     "tripod": [
       {
         "tier": 1,
@@ -14817,7 +14817,7 @@
     },
     "type": "Normal",
     "cooldown": 16,
-    "iconUrl": "assets/icons/hawkeye/c08s14.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s14.webp",
     "tripod": [
       {
         "tier": 1,
@@ -14916,7 +14916,7 @@
     },
     "type": "Charge",
     "cooldown": 24,
-    "iconUrl": "assets/icons/hawkeye/c08s07.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s07.webp",
     "tripod": [
       {
         "tier": 1,
@@ -15015,7 +15015,7 @@
     },
     "type": "Normal",
     "cooldown": 6,
-    "iconUrl": "assets/icons/hawkeye/c08s01.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s01.webp",
     "tripod": [
       {
         "tier": 1,
@@ -15114,7 +15114,7 @@
     },
     "type": "Normal",
     "cooldown": 20,
-    "iconUrl": "assets/icons/hawkeye/c08s09.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s09.webp",
     "tripod": [
       {
         "tier": 1,
@@ -15213,7 +15213,7 @@
     },
     "type": "Chain",
     "cooldown": 24,
-    "iconUrl": "assets/icons/hawkeye/c08s10.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s10.webp",
     "tripod": [
       {
         "tier": 1,
@@ -15312,7 +15312,7 @@
     },
     "type": "Normal",
     "cooldown": 14,
-    "iconUrl": "assets/icons/hawkeye/c08s16.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s16.webp",
     "tripod": [
       {
         "tier": 1,
@@ -15411,7 +15411,7 @@
     },
     "type": "Normal",
     "cooldown": 20,
-    "iconUrl": "assets/icons/hawkeye/c08s08.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s08.webp",
     "tripod": [
       {
         "tier": 1,
@@ -15510,7 +15510,7 @@
     },
     "type": "Normal",
     "cooldown": 12,
-    "iconUrl": "assets/icons/hawkeye/c08s11.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s11.webp",
     "tripod": [
       {
         "tier": 1,
@@ -15609,7 +15609,7 @@
     },
     "type": "Point",
     "cooldown": 16,
-    "iconUrl": "assets/icons/hawkeye/c08s04.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s04.webp",
     "tripod": [
       {
         "tier": 1,
@@ -15708,7 +15708,7 @@
     },
     "type": "Normal",
     "cooldown": 1,
-    "iconUrl": "assets/icons/hawkeye/c08s15.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s15.webp",
     "tripod": [
       {
         "tier": 1,
@@ -15807,7 +15807,7 @@
     },
     "type": "Normal",
     "cooldown": 24,
-    "iconUrl": "assets/icons/hawkeye/c08s03.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s03.webp",
     "tripod": [
       {
         "tier": 1,
@@ -15906,7 +15906,7 @@
     },
     "type": "Hold 3 sec",
     "cooldown": 36,
-    "iconUrl": "assets/icons/hawkeye/c08s17.webp",
+    "iconUrl": "assets/icons/sharpshooter/c08s17.webp",
     "tripod": [
       {
         "tier": 1,
@@ -23034,7 +23034,7 @@
     },
     "type": "Normal",
     "cooldown": 5,
-    "iconUrl": "assets/icons/blade/c13s00.webp",
+    "iconUrl": "assets/icons/deathblade/c13s00.webp",
     "tripod": [
       {
         "tier": 1,
@@ -23133,7 +23133,7 @@
     },
     "type": "Normal",
     "cooldown": 8,
-    "iconUrl": "assets/icons/blade/c13s01.webp",
+    "iconUrl": "assets/icons/deathblade/c13s01.webp",
     "tripod": [
       {
         "tier": 1,
@@ -23232,7 +23232,7 @@
     },
     "type": "Normal",
     "cooldown": 10,
-    "iconUrl": "assets/icons/blade/c13s06.webp",
+    "iconUrl": "assets/icons/deathblade/c13s06.webp",
     "tripod": [
       {
         "tier": 1,
@@ -23331,7 +23331,7 @@
     },
     "type": "Normal",
     "cooldown": 12,
-    "iconUrl": "assets/icons/blade/c13s13.webp",
+    "iconUrl": "assets/icons/deathblade/c13s13.webp",
     "tripod": [
       {
         "tier": 1,
@@ -23430,7 +23430,7 @@
     },
     "type": "Combo",
     "cooldown": 12,
-    "iconUrl": "assets/icons/blade/c13s08.webp",
+    "iconUrl": "assets/icons/deathblade/c13s08.webp",
     "tripod": [
       {
         "tier": 1,
@@ -23529,7 +23529,7 @@
     },
     "type": "Hold",
     "cooldown": 12,
-    "iconUrl": "assets/icons/blade/c13s02.webp",
+    "iconUrl": "assets/icons/deathblade/c13s02.webp",
     "tripod": [
       {
         "tier": 1,
@@ -23629,7 +23629,7 @@
     },
     "type": "Normal",
     "cooldown": 16,
-    "iconUrl": "assets/icons/blade/c13s11.webp",
+    "iconUrl": "assets/icons/deathblade/c13s11.webp",
     "tripod": [
       {
         "tier": 1,
@@ -23728,7 +23728,7 @@
     },
     "type": "Charge",
     "cooldown": 24,
-    "iconUrl": "assets/icons/blade/c13s07.webp",
+    "iconUrl": "assets/icons/deathblade/c13s07.webp",
     "tripod": [
       {
         "tier": 1,
@@ -23827,7 +23827,7 @@
     },
     "type": "Normal",
     "cooldown": 18,
-    "iconUrl": "assets/icons/blade/c13s04.webp",
+    "iconUrl": "assets/icons/deathblade/c13s04.webp",
     "tripod": [
       {
         "tier": 1,
@@ -23926,7 +23926,7 @@
     },
     "type": "Chain",
     "cooldown": 12,
-    "iconUrl": "assets/icons/blade/c13s05.webp",
+    "iconUrl": "assets/icons/deathblade/c13s05.webp",
     "tripod": [
       {
         "tier": 1,
@@ -24025,7 +24025,7 @@
     },
     "type": "Normal",
     "cooldown": 16,
-    "iconUrl": "assets/icons/blade/c13s03.webp",
+    "iconUrl": "assets/icons/deathblade/c13s03.webp",
     "tripod": [
       {
         "tier": 1,
@@ -24124,7 +24124,7 @@
     },
     "type": "Normal",
     "cooldown": 18,
-    "iconUrl": "assets/icons/blade/c13s17.webp",
+    "iconUrl": "assets/icons/deathblade/c13s17.webp",
     "tripod": [
       {
         "tier": 1,
@@ -24223,7 +24223,7 @@
     },
     "type": "Normal",
     "cooldown": 27,
-    "iconUrl": "assets/icons/blade/c13s10.webp",
+    "iconUrl": "assets/icons/deathblade/c13s10.webp",
     "tripod": [
       {
         "tier": 1,
@@ -24322,7 +24322,7 @@
     },
     "type": "Normal",
     "cooldown": 15,
-    "iconUrl": "assets/icons/blade/c13s09.webp",
+    "iconUrl": "assets/icons/deathblade/c13s09.webp",
     "tripod": [
       {
         "tier": 1,
@@ -24421,7 +24421,7 @@
     },
     "type": "Normal",
     "cooldown": 30,
-    "iconUrl": "assets/icons/blade/c13s12.webp",
+    "iconUrl": "assets/icons/deathblade/c13s12.webp",
     "tripod": [
       {
         "tier": 1,
@@ -24520,7 +24520,7 @@
     },
     "type": "Normal",
     "cooldown": 18,
-    "iconUrl": "assets/icons/blade/c13s15.webp",
+    "iconUrl": "assets/icons/deathblade/c13s15.webp",
     "tripod": [
       {
         "tier": 1,
@@ -24619,7 +24619,7 @@
     },
     "type": "Charge",
     "cooldown": 24,
-    "iconUrl": "assets/icons/blade/c13s16.webp",
+    "iconUrl": "assets/icons/deathblade/c13s16.webp",
     "tripod": [
       {
         "tier": 1,
@@ -24718,7 +24718,7 @@
     },
     "type": "Charge",
     "cooldown": 27,
-    "iconUrl": "assets/icons/blade/c13s14.webp",
+    "iconUrl": "assets/icons/deathblade/c13s14.webp",
     "tripod": [
       {
         "tier": 1,
@@ -24817,7 +24817,7 @@
     },
     "type": "Normal",
     "cooldown": 6,
-    "iconUrl": "assets/icons/demonic/c14s05.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s05.webp",
     "tripod": [
       {
         "tier": 1,
@@ -24916,7 +24916,7 @@
     },
     "type": "Normal",
     "cooldown": 8,
-    "iconUrl": "assets/icons/demonic/c14s06.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s06.webp",
     "tripod": [
       {
         "tier": 1,
@@ -25015,7 +25015,7 @@
     },
     "type": "Normal",
     "cooldown": 10,
-    "iconUrl": "assets/icons/demonic/c14s04.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s04.webp",
     "tripod": [
       {
         "tier": 1,
@@ -25114,7 +25114,7 @@
     },
     "type": "Normal",
     "cooldown": 16,
-    "iconUrl": "assets/icons/demonic/c14s09.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s09.webp",
     "tripod": [
       {
         "tier": 1,
@@ -25213,7 +25213,7 @@
     },
     "type": "Combo",
     "cooldown": 12,
-    "iconUrl": "assets/icons/demonic/c14s29.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s29.webp",
     "tripod": [
       {
         "tier": 1,
@@ -25312,7 +25312,7 @@
     },
     "type": "Normal",
     "cooldown": 12,
-    "iconUrl": "assets/icons/demonic/c14s15.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s15.webp",
     "tripod": [
       {
         "tier": 1,
@@ -25411,7 +25411,7 @@
     },
     "type": "Normal",
     "cooldown": 18,
-    "iconUrl": "assets/icons/demonic/c14s11.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s11.webp",
     "tripod": [
       {
         "tier": 1,
@@ -25510,7 +25510,7 @@
     },
     "type": "Charge",
     "cooldown": 24,
-    "iconUrl": "assets/icons/demonic/c14s17.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s17.webp",
     "tripod": [
       {
         "tier": 1,
@@ -25609,7 +25609,7 @@
     },
     "type": "Normal",
     "cooldown": 18,
-    "iconUrl": "assets/icons/demonic/c14s12.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s12.webp",
     "tripod": [
       {
         "tier": 1,
@@ -25708,7 +25708,7 @@
     },
     "type": "Normal",
     "cooldown": 10,
-    "iconUrl": "assets/icons/demonic/c14s07.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s07.webp",
     "tripod": [
       {
         "tier": 1,
@@ -25807,7 +25807,7 @@
     },
     "type": "Normal",
     "cooldown": 18,
-    "iconUrl": "assets/icons/demonic/c14s14.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s14.webp",
     "tripod": [
       {
         "tier": 1,
@@ -25906,7 +25906,7 @@
     },
     "type": "Normal",
     "cooldown": 12,
-    "iconUrl": "assets/icons/demonic/c14s08.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s08.webp",
     "tripod": [
       {
         "tier": 1,
@@ -26005,7 +26005,7 @@
     },
     "type": "Combo",
     "cooldown": 16,
-    "iconUrl": "assets/icons/demonic/c14s13.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s13.webp",
     "tripod": [
       {
         "tier": 1,
@@ -26104,7 +26104,7 @@
     },
     "type": "Point",
     "cooldown": 20,
-    "iconUrl": "assets/icons/demonic/c14s16.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s16.webp",
     "tripod": [
       {
         "tier": 1,
@@ -26203,7 +26203,7 @@
     },
     "type": "Combo",
     "cooldown": 24,
-    "iconUrl": "assets/icons/demonic/c14s27.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s27.webp",
     "tripod": [
       {
         "tier": 1,
@@ -26302,7 +26302,7 @@
     },
     "type": "Normal",
     "cooldown": 18,
-    "iconUrl": "assets/icons/demonic/c14s10.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s10.webp",
     "tripod": [
       {
         "tier": 1,
@@ -26401,7 +26401,7 @@
     },
     "type": "Normal",
     "cooldown": 30,
-    "iconUrl": "assets/icons/demonic/c14s18.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s18.webp",
     "tripod": [
       {
         "tier": 1,
@@ -26500,7 +26500,7 @@
     },
     "type": "Normal",
     "cooldown": 27,
-    "iconUrl": "assets/icons/demonic/c14s28.webp",
+    "iconUrl": "assets/icons/shadowhunter/c14s28.webp",
     "tripod": [
       {
         "tier": 1,
