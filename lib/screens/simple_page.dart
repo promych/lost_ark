@@ -10,8 +10,11 @@ class SimplePage extends StatelessWidget {
   final Widget child;
   final bool showAppBar;
 
-  SimplePage(
-      {@required this.title, @required this.child, this.showAppBar = true});
+  SimplePage({
+    required this.title,
+    required this.child,
+    this.showAppBar = true,
+  });
 
   @override
   Widget build(BuildContext context) {

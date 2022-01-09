@@ -5,10 +5,10 @@ import '../managers/locale_manager.dart';
 class SkillTypeInTile extends StatelessWidget {
   final String sType;
 
-  const SkillTypeInTile({Key key, @required this.sType}) : super(key: key);
+  const SkillTypeInTile({Key? key, required this.sType}) : super(key: key);
 
   String _buildSkillType(BuildContext context, String sType) {
-    if (LocaleManager.of(context).locale.languageCode == 'en') {
+    if (LocaleManager.of(context)?.locale?.languageCode == 'en') {
       return sType;
     }
     switch (sType.toLowerCase()) {

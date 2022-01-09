@@ -22,20 +22,20 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
 
   @override
   Widget build(BuildContext context) {
-    final barTitle = LocaleManager.of(context).translate('classes');
+    final barTitle = LocaleManager.of(context)?.translate('classes');
     final _selectorViews = [ClassSelector(), ClassList()];
 
     return Platform.isAndroid
         ? Scaffold(
             appBar: MyMaterialAppBar(
-              title: Text(barTitle, style: Styles.defaultText),
+              title: Text(barTitle ?? '', style: Styles.defaultText),
               trailing: _selectorSwitcher(),
             ),
             body: _selectorViews.elementAt(_index),
           )
         : CupertinoPageScaffold(
             navigationBar: MyCupertinoNavBar(
-              middle: Text(barTitle, style: Styles.defaultText),
+              middle: Text(barTitle ?? '', style: Styles.defaultText),
               trailing: _selectorSwitcher(),
             ),
             child: _selectorViews.elementAt(_index),

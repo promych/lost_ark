@@ -12,7 +12,7 @@ import 'skill_type_in_tile.dart';
 class SkillTile extends StatelessWidget {
   final Skill skill;
 
-  const SkillTile({@required this.skill});
+  const SkillTile({required this.skill});
 
   @override
   Widget build(BuildContext context) {

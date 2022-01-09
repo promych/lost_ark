@@ -13,15 +13,15 @@ class Skill {
   final List<EnchancementTier> tripod;
 
   Skill({
-    @required this.id,
-    @required this.name,
-    @required this.className,
-    @required this.description,
-    @required this.type,
-    @required this.cooldown,
-    @required this.unlockLevel,
-    @required this.iconUrl,
-    @required this.tripod,
+    required this.id,
+    required this.name,
+    required this.className,
+    required this.description,
+    required this.type,
+    required this.cooldown,
+    required this.unlockLevel,
+    required this.iconUrl,
+    required this.tripod,
   });
 
   factory Skill.fromJson(Map<String, dynamic> json, {String lang = 'en'}) {
@@ -50,8 +50,8 @@ class EnchancementTier {
   final List<SkillEnchancement> enchancements;
 
   EnchancementTier({
-    @required this.tier,
-    @required this.enchancements,
+    required this.tier,
+    required this.enchancements,
   });
 
   factory EnchancementTier.fromJson(Map<String, dynamic> json, String skillId,
@@ -72,10 +72,10 @@ class SkillEnchancement {
   final String iconUrl;
 
   SkillEnchancement({
-    @required this.id,
-    @required this.name,
-    @required this.description,
-    @required this.iconUrl,
+    required this.id,
+    required this.name,
+    required this.description,
+    required this.iconUrl,
   });
 
   factory SkillEnchancement.fromJson(Map<String, dynamic> json, String skillId,

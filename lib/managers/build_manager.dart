@@ -158,9 +158,12 @@ class BuildManager with ChangeNotifier {
     final buildToUnpack = await _store.record(id).get(await _db);
 
     _build.items.removeWhere(
-        (item) => item.skillId.substring(0, 3) == buildToUnpack['classId']);
+        (item) => item.skillId.substring(0, 3) == buildToUnpack?['classId']);
 
-    _build.items.addAll(List.from(
-        buildToUnpack['skills'].map((item) => BuildItem.fromMap(item))));
+    _build.items.addAll(
+      List.from(
+        buildToUnpack?['skills'].map((item) => BuildItem.fromMap(item)),
+      ),
+    );
   }
 }

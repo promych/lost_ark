@@ -42,7 +42,7 @@ class _SkillsPageState extends State<SkillsPage> {
           )
         : CupertinoPageScaffold(
             navigationBar: MyCupertinoNavBar(
-              backTitle: LocaleManager.of(context).translate('classes'),
+              backTitle: LocaleManager.of(context)?.translate('classes'),
               middle: BuildPoints(),
               trailing: _SaveBuildButton(),
             ),
@@ -56,40 +56,43 @@ class _SkillsPageBody extends StatelessWidget {
   Widget build(BuildContext context) {
     final app = Provider.of<AppManager>(context, listen: false);
     final selectedClass = app.selectedClass;
-    final skills = app.skillsByClassId(selectedClass.id);
+    final skills =
+        selectedClass != null ? app.skillsByClassId(selectedClass.id) : null;
 
     return SafeArea(
       bottom: false,
-      child: CustomScrollView(
-        slivers: [
-          SliverPersistentHeader(
-            pinned: false,
-            delegate: SliverAppBarDelegate(
-              minHeight: 80.0,
-              maxHeight: 80.0,
-              child: ClassTile(
-                name: selectedClass.name,
-                icon: selectedClass.icon,
-                onTap: () {
-                  app.selectClass(selectedClass.id);
-                  Navigator.of(context).pushReplacementNamed('/class');
-                },
-              ),
-            ),
-          ),
-          SliverList(
-            delegate: SliverChildListDelegate([
-              for (var skill in skills)
-                Column(
-                  children: [
-                    SkillTile(skill: skill),
-                    Divider(color: Styles.layerColor),
-                  ],
+      child: (selectedClass == null || skills == null)
+          ? const SizedBox.shrink()
+          : CustomScrollView(
+              slivers: [
+                SliverPersistentHeader(
+                  pinned: false,
+                  delegate: SliverAppBarDelegate(
+                    minHeight: 80.0,
+                    maxHeight: 80.0,
+                    child: ClassTile(
+                      name: selectedClass.name,
+                      icon: selectedClass.icon,
+                      onTap: () {
+                        app.selectClass(selectedClass.id);
+                        Navigator.of(context).pushReplacementNamed('/class');
+                      },
+                    ),
+                  ),
                 ),
-            ]),
-          ),
-        ],
-      ),
+                SliverList(
+                  delegate: SliverChildListDelegate([
+                    for (var skill in skills)
+                      Column(
+                        children: [
+                          SkillTile(skill: skill),
+                          Divider(color: Styles.layerColor),
+                        ],
+                      ),
+                  ]),
+                ),
+              ],
+            ),
     );
   }
 }
@@ -98,9 +101,11 @@ class _SaveBuildButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final build = Provider.of<BuildManager>(context);
-    final selectedClassId = Provider.of<AppManager>(context).selectedClass.id;
+    final selectedClass = Provider.of<AppManager>(context).selectedClass;
+    final selectedClassId = selectedClass != null ? selectedClass.id : null;
 
-    if (build.pointsByClass(selectedClassId) == 0) return SizedBox();
+    if (selectedClassId == null || build.pointsByClass(selectedClassId) == 0)
+      return const SizedBox.shrink();
 
     return GestureDetector(
       child: AnimatedSwitcher(

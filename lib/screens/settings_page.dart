@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
@@ -15,7 +14,7 @@ class SettingsPage extends StatelessWidget {
     final app = Provider.of<AppManager>(context, listen: false);
 
     return SimplePage(
-      title: LocaleManager.of(context).translate('settings'),
+      title: LocaleManager.of(context)?.translate('settings') ?? '',
       child: DefaultTextStyle(
         style: Styles.defaultText20,
         child: SafeArea(
@@ -29,7 +28,8 @@ class SettingsPage extends StatelessWidget {
                       child: Container(
                         child: Text(
                           LocaleManager.of(context)
-                              .translate('select language'),
+                                  ?.translate('select language') ??
+                              '',
                         ),
                       ),
                     ),
@@ -51,7 +51,7 @@ class SettingsPage extends StatelessWidget {
                           child: Text('RU', style: Styles.defaultText),
                         ),
                       },
-                      groupValue: app.locale.languageCode == 'en' ? 0 : 1,
+                      groupValue: app.locale?.languageCode == 'en' ? 0 : 1,
                       onValueChanged: (int index) {
                         switch (index) {
                           case 0:
@@ -67,8 +67,9 @@ class SettingsPage extends StatelessWidget {
                 ),
                 Container(
                   padding: const EdgeInsets.symmetric(vertical: 20.0),
-                  child:
-                      Text(LocaleManager.of(context).translate('saved builds')),
+                  child: Text(
+                      LocaleManager.of(context)?.translate('saved builds') ??
+                          ''),
                 ),
                 SavedBuilds(),
               ],

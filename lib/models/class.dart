@@ -10,20 +10,20 @@ class CharacterClass {
   final String description;
   final String weapon;
   final Map<String, int> stats;
-  final IconData icon;
+  final IconData? icon;
   final String imagePath;
   final String video;
 
   CharacterClass({
-    @required this.id,
-    @required this.name,
-    @required this.archetype,
-    @required this.description,
-    @required this.weapon,
-    @required this.stats,
-    @required this.icon,
-    @required this.imagePath,
-    @required this.video,
+    required this.id,
+    required this.name,
+    required this.archetype,
+    required this.description,
+    required this.weapon,
+    required this.stats,
+    this.icon,
+    required this.imagePath,
+    required this.video,
   });
 
   factory CharacterClass.fromJson(Map<String, dynamic> json,

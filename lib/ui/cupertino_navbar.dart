@@ -5,10 +5,10 @@ import '../helpers/theme.dart';
 
 class MyCupertinoNavBar extends StatelessWidget
     implements ObstructingPreferredSizeWidget {
-  final String backTitle;
-  final Widget middle;
-  final Widget trailing;
-  final Color _backgroundColor;
+  final String? backTitle;
+  final Widget? middle;
+  final Widget? trailing;
+  final Color? _backgroundColor;
 
   const MyCupertinoNavBar({this.backTitle, this.middle, this.trailing})
       : _backgroundColor = Colors.transparent;
@@ -18,7 +18,6 @@ class MyCupertinoNavBar extends StatelessWidget
     return CupertinoNavigationBar(
       automaticallyImplyMiddle: false,
       backgroundColor: Styles.layerColor,
-      actionsForegroundColor: Styles.cyanColor,
       previousPageTitle: backTitle,
       middle: middle ?? null,
       trailing: trailing ?? null,
@@ -34,6 +33,6 @@ class MyCupertinoNavBar extends StatelessWidget
 
   @override
   bool shouldFullyObstruct(BuildContext context) {
-    return _backgroundColor == null ? null : _backgroundColor.alpha == 0xFF;
+    return _backgroundColor == null ? false : _backgroundColor!.alpha == 0xFF;
   }
 }

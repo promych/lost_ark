@@ -14,17 +14,18 @@ class RedditPost {
   final String url;
   final String thumbnail;
 
-  const RedditPost(
-      {@required this.id,
-      @required this.title,
-      @required this.created,
-      @required this.author,
-      @required this.score,
-      @required this.numComments,
-      @required this.flair,
-      @required this.permalink,
-      @required this.url,
-      @required this.thumbnail});
+  const RedditPost({
+    required this.id,
+    required this.title,
+    required this.created,
+    required this.author,
+    required this.score,
+    required this.numComments,
+    required this.flair,
+    required this.permalink,
+    required this.url,
+    required this.thumbnail,
+  });
 
   factory RedditPost.fromJson(Map<String, dynamic> json, String appLang) {
     String _toHours(int howMany) {

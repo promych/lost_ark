@@ -2,6 +2,7 @@ import 'dart:io' show Platform;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lost_ark/models/reddit_post.dart';
 
 import 'package:provider/provider.dart';
 
@@ -18,17 +19,17 @@ class RedditPage extends StatelessWidget {
     final posts = app.newRedditPosts;
 
     return SimplePage(
-      title: LocaleManager.of(context).translate('latest posts'),
+      title: LocaleManager.of(context)?.translate('latest posts') ?? '',
       child: SafeArea(
         bottom: false,
         child: !app.isOnline
             ? Center(
                 child: Text(
-                  LocaleManager.of(context).translate('no internet'),
+                  LocaleManager.of(context)?.translate('no internet') ?? '',
                   style: Styles.defaultText20,
                 ),
               )
-            : FutureBuilder(
+            : FutureBuilder<List<RedditPost>?>(
                 future: posts,
                 builder: (_, snapshot) {
                   if (snapshot.connectionState == ConnectionState.none) {
@@ -41,19 +42,19 @@ class RedditPage extends StatelessWidget {
                           ? CircularProgressIndicator()
                           : CupertinoActivityIndicator(),
                     );
-                  } else if (snapshot.connectionState == ConnectionState.done) {
+                  } else if (snapshot.connectionState == ConnectionState.done &&
+                      snapshot.hasData) {
                     if (snapshot.hasError) return Text('${snapshot.error}');
-                    return snapshot.data.length == 0
-                        ? Container()
-                        : ListView.separated(
-                            padding: const EdgeInsets.all(10.0),
-                            itemCount: snapshot.data.length,
-                            itemBuilder: (_, int index) =>
-                                RedditPostTile(post: snapshot.data[index]),
-                            separatorBuilder: (_, int index) => Divider(
-                              color: Styles.scaffoldBackgroundColor,
-                            ),
-                          );
+                    if (snapshot.data == null) return const SizedBox.shrink();
+                    return ListView.separated(
+                      padding: const EdgeInsets.all(10.0),
+                      itemCount: snapshot.data!.length,
+                      itemBuilder: (_, int index) =>
+                          RedditPostTile(post: snapshot.data![index]),
+                      separatorBuilder: (_, int index) => Divider(
+                        color: Styles.scaffoldBackgroundColor,
+                      ),
+                    );
                   }
                   return Text('Oops: Future returns null');
                 },

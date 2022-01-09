@@ -19,7 +19,7 @@ import '../ui/tripod_indicator.dart';
 class TripodPage extends StatelessWidget {
   final Skill skill;
 
-  const TripodPage({@required this.skill});
+  const TripodPage({required this.skill});
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +41,7 @@ class TripodPage extends StatelessWidget {
           )
         : CupertinoPageScaffold(
             navigationBar: MyCupertinoNavBar(
-              backTitle: LocaleManager.of(context).translate('skills'),
+              backTitle: LocaleManager.of(context)?.translate('skills') ?? '',
               middle: BuildPoints(),
               trailing: _tripodIndicator(),
             ),
@@ -53,7 +53,7 @@ class TripodPage extends StatelessWidget {
 class _TripodPageBody extends StatelessWidget {
   final Skill skill;
 
-  _TripodPageBody({@required this.skill});
+  _TripodPageBody({required this.skill});
 
   @override
   Widget build(BuildContext context) {
@@ -115,9 +115,9 @@ class _TierRow extends StatelessWidget {
   final double iconScale;
 
   const _TierRow({
-    @required this.skillId,
-    @required this.tier,
-    @required this.iconScale,
+    required this.skillId,
+    required this.tier,
+    required this.iconScale,
   });
 
   Color _selectColor(int index) {

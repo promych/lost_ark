@@ -6,7 +6,7 @@ import '../screens/simple_page.dart';
 class ErrorView extends StatelessWidget {
   final String message;
 
-  const ErrorView({@required this.message});
+  const ErrorView({required this.message});
 
   @override
   Widget build(BuildContext context) {

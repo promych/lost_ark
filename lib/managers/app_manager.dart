@@ -17,12 +17,12 @@ class AppManager extends ChangeNotifier {
   ClassRepo _classRepo;
   SkillRepo _skillRepo;
 
-  List<RedditPost> _redditPosts;
-  List<CharacterClass> _classList;
-  List<Skill> _skillList;
+  List<RedditPost>? _redditPosts;
+  List<CharacterClass>? _classList;
+  List<Skill>? _skillList;
 
-  Locale _locale;
-  CharacterClass _selectedClass;
+  Locale? _locale;
+  CharacterClass? _selectedClass;
   bool _isOnline = true;
   String _errorMessage = '';
 
@@ -36,7 +36,7 @@ class AppManager extends ChangeNotifier {
   }
 
   AppStatus get status => _status;
-  Locale get locale => _locale;
+  Locale? get locale => _locale;
   String get errorMessage => _errorMessage;
   bool get isOnline => _isOnline;
 
@@ -46,20 +46,20 @@ class AppManager extends ChangeNotifier {
       _status = AppStatus.Loading;
       notifyListeners();
 
-      _locale = _locale ?? await _fetchLocale();
+      _locale = await _fetchLocale();
       _redditPosts = _redditPosts ?? [];
       _classList = (_classList == null || withNewLocale)
-          ? await _classRepo.fetchClassList(lang: _locale.languageCode)
+          ? await _classRepo.fetchClassList(lang: _locale!.languageCode)
           : _classList;
       _skillList = (_skillList == null || withNewLocale)
-          ? await _skillRepo.fetchSkills(lang: _locale.languageCode)
+          ? await _skillRepo.fetchSkills(lang: _locale!.languageCode)
           : _skillList;
 
       print('loaded');
       _status = AppStatus.Loaded;
       notifyListeners();
     } catch (error) {
-      _errorMessage = error.message;
+      _errorMessage = error.toString();
       _status = AppStatus.Error;
       notifyListeners();
     }
@@ -69,18 +69,18 @@ class AppManager extends ChangeNotifier {
 
   Future<Locale> _fetchLocale() async {
     var prefs = await SharedPreferences.getInstance();
-    return (prefs.getString('languageCode') == null ||
-            prefs.getString('countryCode') == null)
+    final languageCode = prefs.getString('languageCode');
+    final countryCode = prefs.getString('countryCode');
+    return (languageCode == null || countryCode == null)
         ? const Locale('en', 'US')
-        : Locale(
-            prefs.getString('languageCode'), prefs.getString('countryCode'));
+        : Locale(languageCode, countryCode);
   }
 
   Future<void> changeLocale(Locale newLocale) async {
     if (_locale == newLocale) return;
     await SharedPreferences.getInstance()
       ..setString('languageCode', newLocale.languageCode)
-      ..setString('countryCode', newLocale.countryCode);
+      ..setString('countryCode', newLocale.countryCode!);
     _locale = newLocale;
     _loadApp(true);
     loadRedditPosts();
@@ -89,24 +89,24 @@ class AppManager extends ChangeNotifier {
 
   // Reddit posts
 
-  Future<List<RedditPost>> get newRedditPosts async {
-    if (_redditPosts.isEmpty) await loadRedditPosts();
+  Future<List<RedditPost>?> get newRedditPosts async {
+    if (_redditPosts == null || _redditPosts!.isEmpty) await loadRedditPosts();
     return _redditPosts;
   }
 
   Future<void> loadRedditPosts() async {
+    print('load posts');
     try {
       final result = await InternetAddress.lookup('google.com');
       if (result.isNotEmpty && result[0].rawAddress.isNotEmpty) {
         _isOnline = true;
-        print('load posts');
         _redditPosts =
-            await _redditClient.fetchNewPosts(appLang: _locale.languageCode);
+            await _redditClient.fetchNewPosts(appLang: _locale!.languageCode);
       }
     } on SocketException catch (_) {
       _isOnline = false;
     } catch (error) {
-      _errorMessage = error.message;
+      _errorMessage = error.toString();
       throw Exception('Error $_errorMessage');
     }
     notifyListeners();
@@ -115,21 +115,21 @@ class AppManager extends ChangeNotifier {
   // Classes
 
   List<String> get classArchetypes {
-    return _locale.languageCode == 'en'
+    return _locale!.languageCode == 'en'
         ? ['Warrior', 'Fighter', 'Hunter', 'Magician', 'Assassin']
         : ['Воин', 'Монах', 'Стрелок', 'Маг', 'Ассасин'];
   }
 
-  List<CharacterClass> get allClasses => _classList;
+  List<CharacterClass>? get allClasses => _classList;
 
-  List<CharacterClass> classesByArchetype(String archetype) =>
-      _classList.where((item) => item.archetype == archetype).toList();
+  List<CharacterClass>? classesByArchetype(String archetype) =>
+      _classList?.where((item) => item.archetype == archetype).toList();
 
-  CharacterClass classById(String classId) =>
-      _classList.singleWhere((item) => item.id == classId, orElse: () => null);
+  CharacterClass? classById(String classId) =>
+      _classList?.singleWhere((item) => item.id == classId);
 
-  CharacterClass get selectedClass {
-    return _selectedClass ?? _classList.first;
+  CharacterClass? get selectedClass {
+    return _selectedClass ?? _classList?.first;
   }
 
   void selectClass(String id) {
@@ -139,11 +139,11 @@ class AppManager extends ChangeNotifier {
 
   // Skills
 
-  List<Skill> get allSkills => _skillList;
+  List<Skill>? get allSkills => _skillList;
 
-  List<Skill> skillsByClassId(String id) =>
-      _skillList.where((item) => item.id.startsWith(id)).toList();
+  List<Skill>? skillsByClassId(String id) =>
+      _skillList?.where((item) => item.id.startsWith(id)).toList();
 
-  Skill skillById(String id) =>
-      _skillList.singleWhere((item) => item.id == id, orElse: () => null);
+  Skill? skillById(String id) =>
+      _skillList?.singleWhere((item) => item.id == id);
 }

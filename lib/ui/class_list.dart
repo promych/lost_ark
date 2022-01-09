@@ -39,7 +39,7 @@ class ClassList extends StatelessWidget {
             SliverList(
               delegate: SliverChildListDelegate(
                 [
-                  for (var item in app.classesByArchetype(archetype))
+                  for (var item in (app.classesByArchetype(archetype) ?? []))
                     ClassTile(
                       name: item.name,
                       icon: item.icon,

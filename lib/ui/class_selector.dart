@@ -12,7 +12,7 @@ class ClassSelector extends StatefulWidget {
 
 class _ClassSelectorState extends State<ClassSelector>
     with AutomaticKeepAliveClientMixin {
-  PageController _controller;
+  late PageController _controller;
 
   @override
   void initState() {
@@ -22,7 +22,7 @@ class _ClassSelectorState extends State<ClassSelector>
 
   @override
   void dispose() {
-    _controller?.dispose();
+    _controller.dispose();
     super.dispose();
   }
 
@@ -35,75 +35,78 @@ class _ClassSelectorState extends State<ClassSelector>
 
     return SafeArea(
       bottom: false,
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Container(
-            height: _screenSize.height * 0.65,
-            child: PageView.builder(
-              key: PageStorageKey('class-selector'),
-              controller: _controller,
-              itemCount: classes.length,
-              itemBuilder: (_, int index) {
-                return GestureDetector(
-                  child: Card(
-                    elevation: 10.0,
-                    margin: const EdgeInsets.symmetric(horizontal: 10.0),
-                    color: Styles.layerColor,
-                    child: Container(
-                      child: Stack(
-                        alignment: Alignment.center,
-                        children: [
-                          Positioned(
-                            top: 0.0,
-                            right: -50.0,
-                            child: Icon(
-                              classes[index].icon,
-                              size: 200.0,
-                              color: Colors.white10,
+      child: classes == null
+          ? const SizedBox.shrink()
+          : Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  height: _screenSize.height * 0.65,
+                  child: PageView.builder(
+                    key: PageStorageKey('class-selector'),
+                    controller: _controller,
+                    itemCount: classes.length,
+                    itemBuilder: (_, int index) {
+                      return GestureDetector(
+                        child: Card(
+                          elevation: 10.0,
+                          margin: const EdgeInsets.symmetric(horizontal: 10.0),
+                          color: Styles.layerColor,
+                          child: Container(
+                            child: Stack(
+                              alignment: Alignment.center,
+                              children: [
+                                Positioned(
+                                  top: 0.0,
+                                  right: -50.0,
+                                  child: Icon(
+                                    classes[index].icon,
+                                    size: 200.0,
+                                    color: Colors.white10,
+                                  ),
+                                ),
+                                Image.asset(classes[index].imagePath),
+                                Positioned(
+                                  bottom: _screenSize.height / 20,
+                                  child: Container(
+                                    width: _screenSize.width * 0.7,
+                                    child: Text(
+                                      classes[index].name,
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                          color: Styles.defaultWhite,
+                                          fontSize: _screenSize.width / 14,
+                                          fontFamily: 'Alegreya'),
+                                    ),
+                                  ),
+                                )
+                              ],
                             ),
-                          ),
-                          Image.asset(classes[index].imagePath),
-                          Positioned(
-                            bottom: _screenSize.height / 20,
-                            child: Container(
-                              width: _screenSize.width * 0.7,
-                              child: Text(
-                                classes[index].name,
-                                textAlign: TextAlign.center,
-                                style: TextStyle(
-                                    color: Styles.defaultWhite,
-                                    fontSize: _screenSize.width / 14,
-                                    fontFamily: 'Alegreya'),
+                            decoration: BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(4.0)),
+                              gradient: LinearGradient(
+                                begin: Alignment.topCenter,
+                                end: Alignment.bottomCenter,
+                                colors: const <Color>[
+                                  Color(0xCC000000),
+                                  Color(0x00000000),
+                                  Color(0x00000000),
+                                ],
                               ),
                             ),
-                          )
-                        ],
-                      ),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(4.0)),
-                        gradient: LinearGradient(
-                          begin: Alignment.topCenter,
-                          end: Alignment.bottomCenter,
-                          colors: const <Color>[
-                            Color(0xCC000000),
-                            Color(0x00000000),
-                            Color(0x00000000),
-                          ],
+                          ),
                         ),
-                      ),
-                    ),
+                        onTap: () {
+                          app.selectClass(classes[index].id);
+                          Navigator.pushNamed(context, '/skills');
+                        },
+                      );
+                    },
                   ),
-                  onTap: () {
-                    app.selectClass(classes[index].id);
-                    Navigator.pushNamed(context, '/skills');
-                  },
-                );
-              },
+                ),
+              ],
             ),
-          ),
-        ],
-      ),
     );
   }
 

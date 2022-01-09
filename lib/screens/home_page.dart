@@ -6,11 +6,11 @@ import 'package:flutter/material.dart';
 import '../helpers/lost_ark_icons.dart';
 import '../helpers/theme.dart';
 import '../managers/locale_manager.dart';
-import '../screens/class_selector_page.dart';
 import '../screens/class_page.dart';
+import '../screens/class_selector_page.dart';
+import '../screens/reddit_page.dart';
 import '../screens/settings_page.dart';
 import '../screens/skills_page.dart';
-import '../screens/reddit_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
     final _barItems = [
       BottomNavigationBarItem(
         icon: Icon(Icons.people),
-        label: LocaleManager.of(context).translate('classes'),
+        label: LocaleManager.of(context)?.translate('classes'),
       ),
       BottomNavigationBarItem(
         icon: Icon(LostArk.reddit_alien),
@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
       ),
       BottomNavigationBarItem(
         icon: Icon(LostArk.cog_alt),
-        label: LocaleManager.of(context).translate('settings'),
+        label: LocaleManager.of(context)?.translate('settings'),
       ),
     ];
 
@@ -79,7 +79,7 @@ class _HomePageState extends State<HomePage> {
                 case 2:
                   return CupertinoTabView(builder: (_) => SettingsPage());
               }
-              return null;
+              return const SizedBox.shrink();
             },
           );
   }

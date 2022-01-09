@@ -22,14 +22,12 @@ import './screens/skills_page.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  
+
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
-
-  ErrorWidget.builder = (FlutterErrorDetails details) => Container();
 
   runApp(App());
 }

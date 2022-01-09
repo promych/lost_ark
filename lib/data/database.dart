@@ -11,12 +11,12 @@ class AppDatabase {
 
   static final AppDatabase instance = AppDatabase._();
 
-  static Database _db;
+  static Database? _db;
 
   Future<Database> get database async {
-    if (_db != null) return _db;
+    if (_db != null) return _db!;
     _db = await _openDatabase();
-    return _db;
+    return _db!;
   }
 
   Future<Database> _openDatabase() async {

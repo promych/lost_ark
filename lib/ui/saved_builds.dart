@@ -15,38 +15,39 @@ class SavedBuilds extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: FutureBuilder(
+      child: FutureBuilder<List<RecordSnapshot<int, Map<String, dynamic>>>>(
         future: Provider.of<BuildManager>(context, listen: false).savedBuilds(),
         builder: (_, snapshot) {
           if (snapshot.connectionState == ConnectionState.none) {
             return Text(':(');
           } else if (snapshot.connectionState == ConnectionState.waiting ||
               snapshot.connectionState == ConnectionState.active) {
-            // return Platform.isAndroid
-            //     ? CircularProgressIndicator()
-            //     : CupertinoActivityIndicator();
             return Container();
-          } else if (snapshot.connectionState == ConnectionState.done) {
+          } else if (snapshot.connectionState == ConnectionState.done &&
+              snapshot.hasData) {
             if (snapshot.hasError) {
               return Text('${snapshot.error}');
             }
-            return snapshot.data.length == 0
-                ? Align(
-                    alignment: Alignment.topCenter,
-                    child: Icon(
-                      Icons.insert_emoticon,
-                      color: CupertinoColors.inactiveGray,
-                    ),
-                  )
-                : ListView.separated(
-                    itemCount: snapshot.data.length,
-                    itemBuilder: (_, int id) =>
-                        _BuildTile(item: snapshot.data[id]),
-                    separatorBuilder: (context, _) =>
-                        Divider(color: Styles.scaffoldBackgroundColor),
-                  );
+            if (snapshot.data != null) {
+              return snapshot.data!.length == 0
+                  ? Align(
+                      alignment: Alignment.topCenter,
+                      child: Icon(
+                        Icons.insert_emoticon,
+                        color: CupertinoColors.inactiveGray,
+                      ),
+                    )
+                  : ListView.separated(
+                      itemCount: snapshot.data!.length,
+                      itemBuilder: (_, int id) =>
+                          _BuildTile(item: snapshot.data![id]),
+                      separatorBuilder: (context, _) =>
+                          Divider(color: Styles.scaffoldBackgroundColor),
+                    );
+            }
+            return const SizedBox.shrink();
           }
-          return null;
+          return const SizedBox.shrink();
         },
       ),
     );
@@ -56,13 +57,19 @@ class SavedBuilds extends StatelessWidget {
 class _BuildTile extends StatelessWidget {
   final RecordSnapshot<int, Map<String, dynamic>> item;
 
-  _BuildTile({@required this.item});
+  _BuildTile({required this.item});
 
   @override
   Widget build(BuildContext context) {
     final app = Provider.of<AppManager>(context, listen: false);
     final build = Provider.of<BuildManager>(context, listen: false);
-    final charClass = app.classById(item['classId']);
+    final classData = item['classId'] as String?;
+    if (classData == null) return const SizedBox.shrink();
+
+    final charClass = app.classById(classData);
+    final skills =
+        List<Map<String, dynamic>>.from(item['skills'] as List<dynamic>);
+    if (charClass == null) return const SizedBox.shrink();
 
     return Dismissible(
       key: ValueKey(item.key),
@@ -76,7 +83,7 @@ class _BuildTile extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.end,
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text(LocaleManager.of(context).translate('delete')),
+            Text(LocaleManager.of(context)?.translate('delete') ?? ''),
             SizedBox(width: 10.0),
             Icon(Icons.delete),
             SizedBox(width: 10.0),
@@ -85,20 +92,21 @@ class _BuildTile extends StatelessWidget {
       ),
       child: Container(
         decoration: BoxDecoration(
-            color: Styles.layerColor,
-            borderRadius: BorderRadius.all(Radius.circular(4.0))),
+          color: Styles.layerColor,
+          borderRadius: BorderRadius.all(Radius.circular(4.0)),
+        ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            if (charClass != null)
-              Padding(
-                  padding: const EdgeInsets.only(left: 10.0),
-                  child: Icon(charClass.icon)),
+            Padding(
+              padding: const EdgeInsets.only(left: 10.0),
+              child: Icon(charClass.icon),
+            ),
             Expanded(
               child: Wrap(
                 alignment: WrapAlignment.end,
-                children: List<Widget>.from(item['skills'].map((item) {
-                  final skill = app.skillById(item['id']);
+                children: List<Widget>.from(skills.map((e) {
+                  final skill = app.skillById(e['id'] as String);
                   return skill != null
                       ? Image.asset(
                           skill.iconUrl,
@@ -111,7 +119,7 @@ class _BuildTile extends StatelessWidget {
               ),
             ),
             _UnpackButton(onPressed: () {
-              app.selectClass(item['classId']);
+              app.selectClass(classData);
               build.unpackBuild(item.key);
             }),
           ],
@@ -125,7 +133,7 @@ class _BuildTile extends StatelessWidget {
 class _UnpackButton extends StatelessWidget {
   final Function onPressed;
 
-  _UnpackButton({@required this.onPressed});
+  _UnpackButton({required this.onPressed});
 
   @override
   Widget build(BuildContext context) {
@@ -139,15 +147,16 @@ class _UnpackButton extends StatelessWidget {
             onPressed: () {
               onPressed();
               final snackBar = SnackBar(
-                content:
-                    Text(LocaleManager.of(context).translate('build unpacked')),
+                content: Text(
+                    LocaleManager.of(context)?.translate('build unpacked') ??
+                        ''),
               );
-              Scaffold.of(context).showSnackBar(snackBar);
+              ScaffoldMessenger.of(context).showSnackBar(snackBar);
             },
           )
         : CupertinoButton(
             child: icon,
-            onPressed: onPressed,
+            onPressed: () => onPressed(),
           );
   }
 }

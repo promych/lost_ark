@@ -9,7 +9,7 @@ import '../managers/build_manager.dart';
 class TripodIndicator extends StatelessWidget {
   final String skillId;
 
-  const TripodIndicator({@required this.skillId});
+  const TripodIndicator({required this.skillId});
 
   @override
   Widget build(BuildContext context) {

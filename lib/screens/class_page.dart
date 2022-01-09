@@ -14,18 +14,20 @@ class ClassPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final backTitle = LocaleManager.of(context).translate('classes');
+    final backTitle = LocaleManager.of(context)?.translate('classes');
     final Function openSkills =
         () => Navigator.of(context).pushReplacementNamed('/skills');
-    final skillsLabel = LocaleManager.of(context).translate('skills');
+    final skillsLabel = LocaleManager.of(context)?.translate('skills');
 
     return Platform.isAndroid
         ? Scaffold(
             appBar: MyMaterialAppBar(
-              trailing: FlatButton(
-                child: Text(skillsLabel,
-                    style: TextStyle(color: Styles.cyanColor, fontSize: 20.0)),
-                onPressed: openSkills,
+              trailing: TextButton(
+                child: Text(
+                  skillsLabel ?? '',
+                  style: TextStyle(color: Styles.cyanColor, fontSize: 20.0),
+                ),
+                onPressed: () => openSkills(),
               ),
             ),
             body: ClassPageBody(),
@@ -35,10 +37,10 @@ class ClassPage extends StatelessWidget {
               backTitle: backTitle,
               trailing: GestureDetector(
                 child: Text(
-                  skillsLabel,
+                  skillsLabel ?? '',
                   style: TextStyle(color: Styles.cyanColor),
                 ),
-                onTap: openSkills,
+                onTap: () => openSkills(),
               ),
             ),
             child: ClassPageBody(),

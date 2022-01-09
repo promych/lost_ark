@@ -4,13 +4,13 @@ import '../helpers/theme.dart';
 
 class ClassTile extends StatelessWidget {
   final String name;
-  final IconData icon;
+  final IconData? icon;
   final Function onTap;
 
   const ClassTile({
-    @required this.name,
-    @required this.icon,
-    @required this.onTap,
+    required this.name,
+    this.icon,
+    required this.onTap,
   });
 
   @override
@@ -40,7 +40,7 @@ class ClassTile extends StatelessWidget {
             ],
           ),
         ),
-        onTap: onTap,
+        onTap: () => onTap(),
       ),
     );
   }

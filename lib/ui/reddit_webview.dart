@@ -11,7 +11,7 @@ import '../ui/cupertino_navbar.dart';
 class RedditWebView extends StatelessWidget {
   final String url;
 
-  const RedditWebView({@required this.url});
+  const RedditWebView({required this.url});
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +30,7 @@ class RedditWebView extends StatelessWidget {
 class _RedditWebViewBody extends StatelessWidget {
   final String url;
 
-  _RedditWebViewBody({@required this.url});
+  _RedditWebViewBody({required this.url});
 
   @override
   Widget build(BuildContext context) {

@@ -15,10 +15,10 @@ class SpiderChart extends StatelessWidget {
   final double fallbackWidth;
 
   SpiderChart({
-    Key key,
-    @required this.data,
-    @required this.colors,
-    @required this.maxValue,
+    Key? key,
+    required this.data,
+    required this.colors,
+    required this.maxValue,
     this.size = Size.infinite,
     this.decimalPrecision = 0,
     this.fallbackHeight = 200,
@@ -28,11 +28,11 @@ class SpiderChart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final axisLabels = [
-      LocaleManager.of(context).translate('attack'),
-      LocaleManager.of(context).translate('speed'),
-      LocaleManager.of(context).translate('defense'),
-      LocaleManager.of(context).translate('support'),
-      LocaleManager.of(context).translate('range'),
+      LocaleManager.of(context)?.translate('attack'),
+      LocaleManager.of(context)?.translate('speed'),
+      LocaleManager.of(context)?.translate('defense'),
+      LocaleManager.of(context)?.translate('support'),
+      LocaleManager.of(context)?.translate('range'),
     ];
 
     return LimitedBox(
@@ -41,7 +41,12 @@ class SpiderChart extends StatelessWidget {
       child: CustomPaint(
         size: size,
         painter: SpiderChartPainter(
-            data, maxValue, colors, decimalPrecision, axisLabels),
+          data,
+          maxValue,
+          colors,
+          decimalPrecision,
+          axisLabels,
+        ),
       ),
     );
   }
@@ -52,20 +57,25 @@ class SpiderChartPainter extends CustomPainter {
   final double maxNumber;
   final List<Color> colors;
   final decimalPrecision;
-  final List<String> axisLabels;
+  final List<String?> axisLabels;
 
   final Paint spokes = Paint()..color = Colors.grey;
 
   final Paint fill = Paint()
-    ..color = Colors.grey[800].withAlpha(200) //Color.fromARGB(15, 50, 50, 50)
+    ..color = Colors.grey[800]!.withAlpha(200) //Color.fromARGB(15, 50, 50, 50)
     ..style = PaintingStyle.fill;
 
   final Paint stroke = Paint()
     ..color = Colors.white //Color.fromARGB(255, 50, 50, 50)
     ..style = PaintingStyle.stroke;
 
-  SpiderChartPainter(this.data, this.maxNumber, this.colors,
-      this.decimalPrecision, this.axisLabels);
+  SpiderChartPainter(
+    this.data,
+    this.maxNumber,
+    this.colors,
+    this.decimalPrecision,
+    this.axisLabels,
+  );
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -73,7 +83,7 @@ class SpiderChartPainter extends CustomPainter {
 
     double angle = (2 * pi) / data.length;
 
-    var points = List<Offset>();
+    var points = <Offset>[];
 
     for (var i = 0; i < data.length; i++) {
       var scaledRadius = (data[i] / maxNumber) * center.dy;
@@ -131,8 +141,13 @@ class SpiderChartPainter extends CustomPainter {
     }
   }
 
-  void paintAxisLabeles(Canvas canvas, Offset center, List<Offset> points,
-      double angle, List<String> axisLabels) {
+  void paintAxisLabeles(
+    Canvas canvas,
+    Offset center,
+    List<Offset> points,
+    double angle,
+    List<String?> axisLabels,
+  ) {
     var textPainter = TextPainter(textDirection: TextDirection.ltr);
 
     for (var i = 0; i < points.length; i++) {
@@ -163,7 +178,7 @@ class SpiderChartPainter extends CustomPainter {
   }
 
   void paintGraphOutline(Canvas canvas, Offset center, double angle) {
-    var outline = List<Offset>();
+    var outline = <Offset>[];
 
     for (var i = 0; i < data.length; i++) {
       var x = center.dy * cos(angle * i - pi / 2);

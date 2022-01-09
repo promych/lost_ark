@@ -13,7 +13,7 @@ import './reddit_webview.dart';
 class RedditPostTile extends StatelessWidget {
   final RedditPost post;
 
-  const RedditPostTile({@required this.post});
+  const RedditPostTile({required this.post});
 
   @override
   Widget build(BuildContext context) {
@@ -112,7 +112,7 @@ class RedditPostTile extends StatelessWidget {
       case 'discussion':
         return Colors.blue;
       case 'community':
-        return Colors.indigo[900];
+        return Colors.indigo[900]!;
       default:
         return CupertinoColors.inactiveGray;
     }
