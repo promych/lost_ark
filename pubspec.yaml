@@ -36,19 +36,19 @@ flutter:
    - assets/icons/tripod/
    - assets/icons/arcana/
    - assets/icons/bard/
-   - assets/icons/battlemaster/
+   - assets/icons/wardancer/
    - assets/icons/berserker/
-   - assets/icons/blade/
-   - assets/icons/blaster/
-   - assets/icons/demonic/
+   - assets/icons/deathblade/
+   - assets/icons/artillerist/
+   - assets/icons/shadowhunter/
    - assets/icons/destroyer/
-   - assets/icons/devilhunter/
-   - assets/icons/hawkeye/
-   - assets/icons/infighter/
+   - assets/icons/deadeye/
+   - assets/icons/sharpshooter/
+   - assets/icons/scrapper/
    - assets/icons/lancemaster/
-   - assets/icons/soulmaster/
+   - assets/icons/soulfist/
    - assets/icons/summoner/
-   - assets/icons/warlord/
+   - assets/icons/gunlancer/
   fonts:
     - family: LostArk
       fonts:

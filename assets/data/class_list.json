@@ -2,7 +2,7 @@
   {
     "id": "c01",
     "name": {
-      "en": "Warlord",
+      "en": "Gunlancer",
       "ru": "Страж"
     },
     "archetype": {
@@ -10,7 +10,7 @@
       "ru": "Воин"
     },
     "description": {
-      "en": "Warlord is a knight with strong armor. Even while soaking damage he has a number of attacks with his lance and shield.",
+      "en": "Gunlancer is a knight with strong armor. Even while soaking damage he has a number of attacks with his lance and shield.",
       "ru": "Страж всегда первым врывается в бой. Благодаря щиту имеет высокий показатель защиты, а для атаки использует пулебарду – копье со встроенной винтовкой."
     },
     "weapon": {
@@ -89,11 +89,11 @@
   {
     "id": "c03",
     "name": {
-      "en": "Battle Master",
+      "en": "Wardancer",
       "ru": "Аватар"
     },
     "archetype": {
-      "en": "Fighter",
+      "en": "Martial Artist",
       "ru": "Монах"
     },
     "description": {
@@ -118,11 +118,11 @@
   {
     "id": "c04",
     "name": {
-      "en": "Infighter",
+      "en": "Scrapper",
       "ru": "Дуалист"
     },
     "archetype": {
-      "en": "Fighter",
+      "en": "Martial Artist",
       "ru": "Монах"
     },
     "description": {
@@ -147,11 +147,11 @@
   {
     "id": "c05",
     "name": {
-      "en": "Soul Master",
+      "en": "Soulfist",
       "ru": "Ки-мастер"
     },
     "archetype": {
-      "en": "Fighter",
+      "en": "Martial Artist",
       "ru": "Монах"
     },
     "description": {
@@ -180,7 +180,7 @@
       "ru": "Мастер копья"
     },
     "archetype": {
-      "en": "Fighter",
+      "en": "Martial Artist",
       "ru": "Монах"
     },
     "description": {
@@ -205,11 +205,11 @@
   {
     "id": "c06",
     "name": {
-      "en": "Devil Hunter",
+      "en": "Deadeye",
       "ru": "Охотник на демонов"
     },
     "archetype": {
-      "en": "Hunter",
+      "en": "Gunner",
       "ru": "Стрелок"
     },
     "description": {
@@ -234,11 +234,11 @@
   {
     "id": "c07",
     "name": {
-      "en": "Blaster",
+      "en": "Artillerist",
       "ru": "Механист"
     },
     "archetype": {
-      "en": "Hunter",
+      "en": "Gunner",
       "ru": "Стрелок"
     },
     "description": {
@@ -263,11 +263,11 @@
   {
     "id": "c08",
     "name": {
-      "en": "Hawk Eye",
+      "en": "Sharpshooter",
       "ru": "Рейнджер"
     },
     "archetype": {
-      "en": "Hunter",
+      "en": "Gunner",
       "ru": "Стрелок"
     },
     "description": {
@@ -296,7 +296,7 @@
       "ru": "Арканолог"
     },
     "archetype": {
-      "en": "Magician",
+      "en": "Mage",
       "ru": "Маг"
     },
     "description": {
@@ -325,7 +325,7 @@
       "ru": "Менестрель"
     },
     "archetype": {
-      "en": "Magician",
+      "en": "Mage",
       "ru": "Маг"
     },
     "description": {
@@ -354,7 +354,7 @@
       "ru": "Призывательница"
     },
     "archetype": {
-      "en": "Magician",
+      "en": "Mage",
       "ru": "Маг"
     },
     "description": {
@@ -379,7 +379,7 @@
   {
     "id": "c13",
     "name": {
-      "en": "Blade",
+      "en": "Deathblade",
       "ru": "Клинок смерти"
     },
     "archetype": {
@@ -408,7 +408,7 @@
   {
     "id": "c14",
     "name": {
-      "en": "Demonic",
+      "en": "Shadowhunter",
       "ru": "Фурия"
     },
     "archetype": {
