@@ -23,9 +23,10 @@ class SkillTile extends StatelessWidget {
           color: Colors.transparent,
           child: Row(
             children: [
-              Image.asset(skill.iconUrl,
-                  height:
-                      MediaQuery.of(context).size.width <= 360 ? 48.0 : 64.0),
+              Image.asset(
+                skill.iconUrl,
+                height: MediaQuery.of(context).size.width <= 360 ? 48.0 : 64.0,
+              ),
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 10.0),
@@ -43,7 +44,7 @@ class SkillTile extends StatelessWidget {
           ),
         ),
         onTap: () {
-          final builder = (_) => TripodPage(skill: skill);
+          Widget builder(_) => TripodPage(skill: skill);
           final route = Platform.isAndroid
               ? MaterialPageRoute(builder: builder)
               : CupertinoPageRoute(builder: builder);

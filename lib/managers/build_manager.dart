@@ -13,7 +13,7 @@ import '../models/build.dart';
 const kMaxSkillsPerBuild = 99;
 
 class BuildManager with ChangeNotifier {
-  Build _build = Build();
+  final _build = Build();
   Build get currentBuild => _build;
 
   bool readyToSave = false;
@@ -40,7 +40,10 @@ class BuildManager with ChangeNotifier {
 
       // mutate copy of current list with selected enchance
       final newEnchancementList = [...currentEnchancementList]..replaceRange(
-          tierNum - 1, newEnchancement.length + tierNum - 1, newEnchancement);
+          tierNum - 1,
+          newEnchancement.length + tierNum - 1,
+          newEnchancement,
+        );
 
       if (newEnchancementList.join() == '') {
         _build.items.removeAt(index);
@@ -63,8 +66,10 @@ class BuildManager with ChangeNotifier {
       // if (pointsByClass(enchancementId.substring(0, 3)) + 4 >
       //     kMaxPointsPerBuild) return;
       if (_build.items
-              .where((item) =>
-                  item.skillId.substring(0, 3) == skillId.substring(0, 3))
+              .where(
+                (item) =>
+                    item.skillId.substring(0, 3) == skillId.substring(0, 3),
+              )
               .length >=
           kMaxSkillsPerBuild) return;
 
@@ -72,7 +77,9 @@ class BuildManager with ChangeNotifier {
         BuildItem(
           skillId: skillId,
           enchancements: List.generate(
-              3, (index) => index == tierNum - 1 ? enchancementId : ''),
+            3,
+            (index) => index == tierNum - 1 ? enchancementId : '',
+          ),
         ),
       );
     }
@@ -81,8 +88,6 @@ class BuildManager with ChangeNotifier {
         ? readyToSave = true
         : readyToSave = false;
     notifyListeners();
-
-    // print(_build.items.first?.enchancements.toString());
   }
 
   Future<void> save(String classId) async {
@@ -104,8 +109,8 @@ class BuildManager with ChangeNotifier {
     final skills = _build.items
         .where((item) => item.skillId.substring(0, 3) == classId)
         .toList();
-    if (skills.length == 0) return 0;
-    for (var skill in skills) {
+    if (skills.isEmpty) return 0;
+    for (final skill in skills) {
       points = points + _pointsByBuildItem(skill.enchancements);
     }
     return points;
@@ -126,13 +131,13 @@ class BuildManager with ChangeNotifier {
 
   // Database
 
-  Future<Database> get _db async => await AppDatabase.instance.database;
+  Future<Database> get _db async => AppDatabase.instance.database;
 
-  var _store = StoreRef<int, Map<String, dynamic>>.main();
+  final _store = StoreRef<int, Map<String, dynamic>>.main();
 
   Future<List<RecordSnapshot<int, Map<String, dynamic>>>> savedBuilds() async {
     final finder = Finder(sortOrders: [SortOrder('classId')]);
-    return await _store.find(await _db, finder: finder);
+    return _store.find(await _db, finder: finder);
   }
 
   Future<void> _addToBuild(String classId) async {
@@ -158,11 +163,13 @@ class BuildManager with ChangeNotifier {
     final buildToUnpack = await _store.record(id).get(await _db);
 
     _build.items.removeWhere(
-        (item) => item.skillId.substring(0, 3) == buildToUnpack?['classId']);
+      (item) => item.skillId.substring(0, 3) == buildToUnpack?['classId'],
+    );
 
     _build.items.addAll(
       List.from(
-        buildToUnpack?['skills'].map((item) => BuildItem.fromMap(item)),
+        (buildToUnpack?['skills'] as List<Map<String, dynamic>>)
+            .map((item) => BuildItem.fromMap(item)),
       ),
     );
   }

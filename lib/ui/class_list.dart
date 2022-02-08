@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
+import './class_tile.dart';
+import './sliver_appbar_delegate.dart';
 import '../helpers/theme.dart';
 import '../managers/app_manager.dart';
-import './sliver_appbar_delegate.dart';
-import './class_tile.dart';
+import '../models/class.dart';
 
 class ClassList extends StatelessWidget {
   @override
@@ -18,7 +19,6 @@ class ClassList extends StatelessWidget {
         slivers: [
           for (var archetype in app.classArchetypes) ...[
             SliverPersistentHeader(
-              pinned: false,
               delegate: SliverAppBarDelegate(
                 minHeight: 50.0,
                 maxHeight: 80.0,
@@ -27,7 +27,7 @@ class ClassList extends StatelessWidget {
                   padding: const EdgeInsets.only(left: 10.0),
                   child: Text(
                     archetype,
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: Styles.defaultWhite,
                       fontSize: 40.0,
                       fontFamily: 'Alegreya',
@@ -39,7 +39,8 @@ class ClassList extends StatelessWidget {
             SliverList(
               delegate: SliverChildListDelegate(
                 [
-                  for (var item in (app.classesByArchetype(archetype) ?? []))
+                  for (CharacterClass item
+                      in app.classesByArchetype(archetype) ?? [])
                     ClassTile(
                       name: item.name,
                       icon: item.icon,

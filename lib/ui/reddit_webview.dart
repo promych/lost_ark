@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 
 import 'package:webview_flutter/webview_flutter.dart';
 
-import '../ui/material_appbar.dart';
 import '../ui/cupertino_navbar.dart';
+import '../ui/material_appbar.dart';
 
 class RedditWebView extends StatelessWidget {
   final String url;
@@ -17,11 +17,11 @@ class RedditWebView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Platform.isAndroid
         ? Scaffold(
-            appBar: MyMaterialAppBar(),
+            appBar: const MyMaterialAppBar(),
             body: _RedditWebViewBody(url: url),
           )
         : CupertinoPageScaffold(
-            navigationBar: MyCupertinoNavBar(backTitle: 'Home'),
+            navigationBar: const MyCupertinoNavBar(backTitle: 'Home'),
             child: _RedditWebViewBody(url: url),
           );
   }
@@ -30,7 +30,7 @@ class RedditWebView extends StatelessWidget {
 class _RedditWebViewBody extends StatelessWidget {
   final String url;
 
-  _RedditWebViewBody({required this.url});
+  const _RedditWebViewBody({required this.url});
 
   @override
   Widget build(BuildContext context) {

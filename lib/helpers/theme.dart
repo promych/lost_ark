@@ -12,7 +12,7 @@ final appMaterialTheme = ThemeData.dark().copyWith(
 );
 
 abstract class Styles {
-  static const Color scaffoldBackgroundColor = const Color(0xff171e28);
+  static const Color scaffoldBackgroundColor = Color(0xff171e28);
 
   static const Color cyanColor = Color(0xff078d9b);
 

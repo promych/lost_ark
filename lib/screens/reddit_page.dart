@@ -33,14 +33,14 @@ class RedditPage extends StatelessWidget {
                 future: posts,
                 builder: (_, snapshot) {
                   if (snapshot.connectionState == ConnectionState.none) {
-                    return Text(':(');
+                    return const Text(':(');
                   } else if (snapshot.connectionState ==
                           ConnectionState.waiting ||
                       snapshot.connectionState == ConnectionState.active) {
                     return Center(
                       child: Platform.isAndroid
-                          ? CircularProgressIndicator()
-                          : CupertinoActivityIndicator(),
+                          ? const CircularProgressIndicator()
+                          : const CupertinoActivityIndicator(),
                     );
                   } else if (snapshot.connectionState == ConnectionState.done &&
                       snapshot.hasData) {
@@ -51,12 +51,12 @@ class RedditPage extends StatelessWidget {
                       itemCount: snapshot.data!.length,
                       itemBuilder: (_, int index) =>
                           RedditPostTile(post: snapshot.data![index]),
-                      separatorBuilder: (_, int index) => Divider(
+                      separatorBuilder: (_, int index) => const Divider(
                         color: Styles.scaffoldBackgroundColor,
                       ),
                     );
                   }
-                  return Text('Oops: Future returns null');
+                  return const Text('Oops: Future returns null');
                 },
               ),
       ),

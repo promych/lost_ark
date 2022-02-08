@@ -33,7 +33,7 @@ class SkillTypeInTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       _buildSkillType(context, sType),
-      style: TextStyle(color: CupertinoColors.inactiveGray),
+      style: const TextStyle(color: CupertinoColors.inactiveGray),
     );
   }
 }

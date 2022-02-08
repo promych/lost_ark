@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
-import '../managers/app_manager.dart';
-import '../managers/locale_manager.dart';
 import '../helpers/spider_chart.dart';
 import '../helpers/theme.dart';
+import '../managers/app_manager.dart';
+import '../managers/locale_manager.dart';
 
 class ClassPageBody extends StatelessWidget {
   @override
@@ -30,7 +30,7 @@ class ClassPageBody extends StatelessWidget {
                     ),
                   ),
                 ),
-                Container(
+                SizedBox(
                   height: double.infinity,
                   child: SingleChildScrollView(
                     padding: const EdgeInsets.all(10.0),
@@ -45,7 +45,7 @@ class ClassPageBody extends StatelessWidget {
                             fontFamily: 'Alegreya',
                           ),
                         ),
-                        SizedBox(height: 10.0),
+                        const SizedBox(height: 10.0),
                         Text(
                           '${LocaleManager.of(context)?.translate('weapon')}: ${classData.weapon}',
                           style: TextStyle(
@@ -54,7 +54,7 @@ class ClassPageBody extends StatelessWidget {
                             fontFamily: 'Alegreya',
                           ),
                         ),
-                        SizedBox(height: 40.0),
+                        const SizedBox(height: 40.0),
                         Center(
                           child: _StatsSpider(
                             attack: classData.stats['attack']?.toDouble() ?? 0,
@@ -66,11 +66,11 @@ class ClassPageBody extends StatelessWidget {
                             range: classData.stats['range']?.toDouble() ?? 0,
                           ),
                         ),
-                        SizedBox(height: 20.0),
+                        const SizedBox(height: 20.0),
                         Container(
                           padding: const EdgeInsets.all(10.0),
                           width: double.infinity,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                             color: Styles.layerColor,
                             borderRadius:
                                 BorderRadius.all(Radius.circular(4.0)),
@@ -122,7 +122,7 @@ class _StatsSpider extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final scale = MediaQuery.of(context).size.width * 0.4;
-    return Container(
+    return SizedBox(
       width: scale,
       height: scale,
       child: SpiderChart(
@@ -134,7 +134,7 @@ class _StatsSpider extends StatelessWidget {
           support,
           range,
         ],
-        colors: [
+        colors: const [
           Colors.white,
           Colors.white,
           Colors.white,

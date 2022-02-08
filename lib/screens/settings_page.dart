@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 
 import 'package:provider/provider.dart';
 
+import '../helpers/theme.dart';
 import '../managers/app_manager.dart';
 import '../managers/locale_manager.dart';
-import '../helpers/theme.dart';
 import '../screens/simple_page.dart';
 import '../ui/saved_builds.dart';
 
@@ -25,12 +25,10 @@ class SettingsPage extends StatelessWidget {
                 Row(
                   children: [
                     Expanded(
-                      child: Container(
-                        child: Text(
-                          LocaleManager.of(context)
-                                  ?.translate('select language') ??
-                              '',
-                        ),
+                      child: Text(
+                        LocaleManager.of(context)
+                                ?.translate('select language') ??
+                            '',
                       ),
                     ),
                     CupertinoSegmentedControl(
@@ -38,16 +36,20 @@ class SettingsPage extends StatelessWidget {
                       unselectedColor: Styles.scaffoldBackgroundColor,
                       borderColor: Styles.layerColor,
                       pressedColor: Styles.layerColor,
-                      padding: const EdgeInsets.all(0.0),
-                      children: {
+                      padding: EdgeInsets.zero,
+                      children: const {
                         0: Padding(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 10.0, vertical: 4.0),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 10.0,
+                            vertical: 4.0,
+                          ),
                           child: Text('EN', style: Styles.defaultText),
                         ),
                         1: Padding(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 10.0, vertical: 4.0),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 10.0,
+                            vertical: 4.0,
+                          ),
                           child: Text('RU', style: Styles.defaultText),
                         ),
                       },
@@ -55,10 +57,10 @@ class SettingsPage extends StatelessWidget {
                       onValueChanged: (int index) {
                         switch (index) {
                           case 0:
-                            app.changeLocale(Locale('en', 'US'));
+                            app.changeLocale(const Locale('en', 'US'));
                             break;
                           case 1:
-                            app.changeLocale(Locale('ru', 'RU'));
+                            app.changeLocale(const Locale('ru', 'RU'));
                             break;
                         }
                       },
@@ -68,8 +70,8 @@ class SettingsPage extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.symmetric(vertical: 20.0),
                   child: Text(
-                      LocaleManager.of(context)?.translate('saved builds') ??
-                          ''),
+                    LocaleManager.of(context)?.translate('saved builds') ?? '',
+                  ),
                 ),
                 SavedBuilds(),
               ],

@@ -26582,5 +26582,203 @@
         ]
       }
     ]
+  },
+  {
+    "id": "c15s00",
+    "name": {
+      "en": "Double Turn",
+      "ru": ""
+    },
+    "class": {
+      "en": "Paladin",
+      "ru": "Паладин"
+    },
+    "description": {
+      "en": "Holy Knight makes two roundhouse swings that inflict 67 units damage and 67 units damage accordingly.",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 6,
+    "iconUrl": "assets/icons/paladin/c15s00.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Pirouette",
+            "description": {
+              "en": "Double Turn becomes a combo skill. The direction of the second strike can now be changed.",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_38.webp"
+          },
+          {
+            "name": "Critical Threat",
+            "description": {
+              "en": "The critical strike chance for this skill is increased by 20%",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_4.webp"
+          },
+          {
+            "name": "Nested Blow",
+            "description": {
+              "en": "The second hit of this skill takes longer to prepare, but does 50% more damage",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_94.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Cracked Blade",
+            "description": {
+              "en": "Skill deals on 100%  more damage to normal opponents.",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_61.webp"
+          },
+          {
+            "name": "Liberation of Power",
+            "description": {
+              "en": "SKILL DAMAGE INCREASED BY 100 AND DURING THE ACTION OF THE \"WARRIOR OF LIGHT\" - ON 170%",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_0.webp"
+          },
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "ON EACH HIT, HOLY KNIGHT MOVES 1.0M FURTHER, AND THE ATTACK SPEED OF THE SKILL INCREASES BY 10%",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_10.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Continuous Attack",
+            "description": {
+              "en": "THE NUMBER OF HITS INCREASES TO THREE. TOTAL SKILL DAMAGE INCREASED BY 80%",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_8.webp"
+          },
+          {
+            "name": "Trace of the Sword",
+            "description": {
+              "en": "SWORD STRIKES CREATE A WAVE OF ENERGY THAT DEALS DAMAGE TO ENEMIES IN THE AMOUNT OF 60% OF TOTAL SKILL DAMAGE",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_88.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c15s01",
+    "name": {
+      "en": "Shattering Steel",
+      "ru": ""
+    },
+    "class": {
+      "en": "Paladin",
+      "ru": "Паладин"
+    },
+    "description": {
+      "en": "Holy Knight four times pierces opponents with a sword, inflicting a total 148 units damage, and then makes another attack that deals 45 units damage and repels the enemy.",
+      "ru": ""
+    },
+    "type": "Normal",
+    "cooldown": 8,
+    "iconUrl": "assets/icons/paladin/c15s01.webp",
+    "tripod": [
+      {
+        "tier": 1,
+        "skills": [
+          {
+            "name": "Outstanding Mobility",
+            "description": {
+              "en": "HOLY KNIGHT ADVANCES 2.0 M FORWARD AS IT STRIKES.",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_10.webp"
+          },
+          {
+            "name": "Quickly Prepare",
+            "description": {
+              "en": "THE COOLDOWN OF THIS SKILL IS REDUCED BY -2 SEC.",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_56.webp"
+          },
+          {
+            "name": "Cracked Blade",
+            "description": {
+              "en": "SKILL DEALS ON 50 % MORE DAMAGE TO NORMAL OPPONENTS.",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_1_61.webp"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "skills": [
+          {
+            "name": "Like a knife through butter",
+            "description": {
+              "en": "THE FIRST FOUR HITS OF THIS SKILL ARE IGNORED. 40% ADVERSARY DEFENSE AND RESISTANCE.",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_2.webp"
+          },
+          {
+            "name": "Heavy Arrow",
+            "description": {
+              "en": "THE FIRST FOUR HITS OF THIS SKILL NOW PUSH THE ENEMY BACK. THEIR TOTAL DAMAGE INCREASES BY 60 IF YOU HIT THE TARGET WITH THE EDGE OF THE BLADE.",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_60.webp"
+          },
+          {
+            "name": "Sieve",
+            "description": {
+              "en": "HOLY KNIGHT IMPALES OPPONENTS SIX TIMES INSTEAD OF FOUR. THE TOTAL DAMAGE OF THESE HITS IS INCREASED (UP TO 50%)",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_2_8.webp"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "skills": [
+          {
+            "name": "Steel Fan",
+            "description": {
+              "en": "WHEN USING THIS SKILL, BLOWS TAKE ON A FAN-SHAPED TRAJECTORY AND ARE APPLIED TO 30.0% MORE DAMAGE. IN ADDITION, THE DAMAGE FROM EACH NEW HIT INCREASES BY 90 % (UP TO 450 % HOWEVER, THIS NO LONGER MAKES THE HOLY KNIGHT THE FINAL HIT.",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_58.webp"
+          },
+          {
+            "name": "Change of Pace",
+            "description": {
+              "en": "THE FINAL BLOW OF THIS SKILL DEALS ON 200 % MORE DAMAGE AND KNOCKS ENEMIES INTO THE AIR.",
+              "ru": ""
+            },
+            "iconUrl": "assets/icons/tripod/Tripod_Tier_3_9.webp"
+          }
+        ]
+      }
+    ]
   }
 ]

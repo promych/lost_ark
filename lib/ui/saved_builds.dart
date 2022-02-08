@@ -19,7 +19,7 @@ class SavedBuilds extends StatelessWidget {
         future: Provider.of<BuildManager>(context, listen: false).savedBuilds(),
         builder: (_, snapshot) {
           if (snapshot.connectionState == ConnectionState.none) {
-            return Text(':(');
+            return const Text(':(');
           } else if (snapshot.connectionState == ConnectionState.waiting ||
               snapshot.connectionState == ConnectionState.active) {
             return Container();
@@ -29,8 +29,8 @@ class SavedBuilds extends StatelessWidget {
               return Text('${snapshot.error}');
             }
             if (snapshot.data != null) {
-              return snapshot.data!.length == 0
-                  ? Align(
+              return snapshot.data!.isEmpty
+                  ? const Align(
                       alignment: Alignment.topCenter,
                       child: Icon(
                         Icons.insert_emoticon,
@@ -42,7 +42,7 @@ class SavedBuilds extends StatelessWidget {
                       itemBuilder: (_, int id) =>
                           _BuildTile(item: snapshot.data![id]),
                       separatorBuilder: (context, _) =>
-                          Divider(color: Styles.scaffoldBackgroundColor),
+                          const Divider(color: Styles.scaffoldBackgroundColor),
                     );
             }
             return const SizedBox.shrink();
@@ -57,7 +57,7 @@ class SavedBuilds extends StatelessWidget {
 class _BuildTile extends StatelessWidget {
   final RecordSnapshot<int, Map<String, dynamic>> item;
 
-  _BuildTile({required this.item});
+  const _BuildTile({required this.item});
 
   @override
   Widget build(BuildContext context) {
@@ -67,15 +67,15 @@ class _BuildTile extends StatelessWidget {
     if (classData == null) return const SizedBox.shrink();
 
     final charClass = app.classById(classData);
-    final skills =
-        List<Map<String, dynamic>>.from(item['skills'] as List<dynamic>);
-    if (charClass == null) return const SizedBox.shrink();
+    final skillsRaw = item['skills'] as Iterable?;
+    if (charClass == null || skillsRaw == null) return const SizedBox.shrink();
+    final skills = List<Map<String, dynamic>>.from(skillsRaw);
 
     return Dismissible(
       key: ValueKey(item.key),
       direction: DismissDirection.endToStart,
       background: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           color: CupertinoColors.destructiveRed,
           borderRadius: BorderRadius.all(Radius.circular(4.0)),
         ),
@@ -84,14 +84,14 @@ class _BuildTile extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(LocaleManager.of(context)?.translate('delete') ?? ''),
-            SizedBox(width: 10.0),
-            Icon(Icons.delete),
-            SizedBox(width: 10.0),
+            const SizedBox(width: 10.0),
+            const Icon(Icons.delete),
+            const SizedBox(width: 10.0),
           ],
         ),
       ),
       child: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           color: Styles.layerColor,
           borderRadius: BorderRadius.all(Radius.circular(4.0)),
         ),
@@ -105,23 +105,27 @@ class _BuildTile extends StatelessWidget {
             Expanded(
               child: Wrap(
                 alignment: WrapAlignment.end,
-                children: List<Widget>.from(skills.map((e) {
-                  final skill = app.skillById(e['id'] as String);
-                  return skill != null
-                      ? Image.asset(
-                          skill.iconUrl,
-                          height: MediaQuery.of(context).size.width <= 360
-                              ? 24.0
-                              : 32.0,
-                        )
-                      : Container();
-                })),
+                children: List<Widget>.from(
+                  skills.map((e) {
+                    final skill = app.skillById(e['id'] as String);
+                    return skill != null
+                        ? Image.asset(
+                            skill.iconUrl,
+                            height: MediaQuery.of(context).size.width <= 360
+                                ? 24.0
+                                : 32.0,
+                          )
+                        : Container();
+                  }),
+                ),
               ),
             ),
-            _UnpackButton(onPressed: () {
-              app.selectClass(classData);
-              build.unpackBuild(item.key);
-            }),
+            _UnpackButton(
+              onPressed: () {
+                app.selectClass(classData);
+                build.unpackBuild(item.key);
+              },
+            ),
           ],
         ),
       ),
@@ -131,13 +135,13 @@ class _BuildTile extends StatelessWidget {
 }
 
 class _UnpackButton extends StatelessWidget {
-  final Function onPressed;
+  final void Function() onPressed;
 
-  _UnpackButton({required this.onPressed});
+  const _UnpackButton({required this.onPressed});
 
   @override
   Widget build(BuildContext context) {
-    final icon = Icon(LostArk.upload, color: Styles.cyanColor);
+    const icon = Icon(LostArk.upload, color: Styles.cyanColor);
 
     return Platform.isAndroid
         ? IconButton(
@@ -148,8 +152,8 @@ class _UnpackButton extends StatelessWidget {
               onPressed();
               final snackBar = SnackBar(
                 content: Text(
-                    LocaleManager.of(context)?.translate('build unpacked') ??
-                        ''),
+                  LocaleManager.of(context)?.translate('build unpacked') ?? '',
+                ),
               );
               ScaffoldMessenger.of(context).showSnackBar(snackBar);
             },

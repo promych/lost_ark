@@ -3,16 +3,16 @@ import 'package:intl/intl.dart';
 
 @immutable
 class RedditPost {
-  final String id;
-  final String title;
-  final String created;
-  final String author;
-  final int score;
-  final int numComments;
-  final String flair;
-  final String permalink;
-  final String url;
-  final String thumbnail;
+  final String? id;
+  final String? title;
+  final String? created;
+  final String? author;
+  final int? score;
+  final int? numComments;
+  final String? flair;
+  final String? permalink;
+  final String? url;
+  final String? thumbnail;
 
   const RedditPost({
     required this.id,
@@ -62,8 +62,10 @@ class RedditPost {
       }
     }
 
-    String _createdAgo(int timestamp) {
-      final dateCreated = DateTime.fromMillisecondsSinceEpoch(timestamp * 1000);
+    String? _createdAgo(double? timestamp) {
+      if (timestamp == null) return null;
+      final dateCreated =
+          DateTime.fromMillisecondsSinceEpoch(timestamp.toInt() * 1000);
       final diff = DateTime.now().difference(dateCreated);
 
       if (diff.inMinutes < 60) {
@@ -78,16 +80,16 @@ class RedditPost {
     }
 
     return RedditPost(
-      id: json['id'],
-      title: json['title'],
-      created: _createdAgo(json['created_utc'].toInt()),
-      author: json['author'],
-      score: json['score'],
-      numComments: json['num_comments'],
-      flair: json['link_flair_text'] ?? '',
-      permalink: 'https://www.reddit.com' + json['permalink'],
-      url: json['url'],
-      thumbnail: json['thumbnail'],
+      id: json['id'] as String?,
+      title: json['title'] as String?,
+      created: _createdAgo(json['created_utc'] as double?),
+      author: json['author'] as String?,
+      score: json['score'] as int?,
+      numComments: json['num_comments'] as int?,
+      flair: (json['link_flair_text'] ?? '') as String?,
+      permalink: 'https://www.reddit.com${json['permalink']}',
+      url: json['url'] as String?,
+      thumbnail: json['thumbnail'] as String?,
     );
   }
 }

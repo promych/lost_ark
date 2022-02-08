@@ -17,7 +17,7 @@ class _ClassSelectorState extends State<ClassSelector>
   @override
   void initState() {
     super.initState();
-    _controller = PageController(keepPage: true, viewportFraction: 0.8);
+    _controller = PageController(viewportFraction: 0.8);
   }
 
   @override
@@ -40,10 +40,10 @@ class _ClassSelectorState extends State<ClassSelector>
           : Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
+                SizedBox(
                   height: _screenSize.height * 0.65,
                   child: PageView.builder(
-                    key: PageStorageKey('class-selector'),
+                    key: const PageStorageKey('class-selector'),
                     controller: _controller,
                     itemCount: classes.length,
                     itemBuilder: (_, int index) {
@@ -53,6 +53,19 @@ class _ClassSelectorState extends State<ClassSelector>
                           margin: const EdgeInsets.symmetric(horizontal: 10.0),
                           color: Styles.layerColor,
                           child: Container(
+                            decoration: const BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(4.0)),
+                              gradient: LinearGradient(
+                                begin: Alignment.topCenter,
+                                end: Alignment.bottomCenter,
+                                colors: <Color>[
+                                  Color(0xCC000000),
+                                  Color(0x00000000),
+                                  Color(0x00000000),
+                                ],
+                              ),
+                            ),
                             child: Stack(
                               alignment: Alignment.center,
                               children: [
@@ -68,32 +81,20 @@ class _ClassSelectorState extends State<ClassSelector>
                                 Image.asset(classes[index].imagePath),
                                 Positioned(
                                   bottom: _screenSize.height / 20,
-                                  child: Container(
+                                  child: SizedBox(
                                     width: _screenSize.width * 0.7,
                                     child: Text(
                                       classes[index].name,
                                       textAlign: TextAlign.center,
                                       style: TextStyle(
-                                          color: Styles.defaultWhite,
-                                          fontSize: _screenSize.width / 14,
-                                          fontFamily: 'Alegreya'),
+                                        color: Styles.defaultWhite,
+                                        fontSize: _screenSize.width / 14,
+                                        fontFamily: 'Alegreya',
+                                      ),
                                     ),
                                   ),
                                 )
                               ],
-                            ),
-                            decoration: BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(4.0)),
-                              gradient: LinearGradient(
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter,
-                                colors: const <Color>[
-                                  Color(0xCC000000),
-                                  Color(0x00000000),
-                                  Color(0x00000000),
-                                ],
-                              ),
                             ),
                           ),
                         ),

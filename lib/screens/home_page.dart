@@ -24,15 +24,15 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     final _barItems = [
       BottomNavigationBarItem(
-        icon: Icon(Icons.people),
+        icon: const Icon(Icons.people),
         label: LocaleManager.of(context)?.translate('classes'),
       ),
-      BottomNavigationBarItem(
+      const BottomNavigationBarItem(
         icon: Icon(LostArk.reddit_alien),
         label: 'Reddit',
       ),
       BottomNavigationBarItem(
-        icon: Icon(LostArk.cog_alt),
+        icon: const Icon(LostArk.cog_alt),
         label: LocaleManager.of(context)?.translate('settings'),
       ),
     ];

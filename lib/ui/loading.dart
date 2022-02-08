@@ -6,7 +6,7 @@ import '../screens/simple_page.dart';
 class Loading extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return SimplePage(
+    return const SimplePage(
       showAppBar: false,
       title: 'Lost Ark',
       child: Center(

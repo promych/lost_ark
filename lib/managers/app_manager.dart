@@ -10,12 +10,12 @@ import '../models/class.dart';
 import '../models/reddit_post.dart';
 import '../models/skill.dart';
 
-enum AppStatus { Uninitialized, Loading, Loaded, Error }
+enum AppStatus { uninitialized, loading, loaded, error }
 
 class AppManager extends ChangeNotifier {
-  RedditClient _redditClient;
-  ClassRepo _classRepo;
-  SkillRepo _skillRepo;
+  final RedditClient _redditClient;
+  final ClassRepo _classRepo;
+  final SkillRepo _skillRepo;
 
   List<RedditPost>? _redditPosts;
   List<CharacterClass>? _classList;
@@ -26,7 +26,7 @@ class AppManager extends ChangeNotifier {
   bool _isOnline = true;
   String _errorMessage = '';
 
-  AppStatus _status = AppStatus.Uninitialized;
+  AppStatus _status = AppStatus.uninitialized;
 
   AppManager()
       : _redditClient = RedditClient(),
@@ -42,8 +42,8 @@ class AppManager extends ChangeNotifier {
 
   Future<void> _loadApp([bool withNewLocale = false]) async {
     try {
-      print('loading');
-      _status = AppStatus.Loading;
+      debugPrint('loading');
+      _status = AppStatus.loading;
       notifyListeners();
 
       _locale = await _fetchLocale();
@@ -55,12 +55,13 @@ class AppManager extends ChangeNotifier {
           ? await _skillRepo.fetchSkills(lang: _locale!.languageCode)
           : _skillList;
 
-      print('loaded');
-      _status = AppStatus.Loaded;
+      debugPrint('loaded');
+      _status = AppStatus.loaded;
       notifyListeners();
     } catch (error) {
+      debugPrint('$error');
       _errorMessage = error.toString();
-      _status = AppStatus.Error;
+      _status = AppStatus.error;
       notifyListeners();
     }
   }
@@ -68,7 +69,7 @@ class AppManager extends ChangeNotifier {
   // Locale
 
   Future<Locale> _fetchLocale() async {
-    var prefs = await SharedPreferences.getInstance();
+    final prefs = await SharedPreferences.getInstance();
     final languageCode = prefs.getString('languageCode');
     final countryCode = prefs.getString('countryCode');
     return (languageCode == null || countryCode == null)
@@ -95,7 +96,7 @@ class AppManager extends ChangeNotifier {
   }
 
   Future<void> loadRedditPosts() async {
-    print('load posts');
+    debugPrint('load posts');
     try {
       final result = await InternetAddress.lookup('google.com');
       if (result.isNotEmpty && result[0].rawAddress.isNotEmpty) {

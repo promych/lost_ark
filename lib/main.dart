@@ -12,13 +12,12 @@ import './helpers/theme.dart';
 import './managers/app_manager.dart';
 import './managers/build_manager.dart';
 import './managers/locale_manager.dart';
+import './screens/class_page.dart';
+import './screens/class_selector_page.dart';
+import './screens/home_page.dart';
+import './screens/skills_page.dart';
 import './ui/error.dart';
 import './ui/loading.dart';
-
-import './screens/home_page.dart';
-import './screens/class_selector_page.dart';
-import './screens/class_page.dart';
-import './screens/skills_page.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -38,7 +37,7 @@ class App extends StatelessWidget {
     Locale('ru', 'RU'),
   ];
   final _localeDelegates = <LocalizationsDelegate>[
-    AppLocalizationsDelegate(),
+    const AppLocalizationsDelegate(),
     GlobalMaterialLocalizations.delegate,
     GlobalWidgetsLocalizations.delegate,
     GlobalCupertinoLocalizations.delegate,
@@ -84,13 +83,13 @@ class App extends StatelessWidget {
     );
   }
 
-  Widget _landing(app) {
-    if (app.status == AppStatus.Uninitialized ||
-        app.status == AppStatus.Loading) {
+  Widget _landing(AppManager app) {
+    if (app.status == AppStatus.uninitialized ||
+        app.status == AppStatus.loading) {
       return Loading();
-    } else if (app.status == AppStatus.Loaded) {
+    } else if (app.status == AppStatus.loaded) {
       return HomePage();
-    } else if (app.status == AppStatus.Error) {
+    } else if (app.status == AppStatus.error) {
       return ErrorView(message: app.errorMessage);
     } else {
       return Loading();

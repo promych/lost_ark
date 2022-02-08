@@ -6,18 +6,18 @@ class MyMaterialAppBar extends StatelessWidget implements PreferredSizeWidget {
   final Widget? title;
   final Widget? trailing;
 
-  MyMaterialAppBar({this.title, this.trailing});
+  const MyMaterialAppBar({this.title, this.trailing});
 
   @override
   Widget build(BuildContext context) {
     return AppBar(
       backgroundColor: Styles.layerColor,
       centerTitle: true,
-      title: title ?? null,
+      title: title,
       actions: trailing != null
           ? [
               trailing!,
-              SizedBox(width: 10.0),
+              const SizedBox(width: 10.0),
             ]
           : null,
     );

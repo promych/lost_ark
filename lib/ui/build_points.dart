@@ -15,19 +15,23 @@ class BuildPoints extends StatelessWidget {
 
     return classId == null
         ? const SizedBox.shrink()
-        : Consumer<BuildManager>(builder: (context, build, _) {
-            final points = build.pointsByClass(classId);
-            return points == 0
-                ? Container()
-                : Container(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 10.0, vertical: 5.0),
-                    decoration: BoxDecoration(
-                      color: Styles.scaffoldBackgroundColor,
-                      borderRadius: BorderRadius.all(Radius.circular(5.0)),
-                    ),
-                    child: Text(points.toString(), style: Styles.defaultText),
-                  );
-          });
+        : Consumer<BuildManager>(
+            builder: (context, build, _) {
+              final points = build.pointsByClass(classId);
+              return points == 0
+                  ? Container()
+                  : Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 10.0,
+                        vertical: 5.0,
+                      ),
+                      decoration: const BoxDecoration(
+                        color: Styles.scaffoldBackgroundColor,
+                        borderRadius: BorderRadius.all(Radius.circular(5.0)),
+                      ),
+                      child: Text(points.toString(), style: Styles.defaultText),
+                    );
+            },
+          );
   }
 }

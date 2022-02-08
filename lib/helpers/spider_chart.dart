@@ -1,5 +1,5 @@
-import 'dart:ui';
 import 'dart:math' show pi, cos, sin;
+import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
@@ -9,12 +9,12 @@ class SpiderChart extends StatelessWidget {
   final List<double> data;
   final double maxValue;
   final List<Color> colors;
-  final decimalPrecision;
+  final int decimalPrecision;
   final Size size;
   final double fallbackHeight;
   final double fallbackWidth;
 
-  SpiderChart({
+  const SpiderChart({
     Key? key,
     required this.data,
     required this.colors,
@@ -56,7 +56,7 @@ class SpiderChartPainter extends CustomPainter {
   final List<double> data;
   final double maxNumber;
   final List<Color> colors;
-  final decimalPrecision;
+  final int decimalPrecision;
   final List<String?> axisLabels;
 
   final Paint spokes = Paint()..color = Colors.grey;
@@ -79,16 +79,16 @@ class SpiderChartPainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    Offset center = size.center(Offset.zero);
+    final center = size.center(Offset.zero);
 
-    double angle = (2 * pi) / data.length;
+    final angle = (2 * pi) / data.length;
 
-    var points = <Offset>[];
+    final points = <Offset>[];
 
     for (var i = 0; i < data.length; i++) {
-      var scaledRadius = (data[i] / maxNumber) * center.dy;
-      var x = scaledRadius * cos(angle * i - pi / 2);
-      var y = scaledRadius * sin(angle * i - pi / 2);
+      final scaledRadius = (data[i] / maxNumber) * center.dy;
+      final x = scaledRadius * cos(angle * i - pi / 2);
+      final y = scaledRadius * sin(angle * i - pi / 2);
 
       points.add(Offset(x, y) + center);
     }
@@ -101,7 +101,7 @@ class SpiderChartPainter extends CustomPainter {
   }
 
   void paintDataLines(Canvas canvas, List<Offset> points) {
-    Path path = Path()..addPolygon(points, true);
+    final path = Path()..addPolygon(points, true);
 
     canvas.drawPath(
       path,
@@ -118,25 +118,35 @@ class SpiderChartPainter extends CustomPainter {
   }
 
   void paintText(
-      Canvas canvas, Offset center, List<Offset> points, List<double> data) {
-    var textPainter = TextPainter(textDirection: TextDirection.ltr);
+    Canvas canvas,
+    Offset center,
+    List<Offset> points,
+    List<double> data,
+  ) {
+    final textPainter = TextPainter(textDirection: TextDirection.ltr);
     for (var i = 0; i < points.length; i++) {
-      String s = data[i].toStringAsFixed(decimalPrecision);
+      final s = data[i].toStringAsFixed(decimalPrecision);
       textPainter.text =
-          TextSpan(text: s, style: TextStyle(color: Colors.white));
+          TextSpan(text: s, style: const TextStyle(color: Colors.white));
       textPainter.layout();
 
       if (points[i].dx < center.dx) {
         textPainter.paint(
-            canvas, points[i].translate(-(textPainter.size.width + 5.0), 0));
+          canvas,
+          points[i].translate(-(textPainter.size.width + 5.0), 0),
+        );
       } else if (points[i].dx > center.dx) {
         textPainter.paint(canvas, points[i].translate(5.0, 0));
       } else if (points[i].dy < center.dy) {
         textPainter.paint(
-            canvas, points[i].translate(-(textPainter.size.width / 2), -20));
+          canvas,
+          points[i].translate(-(textPainter.size.width / 2), -20),
+        );
       } else {
         textPainter.paint(
-            canvas, points[i].translate(-(textPainter.size.width / 2), 4));
+          canvas,
+          points[i].translate(-(textPainter.size.width / 2), 4),
+        );
       }
     }
   }
@@ -148,41 +158,55 @@ class SpiderChartPainter extends CustomPainter {
     double angle,
     List<String?> axisLabels,
   ) {
-    var textPainter = TextPainter(textDirection: TextDirection.ltr);
+    final textPainter = TextPainter(textDirection: TextDirection.ltr);
 
     for (var i = 0; i < points.length; i++) {
-      textPainter.text =
-          TextSpan(text: axisLabels[i], style: TextStyle(color: Colors.white));
+      textPainter.text = TextSpan(
+        text: axisLabels[i],
+        style: const TextStyle(color: Colors.white),
+      );
       textPainter.layout();
 
-      var x = center.dy * cos(angle * i - pi / 2);
-      var y = center.dy * sin(angle * i - pi / 2);
+      final x = center.dy * cos(angle * i - pi / 2);
+      final y = center.dy * sin(angle * i - pi / 2);
 
       if (points[i].dx < center.dx) {
         textPainter.paint(
-            canvas,
-            center +
-                Offset(
-                    x - textPainter.width - 10.0, y - textPainter.height / 2));
+          canvas,
+          center +
+              Offset(
+                x - textPainter.width - 10.0,
+                y - textPainter.height / 2,
+              ),
+        );
       } else if (points[i].dx > center.dx) {
         textPainter.paint(
-            canvas, center + Offset(x + 10.0, y - textPainter.height / 2));
+          canvas,
+          center +
+              Offset(
+                x + 10.0,
+                y - textPainter.height / 2,
+              ),
+        );
       } else if (points[i].dy < center.dy) {
         textPainter.paint(
-            canvas,
-            center +
-                Offset(
-                    x - textPainter.width / 2, y - textPainter.height * 1.4));
+          canvas,
+          center +
+              Offset(
+                x - textPainter.width / 2,
+                y - textPainter.height * 1.4,
+              ),
+        );
       }
     }
   }
 
   void paintGraphOutline(Canvas canvas, Offset center, double angle) {
-    var outline = <Offset>[];
+    final outline = <Offset>[];
 
     for (var i = 0; i < data.length; i++) {
-      var x = center.dy * cos(angle * i - pi / 2);
-      var y = center.dy * sin(angle * i - pi / 2);
+      final x = center.dy * cos(angle * i - pi / 2);
+      final y = center.dy * sin(angle * i - pi / 2);
 
       outline.add(Offset(x, y) + center);
       canvas.drawLine(center, outline[i], spokes);

@@ -5,7 +5,7 @@ import '../helpers/theme.dart';
 class ClassTile extends StatelessWidget {
   final String name;
   final IconData? icon;
-  final Function onTap;
+  final void Function() onTap;
 
   const ClassTile({
     required this.name,
@@ -20,7 +20,7 @@ class ClassTile extends StatelessWidget {
       child: GestureDetector(
         child: Container(
           padding: const EdgeInsets.all(10.0),
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             color: Styles.layerColor,
             borderRadius: BorderRadius.all(Radius.circular(4.0)),
           ),

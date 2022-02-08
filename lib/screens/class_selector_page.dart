@@ -7,8 +7,8 @@ import 'package:lost_ark/ui/class_selector.dart';
 
 import '../helpers/theme.dart';
 import '../managers/locale_manager.dart';
-import '../ui/material_appbar.dart';
 import '../ui/cupertino_navbar.dart';
+import '../ui/material_appbar.dart';
 
 class ClassSelectorPage extends StatefulWidget {
   static const routeName = '/class-selector';
@@ -47,14 +47,14 @@ class _ClassSelectorPageState extends State<ClassSelectorPage> {
       child: AnimatedSwitcher(
         duration: const Duration(milliseconds: 250),
         transitionBuilder: (Widget child, Animation<double> animation) =>
-            ScaleTransition(child: child, scale: animation),
+            ScaleTransition(scale: animation, child: child),
         child: _index == 0
-            ? Icon(
+            ? const Icon(
                 Icons.list,
                 color: Styles.cyanColor,
                 key: ValueKey<IconData>(Icons.save_alt),
               )
-            : Icon(
+            : const Icon(
                 Icons.view_carousel,
                 color: Styles.cyanColor,
                 key: ValueKey<IconData>(Icons.check),

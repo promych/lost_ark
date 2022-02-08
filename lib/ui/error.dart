@@ -13,7 +13,7 @@ class ErrorView extends StatelessWidget {
     return SimplePage(
       title: 'Lost Ark',
       child: Center(
-        child: Text(message, style: TextStyle(color: Styles.lightGrey)),
+        child: Text(message, style: const TextStyle(color: Styles.lightGrey)),
       ),
     );
   }

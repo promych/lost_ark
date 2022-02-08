@@ -87,6 +87,35 @@
     "video": "tNHbBENXysE"
   },
   {
+    "id": "c15",
+    "name": {
+      "en": "Paladin",
+      "ru": "Паладин"
+    },
+    "archetype": {
+      "en": "Warrior",
+      "ru": "Воин"
+    },
+    "description": {
+      "en": "Paladins have a direct line to the powers of the gods, channeling their ancient might into potent offensive and defensive moves alike: They can use holy skills and buffs with the holy book to support their team from behind, or wield a sword and bring punishing skills to bear on the frontline.",
+      "ru": ""
+    },
+    "weapon": {
+      "en": "Sword",
+      "ru": "Меч"
+    },
+    "stats": {
+      "control": 1,
+      "speed": 40,
+      "defense": 80,
+      "attack": 80,
+      "range": 40,
+      "support": 40
+    },
+    "icon": "class_paladin",
+    "video": ""
+  },
+  {
     "id": "c03",
     "name": {
       "en": "Wardancer",

@@ -6,8 +6,9 @@ import '../models/skill.dart';
 
 class SkillRepo {
   Future<List<Skill>> fetchSkills({String lang = 'en'}) async {
-    String data = await rootBundle.loadString('assets/data/skill_list.json');
-    List<Map<String, dynamic>> _skillJson = List.from(json.decode(data));
+    final data = await rootBundle.loadString('assets/data/skill_list.json');
+    final List<Map<String, dynamic>> _skillJson =
+        List.from(json.decode(data) as Iterable);
     return _skillJson.map((json) => Skill.fromJson(json, lang: lang)).toList();
   }
 }

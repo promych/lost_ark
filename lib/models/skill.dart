@@ -12,7 +12,7 @@ class Skill {
   final String iconUrl;
   final List<EnchancementTier> tripod;
 
-  Skill({
+  const Skill({
     required this.id,
     required this.name,
     required this.className,
@@ -29,17 +29,31 @@ class Skill {
     final id = json['id'];
     // icon.substring(icon.lastIndexOf('/') + 1, icon.lastIndexOf('.webp'));
 
+    final name = json['name'] as Map<String, dynamic>;
+    final classMap = json['class'] as Map<String, dynamic>;
+    final description = json['description'] as Map<String, dynamic>;
+    final tripod = json['tripod'] as List<dynamic>;
+
     return Skill(
-      id: id,
-      name: json['name'][lang],
-      className: json['class'][lang],
-      description: json['description'][lang],
-      type: json['type'],
-      cooldown: json['cooldown'],
-      unlockLevel: json['unlockLevel'] ?? 1,
+      id: id as String,
+      name: name[lang] as String,
+      className: classMap[lang] as String,
+      description: description[lang] as String,
+      type: json['type'] as String,
+      cooldown: json['cooldown'] as int,
+      unlockLevel: (json['unlockLevel'] ?? 1) as int,
       iconUrl: icon,
-      tripod: List<EnchancementTier>.from(json['tripod']
-          .map((item) => EnchancementTier.fromJson(item, id, lang: lang))),
+      tripod: List<EnchancementTier>.from(
+        tripod.map(
+          (item) {
+            return EnchancementTier.fromJson(
+              item as Map<String, dynamic>,
+              id,
+              lang: lang,
+            );
+          },
+        ),
+      ),
     );
   }
 }
@@ -49,17 +63,28 @@ class EnchancementTier {
   final int tier;
   final List<SkillEnchancement> enchancements;
 
-  EnchancementTier({
+  const EnchancementTier({
     required this.tier,
     required this.enchancements,
   });
 
-  factory EnchancementTier.fromJson(Map<String, dynamic> json, String skillId,
-      {String lang = 'en'}) {
+  factory EnchancementTier.fromJson(
+    Map<String, dynamic> json,
+    String skillId, {
+    String lang = 'en',
+  }) {
+    final skills = json['skills'] as List<dynamic>;
     return EnchancementTier(
-      tier: json['tier'],
-      enchancements: List<SkillEnchancement>.from(json['skills'].map(
-          (item) => SkillEnchancement.fromJson(item, skillId, lang: lang))),
+      tier: json['tier'] as int,
+      enchancements: List<SkillEnchancement>.from(
+        skills.map(
+          (item) => SkillEnchancement.fromJson(
+            item as Map<String, dynamic>,
+            skillId,
+            lang: lang,
+          ),
+        ),
+      ),
     );
   }
 }
@@ -71,22 +96,26 @@ class SkillEnchancement {
   final String description;
   final String iconUrl;
 
-  SkillEnchancement({
+  const SkillEnchancement({
     required this.id,
     required this.name,
     required this.description,
     required this.iconUrl,
   });
 
-  factory SkillEnchancement.fromJson(Map<String, dynamic> json, String skillId,
-      {String lang = 'en'}) {
+  factory SkillEnchancement.fromJson(
+    Map<String, dynamic> json,
+    String skillId, {
+    String lang = 'en',
+  }) {
     final icon = json['iconUrl'].toString();
     final id = icon.substring(icon.indexOf('Tier_') + 4, icon.lastIndexOf('.'));
+    final description = json['description'] as Map<String, dynamic>;
 
     return SkillEnchancement(
       id: skillId + id,
-      name: json['name'],
-      description: json['description'][lang],
+      name: json['name'] as String,
+      description: description[lang] as String,
       iconUrl: icon,
     );
   }

@@ -10,7 +10,7 @@ class SimplePage extends StatelessWidget {
   final Widget child;
   final bool showAppBar;
 
-  SimplePage({
+  const SimplePage({
     required this.title,
     required this.child,
     this.showAppBar = true,
@@ -18,7 +18,7 @@ class SimplePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Widget _title = Text(title, style: Styles.defaultText);
+    final _title = Text(title, style: Styles.defaultText);
 
     return Platform.isAndroid
         ? Scaffold(

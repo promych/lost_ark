@@ -65,60 +65,51 @@ class LostArk {
     'reddit_alien': reddit_alien,
   };
 
-  static const IconData class_arcana =
-      const IconData(0xe800, fontFamily: _kFontFam);
-  static const IconData class_bard =
-      const IconData(0xe801, fontFamily: _kFontFam);
+  static const IconData class_arcana = IconData(0xe800, fontFamily: _kFontFam);
+  static const IconData class_bard = IconData(0xe801, fontFamily: _kFontFam);
   static const IconData class_battlemaster =
-      const IconData(0xe802, fontFamily: _kFontFam);
+      IconData(0xe802, fontFamily: _kFontFam);
   static const IconData class_berserker =
-      const IconData(0xe803, fontFamily: _kFontFam);
-  static const IconData class_blaster =
-      const IconData(0xe804, fontFamily: _kFontFam);
+      IconData(0xe803, fontFamily: _kFontFam);
+  static const IconData class_blaster = IconData(0xe804, fontFamily: _kFontFam);
   static const IconData class_destroyer =
-      const IconData(0xe805, fontFamily: _kFontFam);
+      IconData(0xe805, fontFamily: _kFontFam);
   static const IconData class_devilhunter =
-      const IconData(0xe806, fontFamily: _kFontFam);
-  static const IconData class_fighter =
-      const IconData(0xe807, fontFamily: _kFontFam);
-  static const IconData class_hawkeye =
-      const IconData(0xe808, fontFamily: _kFontFam);
-  static const IconData class_hunter =
-      const IconData(0xe809, fontFamily: _kFontFam);
+      IconData(0xe806, fontFamily: _kFontFam);
+  static const IconData class_fighter = IconData(0xe807, fontFamily: _kFontFam);
+  static const IconData class_hawkeye = IconData(0xe808, fontFamily: _kFontFam);
+  static const IconData class_hunter = IconData(0xe809, fontFamily: _kFontFam);
   static const IconData class_infighter =
-      const IconData(0xe80a, fontFamily: _kFontFam);
+      IconData(0xe80a, fontFamily: _kFontFam);
   static const IconData class_magician =
-      const IconData(0xe80b, fontFamily: _kFontFam);
+      IconData(0xe80b, fontFamily: _kFontFam);
   static const IconData class_soulmaster =
-      const IconData(0xe80c, fontFamily: _kFontFam);
+      IconData(0xe80c, fontFamily: _kFontFam);
   static const IconData class_summoner =
-      const IconData(0xe80d, fontFamily: _kFontFam);
-  static const IconData class_warlord =
-      const IconData(0xe80e, fontFamily: _kFontFam);
-  static const IconData class_warrior =
-      const IconData(0xe80f, fontFamily: _kFontFam);
+      IconData(0xe80d, fontFamily: _kFontFam);
+  static const IconData class_warlord = IconData(0xe80e, fontFamily: _kFontFam);
+  static const IconData class_warrior = IconData(0xe80f, fontFamily: _kFontFam);
   static const IconData class_lancemaster =
-      const IconData(0xf113, fontFamily: _kFontFam);
-  static const IconData class_blade = const IconData(0xf10d, fontFamily: _kFontFam);
-  static const IconData class_demonic = const IconData(0xf10f, fontFamily: _kFontFam);
-  static const IconData class_gunslinger = const IconData(0xf282, fontFamily: _kFontFam);
-  static const IconData class_paladin = const IconData(0xf283, fontFamily: _kFontFam);
-  static const IconData class_sorceress = const IconData(0xf284, fontFamily: _kFontFam);
-  static const IconData class_striker = const IconData(0xf285, fontFamily: _kFontFam);
-  static const IconData logo = const IconData(0xe810, fontFamily: _kFontFam);
-  static const IconData down = const IconData(0xe812, fontFamily: _kFontFam);
+      IconData(0xf113, fontFamily: _kFontFam);
+  static const IconData class_blade = IconData(0xf10d, fontFamily: _kFontFam);
+  static const IconData class_demonic = IconData(0xf10f, fontFamily: _kFontFam);
+  static const IconData class_gunslinger =
+      IconData(0xf282, fontFamily: _kFontFam);
+  static const IconData class_paladin = IconData(0xf283, fontFamily: _kFontFam);
+  static const IconData class_sorceress =
+      IconData(0xf284, fontFamily: _kFontFam);
+  static const IconData class_striker = IconData(0xf285, fontFamily: _kFontFam);
+  static const IconData logo = IconData(0xe810, fontFamily: _kFontFam);
+  static const IconData down = IconData(0xe812, fontFamily: _kFontFam);
   static const IconData social_youtube =
-      const IconData(0xe816, fontFamily: _kFontFam);
-  static const IconData up = const IconData(0xe817, fontFamily: _kFontFam);
-  static const IconData hourglass =
-      const IconData(0xe819, fontFamily: _kFontFam);
-  static const IconData download =
-      const IconData(0xe81a, fontFamily: _kFontFam);
-  static const IconData upload = const IconData(0xe81b, fontFamily: _kFontFam);
-  static const IconData comment = const IconData(0xe81c, fontFamily: _kFontFam);
-  static const IconData cog_alt = const IconData(0xe81d, fontFamily: _kFontFam);
+      IconData(0xe816, fontFamily: _kFontFam);
+  static const IconData up = IconData(0xe817, fontFamily: _kFontFam);
+  static const IconData hourglass = IconData(0xe819, fontFamily: _kFontFam);
+  static const IconData download = IconData(0xe81a, fontFamily: _kFontFam);
+  static const IconData upload = IconData(0xe81b, fontFamily: _kFontFam);
+  static const IconData comment = IconData(0xe81c, fontFamily: _kFontFam);
+  static const IconData cog_alt = IconData(0xe81d, fontFamily: _kFontFam);
   static const IconData reddit_squared =
-      const IconData(0xf1a2, fontFamily: _kFontFam);
-  static const IconData reddit_alien =
-      const IconData(0xf281, fontFamily: _kFontFam);
+      IconData(0xf1a2, fontFamily: _kFontFam);
+  static const IconData reddit_alien = IconData(0xf281, fontFamily: _kFontFam);
 }

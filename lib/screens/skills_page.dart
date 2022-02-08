@@ -66,7 +66,6 @@ class _SkillsPageBody extends StatelessWidget {
           : CustomScrollView(
               slivers: [
                 SliverPersistentHeader(
-                  pinned: false,
                   delegate: SliverAppBarDelegate(
                     minHeight: 80.0,
                     maxHeight: 80.0,
@@ -86,7 +85,7 @@ class _SkillsPageBody extends StatelessWidget {
                       Column(
                         children: [
                           SkillTile(skill: skill),
-                          Divider(color: Styles.layerColor),
+                          const Divider(color: Styles.layerColor),
                         ],
                       ),
                   ]),
@@ -102,7 +101,7 @@ class _SaveBuildButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final build = Provider.of<BuildManager>(context);
     final selectedClass = Provider.of<AppManager>(context).selectedClass;
-    final selectedClassId = selectedClass != null ? selectedClass.id : null;
+    final selectedClassId = selectedClass?.id;
 
     if (selectedClassId == null || build.pointsByClass(selectedClassId) == 0)
       return const SizedBox.shrink();
@@ -111,14 +110,14 @@ class _SaveBuildButton extends StatelessWidget {
       child: AnimatedSwitcher(
         duration: const Duration(milliseconds: 250),
         transitionBuilder: (Widget child, Animation<double> animation) =>
-            ScaleTransition(child: child, scale: animation),
+            ScaleTransition(scale: animation, child: child),
         child: build.readyToSave
-            ? Icon(
+            ? const Icon(
                 LostArk.download,
                 color: Styles.cyanColor,
                 key: ValueKey<IconData>(LostArk.download),
               )
-            : Icon(
+            : const Icon(
                 Icons.check,
                 color: Styles.cyanColor,
                 key: ValueKey<IconData>(Icons.check),

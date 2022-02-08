@@ -53,7 +53,7 @@ class TripodPage extends StatelessWidget {
 class _TripodPageBody extends StatelessWidget {
   final Skill skill;
 
-  _TripodPageBody({required this.skill});
+  const _TripodPageBody({required this.skill});
 
   @override
   Widget build(BuildContext context) {
@@ -81,19 +81,25 @@ class _TripodPageBody extends StatelessWidget {
                     ),
                   ),
                 ),
-                Icon(LostArk.hourglass),
-                Row(mainAxisSize: MainAxisSize.min, children: [
-                  Text(
-                    '${skill.cooldown}',
-                    style: Styles.defaultText20,
-                  ),
-                ]),
+                const Icon(LostArk.hourglass),
+                Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(
+                      '${skill.cooldown}',
+                      style: Styles.defaultText20,
+                    ),
+                  ],
+                ),
               ],
             ),
-            Divider(color: Styles.layerColor),
+            const Divider(color: Styles.layerColor),
             Text(
-              '${skill.description}',
-              style: TextStyle(fontSize: 16.0, color: Styles.defaultWhite),
+              skill.description,
+              style: const TextStyle(
+                fontSize: 16.0,
+                color: Styles.defaultWhite,
+              ),
             ),
             for (var i = 0; i < 3; ++i)
               _TierRow(
@@ -141,7 +147,7 @@ class _TierRow extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 10.0),
       child: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           color: Styles.layerColor,
           borderRadius: BorderRadius.all(Radius.circular(4.0)),
         ),
@@ -171,7 +177,8 @@ class _TierRow extends StatelessWidget {
                         : AutoSizeText(
                             tier.enchancements
                                 .singleWhere(
-                                    (item) => item.id == selectedEnchancementId)
+                                  (item) => item.id == selectedEnchancementId,
+                                )
                                 .description,
                             maxFontSize: 16.0,
                             style: Styles.defaultText,
@@ -180,53 +187,53 @@ class _TierRow extends StatelessWidget {
                 ),
                 Container(
                   padding: const EdgeInsets.only(
-                      left: 2.0, right: 2.0, bottom: 10.0),
+                    left: 2.0,
+                    right: 2.0,
+                    bottom: 10.0,
+                  ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       for (final enchancement in tier.enchancements)
                         Expanded(
-                          child: Container(
-                            child: Column(
-                              children: [
-                                GestureDetector(
+                          child: Column(
+                            children: [
+                              GestureDetector(
+                                child: CircleAvatar(
+                                  backgroundColor:
+                                      selectedEnchancementId == enchancement.id
+                                          ? _selectColor(tier.tier)
+                                          : Colors.transparent,
+                                  radius: iconScale + 2,
                                   child: CircleAvatar(
-                                    backgroundColor: selectedEnchancementId ==
-                                            enchancement.id
-                                        ? _selectColor(tier.tier)
-                                        : Colors.transparent,
-                                    radius: iconScale + 2,
-                                    child: CircleAvatar(
-                                      radius: iconScale,
-                                      backgroundColor:
-                                          Styles.scaffoldBackgroundColor,
-                                      child: Opacity(
-                                        opacity: selectedEnchancementId == ''
-                                            ? 0.6
-                                            : 1.0,
-                                        child:
-                                            Image.asset(enchancement.iconUrl),
-                                      ),
+                                    radius: iconScale,
+                                    backgroundColor:
+                                        Styles.scaffoldBackgroundColor,
+                                    child: Opacity(
+                                      opacity: selectedEnchancementId == ''
+                                          ? 0.6
+                                          : 1.0,
+                                      child: Image.asset(enchancement.iconUrl),
                                     ),
                                   ),
-                                  onTap: () =>
-                                      build.addToBuild(enchancement.id),
                                 ),
-                                SizedBox(height: 10.0),
-                                Padding(
-                                  padding: const EdgeInsets.symmetric(
-                                      horizontal: 2.0),
-                                  child: Text(
-                                    enchancement.name,
-                                    style: TextStyle(
-                                        fontSize: 14.0,
-                                        color: Styles.lightGrey),
-                                    textAlign: TextAlign.center,
+                                onTap: () => build.addToBuild(enchancement.id),
+                              ),
+                              const SizedBox(height: 10.0),
+                              Padding(
+                                padding:
+                                    const EdgeInsets.symmetric(horizontal: 2.0),
+                                child: Text(
+                                  enchancement.name,
+                                  style: const TextStyle(
+                                    fontSize: 14.0,
+                                    color: Styles.lightGrey,
                                   ),
-                                )
-                              ],
-                            ),
+                                  textAlign: TextAlign.center,
+                                ),
+                              )
+                            ],
                           ),
                         )
                     ],

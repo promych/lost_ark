@@ -20,8 +20,8 @@ class BuildItem {
 
   factory BuildItem.fromMap(Map<String, dynamic> json) {
     return BuildItem(
-      skillId: json['id'],
-      enchancements: List.from(json['enchancements']),
+      skillId: json['id'] as String,
+      enchancements: List.from(json['enchancements'] as Iterable<String>),
     );
   }
 }
